@@ -8,6 +8,7 @@ import "./styles/base.css";
 import "./styles/layout.css";
 import "./styles/map.css";
 import "./styles/panel.css";
+import "./styles/print.css";
 import {
   countByCountry,
   searchFamilies,

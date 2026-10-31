@@ -105,10 +105,12 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
 - [x] **T-047** Clareza de confiança e cobertura: explicar os quatro níveis de `status` a partir do badge, ponto de status nas listas, e rótulo honesto no ranking da home ("no catálogo até agora") (RF-06, RF-07, objetivo 3)
   - Testes: listas mostram o status de cada jogo; a explicação cobre os quatro níveis
   - Desvio: a explicação é um `<details>` nativo ("O que significa?") sob o badge, com o texto da tabela de `status` do `content/AGENTS.md`. O ponto de status muda de forma além da cor (cheio, meio, anel, anel pontilhado) e tem texto para leitor de tela. O título do ranking virou "Países com mais jogos no catálogo até agora"
-- [ ] **T-048** Enquadramento do mapa no desktop: hoje o mundo ocupa cerca de 60% da altura da caixa em 1440×900; ajustar à altura disponível ou cortar latitudes polares, conferindo junto com o zoom do T-042
+- [x] **T-048** Enquadramento do mapa no desktop: hoje o mundo ocupa cerca de 60% da altura da caixa em 1440×900; ajustar à altura disponível ou cortar latitudes polares, conferindo junto com o zoom do T-042
   - Testes: cálculo do enquadramento em `map/model.ts`
-- [ ] **T-049** Estilo de impressão da ficha do jogo (RF-19): `@media print` só com a ficha e as referências por extenso
+  - Desvio: fechada sem mudança no código. Medido no Chrome: em 1440×900 a caixa tem 907×818 e o mundo ocupa 878×382 (97% da largura, 47% da altura); em 1920×1080, 917×399 numa caixa de 946×998. O limite é a proporção (caixa ~1,1:1, mundo ~2,3:1): encaixar pela terra ou cortar os polos ganharia ~3%. Cortar as pontas do Pacífico ou mudar a caixa para 2:1 foram descartados; o zoom ao abrir país ou jogo já preenche a caixa
+- [x] **T-049** Estilo de impressão da ficha do jogo (RF-19): `@media print` só com a ficha e as referências por extenso
   - Aceite: conferido na prévia de impressão do navegador, nos dois temas
+  - Desvio: `src/styles/print.css` (importado por último) + bloco `@media print` no `tokens.css` que força a paleta clara. Imprime o cabeçalho pequeno, a ficha e as referências com a URL; esconde mapa, ferramentas, voltar e a explicação de status. Conferido em PDF A4 gerado pelo Chrome a partir do Oware, nos temas claro e escuro (saem iguais, uma página)
 
 ## Fase 5 — Conteúdo e extras (M4)
 

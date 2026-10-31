@@ -1,0 +1,69 @@
+@media print {
+  /* Only the panel goes to paper: a game sheet a teacher can hand out */
+  .tools,
+  .mapbox,
+  .handle,
+  .back,
+  .status-help {
+    display: none;
+  }
+
+  html,
+  body,
+  .wrap {
+    height: auto;
+  }
+
+  body {
+    font-size: 11pt;
+  }
+
+  .wrap,
+  main {
+    display: block;
+    max-width: none;
+    padding: 0;
+  }
+
+  header {
+    display: block;
+    padding: 0 0 8pt;
+    border-bottom: 1px solid var(--line);
+  }
+
+  h1 {
+    font-size: 11pt;
+    color: var(--muted);
+  }
+
+  /* Beats the phone bottom sheet too: print pages are narrower than 860px */
+  aside,
+  aside.expanded {
+    position: static;
+    height: auto;
+    overflow: visible;
+    padding: 12pt 0 0;
+    border: 0;
+    box-shadow: none;
+  }
+
+  #panel > * {
+    animation: none;
+  }
+
+  .prose a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    color: var(--muted);
+    overflow-wrap: anywhere;
+  }
+
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+
+  li,
+  dl {
+    break-inside: avoid;
+  }
+}
