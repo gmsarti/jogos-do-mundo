@@ -1,32 +1,36 @@
+# Fallback for shells without Node on PATH (macOS Homebrew); appended so version managers like fnm win
+NODE_ENV = PATH="$$PATH:/opt/homebrew/bin"
+NPX = $(NODE_ENV) npx
+
 .PHONY: install dev data test test-watch format check build preview
 
 install:
-	npm ci
+	$(NODE_ENV) npm ci
 
 # TODO(T-021): generate src/generated/catalog.json from content/
 data:
 	@echo "data: nothing to generate yet (T-021)"
 
 dev: data
-	npx vite
+	$(NPX) vite
 
 test:
-	npx vitest run
+	$(NPX) vitest run
 
 test-watch:
-	npx vitest
+	$(NPX) vitest
 
 format:
-	npx biome check --write .
+	$(NPX) biome check --write .
 
 check: data
-	npx biome check .
-	npx tsc --noEmit
-	npx vitest run
+	$(NPX) biome check .
+	$(NPX) tsc --noEmit
+	$(NPX) vitest run
 
 build: data
-	npx tsc --noEmit
-	npx vite build
+	$(NPX) tsc --noEmit
+	$(NPX) vite build
 
 preview:
-	npx vite preview
+	$(NPX) vite preview
