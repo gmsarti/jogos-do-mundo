@@ -3,7 +3,10 @@ import { buildCatalog } from "../../scripts/build-data.ts";
 import {
   countryClass,
   dotClass,
+  focusIsos,
+  focusTransform,
   isoByNum,
+  isTabStop,
   SMALL_COUNTRIES,
   tooltipText,
   visibleDots,
@@ -65,5 +68,81 @@ describe("SMALL_COUNTRIES", () => {
     expect(SMALL_COUNTRIES.filter((iso) => !(iso in real.countries))).toEqual(
       [],
     );
+  });
+});
+
+describe("focusTransform", () => {
+  const box = { w: 800, h: 400 };
+
+  test("returns the identity when there is nothing to focus", () => {
+    expect(focusTransform(null, box.w, box.h)).toEqual({ k: 1, x: 0, y: 0 });
+  });
+
+  test("centers the bounds in the box", () => {
+    const { k, x, y } = focusTransform(
+      [
+        [300, 100],
+        [500, 200],
+      ],
+      box.w,
+      box.h,
+    );
+    expect(k).toBeGreaterThan(1);
+    expect(k * 400 + x).toBeCloseTo(400);
+    expect(k * 150 + y).toBeCloseTo(200);
+  });
+
+  test("caps the scale for tiny bounds", () => {
+    const { k } = focusTransform(
+      [
+        [400, 200],
+        [401, 201],
+      ],
+      box.w,
+      box.h,
+    );
+    expect(k).toBeLessThanOrEqual(8);
+  });
+
+  test("never zooms out below the whole world", () => {
+    const { k } = focusTransform(
+      [
+        [0, 0],
+        [800, 400],
+      ],
+      box.w,
+      box.h,
+    );
+    expect(k).toBe(1);
+  });
+});
+
+describe("focusIsos", () => {
+  test("focuses the countries of the open game", () => {
+    expect(focusIsos(catalog.games, "a", "GH")).toEqual(["GH", "NG"]);
+  });
+
+  test("focuses the open country when no game is open", () => {
+    expect(focusIsos(catalog.games, null, "NG")).toEqual(["NG"]);
+  });
+
+  test("focuses nothing on the home", () => {
+    expect(focusIsos(catalog.games, null, null)).toEqual([]);
+  });
+});
+
+describe("isTabStop", () => {
+  test("a country with games is reachable by its shape", () => {
+    expect(isTabStop("shape", "GH", 2)).toBe(true);
+  });
+
+  test("a country without games is not reachable", () => {
+    expect(isTabStop("shape", "GH", 0)).toBe(false);
+    expect(isTabStop("dot", "MV", 0)).toBe(false);
+  });
+
+  test("a small country is reachable by its dot, not by its tiny shape", () => {
+    expect(isTabStop("dot", "MV", 1)).toBe(true);
+    expect(isTabStop("shape", "MV", 1)).toBe(false);
   });
 });

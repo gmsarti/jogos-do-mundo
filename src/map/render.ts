@@ -1,5 +1,5 @@
 import { geoNaturalEarth1, geoPath } from "d3-geo";
-import { select } from "d3-selection";
+import { type Selection, select } from "d3-selection";
 import "d3-transition";
 import { zoom, zoomIdentity } from "d3-zoom";
 import type { Feature, Geometry } from "geojson";
@@ -9,7 +9,9 @@ import type { Countries } from "../types.ts";
 import {
   countryClass,
   dotClass,
+  focusTransform,
   isoByNum,
+  isTabStop,
   SMALL_COUNTRIES,
   tooltipText,
   visibleDots,
@@ -24,6 +26,8 @@ export type GeoTopology = Topology<{ countries: GeometryCollection }>;
 export interface MapView {
   /** Applies counts per country and the selected country to the SVG. */
   paint(counts: Record<string, number>, selected: string | null): void;
+  /** Zooms to the given countries, or back to the whole world when empty. */
+  focus(isos: string[]): void;
 }
 
 type CountryFeature = Feature<Geometry>;
@@ -92,7 +96,7 @@ export function createMap(
       .style("opacity", 1);
   }
 
-  function pick(_event: MouseEvent, d: CountryFeature): void {
+  function pick(_event: Event, d: CountryFeature): void {
     const iso = isoOf(d);
     if (iso && counts[iso]) onSelect(iso);
   }
@@ -101,7 +105,12 @@ export function createMap(
     .selectAll<SVGElement, CountryFeature>(".country, .dot")
     .on("mousemove", showTip)
     .on("mouseleave", () => tip.style("opacity", 0))
-    .on("click", pick);
+    .on("click", pick)
+    .on("keydown", (event: KeyboardEvent, d) => {
+      if (event.key !== "Enter" && event.key !== " ") return;
+      event.preventDefault();
+      pick(event, d);
+    });
 
   const behavior = zoom<SVGSVGElement, unknown>()
     .scaleExtent([1, 12])
@@ -120,16 +129,67 @@ export function createMap(
     svg.transition().call(behavior.transform, zoomIdentity),
   );
 
+  function focus(isos: string[]): void {
+    const wanted = shapes.filter((d) => isos.includes(isoOf(d))).data();
+    let bounds: [[number, number], [number, number]] | null = null;
+    for (const d of wanted) {
+      const [[x0, y0], [x1, y1]] = path.bounds(d);
+      bounds = bounds
+        ? [
+            [Math.min(bounds[0][0], x0), Math.min(bounds[0][1], y0)],
+            [Math.max(bounds[1][0], x1), Math.max(bounds[1][1], y1)],
+          ]
+        : [
+            [x0, y0],
+            [x1, y1],
+          ];
+    }
+    const { k, x, y } = focusTransform(
+      bounds,
+      box.clientWidth,
+      box.clientHeight,
+    );
+    const target = zoomIdentity.translate(x, y).scale(k);
+    const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    svg
+      .transition()
+      .duration(still ? 0 : 600)
+      .call(behavior.transform, target);
+  }
+
   new ResizeObserver(resize).observe(box);
   resize();
 
+  // Countries with games become keyboard buttons named like the tooltip
+  function reachable<E extends SVGElement, D extends CountryFeature>(
+    selection: Selection<E, D, SVGGElement, unknown>,
+    kind: "shape" | "dot",
+  ): void {
+    const stop = (d: CountryFeature) =>
+      isTabStop(kind, isoOf(d), counts[isoOf(d)] ?? 0);
+    selection
+      .attr("tabindex", (d) => (stop(d) ? 0 : null))
+      .attr("role", (d) => (stop(d) ? "button" : null))
+      .attr("aria-label", (d) =>
+        stop(d)
+          ? tooltipText(
+              countries[isoOf(d)]?.pt ?? isoOf(d),
+              counts[isoOf(d)] ?? 0,
+            )
+          : null,
+      );
+  }
+
   return {
+    focus,
     paint(next, selected) {
       counts = next;
       shapes.attr("class", (d) => {
         const iso = isoOf(d);
         return countryClass(counts[iso] ?? 0, iso !== "" && iso === selected);
       });
+      reachable(shapes, "shape");
+      reachable(dots, "dot");
       const shown = visibleDots(SMALL_COUNTRIES, counts);
       dots
         .style("display", (d) => (shown.has(isoOf(d)) ? null : "none"))

@@ -7,6 +7,7 @@
       "!dist",
       "!src/generated",
       "!node_modules",
+      "!.playwright-mcp",
       "!Atlas de jogos de tabuleiro tradicionais.html"
     ]
   },

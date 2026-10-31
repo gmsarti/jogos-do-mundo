@@ -33,3 +33,16 @@ export function topCountries(games: Game[], limit: number): [string, number][] {
     .sort(([isoA, a], [isoB, b]) => b - a || isoA.localeCompare(isoB))
     .slice(0, limit);
 }
+
+function fold(text: string): string {
+  return text.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
+}
+
+/** Games whose title or local names contain the query, ignoring accents and case. */
+export function searchGames(games: Game[], query: string): Game[] {
+  const needle = fold(query.trim());
+  if (!needle) return [];
+  return games.filter((g) =>
+    [g.title, ...g.names].some((name) => fold(name).includes(needle)),
+  );
+}

@@ -7,7 +7,7 @@ import "./styles/base.css";
 import "./styles/layout.css";
 import "./styles/map.css";
 import "./styles/panel.css";
-import { countByCountry, visibleGames } from "./lib/selectors.ts";
+import { countByCountry, searchGames, visibleGames } from "./lib/selectors.ts";
 import {
   nextTheme,
   parseTheme,
@@ -16,11 +16,13 @@ import {
   themeIcon,
   themeLabel,
 } from "./lib/theme.ts";
+import { focusIsos } from "./map/model.ts";
 import { createMap, type GeoTopology } from "./map/render.ts";
 import { chipsView } from "./panel/chips.ts";
 import { countryView } from "./panel/country-view.ts";
 import { gameView } from "./panel/game-view.ts";
 import { homeView } from "./panel/home-view.ts";
+import { searchView } from "./panel/search-view.ts";
 import {
   normalizeState,
   parseHash,
@@ -82,11 +84,21 @@ async function boot(): Promise<void> {
     go({ ...state, country: iso, game: null }),
   );
 
+  let focused = "";
+  const search = element("search") as HTMLInputElement;
+
   function render(): void {
+    search.value = "";
     const { fam, country, game } = state;
     const found = catalog.games.find((g) => g.id === game);
     chips.innerHTML = chipsView(catalog, fam);
     map.paint(countByCountry(visibleGames(catalog.games, fam)), country);
+    // Zoom only when the target changes, so picking a chip keeps the user's own zoom
+    const isos = focusIsos(catalog.games, game, country);
+    if (isos.join() !== focused) {
+      focused = isos.join();
+      map.focus(isos);
+    }
     if (found) panel.innerHTML = gameView(catalog, found, country);
     else if (country) panel.innerHTML = countryView(catalog, fam, country);
     else panel.innerHTML = homeView(catalog, fam);
@@ -103,6 +115,16 @@ async function boot(): Promise<void> {
   addEventListener("hashchange", () => {
     state = parseHash(location.hash, catalog);
     render();
+  });
+
+  search.addEventListener("input", () => {
+    if (!search.value.trim()) return render();
+    const results = searchGames(
+      visibleGames(catalog.games, state.fam),
+      search.value,
+    );
+    panel.innerHTML = searchView(catalog, results);
+    panel.scrollTop = 0;
   });
 
   chips.addEventListener("click", (event) => {
