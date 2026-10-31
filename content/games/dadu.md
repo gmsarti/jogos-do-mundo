@@ -5,26 +5,29 @@ names:
   - dadu · und
 fam:
   - desconhecida
-countries: []
+countries:
+  - IN
 cultures:
-  - a verificar
+  - Dawoodi Bohra (a verificar)
 board: desconhecido
 pieces: desconhecido
 players: desconhecido
-period: a verificar
+period: documentado desde o início do séc. XX (a verificar)
 status: unknown
 living: desconhecido
 sens: desconhecido
 ev:
   kind: unknown
-  date: ""
+  date: início do séc. XX (tabuleiros e memória da comunidade)
   ref: BGSJ 18
 recon: []
-summary: Jogo do Sul da Ásia tratado como "enigma ludêmico" num artigo do BGSJ 18 (2024). Só nominal nesta rodada.
+summary: Jogo jogado só dentro da comunidade muçulmana Dawoodi Bohra, no Sul da Ásia, tratado como "enigma ludêmico" no BGSJ 18 (2024). País atribuído à Índia (a verificar); só nominal nesta rodada.
 refs:
   - title: BGSJ 18 (2024)
     url: https://reference-global.com/issue/BGS/18/1
-place: ""
+  - title: "Schmidt-Madsen, Discovering Dadu: A Ludemic Enigma from South Asia (BGSJ 18, 2024)"
+    url: https://reference-global.com/article/10.2478/bgs-2024-0004
+place: Gujarat e Maharashtra (a verificar)
 ---
 
 
