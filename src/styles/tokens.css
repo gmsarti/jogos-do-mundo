@@ -9,6 +9,7 @@
   --h1: #a9c1df;
   --h2: #5f88c2;
   --h3: #24447a;
+  --link: #3a64a0;
   --sel: #b8402c;
   --chip: #e3e8ec;
   --st-documented: #2e7d4f;
@@ -35,6 +36,7 @@
     --h1: #2d4a73;
     --h2: #4c78b5;
     --h3: #9bbdeb;
+    --link: #7fa6dc;
     --sel: #e2694f;
     --chip: #212a33;
     --st-documented: #6fcb93;
@@ -57,6 +59,7 @@
   --h1: #2d4a73;
   --h2: #4c78b5;
   --h3: #9bbdeb;
+  --link: #7fa6dc;
   --sel: #e2694f;
   --chip: #212a33;
   --st-documented: #6fcb93;

@@ -15,6 +15,7 @@ const colorTokens = [
   "h1",
   "h2",
   "h3",
+  "link",
   "sel",
   "chip",
   "st-documented",

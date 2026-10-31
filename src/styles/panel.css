@@ -15,7 +15,8 @@ aside {
     right: 0;
     bottom: 0;
     z-index: 1;
-    max-height: 45dvh;
+    /* Fixed height: the sheet is empty until the catalog loads and must not grow (layout shift) */
+    height: 45dvh;
     padding-bottom: calc(1.1rem + env(safe-area-inset-bottom, 0px));
     border-width: 1px 0 0;
     border-radius: 14px 14px 0 0;
@@ -132,7 +133,7 @@ dd {
   padding: 0;
   background: none;
   border: none;
-  color: var(--h2);
+  color: var(--link);
   font: inherit;
   cursor: pointer;
 }
