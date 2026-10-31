@@ -55,8 +55,8 @@ Este arquivo é o índice global do projeto — contém só o que vale para **to
 - [`TASKS.md`](TASKS.md) — backlog e andamento; atualize o status da tarefa no mesmo PR que a conclui
 - [`commit-rules.md`](commit-rules.md) — regras de commit, branch, push e PR
 - [`README.md`](README.md) — visão geral e comandos básicos do projeto
-- `src/AGENTS.md` — arquitetura do app, módulos e padrões de UI _(criado junto com o scaffold)_
-- `content/AGENTS.md` — schema completo de um jogo e guia de curadoria _(criado junto com a extração dos dados)_
+- `src/AGENTS.md` — arquitetura do app, módulos e padrões de UI
+- `content/AGENTS.md` — schema completo de um jogo e guia de curadoria
 
 ## Arquitetura em Uma Linha
 
@@ -69,9 +69,10 @@ Conteúdo em Markdown (`content/`) → `scripts/build-data.ts` valida e gera JSO
 | `index.html` | Shell mínimo da página (header, mapa, painel) |
 | `src/main.ts` | Bootstrap: carrega catálogo e geo, inicia mapa, painel e rotas |
 | `src/state.ts` | Estado único + rotas por hash (`#/pais/GH`, `#/jogo/achi`, `?fam=`) |
-| `src/map/` | Render do mapa (`d3-geo`), zoom (`d3-zoom`), tooltip, pontos de países pequenos |
+| `src/map/` | Render do mapa (`d3-geo`), zoom (`d3-zoom`), tooltip, pontos de países pequenos; `model.ts` guarda a lógica pura |
 | `src/panel/` | Views do painel: home, país, jogo |
 | `src/lib/md.ts` | Mini-Markdown seguro (negrito, itálico, listas) para os textos dos jogos |
+| `src/lib/selectors.ts` | Seletores puros: filtro por família, jogos por país, contagens, faixa de cor, ranking |
 | `src/types.ts` | Tipos `Game`, `Family`, `Country` — espelham o schema de `content/` |
 | `src/styles/` | `tokens.css` (cores e tipografia, light/dark) e `base.css` |
 | `src/generated/` | **Gerado** por `make data` — nunca edite, está no `.gitignore` |
@@ -79,6 +80,8 @@ Conteúdo em Markdown (`content/`) → `scripts/build-data.ts` valida e gera JSO
 | `content/families.json` | Famílias de jogos: id → rótulo em pt-BR |
 | `content/countries.json` | Países: ISO-2 → `{ pt, num }` (nome e código numérico do TopoJSON) |
 | `scripts/build-data.ts` | Lê `content/`, valida com `zod`, gera `src/generated/catalog.json` |
+| `scripts/schema.ts` | Schemas zod de jogo, famílias e países |
+| `scripts/once/` | Scripts de uso único (extração do protótipo, geração do geo) |
 | `public/geo/` | TopoJSON dos países |
 | `tests/` | Testes Vitest, espelhando `src/` e `scripts/`; `tests/fixtures/` com dados de teste |
 | `.github/workflows/deploy.yml` | CI: `make check` + `make build` + deploy no Pages |
@@ -109,7 +112,7 @@ O projeto segue **TDD**. Ordem obrigatória:
 ## Como Adicionar ou Editar um Jogo
 
 1. Crie ou edite `content/games/<id>.md`. O `id` é kebab-case e igual ao nome do arquivo
-2. Frontmatter: `title, names, fam, countries, cultures, board, pieces, players, period, status, living, sens, ev, recon, refs, place, summary` (detalhes e exemplos em `content/AGENTS.md`)
+2. Frontmatter: `id, title, names, fam, countries, cultures, board, pieces, players, period, status, living, sens, ev, recon, refs, place, summary` (detalhes e exemplos em `content/AGENTS.md`)
 3. Corpo: seções `## História` e `## Regras`, em Markdown simples (negrito, itálico, listas)
 4. Rode `make data` (valida e gera o catálogo) e depois `make check`
 5. Commit de conteúdo separado de commit de código

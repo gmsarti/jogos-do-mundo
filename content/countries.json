@@ -1,0 +1,318 @@
+{
+  "AG": {
+    "pt": "Antígua e Barbuda",
+    "num": "028"
+  },
+  "AO": {
+    "pt": "Angola",
+    "num": "024"
+  },
+  "AR": {
+    "pt": "Argentina",
+    "num": "032"
+  },
+  "AT": {
+    "pt": "Áustria",
+    "num": "040"
+  },
+  "BB": {
+    "pt": "Barbados",
+    "num": "052"
+  },
+  "BD": {
+    "pt": "Bangladesh",
+    "num": "050"
+  },
+  "BI": {
+    "pt": "Burundi",
+    "num": "108"
+  },
+  "BJ": {
+    "pt": "Benin",
+    "num": "204"
+  },
+  "BO": {
+    "pt": "Bolívia",
+    "num": "068"
+  },
+  "BR": {
+    "pt": "Brasil",
+    "num": "076"
+  },
+  "BZ": {
+    "pt": "Belize",
+    "num": "084"
+  },
+  "CI": {
+    "pt": "Costa do Marfim",
+    "num": "384"
+  },
+  "CL": {
+    "pt": "Chile",
+    "num": "152"
+  },
+  "CN": {
+    "pt": "China",
+    "num": "156"
+  },
+  "CU": {
+    "pt": "Cuba",
+    "num": "192"
+  },
+  "CV": {
+    "pt": "Cabo Verde",
+    "num": "132"
+  },
+  "CY": {
+    "pt": "Chipre",
+    "num": "196"
+  },
+  "DE": {
+    "pt": "Alemanha",
+    "num": "276"
+  },
+  "DK": {
+    "pt": "Dinamarca",
+    "num": "208"
+  },
+  "DO": {
+    "pt": "República Dominicana",
+    "num": "214"
+  },
+  "EC": {
+    "pt": "Equador",
+    "num": "218"
+  },
+  "EG": {
+    "pt": "Egito",
+    "num": "818"
+  },
+  "ES": {
+    "pt": "Espanha",
+    "num": "724"
+  },
+  "FI": {
+    "pt": "Finlândia",
+    "num": "246"
+  },
+  "FR": {
+    "pt": "França",
+    "num": "250"
+  },
+  "GB": {
+    "pt": "Reino Unido",
+    "num": "826"
+  },
+  "GH": {
+    "pt": "Gana",
+    "num": "288"
+  },
+  "GM": {
+    "pt": "Gâmbia",
+    "num": "270"
+  },
+  "GT": {
+    "pt": "Guatemala",
+    "num": "320"
+  },
+  "HT": {
+    "pt": "Haiti",
+    "num": "332"
+  },
+  "IE": {
+    "pt": "Irlanda",
+    "num": "372"
+  },
+  "IL": {
+    "pt": "Israel",
+    "num": "376"
+  },
+  "IN": {
+    "pt": "Índia",
+    "num": "356"
+  },
+  "IQ": {
+    "pt": "Iraque",
+    "num": "368"
+  },
+  "IR": {
+    "pt": "Irã",
+    "num": "364"
+  },
+  "IS": {
+    "pt": "Islândia",
+    "num": "352"
+  },
+  "IT": {
+    "pt": "Itália",
+    "num": "380"
+  },
+  "JP": {
+    "pt": "Japão",
+    "num": "392"
+  },
+  "KE": {
+    "pt": "Quênia",
+    "num": "404"
+  },
+  "KG": {
+    "pt": "Quirguistão",
+    "num": "417"
+  },
+  "KH": {
+    "pt": "Camboja",
+    "num": "116"
+  },
+  "KP": {
+    "pt": "Coreia do Norte",
+    "num": "408"
+  },
+  "KR": {
+    "pt": "Coreia do Sul",
+    "num": "410"
+  },
+  "KZ": {
+    "pt": "Cazaquistão",
+    "num": "398"
+  },
+  "LK": {
+    "pt": "Sri Lanka",
+    "num": "144"
+  },
+  "LS": {
+    "pt": "Lesoto",
+    "num": "426"
+  },
+  "MG": {
+    "pt": "Madagascar",
+    "num": "450"
+  },
+  "ML": {
+    "pt": "Mali",
+    "num": "466"
+  },
+  "MM": {
+    "pt": "Mianmar",
+    "num": "104"
+  },
+  "MV": {
+    "pt": "Maldivas",
+    "num": "462"
+  },
+  "MW": {
+    "pt": "Malawi",
+    "num": "454"
+  },
+  "MX": {
+    "pt": "México",
+    "num": "484"
+  },
+  "MZ": {
+    "pt": "Moçambique",
+    "num": "508"
+  },
+  "NG": {
+    "pt": "Nigéria",
+    "num": "566"
+  },
+  "NL": {
+    "pt": "Países Baixos",
+    "num": "528"
+  },
+  "NO": {
+    "pt": "Noruega",
+    "num": "578"
+  },
+  "NP": {
+    "pt": "Nepal",
+    "num": "524"
+  },
+  "NZ": {
+    "pt": "Nova Zelândia",
+    "num": "554"
+  },
+  "PE": {
+    "pt": "Peru",
+    "num": "604"
+  },
+  "PK": {
+    "pt": "Paquistão",
+    "num": "586"
+  },
+  "PT": {
+    "pt": "Portugal",
+    "num": "620"
+  },
+  "PY": {
+    "pt": "Paraguai",
+    "num": "600"
+  },
+  "RU": {
+    "pt": "Rússia",
+    "num": "643"
+  },
+  "RW": {
+    "pt": "Ruanda",
+    "num": "646"
+  },
+  "SE": {
+    "pt": "Suécia",
+    "num": "752"
+  },
+  "SG": {
+    "pt": "Singapura",
+    "num": "702"
+  },
+  "SN": {
+    "pt": "Senegal",
+    "num": "686"
+  },
+  "SR": {
+    "pt": "Suriname",
+    "num": "740"
+  },
+  "SS": {
+    "pt": "Sudão do Sul",
+    "num": "728"
+  },
+  "TH": {
+    "pt": "Tailândia",
+    "num": "764"
+  },
+  "TM": {
+    "pt": "Turcomenistão",
+    "num": "795"
+  },
+  "TR": {
+    "pt": "Turquia",
+    "num": "792"
+  },
+  "TW": {
+    "pt": "Taiwan",
+    "num": "158"
+  },
+  "TZ": {
+    "pt": "Tanzânia",
+    "num": "834"
+  },
+  "UG": {
+    "pt": "Uganda",
+    "num": "800"
+  },
+  "US": {
+    "pt": "Estados Unidos (Havaí)",
+    "num": "840"
+  },
+  "VN": {
+    "pt": "Vietnã",
+    "num": "704"
+  },
+  "ZA": {
+    "pt": "África do Sul",
+    "num": "710"
+  },
+  "ZM": {
+    "pt": "Zâmbia",
+    "num": "894"
+  }
+}

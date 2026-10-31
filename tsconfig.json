@@ -13,6 +13,8 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "allowImportingTsExtensions": true,
+    "erasableSyntaxOnly": true,
     "verbatimModuleSyntax": true
   },
   "include": ["src", "tests", "scripts", "vite.config.ts"]

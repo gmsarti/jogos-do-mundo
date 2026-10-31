@@ -1,0 +1,35 @@
+import type { Game } from "../types.ts";
+
+export function visibleGames(games: Game[], fam: string | null): Game[] {
+  return fam ? games.filter((g) => g.fam.includes(fam)) : games;
+}
+
+export function gamesOfCountry(games: Game[], iso: string): Game[] {
+  return games.filter((g) => g.countries.includes(iso));
+}
+
+export function gamesWithoutCountry(games: Game[]): Game[] {
+  return games.filter((g) => g.countries.length === 0);
+}
+
+export function countByCountry(games: Game[]): Record<string, number> {
+  const counts: Record<string, number> = {};
+  for (const game of games) {
+    for (const iso of game.countries) counts[iso] = (counts[iso] ?? 0) + 1;
+  }
+  return counts;
+}
+
+/** Color band of a country: 0 = no games, 1 = one game, 2 = 2–3, 3 = 4 or more. */
+export function colorBand(count: number): 0 | 1 | 2 | 3 {
+  if (count >= 4) return 3;
+  if (count >= 2) return 2;
+  return count === 1 ? 1 : 0;
+}
+
+/** Countries with the most games, ties broken by ISO code. */
+export function topCountries(games: Game[], limit: number): [string, number][] {
+  return Object.entries(countByCountry(games))
+    .sort(([isoA, a], [isoB, b]) => b - a || isoA.localeCompare(isoB))
+    .slice(0, limit);
+}

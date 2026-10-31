@@ -1,0 +1,142 @@
+.mapbox {
+  position: relative;
+  min-height: 340px;
+  overflow: hidden;
+  background: var(--sea);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: grab;
+  touch-action: none;
+}
+
+.country {
+  fill: var(--land);
+  stroke: var(--sea);
+  stroke-width: 0.5;
+  vector-effect: non-scaling-stroke;
+}
+
+.country.c1 {
+  fill: var(--h1);
+}
+
+.country.c2 {
+  fill: var(--h2);
+}
+
+.country.c3 {
+  fill: var(--h3);
+}
+
+.country.has {
+  cursor: pointer;
+}
+
+.country.has:hover {
+  filter: brightness(1.08);
+}
+
+/* Same specificity as .c1–.c3, declared later, so it wins without !important */
+.country.has.sel,
+.country.sel {
+  fill: var(--sel);
+}
+
+.dot {
+  fill: var(--h2);
+  stroke: var(--sea);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+  cursor: pointer;
+}
+
+.dot.sel {
+  fill: var(--sel);
+}
+
+.legend {
+  position: absolute;
+  left: 0.8rem;
+  bottom: 0.8rem;
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  padding: 0.45rem 0.7rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.sw {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-right: 0.25rem;
+  border-radius: 3px;
+  vertical-align: -0.1rem;
+}
+
+.sw-1 {
+  background: var(--h1);
+}
+
+.sw-2 {
+  background: var(--h2);
+}
+
+.sw-3 {
+  background: var(--h3);
+}
+
+.zoom {
+  position: absolute;
+  right: 0.8rem;
+  top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.zoom button {
+  width: 2.1rem;
+  height: 2.1rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--ink);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.tip {
+  position: absolute;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  background: var(--ink);
+  color: var(--bg);
+  font-size: 0.8rem;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+
+@media (max-width: 860px) {
+  .mapbox {
+    min-height: 0;
+  }
+
+  /* The bottom sheet covers the lower part of the map */
+  .legend {
+    top: 0.8rem;
+    bottom: auto;
+  }
+}

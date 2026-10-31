@@ -12,7 +12,34 @@
     />
   </head>
   <body>
-    <div id="app"></div>
+    <div class="wrap">
+      <header>
+        <h1>Atlas de jogos de tabuleiro tradicionais</h1>
+        <p>
+          Clique num país para ver os jogos registrados no catálogo. Rascunho:
+          regras e datas ainda passam por verificação.
+        </p>
+        <button type="button" class="theme-toggle" id="theme"></button>
+      </header>
+      <nav class="chips" id="chips" aria-label="Filtrar por família"></nav>
+      <main>
+        <div class="mapbox" id="mapbox">
+          <svg id="map" role="img" aria-label="Mapa-múndi com países que têm jogos registrados"></svg>
+          <div class="zoom">
+            <button type="button" id="zin" aria-label="Aproximar">+</button>
+            <button type="button" id="zout" aria-label="Afastar">−</button>
+            <button type="button" id="zreset" aria-label="Ver mundo inteiro">⟲</button>
+          </div>
+          <div class="legend">
+            <span><i class="sw sw-1"></i>1 jogo</span>
+            <span><i class="sw sw-2"></i>2–3</span>
+            <span><i class="sw sw-3"></i>4 ou mais</span>
+          </div>
+          <div class="tip" id="tip"></div>
+        </div>
+        <aside id="panel" aria-live="polite"></aside>
+      </main>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
