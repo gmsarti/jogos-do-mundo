@@ -42,7 +42,7 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
   - Testes: com fixtures em `tests/fixtures/`, gera o JSON esperado e falha com mensagem clara apontando arquivo e campo
 - [x] **T-022** Extração única do protótipo para `content/games/*.md`, `families.json` e `countries.json`
   - Testes: o catálogo gerado a partir de `content/` é igual ao `DATA` do protótipo (94 jogos, 12 famílias, 79 países)
-  - Desvio: o teste de paridade (`tests/content/prototype-parity.test.ts`) deve ser aposentado quando a curadoria começar a alterar o conteúdo de propósito; o script ficou em `scripts/once/extract-prototype.ts`
+  - Desvio: o teste de jogos idênticos do `tests/content/prototype-parity.test.ts` foi aposentado quando a curadoria começou (país do `dadu`); sobram as checagens de contagem, famílias e países; o script ficou em `scripts/once/extract-prototype.ts`
   - Aceite: o script de extração é descartado depois do uso ou fica isolado em `scripts/once/`
 - [x] **T-023** Geometria leve em `public/geo/`
   - Testes: todo país de `countries.json` existe no TopoJSON
@@ -52,27 +52,33 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
 
 ## Fase 3 — MVP: paridade com o protótipo (M2)
 
-- [ ] **T-030** `src/lib/md.ts` (porta do `md()` do protótipo)
+- [x] **T-030** `src/lib/md.ts` (porta do `md()` do protótipo)
+  - Desvio: `esc()` também escapa `'`; `esc` e `md` vivem no mesmo arquivo
   - Testes: negrito, itálico, listas ordenadas e não ordenadas, parágrafos, escape de HTML (XSS)
-- [ ] **T-031** Seletores puros: jogos visíveis por família, jogos por país, contagem por país, faixa de cor, ranking da home
+- [x] **T-031** Seletores puros: jogos visíveis por família, jogos por país, contagem por país, faixa de cor, ranking da home
+  - Desvio: ficam em `src/lib/selectors.ts`
   - Testes: um por seletor, com catálogo de fixture
-- [ ] **T-032** `src/state.ts`: estado + rotas por hash (`#/pais/GH`, `#/jogo/achi`, `?fam=`)
+- [x] **T-032** `src/state.ts`: estado + rotas por hash (`#/pais/GH`, `#/jogo/achi`, `?fam=`)
   - Testes: parse e serialização ida e volta; rota inválida cai na home; país sem jogos no filtro cai na home
-- [ ] **T-033** Mapa: projeção, render dos países, faixas de cor, pontos de países pequenos, zoom e tooltip (RF-01 a RF-04)
+  - Desvio: o jogo carrega `?pais=<ISO>` com o país de origem (botão voltar e destaque no mapa); `normalizeState` descarta o que o filtro oculta
+- [x] **T-033** Mapa: projeção, render dos países, faixas de cor, pontos de países pequenos, zoom e tooltip (RF-01 a RF-04)
   - Testes: cálculos extraídos para funções puras (classe de cada país, quais pontos aparecem)
+  - Desvio: adiciona `d3-transition` (zoom animado dos botões, como no protótipo). Teclado no mapa fica para o T-043; conferido em Chrome headless (desktop, tema escuro), tema claro não conferido
   - Aceite: comportamento igual ao protótipo, conferido no `make dev`
-- [ ] **T-034** Views do painel: home, país e jogo (RF-06 a RF-08)
+- [x] **T-034** Views do painel: home, país e jogo (RF-06 a RF-08)
   - Testes: cada view recebe dados e devolve HTML com os campos esperados; texto do conteúdo sai escapado
-- [ ] **T-035** Chips de filtro por família (RF-05)
+- [x] **T-035** Chips de filtro por família (RF-05)
   - Testes: lista só famílias com jogos; estado `aria-pressed` correto
-- [ ] **T-036** Layout responsivo: painel lateral e bottom sheet no celular (RF-10)
+- [x] **T-036** Layout responsivo: painel lateral e bottom sheet no celular (RF-10)
+  - Desvio: sheet fixo de 45dvh com rolagem interna, sem arrastar/expandir; conferido em iframe de 375px e desktop
   - Aceite: conferido em 375px e em desktop, sem rolagem horizontal
-- [ ] **T-037** `src/AGENTS.md`: módulos, fluxo de estado e padrões de UI
+- [x] **T-037** `src/AGENTS.md`: módulos, fluxo de estado e padrões de UI
 - [ ] **T-038** Primeiro release do MVP no Pages + medição Lighthouse (RNF-02 a RNF-04) registrada aqui
 
 ## Fase 4 — Experiência (M3)
 
-- [ ] **T-040** Seletor de tema claro/escuro (RF-11)
+- [x] **T-040** Seletor de tema claro/escuro (RF-11)
+  - Desvio: um botão só com ícone (sol = claro, lua = escuro) no cabeçalho; sem escolha salva segue o sistema, a escolha fica em `localStorage`; as paletas já existiam no T-012
 - [ ] **T-041** Busca por nome e nomes locais (RF-12)
   - Testes: busca sem acento e sem diferenciar maiúsculas encontra nomes locais
 - [ ] **T-042** Zoom animado até o país ou os países do jogo aberto, respeitando `prefers-reduced-motion` (RF-13)
