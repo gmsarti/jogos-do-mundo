@@ -46,3 +46,17 @@ export function searchGames(games: Game[], query: string): Game[] {
     [g.title, ...g.names].some((name) => fold(name).includes(needle)),
   );
 }
+
+/** Families with games whose label matches the query, as [id, label]. */
+export function searchFamilies(
+  families: Record<string, string>,
+  games: Game[],
+  query: string,
+): [string, string][] {
+  const needle = fold(query.trim());
+  if (!needle) return [];
+  const used = new Set(games.flatMap((g) => g.fam));
+  return Object.entries(families).filter(
+    ([id, label]) => used.has(id) && fold(label).includes(needle),
+  );
+}

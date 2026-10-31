@@ -8,7 +8,12 @@ import "./styles/base.css";
 import "./styles/layout.css";
 import "./styles/map.css";
 import "./styles/panel.css";
-import { countByCountry, searchGames, visibleGames } from "./lib/selectors.ts";
+import {
+  countByCountry,
+  searchFamilies,
+  searchGames,
+  visibleGames,
+} from "./lib/selectors.ts";
 import {
   nextTheme,
   parseTheme,
@@ -142,7 +147,12 @@ async function boot(): Promise<void> {
       visibleGames(catalog.games, state.fam),
       search.value,
     );
-    panel.innerHTML = searchView(catalog, results);
+    const families = searchFamilies(
+      catalog.families,
+      catalog.games,
+      search.value,
+    );
+    panel.innerHTML = searchView(catalog, results, families);
     panel.scrollTop = 0;
   });
 
@@ -170,7 +180,10 @@ async function boot(): Promise<void> {
     const target = event.target as Element;
     const gameButton = target.closest<HTMLElement>("[data-id]");
     const countryButton = target.closest<HTMLElement>("[data-iso]");
+    const familyButton = target.closest<HTMLElement>("[data-fam]");
     if (gameButton) go({ ...state, game: gameButton.dataset.id ?? null });
+    else if (familyButton)
+      go({ ...state, fam: familyButton.dataset.fam || null, game: null });
     else if (countryButton)
       go({ ...state, country: countryButton.dataset.iso ?? null, game: null });
     else if (target.closest("[data-home]"))
