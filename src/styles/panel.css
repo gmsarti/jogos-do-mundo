@@ -1,0 +1,146 @@
+aside {
+  min-height: 0;
+  overflow: auto;
+  padding: 1.1rem 1.2rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+/* Phone: bottom sheet over the map */
+@media (max-width: 860px) {
+  aside {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    max-height: 45dvh;
+    padding-bottom: calc(1.1rem + env(safe-area-inset-bottom, 0px));
+    border-width: 1px 0 0;
+    border-radius: 14px 14px 0 0;
+    box-shadow: 0 -4px 16px rgb(0 0 0 / 0.12);
+  }
+}
+
+aside h2 {
+  font-size: 1.5rem;
+  line-height: 1.15;
+  margin: 0 0 0.2rem;
+}
+
+aside h3 {
+  font-size: 0.95rem;
+  margin: 1.1rem 0 0.3rem;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.list {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0.6rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list button {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.6rem;
+  width: 100%;
+  padding: 0.55rem 0.7rem;
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.list button:hover {
+  border-color: var(--h2);
+}
+
+.list small {
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-align: right;
+}
+
+.badge {
+  display: inline-block;
+  margin-right: 0.3rem;
+  padding: 0.05rem 0.5rem;
+  border: 1px solid currentcolor;
+  border-radius: 999px;
+  font-size: 0.75rem;
+}
+
+.b-documented {
+  color: var(--st-documented);
+}
+
+.b-reconstructed {
+  color: var(--st-reconstructed);
+}
+
+.b-partial {
+  color: var(--st-partial);
+}
+
+.b-unknown {
+  color: var(--st-unknown);
+}
+
+dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.25rem 0.8rem;
+  margin: 0.6rem 0;
+  font-size: 0.92rem;
+}
+
+dt {
+  color: var(--muted);
+}
+
+dd {
+  margin: 0;
+}
+
+.prose {
+  max-width: 68ch;
+}
+
+.prose p {
+  margin: 0.4rem 0;
+}
+
+.prose ul,
+.prose ol {
+  margin: 0.4rem 0;
+  padding-left: 1.2rem;
+}
+
+.back {
+  margin-bottom: 0.6rem;
+  padding: 0;
+  background: none;
+  border: none;
+  color: var(--h2);
+  font: inherit;
+  cursor: pointer;
+}
+
+.note {
+  margin-top: 1.2rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.82rem;
+  color: var(--muted);
+}
