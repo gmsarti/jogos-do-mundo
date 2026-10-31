@@ -73,7 +73,13 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
   - Desvio: sheet fixo de 45dvh com rolagem interna, sem arrastar/expandir; conferido em iframe de 375px e desktop
   - Aceite: conferido em 375px e em desktop, sem rolagem horizontal
 - [x] **T-037** `src/AGENTS.md`: módulos, fluxo de estado e padrões de UI
-- [ ] **T-038** Primeiro release do MVP no Pages + medição Lighthouse (RNF-02 a RNF-04) registrada aqui
+- [~] **T-038** Primeiro release do MVP no Pages + medição Lighthouse (RNF-02 a RNF-04) registrada aqui
+  - Release: site publicado em `gmsarti.github.io/jogos-do-mundo/` (deploy do PR #3 funcionando)
+  - Medição 1, no site publicado (mobile): Performance **74**, Accessibility **100**, CLS 0,38, LCP 2,9 s. Abaixo da meta de Performance (RNF-03)
+  - Correções: fontes self-hosted via `@fontsource` (tira o CSS do Google Fonts do caminho crítico), preload do geo, altura reservada para os chips e altura fixa do bottom sheet (CLS), token `--link` (o `--h2` dava 3,4:1 e 3,8:1 nos links e no botão voltar; agora ≥ 5,6:1)
+  - Medição 2, build local (`make build` + `vite preview`, mobile, 3 rodadas): Performance **99**, Accessibility **100**, CLS 0, LCP 2,1 s. Contraste AA conferido por cálculo nos dois temas (todos os pares de texto ≥ 4,5:1)
+  - RNF-02: JS inicial 28,9 KB gzip (meta 60); geo + catálogo cerca de 80 KB gzip (meta 250)
+  - Pendente: repetir o Lighthouse no site publicado depois do merge; teclado no mapa (T-043); licença e domínio (PRD § 12). Fontes: decidido manter Young Serif + Instrument Sans, hospedadas no projeto
 
 ## Fase 4 — Experiência (M3)
 
@@ -95,4 +101,4 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
 
 ## Decisões pendentes
 
-Ver [PRD.md § Questões em aberto](PRD.md#12-questões-em-aberto). Licença, domínio e fontes precisam de resposta antes do T-038.
+Ver [PRD.md § Questões em aberto](PRD.md#12-questões-em-aberto). Licença e domínio ainda precisam de resposta (fontes: resolvido no T-038, self-hosted).
