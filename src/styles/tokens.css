@@ -72,3 +72,24 @@
 
   color-scheme: dark;
 }
+
+/* Paper is white: print with the light palette even when the dark theme is on */
+@media print {
+  :root,
+  :root:not([data-theme="light"]),
+  :root[data-theme="dark"] {
+    --bg: #ffffff;
+    --panel: #ffffff;
+    --ink: #23201b;
+    --muted: #625c52;
+    --line: #d2d2c8;
+    --link: #8a4d1c;
+    --chip: #e3e4dc;
+    --st-documented: #2d6e3e;
+    --st-reconstructed: #7f5d00;
+    --st-partial: #6a4f9c;
+    --st-unknown: var(--muted);
+
+    color-scheme: light;
+  }
+}
