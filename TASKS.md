@@ -35,17 +35,20 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
 
 ## Fase 2 — Dados (M1)
 
-- [ ] **T-020** Tipos (`src/types.ts`) e schema zod de um jogo, de famílias e de países
+- [x] **T-020** Tipos (`src/types.ts`) e schema zod de um jogo, de famílias e de países
+  - Desvio: o schema fica em `scripts/schema.ts` (zod só no build; `src/types.ts` só tem os tipos); `id` entra no frontmatter, senão não há o que comparar com o nome do arquivo
   - Testes: jogo válido passa; falham id ≠ nome do arquivo, família inexistente, país inexistente, `status` inválido e jogo sem `refs`
-- [ ] **T-021** `scripts/build-data.ts`: lê `content/`, separa frontmatter de `## História` / `## Regras`, valida e gera `src/generated/catalog.json`
+- [x] **T-021** `scripts/build-data.ts`: lê `content/`, separa frontmatter de `## História` / `## Regras`, valida e gera `src/generated/catalog.json`
   - Testes: com fixtures em `tests/fixtures/`, gera o JSON esperado e falha com mensagem clara apontando arquivo e campo
-- [ ] **T-022** Extração única do protótipo para `content/games/*.md`, `families.json` e `countries.json`
+- [x] **T-022** Extração única do protótipo para `content/games/*.md`, `families.json` e `countries.json`
   - Testes: o catálogo gerado a partir de `content/` é igual ao `DATA` do protótipo (94 jogos, 12 famílias, 79 países)
+  - Desvio: o teste de paridade (`tests/content/prototype-parity.test.ts`) deve ser aposentado quando a curadoria começar a alterar o conteúdo de propósito; o script ficou em `scripts/once/extract-prototype.ts`
   - Aceite: o script de extração é descartado depois do uso ou fica isolado em `scripts/once/`
-- [ ] **T-023** Geometria leve em `public/geo/`
+- [x] **T-023** Geometria leve em `public/geo/`
   - Testes: todo país de `countries.json` existe no TopoJSON
+  - Desvio: `countries.json` = 110m + 5 países pequenos do 50m (SG, MV, CV, AG, BB), gerado por `scripts/once/build-geo.ts`. O protótipo usa 50m inteiro (236 KB gzip), que sozinho estoura o RNF-02; o resultado tem 39 KB gzip. Comparação visual no navegador não feita
   - Aceite: tamanho dentro do RNF-02; comparar a resolução 110m com a do protótipo e registrar a escolha
-- [ ] **T-024** `content/AGENTS.md`: schema completo, exemplo comentado e guia de curadoria
+- [x] **T-024** `content/AGENTS.md`: schema completo, exemplo comentado e guia de curadoria
 
 ## Fase 3 — MVP: paridade com o protótipo (M2)
 

@@ -79,6 +79,8 @@ Conteúdo em Markdown (`content/`) → `scripts/build-data.ts` valida e gera JSO
 | `content/families.json` | Famílias de jogos: id → rótulo em pt-BR |
 | `content/countries.json` | Países: ISO-2 → `{ pt, num }` (nome e código numérico do TopoJSON) |
 | `scripts/build-data.ts` | Lê `content/`, valida com `zod`, gera `src/generated/catalog.json` |
+| `scripts/schema.ts` | Schemas zod de jogo, famílias e países |
+| `scripts/once/` | Scripts de uso único (extração do protótipo, geração do geo) |
 | `public/geo/` | TopoJSON dos países |
 | `tests/` | Testes Vitest, espelhando `src/` e `scripts/`; `tests/fixtures/` com dados de teste |
 | `.github/workflows/deploy.yml` | CI: `make check` + `make build` + deploy no Pages |
@@ -109,7 +111,7 @@ O projeto segue **TDD**. Ordem obrigatória:
 ## Como Adicionar ou Editar um Jogo
 
 1. Crie ou edite `content/games/<id>.md`. O `id` é kebab-case e igual ao nome do arquivo
-2. Frontmatter: `title, names, fam, countries, cultures, board, pieces, players, period, status, living, sens, ev, recon, refs, place, summary` (detalhes e exemplos em `content/AGENTS.md`)
+2. Frontmatter: `id, title, names, fam, countries, cultures, board, pieces, players, period, status, living, sens, ev, recon, refs, place, summary` (detalhes e exemplos em `content/AGENTS.md`)
 3. Corpo: seções `## História` e `## Regras`, em Markdown simples (negrito, itálico, listas)
 4. Rode `make data` (valida e gera o catálogo) e depois `make check`
 5. Commit de conteúdo separado de commit de código
