@@ -22,14 +22,15 @@
     <div class="wrap">
       <header>
         <h1>Atlas de jogos de tabuleiro tradicionais</h1>
-        <p>
-          Clique num país para ver os jogos registrados no catálogo. Rascunho:
-          regras e datas ainda passam por verificação.
-        </p>
-        <input type="search" id="search" class="search" placeholder="Buscar jogo ou nome local" aria-label="Buscar jogo ou nome local" autocomplete="off" />
-        <button type="button" class="theme-toggle" id="theme" aria-label="Mudar de tema"></button>
+        <div class="tools">
+          <input type="search" id="search" class="search" placeholder="Buscar jogo ou nome local" aria-label="Buscar jogo ou nome local" autocomplete="off" />
+          <div class="fam" id="fam">
+            <button type="button" class="fam-button" id="fam-button" aria-expanded="false" aria-controls="fam-menu">Família: todas</button>
+            <ul class="fam-menu" id="fam-menu" aria-label="Filtrar por família" hidden></ul>
+          </div>
+          <button type="button" class="theme-toggle" id="theme" aria-label="Mudar de tema"></button>
+        </div>
       </header>
-      <nav class="chips" id="chips" aria-label="Filtrar por família"></nav>
       <main>
         <div class="mapbox" id="mapbox">
           <svg id="map" role="img" aria-label="Mapa-múndi com países que têm jogos registrados"></svg>

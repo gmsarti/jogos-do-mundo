@@ -20,6 +20,10 @@ describe("homeView", () => {
     expect(homeView(catalog, "mancala")).toContain("4 jogos, 2 países");
   });
 
+  test("warns that the catalog is still a draft", () => {
+    expect(homeView(catalog, null)).toContain("Rascunho");
+  });
+
   test("lists games without a country", () => {
     const html = homeView(catalog, null);
     expect(html).toContain("Sem país definido");

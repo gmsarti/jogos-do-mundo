@@ -19,8 +19,8 @@ import {
 } from "./lib/theme.ts";
 import { focusIsos } from "./map/model.ts";
 import { createMap, type GeoTopology } from "./map/render.ts";
-import { chipsView } from "./panel/chips.ts";
 import { countryView } from "./panel/country-view.ts";
+import { familyLabel, familyMenuView } from "./panel/family-menu.ts";
 import { gameView } from "./panel/game-view.ts";
 import { homeView } from "./panel/home-view.ts";
 import { searchView } from "./panel/search-view.ts";
@@ -77,7 +77,9 @@ async function boot(): Promise<void> {
     fetch(geoUrl).then((r) => r.json() as Promise<GeoTopology>),
   ]);
 
-  const chips = element("chips");
+  const famBox = element("fam");
+  const famButton = element("fam-button");
+  const famMenu = element("fam-menu");
   const panel = element("panel");
   let state = parseHash(location.hash, catalog);
 
@@ -86,6 +88,13 @@ async function boot(): Promise<void> {
   );
 
   let focused = "";
+
+  function setMenu(open: boolean): void {
+    famMenu.hidden = !open;
+    famButton.setAttribute("aria-expanded", String(open));
+    if (open)
+      famMenu.querySelector<HTMLElement>('[aria-pressed="true"]')?.focus();
+  }
   const search = element("search") as HTMLInputElement;
   const legendGame = element("legend-game");
 
@@ -93,7 +102,10 @@ async function boot(): Promise<void> {
     search.value = "";
     const { fam, country, game } = state;
     const found = catalog.games.find((g) => g.id === game);
-    chips.innerHTML = chipsView(catalog, fam);
+    setMenu(false);
+    famMenu.innerHTML = familyMenuView(catalog, fam);
+    famButton.textContent = familyLabel(catalog, fam);
+    famButton.classList.toggle("active", fam !== null);
     map.paint(
       countByCountry(visibleGames(catalog.games, fam)),
       country,
@@ -134,9 +146,24 @@ async function boot(): Promise<void> {
     panel.scrollTop = 0;
   });
 
-  chips.addEventListener("click", (event) => {
-    const chip = (event.target as Element).closest<HTMLElement>("[data-fam]");
-    if (chip) go({ ...state, fam: chip.dataset.fam || null, game: null });
+  famButton.addEventListener("click", () =>
+    setMenu(famButton.getAttribute("aria-expanded") !== "true"),
+  );
+  famMenu.addEventListener("click", (event) => {
+    const option = (event.target as Element).closest<HTMLElement>("[data-fam]");
+    if (!option) return;
+    setMenu(false);
+    famButton.focus();
+    go({ ...state, fam: option.dataset.fam || null, game: null });
+  });
+  // The menu closes on Escape or on a click anywhere outside it
+  addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || famMenu.hidden) return;
+    setMenu(false);
+    famButton.focus();
+  });
+  addEventListener("click", (event) => {
+    if (!famBox.contains(event.target as Node)) setMenu(false);
   });
 
   panel.addEventListener("click", (event) => {

@@ -29,5 +29,5 @@ export function homeView(catalog: Catalog, fam: string | null): string {
 <p class="muted">Escolha um país no mapa. Jogos de povos antigos aparecem nos países onde estão hoje os sítios ou as comunidades.</p>
 ${withoutCountrySection}
 <h3>Mais registrados</h3><ul class="list">${top}</ul>
-<p class="note">Trechos marcados “(a verificar)” ainda não foram conferidos com a fonte primária.</p>`;
+<p class="note">Rascunho: regras e datas ainda passam por verificação. Trechos marcados “(a verificar)” ainda não foram conferidos com a fonte primária.</p>`;
 }
