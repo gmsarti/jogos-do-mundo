@@ -7,9 +7,9 @@ NPX = $(NODE_ENV) npx
 install:
 	$(NODE_ENV) npm ci
 
-# TODO(T-021): generate src/generated/catalog.json from content/
+# Needs Node with native TypeScript support (22.18+)
 data:
-	@echo "data: nothing to generate yet (T-021)"
+	$(NODE_ENV) node --disable-warning=ExperimentalWarning scripts/build-data.ts
 
 dev: data
 	$(NPX) vite
