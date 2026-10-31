@@ -53,6 +53,8 @@ header p {
   flex-wrap: wrap;
   gap: 0.4rem;
   padding: 0.3rem 0 0.8rem;
+  /* Chips are filled by JS; reserve one row so the map does not jump when they appear */
+  min-height: 2.9rem;
 }
 
 .chip {
@@ -104,13 +106,14 @@ main {
     overflow-x: auto;
     margin: 0 -0.75rem;
     padding: 0.3rem 0.75rem 0.6rem;
+    min-height: 2.9rem;
   }
 
   .chip {
     flex: none;
   }
 
-  /* Leave room for the bottom sheet (max-height in panel.css) so it never covers the map */
+  /* Leave room for the bottom sheet (height in panel.css) so it never covers the map */
   main {
     grid-template-columns: minmax(0, 1fr);
     padding-bottom: calc(45dvh + 0.75rem);
