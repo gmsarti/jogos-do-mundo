@@ -17,17 +17,20 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
 - [x] **T-001** Diretrizes para agentes (`AGENTS.md`, `CLAUDE.md`), `README.md`, `commit-rules.md`
 - [x] **T-002** `PRD.md` e `TASKS.md`; TDD incorporado às diretrizes
 - [x] **T-003** `git init` com branch `main`
-- [ ] **T-004** Primeiro commit e repositório remoto no GitHub
+- [x] **T-004** Primeiro commit e repositório remoto no GitHub
   - Aceite: `main` publicada no GitHub com os arquivos de fundação
 
 ## Fase 1 — Scaffold (M0)
 
-- [ ] **T-010** Projeto Vite + TypeScript strict + Biome + Vitest + `Makefile` + `.nvmrc` + `.gitignore`
+- [x] **T-010** Projeto Vite + TypeScript strict + Biome + Vitest + `Makefile` + `.nvmrc` + `.gitignore`
+  - Desvio: `make data` é um placeholder até o T-021; dependências de runtime (D3, zod, topojson) entram nas tarefas que as usam
   - Testes: um teste smoke trivial que prova que o Vitest roda
   - Aceite: `make install`, `make dev`, `make test`, `make format`, `make check` e `make build` funcionam; `tsconfig` em strict
-- [ ] **T-011** Workflow `.github/workflows/deploy.yml`: `make check` + `make build` + deploy no Pages
+- [x] **T-011** Workflow `.github/workflows/deploy.yml`: `make check` + `make build` + deploy no Pages
+  - Pendente fora do código: ativar Settings → Pages → Source: GitHub Actions no repositório; o workflow ainda não rodou no GitHub
   - Aceite: push em `main` publica o site; PR roda `make check`; `base` do Vite correto para `/<repo>/`
-- [ ] **T-012** Tokens de design (`src/styles/tokens.css`, `base.css`) a partir do protótipo, com dark mode
+- [x] **T-012** Tokens de design (`src/styles/tokens.css`, `base.css`) a partir do protótipo, com dark mode
+  - Desvio: tokens de status (`--st-*`) criados para os badges; fontes seguem no Google Fonts (questão aberta do PRD); conferência visual no navegador não feita
   - Aceite: nenhuma cor fora dos tokens; temas claro e escuro conferidos no `make dev`
 
 ## Fase 2 — Dados (M1)

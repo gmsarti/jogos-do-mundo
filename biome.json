@@ -1,0 +1,21 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.6.4/schema.json",
+  "files": {
+    "includes": [
+      "**",
+      "!**/*.md",
+      "!dist",
+      "!src/generated",
+      "!node_modules",
+      "!Atlas de jogos de tabuleiro tradicionais.html"
+    ]
+  },
+  "formatter": { "indentStyle": "space", "indentWidth": 2 },
+  "linter": {
+    "rules": {
+      "preset": "recommended",
+      "complexity": { "noExcessiveCognitiveComplexity": "error" },
+      "suspicious": { "noExplicitAny": "error" }
+    }
+  }
+}
