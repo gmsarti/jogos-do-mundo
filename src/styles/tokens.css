@@ -17,9 +17,8 @@
   --st-partial: #6b5ba8;
   --st-unknown: var(--muted);
 
-  --font-serif: "Young Serif", georgia, serif;
-  --font-sans:
-    "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: "Gloock", georgia, serif;
+  --font-sans: "Commissioner", system-ui, -apple-system, "Segoe UI", sans-serif;
 
   color-scheme: light;
 }
