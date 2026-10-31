@@ -90,7 +90,8 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
   - Testes: busca sem acento e sem diferenciar maiúsculas encontra nomes locais
 - [x] **T-042** Zoom animado até o país ou os países do jogo aberto, respeitando `prefers-reduced-motion` (RF-13)
   - Desvio: o zoom só roda quando o alvo muda (trocar de chip mantém o zoom do usuário); escala máxima 8. Conferido no Playwright (desktop): país, país pequeno e carga direta por URL
-- [ ] **T-043** Navegação do mapa pelo teclado (RF-14)
+- [x] **T-043** Navegação do mapa pelo teclado (RF-14)
+  - Desvio: cada país com jogos é um `role="button"` com `tabindex="0"` e `aria-label` igual ao tooltip (Enter/Espaço abrem); países pequenos entram pelo ponto, não pela forma. São 79 paradas de Tab na ordem do desenho, sem atalhos de seta (a "saída" do mapa é pular para o painel). Conferido no Playwright (desktop)
 - [ ] **T-044** Metadados de compartilhamento e imagem social (RF-15)
 - [ ] **T-045** Polimento visual: tipografia, transições do painel, estados de hover e foco
 

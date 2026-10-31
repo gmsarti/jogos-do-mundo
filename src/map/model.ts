@@ -34,6 +34,16 @@ export function visibleDots(
   return new Set(small.filter((iso) => (counts[iso] ?? 0) > 0));
 }
 
+/** Keyboard stops: countries with games; small ones through their dot, since the shape is too tiny to see focus. */
+export function isTabStop(
+  kind: "shape" | "dot",
+  iso: string,
+  count: number,
+): boolean {
+  if (count === 0) return false;
+  return SMALL_COUNTRIES.includes(iso) === (kind === "dot");
+}
+
 export function tooltipText(name: string, count: number): string {
   return `${name}: ${count} ${count > 1 ? "jogos" : "jogo"}`;
 }

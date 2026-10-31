@@ -6,6 +6,7 @@ import {
   focusIsos,
   focusTransform,
   isoByNum,
+  isTabStop,
   SMALL_COUNTRIES,
   tooltipText,
   visibleDots,
@@ -127,5 +128,21 @@ describe("focusIsos", () => {
 
   test("focuses nothing on the home", () => {
     expect(focusIsos(catalog.games, null, null)).toEqual([]);
+  });
+});
+
+describe("isTabStop", () => {
+  test("a country with games is reachable by its shape", () => {
+    expect(isTabStop("shape", "GH", 2)).toBe(true);
+  });
+
+  test("a country without games is not reachable", () => {
+    expect(isTabStop("shape", "GH", 0)).toBe(false);
+    expect(isTabStop("dot", "MV", 0)).toBe(false);
+  });
+
+  test("a small country is reachable by its dot, not by its tiny shape", () => {
+    expect(isTabStop("dot", "MV", 1)).toBe(true);
+    expect(isTabStop("shape", "MV", 1)).toBe(false);
   });
 });
