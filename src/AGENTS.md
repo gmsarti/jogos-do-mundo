@@ -13,7 +13,7 @@ Regras específicas da pasta `src/`. As regras globais (KISS, TDD, tokens, acess
 | `lib/selectors.ts` | Seletores puros sobre `Game[]`: filtro por família, por país, contagens, faixa de cor, ranking |
 | `map/model.ts` | Lógica pura do mapa: classe CSS de cada país, quais pontos aparecem, texto do tooltip |
 | `map/render.ts` | Único lugar com D3: desenha o SVG uma vez e só troca classes em `paint()` |
-| `panel/*-view.ts`, `panel/chips.ts` | Views: recebem `catalog` e dados, devolvem uma string HTML |
+| `panel/*-view.ts`, `panel/family-menu.ts` | Views: recebem `catalog` e dados, devolvem uma string HTML |
 | `styles/` | `tokens.css` (cores, fontes), `base.css`, `layout.css`, `map.css`, `panel.css` |
 
 ## Fluxo de estado
@@ -22,7 +22,7 @@ A URL é a única fonte de verdade:
 
 1. Um clique (chip, país no mapa, botão do painel) chama `go(next)` em `main.ts`
 2. `go` normaliza o estado, serializa e só atribui `location.hash`
-3. `hashchange` faz `parseHash` → `render()`: chips, `map.paint()` e painel
+3. `hashchange` faz `parseHash` → `render()`: menu de famílias, `map.paint()` e painel
 
 Voltar e avançar do navegador funcionam pelo mesmo caminho. O `parseHash` descarta tudo que o catálogo ou o filtro não mostram (país sem jogos no filtro, jogo oculto, família inexistente) e cai na home.
 
@@ -31,8 +31,9 @@ Formato das rotas: `#/`, `#/pais/GH`, `#/jogo/achi`, com `?fam=<familia>` e, no 
 ## Padrões de UI
 
 - **Views são funções puras** `(catalog, ...dados) => string`. Todo texto do conteúdo passa por `esc()` ou `md()` antes de entrar no HTML
-- **Eventos por delegação** no `#chips` e no `#panel`, lendo `data-fam`, `data-id`, `data-iso`, `data-home`, `data-back`. As views não registram handlers
+- **Eventos por delegação** no `#fam-menu` e no `#panel`, lendo `data-fam`, `data-id`, `data-iso`, `data-home`, `data-back`. As views não registram handlers
 - **Mapa:** os países são desenhados uma vez; `paint(counts, selected)` só troca `class`. Cálculos novos vão para `map/model.ts` com teste, não para `render.ts`
+- **Filtro de famílias:** botão no cabeçalho com menu (`#fam-menu`); fecha com Esc, clique fora ou ao escolher. Escolher só muda `?fam=`
 - **Países pequenos** (`SMALL_COUNTRIES` em `map/model.ts`) ganham um ponto clicável quando têm jogos
-- **Celular (≤ 860px):** o painel vira bottom sheet (`position: fixed`, `max-height: 45dvh`) e o `main` reserva essa altura para o sheet não cobrir o mapa. Se mudar um, mude o outro
+- **Celular (≤ 860px):** o painel vira bottom sheet (`aside#sheet`, `position: fixed`, `height: 45dvh`) e o `main` reserva essa altura para o sheet não cobrir o mapa. Se mudar um, mude o outro. A alça (`#handle`) alterna o estado expandido (85dvh, cobre o mapa); abrir um jogo expande, voltar recolhe. O conteúdo das views vai em `#panel`, dentro do sheet
 - **Assets:** o geo sai de `import.meta.env.BASE_URL + "geo/countries.json"`

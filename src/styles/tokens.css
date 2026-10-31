@@ -1,47 +1,49 @@
+/* "Seed and wood": a carved mancala board. Bands run sand → walnut, the sea is sage, the selection teal. */
 :root {
-  --bg: #edf0f2;
-  --panel: #f8f9fa;
-  --ink: #1b2430;
-  --muted: #5b6672;
-  --line: #c9d0d6;
-  --sea: #e2e8ec;
-  --land: #d2d8dc;
-  --h1: #a9c1df;
-  --h2: #5f88c2;
-  --h3: #24447a;
-  --link: #3a64a0;
-  --sel: #b8402c;
-  --chip: #e3e8ec;
-  --st-documented: #2e7d4f;
-  --st-reconstructed: #a0661a;
-  --st-partial: #6b5ba8;
+  --bg: #eceee8;
+  --panel: #f7f8f4;
+  --ink: #23201b;
+  --muted: #625c52;
+  --line: #d2d2c8;
+  --sea: #cddbd5;
+  --land: #eae8e2;
+  --h1: #dcb46c;
+  --h2: #ac6b29;
+  --h3: #6b3d1c;
+  --link: #8a4d1c;
+  --sel: #0f7a6c;
+  --game: #86c2b6;
+  --chip: #e3e4dc;
+  --st-documented: #2d6e3e;
+  --st-reconstructed: #7f5d00;
+  --st-partial: #6a4f9c;
   --st-unknown: var(--muted);
 
-  --font-serif: "Young Serif", georgia, serif;
-  --font-sans:
-    "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: "Gloock", georgia, serif;
+  --font-sans: "Commissioner", system-ui, -apple-system, "Segoe UI", sans-serif;
 
   color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #11161c;
-    --panel: #171d24;
-    --ink: #e5e9ee;
-    --muted: #97a3af;
-    --line: #2c3540;
-    --sea: #141a21;
-    --land: #2a323c;
-    --h1: #2d4a73;
-    --h2: #4c78b5;
-    --h3: #9bbdeb;
-    --link: #7fa6dc;
-    --sel: #e2694f;
-    --chip: #212a33;
-    --st-documented: #6fcb93;
-    --st-reconstructed: #e3a857;
-    --st-partial: #b3a6f0;
+    --bg: #171511;
+    --panel: #1f1c17;
+    --ink: #ece6dc;
+    --muted: #a59c8d;
+    --line: #36312a;
+    --sea: #141a18;
+    --land: #2c2924;
+    --h1: #5a3d1e;
+    --h2: #a86d2e;
+    --h3: #e8c27f;
+    --link: #e0a868;
+    --sel: #3cc2ad;
+    --game: #1d6a5f;
+    --chip: #2a2620;
+    --st-documented: #7fcf95;
+    --st-reconstructed: #e3c45a;
+    --st-partial: #b9a6ec;
     --st-unknown: var(--muted);
 
     color-scheme: dark;
@@ -49,22 +51,23 @@
 }
 
 :root[data-theme="dark"] {
-  --bg: #11161c;
-  --panel: #171d24;
-  --ink: #e5e9ee;
-  --muted: #97a3af;
-  --line: #2c3540;
-  --sea: #141a21;
-  --land: #2a323c;
-  --h1: #2d4a73;
-  --h2: #4c78b5;
-  --h3: #9bbdeb;
-  --link: #7fa6dc;
-  --sel: #e2694f;
-  --chip: #212a33;
-  --st-documented: #6fcb93;
-  --st-reconstructed: #e3a857;
-  --st-partial: #b3a6f0;
+  --bg: #171511;
+  --panel: #1f1c17;
+  --ink: #ece6dc;
+  --muted: #a59c8d;
+  --line: #36312a;
+  --sea: #141a18;
+  --land: #2c2924;
+  --h1: #5a3d1e;
+  --h2: #a86d2e;
+  --h3: #e8c27f;
+  --link: #e0a868;
+  --sel: #3cc2ad;
+  --game: #1d6a5f;
+  --chip: #2a2620;
+  --st-documented: #7fcf95;
+  --st-reconstructed: #e3c45a;
+  --st-partial: #b9a6ec;
   --st-unknown: var(--muted);
 
   color-scheme: dark;

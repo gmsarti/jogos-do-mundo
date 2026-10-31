@@ -7,6 +7,10 @@ aside {
   border-radius: 14px;
 }
 
+.handle {
+  display: none;
+}
+
 /* Phone: bottom sheet over the map */
 @media (max-width: 860px) {
   aside {
@@ -17,10 +21,42 @@ aside {
     z-index: 1;
     /* Fixed height: the sheet is empty until the catalog loads and must not grow (layout shift) */
     height: 45dvh;
+    padding-top: 0;
     padding-bottom: calc(1.1rem + env(safe-area-inset-bottom, 0px));
     border-width: 1px 0 0;
     border-radius: 14px 14px 0 0;
     box-shadow: 0 -4px 16px rgb(0 0 0 / 0.12);
+  }
+
+  /* Covers the map; main keeps reserving only the collapsed height */
+  aside.expanded {
+    height: 85dvh;
+  }
+
+  .handle {
+    display: grid;
+    place-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 1.9rem;
+    padding: 0;
+    background: var(--panel);
+    border: 0;
+    cursor: pointer;
+  }
+
+  .handle::before {
+    content: "";
+    width: 2.6rem;
+    height: 0.3rem;
+    border-radius: 999px;
+    background: var(--line);
+  }
+
+  .handle:hover::before {
+    background: var(--muted);
   }
 }
 
@@ -48,6 +84,9 @@ aside h3 {
 }
 
 .list button {
+  transition:
+    background-color 0.15s,
+    border-color 0.15s;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -64,7 +103,8 @@ aside h3 {
 }
 
 .list button:hover {
-  border-color: var(--h2);
+  background: var(--chip);
+  border-color: var(--link);
 }
 
 .list small {
@@ -96,6 +136,15 @@ aside h3 {
 
 .b-unknown {
   color: var(--st-unknown);
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.05rem 0.5rem;
+  background: var(--chip);
+  border-radius: 999px;
+  color: var(--ink);
+  font-size: 0.75rem;
 }
 
 dl {
@@ -136,6 +185,22 @@ dd {
   color: var(--link);
   font: inherit;
   cursor: pointer;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+/* New panel content slides in; reduced motion is handled in base.css. Not while typing a search (data-quiet) */
+@keyframes panel-enter {
+  from {
+    opacity: 0.4;
+    transform: translateY(6px);
+  }
+}
+
+#panel:not([data-quiet]) > * {
+  animation: panel-enter 0.18s ease-out;
 }
 
 .note {

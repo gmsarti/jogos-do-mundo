@@ -22,30 +22,35 @@
     <div class="wrap">
       <header>
         <h1>Atlas de jogos de tabuleiro tradicionais</h1>
-        <p>
-          Clique num país para ver os jogos registrados no catálogo. Rascunho:
-          regras e datas ainda passam por verificação.
-        </p>
-        <input type="search" id="search" class="search" placeholder="Buscar jogo ou nome local" aria-label="Buscar jogo ou nome local" autocomplete="off" />
-        <button type="button" class="theme-toggle" id="theme" aria-label="Mudar de tema"></button>
+        <div class="tools">
+          <input type="search" id="search" class="search" placeholder="Buscar jogo, nome local ou família" aria-label="Buscar jogo, nome local ou família" autocomplete="off" />
+          <div class="fam" id="fam">
+            <button type="button" class="fam-button" id="fam-button" aria-expanded="false" aria-controls="fam-menu">Família: todas</button>
+            <ul class="fam-menu" id="fam-menu" aria-label="Filtrar por família" hidden></ul>
+          </div>
+          <button type="button" class="theme-toggle" id="theme" aria-label="Mudar de tema"></button>
+        </div>
       </header>
-      <nav class="chips" id="chips" aria-label="Filtrar por família"></nav>
       <main>
         <div class="mapbox" id="mapbox">
           <svg id="map" role="img" aria-label="Mapa-múndi com países que têm jogos registrados"></svg>
           <div class="zoom">
-            <button type="button" id="zin" aria-label="Aproximar">+</button>
-            <button type="button" id="zout" aria-label="Afastar">−</button>
-            <button type="button" id="zreset" aria-label="Ver mundo inteiro">⟲</button>
+            <button type="button" id="zin" aria-label="Aproximar"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+            <button type="button" id="zout" aria-label="Afastar"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/></svg></button>
+            <button type="button" id="zreset" aria-label="Ver mundo inteiro"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></button>
           </div>
           <div class="legend">
             <span><i class="sw sw-1"></i>1 jogo</span>
             <span><i class="sw sw-2"></i>2–3</span>
             <span><i class="sw sw-3"></i>4 ou mais</span>
+            <span id="legend-game" hidden><i class="sw sw-game"></i>onde se joga</span>
           </div>
           <div class="tip" id="tip"></div>
         </div>
-        <aside id="panel" aria-live="polite"></aside>
+        <aside id="sheet">
+          <button type="button" class="handle" id="handle" aria-expanded="false" aria-controls="panel" aria-label="Expandir painel"></button>
+          <div id="panel" aria-live="polite"></div>
+        </aside>
       </main>
     </div>
     <script type="module" src="/src/main.ts"></script>

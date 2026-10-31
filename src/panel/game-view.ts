@@ -24,6 +24,11 @@ export function gameView(
     [game.ev.date, game.ev.ref].filter(Boolean).join(" — ") || "a levantar";
   const countries = game.countries.map(countryName).join(", ") || "—";
   const place = game.place ? ` (${esc(game.place)})` : "";
+  // "nenhuma" is curation bookkeeping; anything else is worth a line
+  const sens =
+    game.sens === "nenhuma"
+      ? ""
+      : `<dt>Sensibilidade</dt><dd>${esc(game.sens)}</dd>`;
   const recon = game.recon.length
     ? `<dt>Reconstrução</dt><dd>${esc(game.recon.join("; "))}</dd>`
     : "";
@@ -34,9 +39,9 @@ export function gameView(
     )
     .join("");
 
-  return `<button type="button" class="back" data-back>${from ? esc(countryName(from)) : "Voltar"}</button>
+  return `<button type="button" class="back" data-back><span aria-hidden="true">←</span> ${from ? esc(countryName(from)) : "Voltar"}</button>
 <h2>${esc(game.title)}</h2>
-<p><span class="badge b-${game.status}">${STATUS_LABEL[game.status]}</span><span class="badge b-unknown">${esc(families)}</span></p>
+<p><span class="badge b-${game.status}">${STATUS_LABEL[game.status]}</span><span class="tag">${esc(families)}</span></p>
 ${game.names.length ? `<p class="muted">${game.names.map(esc).join("<br>")}</p>` : ""}
 <div class="prose">${md(game.summary)}</div>
 <dl>
@@ -46,8 +51,8 @@ ${game.names.length ? `<p class="muted">${game.names.map(esc).join("<br>")}</p>`
 <dt>Povos</dt><dd>${esc(game.cultures.join(", "))}</dd>
 <dt>Países</dt><dd>${esc(countries)}${place}</dd>
 <dt>Evidência</dt><dd>${esc(evidence)}</dd>
-<dt>Tradição viva</dt><dd>${esc(game.living)}</dd>
-<dt>Sensibilidade</dt><dd>${esc(game.sens)}</dd>
+<dt>Ainda é jogado?</dt><dd>${esc(game.living)}</dd>
+${sens}
 ${recon}
 </dl>
 ${section("História", game.history ? `<div class="prose">${md(game.history)}</div>` : "")}

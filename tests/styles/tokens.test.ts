@@ -17,6 +17,7 @@ const colorTokens = [
   "h3",
   "link",
   "sel",
+  "game",
   "chip",
   "st-documented",
   "st-reconstructed",

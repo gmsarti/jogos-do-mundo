@@ -1,6 +1,8 @@
 .wrap {
   display: grid;
-  grid-template-rows: auto auto 1fr;
+  grid-template-rows: auto 1fr;
+  /* Without an explicit column the search field's intrinsic width widens the page on phones */
+  grid-template-columns: minmax(0, 1fr);
   height: 100%;
   max-width: 1500px;
   margin: 0 auto;
@@ -8,30 +10,32 @@
 }
 
 header {
-  position: relative;
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0.4rem 1.5rem;
-  padding: 1.4rem 0 0.6rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem 1.5rem;
+  padding: 1rem 0 0.9rem;
 }
 
 h1 {
-  font-size: clamp(1.6rem, 3.2vw, 2.4rem);
+  font-size: clamp(1.3rem, 2.2vw, 1.75rem);
   line-height: 1.1;
   letter-spacing: -0.01em;
 }
 
-header p {
-  margin: 0;
-  max-width: 62ch;
-  color: var(--muted);
+.tools {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 0;
 }
 
-.search {
-  min-width: 14rem;
-  padding: 0.35rem 0.7rem;
-  margin-right: 2.9rem;
+/* Search, family button and theme toggle share one control style */
+.search,
+.fam-button,
+.theme-toggle {
+  height: 2.25rem;
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -40,50 +44,105 @@ header p {
   font-size: 0.9rem;
 }
 
+.search:hover,
+.fam-button:hover,
+.theme-toggle:hover {
+  border-color: var(--link);
+}
+
+.search {
+  width: 16rem;
+  min-width: 0;
+  padding: 0 0.7rem;
+}
+
+.fam {
+  position: relative;
+  min-width: 0;
+}
+
+.fam-button {
+  max-width: 17rem;
+  padding: 0 0.7rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.fam-button::after {
+  content: "▾" / "";
+  margin-left: 0.4rem;
+  color: var(--muted);
+}
+
+.fam-button.active {
+  background: var(--chip);
+  border-color: var(--link);
+}
+
+.fam-menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.35rem);
+  z-index: 2;
+  display: grid;
+  gap: 1px;
+  width: min(21rem, calc(100vw - 1.5rem));
+  max-height: min(28rem, 70dvh);
+  overflow: auto;
+  margin: 0;
+  padding: 0.35rem;
+  list-style: none;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.16);
+}
+
+/* display: grid above would beat the hidden attribute */
+.fam-menu[hidden] {
+  display: none;
+}
+
+.fam-menu button {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.8rem;
+  width: 100%;
+  padding: 0.45rem 0.6rem;
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.92rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.fam-menu button:hover {
+  background: var(--chip);
+}
+
+.fam-menu button[aria-pressed="true"] {
+  background: var(--chip);
+  font-weight: 600;
+}
+
+.fam-menu small {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
 .theme-toggle {
   display: grid;
   place-items: center;
-  width: 2.1rem;
-  height: 2.1rem;
-  position: absolute;
-  top: 1.4rem;
-  right: 0;
+  flex: none;
+  width: 2.25rem;
   padding: 0;
-  background: var(--panel);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  color: var(--ink);
   cursor: pointer;
-}
-
-.theme-toggle:hover {
-  border-color: var(--h2);
-}
-
-.chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  padding: 0.3rem 0 0.8rem;
-  /* Chips are filled by JS; reserve one row so the map does not jump when they appear */
-  min-height: 2.9rem;
-}
-
-.chip {
-  border: 1px solid var(--line);
-  background: var(--chip);
-  color: var(--ink);
-  border-radius: 999px;
-  padding: 0.25rem 0.75rem;
-  font: inherit;
-  font-size: 0.86rem;
-  cursor: pointer;
-}
-
-.chip[aria-pressed="true"] {
-  background: var(--h3);
-  color: var(--bg);
-  border-color: var(--h3);
 }
 
 main {
@@ -102,27 +161,35 @@ main {
   }
 
   header {
-    padding: 0.8rem 2.9rem 0.3rem 0;
+    padding: 0.7rem 0 0.6rem;
   }
 
-  header p {
-    display: none;
+  h1 {
+    font-size: 1.2rem;
   }
 
-  .theme-toggle {
-    top: 0.8rem;
+  /* The menu spans the whole toolbar, so it never runs off the left edge */
+  .tools {
+    position: relative;
+    width: 100%;
   }
 
-  .chips {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    margin: 0 -0.75rem;
-    padding: 0.3rem 0.75rem 0.6rem;
-    min-height: 2.9rem;
+  .fam {
+    position: static;
   }
 
-  .chip {
-    flex: none;
+  .fam-menu {
+    left: 0;
+    width: auto;
+  }
+
+  .search {
+    flex: 1;
+    width: auto;
+  }
+
+  .fam-button {
+    max-width: 11rem;
   }
 
   /* Leave room for the bottom sheet (height in panel.css) so it never covers the map */

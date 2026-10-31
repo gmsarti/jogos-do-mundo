@@ -17,6 +17,12 @@ describe("index.html", () => {
     expect(html).toMatch(/<button[^>]*id="theme"[^>]*aria-label="[^"]+"/);
   });
 
+  test("bottom sheet handle is a named button that controls the panel", () => {
+    expect(html).toMatch(
+      /<button[^>]*id="handle"[^>]*aria-expanded="false"[^>]*aria-controls="panel"[^>]*aria-label="[^"]+"/,
+    );
+  });
+
   test.each([
     'name="description"',
     'property="og:title"',

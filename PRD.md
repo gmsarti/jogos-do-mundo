@@ -56,15 +56,16 @@ Prioridade: **M** = obrigatório no MVP, **S** = deveria ter logo depois, **C** 
 | RF-07 | Painel de país: lista de jogos com família | M |
 | RF-08 | Painel de jogo: status, famílias, nomes locais, resumo, ficha (tabuleiro, peças, jogadores, povos, países, evidência, tradição viva, sensibilidade, reconstrução), história, regras, referências | M |
 | RF-09 | Rotas por hash para país, jogo e filtro; voltar e avançar do navegador funcionam | M |
-| RF-10 | Layout responsivo: painel lateral no desktop, bottom sheet no celular | M |
+| RF-10 | Layout responsivo: painel lateral no desktop, bottom sheet no celular (recolhido ou expandido) | M |
 | RF-11 | Temas claro e escuro automáticos, com opção manual | S |
-| RF-12 | Busca por nome do jogo e por nomes locais | S |
+| RF-12 | Busca por nome do jogo, por nomes locais e por família | S |
 | RF-13 | Ao abrir um país ou jogo, o mapa aproxima e destaca o(s) país(es) | S |
 | RF-14 | Navegação do mapa pelo teclado | S |
 | RF-15 | Metadados de compartilhamento (título, descrição, imagem) | S |
 | RF-16 | Jogos relacionados (mesma família ou região) no painel do jogo | C |
 | RF-17 | Diagrama SVG do tabuleiro para os tipos mais comuns (ex.: 3×3 com diagonais, mancala de 2 fileiras) | C |
 | RF-18 | Filtro por status de confiança das regras | C |
+| RF-19 | Versão de impressão da ficha do jogo, para uso em aula | C |
 
 ## 8. Requisitos não funcionais
 
@@ -107,4 +108,4 @@ Prioridade: **M** = obrigatório no MVP, **S** = deveria ter logo depois, **C** 
 - Licença do código e do conteúdo (ex.: MIT + CC BY-SA?)
 - Domínio próprio ou `<usuario>.github.io/jogos-do-mundo`
 - Como tratar jogos com área de origem incerta ou que atravessa fronteiras (hoje vão para "sem país definido" ou para vários países)
-- Fontes tipográficas: manter Young Serif + Instrument Sans do protótipo e hospedá-las localmente?
+- ~~Fontes tipográficas~~: resolvido no T-045, Gloock + Commissioner hospedadas no projeto (cobrem latim estendido, cirílico e vietnamita no texto)

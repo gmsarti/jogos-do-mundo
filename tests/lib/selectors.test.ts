@@ -4,6 +4,7 @@ import {
   countByCountry,
   gamesOfCountry,
   gamesWithoutCountry,
+  searchFamilies,
   searchGames,
   topCountries,
   visibleGames,
@@ -100,5 +101,24 @@ describe("searchGames", () => {
 
   test("returns nothing for a blank query", () => {
     expect(searchGames(games, "   ")).toEqual([]);
+  });
+});
+
+describe("searchFamilies", () => {
+  const families = { ...catalog.families, cacada: "Caça assimétrica" };
+
+  test("matches family labels ignoring accents and case", () => {
+    expect(searchFamilies(families, catalog.games, "MANC")).toEqual([
+      ["mancala", "Mancala"],
+    ]);
+  });
+
+  test("skips families without games", () => {
+    expect(searchFamilies(families, catalog.games, "jogos")).toEqual([]);
+    expect(searchFamilies(families, catalog.games, "caca")).toEqual([]);
+  });
+
+  test("returns nothing for a blank query", () => {
+    expect(searchFamilies(families, catalog.games, " ")).toEqual([]);
   });
 });
