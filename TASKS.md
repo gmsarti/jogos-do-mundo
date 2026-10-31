@@ -92,7 +92,8 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
   - Desvio: o zoom só roda quando o alvo muda (trocar de chip mantém o zoom do usuário); escala máxima 8. Conferido no Playwright (desktop): país, país pequeno e carga direta por URL
 - [x] **T-043** Navegação do mapa pelo teclado (RF-14)
   - Desvio: cada país com jogos é um `role="button"` com `tabindex="0"` e `aria-label` igual ao tooltip (Enter/Espaço abrem); países pequenos entram pelo ponto, não pela forma. São 79 paradas de Tab na ordem do desenho, sem atalhos de seta (a "saída" do mapa é pular para o painel). Conferido no Playwright (desktop)
-- [ ] **T-044** Metadados de compartilhamento e imagem social (RF-15)
+- [x] **T-044** Metadados de compartilhamento e imagem social (RF-15)
+  - Desvio: metatags estáticas no `index.html` (rotas por hash não têm metadados próprios para crawlers); `og:image` precisa de URL absoluta e usa a origem `https://gmsarti.github.io` fixa + `%BASE_URL%` (revisar junto com a decisão de domínio do PRD § 12). `public/og.png` (1200×630) é um print do mapa, gerado à mão no navegador; refazer se a paleta mudar
 - [ ] **T-045** Polimento visual: tipografia, transições do painel, estados de hover e foco
 
 ## Fase 5 — Conteúdo e extras (M4)
