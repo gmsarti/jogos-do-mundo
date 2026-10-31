@@ -94,7 +94,18 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
   - Desvio: cada país com jogos é um `role="button"` com `tabindex="0"` e `aria-label` igual ao tooltip (Enter/Espaço abrem); países pequenos entram pelo ponto, não pela forma. São 79 paradas de Tab na ordem do desenho, sem atalhos de seta (a "saída" do mapa é pular para o painel). Conferido no Playwright (desktop)
 - [x] **T-044** Metadados de compartilhamento e imagem social (RF-15)
   - Desvio: metatags estáticas no `index.html` (rotas por hash não têm metadados próprios para crawlers); `og:image` precisa de URL absoluta e usa a origem `https://gmsarti.github.io` fixa + `%BASE_URL%` (revisar junto com a decisão de domínio do PRD § 12). `public/og.png` (1200×630) é um print do mapa, gerado à mão no navegador; refazer se a paleta mudar
-- [ ] **T-045** Polimento visual: tipografia, transições do painel, estados de hover e foco
+- [~] **T-045** Polimento visual: tipografia, transições do painel, estados de hover e foco
+  - Escopo ampliado com a revisão de design (combinação C e filtro F2): fontes Gloock + Commissioner com todos os subconjuntos (hoje só `latin`, e nomes como "Ayò Ọlọ́pọ́n" misturam fontes), paleta "semente e madeira" com contorno no país selecionado, filtro de famílias num botão com menu no lugar dos chips, busca que também acha famílias, destaque de todos os países do jogo aberto (RF-13), bottom sheet com estados recolhido e expandido, cabeçalho compacto, ficha sem campos de curadoria crus, voltar com seta, ícones SVG no zoom, hover e foco comuns, transição do painel e `og.png` refeito
+  - Testes: fontes não restritas a `latin`; classe dos países do jogo aberto; menu de famílias com contagem e `aria-pressed`; busca encontra famílias sem acento; ficha omite sensibilidade "nenhuma"
+- [ ] **T-046** Nomes de línguas legíveis nos nomes locais: mostrar o nome em pt-BR no lugar do código ISO 639 e omitir `und` (RF-08)
+  - Conteúdo: tabela código → nome em `content/`, com fonte (ISO 639-3); hoje 17 nomes usam `und`
+  - Testes: código conhecido vira nome; `und` some; código sem nome cai no próprio código
+- [ ] **T-047** Clareza de confiança e cobertura: explicar os quatro níveis de `status` a partir do badge, ponto de status nas listas, e rótulo honesto no ranking da home ("no catálogo até agora") (RF-06, RF-07, objetivo 3)
+  - Testes: listas mostram o status de cada jogo; a explicação cobre os quatro níveis
+- [ ] **T-048** Enquadramento do mapa no desktop: hoje o mundo ocupa cerca de 60% da altura da caixa em 1440×900; ajustar à altura disponível ou cortar latitudes polares, conferindo junto com o zoom do T-042
+  - Testes: cálculo do enquadramento em `map/model.ts`
+- [ ] **T-049** Estilo de impressão da ficha do jogo (RF-19): `@media print` só com a ficha e as referências por extenso
+  - Aceite: conferido na prévia de impressão do navegador, nos dois temas
 
 ## Fase 5 — Conteúdo e extras (M4)
 
@@ -105,4 +116,4 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
 
 ## Decisões pendentes
 
-Ver [PRD.md § Questões em aberto](PRD.md#12-questões-em-aberto). Licença e domínio ainda precisam de resposta (fontes: resolvido no T-038, self-hosted).
+Ver [PRD.md § Questões em aberto](PRD.md#12-questões-em-aberto). Licença e domínio ainda precisam de resposta (fontes: resolvido no T-045, Gloock + Commissioner self-hosted).
