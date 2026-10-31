@@ -9,6 +9,7 @@ import type { Countries } from "../types.ts";
 import {
   countryClass,
   dotClass,
+  focusTransform,
   isoByNum,
   SMALL_COUNTRIES,
   tooltipText,
@@ -24,6 +25,8 @@ export type GeoTopology = Topology<{ countries: GeometryCollection }>;
 export interface MapView {
   /** Applies counts per country and the selected country to the SVG. */
   paint(counts: Record<string, number>, selected: string | null): void;
+  /** Zooms to the given countries, or back to the whole world when empty. */
+  focus(isos: string[]): void;
 }
 
 type CountryFeature = Feature<Geometry>;
@@ -120,10 +123,39 @@ export function createMap(
     svg.transition().call(behavior.transform, zoomIdentity),
   );
 
+  function focus(isos: string[]): void {
+    const wanted = shapes.filter((d) => isos.includes(isoOf(d))).data();
+    let bounds: [[number, number], [number, number]] | null = null;
+    for (const d of wanted) {
+      const [[x0, y0], [x1, y1]] = path.bounds(d);
+      bounds = bounds
+        ? [
+            [Math.min(bounds[0][0], x0), Math.min(bounds[0][1], y0)],
+            [Math.max(bounds[1][0], x1), Math.max(bounds[1][1], y1)],
+          ]
+        : [
+            [x0, y0],
+            [x1, y1],
+          ];
+    }
+    const { k, x, y } = focusTransform(
+      bounds,
+      box.clientWidth,
+      box.clientHeight,
+    );
+    const target = zoomIdentity.translate(x, y).scale(k);
+    const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    svg
+      .transition()
+      .duration(still ? 0 : 600)
+      .call(behavior.transform, target);
+  }
+
   new ResizeObserver(resize).observe(box);
   resize();
 
   return {
+    focus,
     paint(next, selected) {
       counts = next;
       shapes.attr("class", (d) => {

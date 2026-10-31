@@ -88,7 +88,8 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
 - [x] **T-041** Busca por nome e nomes locais (RF-12)
   - Desvio: o texto da busca não vai para a URL (é transitório); a lista de resultados ocupa o painel e qualquer navegação limpa o campo. Conferido no Playwright em desktop e 375px
   - Testes: busca sem acento e sem diferenciar maiúsculas encontra nomes locais
-- [ ] **T-042** Zoom animado até o país ou os países do jogo aberto, respeitando `prefers-reduced-motion` (RF-13)
+- [x] **T-042** Zoom animado até o país ou os países do jogo aberto, respeitando `prefers-reduced-motion` (RF-13)
+  - Desvio: o zoom só roda quando o alvo muda (trocar de chip mantém o zoom do usuário); escala máxima 8. Conferido no Playwright (desktop): país, país pequeno e carga direta por URL
 - [ ] **T-043** Navegação do mapa pelo teclado (RF-14)
 - [ ] **T-044** Metadados de compartilhamento e imagem social (RF-15)
 - [ ] **T-045** Polimento visual: tipografia, transições do painel, estados de hover e foco
