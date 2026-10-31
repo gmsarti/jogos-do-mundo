@@ -39,7 +39,9 @@ a {
   *,
   *::before,
   *::after {
+    /* biome-ignore lint/complexity/noImportantStyles: must beat any component animation to honor reduced motion */
     animation-duration: 0.01ms !important;
+    /* biome-ignore lint/complexity/noImportantStyles: same as above */
     transition-duration: 0.01ms !important;
   }
 }
