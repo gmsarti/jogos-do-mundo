@@ -102,8 +102,9 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
   - Conteúdo: tabela código → nome em `content/`, com fonte (ISO 639-3); hoje 17 nomes usam `und`
   - Testes: código conhecido vira nome; `und` some; código sem nome cai no próprio código
   - Desvio: a tabela tem 66 entradas e cobre todas as etiquetas usadas (incluindo `pt-MZ` e `ko-Hani`); nomes tirados da Wikipedia em português ligada a cada código ISO 639, e `akan` e `mocoví` (sem artigo em pt) da tabela ISO 639-3 da SIL. Um teste de conteúdo exige nome para todo código usado. Listas como `la/sv` viram "latim / sueco"
-- [ ] **T-047** Clareza de confiança e cobertura: explicar os quatro níveis de `status` a partir do badge, ponto de status nas listas, e rótulo honesto no ranking da home ("no catálogo até agora") (RF-06, RF-07, objetivo 3)
+- [x] **T-047** Clareza de confiança e cobertura: explicar os quatro níveis de `status` a partir do badge, ponto de status nas listas, e rótulo honesto no ranking da home ("no catálogo até agora") (RF-06, RF-07, objetivo 3)
   - Testes: listas mostram o status de cada jogo; a explicação cobre os quatro níveis
+  - Desvio: a explicação é um `<details>` nativo ("O que significa?") sob o badge, com o texto da tabela de `status` do `content/AGENTS.md`. O ponto de status muda de forma além da cor (cheio, meio, anel, anel pontilhado) e tem texto para leitor de tela. O título do ranking virou "Países com mais jogos no catálogo até agora"
 - [ ] **T-048** Enquadramento do mapa no desktop: hoje o mundo ocupa cerca de 60% da altura da caixa em 1440×900; ajustar à altura disponível ou cortar latitudes polares, conferindo junto com o zoom do T-042
   - Testes: cálculo do enquadramento em `map/model.ts`
 - [ ] **T-049** Estilo de impressão da ficha do jogo (RF-19): `@media print` só com a ficha e as referências por extenso

@@ -1,13 +1,7 @@
 import { esc, md } from "../lib/md.ts";
 import { localName } from "../lib/names.ts";
-import type { Catalog, Game, Status } from "../types.ts";
-
-const STATUS_LABEL: Record<Status, string> = {
-  documented: "regra documentada",
-  reconstructed: "regra reconstruída",
-  partial: "regra parcial",
-  unknown: "regra desconhecida",
-};
+import type { Catalog, Game } from "../types.ts";
+import { STATUS_LABEL, statusHelp } from "./status.ts";
 
 function section(title: string, body: string): string {
   return body ? `<h3>${title}</h3>${body}` : "";
@@ -43,6 +37,7 @@ export function gameView(
   return `<button type="button" class="back" data-back><span aria-hidden="true">←</span> ${from ? esc(countryName(from)) : "Voltar"}</button>
 <h2>${esc(game.title)}</h2>
 <p><span class="badge b-${game.status}">${STATUS_LABEL[game.status]}</span><span class="tag">${esc(families)}</span></p>
+${statusHelp()}
 ${game.names.length ? `<p class="muted">${game.names.map((n) => esc(localName(n, catalog.languages))).join("<br>")}</p>` : ""}
 <div class="prose">${md(game.summary)}</div>
 <dl>
