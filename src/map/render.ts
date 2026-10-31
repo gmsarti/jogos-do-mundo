@@ -1,7 +1,7 @@
 import { geoNaturalEarth1, geoPath } from "d3-geo";
 import { type Selection, select } from "d3-selection";
 import "d3-transition";
-import { zoom, zoomIdentity } from "d3-zoom";
+import { type ZoomTransform, zoom, zoomIdentity } from "d3-zoom";
 import type { Feature, Geometry } from "geojson";
 import { feature } from "topojson-client";
 import type { GeometryCollection, Topology } from "topojson-specification";
@@ -68,6 +68,7 @@ export function createMap(
     .attr("r", DOT_RADIUS);
 
   let counts: Record<string, number> = {};
+  let focused: string[] = [];
 
   function resize(): void {
     const { clientWidth: w, clientHeight: h } = box;
@@ -83,6 +84,8 @@ export function createMap(
     dots
       .attr("cx", (d) => path.centroid(d)[0])
       .attr("cy", (d) => path.centroid(d)[1]);
+    // The projection changed, so a zoom computed for the old size points elsewhere (e.g. after fonts load)
+    svg.call(behavior.transform, focusTarget(focused));
   }
 
   function showTip(event: MouseEvent, d: CountryFeature): void {
@@ -133,7 +136,7 @@ export function createMap(
     svg.transition().call(behavior.transform, zoomIdentity),
   );
 
-  function focus(isos: string[]): void {
+  function focusTarget(isos: string[]): ZoomTransform {
     const wanted = shapes.filter((d) => isos.includes(isoOf(d))).data();
     let bounds: [[number, number], [number, number]] | null = null;
     for (const d of wanted) {
@@ -153,12 +156,16 @@ export function createMap(
       box.clientWidth,
       box.clientHeight,
     );
-    const target = zoomIdentity.translate(x, y).scale(k);
+    return zoomIdentity.translate(x, y).scale(k);
+  }
+
+  function focus(isos: string[]): void {
+    focused = isos;
     const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
     svg
       .transition()
       .duration(still ? 0 : 600)
-      .call(behavior.transform, target);
+      .call(behavior.transform, focusTarget(isos));
   }
 
   new ResizeObserver(resize).observe(box);
