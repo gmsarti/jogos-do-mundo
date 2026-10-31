@@ -46,6 +46,9 @@ svg {
 .country.has.sel,
 .country.sel {
   fill: var(--sel);
+  /* Outline too, so the selection does not rely on color alone */
+  stroke: var(--ink);
+  stroke-width: 1.5;
 }
 
 .dot {
@@ -58,6 +61,8 @@ svg {
 
 .dot.sel {
   fill: var(--sel);
+  stroke: var(--ink);
+  stroke-width: 1.5;
 }
 
 .country:focus-visible,
