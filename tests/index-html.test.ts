@@ -8,6 +8,12 @@ describe("index.html", () => {
     expect(html).not.toMatch(/(?:href|src)="https?:\/\//);
   });
 
+  // Without it the browser asks for /favicon.ico at the domain root and logs a 404
+  test("declares a favicon that exists under the base path", () => {
+    expect(html).toContain('<link rel="icon" href="%BASE_URL%favicon.svg"');
+    expect(existsSync("public/favicon.svg")).toBe(true);
+  });
+
   test("preloads the geo file so it downloads in parallel with the script", () => {
     expect(html).toContain('rel="preload"');
     expect(html).toContain("%BASE_URL%geo/countries.json");
