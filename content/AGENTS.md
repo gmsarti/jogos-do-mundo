@@ -9,6 +9,7 @@ Regras específicas da pasta `content/`. As regras globais (honestidade, "nunca 
 | `games/<id>.md` | Um jogo por arquivo: frontmatter YAML + corpo com `## História` e `## Regras` |
 | `families.json` | Famílias: `id` → rótulo em pt-BR |
 | `countries.json` | Países: ISO 3166-1 alfa-2 → `{ "pt": nome, "num": código numérico do TopoJSON }` |
+| `languages.json` | Línguas dos nomes locais: código ISO 639 → nome em pt-BR |
 
 `make data` valida tudo com zod (`scripts/schema.ts`) e gera `src/generated/catalog.json`. Os erros apontam arquivo e campo (`games/achi.md: status: ...`). O `make check` roda a mesma validação.
 
@@ -20,7 +21,7 @@ Todos os campos são obrigatórios, a menos que a coluna diga o contrário. Camp
 | --- | --- | --- |
 | `id` | string | kebab-case sem acentos, **igual ao nome do arquivo** |
 | `title` | string | Nome de exibição (pode trazer o país entre parênteses para desambiguar) |
-| `names` | lista de strings | Nomes locais no formato `nome · código-do-idioma` (ex.: `achi · ak`). Pode ser vazia |
+| `names` | lista de strings | Nomes locais no formato `nome · código-do-idioma` (ex.: `achi · ak`). Código ISO 639 (`und` = indeterminado, não aparece no site); etiquetas como `pt-MZ` e listas como `la/sv` valem. Todo código precisa estar em `languages.json`. Pode ser vazia |
 | `fam` | lista de ids | Pelo menos uma; cada uma existe em `families.json` |
 | `countries` | lista de ISO-2 | Cada uma existe em `countries.json`. Vazia = "sem país definido" |
 | `cultures` | lista de strings | Povos ou comunidades. Use `a verificar` se não souber |
@@ -49,6 +50,10 @@ O corpo do arquivo tem as seções `## História` e `## Regras`, ambas opcionais
 | `unknown` | Não há regras confiáveis |
 
 Na dúvida, escolha o status **menos** confiável.
+
+## Línguas (`languages.json`)
+
+Código ISO 639 → nome da língua em pt-BR, em minúsculas, como aparece no site (`awalé · francês`). Fonte do nome: o título do artigo da Wikipedia em português ligado ao código (`en.wikipedia.org/wiki/ISO_639:<código>` → link "Português"). Sem artigo em português, use o nome de referência da [tabela ISO 639-3 da SIL](https://iso639-3.sil.org/code_tables/download_tables) (foi o caso de `akan` e `mocoví`). Etiquetas com região ou escrita (`pt-MZ`, `ko-Hani`) podem ter nome próprio; sem ele, o site usa o nome do código-base.
 
 ## Exemplo comentado
 

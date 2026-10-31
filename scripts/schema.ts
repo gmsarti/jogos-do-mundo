@@ -12,6 +12,12 @@ export const countriesSchema = z.record(
   z.strictObject({ pt: text, num: z.string().regex(/^\d{3}$/) }),
 );
 
+// ISO 639 code, optionally tagged with a script (ko-Hani) or a region (pt-MZ)
+export const languagesSchema = z.record(
+  z.string().regex(/^[a-z]{2,3}(-[A-Z][a-z]{3}|-[A-Z]{2})?$/),
+  text,
+);
+
 interface GameContext {
   /** File name without extension; the game id must match it. */
   fileId: string;
