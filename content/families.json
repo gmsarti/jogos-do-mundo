@@ -1,0 +1,14 @@
+{
+  "adjacente": "Adjacentes (fora do núcleo)",
+  "alinhamento": "Jogos de alinhamento",
+  "bloqueio": "Jogos de bloqueio",
+  "caca-assimetrico": "Caça e jogos assimétricos",
+  "captura-posicional": "Captura por posicionamento",
+  "corrida": "Jogos de corrida",
+  "damas": "Damas e captura por salto",
+  "desconhecida": "Família desconhecida",
+  "pecas": "Jogos de peças",
+  "semeadura": "Jogos de semeadura (mancala)",
+  "territorio": "Jogos de território",
+  "xadrez-e-guerra": "Xadrez e jogos de guerra"
+}
