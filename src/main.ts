@@ -86,6 +86,8 @@ async function boot(): Promise<void> {
   const famButton = element("fam-button");
   const famMenu = element("fam-menu");
   const panel = element("panel");
+  const sheet = element("sheet");
+  const handle = element("handle");
   let state = parseHash(location.hash, catalog);
 
   const map = createMap(element("mapbox"), geo, catalog.countries, (iso) =>
@@ -93,6 +95,16 @@ async function boot(): Promise<void> {
   );
 
   let focused = "";
+
+  // Phone only (CSS): the bottom sheet grows to read a game and shrinks back to show the map
+  function setSheet(expanded: boolean): void {
+    sheet.classList.toggle("expanded", expanded);
+    handle.setAttribute("aria-expanded", String(expanded));
+    handle.setAttribute(
+      "aria-label",
+      expanded ? "Recolher painel" : "Expandir painel",
+    );
+  }
 
   function setMenu(open: boolean): void {
     famMenu.hidden = !open;
@@ -126,7 +138,8 @@ async function boot(): Promise<void> {
     if (found) panel.innerHTML = gameView(catalog, found, country);
     else if (country) panel.innerHTML = countryView(catalog, fam, country);
     else panel.innerHTML = homeView(catalog, fam);
-    panel.scrollTop = 0;
+    setSheet(found !== undefined);
+    sheet.scrollTop = 0;
   }
 
   // Changing the state only touches the URL; hashchange renders (back/forward work the same way)
@@ -153,8 +166,12 @@ async function boot(): Promise<void> {
       search.value,
     );
     panel.innerHTML = searchView(catalog, results, families);
-    panel.scrollTop = 0;
+    sheet.scrollTop = 0;
   });
+
+  handle.addEventListener("click", () =>
+    setSheet(handle.getAttribute("aria-expanded") !== "true"),
+  );
 
   famButton.addEventListener("click", () =>
     setMenu(famButton.getAttribute("aria-expanded") !== "true"),

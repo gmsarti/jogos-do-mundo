@@ -47,7 +47,10 @@
           </div>
           <div class="tip" id="tip"></div>
         </div>
-        <aside id="panel" aria-live="polite"></aside>
+        <aside id="sheet">
+          <button type="button" class="handle" id="handle" aria-expanded="false" aria-controls="panel" aria-label="Expandir painel"></button>
+          <div id="panel" aria-live="polite"></div>
+        </aside>
       </main>
     </div>
     <script type="module" src="/src/main.ts"></script>

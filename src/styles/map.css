@@ -159,9 +159,12 @@ svg {
     min-height: 0;
   }
 
-  /* The bottom sheet covers the lower part of the map */
+  /* The bottom sheet covers the lower part of the map; wrap before the zoom buttons */
   .legend {
     top: 0.8rem;
     bottom: auto;
+    right: 3.6rem;
+    flex-wrap: wrap;
+    gap: 0.2rem 0.7rem;
   }
 }

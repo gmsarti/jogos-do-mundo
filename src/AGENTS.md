@@ -35,5 +35,5 @@ Formato das rotas: `#/`, `#/pais/GH`, `#/jogo/achi`, com `?fam=<familia>` e, no 
 - **Mapa:** os países são desenhados uma vez; `paint(counts, selected)` só troca `class`. Cálculos novos vão para `map/model.ts` com teste, não para `render.ts`
 - **Filtro de famílias:** botão no cabeçalho com menu (`#fam-menu`); fecha com Esc, clique fora ou ao escolher. Escolher só muda `?fam=`
 - **Países pequenos** (`SMALL_COUNTRIES` em `map/model.ts`) ganham um ponto clicável quando têm jogos
-- **Celular (≤ 860px):** o painel vira bottom sheet (`position: fixed`, `max-height: 45dvh`) e o `main` reserva essa altura para o sheet não cobrir o mapa. Se mudar um, mude o outro
+- **Celular (≤ 860px):** o painel vira bottom sheet (`aside#sheet`, `position: fixed`, `height: 45dvh`) e o `main` reserva essa altura para o sheet não cobrir o mapa. Se mudar um, mude o outro. A alça (`#handle`) alterna o estado expandido (85dvh, cobre o mapa); abrir um jogo expande, voltar recolhe. O conteúdo das views vai em `#panel`, dentro do sheet
 - **Assets:** o geo sai de `import.meta.env.BASE_URL + "geo/countries.json"`
