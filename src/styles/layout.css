@@ -44,6 +44,12 @@ h1 {
   font-size: 0.9rem;
 }
 
+.search:hover,
+.fam-button:hover,
+.theme-toggle:hover {
+  border-color: var(--link);
+}
+
 .search {
   width: 16rem;
   min-width: 0;
@@ -114,6 +120,10 @@ h1 {
   font-size: 0.92rem;
   text-align: left;
   cursor: pointer;
+}
+
+.fam-menu button:hover {
+  background: var(--chip);
 }
 
 .fam-menu button[aria-pressed="true"] {

@@ -135,6 +135,7 @@ async function boot(): Promise<void> {
       focused = isos.join();
       map.focus(isos);
     }
+    delete panel.dataset.quiet;
     if (found) panel.innerHTML = gameView(catalog, found, country);
     else if (country) panel.innerHTML = countryView(catalog, fam, country);
     else panel.innerHTML = homeView(catalog, fam);
@@ -165,6 +166,7 @@ async function boot(): Promise<void> {
       catalog.games,
       search.value,
     );
+    panel.dataset.quiet = "";
     panel.innerHTML = searchView(catalog, results, families);
     sheet.scrollTop = 0;
   });

@@ -69,6 +69,12 @@ describe("countryView", () => {
   test("has a button back to the home", () => {
     expect(countryView(catalog, null, "NG")).toContain("data-home");
   });
+
+  test("back to the home shows an arrow hidden from screen readers", () => {
+    expect(countryView(catalog, null, "NG")).toContain(
+      '<span aria-hidden="true">←</span> Todos os países',
+    );
+  });
 });
 
 describe("gameView", () => {
@@ -121,8 +127,35 @@ describe("gameView", () => {
   });
 
   test("back button names the country the game was opened from", () => {
-    expect(gameView(catalog, full, "GH")).toContain(">Gana</button>");
-    expect(gameView(catalog, full, null)).toContain(">Voltar</button>");
+    expect(gameView(catalog, full, "GH")).toContain(" Gana</button>");
+    expect(gameView(catalog, full, null)).toContain(" Voltar</button>");
+  });
+
+  test("back button shows an arrow hidden from screen readers", () => {
+    expect(gameView(catalog, full, "GH")).toContain(
+      '<span aria-hidden="true">←</span> Gana',
+    );
+  });
+
+  test("shows families as a neutral tag, not with a status style", () => {
+    const html = gameView(catalog, full, null);
+    expect(html).toContain('<span class="tag">Alinhamento</span>');
+    expect(html).not.toContain('b-unknown">Alinhamento');
+  });
+
+  test("asks whether the game is still played", () => {
+    expect(gameView(catalog, full, null)).toContain(
+      "<dt>Ainda é jogado?</dt><dd>desconhecido</dd>",
+    );
+  });
+
+  test("hides sensitivity when there is none", () => {
+    expect(gameView(catalog, full, null)).not.toContain("Sensibilidade");
+  });
+
+  test("shows sensitivity when there is something to say", () => {
+    const html = gameView(catalog, { ...full, sens: "ritual" }, null);
+    expect(html).toContain("<dt>Sensibilidade</dt><dd>ritual</dd>");
   });
 
   test("escapes text coming from the content", () => {

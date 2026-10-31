@@ -84,6 +84,9 @@ aside h3 {
 }
 
 .list button {
+  transition:
+    background-color 0.15s,
+    border-color 0.15s;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -100,7 +103,8 @@ aside h3 {
 }
 
 .list button:hover {
-  border-color: var(--h2);
+  background: var(--chip);
+  border-color: var(--link);
 }
 
 .list small {
@@ -132,6 +136,15 @@ aside h3 {
 
 .b-unknown {
   color: var(--st-unknown);
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.05rem 0.5rem;
+  background: var(--chip);
+  border-radius: 999px;
+  color: var(--ink);
+  font-size: 0.75rem;
 }
 
 dl {
@@ -172,6 +185,22 @@ dd {
   color: var(--link);
   font: inherit;
   cursor: pointer;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+/* New panel content slides in; reduced motion is handled in base.css. Not while typing a search (data-quiet) */
+@keyframes panel-enter {
+  from {
+    opacity: 0.4;
+    transform: translateY(6px);
+  }
+}
+
+#panel:not([data-quiet]) > * {
+  animation: panel-enter 0.18s ease-out;
 }
 
 .note {
