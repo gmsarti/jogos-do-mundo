@@ -73,13 +73,15 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
   - Desvio: sheet fixo de 45dvh com rolagem interna, sem arrastar/expandir; conferido em iframe de 375px e desktop
   - Aceite: conferido em 375px e em desktop, sem rolagem horizontal
 - [x] **T-037** `src/AGENTS.md`: módulos, fluxo de estado e padrões de UI
-- [~] **T-038** Primeiro release do MVP no Pages + medição Lighthouse (RNF-02 a RNF-04) registrada aqui
+- [x] **T-038** Primeiro release do MVP no Pages + medição Lighthouse (RNF-02 a RNF-04) registrada aqui
   - Release: site publicado em `gmsarti.github.io/jogos-do-mundo/` (deploy do PR #3 funcionando)
   - Medição 1, no site publicado (mobile): Performance **74**, Accessibility **100**, CLS 0,38, LCP 2,9 s. Abaixo da meta de Performance (RNF-03)
   - Correções: fontes self-hosted via `@fontsource` (tira o CSS do Google Fonts do caminho crítico), preload do geo, altura reservada para os chips e altura fixa do bottom sheet (CLS), token `--link` (o `--h2` dava 3,4:1 e 3,8:1 nos links e no botão voltar; agora ≥ 5,6:1)
   - Medição 2, build local (`make build` + `vite preview`, mobile, 3 rodadas): Performance **99**, Accessibility **100**, CLS 0, LCP 2,1 s. Contraste AA conferido por cálculo nos dois temas (todos os pares de texto ≥ 4,5:1)
   - RNF-02: JS inicial 28,9 KB gzip (meta 60); geo + catálogo cerca de 80 KB gzip (meta 250)
-  - Pendente: repetir o Lighthouse no site publicado depois do merge; teclado no mapa (T-043); licença e domínio (PRD § 12). Fontes: decidido manter Young Serif + Instrument Sans, hospedadas no projeto
+  - Medição 3, site publicado depois da Fase 4 (Lighthouse 13.6, mobile, 3 rodadas, mediana): Performance **99**, Accessibility **100**, Best Practices 96, SEO 100, CLS 0, LCP 1,7 s, TBT 10 ms. Peso total 194 KiB, com 3 arquivos de fonte (62 KB: Gloock e Commissioner, só o subconjunto `latin`). RNF-02: JS inicial 30,6 KB gzip; catálogo 40,9 KB gzip + geo cerca de 39 KB
+  - Correção: Best Practices perdia pontos por um 404 de `/favicon.ico` na raiz do domínio; agora há `public/favicon.svg` declarado no `index.html` (no build local, Best Practices 100). Conferir no site publicado depois do merge
+  - Resolvido: teclado no mapa (T-043); fontes trocadas no T-045 por Gloock + Commissioner. Licença e domínio seguem como questões em aberto do PRD § 12, fora desta tarefa
 
 ## Fase 4 — Experiência (M3)
 

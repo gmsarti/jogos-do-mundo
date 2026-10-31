@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <title>Atlas de jogos de tabuleiro</title>
+  <!-- A two-row mancala board in the "seed and wood" palette -->
+  <rect x="1" y="7" width="30" height="18" rx="9" fill="#6b3d1c"/>
+  <g fill="#dcb46c">
+    <circle cx="9" cy="12.5" r="3"/>
+    <circle cx="16" cy="12.5" r="3"/>
+    <circle cx="23" cy="12.5" r="3"/>
+    <circle cx="9" cy="19.5" r="3"/>
+    <circle cx="16" cy="19.5" r="3"/>
+    <circle cx="23" cy="19.5" r="3"/>
+  </g>
+</svg>
