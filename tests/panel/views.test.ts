@@ -20,6 +20,12 @@ describe("homeView", () => {
     expect(homeView(catalog, "mancala")).toContain("4 jogos, 2 países");
   });
 
+  test("labels the ranking as what the catalog holds so far", () => {
+    expect(homeView(catalog, null)).toContain(
+      "Países com mais jogos no catálogo até agora",
+    );
+  });
+
   test("warns that the catalog is still a draft", () => {
     expect(homeView(catalog, null)).toContain("Rascunho");
   });
@@ -54,6 +60,14 @@ describe("countryView", () => {
     expect(html).toContain('data-id="c"');
     expect(html).toContain("Alinhamento");
     expect(html).toContain("Mancala");
+  });
+
+  test("marks each game with its rule status, also for screen readers", () => {
+    const html = countryView(catalog, null, "NG");
+    expect(html).toContain(
+      '<i class="st st-documented" aria-hidden="true"></i>',
+    );
+    expect(html).toContain('<span class="sr-only">, regra documentada</span>');
   });
 
   test("uses the singular for one game", () => {
@@ -129,6 +143,19 @@ describe("gameView", () => {
   test("back button names the country the game was opened from", () => {
     expect(gameView(catalog, full, "GH")).toContain(" Gana</button>");
     expect(gameView(catalog, full, null)).toContain(" Voltar</button>");
+  });
+
+  test("explains the four rule status levels next to the badge", () => {
+    const html = gameView(catalog, full, null);
+    expect(html).toContain("<details");
+    expect(html).toContain("O que significa?");
+    for (const label of [
+      "regra documentada",
+      "regra parcial",
+      "regra reconstruída",
+      "regra desconhecida",
+    ])
+      expect(html).toContain(label);
   });
 
   test("back button shows an arrow hidden from screen readers", () => {
