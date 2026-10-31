@@ -12,4 +12,8 @@ describe("index.html", () => {
     expect(html).toContain('rel="preload"');
     expect(html).toContain("%BASE_URL%geo/countries.json");
   });
+
+  test("theme button has an accessible name before the script runs", () => {
+    expect(html).toMatch(/<button[^>]*id="theme"[^>]*aria-label="[^"]+"/);
+  });
 });
