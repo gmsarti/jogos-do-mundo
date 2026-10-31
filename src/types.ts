@@ -57,8 +57,12 @@ export interface Country {
 /** ISO 3166-1 alpha-2 → country. */
 export type Countries = Record<string, Country>;
 
+/** ISO 639 code (optionally with a region or script tag) → language name in pt-BR. */
+export type Languages = Record<string, string>;
+
 export interface Catalog {
   games: Game[];
   families: Families;
   countries: Countries;
+  languages: Languages;
 }

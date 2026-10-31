@@ -1,4 +1,5 @@
 import { esc, md } from "../lib/md.ts";
+import { localName } from "../lib/names.ts";
 import type { Catalog, Game, Status } from "../types.ts";
 
 const STATUS_LABEL: Record<Status, string> = {
@@ -42,7 +43,7 @@ export function gameView(
   return `<button type="button" class="back" data-back><span aria-hidden="true">←</span> ${from ? esc(countryName(from)) : "Voltar"}</button>
 <h2>${esc(game.title)}</h2>
 <p><span class="badge b-${game.status}">${STATUS_LABEL[game.status]}</span><span class="tag">${esc(families)}</span></p>
-${game.names.length ? `<p class="muted">${game.names.map(esc).join("<br>")}</p>` : ""}
+${game.names.length ? `<p class="muted">${game.names.map((n) => esc(localName(n, catalog.languages))).join("<br>")}</p>` : ""}
 <div class="prose">${md(game.summary)}</div>
 <dl>
 <dt>Tabuleiro</dt><dd>${esc(game.board)}</dd>

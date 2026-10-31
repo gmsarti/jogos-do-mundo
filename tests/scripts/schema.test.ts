@@ -3,6 +3,7 @@ import {
   countriesSchema,
   familiesSchema,
   gameSchema,
+  languagesSchema,
 } from "../../scripts/schema.ts";
 import type { Countries, Families, Game } from "../../src/types.ts";
 
@@ -133,5 +134,20 @@ describe("countriesSchema", () => {
     expect(
       countriesSchema.safeParse({ GH: { pt: "Gana", num: "28" } }).success,
     ).toBe(false);
+  });
+});
+
+describe("languagesSchema", () => {
+  test("accepts ISO 639 codes, with region or script tags", () => {
+    const languages = { yo: "iorubá", haw: "havaiano", "pt-MZ": "português" };
+    expect(languagesSchema.safeParse(languages).success).toBe(true);
+  });
+
+  test("rejects a code that is not ISO 639", () => {
+    expect(languagesSchema.safeParse({ Yoruba: "iorubá" }).success).toBe(false);
+  });
+
+  test("rejects an empty name", () => {
+    expect(languagesSchema.safeParse({ yo: "" }).success).toBe(false);
   });
 });

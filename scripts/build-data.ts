@@ -4,7 +4,12 @@ import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
 import type { z } from "zod";
 import type { Catalog, Countries, Families, Game } from "../src/types.ts";
-import { countriesSchema, familiesSchema, gameSchema } from "./schema.ts";
+import {
+  countriesSchema,
+  familiesSchema,
+  gameSchema,
+  languagesSchema,
+} from "./schema.ts";
 
 type Section = "history" | "rules";
 
@@ -104,6 +109,13 @@ export function buildCatalog(contentDir: string): Catalog {
     errors,
   );
 
+  const languages = parseJsonFile(
+    join(contentDir, "languages.json"),
+    "languages.json",
+    languagesSchema,
+    errors,
+  );
+
   const games: Game[] = [];
   const gamesDir = join(contentDir, "games");
   const files = readdirSync(gamesDir)
@@ -117,7 +129,7 @@ export function buildCatalog(contentDir: string): Catalog {
   }
 
   if (errors.length) throw new Error(errors.join("\n"));
-  return { games, families, countries };
+  return { games, families, countries, languages };
 }
 
 function main(): void {

@@ -9,6 +9,7 @@ describe("buildCatalog", () => {
 
     expect(catalog.families).toEqual({ alinhamento: "Jogos de alinhamento" });
     expect(catalog.countries).toEqual({ GH: { pt: "Gana", num: "288" } });
+    expect(catalog.languages).toEqual({ ak: "akan" });
     expect(catalog.games.map((g) => g.id)).toEqual(["achi", "solo"]);
   });
 

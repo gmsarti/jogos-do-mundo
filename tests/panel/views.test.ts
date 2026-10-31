@@ -96,7 +96,7 @@ describe("gameView", () => {
     const html = gameView(catalog, full, null);
     expect(html).toContain("<h2>A</h2>");
     expect(html).toContain("regra documentada");
-    expect(html).toContain("achi · ak");
+    expect(html).toContain("achi · akan");
     expect(html).toContain("<strong>forte</strong>");
     expect(html).toContain("3×3");
     expect(html).toContain("3 pedras");

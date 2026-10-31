@@ -41,6 +41,7 @@ export const catalog: Catalog = {
     mancala: "Mancala",
     vazia: "Sem jogos",
   },
+  languages: { ak: "akan" },
   countries: {
     GH: { pt: "Gana", num: "288" },
     NG: { pt: "Nigéria", num: "566" },
