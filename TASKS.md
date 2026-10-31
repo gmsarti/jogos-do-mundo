@@ -85,7 +85,8 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
 
 - [x] **T-040** Seletor de tema claro/escuro (RF-11)
   - Desvio: um botão só com ícone (sol = claro, lua = escuro) no cabeçalho; sem escolha salva segue o sistema, a escolha fica em `localStorage`; as paletas já existiam no T-012
-- [ ] **T-041** Busca por nome e nomes locais (RF-12)
+- [x] **T-041** Busca por nome e nomes locais (RF-12)
+  - Desvio: o texto da busca não vai para a URL (é transitório); a lista de resultados ocupa o painel e qualquer navegação limpa o campo. Conferido no Playwright em desktop e 375px
   - Testes: busca sem acento e sem diferenciar maiúsculas encontra nomes locais
 - [ ] **T-042** Zoom animado até o país ou os países do jogo aberto, respeitando `prefers-reduced-motion` (RF-13)
 - [ ] **T-043** Navegação do mapa pelo teclado (RF-14)

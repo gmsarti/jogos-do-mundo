@@ -7,7 +7,7 @@ import "./styles/base.css";
 import "./styles/layout.css";
 import "./styles/map.css";
 import "./styles/panel.css";
-import { countByCountry, visibleGames } from "./lib/selectors.ts";
+import { countByCountry, searchGames, visibleGames } from "./lib/selectors.ts";
 import {
   nextTheme,
   parseTheme,
@@ -21,6 +21,7 @@ import { chipsView } from "./panel/chips.ts";
 import { countryView } from "./panel/country-view.ts";
 import { gameView } from "./panel/game-view.ts";
 import { homeView } from "./panel/home-view.ts";
+import { searchView } from "./panel/search-view.ts";
 import {
   normalizeState,
   parseHash,
@@ -82,7 +83,10 @@ async function boot(): Promise<void> {
     go({ ...state, country: iso, game: null }),
   );
 
+  const search = element("search") as HTMLInputElement;
+
   function render(): void {
+    search.value = "";
     const { fam, country, game } = state;
     const found = catalog.games.find((g) => g.id === game);
     chips.innerHTML = chipsView(catalog, fam);
@@ -103,6 +107,16 @@ async function boot(): Promise<void> {
   addEventListener("hashchange", () => {
     state = parseHash(location.hash, catalog);
     render();
+  });
+
+  search.addEventListener("input", () => {
+    if (!search.value.trim()) return render();
+    const results = searchGames(
+      visibleGames(catalog.games, state.fam),
+      search.value,
+    );
+    panel.innerHTML = searchView(catalog, results);
+    panel.scrollTop = 0;
   });
 
   chips.addEventListener("click", (event) => {

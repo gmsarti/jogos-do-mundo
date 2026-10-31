@@ -4,9 +4,11 @@ import {
   countByCountry,
   gamesOfCountry,
   gamesWithoutCountry,
+  searchGames,
   topCountries,
   visibleGames,
 } from "../../src/lib/selectors.ts";
+import type { Game } from "../../src/types.ts";
 import { catalog } from "../fixtures/catalog.ts";
 
 const ids = (games: { id: string }[]) => games.map((g) => g.id);
@@ -78,5 +80,25 @@ describe("topCountries", () => {
 describe("gamesWithoutCountry", () => {
   test("returns only games with no country", () => {
     expect(ids(gamesWithoutCountry(catalog.games))).toEqual(["d"]);
+  });
+});
+
+describe("searchGames", () => {
+  const base = catalog.games.slice(0, 2) as [Game, Game];
+  const games: Game[] = [
+    { ...base[0], id: "x", title: "Ọ̀wàrẹ́", names: ["Awalé", "Ayo"] },
+    { ...base[1], id: "y", title: "Jogo da Onça", names: [] },
+  ];
+
+  test("matches local names ignoring accents and case", () => {
+    expect(ids(searchGames(games, "AWALE"))).toEqual(["x"]);
+  });
+
+  test("matches the title ignoring accents", () => {
+    expect(ids(searchGames(games, "onca"))).toEqual(["y"]);
+  });
+
+  test("returns nothing for a blank query", () => {
+    expect(searchGames(games, "   ")).toEqual([]);
   });
 });
