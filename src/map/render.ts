@@ -24,8 +24,12 @@ const ZOOM_STEP = 1.6;
 export type GeoTopology = Topology<{ countries: GeometryCollection }>;
 
 export interface MapView {
-  /** Applies counts per country and the selected country to the SVG. */
-  paint(counts: Record<string, number>, selected: string | null): void;
+  /** Applies counts per country, the selected country and the open game's countries to the SVG. */
+  paint(
+    counts: Record<string, number>,
+    selected: string | null,
+    inGame: string[],
+  ): void;
   /** Zooms to the given countries, or back to the whole world when empty. */
   focus(isos: string[]): void;
 }
@@ -182,18 +186,24 @@ export function createMap(
 
   return {
     focus,
-    paint(next, selected) {
+    paint(next, selected, inGame) {
       counts = next;
       shapes.attr("class", (d) => {
         const iso = isoOf(d);
-        return countryClass(counts[iso] ?? 0, iso !== "" && iso === selected);
+        return countryClass(
+          counts[iso] ?? 0,
+          iso !== "" && iso === selected,
+          inGame.includes(iso),
+        );
       });
       reachable(shapes, "shape");
       reachable(dots, "dot");
       const shown = visibleDots(SMALL_COUNTRIES, counts);
       dots
         .style("display", (d) => (shown.has(isoOf(d)) ? null : "none"))
-        .attr("class", (d) => dotClass(isoOf(d) === selected));
+        .attr("class", (d) =>
+          dotClass(isoOf(d) === selected, inGame.includes(isoOf(d))),
+        );
     },
   };
 }

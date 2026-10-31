@@ -87,13 +87,19 @@ async function boot(): Promise<void> {
 
   let focused = "";
   const search = element("search") as HTMLInputElement;
+  const legendGame = element("legend-game");
 
   function render(): void {
     search.value = "";
     const { fam, country, game } = state;
     const found = catalog.games.find((g) => g.id === game);
     chips.innerHTML = chipsView(catalog, fam);
-    map.paint(countByCountry(visibleGames(catalog.games, fam)), country);
+    map.paint(
+      countByCountry(visibleGames(catalog.games, fam)),
+      country,
+      found?.countries ?? [],
+    );
+    legendGame.hidden = !found;
     // Zoom only when the target changes, so picking a chip keeps the user's own zoom
     const isos = focusIsos(catalog.games, game, country);
     if (isos.join() !== focused) {

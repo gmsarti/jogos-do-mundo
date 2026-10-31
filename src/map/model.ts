@@ -17,14 +17,19 @@ export const SMALL_COUNTRIES = [
   "BB",
 ];
 
-export function countryClass(count: number, selected: boolean): string {
+/** `inGame`: the open game is played there (all its countries light up, not only the one it was opened from). */
+export function countryClass(
+  count: number,
+  selected: boolean,
+  inGame = false,
+): string {
   const band = colorBand(count);
   const has = band ? ` has c${band}` : "";
-  return `country${has}${selected ? " sel" : ""}`;
+  return `country${has}${inGame ? " game" : ""}${selected ? " sel" : ""}`;
 }
 
-export function dotClass(selected: boolean): string {
-  return selected ? "dot sel" : "dot";
+export function dotClass(selected: boolean, inGame = false): string {
+  return `dot${inGame ? " game" : ""}${selected ? " sel" : ""}`;
 }
 
 export function visibleDots(

@@ -30,12 +30,25 @@ describe("countryClass", () => {
   test("selected country gets sel", () => {
     expect(countryClass(2, true)).toBe("country has c2 sel");
   });
+
+  test("country where the open game is played gets game", () => {
+    expect(countryClass(2, false, true)).toBe("country has c2 game");
+  });
+
+  test("the game's country it was opened from keeps sel", () => {
+    expect(countryClass(4, true, true)).toBe("country has c3 game sel");
+  });
 });
 
 describe("dotClass", () => {
   test("marks the selected dot", () => {
     expect(dotClass(false)).toBe("dot");
     expect(dotClass(true)).toBe("dot sel");
+  });
+
+  test("marks the dot of a country where the open game is played", () => {
+    expect(dotClass(false, true)).toBe("dot game");
+    expect(dotClass(true, true)).toBe("dot game sel");
   });
 });
 

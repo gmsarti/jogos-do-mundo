@@ -42,7 +42,12 @@ svg {
   filter: brightness(1.08);
 }
 
-/* Same specificity as .c1–.c3, declared later, so it wins without !important */
+/* Same specificity as .c1–.c3, declared later, so they win without !important */
+.country.has.game,
+.country.game {
+  fill: var(--game);
+}
+
 .country.has.sel,
 .country.sel {
   fill: var(--sel);
@@ -57,6 +62,10 @@ svg {
   stroke-width: 1;
   vector-effect: non-scaling-stroke;
   cursor: pointer;
+}
+
+.dot.game {
+  fill: var(--game);
 }
 
 .dot.sel {
@@ -106,6 +115,10 @@ svg {
 
 .sw-3 {
   background: var(--h3);
+}
+
+.sw-game {
+  background: var(--game);
 }
 
 .zoom {
