@@ -123,4 +123,4 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
 
 ## Decisões pendentes
 
-Ver [PRD.md § Questões em aberto](PRD.md#12-questões-em-aberto). Licença e domínio ainda precisam de resposta (fontes: resolvido no T-045, Gloock + Commissioner self-hosted).
+Ver [PRD.md § Questões em aberto](PRD.md#12-questões-em-aberto). Licença ainda precisa de resposta (fontes: resolvido no T-045, Gloock + Commissioner self-hosted; domínio: `jogosdomundo.com.br`, servido na raiz, com o `og:image` do T-044 apontando para ele).

@@ -152,7 +152,7 @@ Sempre execute ferramentas através do `make` — nunca chame `npx`, `vite` ou `
 - **Acessibilidade.** Elementos clicáveis são `<button>` ou `<a>`, foco visível, `aria-*` nos controles, mapa navegável por teclado, painel com `aria-live`
 - **Segurança.** Todo texto vindo de `content/` é escapado antes de ir para o DOM. Links externos com `rel="noopener"`
 - **Rotas por hash.** Todo estado relevante (país, jogo, filtro) fica na URL, que pode ser compartilhada e funciona no GitHub Pages sem servidor
-- **Base path.** Caminhos de assets usam `import.meta.env.BASE_URL` (o site roda em `/<repo>/`)
+- **Base path.** Caminhos de assets usam `import.meta.env.BASE_URL` (o site roda na raiz de `jogosdomundo.com.br`)
 
 ## Regras de Conteúdo
 

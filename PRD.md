@@ -106,6 +106,6 @@ Prioridade: **M** = obrigatório no MVP, **S** = deveria ter logo depois, **C** 
 ## 12. Questões em aberto
 
 - Licença do código e do conteúdo (ex.: MIT + CC BY-SA?)
-- Domínio próprio ou `<usuario>.github.io/jogos-do-mundo`
+- ~~Domínio próprio ou `<usuario>.github.io/jogos-do-mundo`~~: resolvido, domínio próprio `jogosdomundo.com.br` (registro.br) apontando para o GitHub Pages
 - Como tratar jogos com área de origem incerta ou que atravessa fronteiras (hoje vão para "sem país definido" ou para vários países)
 - ~~Fontes tipográficas~~: resolvido no T-045, Gloock + Commissioner hospedadas no projeto (cobrem latim estendido, cirílico e vietnamita no texto)
