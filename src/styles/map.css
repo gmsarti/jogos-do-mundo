@@ -74,9 +74,14 @@
   stroke-width: 1.5;
 }
 
+/* Chrome gives focused SVG shapes an outline even on tap, and the map zoom scales it up */
+.country:focus,
+.dot:focus {
+  outline: none;
+}
+
 .country:focus-visible,
 .dot:focus-visible {
-  outline: none;
   stroke: var(--ink);
   stroke-width: 2.5;
 }
