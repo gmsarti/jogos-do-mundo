@@ -10,6 +10,11 @@ countries:
 cultures:
   - zanzibaris
 board: 4×8
+diagram:
+  type: pits
+  rows: 4
+  cols: 8
+  stores: 0
 pieces: 3 sementes por cavidade
 players: "2"
 period: registrado em 1931

@@ -14,6 +14,11 @@ cultures:
   - castelhanos
   - árabes
 board: 5×5 pontos com diagonais
+diagram:
+  type: points
+  rows: 5
+  cols: 5
+  diagonals: alternate
 pieces: 12 por jogador
 players: "2"
 period: Idade Média

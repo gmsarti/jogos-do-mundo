@@ -12,6 +12,11 @@ countries:
 cultures:
   - afro-caribenhos
 board: 2×6 covas
+diagram:
+  type: pits
+  rows: 2
+  cols: 6
+  stores: 0
 pieces: 48 sementes
 players: "2"
 period: séc. XVIII – presente

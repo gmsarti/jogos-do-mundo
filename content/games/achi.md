@@ -14,6 +14,11 @@ cultures:
   - ganenses
   - iorubás
 board: 3×3 pontos com diagonais
+diagram:
+  type: points
+  rows: 3
+  cols: 3
+  diagonals: alternate
 pieces: 3 ou 4 por jogador
 players: "2"
 period: registrado no início do séc. XX

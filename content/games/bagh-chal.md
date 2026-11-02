@@ -13,6 +13,11 @@ cultures:
   - nepaleses
   - newar
 board: 5×5 pontos com diagonais
+diagram:
+  type: points
+  rows: 5
+  cols: 5
+  diagonals: alternate
 pieces: 4 tigres e 20 cabras
 players: "2"
 period: séc. XX – presente

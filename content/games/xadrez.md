@@ -19,6 +19,11 @@ cultures:
   - europeus
   - praticado no mundo todo
 board: 8×8
+diagram:
+  type: grid
+  rows: 8
+  cols: 8
+  checkered: true
 pieces: 16 por jogador
 players: "2"
 period: Idade Média – presente

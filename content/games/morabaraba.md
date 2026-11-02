@@ -14,6 +14,9 @@ countries:
 cultures:
   - sotho e outros povos da África Austral
 board: 3 quadrados concêntricos com diagonais (24 pontos)
+diagram:
+  type: mill
+  diagonals: true
 pieces: 12 por jogador
 players: "2"
 period: a levantar – presente

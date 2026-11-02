@@ -10,6 +10,11 @@ countries:
 cultures:
   - merina
 board: 3×3 pontos com diagonais
+diagram:
+  type: points
+  rows: 3
+  cols: 3
+  diagonals: alternate
 pieces: 3 por jogador (a verificar)
 players: "2"
 period: registrado em 1952

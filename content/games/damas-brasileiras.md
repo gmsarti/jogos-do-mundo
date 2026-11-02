@@ -10,6 +10,11 @@ countries:
 cultures:
   - brasileiros
 board: 8×8 (64 casas)
+diagram:
+  type: grid
+  rows: 8
+  cols: 8
+  checkered: true
 pieces: 12 por jogador
 players: "2"
 period: regras unificadas na segunda metade do séc. XX

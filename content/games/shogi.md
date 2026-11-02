@@ -10,6 +10,10 @@ countries:
 cultures:
   - japoneses
 board: 9×9
+diagram:
+  type: grid
+  rows: 9
+  cols: 9
 pieces: 20 por jogador
 players: "2"
 period: a levantar – presente

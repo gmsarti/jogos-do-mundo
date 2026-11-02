@@ -11,6 +11,11 @@ countries:
 cultures:
   - malgaxes
 board: 5×9 pontos com diagonais (a verificar)
+diagram:
+  type: points
+  rows: 5
+  cols: 9
+  diagonals: alternate
 pieces: 22 por jogador (a verificar)
 players: "2"
 period: registrado em 1896 – presente

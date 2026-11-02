@@ -10,6 +10,11 @@ countries:
 cultures:
   - suaílis
 board: 4×8
+diagram:
+  type: pits
+  rows: 4
+  cols: 8
+  stores: 0
 pieces: sementes
 players: "2"
 period: a levantar – presente

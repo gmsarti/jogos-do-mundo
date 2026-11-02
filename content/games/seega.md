@@ -10,6 +10,11 @@ countries:
 cultures:
   - egípcios
 board: grade ímpar (5×5, 7×7, 9×9)
+diagram:
+  type: grid
+  rows: 5
+  cols: 5
+  note: o menor dos três tamanhos (5×5)
 pieces: 12 por jogador no 5×5
 players: "2"
 period: séc. XVIII – presente

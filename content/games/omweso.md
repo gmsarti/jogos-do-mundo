@@ -12,6 +12,11 @@ countries:
 cultures:
   - ganda
 board: 4×8
+diagram:
+  type: pits
+  rows: 4
+  cols: 8
+  stores: 0
 pieces: 64 sementes (a verificar)
 players: "2"
 period: a levantar – presente

@@ -10,6 +10,11 @@ countries:
 cultures:
   - portugueses
 board: alquerque 5×5
+diagram:
+  type: points
+  rows: 5
+  cols: 5
+  diagonals: alternate
 pieces: 1 raposa e 12 galinhas
 players: "2"
 period: prática registrada no início do séc. XXI

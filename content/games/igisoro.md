@@ -18,6 +18,11 @@ cultures:
   - ruandeses
   - burundeses
 board: 4×8 (a verificar)
+diagram:
+  type: pits
+  rows: 4
+  cols: 8
+  stores: 0
 pieces: 64 sementes
 players: "2"
 period: registrado em 1903 – presente
