@@ -118,7 +118,15 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
 
 - [ ] **T-050** Relatório (`make` target) de trechos "(a verificar)" e jogos com `status` `unknown`
 - [ ] **T-051** Jogos relacionados (RF-16)
-- [ ] **T-052** Diagramas SVG de tabuleiro para os tipos mais comuns (RF-17)
+- [~] **T-052** Tabuleiros desenhados e kit de impressão em PDF (RF-17, RF-19)
+  - Escopo: campo opcional `diagram` no frontmatter com os tipos `grid`, `lines`, `points`, `pits` e `mill`; geometria e SVG em `src/boards/`; tabuleiro no painel do jogo; `make kits` gera `public/kits/<id>.pdf` com Typst (folha de regras, tabuleiro ornado e tabuleiro simples); QR para `jogosdomundo.com.br/#/jogo/<id>` pelo pacote `qrcode` (só no build); Typst instalado no CI
+  - Identidade: tábua entalhada vista de cima, uma cor de traço, mesmas peças gráficas (tábua, linha, ponto, cova) em todos os jogos; marcas só quando a fonte as mostra; a moldura de sementes do tabuleiro ornado é da coleção e não imita a arte de nenhum povo
+  - Testes: geometria de cada tipo; schema do `diagram`; painel mostra o tabuleiro e o link do PDF só quando o jogo tem regras; conversão do mini-Markdown em blocos para o Typst; encaixe do tabuleiro na folha (com rotação)
+  - Aceite: PDFs conferidos (regras inteiras, tabuleiro em tamanho de jogar); painel conferido em desktop e 375px, nos dois temas; o Ctrl+P continua imprimindo a ficha do T-049
+- [ ] **T-054** Tabuleiros com marcas da fonte: castelo (Tablut), rio e palácios (Xiangqi, Janggi), nyumba (Bao la Kiswahili), kazan no centro (Toguz Kumalak), alquerque com triângulo (Adugo, Komikan, Taptana) e cruz de 33 pontos (Raposa e gansos)
+- [ ] **T-055** Percursos em cruz e em linha (Pachisi, Chaupar, Patolli, Senet, Duodecim Scripta, Ur, Vinte casas, Nard, Ban-sugoroku)
+- [ ] **T-056** Tabuleiros únicos desenhados à mão em `content/boards/`, com lint de SVG (sem cor solta e sem script), quando a fonte permitir (Mu tōrere, Shisima, Mehen, Yut-nori e outros)
+- [ ] **T-057** Conteúdo: levantar na fonte o número de covas das mancalas descritas só como "2 fileiras" ou "4 fileiras" (10 jogos), para poderem ganhar desenho
 - [ ] **T-053** Filtro por status de confiança (RF-18)
 
 ## Decisões pendentes
