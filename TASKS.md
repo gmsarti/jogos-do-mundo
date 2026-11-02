@@ -118,11 +118,15 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
 
 - [ ] **T-050** Relatório (`make` target) de trechos "(a verificar)" e jogos com `status` `unknown`
 - [ ] **T-051** Jogos relacionados (RF-16)
-- [~] **T-052** Tabuleiros desenhados e kit de impressão em PDF (RF-17, RF-19)
+- [x] **T-052** Tabuleiros desenhados e kit de impressão em PDF (RF-17, RF-19)
   - Escopo: campo opcional `diagram` no frontmatter com os tipos `grid`, `lines`, `points`, `pits` e `mill`; geometria e SVG em `src/boards/`; tabuleiro no painel do jogo; `make kits` gera `public/kits/<id>.pdf` com Typst (folha de regras, tabuleiro ornado e tabuleiro simples); QR para `jogosdomundo.com.br/#/jogo/<id>` pelo pacote `qrcode` (só no build); Typst instalado no CI
   - Identidade: tábua entalhada vista de cima, uma cor de traço, mesmas peças gráficas (tábua, linha, ponto, cova) em todos os jogos; marcas só quando a fonte as mostra; a moldura de sementes do tabuleiro ornado é da coleção e não imita a arte de nenhum povo
   - Testes: geometria de cada tipo; schema do `diagram`; painel mostra o tabuleiro e o link do PDF só quando o jogo tem regras; conversão do mini-Markdown em blocos para o Typst; encaixe do tabuleiro na folha (com rotação)
   - Aceite: PDFs conferidos (regras inteiras, tabuleiro em tamanho de jogar); painel conferido em desktop e 375px, nos dois temas; o Ctrl+P continua imprimindo a ficha do T-049
+  - Desvio: `diagram` em 31 jogos, não nos ~48 estimados. Ficaram de fora os tabuleiros com casas marcadas que o tipo `grid` não desenha (Tafl, Sittuyin, Ashta kashte, Chaturanga, que foram para o T-054), as medidas em faixa (Muvalavala, Owela) e o Kōnane (furos). O xadrezado do Xadrez segue a convenção do tabuleiro moderno; o das Damas vem das próprias regras ("grande diagonal escura à esquerda")
+  - Desvio: o Typst usa a Libertinus Serif, que vem embutida nele, no lugar da EB Garamond do protótipo (Typst não lê woff2 e assim nenhuma fonte entra no repositório); sem letra capitular. Os SVGs de tabuleiro feitos à mão (`diagram.file`) ficam para o T-056, quando houver o primeiro
+  - Desvio: quando a folha de regras passa de uma página, o `build-kits.ts` recompila sem a história (que continua no site) e o PDF avisa isso. Hoje só o Adugo cai nesse caso, por causa das seis referências
+  - Conferido: as 82 folhas de regras renderizadas pelo Typst (contagem de páginas: 1 ou 3, menos o Adugo antes do ajuste); folhas de tabuleiro de um jogo de cada tipo; painel no Chrome sem interface em 1440px (escuro) e 375px (claro e escuro). `make kits` leva ~3,5 s; os 82 PDFs somam 4,5 MB; JS inicial 31,8 KB gzip. O passo do Typst no CI ainda não rodou no GitHub
 - [ ] **T-054** Tabuleiros com marcas da fonte: castelo (Tablut), rio e palácios (Xiangqi, Janggi), nyumba (Bao la Kiswahili), kazan no centro (Toguz Kumalak), alquerque com triângulo (Adugo, Komikan, Taptana) e cruz de 33 pontos (Raposa e gansos)
 - [ ] **T-055** Percursos em cruz e em linha (Pachisi, Chaupar, Patolli, Senet, Duodecim Scripta, Ur, Vinte casas, Nard, Ban-sugoroku)
 - [ ] **T-056** Tabuleiros únicos desenhados à mão em `content/boards/`, com lint de SVG (sem cor solta e sem script), quando a fonte permitir (Mu tōrere, Shisima, Mehen, Yut-nori e outros)
