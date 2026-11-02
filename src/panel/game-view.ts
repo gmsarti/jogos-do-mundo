@@ -1,3 +1,5 @@
+import { boardShapes } from "../boards/geometry.ts";
+import { boardSvg } from "../boards/svg.ts";
 import { esc, md } from "../lib/md.ts";
 import { localName } from "../lib/names.ts";
 import type { Catalog, Game } from "../types.ts";
@@ -5,6 +7,24 @@ import { STATUS_LABEL, statusHelp } from "./status.ts";
 
 function section(title: string, body: string): string {
   return body ? `<h3>${title}</h3>${body}` : "";
+}
+
+function boardFigure(game: Game): string {
+  if (!game.diagram) return "";
+  const svg = boardSvg(boardShapes(game.diagram), `Tabuleiro de ${game.title}`);
+  const note = game.diagram.note
+    ? `<figcaption>${esc(game.diagram.note)}</figcaption>`
+    : "";
+  return `<figure class="board-figure">${svg}${note}</figure>`;
+}
+
+// The PDFs are built by `make kits` for every game with rules; the link is relative to the site root
+function kitLink(game: Game): string {
+  if (!game.rules) return "";
+  const label = game.diagram
+    ? "Baixar regras e tabuleiro (PDF)"
+    : "Baixar regras (PDF)";
+  return `<p class="kit-link"><a href="kits/${esc(game.id)}.pdf" download>${label}</a><small>A4, imprima em tamanho real (100%)</small></p>`;
 }
 
 /** `from` is the country the game was opened from, used by the back button. */
@@ -40,6 +60,8 @@ export function gameView(
 ${statusHelp()}
 ${game.names.length ? `<p class="muted">${game.names.map((n) => esc(localName(n, catalog.languages))).join("<br>")}</p>` : ""}
 <div class="prose">${md(game.summary)}</div>
+${boardFigure(game)}
+${kitLink(game)}
 <dl>
 <dt>Tabuleiro</dt><dd>${esc(game.board)}</dd>
 <dt>Peças</dt><dd>${esc(game.pieces)}</dd>

@@ -11,6 +11,8 @@ Regras específicas da pasta `src/`. As regras globais (KISS, TDD, tokens, acess
 | `types.ts` | Tipos `Game`, `Catalog` etc., espelham `scripts/schema.ts` |
 | `lib/md.ts` | `esc()` (escape de HTML) e `md()` (mini-Markdown seguro) |
 | `lib/selectors.ts` | Seletores puros sobre `Game[]`: filtro por família, por país, contagens, faixa de cor, ranking |
+| `boards/geometry.ts` | Formas de cada tipo de tabuleiro a partir do `diagram` (em unidades de tabuleiro), e `rotate()`; puro e testado |
+| `boards/svg.ts` | SVG da tela: só classes `b-<papel>`, as cores vêm dos tokens `--wood`, `--pit`, `--carve` |
 | `map/model.ts` | Lógica pura do mapa: classe CSS de cada país, quais pontos aparecem, texto do tooltip |
 | `map/render.ts` | Único lugar com D3: desenha o SVG uma vez e só troca classes em `paint()` |
 | `panel/*-view.ts`, `panel/family-menu.ts` | Views: recebem `catalog` e dados, devolvem uma string HTML |

@@ -276,3 +276,64 @@ dd {
   font-size: 0.82rem;
   color: var(--muted);
 }
+
+/* Board drawing: a carved wooden board seen from above; every color comes from a role.
+   Strokes keep the same weight on every board, whatever its size in board units */
+.board-figure {
+  margin: 0.8rem 0;
+}
+
+.board {
+  display: block;
+  width: 100%;
+  max-height: 16rem;
+}
+
+.b-surface {
+  vector-effect: non-scaling-stroke;
+  fill: var(--wood);
+  stroke: var(--carve);
+  stroke-width: 1px;
+}
+
+.b-dark {
+  fill: var(--pit);
+}
+
+.b-line {
+  vector-effect: non-scaling-stroke;
+  stroke: var(--carve);
+  stroke-width: 1.5px;
+  stroke-linecap: round;
+}
+
+.b-point {
+  fill: var(--carve);
+}
+
+.b-pit {
+  vector-effect: non-scaling-stroke;
+  fill: var(--pit);
+  stroke: var(--carve);
+  stroke-width: 1px;
+}
+
+.board-figure figcaption {
+  margin-top: 0.3rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.kit-link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.2rem 0.6rem;
+  margin: 0.6rem 0;
+  font-size: 0.92rem;
+}
+
+.kit-link small {
+  color: var(--muted);
+  font-size: 0.78rem;
+}

@@ -18,6 +18,35 @@ export const languagesSchema = z.record(
   text,
 );
 
+const size = z.int().min(2).max(40);
+const note = text.optional();
+
+export const diagramSchema = z.discriminatedUnion("type", [
+  z.strictObject({
+    type: z.literal("grid"),
+    rows: size,
+    cols: size,
+    checkered: z.boolean().optional(),
+    note,
+  }),
+  z.strictObject({ type: z.literal("lines"), rows: size, cols: size, note }),
+  z.strictObject({
+    type: z.literal("points"),
+    rows: size,
+    cols: size,
+    diagonals: z.enum(["alternate", "main", "none"]),
+    note,
+  }),
+  z.strictObject({
+    type: z.literal("pits"),
+    rows: size,
+    cols: size,
+    stores: z.union([z.literal(0), z.literal(2)]),
+    note,
+  }),
+  z.strictObject({ type: z.literal("mill"), diagonals: z.boolean(), note }),
+]);
+
 interface GameContext {
   /** File name without extension; the game id must match it. */
   fileId: string;
@@ -52,6 +81,7 @@ export function gameSchema({
       }),
     cultures: z.array(text),
     board: text,
+    diagram: diagramSchema.optional(),
     pieces: text,
     players: text,
     period: text,

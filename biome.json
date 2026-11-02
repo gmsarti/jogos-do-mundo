@@ -6,6 +6,8 @@
       "!**/*.md",
       "!dist",
       "!src/generated",
+      "!public/kits",
+      "!.kits-tmp",
       "!node_modules",
       "!.playwright-mcp",
       "!Atlas de jogos de tabuleiro tradicionais.html"

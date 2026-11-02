@@ -17,8 +17,8 @@ describe("print styles", () => {
     expect(print.trim().startsWith("@media print")).toBe(true);
   });
 
-  test("leave out the map, the toolbar and the sheet handle", () => {
-    for (const selector of [".mapbox", ".tools", ".handle"])
+  test("leave out the map, the toolbar, the sheet handle and the kit link", () => {
+    for (const selector of [".mapbox", ".tools", ".handle", ".kit-link"])
       expect(print).toContain(selector);
     expect(print).toMatch(/display:\s*none/);
   });

@@ -109,6 +109,39 @@ describe("gameSchema", () => {
     const { summary: _summary, ...rest } = validGame;
     expect(errorPaths(rest)).toContain("summary");
   });
+
+  test("accepts a board diagram of each type", () => {
+    for (const diagram of [
+      { type: "grid", rows: 8, cols: 8, checkered: true },
+      { type: "lines", rows: 19, cols: 19 },
+      { type: "points", rows: 3, cols: 3, diagonals: "alternate" },
+      { type: "pits", rows: 2, cols: 6, stores: 2, note: "variante" },
+      { type: "mill", diagonals: false },
+    ])
+      expect(errorPaths({ ...validGame, diagram })).toEqual([]);
+  });
+
+  test("rejects an unknown diagram type", () => {
+    const diagram = { type: "spiral", rows: 3, cols: 3 };
+    expect(errorPaths({ ...validGame, diagram })).toContain("diagram.type");
+  });
+
+  test("rejects diagram sizes that are not small whole numbers", () => {
+    for (const rows of [1, 2.5, 41])
+      expect(
+        errorPaths({ ...validGame, diagram: { type: "grid", rows, cols: 8 } }),
+      ).toContain("diagram.rows");
+  });
+
+  test("rejects pit stores other than none or one at each end", () => {
+    const diagram = { type: "pits", rows: 2, cols: 6, stores: 1 };
+    expect(errorPaths({ ...validGame, diagram })).toContain("diagram.stores");
+  });
+
+  test("rejects unknown diagram fields", () => {
+    const diagram = { type: "mill", diagonals: true, color: "red" };
+    expect(errorPaths({ ...validGame, diagram }).length).toBeGreaterThan(0);
+  });
 });
 
 describe("familiesSchema", () => {

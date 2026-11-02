@@ -23,6 +23,9 @@ const colorTokens = [
   "st-reconstructed",
   "st-partial",
   "st-unknown",
+  "wood",
+  "pit",
+  "carve",
 ];
 
 // Light is the :root block; dark appears in the media query and in [data-theme="dark"].

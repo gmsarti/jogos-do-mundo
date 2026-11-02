@@ -12,7 +12,9 @@ export function esc(text: string): string {
 
 type ListType = "ul" | "ol";
 
-function listItem(line: string): { type: ListType; text: string } | null {
+export function listItem(
+  line: string,
+): { type: ListType; text: string } | null {
   const ul = line.match(/^\s*-\s+(.*)/);
   if (ul) return { type: "ul", text: ul[1] ?? "" };
   const ol = line.match(/^\s*\d+\.\s+(.*)/);

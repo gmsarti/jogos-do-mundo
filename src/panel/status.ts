@@ -8,7 +8,7 @@ export const STATUS_LABEL: Record<Status, string> = {
 };
 
 // Same meaning as the status table in content/AGENTS.md
-const STATUS_HELP: Record<Status, string> = {
+export const STATUS_HELP: Record<Status, string> = {
   documented:
     "As regras vêm de registro etnográfico, texto histórico ou outra fonte confiável.",
   partial: "Há registro, mas as regras estão incompletas ou têm lacunas.",

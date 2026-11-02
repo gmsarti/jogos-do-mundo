@@ -26,7 +26,7 @@ O arquivo `Atlas de jogos de tabuleiro tradicionais.html` é o protótipo origin
 
 ## Começando
 
-Pré-requisitos: Node na versão de `.nvmrc` e `make`.
+Pré-requisitos: Node na versão de `.nvmrc`, `make` e, para o `make kits` e o `make build`, o [Typst](https://typst.app) 0.14.
 
 ```sh
 make install   # instala dependências
@@ -38,6 +38,7 @@ make dev       # servidor local com hot reload
 | `make install` | Instala dependências |
 | `make dev` | Gera os dados e sobe o servidor local |
 | `make data` | Valida `content/` e gera o catálogo |
+| `make kits` | Gera os PDFs de impressão (regras e tabuleiro) em `public/kits/` |
 | `make test` | Roda os testes (`make test-watch` para o ciclo TDD) |
 | `make format` | Formata e corrige lint |
 | `make check` | Lint + typecheck + validação de dados + testes |
