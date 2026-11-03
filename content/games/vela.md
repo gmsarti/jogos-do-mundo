@@ -11,6 +11,11 @@ countries:
 cultures:
   - malgaxes
 board: como o fanorona
+diagram:
+  type: points
+  rows: 5
+  cols: 9
+  diagonals: alternate
 pieces: como o fanorona
 players: "2"
 period: registrado em 1896

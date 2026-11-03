@@ -12,6 +12,11 @@ countries:
 cultures:
   - iorubás
 board: 2×6 cavidades + depósitos
+diagram:
+  type: pits
+  rows: 2
+  cols: 6
+  stores: 2
 pieces: 48 sementes
 players: "2"
 period: a levantar – presente

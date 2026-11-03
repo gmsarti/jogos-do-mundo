@@ -72,6 +72,7 @@ Conteúdo em Markdown (`content/`) → `scripts/build-data.ts` valida e gera JSO
 | `src/map/` | Render do mapa (`d3-geo`), zoom (`d3-zoom`), tooltip, pontos de países pequenos; `model.ts` guarda a lógica pura |
 | `src/panel/` | Views do painel: home, país, jogo |
 | `src/lib/md.ts` | Mini-Markdown seguro (negrito, itálico, listas) para os textos dos jogos |
+| `src/boards/` | Desenho dos tabuleiros: `geometry.ts` (formas puras a partir do `diagram`) e `svg.ts` (SVG da tela) |
 | `src/lib/selectors.ts` | Seletores puros: filtro por família, jogos por país, contagens, faixa de cor, ranking |
 | `src/types.ts` | Tipos `Game`, `Family`, `Country` — espelham o schema de `content/` |
 | `src/styles/` | `tokens.css` (cores e tipografia, light/dark) e `base.css` |
@@ -81,6 +82,7 @@ Conteúdo em Markdown (`content/`) → `scripts/build-data.ts` valida e gera JSO
 | `content/countries.json` | Países: ISO-2 → `{ pt, num }` (nome e código numérico do TopoJSON) |
 | `scripts/build-data.ts` | Lê `content/`, valida com `zod`, gera `src/generated/catalog.json` |
 | `scripts/schema.ts` | Schemas zod de jogo, famílias e países |
+| `scripts/build-kits.ts`, `scripts/kit/` | Kit de impressão: monta os dados, o QR e as folhas de tabuleiro e chama o Typst (`kit.typ`); gera `public/kits/<id>.pdf` (fora do git) |
 | `scripts/once/` | Scripts de uso único (extração do protótipo, geração do geo) |
 | `public/geo/` | TopoJSON dos países |
 | `tests/` | Testes Vitest, espelhando `src/` e `scripts/`; `tests/fixtures/` com dados de teste |
@@ -126,10 +128,11 @@ Sempre execute ferramentas através do `make` — nunca chame `npx`, `vite` ou `
 | `make install` | Instala dependências (`npm ci`) |
 | `make dev` | Gera os dados e sobe o servidor local com hot reload |
 | `make data` | Valida `content/` e gera `src/generated/catalog.json` |
+| `make kits` | Gera os PDFs de impressão em `public/kits/` (precisa do [Typst](https://typst.app) 0.14 no PATH) |
 | `make test` | Roda só os testes (use `make test-watch` durante o ciclo TDD) |
 | `make format` | Formata e corrige lint automaticamente (Biome) |
 | `make check` | Lint + typecheck + validação de dados + testes — tem que passar limpo |
-| `make build` | Build de produção em `dist/` |
+| `make build` | Kits + build de produção em `dist/` |
 | `make preview` | Serve o `dist/` localmente |
 
 **Ambiente:** a versão do Node fica em `.nvmrc`. Nesta máquina o Node está em `/opt/homebrew/bin`, que pode não estar no PATH do shell do agente. Se `node` não for encontrado, rode `export PATH="/opt/homebrew/bin:$PATH"` antes do `make`.

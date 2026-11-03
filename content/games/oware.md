@@ -19,6 +19,11 @@ cultures:
   - iorubás
   - igalas
 board: 2×6 cavidades (+2 depósitos opcionais)
+diagram:
+  type: pits
+  rows: 2
+  cols: 6
+  stores: 2
 pieces: 48 sementes
 players: "2"
 period: a levantar – presente

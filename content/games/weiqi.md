@@ -18,6 +18,10 @@ cultures:
   - japoneses
   - coreanos
 board: 19×19 interseções
+diagram:
+  type: lines
+  rows: 19
+  cols: 19
 pieces: pedras pretas e brancas
 players: "2"
 period: I milênio a.C. – presente

@@ -203,4 +203,42 @@ describe("gameView", () => {
     const lonely: Catalog = { ...catalog, countries: {} };
     expect(gameView(lonely, gameById("a"), null)).toContain("GH, NG");
   });
+
+  test("draws the board when the game has a diagram", () => {
+    const drawn: Game = {
+      ...full,
+      diagram: { type: "points", rows: 3, cols: 3, diagonals: "alternate" },
+    };
+    const html = gameView(catalog, drawn, null);
+    expect(html).toContain('<figure class="board-figure">');
+    expect(html).toContain('aria-label="Tabuleiro de A"');
+    expect(gameView(catalog, full, null)).not.toContain("<svg");
+  });
+
+  test("says which variant the drawing shows", () => {
+    const drawn: Game = {
+      ...full,
+      diagram: { type: "grid", rows: 5, cols: 5, note: "variante <5×5>" },
+    };
+    expect(gameView(catalog, drawn, null)).toContain(
+      "<figcaption>variante &lt;5×5&gt;</figcaption>",
+    );
+  });
+
+  test("links the printable kit when the game has rules", () => {
+    const html = gameView(catalog, full, null);
+    expect(html).toContain('href="kits/a.pdf"');
+    expect(html).toContain("Baixar regras (PDF)");
+    expect(gameView(catalog, gameById("b"), null)).not.toContain("kits/");
+  });
+
+  test("names the board in the kit link when there is a drawing", () => {
+    const drawn: Game = {
+      ...full,
+      diagram: { type: "mill", diagonals: false },
+    };
+    expect(gameView(catalog, drawn, null)).toContain(
+      "Baixar regras e tabuleiro (PDF)",
+    );
+  });
 });

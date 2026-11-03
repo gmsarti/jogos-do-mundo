@@ -15,6 +15,11 @@ cultures:
   - tohono o'odham
   - tewa
 board: alquerque com só as diagonais principais
+diagram:
+  type: points
+  rows: 5
+  cols: 5
+  diagonals: main
 pieces: 1 coiote contra várias peças
 players: "2"
 period: registrado em 1898

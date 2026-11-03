@@ -1,7 +1,7 @@
 # PRD — Jogos do Mundo
 
 > Documento vivo. Mudanças de escopo passam por aqui antes de virar tarefa em [TASKS.md](TASKS.md).
-> Última revisão: 2026-10-31.
+> Última revisão: 2026-11-02.
 
 ## 1. Visão
 
@@ -63,16 +63,16 @@ Prioridade: **M** = obrigatório no MVP, **S** = deveria ter logo depois, **C** 
 | RF-14 | Navegação do mapa pelo teclado | S |
 | RF-15 | Metadados de compartilhamento (título, descrição, imagem) | S |
 | RF-16 | Jogos relacionados (mesma família ou região) no painel do jogo | C |
-| RF-17 | Diagrama SVG do tabuleiro para os tipos mais comuns (ex.: 3×3 com diagonais, mancala de 2 fileiras) | C |
+| RF-17 | Desenho do tabuleiro no painel do jogo, com identidade visual comum a toda a coleção, para todo jogo cujo tabuleiro tenha medidas na fonte. Os tipos comuns (grade, pontos com diagonais, covas, quadrados concêntricos) são gerados por código; tabuleiros únicos são desenhados à mão | S |
 | RF-18 | Filtro por status de confiança das regras | C |
-| RF-19 | Versão de impressão da ficha do jogo, para uso em aula | C |
+| RF-19 | Kit de impressão em PDF (A4) por jogo, para uso em aula: folha de regras composta como livro (ficha, regras, história, referências e QR para a página do jogo) e o tabuleiro em tamanho de jogar, em versão ornada e simples. As regras nunca são cortadas. Gerado no build com Typst | S |
 
 ## 8. Requisitos não funcionais
 
 | ID | Requisito |
 | --- | --- |
 | RNF-01 | **Estático:** build em `dist/` servido pelo GitHub Pages, sem backend |
-| RNF-02 | **Leve:** JS inicial ≤ 60 KB gzip (sem contar o catálogo e o geo); geo + catálogo ≤ 250 KB gzip |
+| RNF-02 | **Leve:** JS inicial ≤ 60 KB gzip (sem contar o catálogo e o geo); geo + catálogo ≤ 250 KB gzip. Os PDFs do kit (RF-19) só são baixados sob demanda e ficam fora dessa conta |
 | RNF-03 | **Rápido:** Lighthouse mobile ≥ 90 em Performance; interação no mapa sem travadas perceptíveis em celular médio |
 | RNF-04 | **Acessível:** Lighthouse Accessibility ≥ 95, contraste AA nos dois temas, foco visível, `prefers-reduced-motion` |
 | RNF-05 | **Responsivo:** funciona de 360px a telas largas, sem rolagem horizontal |
@@ -105,7 +105,7 @@ Prioridade: **M** = obrigatório no MVP, **S** = deveria ter logo depois, **C** 
 
 ## 12. Questões em aberto
 
-- Licença do código e do conteúdo (ex.: MIT + CC BY-SA?)
+- Licença do código e do conteúdo (ex.: MIT + CC BY-SA?). O rodapé do kit de impressão (RF-19) diz "licença a definir" até essa resposta
 - ~~Domínio próprio ou `<usuario>.github.io/jogos-do-mundo`~~: resolvido, domínio próprio `jogosdomundo.com.br` (registro.br) apontando para o GitHub Pages
 - Como tratar jogos com área de origem incerta ou que atravessa fronteiras (hoje vão para "sem país definido" ou para vários países)
 - ~~Fontes tipográficas~~: resolvido no T-045, Gloock + Commissioner hospedadas no projeto (cobrem latim estendido, cirílico e vietnamita no texto)

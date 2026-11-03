@@ -14,6 +14,11 @@ cultures:
   - dominicanos
   - haitianos
 board: 2×6
+diagram:
+  type: pits
+  rows: 2
+  cols: 6
+  stores: 0
 pieces: sementes
 players: "2"
 period: registrado em 2004

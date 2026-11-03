@@ -15,6 +15,11 @@ countries:
 cultures:
   - cabo-verdianos
 board: 2×6 cavidades
+diagram:
+  type: pits
+  rows: 2
+  cols: 6
+  stores: 0
 pieces: 48 sementes (de ourinzeira)
 players: "2"
 period: séc. XV (tradição) – presente

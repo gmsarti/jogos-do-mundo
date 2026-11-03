@@ -15,6 +15,9 @@ cultures:
   - brasileiros
   - portugueses
 board: 3 quadrados concêntricos (24 pontos)
+diagram:
+  type: mill
+  diagonals: false
 pieces: 9 por jogador
 players: "2"
 period: Idade Média (família) – presente

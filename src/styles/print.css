@@ -4,7 +4,8 @@
   .mapbox,
   .handle,
   .back,
-  .status-help {
+  .status-help,
+  .kit-link {
     display: none;
   }
 

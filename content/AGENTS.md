@@ -26,6 +26,7 @@ Todos os campos são obrigatórios, a menos que a coluna diga o contrário. Camp
 | `countries` | lista de ISO-2 | Cada uma existe em `countries.json`. Vazia = "sem país definido" |
 | `cultures` | lista de strings | Povos ou comunidades. Use `a verificar` se não souber |
 | `board` | string | Tabuleiro. `desconhecido` se não houver fonte |
+| `diagram` | objeto | **Opcional.** Como desenhar o tabuleiro (ver abaixo). Só quando a fonte dá as medidas |
 | `pieces` | string | Peças. `desconhecido` se não houver fonte |
 | `players` | string | **Sempre entre aspas** (`"2"`), senão o YAML vira número e a validação falha |
 | `period` | string | Período em que o jogo é atestado |
@@ -39,6 +40,20 @@ Todos os campos são obrigatórios, a menos que a coluna diga o contrário. Camp
 | `summary` | string | Uma ou duas frases |
 
 O corpo do arquivo tem as seções `## História` e `## Regras`, ambas opcionais (omita a seção em vez de deixá-la vazia). Qualquer outro título `##` é erro. O texto aceita só o mini-Markdown do app: **negrito**, *itálico*, listas (`-` e `1.`) e parágrafos.
+
+### `diagram`
+
+Desenha o tabuleiro no painel e no kit de impressão. Os números contam o que a fonte conta. `note` (opcional) diz qual variante foi desenhada quando as fontes divergem.
+
+| `type` | Campos | Exemplos |
+| --- | --- | --- |
+| `grid` | `rows`, `cols` (casas), `checkered` opcional | Xadrez, Shogi, Yote |
+| `lines` | `rows`, `cols` (interseções, sem marcar os pontos) | Weiqi |
+| `points` | `rows`, `cols` (pontos), `diagonals`: `alternate` (padrão do alquerque), `main` ou `none` | Achi, Alquerque, Fanorona |
+| `pits` | `rows`, `cols` (covas por fileira), `stores`: `0` ou `2` (um depósito em cada ponta) | Oware, Omweso |
+| `mill` | `diagonals` | Trilha, Morabaraba |
+
+Sem `diagram`, o jogo fica sem desenho, o que é melhor que um desenho errado. Não desenhe: medida ausente ou ambígua (“2 fileiras”, “4×12 a 4×20”), casas ou pontos marcados que o tipo não sabe desenhar (castelo do Tablut, rio do Xiangqi) e tabuleiros únicos. Esses casos estão nas tarefas T-054 a T-057.
 
 ### `status`
 

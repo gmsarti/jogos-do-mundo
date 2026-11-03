@@ -21,6 +21,30 @@ export interface Evidence {
   ref: string;
 }
 
+/**
+ * How to draw the board. Sizes count what the sources count: cells for `grid`,
+ * intersections for `lines` and `points`, pits per row for `pits`.
+ * `note` says which variant is drawn when the sources disagree.
+ */
+export type Diagram =
+  | {
+      type: "grid";
+      rows: number;
+      cols: number;
+      checkered?: boolean;
+      note?: string;
+    }
+  | { type: "lines"; rows: number; cols: number; note?: string }
+  | {
+      type: "points";
+      rows: number;
+      cols: number;
+      diagonals: "alternate" | "main" | "none";
+      note?: string;
+    }
+  | { type: "pits"; rows: number; cols: number; stores: 0 | 2; note?: string }
+  | { type: "mill"; diagonals: boolean; note?: string };
+
 export interface Game {
   id: string;
   title: string;
@@ -29,6 +53,7 @@ export interface Game {
   countries: string[];
   cultures: string[];
   board: string;
+  diagram?: Diagram;
   pieces: string;
   players: string;
   period: string;

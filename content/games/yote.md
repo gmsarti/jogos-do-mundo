@@ -14,6 +14,11 @@ countries:
 cultures:
   - senegaleses (wolof e outros, a verificar)
 board: 5×5 (Béart 1955) ou 5×6 (fontes modernas)
+diagram:
+  type: grid
+  rows: 5
+  cols: 5
+  note: variante 5×5 (Béart 1955)
 pieces: 12 por jogador, em reserva no início
 players: "2"
 period: registrado em 1955 – presente

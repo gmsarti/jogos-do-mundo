@@ -13,6 +13,10 @@ cultures:
   - tailandeses
   - khmer
 board: 8×8
+diagram:
+  type: grid
+  rows: 8
+  cols: 8
 pieces: 16 por jogador
 players: "2"
 period: a levantar – presente

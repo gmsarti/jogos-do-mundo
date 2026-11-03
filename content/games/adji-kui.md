@@ -10,6 +10,11 @@ countries:
 cultures:
   - afro-cubanos (a verificar)
 board: 2×6
+diagram:
+  type: pits
+  rows: 2
+  cols: 6
+  stores: 0
 pieces: 48 sementes
 players: "2"
 period: registrado em 1991

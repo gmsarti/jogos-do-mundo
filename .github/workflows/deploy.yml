@@ -22,6 +22,11 @@ jobs:
         with:
           node-version-file: .nvmrc
           cache: npm
+      # Typst sets the print kits (make kits, part of make build); same version as local development
+      - name: Install Typst
+        run: |
+          curl -fsSL https://github.com/typst/typst/releases/download/v0.14.1/typst-x86_64-unknown-linux-musl.tar.xz | tar -xJ -C "$RUNNER_TEMP"
+          echo "$RUNNER_TEMP/typst-x86_64-unknown-linux-musl" >> "$GITHUB_PATH"
       - run: make install
       - run: make check
       - run: make build

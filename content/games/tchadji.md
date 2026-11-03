@@ -12,6 +12,12 @@ cultures:
   - macuas
   - Ilha de Moçambique
 board: 4×8 (também 4×12)
+diagram:
+  type: pits
+  rows: 4
+  cols: 8
+  stores: 0
+  note: variante 4×8
 pieces: 2 sementes por cova
 players: "2"
 period: registrado em 2001 – presente

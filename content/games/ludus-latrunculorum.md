@@ -14,6 +14,11 @@ countries:
 cultures:
   - Roma antiga
 board: variável; 8×8 em várias reconstruções
+diagram:
+  type: grid
+  rows: 8
+  cols: 8
+  note: 8×8, como em várias reconstruções
 pieces: 16–24 (Schädler) ou 20 (Locus Ludi) por jogador
 players: "2"
 period: séc. I a.C. – Antiguidade tardia
