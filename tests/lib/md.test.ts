@@ -39,6 +39,26 @@ describe("md", () => {
     expect(html).toContain("&lt;script&gt;");
   });
 
+  test("nests indented sub-items inside the previous numbered item", () => {
+    expect(md("1. a\n   - x\n   - y\n2. b")).toBe(
+      "<ol><li>a<ul><li>x</li><li>y</li></ul></li><li>b</li></ol>",
+    );
+  });
+
+  test("closes sub-items at the end of the text", () => {
+    expect(md("1. a\n   - x")).toBe("<ol><li>a<ul><li>x</li></ul></li></ol>");
+  });
+
+  test("treats an indented item outside a numbered list as a normal item", () => {
+    expect(md("texto\n   - x")).toBe("<p>texto</p><ul><li>x</li></ul>");
+  });
+
+  test("escapes HTML in sub-items", () => {
+    const html = md("1. a\n   - <img src=x onerror=1>");
+    expect(html).not.toContain("<img");
+    expect(html).toContain("<li>&lt;img");
+  });
+
   test("returns an empty string for empty input", () => {
     expect(md("")).toBe("");
   });

@@ -150,8 +150,9 @@ Origem: feedbacks de Aggeu (educador) e Alexandre Nacari (jogador), 03/11/2026, 
 - [ ] **T-063** Checagem de links agendada (`.github/workflows/links.yml`): toda segunda e sob demanda, com lychee para links quebrados e grep para `http://`; abre issue com o relatório
   - Aceite: uma rodada manual feita e os links quebrados corrigidos ou registrados; versões das actions conferidas (de preferência fixadas por SHA)
   - Relaciona: T-050 (relatório de "(a verificar)" e `unknown`)
-- [ ] **T-064** Mini-Markdown com sub-itens: linha com recuo de 3 espaços e `-` dentro de uma lista numerada vira `<ul>` dentro do `<li>` anterior
+- [x] **T-064** Mini-Markdown com sub-itens: linha com recuo de 3 espaços e `-` dentro de uma lista numerada vira `<ul>` dentro do `<li>` anterior
   - Testes: a numeração continua depois dos sub-itens; sub-item fora de lista vira item normal; escape de HTML mantido (XSS)
+  - Desvio: o `md()` foi dividido em `blocks()` e `renderBlock()` por causa do limite de complexidade do Biome. Recuo de 3 ou mais espaços conta. O kit de impressão (`scripts/kit/blocks.ts`) ainda não lê sub-itens: num PDF, eles virariam uma lista à parte e a numeração recomeçaria. Hoje nenhum texto que vai para o kit tem sub-itens
 - [ ] **T-065** Seções didáticas no schema: `## Do que você vai precisar?` (`needs`), `## Como jogar?` (`howto`) e `## Para quem conduz` (`guide`), todas opcionais; a ficha mostra as três antes de `## Regras` até o T-069
   - Testes: as três seções são lidas; título desconhecido continua sendo erro; jogo sem as seções gera o mesmo catálogo de antes
   - Doc: `content/AGENTS.md` atualizado (schema e exemplo comentado)

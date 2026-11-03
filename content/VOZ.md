@@ -47,7 +47,7 @@ Passos numerados, do começo ao fim da partida.
 
 - **Um passo, uma ação.** "Coloque uma peça num ponto livre" é um passo. "Coloque e depois mova" são dois.
 - **Imperativo e "você".** "Mova uma peça sua", não "o jogador move uma peça".
-- **Exceções como sub-itens**, com recuo de 3 espaços (depende do T-064; até lá, escreva a exceção numa frase dentro do próprio passo):
+- **Exceções como sub-itens**, com recuo de 3 espaços:
 
   ```markdown
   3. Na sua vez, mova uma peça para uma casa vizinha vazia.
