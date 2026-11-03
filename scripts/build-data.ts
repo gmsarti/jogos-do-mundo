@@ -56,6 +56,17 @@ function parseBody(body: string): {
   return { sections, errors };
 }
 
+/** Section keys written in the frontmatter, which would skip the body and its rules. */
+function misplacedSections(file: string, frontmatter: unknown): string[] {
+  const fields = Object.keys(frontmatter ?? {});
+  return Object.entries(SECTION_HEADINGS)
+    .filter(([, key]) => fields.includes(key))
+    .map(
+      ([heading, key]) =>
+        `${file}: ${key}: write it as the "## ${heading}" section, not in the frontmatter`,
+    );
+}
+
 function parseGameFile(
   file: string,
   text: string,
@@ -71,6 +82,9 @@ function parseGameFile(
   } catch (e) {
     return { errors: [`${file}: invalid YAML: ${(e as Error).message}`] };
   }
+
+  const misplaced = misplacedSections(file, frontmatter);
+  if (misplaced.length) return { errors: misplaced };
 
   const { sections, errors } = parseBody(match[2] ?? "");
   if (errors.length) return { errors: errors.map((m) => `${file}: ${m}`) };

@@ -71,6 +71,12 @@ describe("buildCatalog", () => {
     );
   });
 
+  test("fails on a section written as a frontmatter field", () => {
+    expect(() =>
+      buildCatalog(fixture("content-section-in-frontmatter")),
+    ).toThrow(/games\/bad\.md: howto: .*## Como jogar\?/);
+  });
+
   test("fails on a file without frontmatter", () => {
     expect(() => buildCatalog(fixture("content-no-frontmatter"))).toThrow(
       /games\/bad\.md: .*frontmatter/,
