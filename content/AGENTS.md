@@ -10,6 +10,7 @@ Regras específicas da pasta `content/`. As regras globais (honestidade, "nunca 
 | `families.json` | Famílias: `id` → rótulo em pt-BR |
 | `countries.json` | Países: ISO 3166-1 alfa-2 → `{ "pt": nome, "num": código numérico do TopoJSON }` |
 | `languages.json` | Línguas dos nomes locais: código ISO 639 → nome em pt-BR |
+| `VOZ.md` | Guia de voz das seções didáticas (resumo, "Do que você vai precisar?", "Como jogar?", "Para quem conduz") |
 
 `make data` valida tudo com zod (`scripts/schema.ts`) e gera `src/generated/catalog.json`. Os erros apontam arquivo e campo (`games/achi.md: status: ...`). O `make check` roda a mesma validação.
 

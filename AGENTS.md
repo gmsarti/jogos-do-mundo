@@ -57,6 +57,8 @@ Este arquivo é o índice global do projeto — contém só o que vale para **to
 - [`README.md`](README.md) — visão geral e comandos básicos do projeto
 - `src/AGENTS.md` — arquitetura do app, módulos e padrões de UI
 - `content/AGENTS.md` — schema completo de um jogo e guia de curadoria
+- `content/VOZ.md` — guia de voz dos textos para quem vai jogar (skill `escrever-jogo` em `.claude/skills/`)
+- `docs/proposta-schema.md` — proposta da Fase 6 (schema, rótulos de status, famílias, ficha em duas camadas)
 
 ## Arquitetura em Uma Linha
 
