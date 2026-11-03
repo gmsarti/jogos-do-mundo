@@ -9,6 +9,10 @@ function section(title: string, body: string): string {
   return body ? `<h3>${title}</h3>${body}` : "";
 }
 
+function prose(title: string, text = ""): string {
+  return section(title, text ? `<div class="prose">${md(text)}</div>` : "");
+}
+
 function boardFigure(game: Game): string {
   if (!game.diagram) return "";
   const svg = boardSvg(boardShapes(game.diagram), `Tabuleiro de ${game.title}`);
@@ -73,7 +77,10 @@ ${kitLink(game)}
 ${sens}
 ${recon}
 </dl>
-${section("História", game.history ? `<div class="prose">${md(game.history)}</div>` : "")}
-${section("Regras", game.rules ? `<div class="prose">${md(game.rules)}</div>` : "")}
+${prose("História", game.history)}
+${prose("Do que você vai precisar?", game.needs)}
+${prose("Como jogar?", game.howto)}
+${prose("Para quem conduz", game.guide)}
+${prose("Regras", game.rules)}
 ${section("Referências", refs ? `<ul class="prose">${refs}</ul>` : "")}`;
 }

@@ -153,9 +153,10 @@ Origem: feedbacks de Aggeu (educador) e Alexandre Nacari (jogador), 03/11/2026, 
 - [x] **T-064** Mini-Markdown com sub-itens: linha com recuo de 3 espaços e `-` dentro de uma lista numerada vira `<ul>` dentro do `<li>` anterior
   - Testes: a numeração continua depois dos sub-itens; sub-item fora de lista vira item normal; escape de HTML mantido (XSS)
   - Desvio: o `md()` foi dividido em `blocks()` e `renderBlock()` por causa do limite de complexidade do Biome. Recuo de 3 ou mais espaços conta. O kit de impressão (`scripts/kit/blocks.ts`) ainda não lê sub-itens: num PDF, eles virariam uma lista à parte e a numeração recomeçaria. Hoje nenhum texto que vai para o kit tem sub-itens
-- [ ] **T-065** Seções didáticas no schema: `## Do que você vai precisar?` (`needs`), `## Como jogar?` (`howto`) e `## Para quem conduz` (`guide`), todas opcionais; a ficha mostra as três antes de `## Regras` até o T-069
+- [x] **T-065** Seções didáticas no schema: `## Do que você vai precisar?` (`needs`), `## Como jogar?` (`howto`) e `## Para quem conduz` (`guide`), todas opcionais; a ficha mostra as três antes de `## Regras` até o T-069
   - Testes: as três seções são lidas; título desconhecido continua sendo erro; jogo sem as seções gera o mesmo catálogo de antes
   - Doc: `content/AGENTS.md` atualizado (schema e exemplo comentado)
+  - Desvio: o catálogo real gerado antes e depois foi comparado byte a byte (idêntico). A ordem das seções no arquivo é documentada, mas não validada. O kit em PDF (T-052) continua só com "Regras" e "História"; as seções didáticas entram nele quando o T-069 decidir o que vai para a impressão
 - [ ] **T-066** Glossário: `content/glossary.json` (`id → {termo, def, variantes}`), validado no build; a ficha lista em "Palavras do jogo" os termos que aparecem em "Como jogar?" e "Regras"
   - Testes: termo encontrado sem acento e sem diferenciar maiúsculas, inclusive pelas variantes; só aparecem termos usados no jogo; glossário inválido falha com arquivo e campo
 - [ ] **T-067** Guia de voz (`content/VOZ.md`) e skill `escrever-jogo` (`.claude/skills/escrever-jogo/`), com piloto no Achi

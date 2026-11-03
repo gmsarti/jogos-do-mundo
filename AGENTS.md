@@ -79,7 +79,7 @@ Conteúdo em Markdown (`content/`) → `scripts/build-data.ts` valida e gera JSO
 | `src/types.ts` | Tipos `Game`, `Family`, `Country` — espelham o schema de `content/` |
 | `src/styles/` | `tokens.css` (cores e tipografia, light/dark) e `base.css` |
 | `src/generated/` | **Gerado** por `make data` — nunca edite, está no `.gitignore` |
-| `content/games/<id>.md` | Um jogo por arquivo: frontmatter YAML + seções `## História` e `## Regras` |
+| `content/games/<id>.md` | Um jogo por arquivo: frontmatter YAML + seções `## História`, didáticas (opcionais) e `## Regras` |
 | `content/families.json` | Famílias de jogos: id → rótulo em pt-BR |
 | `content/countries.json` | Países: ISO-2 → `{ pt, num }` (nome e código numérico do TopoJSON) |
 | `scripts/build-data.ts` | Lê `content/`, valida com `zod`, gera `src/generated/catalog.json` |
@@ -117,7 +117,7 @@ O projeto segue **TDD**. Ordem obrigatória:
 
 1. Crie ou edite `content/games/<id>.md`. O `id` é kebab-case e igual ao nome do arquivo
 2. Frontmatter: `id, title, names, fam, countries, cultures, board, pieces, players, period, status, living, sens, ev, recon, refs, place, summary` (detalhes e exemplos em `content/AGENTS.md`)
-3. Corpo: seções `## História` e `## Regras`, em Markdown simples (negrito, itálico, listas)
+3. Corpo: seções `## História` e `## Regras`, e as didáticas opcionais (`content/VOZ.md`), em Markdown simples (negrito, itálico, listas)
 4. Rode `make data` (valida e gera o catálogo) e depois `make check`
 5. Commit de conteúdo separado de commit de código
 

@@ -11,10 +11,13 @@ import {
   languagesSchema,
 } from "./schema.ts";
 
-type Section = "history" | "rules";
+type Section = "history" | "needs" | "howto" | "guide" | "rules";
 
 const SECTION_HEADINGS: Record<string, Section> = {
   História: "history",
+  "Do que você vai precisar?": "needs",
+  "Como jogar?": "howto",
+  "Para quem conduz": "guide",
   Regras: "rules",
 };
 
@@ -31,7 +34,7 @@ function readJson(path: string): unknown {
   return JSON.parse(readFileSync(path, "utf8"));
 }
 
-/** Splits the body into the `## História` / `## Regras` sections. */
+/** Splits the body into its `##` sections (see SECTION_HEADINGS). */
 function parseBody(body: string): {
   sections: Partial<Record<Section, string>>;
   errors: string[];
@@ -72,10 +75,13 @@ function parseGameFile(
   if (errors.length) return { errors: errors.map((m) => `${file}: ${m}`) };
 
   const fileId = basename(file, ".md");
+  // História and Regras are always present (maybe empty); the teaching sections only when written
+  const { history = "", rules = "", ...teaching } = sections;
   const result = gameSchema({ fileId, families, countries }).safeParse({
     ...(frontmatter as object),
-    history: sections.history ?? "",
-    rules: sections.rules ?? "",
+    history,
+    rules,
+    ...teaching,
   });
   if (!result.success) return { errors: formatIssues(file, result.error) };
   return { game: result.data, errors: [] };

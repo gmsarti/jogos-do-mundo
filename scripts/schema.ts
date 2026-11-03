@@ -112,6 +112,9 @@ export function gameSchema({
     place: z.string(),
     summary: text,
     history: z.string(),
+    needs: z.string().optional(),
+    howto: z.string().optional(),
+    guide: z.string().optional(),
     rules: z.string(),
   });
 }

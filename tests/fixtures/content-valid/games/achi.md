@@ -32,6 +32,18 @@ summary: Jogo de alinhamento.
 
 Observado em **Gana**.
 
+## Do que você vai precisar?
+
+- Um tabuleiro de 3×3 pontos
+
+## Como jogar?
+
+1. Coloque uma peça.
+
+## Para quem conduz
+
+**Sugestão do site:** comece só colocando.
+
 ## Regras
 
 1. Alinhe três peças.

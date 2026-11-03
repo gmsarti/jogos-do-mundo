@@ -123,6 +123,24 @@ describe("gameView", () => {
     expect(html).toContain("<li>passo um</li>");
   });
 
+  test("shows the teaching sections between História and Regras", () => {
+    const html = gameView(
+      catalog,
+      { ...full, needs: "- 9 pedras", howto: "1. Coloque", guide: "Dica" },
+      null,
+    );
+    const order = [
+      "<h3>História</h3>",
+      "<h3>Do que você vai precisar?</h3>",
+      "<h3>Como jogar?</h3>",
+      "<h3>Para quem conduz</h3>",
+      "<h3>Regras</h3>",
+    ].map((h) => html.indexOf(h));
+    expect(order.every((i) => i >= 0)).toBe(true);
+    expect(order).toEqual([...order].sort((a, b) => a - b));
+    expect(html).toContain("<li>9 pedras</li>");
+  });
+
   test("links to references safely", () => {
     const html = gameView(catalog, full, null);
     expect(html).toContain('href="https://example.org"');
@@ -133,6 +151,7 @@ describe("gameView", () => {
     const html = gameView(catalog, gameById("b"), null);
     expect(html).not.toContain("História");
     expect(html).not.toContain("Regras");
+    expect(html).not.toContain("Como jogar?");
     expect(html).not.toContain("Reconstrução");
   });
 

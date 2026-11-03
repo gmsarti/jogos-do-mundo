@@ -20,6 +20,22 @@ describe("buildCatalog", () => {
     expect(achi?.rules).toBe("1. Alinhe três peças.\n2. Vence quem alinhar.");
   });
 
+  test("reads the teaching sections", () => {
+    const achi = buildCatalog(fixture("content-valid")).games[0];
+
+    expect(achi?.needs).toBe("- Um tabuleiro de 3×3 pontos");
+    expect(achi?.howto).toBe("1. Coloque uma peça.");
+    expect(achi?.guide).toBe("**Sugestão do site:** comece só colocando.");
+  });
+
+  test("leaves the teaching sections out of a game without them", () => {
+    const solo = buildCatalog(fixture("content-valid")).games[1];
+
+    expect(solo).not.toHaveProperty("needs");
+    expect(solo).not.toHaveProperty("howto");
+    expect(solo).not.toHaveProperty("guide");
+  });
+
   test("leaves a missing section empty", () => {
     const solo = buildCatalog(fixture("content-valid")).games[1];
 
