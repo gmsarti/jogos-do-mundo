@@ -163,6 +163,29 @@ dd {
   margin: 0;
 }
 
+.words {
+  max-width: 68ch;
+  margin: 0.8rem 0;
+  padding: 0.2rem 0.9rem 0.4rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.words dl {
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+.words dt {
+  margin-top: 0.4rem;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.words dd {
+  color: var(--muted);
+}
+
 /* Status dot: shape and color both carry the level (filled, half, ring, dashed ring) */
 .st {
   display: inline-block;

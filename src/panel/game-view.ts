@@ -1,5 +1,6 @@
 import { boardShapes } from "../boards/geometry.ts";
 import { boardSvg } from "../boards/svg.ts";
+import { termsIn } from "../lib/glossary.ts";
 import { esc, md } from "../lib/md.ts";
 import { localName } from "../lib/names.ts";
 import type { Catalog, Game } from "../types.ts";
@@ -20,6 +21,16 @@ function boardFigure(game: Game): string {
     ? `<figcaption>${esc(game.diagram.note)}</figcaption>`
     : "";
   return `<figure class="board-figure">${svg}${note}</figure>`;
+}
+
+// The glossary words used in "Como jogar?" and "Regras"
+function wordsBox(catalog: Catalog, game: Game): string {
+  const terms = termsIn(catalog.glossary, `${game.howto ?? ""}\n${game.rules}`);
+  if (!terms.length) return "";
+  const items = terms
+    .map((t) => `<dt>${esc(t.termo)}</dt><dd>${esc(t.def)}</dd>`)
+    .join("");
+  return `<div class="words"><h3>Palavras do jogo</h3><dl>${items}</dl></div>`;
 }
 
 // The PDFs are built by `make kits` for every game with rules; the link is relative to the site root
@@ -51,6 +62,8 @@ export function gameView(
   const recon = game.recon.length
     ? `<dt>Reconstrução</dt><dd>${esc(game.recon.join("; "))}</dd>`
     : "";
+  // The box closes "Como jogar?"; games without it still get the box, after "Regras"
+  const words = wordsBox(catalog, game);
   const refs = game.refs
     .map(
       (r) =>
@@ -80,7 +93,9 @@ ${recon}
 ${prose("História", game.history)}
 ${prose("Do que você vai precisar?", game.needs)}
 ${prose("Como jogar?", game.howto)}
+${game.howto ? words : ""}
 ${prose("Para quem conduz", game.guide)}
 ${prose("Regras", game.rules)}
+${game.howto ? "" : words}
 ${section("Referências", refs ? `<ul class="prose">${refs}</ul>` : "")}`;
 }

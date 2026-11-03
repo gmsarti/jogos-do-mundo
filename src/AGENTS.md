@@ -10,6 +10,7 @@ Regras específicas da pasta `src/`. As regras globais (KISS, TDD, tokens, acess
 | `state.ts` | `State` (`fam`, `country`, `game`), `parseHash`, `serializeState` e `normalizeState` — funções puras |
 | `types.ts` | Tipos `Game`, `Catalog` etc., espelham `scripts/schema.ts` |
 | `lib/md.ts` | `esc()` (escape de HTML) e `md()` (mini-Markdown seguro) |
+| `lib/glossary.ts` | `termsIn()`: termos do glossário usados num texto (palavra inteira, sem acento e sem maiúscula) |
 | `lib/selectors.ts` | Seletores puros sobre `Game[]`: filtro por família, por país, contagens, faixa de cor, ranking |
 | `boards/geometry.ts` | Formas de cada tipo de tabuleiro a partir do `diagram` (em unidades de tabuleiro), e `rotate()`; puro e testado |
 | `boards/svg.ts` | SVG da tela: só classes `b-<papel>`, as cores vêm dos tokens `--wood`, `--pit`, `--carve` |

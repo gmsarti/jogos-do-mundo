@@ -10,6 +10,7 @@ Regras específicas da pasta `content/`. As regras globais (honestidade, "nunca 
 | `families.json` | Famílias: `id` → rótulo em pt-BR |
 | `countries.json` | Países: ISO 3166-1 alfa-2 → `{ "pt": nome, "num": código numérico do TopoJSON }` |
 | `languages.json` | Línguas dos nomes locais: código ISO 639 → nome em pt-BR |
+| `glossary.json` | Glossário: `id` → `{ termo, def, variantes }`, as "Palavras do jogo" da ficha |
 | `VOZ.md` | Guia de voz das seções didáticas (resumo, "Do que você vai precisar?", "Como jogar?", "Para quem conduz") |
 
 `make data` valida tudo com zod (`scripts/schema.ts`) e gera `src/generated/catalog.json`. Os erros apontam arquivo e campo (`games/achi.md: status: ...`). O `make check` roda a mesma validação.
@@ -76,6 +77,12 @@ Sem `diagram`, o jogo fica sem desenho, o que é melhor que um desenho errado. N
 | `unknown` | Não há regras confiáveis |
 
 Na dúvida, escolha o status **menos** confiável.
+
+## Glossário (`glossary.json`)
+
+Termos que um iniciante pode não conhecer, com a definição na voz do [`VOZ.md`](VOZ.md). A ficha mostra em "Palavras do jogo" todo termo cujo `termo` ou alguma das `variantes` aparece em "Como jogar?" ou em "Regras", como palavra inteira, sem diferenciar acento nem maiúscula. Plural e verbo não são achados sozinhos: entram como variantes (`captura` → `capturar`, `capturadas`).
+
+A definição vale para todo jogo em que o termo aparece. Não use como variante uma palavra que outros jogos usam com outro sentido: "saltar" ficou de fora de *captura por salto* porque no Janggi e no Chaturanga o salto é movimento, não captura.
 
 ## Línguas (`languages.json`)
 

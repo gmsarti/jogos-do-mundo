@@ -10,6 +10,10 @@ describe("buildCatalog", () => {
     expect(catalog.families).toEqual({ alinhamento: "Jogos de alinhamento" });
     expect(catalog.countries).toEqual({ GH: { pt: "Gana", num: "288" } });
     expect(catalog.languages).toEqual({ ak: "akan" });
+    expect(catalog.glossary.alinhamento?.variantes).toEqual([
+      "alinhar",
+      "alinhe",
+    ]);
     expect(catalog.games.map((g) => g.id)).toEqual(["achi", "solo"]);
   });
 
@@ -58,6 +62,12 @@ describe("buildCatalog", () => {
   test("fails on an unknown section heading", () => {
     expect(() => buildCatalog(fixture("content-bad-section"))).toThrow(
       /games\/bad\.md: .*Lendas/,
+    );
+  });
+
+  test("fails on an invalid glossary pointing at the file and the field", () => {
+    expect(() => buildCatalog(fixture("content-bad-glossary"))).toThrow(
+      /glossary\.json: alinhamento\.def/,
     );
   });
 

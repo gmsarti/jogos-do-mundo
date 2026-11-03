@@ -8,6 +8,7 @@ import {
   countriesSchema,
   familiesSchema,
   gameSchema,
+  glossarySchema,
   languagesSchema,
 } from "./schema.ts";
 
@@ -122,6 +123,13 @@ export function buildCatalog(contentDir: string): Catalog {
     errors,
   );
 
+  const glossary = parseJsonFile(
+    join(contentDir, "glossary.json"),
+    "glossary.json",
+    glossarySchema,
+    errors,
+  );
+
   const games: Game[] = [];
   const gamesDir = join(contentDir, "games");
   const files = readdirSync(gamesDir)
@@ -135,7 +143,7 @@ export function buildCatalog(contentDir: string): Catalog {
   }
 
   if (errors.length) throw new Error(errors.join("\n"));
-  return { games, families, countries, languages };
+  return { games, families, countries, languages, glossary };
 }
 
 function main(): void {
