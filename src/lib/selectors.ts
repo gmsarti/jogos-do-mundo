@@ -1,4 +1,4 @@
-import type { Game } from "../types.ts";
+import type { Families, Game } from "../types.ts";
 
 export function visibleGames(games: Game[], fam: string | null): Game[] {
   return fam ? games.filter((g) => g.fam.includes(fam)) : games;
@@ -49,14 +49,14 @@ export function searchGames(games: Game[], query: string): Game[] {
 
 /** Families with games whose label matches the query, as [id, label]. */
 export function searchFamilies(
-  families: Record<string, string>,
+  families: Families,
   games: Game[],
   query: string,
 ): [string, string][] {
   const needle = fold(query.trim());
   if (!needle) return [];
   const used = new Set(games.flatMap((g) => g.fam));
-  return Object.entries(families).filter(
-    ([id, label]) => used.has(id) && fold(label).includes(needle),
-  );
+  return Object.entries(families)
+    .filter(([id, f]) => used.has(id) && fold(f.label).includes(needle))
+    .map(([id, f]) => [id, f.label]);
 }

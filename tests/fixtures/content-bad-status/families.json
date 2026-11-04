@@ -1,1 +1,6 @@
-{ "alinhamento": "Jogos de alinhamento" }
+{
+  "alinhamento": {
+    "label": "Jogos de alinhamento",
+    "desc": "O objetivo é colocar peças suas em linha."
+  }
+}

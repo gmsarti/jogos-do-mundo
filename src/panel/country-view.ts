@@ -10,7 +10,9 @@ export function countryView(
 ): string {
   const games = gamesOfCountry(visibleGames(catalog.games, fam), iso);
   const plural = games.length > 1;
-  const famNote = fam ? ` na família ${esc(catalog.families[fam] ?? fam)}` : "";
+  const famNote = fam
+    ? ` na família ${esc(catalog.families[fam]?.label ?? fam)}`
+    : "";
 
   return `<button type="button" class="back" data-home><span aria-hidden="true">←</span> Todos os países</button><h2>${esc(catalog.countries[iso]?.pt ?? iso)}</h2>
 <p class="muted">${games.length} ${plural ? "jogos registrados" : "jogo registrado"}${famNote}</p>

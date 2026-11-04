@@ -46,7 +46,7 @@ function facts(catalog: Catalog, game: Game): [string, string][] {
 export function kitData(catalog: Catalog, game: Game): KitData {
   return {
     title: game.title,
-    family: game.fam.map((f) => catalog.families[f] ?? f).join(", "),
+    family: game.fam.map((f) => catalog.families[f]?.label ?? f).join(", "),
     status: STATUS_LABEL[game.status],
     statusHelp: STATUS_HELP[game.status],
     summary: mdBlocks(game.summary),

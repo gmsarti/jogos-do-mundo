@@ -5,7 +5,10 @@ const KEBAB_ID = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
 const text = z.string().min(1);
 
-export const familiesSchema = z.record(z.string().regex(KEBAB_ID), text);
+export const familiesSchema = z.record(
+  z.string().regex(KEBAB_ID),
+  z.strictObject({ label: text, desc: text }),
+);
 
 export const countriesSchema = z.record(
   z.string().regex(/^[A-Z]{2}$/),

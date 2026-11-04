@@ -33,6 +33,16 @@ function wordsBox(catalog: Catalog, game: Game): string {
   return `<div class="words"><h3>Palavras do jogo</h3><dl>${items}</dl></div>`;
 }
 
+// One paragraph per family: its label and how games of that kind are played
+function kindOfGame(catalog: Catalog, game: Game): string {
+  const items = game.fam
+    .map((f) => catalog.families[f])
+    .filter((f) => f !== undefined)
+    .map((f) => `<p><strong>${esc(f.label)}.</strong> ${esc(f.desc)}</p>`)
+    .join("");
+  return section("Tipo de jogo", items && `<div class="prose">${items}</div>`);
+}
+
 // The PDFs are built by `make kits` for every game with rules; the link is relative to the site root
 function kitLink(game: Game): string {
   if (!game.rules) return "";
@@ -49,7 +59,9 @@ export function gameView(
   from: string | null,
 ): string {
   const countryName = (iso: string) => catalog.countries[iso]?.pt ?? iso;
-  const families = game.fam.map((f) => catalog.families[f] ?? f).join(", ");
+  const families = game.fam
+    .map((f) => catalog.families[f]?.label ?? f)
+    .join(", ");
   const evidence =
     [game.ev.date, game.ev.ref].filter(Boolean).join(" — ") || "a levantar";
   const countries = game.countries.map(countryName).join(", ") || "—";
@@ -90,6 +102,7 @@ ${kitLink(game)}
 ${sens}
 ${recon}
 </dl>
+${kindOfGame(catalog, game)}
 ${prose("História", game.history)}
 ${prose("Do que você vai precisar?", game.needs)}
 ${prose("Como jogar?", game.howto)}

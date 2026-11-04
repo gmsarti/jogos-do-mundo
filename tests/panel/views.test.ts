@@ -209,6 +209,21 @@ describe("gameView", () => {
     );
   });
 
+  test("explains the kind of game with each family's description", () => {
+    const html = gameView(
+      catalog,
+      { ...full, fam: ["alinhamento", "mancala"] },
+      null,
+    );
+    expect(html).toContain("<h3>Tipo de jogo</h3>");
+    expect(html).toContain(
+      "<p><strong>Alinhamento.</strong> O objetivo é colocar peças suas em linha.</p>",
+    );
+    expect(html).toContain(
+      "<p><strong>Mancala.</strong> Você distribui as sementes.</p>",
+    );
+  });
+
   test("shows families as a neutral tag, not with a status style", () => {
     const html = gameView(catalog, full, null);
     expect(html).toContain('<span class="tag">Alinhamento</span>');

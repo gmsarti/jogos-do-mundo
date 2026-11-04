@@ -14,8 +14,11 @@ describe("content/ vs prototype", () => {
     expect(Object.keys(catalog.countries)).toHaveLength(79);
   });
 
-  test("families are identical to the prototype's", () => {
-    expect(catalog.families).toEqual(prototype.fam);
+  test("family labels are identical to the prototype's", () => {
+    const labels = Object.fromEntries(
+      Object.entries(catalog.families).map(([id, f]) => [id, f.label]),
+    );
+    expect(labels).toEqual(prototype.fam);
   });
 
   test("countries carry the prototype's names and numeric codes", () => {

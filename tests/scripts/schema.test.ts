@@ -7,7 +7,12 @@ import {
 } from "../../scripts/schema.ts";
 import type { Countries, Families, Game } from "../../src/types.ts";
 
-const families: Families = { alinhamento: "Jogos de alinhamento" };
+const families: Families = {
+  alinhamento: {
+    label: "Jogos de alinhamento",
+    desc: "O objetivo é colocar peças suas em linha.",
+  },
+};
 const countries: Countries = { GH: { pt: "Gana", num: "288" } };
 
 const validGame: Game = {
@@ -145,12 +150,18 @@ describe("gameSchema", () => {
 });
 
 describe("familiesSchema", () => {
-  test("accepts id → label", () => {
+  test("accepts id → { label, desc }", () => {
     expect(familiesSchema.safeParse(families).success).toBe(true);
   });
 
-  test("rejects an empty label", () => {
-    expect(familiesSchema.safeParse({ corrida: "" }).success).toBe(false);
+  test("requires both label and desc", () => {
+    for (const corrida of [
+      "Jogos de corrida",
+      { label: "Jogos de corrida" },
+      { desc: "Vence quem chegar primeiro." },
+      { label: "", desc: "Vence quem chegar primeiro." },
+    ])
+      expect(familiesSchema.safeParse({ corrida }).success).toBe(false);
   });
 });
 

@@ -80,7 +80,7 @@ Conteúdo em Markdown (`content/`) → `scripts/build-data.ts` valida e gera JSO
 | `src/styles/` | `tokens.css` (cores e tipografia, light/dark) e `base.css` |
 | `src/generated/` | **Gerado** por `make data` — nunca edite, está no `.gitignore` |
 | `content/games/<id>.md` | Um jogo por arquivo: frontmatter YAML + seções `## História`, didáticas (opcionais) e `## Regras` |
-| `content/families.json` | Famílias de jogos: id → rótulo em pt-BR |
+| `content/families.json` | Famílias de jogos: id → `{ label, desc }` (rótulo e frase de "Tipo de jogo" em pt-BR) |
 | `content/countries.json` | Países: ISO-2 → `{ pt, num }` (nome e código numérico do TopoJSON) |
 | `scripts/build-data.ts` | Lê `content/`, valida com `zod`, gera `src/generated/catalog.json` |
 | `scripts/schema.ts` | Schemas zod de jogo, famílias e países |
