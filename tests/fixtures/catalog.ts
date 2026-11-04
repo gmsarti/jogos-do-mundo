@@ -37,9 +37,12 @@ export const catalog: Catalog = {
     game("g", ["alinhamento"], ["MV"]),
   ],
   families: {
-    alinhamento: "Alinhamento",
-    mancala: "Mancala",
-    vazia: "Sem jogos",
+    alinhamento: {
+      label: "Alinhamento",
+      desc: "O objetivo é colocar peças suas em linha.",
+    },
+    mancala: { label: "Mancala", desc: "Você distribui as sementes." },
+    vazia: { label: "Sem jogos", desc: "Família sem jogos." },
   },
   languages: { ak: "akan" },
   glossary: {

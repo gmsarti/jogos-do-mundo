@@ -1,14 +1,50 @@
 {
-  "adjacente": "Adjacentes (fora do núcleo)",
-  "alinhamento": "Jogos de alinhamento",
-  "bloqueio": "Jogos de bloqueio",
-  "caca-assimetrico": "Caça e jogos assimétricos",
-  "captura-posicional": "Captura por posicionamento",
-  "corrida": "Jogos de corrida",
-  "damas": "Damas e captura por salto",
-  "desconhecida": "Família desconhecida",
-  "pecas": "Jogos de peças",
-  "semeadura": "Jogos de semeadura (mancala)",
-  "territorio": "Jogos de território",
-  "xadrez-e-guerra": "Xadrez e jogos de guerra"
+  "adjacente": {
+    "label": "Adjacentes (fora do núcleo)",
+    "desc": "Jogos que ficam na fronteira dos jogos de tabuleiro, como jogos de dados sem tabuleiro e quebra-cabeças."
+  },
+  "alinhamento": {
+    "label": "Jogos de alinhamento",
+    "desc": "O objetivo é colocar peças suas em linha, como no jogo da velha."
+  },
+  "bloqueio": {
+    "label": "Jogos de bloqueio",
+    "desc": "O objetivo é deixar o adversário sem ter para onde mover."
+  },
+  "caca-assimetrico": {
+    "label": "Caça e jogos assimétricos",
+    "desc": "Os lados são diferentes: poucos caçadores contra muitas presas, ou um rei e seus defensores contra atacantes."
+  },
+  "captura-posicional": {
+    "label": "Captura por posicionamento",
+    "desc": "Você captura a peça do adversário pela posição das suas: cercando, chegando perto ou se afastando dela."
+  },
+  "corrida": {
+    "label": "Jogos de corrida",
+    "desc": "As peças percorrem um caminho, quase sempre com dados ou varetas, e vence quem chegar primeiro."
+  },
+  "damas": {
+    "label": "Damas e captura por salto",
+    "desc": "Você captura pulando por cima da peça do adversário, como nas damas."
+  },
+  "desconhecida": {
+    "label": "Família desconhecida",
+    "desc": "Ainda não sabemos em que família este jogo se encaixa."
+  },
+  "pecas": {
+    "label": "Jogos de peças",
+    "desc": "Jogos com peças marcadas, como dominós e mahjong, em que o que importa é combinar as peças."
+  },
+  "semeadura": {
+    "label": "Jogos de semeadura (mancala)",
+    "desc": "Você pega as sementes de uma cova e as distribui, uma a uma, pelas covas seguintes."
+  },
+  "territorio": {
+    "label": "Jogos de território",
+    "desc": "O objetivo é cercar a maior área do tabuleiro."
+  },
+  "xadrez-e-guerra": {
+    "label": "Xadrez e jogos de guerra",
+    "desc": "Cada peça tem um movimento próprio, e o objetivo costuma ser capturar ou encurralar a peça principal do adversário."
+  }
 }

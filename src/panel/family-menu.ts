@@ -12,7 +12,7 @@ function option(
 
 /** Text of the menu button: the active family, or "todas". */
 export function familyLabel(catalog: Catalog, fam: string | null): string {
-  return `Família: ${fam ? (catalog.families[fam] ?? fam) : "todas"}`;
+  return `Família: ${fam ? (catalog.families[fam]?.label ?? fam) : "todas"}`;
 }
 
 /** One option per family that has games, with its game count, plus "all" (empty `data-fam`). */
@@ -22,7 +22,7 @@ export function familyMenuView(catalog: Catalog, fam: string | null): string {
     for (const f of g.fam) counts[f] = (counts[f] ?? 0) + 1;
   const families = Object.entries(catalog.families)
     .filter(([id]) => counts[id])
-    .map(([id, label]) => option(label, id, counts[id] ?? 0, fam === id));
+    .map(([id, f]) => option(f.label, id, counts[id] ?? 0, fam === id));
   return [
     option("Todas as famílias", "", catalog.games.length, fam === null),
     ...families,

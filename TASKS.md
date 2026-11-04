@@ -145,9 +145,10 @@ Origem: feedbacks de Aggeu (educador) e Alexandre Nacari (jogador), 03/11/2026, 
   - Testes: os quatro status têm rótulo e explicação novos; lista de jogos traz o rótulo em texto
   - Aceite: lido por alguém de fora do projeto, sem explicação prévia
   - Desvio: nas listas, o ponto e o rótulo formam uma linha abaixo do nome do jogo (o texto só para leitor de tela saiu, porque o rótulo agora é visível). A explicação de `reconstructed` diz "a ficha lista os autores" no lugar de "os autores estão em 'Saiba mais'", que só existe depois do T-069. O kit em PDF herda os rótulos novos. Conferido no Playwright em 1440px (claro) e 375px (escuro), sem rolagem horizontal. A leitura por alguém de fora do projeto fica pendente
-- [ ] **T-062** Tipo de jogo na ficha: `families.json` passa de `id → rótulo` para `id → {label, desc}`; a ficha mostra "Tipo de jogo" com a frase da família
+- [x] **T-062** Tipo de jogo na ficha: `families.json` passa de `id → rótulo` para `id → {label, desc}`; a ficha mostra "Tipo de jogo" com a frase da família
   - Testes: schema exige `label` e `desc`; ficha mostra a descrição de cada família do jogo
   - Conteúdo: rascunho das 12 descrições em `docs/proposta-schema.md` § 4
+  - Desvio: "Tipo de jogo" é uma seção logo antes de "História", com um parágrafo por família (rótulo em negrito e a frase); a etiqueta da família ao lado do status continua. A frase de `adjacente` trocou "jogos com feijões" por "jogos de dados sem tabuleiro", que é o que os três jogos dela são; as outras 11 são as do rascunho. O kit em PDF segue só com o rótulo. Os commits de código e de conteúdo são separados, e o de código sozinho não passa na validação de dados (o formato do `families.json` muda junto). Conferido no Playwright em 375px (claro) e 1440px (escuro), sem rolagem horizontal
 - [ ] **T-063** Checagem de links agendada (`.github/workflows/links.yml`): toda segunda e sob demanda, com lychee para links quebrados e grep para `http://`; abre issue com o relatório
   - Aceite: uma rodada manual feita e os links quebrados corrigidos ou registrados; versões das actions conferidas (de preferência fixadas por SHA)
   - Relaciona: T-050 (relatório de "(a verificar)" e `unknown`)

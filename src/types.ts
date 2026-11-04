@@ -75,8 +75,15 @@ export interface Game {
   rules: string;
 }
 
-/** Family id → label in pt-BR. */
-export type Families = Record<string, string>;
+export interface Family {
+  /** Name in pt-BR. */
+  label: string;
+  /** One sentence on how games of this family are played (content/VOZ.md). */
+  desc: string;
+}
+
+/** Family id → family. */
+export type Families = Record<string, Family>;
 
 export interface Country {
   /** Name in pt-BR. */

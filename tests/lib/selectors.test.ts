@@ -105,7 +105,10 @@ describe("searchGames", () => {
 });
 
 describe("searchFamilies", () => {
-  const families = { ...catalog.families, cacada: "Caça assimétrica" };
+  const families = {
+    ...catalog.families,
+    cacada: { label: "Caça assimétrica", desc: "Caçadores contra presas." },
+  };
 
   test("matches family labels ignoring accents and case", () => {
     expect(searchFamilies(families, catalog.games, "MANC")).toEqual([

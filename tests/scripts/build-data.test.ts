@@ -7,7 +7,12 @@ describe("buildCatalog", () => {
   test("builds the catalog from a valid content folder", () => {
     const catalog = buildCatalog(fixture("content-valid"));
 
-    expect(catalog.families).toEqual({ alinhamento: "Jogos de alinhamento" });
+    expect(catalog.families).toEqual({
+      alinhamento: {
+        label: "Jogos de alinhamento",
+        desc: "O objetivo é colocar peças suas em linha.",
+      },
+    });
     expect(catalog.countries).toEqual({ GH: { pt: "Gana", num: "288" } });
     expect(catalog.languages).toEqual({ ak: "akan" });
     expect(catalog.glossary.alinhamento?.variantes).toEqual([
