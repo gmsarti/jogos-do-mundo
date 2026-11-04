@@ -1,7 +1,7 @@
 # PRD — Jogos do Mundo
 
 > Documento vivo. Mudanças de escopo passam por aqui antes de virar tarefa em [TASKS.md](TASKS.md).
-> Última revisão: 2026-11-02.
+> Última revisão: 2026-11-03.
 
 ## 1. Visão
 
@@ -13,9 +13,9 @@ As informações sobre jogos tradicionais estão espalhadas (Ludii, Wikipedia, e
 
 ## 3. Público
 
-- **Curiosos e entusiastas de jogos**, que chegam por um link e querem explorar
-- **Educadores**, que procuram jogos de uma região para usar em aula
-- **Pesquisadores e jogadores**, que querem nomes locais, fontes e o grau de confiança das regras
+- **Educadores**, que procuram jogos de uma região para usar em aula e precisam entender e ensinar o jogo sem conhecimento prévio. **É o público da primeira camada da ficha.**
+- **Curiosos, famílias e jogadores**, que chegam por um link e querem jogar
+- **Pesquisadores**, que querem nomes locais, fontes e o grau de confiança das regras. **É o público da segunda camada ("Saiba mais").**
 
 ## 4. Objetivos
 
@@ -24,6 +24,8 @@ As informações sobre jogos tradicionais estão espalhadas (Ludii, Wikipedia, e
 3. Deixar explícito o grau de confiança (`status`, "(a verificar)", reconstruções)
 4. Manter o site leve, rápido e publicável no GitHub Pages, sem servidor
 5. Facilitar a curadoria contínua do conteúdo por pessoas e agentes de IA
+6. Acolher quem chega sem conhecimento prévio: texto em português, sem jargão, com o que é preciso para jogar e um passo a passo
+7. Separar o que é para jogar do que é para pesquisar, sem esconder a curadoria
 
 ## 5. Fora do escopo (por enquanto)
 
@@ -40,6 +42,8 @@ As informações sobre jogos tradicionais estão espalhadas (Ludii, Wikipedia, e
 4. Copio a URL de um jogo ou país e mando para alguém, que abre exatamente a mesma tela
 5. Procuro um jogo pelo nome, inclusive pelos nomes locais
 6. No celular, navego pelo mapa com toque e leio os detalhes num painel que sobe da parte de baixo da tela
+7. Sou professor, abro um jogo e, só com a primeira camada da ficha, consigo montar o tabuleiro com material simples e ensinar a turma
+8. Clico num país sem jogos, vejo que nenhum foi cadastrado ainda e posso sugerir um
 
 ## 7. Requisitos funcionais
 
@@ -54,7 +58,7 @@ Prioridade: **M** = obrigatório no MVP, **S** = deveria ter logo depois, **C** 
 | RF-05 | Filtro por família, que atualiza mapa e painel | M |
 | RF-06 | Painel home: totais, países com mais jogos, jogos sem país definido | M |
 | RF-07 | Painel de país: lista de jogos com família | M |
-| RF-08 | Painel de jogo: status, famílias, nomes locais, resumo, ficha (tabuleiro, peças, jogadores, povos, países, evidência, tradição viva, sensibilidade, reconstrução), história, regras, referências | M |
+| RF-08 | Painel de jogo: status em linguagem simples, famílias, tipo de jogo, nomes locais, resumo, ficha (tabuleiro, peças, jogadores, povos, países, evidência, tradição viva, sensibilidade, reconstrução), história, regras, referências | M |
 | RF-09 | Rotas por hash para país, jogo e filtro; voltar e avançar do navegador funcionam | M |
 | RF-10 | Layout responsivo: painel lateral no desktop, bottom sheet no celular (recolhido ou expandido) | M |
 | RF-11 | Temas claro e escuro automáticos, com opção manual | S |
@@ -66,6 +70,13 @@ Prioridade: **M** = obrigatório no MVP, **S** = deveria ter logo depois, **C** 
 | RF-17 | Desenho do tabuleiro no painel do jogo, com identidade visual comum a toda a coleção, para todo jogo cujo tabuleiro tenha medidas na fonte. Os tipos comuns (grade, pontos com diagonais, covas, quadrados concêntricos) são gerados por código; tabuleiros únicos são desenhados à mão | S |
 | RF-18 | Filtro por status de confiança das regras | C |
 | RF-19 | Kit de impressão em PDF (A4) por jogo, para uso em aula: folha de regras composta como livro (ficha, regras, história, referências e QR para a página do jogo) e o tabuleiro em tamanho de jogar, em versão ornada e simples. As regras nunca são cortadas. Gerado no build com Typst | S |
+| RF-20 | Ficha em duas camadas: para jogar (primeira) e "Saiba mais" (segunda) | S |
+| RF-21 | Seções "Do que você vai precisar?", "Como jogar?" e "Para quem conduz" | S |
+| RF-22 | Glossário compartilhado e "Palavras do jogo" na ficha | S |
+| RF-23 | Países sem jogos abrem um painel próprio com convite para sugerir um jogo | S |
+| RF-24 | Acolhimento na home e "Por onde começar" | S |
+| RF-25 | Imagem do jogo com crédito e licença | C |
+| RF-26 | Referências em português primeiro | C |
 
 ## 8. Requisitos não funcionais
 
@@ -85,6 +96,7 @@ Prioridade: **M** = obrigatório no MVP, **S** = deveria ter logo depois, **C** 
 - Ponto de partida: os 94 jogos, 12 famílias e 79 países do protótipo (bundle OKF v0.2, rodadas 0 e 1)
 - Geometria: TopoJSON do Natural Earth (world-atlas). A resolução será escolhida para atender ao RNF-02 sem perder países com jogos
 - Regras de curadoria: em [AGENTS.md](AGENTS.md#regras-de-conteúdo). Nada inventado, toda afirmação com fonte, `status` honesto
+- Voz: os textos da primeira camada seguem o [`content/VOZ.md`](content/VOZ.md). A voz vem da oficina *Jogos africanos — Dá Jogo!*; os fatos vêm sempre da ficha e das suas referências. **A primeira tela de cada jogo é para quem vai jogar; a curadoria fica na segunda camada**
 
 ## 10. Métricas de sucesso
 
@@ -102,10 +114,12 @@ Prioridade: **M** = obrigatório no MVP, **S** = deveria ter logo depois, **C** 
 | M2 — MVP | Paridade com o protótipo (RF-01 a RF-10) publicada no Pages |
 | M3 — Experiência | RF-11 a RF-15 e polimento visual |
 | M4 — Conteúdo | Rodadas de verificação e novos jogos; RF-16 a RF-18 |
+| M5 — Acolhimento e didática | Ficha em duas camadas, textos para quem vai jogar e entrada para iniciantes; RF-20 a RF-26 (Fase 6 do `TASKS.md`) |
 
 ## 12. Questões em aberto
 
 - Licença do código e do conteúdo (ex.: MIT + CC BY-SA?). O rodapé do kit de impressão (RF-19) diz "licença a definir" até essa resposta
 - ~~Domínio próprio ou `<usuario>.github.io/jogos-do-mundo`~~: resolvido, domínio próprio `jogosdomundo.com.br` (registro.br) apontando para o GitHub Pages
 - Como tratar jogos com área de origem incerta ou que atravessa fronteiras (hoje vão para "sem país definido" ou para vários países)
+- Mecânicas: entra um campo `mechanics` com lista fechada, separado da família? (T-075)
 - ~~Fontes tipográficas~~: resolvido no T-045, Gloock + Commissioner hospedadas no projeto (cobrem latim estendido, cirílico e vietnamita no texto)

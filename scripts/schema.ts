@@ -1,5 +1,5 @@
 import { z } from "zod";
-import type { Countries, Families, Game } from "../src/types.ts";
+import type { Countries, Families, Game, Glossary } from "../src/types.ts";
 
 const KEBAB_ID = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
@@ -16,6 +16,11 @@ export const countriesSchema = z.record(
 export const languagesSchema = z.record(
   z.string().regex(/^[a-z]{2,3}(-[A-Z][a-z]{3}|-[A-Z]{2})?$/),
   text,
+);
+
+export const glossarySchema: z.ZodType<Glossary> = z.record(
+  z.string().regex(KEBAB_ID),
+  z.strictObject({ termo: text, def: text, variantes: z.array(text) }),
 );
 
 const size = z.int().min(2).max(40);
@@ -112,6 +117,9 @@ export function gameSchema({
     place: z.string(),
     summary: text,
     history: z.string(),
+    needs: z.string().optional(),
+    howto: z.string().optional(),
+    guide: z.string().optional(),
     rules: z.string(),
   });
 }

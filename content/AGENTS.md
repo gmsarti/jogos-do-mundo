@@ -6,10 +6,12 @@ Regras específicas da pasta `content/`. As regras globais (honestidade, "nunca 
 
 | Caminho | O que é |
 | --- | --- |
-| `games/<id>.md` | Um jogo por arquivo: frontmatter YAML + corpo com `## História` e `## Regras` |
+| `games/<id>.md` | Um jogo por arquivo: frontmatter YAML + corpo com `## História`, as seções didáticas e `## Regras` |
 | `families.json` | Famílias: `id` → rótulo em pt-BR |
 | `countries.json` | Países: ISO 3166-1 alfa-2 → `{ "pt": nome, "num": código numérico do TopoJSON }` |
 | `languages.json` | Línguas dos nomes locais: código ISO 639 → nome em pt-BR |
+| `glossary.json` | Glossário: `id` → `{ termo, def, variantes }`, as "Palavras do jogo" da ficha |
+| `VOZ.md` | Guia de voz das seções didáticas (resumo, "Do que você vai precisar?", "Como jogar?", "Para quem conduz") |
 
 `make data` valida tudo com zod (`scripts/schema.ts`) e gera `src/generated/catalog.json`. Os erros apontam arquivo e campo (`games/achi.md: status: ...`). O `make check` roda a mesma validação.
 
@@ -39,7 +41,17 @@ Todos os campos são obrigatórios, a menos que a coluna diga o contrário. Camp
 | `place` | string | Local mais preciso que o país (ex.: `Havaí`). `""` se não houver |
 | `summary` | string | Uma ou duas frases |
 
-O corpo do arquivo tem as seções `## História` e `## Regras`, ambas opcionais (omita a seção em vez de deixá-la vazia). Qualquer outro título `##` é erro. O texto aceita só o mini-Markdown do app: **negrito**, *itálico*, listas (`-` e `1.`) e parágrafos.
+O corpo do arquivo tem até cinco seções, todas opcionais (omita a seção em vez de deixá-la vazia), nesta ordem:
+
+| Título | Chave | Conteúdo |
+| --- | --- | --- |
+| `## História` | `history` | De onde vem, com as fontes no texto |
+| `## Do que você vai precisar?` | `needs` | Tabuleiro, peças e dados, com a dica de improviso |
+| `## Como jogar?` | `howto` | Passo a passo para iniciante, reescrito a partir de `## Regras` |
+| `## Para quem conduz` | `guide` | Notas para quem ensina; adaptação que não está na fonte começa com "**Sugestão do site:**" |
+| `## Regras` | `rules` | Referência completa, com as fontes |
+
+Qualquer outro título `##` é erro. As três seções do meio seguem o [guia de voz](VOZ.md), e **"Como jogar?" não traz regra que não esteja em "Regras"**: lacuna em "Regras" continua lacuna no passo a passo. O texto aceita só o mini-Markdown do app: **negrito**, *itálico*, listas (`-` e `1.`), sub-itens (`-` com recuo de 3 espaços, embaixo de um item numerado) e parágrafos.
 
 ### `diagram`
 
@@ -65,6 +77,12 @@ Sem `diagram`, o jogo fica sem desenho, o que é melhor que um desenho errado. N
 | `unknown` | Não há regras confiáveis |
 
 Na dúvida, escolha o status **menos** confiável.
+
+## Glossário (`glossary.json`)
+
+Termos que um iniciante pode não conhecer, com a definição na voz do [`VOZ.md`](VOZ.md). A ficha mostra em "Palavras do jogo" todo termo cujo `termo` ou alguma das `variantes` aparece em "Como jogar?" ou em "Regras", como palavra inteira, sem diferenciar acento nem maiúscula. Plural e verbo não são achados sozinhos: entram como variantes (`captura` → `capturar`, `capturadas`).
+
+A definição vale para todo jogo em que o termo aparece. Não use como variante uma palavra que outros jogos usam com outro sentido: "saltar" ficou de fora de *captura por salto* porque no Janggi e no Chaturanga o salto é movimento, não captura.
 
 ## Línguas (`languages.json`)
 
@@ -107,11 +125,30 @@ place: Havaí
 
 Texto em Markdown simples.
 
+## Do que você vai precisar?
+
+- O tabuleiro, em palavras que dá para desenhar
+- As peças de cada jogador
+
+Dica de improviso: com o que dá para fazer o tabuleiro e as peças.
+
+## Como jogar?
+
+1. Na sua vez, faça uma ação.
+   - Exceção como sub-item, com recuo de 3 espaços.
+2. Último passo: como a partida acaba e quem vence.
+
+## Para quem conduz
+
+**Sugestão do site:** uma adaptação que não está na fonte.
+
 ## Regras
 
 1. Primeiro passo.
 2. Segundo passo.
 ```
+
+As seções didáticas do exemplo são só um molde; o Kōnane real ainda não as tem.
 
 O arquivo real está em [`games/konane.md`](games/konane.md).
 

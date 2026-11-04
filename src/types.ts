@@ -66,6 +66,12 @@ export interface Game {
   place: string;
   summary: string;
   history: string;
+  /** "Do que você vai precisar?": board, pieces and what to improvise them with. */
+  needs?: string;
+  /** "Como jogar?": step by step for beginners, rewritten from `rules` (content/VOZ.md). */
+  howto?: string;
+  /** "Para quem conduz": notes for whoever teaches the game. */
+  guide?: string;
   rules: string;
 }
 
@@ -85,9 +91,20 @@ export type Countries = Record<string, Country>;
 /** ISO 639 code (optionally with a region or script tag) → language name in pt-BR. */
 export type Languages = Record<string, string>;
 
+export interface GlossaryEntry {
+  termo: string;
+  def: string;
+  /** Other forms found in the texts (plural, verb, synonym). */
+  variantes: string[];
+}
+
+/** Term id → entry; the words a beginner may not know. */
+export type Glossary = Record<string, GlossaryEntry>;
+
 export interface Catalog {
   games: Game[];
   families: Families;
   countries: Countries;
   languages: Languages;
+  glossary: Glossary;
 }

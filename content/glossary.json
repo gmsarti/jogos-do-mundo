@@ -1,0 +1,66 @@
+{
+  "alinhamento": {
+    "termo": "alinhamento",
+    "def": "Três ou mais peças suas seguidas, numa mesma linha do tabuleiro.",
+    "variantes": ["alinhar", "linha de três", "moinho"]
+  },
+  "captura": {
+    "termo": "captura",
+    "def": "Tirar do tabuleiro uma peça do adversário. Cada jogo tem o seu jeito de capturar.",
+    "variantes": ["capturar", "capturada", "capturadas"]
+  },
+  "captura-por-salto": {
+    "termo": "captura por salto",
+    "def": "Sua peça está ao lado de uma peça do adversário, pula por cima dela e cai na casa ou no ponto vazio logo depois. A peça pulada sai do tabuleiro.",
+    "variantes": ["pular por cima"]
+  },
+  "captura-multipla": {
+    "termo": "captura múltipla",
+    "def": "Depois de capturar, se a mesma peça puder capturar de novo, ela continua na mesma vez. Alguns jogos permitem, outros não.",
+    "variantes": [
+      "capturas múltiplas",
+      "captura em cadeia",
+      "capturas em cadeia"
+    ]
+  },
+  "captura-por-cerco": {
+    "termo": "captura por cerco",
+    "def": "Uma peça do adversário fica entre duas peças suas, na mesma linha, e sai do tabuleiro.",
+    "variantes": ["cercar", "cercada", "cerco"]
+  },
+  "captura-por-aproximacao": {
+    "termo": "captura por aproximação",
+    "def": "Você move uma peça até ficar colada numa peça do adversário, na mesma direção do movimento, e captura essa peça.",
+    "variantes": ["aproximação"]
+  },
+  "captura-por-afastamento": {
+    "termo": "captura por afastamento",
+    "def": "Você move uma peça para longe de uma peça do adversário que estava colada nela, na mesma direção do movimento, e captura essa peça.",
+    "variantes": ["afastamento"]
+  },
+  "fase-de-colocacao": {
+    "termo": "fase de colocação",
+    "def": "Começo do jogo em que o tabuleiro está vazio e os jogadores, um de cada vez, colocam suas peças.",
+    "variantes": ["colocação", "colocar as peças"]
+  },
+  "fase-de-movimento": {
+    "termo": "fase de movimento",
+    "def": "Parte do jogo em que as peças já estão no tabuleiro e passam a andar.",
+    "variantes": ["mover as peças"]
+  },
+  "ortogonal": {
+    "termo": "ortogonal",
+    "def": "Na horizontal ou na vertical, sem diagonal.",
+    "variantes": ["ortogonais", "ortogonalmente"]
+  },
+  "reserva": {
+    "termo": "reserva",
+    "def": "Peças que ficam fora do tabuleiro, esperando para entrar no jogo.",
+    "variantes": []
+  },
+  "semeadura": {
+    "termo": "semeadura",
+    "def": "Pegar todas as sementes de uma cova e soltar uma em cada cova seguinte, até acabarem.",
+    "variantes": ["semear", "semeia", "cova", "covas", "cavidade", "cavidades"]
+  }
+}

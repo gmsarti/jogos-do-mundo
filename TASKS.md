@@ -132,6 +132,61 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
 - [ ] **T-056** Tabuleiros únicos desenhados à mão em `content/boards/`, com lint de SVG (sem cor solta e sem script), quando a fonte permitir (Mu tōrere, Shisima, Mehen, Yut-nori e outros)
 - [ ] **T-057** Conteúdo: levantar na fonte o número de covas das mancalas descritas só como "2 fileiras" ou "4 fileiras" (10 jogos), para poderem ganhar desenho
 - [ ] **T-053** Filtro por status de confiança (RF-18)
+- [ ] **T-058** Conteúdo: Dara, Choko, Caçada das Hienas e Queah, que estão na oficina *Jogos africanos* e ainda não no catálogo, com fontes e seguindo o `content/AGENTS.md` (a oficina não é fonte)
+
+## Fase 6 — Acolhimento e didática (M5)
+
+Origem: feedbacks de Aggeu (educador) e Alexandre Nacari (jogador), 03/11/2026, e a oficina *Jogos africanos — Dá Jogo!* como referência de voz. Proposta em `docs/proposta-schema.md`; guia de voz em `content/VOZ.md`.
+
+- [x] **T-060** PRD: a primeira camada da ficha é para quem vai jogar; a curadoria vai para a segunda (§ 3, § 4, § 6 e RF-20 a RF-26)
+  - Aceite: mudanças da seção 1 de `docs/proposta-schema.md` aplicadas; marco M5 criado no § 11
+  - Desvio: o mesmo PR trouxe `docs/proposta-schema.md`, `content/VOZ.md` e a skill `.claude/skills/escrever-jogo/` (guias, sem código); o glossário, a checagem de links e o formulário de sugestão entram com as próprias tarefas. A questão das mecânicas (T-075) entrou no PRD § 12
+- [ ] **T-061** Status em linguagem simples: rótulos e explicações novos em `src/panel/status.ts`, com o rótulo em texto sempre visível ao lado do ponto (a cor e a forma deixam de ser a única pista)
+  - Testes: os quatro status têm rótulo e explicação novos; lista de jogos traz o rótulo em texto
+  - Aceite: lido por alguém de fora do projeto, sem explicação prévia
+- [ ] **T-062** Tipo de jogo na ficha: `families.json` passa de `id → rótulo` para `id → {label, desc}`; a ficha mostra "Tipo de jogo" com a frase da família
+  - Testes: schema exige `label` e `desc`; ficha mostra a descrição de cada família do jogo
+  - Conteúdo: rascunho das 12 descrições em `docs/proposta-schema.md` § 4
+- [ ] **T-063** Checagem de links agendada (`.github/workflows/links.yml`): toda segunda e sob demanda, com lychee para links quebrados e grep para `http://`; abre issue com o relatório
+  - Aceite: uma rodada manual feita e os links quebrados corrigidos ou registrados; versões das actions conferidas (de preferência fixadas por SHA)
+  - Relaciona: T-050 (relatório de "(a verificar)" e `unknown`)
+- [x] **T-064** Mini-Markdown com sub-itens: linha com recuo de 3 espaços e `-` dentro de uma lista numerada vira `<ul>` dentro do `<li>` anterior
+  - Testes: a numeração continua depois dos sub-itens; sub-item fora de lista vira item normal; escape de HTML mantido (XSS)
+  - Desvio: o `md()` foi dividido em `blocks()` e `renderBlock()` por causa do limite de complexidade do Biome. Recuo de 3 ou mais espaços conta. O kit de impressão (`scripts/kit/blocks.ts`) ainda não lê sub-itens: num PDF, eles virariam uma lista à parte e a numeração recomeçaria. Hoje nenhum texto que vai para o kit tem sub-itens
+- [x] **T-065** Seções didáticas no schema: `## Do que você vai precisar?` (`needs`), `## Como jogar?` (`howto`) e `## Para quem conduz` (`guide`), todas opcionais; a ficha mostra as três antes de `## Regras` até o T-069
+  - Testes: as três seções são lidas; título desconhecido continua sendo erro; jogo sem as seções gera o mesmo catálogo de antes
+  - Doc: `content/AGENTS.md` atualizado (schema e exemplo comentado)
+  - Desvio: o catálogo real gerado antes e depois foi comparado byte a byte (idêntico). A ordem das seções no arquivo é documentada, mas não validada. O kit em PDF (T-052) continua só com "Regras" e "História"; as seções didáticas entram nele quando o T-069 decidir o que vai para a impressão
+  - Correção: uma chave de seção (`howto`, `rules`…) escrita no frontmatter agora é erro, com o título da seção certa; antes o `howto` passava como campo e o `rules` era descartado sem aviso
+- [x] **T-066** Glossário: `content/glossary.json` (`id → {termo, def, variantes}`), validado no build; a ficha lista em "Palavras do jogo" os termos que aparecem em "Como jogar?" e "Regras"
+  - Testes: termo encontrado sem acento e sem diferenciar maiúsculas, inclusive pelas variantes; só aparecem termos usados no jogo; glossário inválido falha com arquivo e campo
+  - Desvio: a busca é por palavra inteira ("reserva" não acha "reservado"), por isso plurais e verbos precisam estar nas variantes. Do rascunho saíram as variantes "salto" e "saltar" de *captura por salto*, que punham a definição de captura no Chaturanga, no Janggi e no Ludus latrunculorum, onde o salto é outra coisa. Sem "Como jogar?", a caixa vem depois de "Regras". Hoje 52 dos 94 jogos mostram a caixa, a maioria só com "captura" e "semeadura". O kit em PDF não traz a caixa. Conferido no Playwright, com as seções didáticas e um sub-item postos no Achi só para o teste, em 1440px e 375px, nos dois temas, sem rolagem horizontal
+- [ ] **T-067** Guia de voz (`content/VOZ.md`) e skill `escrever-jogo` (`.claude/skills/escrever-jogo/`), com piloto no Achi
+  - Aceite: Achi reescrito passa no `make check`; lido por um educador e um jogador ("dá para jogar só com isso?"); ajustes devolvidos ao `VOZ.md`
+  - Já no repositório (PR do T-060): o guia e a skill, com o resultado esperado do piloto em `references/exemplo-achi.md`. Depende do T-065 (seções novas no schema)
+- [ ] **T-068** Auditoria de jogabilidade: checklist da skill aplicado aos 94 jogos; relatório em `docs/relatorio-jogabilidade.md` com o veredito de cada jogo (joga / joga com lacunas / não joga) e as lacunas
+  - Aceite: a IA só aponta lacunas, não escreve regra; o relatório define a ordem dos lotes do T-074
+- [ ] **T-069** Ficha em duas camadas: primeira camada com resumo, imagem, lugar e povos, tipo de jogo, "Do que você vai precisar?", "Como jogar?", "Palavras do jogo", "Para quem conduz" e "História"; o resto (ficha técnica, explicação do status, "Regras" completas, referências) em um `<details>` "Saiba mais"
+  - Testes: com `howto`, "Regras" vai para "Saiba mais"; sem `howto`, "Regras" fica na primeira camada como hoje; campos de curadoria só dentro de "Saiba mais"
+  - Aceite: na impressão (T-049) tudo sai aberto; conferido em 375px e desktop
+- [ ] **T-070** Acolhimento na home: um parágrafo do que é o atlas e como usar, e "Por onde começar" com 3 a 5 jogos de `content/start.json`; a nota de rascunho desce para o rodapé
+  - Testes: todo id de `start.json` existe e tem `howto`
+- [ ] **T-071** Países sem jogos: todos os países do mapa abrem o painel com o nome em pt-BR, "Nenhum jogo cadastrado ainda" e o link para o formulário "Sugerir um jogo" (`.github/ISSUE_TEMPLATE/sugerir-jogo.yml`)
+  - Nomes: `Intl.DisplayNames('pt-BR', {type: 'region'})` a partir do ISO-2, com tabela numérico → ISO-2 gerada uma vez em `scripts/once/`
+  - Testes: país sem jogos tem rota própria (muda a regra atual do `state.ts`, que manda para a home); nome em pt-BR para todo país do TopoJSON
+  - Decidir: países sem jogos entram na ordem de Tab (de 79 para cerca de 175 paradas) ou só pela busca
+- [ ] **T-072** Imagem do jogo: campo opcional `image: {src, alt, credit, license, url}`, arquivo em `public/img/games/`
+  - Testes: imagem sem crédito ou licença falha; arquivo existe; tamanho máximo por imagem (ex.: 80 KB em WebP) dentro do RNF-02
+- [ ] **T-073** Referências em português primeiro: campo opcional `lang` em cada `ref`; a ficha ordena pt primeiro e marca as outras ("em inglês")
+  - Conteúdo: script em `scripts/once/` que busca o artigo da Wikipedia em português pelos links entre idiomas; cada link novo é aberto e conferido antes de entrar
+  - Testes: ordem pt primeiro; rótulo do idioma a partir de `languages.json`
+- [ ] **T-074** Reescrita didática em lotes, com a skill `escrever-jogo`: um PR de conteúdo por lote de 8 a 10 jogos, na ordem do T-068
+  - Lote 1 (também estão na oficina): achi, shisima, yote, seega, fanorona, fanorona-telo, morabaraba, gulugufe
+  - Divergências entre oficina e catálogo viram issues de curadoria (já conhecidas: Achi e Seega)
+- [ ] **T-075** Mecânicas: decidir se entra um campo `mechanics` com lista fechada (`content/mechanics.json`), separado da família; se sim, abrir as tarefas de schema e de ficha
+  - Aceite: decisão registrada no PRD § 12
+- [ ] **T-076** Tabuleiros por formato: agrupar os jogos que usam o mesmo `diagram` (do T-052), com a lista "serve para" como no fim da oficina ("tabuleiro 3×3 com diagonais — serve para: Achi, …"), no painel do jogo e no kit de impressão
+  - Origem: ajuste que o plano da Fase 6 propunha para o T-052, já fechado
 
 ## Decisões pendentes
 

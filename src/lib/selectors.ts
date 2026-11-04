@@ -34,7 +34,7 @@ export function topCountries(games: Game[], limit: number): [string, number][] {
     .slice(0, limit);
 }
 
-function fold(text: string): string {
+export function fold(text: string): string {
   return text.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
 }
 

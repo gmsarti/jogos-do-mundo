@@ -123,6 +123,46 @@ describe("gameView", () => {
     expect(html).toContain("<li>passo um</li>");
   });
 
+  test("shows the teaching sections between História and Regras", () => {
+    const html = gameView(
+      catalog,
+      { ...full, needs: "- 9 pedras", howto: "1. Coloque", guide: "Dica" },
+      null,
+    );
+    const order = [
+      "<h3>História</h3>",
+      "<h3>Do que você vai precisar?</h3>",
+      "<h3>Como jogar?</h3>",
+      "<h3>Para quem conduz</h3>",
+      "<h3>Regras</h3>",
+    ].map((h) => html.indexOf(h));
+    expect(order.every((i) => i >= 0)).toBe(true);
+    expect(order).toEqual([...order].sort((a, b) => a - b));
+    expect(html).toContain("<li>9 pedras</li>");
+  });
+
+  test("explains the glossary words used in the rules", () => {
+    const html = gameView(
+      catalog,
+      { ...full, rules: "1. Pule por cima da peça." },
+      null,
+    );
+    expect(html).toContain("<h3>Palavras do jogo</h3>");
+    expect(html).toContain("<dt>captura por salto</dt>");
+    expect(html).toContain("<dd>Pular por cima da peça do adversário.</dd>");
+  });
+
+  test("puts the glossary words right after Como jogar?", () => {
+    const html = gameView(
+      catalog,
+      { ...full, howto: "1. Faça uma captura por salto." },
+      null,
+    );
+    const words = html.indexOf("Palavras do jogo");
+    expect(words).toBeGreaterThan(html.indexOf("Como jogar?"));
+    expect(words).toBeLessThan(html.indexOf("<h3>Regras</h3>"));
+  });
+
   test("links to references safely", () => {
     const html = gameView(catalog, full, null);
     expect(html).toContain('href="https://example.org"');
@@ -133,6 +173,8 @@ describe("gameView", () => {
     const html = gameView(catalog, gameById("b"), null);
     expect(html).not.toContain("História");
     expect(html).not.toContain("Regras");
+    expect(html).not.toContain("Como jogar?");
+    expect(html).not.toContain("Palavras do jogo");
     expect(html).not.toContain("Reconstrução");
   });
 

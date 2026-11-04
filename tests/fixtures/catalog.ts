@@ -42,6 +42,13 @@ export const catalog: Catalog = {
     vazia: "Sem jogos",
   },
   languages: { ak: "akan" },
+  glossary: {
+    "captura-por-salto": {
+      termo: "captura por salto",
+      def: "Pular por cima da peça do adversário.",
+      variantes: ["pule por cima"],
+    },
+  },
   countries: {
     GH: { pt: "Gana", num: "288" },
     NG: { pt: "Nigéria", num: "566" },
