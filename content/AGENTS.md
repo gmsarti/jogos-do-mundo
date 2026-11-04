@@ -7,7 +7,7 @@ Regras específicas da pasta `content/`. As regras globais (honestidade, "nunca 
 | Caminho | O que é |
 | --- | --- |
 | `games/<id>.md` | Um jogo por arquivo: frontmatter YAML + corpo com `## História`, as seções didáticas e `## Regras` |
-| `families.json` | Famílias: `id` → rótulo em pt-BR |
+| `families.json` | Famílias: `id` → `{ label, desc }`: o rótulo em pt-BR e uma frase, na voz do `VOZ.md`, de como se joga um jogo da família (a ficha mostra em "Tipo de jogo") |
 | `countries.json` | Países: ISO 3166-1 alfa-2 → `{ "pt": nome, "num": código numérico do TopoJSON }` |
 | `languages.json` | Línguas dos nomes locais: código ISO 639 → nome em pt-BR |
 | `glossary.json` | Glossário: `id` → `{ termo, def, variantes }`, as "Palavras do jogo" da ficha |
