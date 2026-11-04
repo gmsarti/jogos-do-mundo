@@ -33,7 +33,7 @@ Frontmatter relevante: `board: 3×3 pontos com diagonais`, `pieces: 3 ou 4 por j
 ## Depois
 
 ```markdown
-summary: "Jogo de alinhamento jogado em Gana e entre os iorubás, na Nigéria. Começa como um jogo da velha, mas, quando as peças acabam, elas passam a andar pelo tabuleiro."
+summary: "Jogo de alinhamento registrado em Gana e entre os iorubás, na Nigéria. Começa como um jogo da velha, mas, quando as peças acabam, elas passam a andar pelo tabuleiro."
 ---
 
 ## História
@@ -45,7 +45,7 @@ O Ludii registra que foi observado entre os iorubás, que o chamavam *akidada*, 
 - Um tabuleiro de 9 pontos, em 3 fileiras de 3, ligados por linhas na horizontal, na vertical e pelas duas diagonais
 - 3 ou 4 peças para cada jogador, de cores diferentes
 
-Dá para riscar o tabuleiro na areia, como se fazia em Gana, ou desenhar no papel. Para as peças, vale o que tiver à mão: pedaços de folha, como os jogadores de antigamente, feijões, tampinhas, botões.
+Dá para riscar o tabuleiro na areia, como no registro do início do séc. XX, ou desenhar no papel. Para as peças, vale o que tiver à mão: pedaços de folha de palmeira, como no mesmo registro, feijões, tampinhas, botões.
 
 ## Como jogar?
 
@@ -67,8 +67,8 @@ Dá para riscar o tabuleiro na areia, como se fazia em Gana, ou desenhar no pape
 
 O que mudou e por quê:
 
-- O resumo trocou a classificação ("3×3 pontos com diagonais") por uma imagem conhecida (o jogo da velha), sem afirmar parentesco.
-- "Do que você vai precisar?" diz as duas quantidades de peças, porque a ficha registra as duas, e usa o material da `## História` na dica de improviso.
+- O resumo trocou a classificação ("3×3 pontos com diagonais") por uma imagem conhecida (o jogo da velha), sem afirmar parentesco. Diz "registrado", não "jogado", porque a ficha não sabe se a tradição é viva (`living: desconhecido`).
+- "Do que você vai precisar?" diz as duas quantidades de peças, porque a ficha registra as duas, e usa o material da `## História` na dica de improviso, com a data do registro. A História não diz que a areia era só de Gana, então o texto também não diz.
 - O passo 1 avisa que há duas fases, porque é isso que diferencia o Achi do jogo da velha.
 - O passo 6 vem de "perde quem não puder mover"; a fonte (Wikipedia) continua em "Regras".
 - Nada sobre quem começa, empate ou alinhar durante a colocação: a ficha não diz.
