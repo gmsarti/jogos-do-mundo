@@ -113,6 +113,12 @@ aside h3 {
   text-align: right;
 }
 
+.list .st-label {
+  display: block;
+  margin-top: 0.1rem;
+  text-align: left;
+}
+
 .badge {
   display: inline-block;
   margin-right: 0.3rem;

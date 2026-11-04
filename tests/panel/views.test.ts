@@ -62,12 +62,11 @@ describe("countryView", () => {
     expect(html).toContain("Mancala");
   });
 
-  test("marks each game with its rule status, also for screen readers", () => {
+  test("shows each game's status as text next to the dot", () => {
     const html = countryView(catalog, null, "NG");
     expect(html).toContain(
-      '<i class="st st-documented" aria-hidden="true"></i>',
+      '<small class="st-label"><i class="st st-documented" aria-hidden="true"></i>Regras registradas</small>',
     );
-    expect(html).toContain('<span class="sr-only">, regra documentada</span>');
   });
 
   test("uses the singular for one game", () => {
@@ -109,7 +108,7 @@ describe("gameView", () => {
   test("shows every field of the sheet", () => {
     const html = gameView(catalog, full, null);
     expect(html).toContain("<h2>A</h2>");
-    expect(html).toContain("regra documentada");
+    expect(html).toContain("Regras registradas");
     expect(html).toContain("achi · akan");
     expect(html).toContain("<strong>forte</strong>");
     expect(html).toContain("3×3");
@@ -172,7 +171,7 @@ describe("gameView", () => {
   test("omits empty sections", () => {
     const html = gameView(catalog, gameById("b"), null);
     expect(html).not.toContain("História");
-    expect(html).not.toContain("Regras");
+    expect(html).not.toContain("<h3>Regras</h3>");
     expect(html).not.toContain("Como jogar?");
     expect(html).not.toContain("Palavras do jogo");
     expect(html).not.toContain("Reconstrução");
@@ -191,13 +190,17 @@ describe("gameView", () => {
     const html = gameView(catalog, full, null);
     expect(html).toContain("<details");
     expect(html).toContain("O que significa?");
-    for (const label of [
-      "regra documentada",
-      "regra parcial",
-      "regra reconstruída",
-      "regra desconhecida",
+    for (const text of [
+      "Regras registradas",
+      "Alguém registrou como se joga, e a fonte foi conferida.",
+      "Regras incompletas",
+      "Dá para jogar em boa parte, mas algum detalhe não foi registrado.",
+      "Regras reconstruídas",
+      "Ninguém registrou as regras antigas.",
+      "Regras desconhecidas",
+      "Ainda não sabemos como se jogava.",
     ])
-      expect(html).toContain(label);
+      expect(html).toContain(text);
   });
 
   test("back button shows an arrow hidden from screen readers", () => {

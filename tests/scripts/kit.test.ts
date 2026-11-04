@@ -63,8 +63,8 @@ describe("kitData", () => {
 
   test("carries the status label and its meaning", () => {
     const data = kitData(catalog, game);
-    expect(data.status).toBe("regra documentada");
-    expect(data.statusHelp).toContain("registro etnográfico");
+    expect(data.status).toBe("Regras registradas");
+    expect(data.statusHelp).toContain("a fonte foi conferida");
   });
 
   test("fills the sheet with readable names", () => {
