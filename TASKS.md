@@ -141,9 +141,10 @@ Origem: feedbacks de Aggeu (educador) e Alexandre Nacari (jogador), 03/11/2026, 
 - [x] **T-060** PRD: a primeira camada da ficha é para quem vai jogar; a curadoria vai para a segunda (§ 3, § 4, § 6 e RF-20 a RF-26)
   - Aceite: mudanças da seção 1 de `docs/proposta-schema.md` aplicadas; marco M5 criado no § 11
   - Desvio: o mesmo PR trouxe `docs/proposta-schema.md`, `content/VOZ.md` e a skill `.claude/skills/escrever-jogo/` (guias, sem código); o glossário, a checagem de links e o formulário de sugestão entram com as próprias tarefas. A questão das mecânicas (T-075) entrou no PRD § 12
-- [ ] **T-061** Status em linguagem simples: rótulos e explicações novos em `src/panel/status.ts`, com o rótulo em texto sempre visível ao lado do ponto (a cor e a forma deixam de ser a única pista)
+- [x] **T-061** Status em linguagem simples: rótulos e explicações novos em `src/panel/status.ts`, com o rótulo em texto sempre visível ao lado do ponto (a cor e a forma deixam de ser a única pista)
   - Testes: os quatro status têm rótulo e explicação novos; lista de jogos traz o rótulo em texto
   - Aceite: lido por alguém de fora do projeto, sem explicação prévia
+  - Desvio: nas listas, o ponto e o rótulo formam uma linha abaixo do nome do jogo (o texto só para leitor de tela saiu, porque o rótulo agora é visível). A explicação de `reconstructed` diz "a ficha lista os autores" no lugar de "os autores estão em 'Saiba mais'", que só existe depois do T-069. O kit em PDF herda os rótulos novos. Conferido no Playwright em 1440px (claro) e 375px (escuro), sem rolagem horizontal. A leitura por alguém de fora do projeto fica pendente
 - [ ] **T-062** Tipo de jogo na ficha: `families.json` passa de `id → rótulo` para `id → {label, desc}`; a ficha mostra "Tipo de jogo" com a frase da família
   - Testes: schema exige `label` e `desc`; ficha mostra a descrição de cada família do jogo
   - Conteúdo: rascunho das 12 descrições em `docs/proposta-schema.md` § 4
