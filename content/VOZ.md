@@ -88,6 +88,7 @@ Notas para quem vai ensinar: por onde começar com crianças pequenas, que parte
 2. **Lacuna continua lacuna.** Se "Regras" não diz quem começa, "Como jogar?" também não diz. A lacuna vai para o relatório de jogabilidade, e quem fecha é a curadoria, com fonte.
 3. **"(a verificar)" é herdado.** Uma regra marcada "(a verificar)" em "Regras" leva a mesma marca em "Como jogar?".
 4. **Fonte de fora entra pela curadoria.** Se você conhece uma versão do jogo que não está na ficha, inclusive a da oficina, abra uma issue em vez de escrever.
+5. **O registro tem data e lugar.** "É jogado" só quando a ficha diz que a tradição é viva (`living: sim`); fora disso, "foi registrado". O material tradicional da dica de improviso também vem com o registro de onde saiu ("como no registro do início do séc. XX"), sem estreitar nem ampliar o lugar que a `## História` dá.
 
 ## Formatação
 
