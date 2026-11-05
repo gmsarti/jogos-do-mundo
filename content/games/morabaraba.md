@@ -17,6 +17,7 @@ board: 3 quadrados concêntricos com diagonais (24 pontos)
 diagram:
   type: mill
   diagonals: true
+  note: o desenho leva as diagonais até o quadrado de dentro; em Coertze 2002 (pelo Ludii), elas ligam só os dois quadrados de fora
 pieces: 12 por jogador
 players: "2"
 period: a levantar – presente
@@ -34,12 +35,14 @@ refs:
     url: https://ludii.games/details.php?keyword=Morabaraba
   - title: "Ludii: evidência do Lesoto"
     url: https://ludii.games/data.php?keyword=Lesotho
+  - title: Wikipedia
+    url: https://en.wikipedia.org/wiki/Morabaraba
 place: ""
 ---
 
 ## Do que você vai precisar?
 
-- Um tabuleiro de 24 pontos: três quadrados, um dentro do outro, com um ponto em cada canto e no meio de cada lado. Os pontos do meio dos lados se ligam de um quadrado para o outro, e os cantos se ligam por diagonais (a verificar até qual quadrado elas vão)
+- Um tabuleiro de 24 pontos: três quadrados, um dentro do outro, com um ponto em cada canto e no meio de cada lado. Os pontos do meio dos lados se ligam de um quadrado para o outro, e os cantos do quadrado de fora se ligam aos do quadrado do meio por diagonais
 - 12 peças para cada jogador, de cores diferentes
 
 O tabuleiro pode ser impresso, desenhado no papel ou riscado no chão. As peças podem ser feijões, tampinhas, botões, pedrinhas e por aí vai.
@@ -47,17 +50,16 @@ O tabuleiro pode ser impresso, desenhado no papel ou riscado no chão. As peças
 ## Como jogar?
 
 1. O jogo tem duas fases: primeiro vocês colocam as peças, depois movem as peças.
-2. O tabuleiro começa vazio. Na sua vez, coloque uma peça sua num ponto vazio.
-3. Se você formar uma linha de três peças suas, fez um *meul* (moinho): tire do tabuleiro uma peça do adversário que não esteja num moinho.
-4. Revezem-se até que cada um tenha colocado as suas 12 peças.
-5. Agora as peças andam. Na sua vez, mova uma peça sua pela linha até um ponto vizinho vazio.
-6. Cada moinho novo também captura: tire uma peça do adversário que não esteja num moinho.
+2. O tabuleiro começa vazio. Quem tem as peças escuras começa (a verificar). Na sua vez, coloque uma peça sua num ponto vazio.
+3. Se você formar uma fileira de três peças suas, em qualquer linha desenhada no tabuleiro, fez um *meul* (moinho): tire do tabuleiro uma peça do adversário que não esteja num moinho.
+   - Se todas as peças do adversário estiverem em moinhos, você pode tirar qualquer uma (a verificar).
+4. Quando cada um tiver colocado as suas 12 peças, começa a fase de movimento.
+5. Na sua vez, mova uma peça sua pela linha até um ponto vizinho vazio.
+6. Cada moinho novo também captura, do mesmo jeito.
+   - Um moinho desfeito para formar outro não pode ser refeito logo na jogada seguinte (a verificar).
 7. Quando você ficar com só três peças, pode mover uma delas para qualquer ponto vazio do tabuleiro.
 8. Vence quem deixar o adversário com só duas peças.
-
-## Para quem conduz
-
-**Sugestão do site:** as fontes desta ficha não dizem quem começa. Tirem na sorte ou combinem antes da partida.
+9. Se um dos jogadores tiver só três peças e ninguém capturar em dez jogadas, a partida empata (a verificar).
 
 ## Regras
 
@@ -66,3 +68,8 @@ O tabuleiro pode ser impresso, desenhado no papel ou riscado no chão. As peças
 3. Fase de movimento: move-se uma peça para um ponto vizinho vazio; novos moinhos também capturam.
 4. Quem fica com três peças pode mover para qualquer ponto vazio.
 5. Vence quem reduzir o adversário a duas peças.
+6. As peças escuras começam (Wikipedia, a verificar).
+7. Moinho é qualquer fileira de três peças numa linha desenhada no tabuleiro. Se todas as peças do adversário estiverem em moinhos, qualquer uma pode ser retirada (Wikipedia, a verificar).
+8. A fase de movimento começa quando todas as peças foram colocadas (Wikipedia, a verificar).
+9. Nas regras da Mind Sports South Africa, um moinho desfeito para formar outro não pode ser refeito na jogada seguinte (Wikipedia, a verificar).
+10. Se um dos jogadores tiver só três peças e ninguém capturar em dez jogadas, a partida empata (Wikipedia, a verificar).

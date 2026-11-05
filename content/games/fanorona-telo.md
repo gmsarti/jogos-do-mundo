@@ -44,8 +44,8 @@ O tabuleiro pode ser impresso, desenhado no papel ou riscado no chão. As peças
 
 1. O jogo tem duas fases: primeiro vocês colocam as peças, depois movem as peças.
 2. O tabuleiro começa vazio. Na sua vez, coloque uma peça sua num ponto livre.
-3. Revezem-se até que as 3 peças de cada um (a verificar) estejam no tabuleiro.
-4. Agora as peças andam. Na sua vez, mova uma peça sua para um ponto vizinho vazio.
+3. Revezem-se até que as 3 peças de cada um (a verificar) estejam no tabuleiro. Se alguém alinhar três peças já nessa fase, vence a partida.
+4. Agora as peças andam. Na sua vez, mova uma peça sua pela linha até um ponto vizinho vazio.
 5. Vence quem alinhar as suas três peças.
 
 ## Para quem conduz
@@ -55,3 +55,5 @@ O tabuleiro pode ser impresso, desenhado no papel ou riscado no chão. As peças
 ## Regras
 
 Cada jogador tem 3 peças; colocam-se alternadamente e depois movem-se para pontos vizinhos vazios; vence quem alinhar as três.
+
+Segundo o Ludii (a partir de Murray 1951: 42), alinhar três peças já na colocação vence, e as peças andam um ponto por vez, pelas linhas.

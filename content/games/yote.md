@@ -59,21 +59,22 @@ O tabuleiro pode ser impresso, desenhado no papel ou riscado no chão. As peças
 ## Como jogar?
 
 1. O tabuleiro começa vazio. Cada jogador deixa as suas 12 peças fora dele, na reserva.
-2. Na sua vez, faça uma destas duas coisas:
+2. Quem tem as peças brancas começa. Na sua vez, faça uma destas duas coisas:
    - coloque uma peça da reserva numa casa vazia;
    - ou mova uma peça sua que já está no tabuleiro.
 3. A peça anda uma casa por vez, na horizontal ou na vertical, para uma casa vazia.
 4. Para capturar, pule por cima de uma peça do adversário que esteja ao lado da sua, na horizontal ou na vertical, e caia na casa vazia logo atrás. A peça pulada sai do tabuleiro.
 5. Depois de cada captura, tire também do tabuleiro mais uma peça do adversário, a que você escolher.
 6. Vence quem capturar todas as peças do adversário.
+7. Se os dois ficarem com três peças ou menos, a partida empata.
 
 ## Para quem conduz
 
 Ninguém precisa pôr todas as peças em jogo: é comum guardar algumas na reserva, muitas vezes duas, para usar depois.
 
-No Senegal, o yoté é um dos jogos a dinheiro mais difundidos (Béart 1955). **Sugestão do site:** na escola, jogue sem apostar nada.
+Quem começa e o empate vêm das regras de Grunfeld (1975), a versão mais divulgada fora da África, feita para o tabuleiro de 5×6.
 
-**Sugestão do site:** as fontes desta ficha não dizem quem começa. Tirem na sorte ou combinem antes da partida.
+No Senegal, o yoté é um dos jogos a dinheiro mais difundidos (Béart 1955). **Sugestão do site:** na escola, jogue sem apostar nada.
 
 ## Regras
 
@@ -82,3 +83,4 @@ No Senegal, o yoté é um dos jogos a dinheiro mais difundidos (Béart 1955). **
 3. Captura-se saltando ortogonalmente sobre uma peça adversária vizinha para a casa vazia logo atrás, em qualquer direção.
 4. Depois de cada captura, o jogador retira também uma peça adversária à escolha do tabuleiro.
 5. Vence quem capturar todas as peças adversárias.
+6. Nas regras de Grunfeld (1975), para o tabuleiro de 5×6, as brancas começam, e a partida empata se os dois jogadores ficarem com três peças ou menos (Wikipedia).
