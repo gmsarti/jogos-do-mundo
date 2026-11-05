@@ -211,6 +211,18 @@ async function boot(): Promise<void> {
     else if (target.closest("[data-back]")) go({ ...state, game: null });
   });
 
+  // Paper gets the whole sheet: open "Saiba mais" while printing, then put it back
+  let closed: HTMLDetailsElement[] = [];
+  addEventListener("beforeprint", () => {
+    closed = [...panel.querySelectorAll<HTMLDetailsElement>(".more")].filter(
+      (d) => !d.open,
+    );
+    for (const d of closed) d.open = true;
+  });
+  addEventListener("afterprint", () => {
+    for (const d of closed) d.open = false;
+  });
+
   render();
 }
 

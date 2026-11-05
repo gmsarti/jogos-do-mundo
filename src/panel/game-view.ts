@@ -74,7 +74,7 @@ export function gameView(
   const recon = game.recon.length
     ? `<dt>Reconstrução</dt><dd>${esc(game.recon.join("; "))}</dd>`
     : "";
-  // The box closes "Como jogar?"; games without it still get the box, after "Regras"
+  // The box closes "Como jogar?"; games without it get the box after "Regras"
   const words = wordsBox(catalog, game);
   const refs = game.refs
     .map(
@@ -83,32 +83,40 @@ export function gameView(
     )
     .join("");
 
+  // Without "Como jogar?", "Regras" is still what the reader plays from, so it stays in the first layer
+  const rules = prose("Regras", game.rules);
+
   return `<button type="button" class="back" data-back><span aria-hidden="true">←</span> ${from ? esc(countryName(from)) : "Voltar"}</button>
 <h2>${esc(game.title)}</h2>
 <p><span class="badge b-${game.status}">${STATUS_LABEL[game.status]}</span><span class="tag">${esc(families)}</span></p>
-${statusHelp()}
 ${game.names.length ? `<p class="muted">${game.names.map((n) => esc(localName(n, catalog.languages))).join("<br>")}</p>` : ""}
 <div class="prose">${md(game.summary)}</div>
 ${boardFigure(game)}
 ${kitLink(game)}
 <dl>
+<dt>Países</dt><dd>${esc(countries)}${place}</dd>
+<dt>Povos</dt><dd>${esc(game.cultures.join(", "))}</dd>
+</dl>
+${kindOfGame(catalog, game)}
+${prose("Do que você vai precisar?", game.needs)}
+${prose("Como jogar?", game.howto)}
+${game.howto ? words : ""}
+${prose("Para quem conduz", game.guide)}
+${prose("História", game.history)}
+${game.howto ? "" : `${rules}${words}`}
+<details class="more"><summary>Saiba mais: regras completas, fontes e curadoria</summary>
+${statusHelp()}
+<h3>Ficha técnica</h3>
+<dl>
 <dt>Tabuleiro</dt><dd>${esc(game.board)}</dd>
 <dt>Peças</dt><dd>${esc(game.pieces)}</dd>
 <dt>Jogadores</dt><dd>${esc(game.players)}</dd>
-<dt>Povos</dt><dd>${esc(game.cultures.join(", "))}</dd>
-<dt>Países</dt><dd>${esc(countries)}${place}</dd>
 <dt>Evidência</dt><dd>${esc(evidence)}</dd>
 <dt>Ainda é jogado?</dt><dd>${esc(game.living)}</dd>
 ${sens}
 ${recon}
 </dl>
-${kindOfGame(catalog, game)}
-${prose("História", game.history)}
-${prose("Do que você vai precisar?", game.needs)}
-${prose("Como jogar?", game.howto)}
-${game.howto ? words : ""}
-${prose("Para quem conduz", game.guide)}
-${prose("Regras", game.rules)}
-${game.howto ? "" : words}
-${section("Referências", refs ? `<ul class="prose">${refs}</ul>` : "")}`;
+${game.howto ? rules : ""}
+${section("Referências", refs ? `<ul class="prose">${refs}</ul>` : "")}
+</details>`;
 }

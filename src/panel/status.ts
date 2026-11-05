@@ -22,7 +22,7 @@ export function statusDot(status: Status): string {
   return `<i class="st st-${status}" aria-hidden="true"></i>`;
 }
 
-/** Collapsible explanation of the four levels (native <details>, no script). */
+/** Explanation of the four levels, shown in "Saiba mais". */
 export function statusHelp(): string {
   const levels = (Object.keys(STATUS_LABEL) as Status[])
     .map(
@@ -30,5 +30,5 @@ export function statusHelp(): string {
         `<dt>${statusDot(s)}${STATUS_LABEL[s]}</dt><dd>${STATUS_HELP[s]}</dd>`,
     )
     .join("");
-  return `<details class="status-help"><summary>O que significa?</summary><dl>${levels}</dl><p>Na dúvida, o catálogo fica com o nível menos confiável.</p></details>`;
+  return `<div class="status-help"><h3>O que significa o status?</h3><dl>${levels}</dl><p>Na dúvida, o catálogo fica com o nível menos confiável.</p></div>`;
 }
