@@ -24,7 +24,7 @@ ev:
   date: ""
   ref: ""
 recon: []
-summary: '"Borboleta" em tonga (Zâmbia, Malawi e Moçambique): jogo de captura num tabuleiro de dois triângulos unidos pelo vértice. É praticamente o mesmo jogo que o *lau kata kati* da Índia, descrito por Murray (1952), o que pode indicar ligação histórica (Wikipedia).'
+summary: "*Gulugufe* quer dizer borboleta em tonga: é um jogo de captura de Moçambique, do Malawi e da Zâmbia, num tabuleiro de dois triângulos unidos pela ponta. Segundo a Wikipedia, é praticamente o mesmo jogo que o *lau kata kati*, da Índia, descrito por Murray (1952), o que pode indicar uma ligação histórica."
 refs:
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Butterfly_(game)
