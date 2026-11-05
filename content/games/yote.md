@@ -35,7 +35,7 @@ refs:
   - title: "Ludii: evidência (Béart 1955)"
     url: https://ludii.games/data.php?gameId=666
   - title: Wikipedia
-    url: https://en.wikipedia.com/wiki/Yot%C3%A9
+    url: https://en.wikipedia.org/wiki/Yot%C3%A9
   - title: GamesCrafters
     url: https://gamescrafters.berkeley.edu/games.php?game=yote
   - title: mindsports.nl (duas versões)
