@@ -122,22 +122,80 @@ describe("gameView", () => {
     expect(html).toContain("<li>passo um</li>");
   });
 
-  test("shows the teaching sections between História and Regras", () => {
-    const html = gameView(
-      catalog,
-      { ...full, needs: "- 9 pedras", howto: "1. Coloque", guide: "Dica" },
-      null,
-    );
+  // Splits the sheet at "Saiba mais": [first layer, second layer]
+  const layers = (html: string) => {
+    const at = html.indexOf('<details class="more">');
+    return [html.slice(0, at), html.slice(at)] as const;
+  };
+  const teaching: Game = {
+    ...full,
+    needs: "- 9 pedras",
+    howto: "1. Coloque",
+    guide: "Dica",
+  };
+
+  test("puts the sheet for playing first, in the order of the proposal", () => {
+    const html = gameView(catalog, teaching, null);
     const order = [
-      "<h3>História</h3>",
+      "<strong>forte</strong>",
+      "Gana, Nigéria (Norte)",
+      "<h3>Tipo de jogo</h3>",
       "<h3>Do que você vai precisar?</h3>",
       "<h3>Como jogar?</h3>",
       "<h3>Para quem conduz</h3>",
-      "<h3>Regras</h3>",
+      "<h3>História</h3>",
+      '<details class="more">',
     ].map((h) => html.indexOf(h));
     expect(order.every((i) => i >= 0)).toBe(true);
     expect(order).toEqual([...order].sort((a, b) => a - b));
     expect(html).toContain("<li>9 pedras</li>");
+  });
+
+  test("names the second layer 'Saiba mais'", () => {
+    expect(gameView(catalog, full, null)).toContain(
+      '<details class="more"><summary>Saiba mais: regras completas, fontes e curadoria</summary>',
+    );
+  });
+
+  test("with Como jogar?, moves Regras into Saiba mais", () => {
+    const [first, second] = layers(gameView(catalog, teaching, null));
+    expect(first).not.toContain("<h3>Regras</h3>");
+    expect(second).toContain("<h3>Regras</h3>");
+  });
+
+  test("without Como jogar?, keeps Regras in the first layer after História", () => {
+    const [first, second] = layers(gameView(catalog, full, null));
+    expect(first).toContain("<h3>Regras</h3>");
+    expect(first.indexOf("<h3>Regras</h3>")).toBeGreaterThan(
+      first.indexOf("<h3>História</h3>"),
+    );
+    expect(second).not.toContain("<h3>Regras</h3>");
+  });
+
+  test("keeps the curation fields only inside Saiba mais", () => {
+    const [first, second] = layers(
+      gameView(catalog, { ...full, sens: "ritual" }, null),
+    );
+    for (const field of [
+      "<dt>Tabuleiro</dt>",
+      "<dt>Peças</dt>",
+      "<dt>Jogadores</dt>",
+      "<dt>Evidência</dt>",
+      "<dt>Ainda é jogado?</dt>",
+      "<dt>Sensibilidade</dt>",
+      "<dt>Reconstrução</dt>",
+      "O que significa o status?",
+      "<h3>Referências</h3>",
+    ]) {
+      expect(first).not.toContain(field);
+      expect(second).toContain(field);
+    }
+  });
+
+  test("shows where and who in the first layer", () => {
+    const [first] = layers(gameView(catalog, full, null));
+    expect(first).toContain("<dt>Países</dt><dd>Gana, Nigéria (Norte)</dd>");
+    expect(first).toContain("<dt>Povos</dt><dd>ganenses</dd>");
   });
 
   test("explains the glossary words used in the rules", () => {
@@ -186,10 +244,9 @@ describe("gameView", () => {
     expect(gameView(catalog, full, null)).toContain(" Voltar</button>");
   });
 
-  test("explains the four rule status levels next to the badge", () => {
-    const html = gameView(catalog, full, null);
-    expect(html).toContain("<details");
-    expect(html).toContain("O que significa?");
+  test("explains the four rule status levels in Saiba mais", () => {
+    const [, html] = layers(gameView(catalog, full, null));
+    expect(html).toContain("<h3>O que significa o status?</h3>");
     for (const text of [
       "Regras registradas",
       "Alguém registrou como se joga, e a fonte foi conferida.",

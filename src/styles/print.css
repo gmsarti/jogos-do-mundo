@@ -5,8 +5,14 @@
   .handle,
   .back,
   .status-help,
-  .kit-link {
+  .kit-link,
+  .more summary {
     display: none;
+  }
+
+  /* main.ts opens "Saiba mais" before printing; this drops the divider */
+  .more {
+    border: 0;
   }
 
   html,

@@ -223,15 +223,22 @@ dd {
   border-style: dotted;
 }
 
-.status-help {
-  margin: -0.3rem 0 0.8rem;
-  font-size: 0.88rem;
+/* Second layer of the game sheet: curation, full rules and sources */
+.more {
+  margin: 1.2rem 0 0;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--line);
 }
 
-.status-help summary {
+.more summary {
   width: fit-content;
   color: var(--link);
+  font-weight: 600;
   cursor: pointer;
+}
+
+.status-help {
+  font-size: 0.88rem;
 }
 
 .status-help dl {
