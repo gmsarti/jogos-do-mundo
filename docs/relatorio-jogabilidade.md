@@ -85,30 +85,30 @@ Ordenada do pior veredito para o melhor e, dentro de cada veredito, do maior nú
 | raposa-e-galinhas | documented | Não joga | 9 | 9 | 0 | não |
 | tchadji | documented | Não joga | 9 | 9 | 0 | não |
 | warri-caribe | documented | Não joga | 9 | 9 | 0 | não |
-| bao-la-kiswahili | documented | Não joga | 8 | 8 | 1 | não |
+| bao-la-kiswahili | documented | Joga com lacunas | 3 | 2 | 2 | não |
 | brandubh | reconstructed | Não joga | 8 | 6 | 1 | não |
 | janggi | documented | Não joga | 8 | 8 | 1 | não |
 | ludus-latrunculorum | reconstructed | Não joga | 8 | 6 | 0 | não |
-| muvalavala | documented | Não joga | 8 | 8 | 0 | não |
+| muvalavala | documented | Joga com lacunas | 3 | 3 | 1 | não |
 | pachisi | documented | Não joga | 8 | 7 | 2 | não |
 | raposa-e-gansos | documented | Não joga | 8 | 7 | 0 | não |
 | senet | reconstructed | Não joga | 8 | 6 | 1 | não |
 | vela | partial | Não joga | 8 | 8 | 1 | não |
 | hnefatafl | reconstructed | Não joga | 7 | 5 | 1 | não |
-| komikan | documented | Não joga | 7 | 6 | 0 | não |
+| komikan | documented | Não joga | 6 | 4 | 0 | não |
 | makruk | documented | Não joga | 7 | 7 | 1 | não |
 | sittuyin | documented | Não joga | 7 | 7 | 0 | não |
 | xiangqi | documented | Não joga | 7 | 7 | 1 | não |
-| adugo | documented | Não joga | 6 | 6 | 0 | não |
-| jogo-real-de-ur | reconstructed | Não joga | 6 | 6 | 0 | não |
+| adugo | documented | Joga com lacunas | 5 | 2 | 2 | não |
+| jogo-real-de-ur | reconstructed | Não joga | 5 | 5 | 2 | não |
 | puluc | documented | Não joga | 6 | 6 | 1 | não |
 | quebra-cabeca-kanela | unknown | Não joga | 6 | 0 | 0 | não |
 | shatranj | documented | Não joga | 6 | 5 | 0 | não |
 | shogi | documented | Não joga | 6 | 6 | 0 | não |
-| yut-nori | documented | Não joga | 6 | 6 | 2 | não |
-| mahjong | documented | Não joga | 5 | 5 | 3 | não |
-| xadrez | documented | Não joga | 5 | 5 | 1 | não |
-| damas-brasileiras | documented | Não joga | 4 | 4 | 0 | não |
+| yut-nori | documented | Joga com lacunas | 1 | 1 | 2 | não |
+| mahjong | documented | Joga com lacunas | 1 | 0 | 3 | não |
+| xadrez | documented | Joga | 0 | 0 | 1 | não |
+| damas-brasileiras | documented | Joga | 0 | 0 | 0 | não |
 | e-sugoroku | documented | Não joga | 3 | 2 | 0 | não |
 | fanorona | documented | Não joga | 2 | 2 | 5 | sim |
 | yote | documented | Joga com lacunas | 7 | 6 | 1 | sim |
@@ -169,7 +169,7 @@ Os jogos de semeadura são 26 dos 94, e por isso aparecem em quase todo lote.
 | --- | --- | --- | --- | --- |
 | 1 | achi, shisima, yote, seega, fanorona, fanorona-telo, morabaraba, gulugufe | — | — | Feito (PRs #21 e #22). Pendências: posição inicial do Fanorona (ver lote 4) e quem começa em 5 jogos |
 | 2 | alquerque, ayo, bagh-chal, konane, mu-torere, oware, tablut, toguz-kumalak, trilha, weiqi | damas, semeadura, caça, bloqueio, alinhamento, território | 38 (32) | Feito: Etapa 2 e reescrita. Ficaram 19 lacunas (13 de fonte), 6 de curadoria para decidir |
-| 3 | damas-brasileiras, xadrez, adugo, komikan, jogo-real-de-ur, yut-nori, mahjong, bao-la-kiswahili, muvalavala | damas, xadrez, caça, corrida, peças, semeadura | 55 (54) | Não jogam, mas com poucas lacunas, quase todas de fonte. Adugo e Komikan dividem a pendência do triângulo |
+| 3 | damas-brasileiras, xadrez, adugo, komikan, jogo-real-de-ur, yut-nori, mahjong, bao-la-kiswahili, muvalavala | damas, xadrez, caça, corrida, peças, semeadura | 55 (54) | Etapa 2 feita: ficaram 24 lacunas (17 de fonte). Damas brasileiras e Xadrez passaram a jogar; Adugo, Yut nori, Mahjong, Bao la kiswahili e Muvalavala jogam com lacunas; Komikan e Jogo real de Ur seguem sem jogar (triângulo, posição inicial e percurso só em figura). Erros corrigidos: FIDE nas `refs` do Xadrez, Mahjong com fontes de regras, "bao la kujifunza" fora dos `names` do Bao la kiswahili |
 | 4 | shogi, xiangqi, puluc, e-sugoroku, hnefatafl, raposa-e-gansos, vela, pachisi, omweso | xadrez, corrida, caça, captura posicional, semeadura | 62 (57) | Poucas lacunas. A Vela vai com a pendência do Fanorona (posição inicial e revanche), que tem as mesmas fontes |
 | 5 | makruk, janggi, brandubh, ludus-latrunculorum, senet, raposa-e-galinhas, owela-benguela, domino-doble-nueve, adji-kui | xadrez, caça, captura posicional, corrida, semeadura, peças | 75 (68) | Três reconstruções (Brandubh, Ludus, Senet) pedem decisão de curadoria logo no começo do lote |
 | 6 | sittuyin, shatranj, chaupar, nard, bao-ki-arabu, tchadji, warri-caribe, domino, ashta-kashte | xadrez, corrida, semeadura, peças | 80 (78) | Regras parciais. Sittuyin e Shatranj dividem fontes (Murray 1913, Chess Variant Pages) |
@@ -281,37 +281,45 @@ Status: partial · Família: semeadura · "(a verificar)": 1 · "Como jogar?": n
 
 **Abrir primeiro (Etapa 2):** Mancala World (Adji Kui II), e por ele Wilson Ferrer 1991.
 
-### adugo — Não joga
+### adugo — Joga com lacunas
 
-Status: documented · Família: caca-assimetrico · "(a verificar)": 0 · "Como jogar?": não
+Status: documented · Família: caca-assimetrico · "(a verificar)": 2 · "Como jogar?": não
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | não | `board`: "alquerque 5×5 + triângulo (31 pontos)"; não diz onde o triângulo encosta nem como as linhas dele ligam os 6 pontos a mais |
-| E2 Peças | sim, mas ambíguo | `pieces`: "14 ou 15 cães", sem dizer quando cada um |
-| E3 Preparação | sim, mas ambíguo | Regras 1: cães "nos pontos da base oposta ao triângulo", sem dizer quantas fileiras |
-| E4 Ação da vez | sim | Regras 2 |
+| E1 Tabuleiro | sim (a verificar) | Regras 5: o triângulo, pelo Ludii; o desenho de Vergara e Martínez (UFMG) é o mesmo |
+| E2 Peças | sim, mas ambíguo | Regras 6: 14 cães em quatro fontes, 15 em Lima 2004 |
+| E3 Preparação | sim, mas ambíguo | Regras 1 e 7: cães "na metade oposta ao triângulo", sem dizer quais pontos |
+| E4 Ação da vez | sim | Regras 2 e 8 |
 | E5 Movimento | sim | Regras 2 |
-| E6 Fim e vitória | sim | Regras 4 |
-| I1 Quem começa | sim | Regras 2 (a onça) |
-| I2 Captura | sim | Regras 3 (salto, encadeado) |
-| I3 Obrigação | não | — |
-| I4 Bloqueio | parcial | Regras 4 cobre a onça encurralada; não diz o que acontece se os cães não puderem mover |
+| E6 Fim e vitória | sim, com três versões | Regras 4 e 10 |
+| I1 Quem começa | sim | Regras 2 e 8 (a onça; sorteia-se quem fica com ela) |
+| I2 Captura | sim | Regras 3 e 9 |
+| I3 Obrigação | sim | Regras 9 (não é obrigatória) |
+| I4 Bloqueio | parcial | Regras 4 cobre a onça encurralada; os cães sem lance, não |
 | I5 Empate | não | — |
 | I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2:**
 
-| Item | Lacuna | Tipo |
+- E1: o Ludii descreve o triângulo em palavras: o vértice é o ponto do meio de um lado do quadrado, uma linha vai do vértice ao meio da base e outra corta essa linha no meio e liga os meios dos outros dois lados. Dá 6 pontos a mais, 31 no total. O Ludii cita Lima 2004, mas o trecho de Lima que ele transcreve não fala do tabuleiro, por isso a regra entrou "(a verificar)". A figura de Vergara e Martínez (Museu da Matemática UFMG, fig. 2.31) mostra o mesmo desenho.
+- I1: sorteia-se quem fica com a onça, e a onça começa (Vergara e Martínez; Museu das Culturas Indígenas).
+- I3: capturar não é obrigatório, e a onça pode capturar vários cães no mesmo lance (Vergara e Martínez).
+
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E1 | Forma e ligações do triângulo. | fonte |
-| E2 | 14 ou 15 cães: quando cada um? | fonte |
-| E3 | Quais pontos os cães ocupam no começo. | fonte |
-| I3 | A onça é obrigada a capturar? | fonte |
-| I4 | E se os cães não puderem mover? | fonte |
-| I5 | Existe empate? | fonte |
+| E2 | 14 cães: Ludii, Vergara e Martínez, Wikipedia e Museu das Culturas Indígenas ("15 peças", com a onça). 15 cachorros: Lima 2004, entre os Bororo, citado por Vinha e pelo Ludii. | curadoria |
+| E3 | Texto: "metade oposta ao triângulo" (Vergara e Martínez; Wikipedia). A figura de Vergara e Martínez (fig. 2.31b) mostra os 14 cães nas três fileiras mais longe do triângulo, menos o ponto central, onde fica a onça. Decidir se a figura basta. | curadoria |
+| E6 | Vitória da onça: 5 cães (Museu das Culturas Indígenas; Vergara e Martínez; Wikipedia, que é a Regra 4 da ficha), todos os cães (Ludii), 6 cães (GamesCrafters, sem fonte). | curadoria |
+| I4, I5 | Cães sem lance e empate. Nenhuma fonte diz. | fonte |
 
-**Abrir primeiro (Etapa 2):** MCI: Caderno Brincadeiras; Vinha (PDF); Wikipedia; GamesCrafters.
+**Pendências:** a forma do triângulo do Komikan, que divide a pendência com o Adugo, segue só em figura (ver o bloco do Komikan). Ludopedia recusa o acesso automático (403).
+
+**Fontes descartadas:** GamesCrafters como fonte de regra, porque não cita de onde tirou as regras; o que ele diz entrou só como nota "(a verificar)".
+
+**Fontes novas:** Vergara e Martínez, *Jogos de Tabuleiro: uma proposta para sala de aula* (Museu da Matemática UFMG); Ludii, *Adugo*.
 
 ### aiu — Não joga
 
@@ -588,41 +596,45 @@ Status: documented · Família: semeadura · "(a verificar)": 0 · "Como jogar?"
 
 **Abrir primeiro (Etapa 2):** Ludii (Zanzibar 1), e por ele Ingrams 1931.
 
-### bao-la-kiswahili — Não joga
+### bao-la-kiswahili — Joga com lacunas
 
-Status: documented · Família: semeadura · "(a verificar)": 1 · "Como jogar?": não
+Status: documented · Família: semeadura · "(a verificar)": 2 · "Como jogar?": não
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | parcial | `board`: "4×8 com nyumba", sem dizer qual cova é a *nyumba* |
-| E2 Peças | sim | `pieces`: 64 sementes (a verificar) |
-| E3 Preparação | não | Regras 2 diz que "parte das sementes fica na mão", sem quantas nem onde ficam as outras |
-| E4 Ação da vez | parcial | Regras 1 e 2 |
-| E5 Movimento | não | sentido da semeadura não dito; *kichwa* sem explicação de qual ponta |
+| E1 Tabuleiro | sim | Regras 6 (*nyumba*, *kichwa*, *kimbi*) |
+| E2 Peças | sim | `pieces`; Regras 7 (32 por jogador) |
+| E3 Preparação | sim | Regras 7 |
+| E4 Ação da vez | sim | Regras 8, 10, 11 e 12 |
+| E5 Movimento | sim | Regras 9 e 10 |
 | E6 Fim e vitória | sim | Regras 5 |
 | I1 Quem começa | não | — |
-| I2 Captura | sim | Regras 3 |
-| I3 Obrigação | não | — |
+| I2 Captura | sim | Regras 3, 8 a 10 |
+| I3 Obrigação | sim | Regras 8 e 11 (capturar é obrigatório) |
 | I4 Bloqueio | sim | Regras 5 (sem lances, perde) |
 | I5 Empate | não | — |
-| I6 Fases | parcial | Regras 2 nomeia *namua* e *mtaji*, sem dizer quando uma acaba |
+| I6 Fases | sim | Regras 11 (o *mtaji* começa quando acabam as sementes da mão) |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Wikipedia; Ludii, a partir de de Voogt 1995: 35-51):
 
-| Item | Lacuna | Tipo |
+- E1: a *nyumba* é a quarta cova da direita para a esquerda na fileira de dentro; *kichwa* são as pontas da fileira de dentro.
+- E3: 6 sementes na *nyumba*, 2 em cada uma das duas covas à direita dela, 22 na mão.
+- E4: as regras da *nyumba* (Wikipedia, a verificar: a Wikipedia não cita fonte nesse trecho).
+- E5: o sentido sai do *kichwa* escolhido (direita: anti-horário; esquerda: horário).
+- I3: capturar é obrigatório. I6: o *namua* acaba quando os dois ficam sem sementes na mão.
+
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E1 | Onde fica a *nyumba*. | fonte |
-| E3 | Quantas sementes começam na mão e quantas no tabuleiro, e onde. | fonte |
-| E4 | As "regras especiais" da *nyumba* (Regras 4) não estão descritas. | fonte |
-| E5 | Sentido da semeadura e qual ponta é o *kichwa*. | fonte |
-| I1 | Quem começa. | fonte |
-| I3 | Capturar é obrigatório? | fonte |
-| I5 | Existe empate? | fonte |
-| I6 | Quando se passa do *namua* para o *mtaji*. | fonte |
+| E4 | O Ludii (de Voogt 1995) tem restrições que a Wikipedia não tem: não semear covas de uma semente, limites para semear de um *kichwa* para trás e uma regra que impede o adversário de semear certa cova fora do *namua* (Regras 13). Decidir se entram no "Como jogar?" ou ficam para "Para quem conduz". | curadoria |
+| I1, I5 | Quem começa, empate. Nenhuma das duas fontes diz. | fonte |
 
-**Erro na ficha:** `names` traz "bao la kujifunza", que tem ficha própria e é outro jogo (forma simplificada, segundo a ficha `bao-la-kujifunza`).
+**Erro corrigido:** "bao la kujifunza" saiu dos `names`. A Wikipedia confirma que é outra forma do jogo, a simplificada "para principiantes", com outra preparação (2 sementes em cada cova), sem a fase *namua* e sem as regras da *nyumba*. A ficha `bao-la-kujifunza` não foi tocada.
 
-**Abrir primeiro (Etapa 2):** Wikipedia (Bao).
+**Pendências:** Mancala World recusa o acesso automático (Cloudflare). De Voogt 1995 (*Limits of the mind*) não foi aberto; as páginas de regras de de Voogt que a Wikipedia aponta estão só no archive.org.
+
+**Fontes novas:** Ludii, *Bao* (a partir de de Voogt 1995).
 
 ### bao-la-kujifunza — Não joga
 
@@ -881,7 +893,7 @@ Status: unknown · Família: desconhecida · "(a verificar)": 4 · "Como jogar?"
 
 **Abrir primeiro (Etapa 2):** Schmidt-Madsen 2024, "Discovering Dadu" (BGSJ 18), depois da decisão de curadoria.
 
-### damas-brasileiras — Não joga
+### damas-brasileiras — Joga
 
 Status: documented · Família: damas · "(a verificar)": 0 · "Como jogar?": não
 
@@ -892,24 +904,25 @@ Status: documented · Família: damas · "(a verificar)": 0 · "Como jogar?": n�
 | E3 Preparação | sim | Regras 1 |
 | E4 Ação da vez | sim | Regras 2 a 4 |
 | E5 Movimento | sim | Regras 2 e 4 |
-| E6 Fim e vitória | não | nenhuma regra diz como se vence |
-| I1 Quem começa | não | — |
+| E6 Fim e vitória | sim | Regras 8 |
+| I1 Quem começa | sim | Regras 7 (as brancas) |
 | I2 Captura | sim | Regras 3 a 5 |
 | I3 Obrigação | sim | Regras 3 (obrigatória, maior número de peças) |
-| I4 Bloqueio | não | — |
-| I5 Empate | parcial | Regras 6: "limitam lances de dama sem captura", sem o número |
+| I4 Bloqueio | sim | Regras 8 (peças bloqueadas: perde) |
+| I5 Empate | sim | Regras 9 |
 | I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2:**
 
-| Item | Lacuna | Tipo |
-| --- | --- | --- |
-| E6 | Como se vence. | fonte |
-| I1 | Quem começa. | fonte |
-| I4 | E se um jogador não puder mover? | fonte |
-| I5 | Quantos lances de dama sem captura levam ao empate. | fonte |
+- E6 e I4: vence quem deixa o adversário sem peças ou com todas bloqueadas na vez dele (FMJD, *Official Rules of the game in draughts-64*, art. 7.1; Wikipedia, a partir dela).
+- I1: as brancas começam (FMJD, art. 3.3).
+- I5: acordo, nenhum dos dois pode vencer, posição repetida três vezes, 15 lances seguidos só de damas sem mover pedra nem capturar, três damas contra uma em 15 lances, e as contagens de finais com poucas peças (FMJD, arts. 7.2 e 8). As regras da FMJD valem para as damas de 64 casas e têm um artigo próprio para a versão brasileira (art. 5), que confirma as Regras 3 e 5 da ficha.
 
-**Abrir primeiro (Etapa 2):** Regulamento FENAE; Regulamento IFPE. É o jogo mais perto de "joga": as lacunas devem estar todas nos regulamentos.
+**Segue em aberto:** nada do checklist.
+
+**Pendências:** os dois regulamentos das `refs` não abriram: o da FENAE recusa o acesso automático (403) e o do IFPE mudou de endereço (404). O resumo do buscador mostra que o da FENAE fala em **20 lances** de damas sem captura nem movimento de pedra, e não 15; como o texto não foi aberto, a regra não entrou. Vale conferir à mão se o Brasil usa 20 ou 15.
+
+**Fontes novas:** FMJD, *Official Rules of the game in draughts-64* (PDF citado pela Wikipedia; o mesmo texto está em fmjd64.org); Wikipedia, *Brazilian draughts*.
 
 ### domino-chines — Não joga
 
@@ -1318,35 +1331,43 @@ Status: documented · Família: xadrez-e-guerra · "(a verificar)": 1 · "Como j
 
 ### jogo-real-de-ur — Não joga
 
-Status: reconstructed · Família: corrida · "(a verificar)": 0 · "Como jogar?": não
+Status: reconstructed · Família: corrida · "(a verificar)": 2 · "Como jogar?": não
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | parcial | `board`: 3×4 + ponte 1×2 + 3×2; não diz onde ficam as rosetas, que as Regras 4 usam |
+| E1 Tabuleiro | parcial | `board`; Regras 7: roseta no meio da fileira do meio e "nos quatro cantos", sem dizer quais |
 | E2 Peças | sim | `pieces`; Regras 1 (7, de Finkel) |
-| E3 Preparação | sim | Regras 1 (as peças entram de fora) |
-| E4 Ação da vez | sim | Regras 2 |
-| E5 Movimento | parcial | Regras 1: entra pelo seu lado, passa pela faixa central, sai pelo seu lado; o caminho casa a casa não é dito |
-| E6 Fim e vitória | sim | Regras 5 |
+| E3 Preparação | sim | Regras 1 e 8 (as peças entram de fora) |
+| E4 Ação da vez | sim | Regras 2 e 8 |
+| E5 Movimento | parcial | Regras 6: o percurso do Ludii, que fala em cantos "de cima" sem dizer qual é o alto |
+| E6 Fim e vitória | sim | Regras 5 e 9 |
 | I1 Quem começa | não | — |
-| I2 Captura | sim | Regras 3 |
-| I3 Obrigação | não | — |
-| I4 Bloqueio | não | Regras 2 admite lance 0, sem dizer o que acontece |
+| I2 Captura | sim | Regras 3 e 6 |
+| I3 Obrigação | sim | Regras 8 (mover é obrigatório; capturar, não) |
+| I4 Bloqueio | não | lance 0 ou sem lance possível não é dito |
 | I5 Empate | não | — |
 | I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (dentro da reconstrução de Finkel):
 
-| Item | Lacuna | Tipo |
+- I3: mover é obrigatório sempre que possível; capturar, não. Duas peças nunca ficam na mesma casa (Wikipedia, na seção das regras de Finkel, a partir de Botermans 2008).
+- As 6 casas laterais de cada um são seguras; as 8 do meio são de combate (Wikipedia, a partir de Botermans 2008).
+- Sair exige o número de casas que faltam mais um (Ludii, regras de Finkel, a partir de Finkel 2007; Wikipedia).
+
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E1 | Posição das rosetas. | fonte |
-| E5 | Percurso casa a casa. | fonte |
-| I1 | Quem começa. | fonte |
-| I3 | Mover é obrigatório se possível? | fonte |
-| I4 | Lance 0 ou sem jogada possível: passa a vez? | fonte |
-| I5 | Existe empate? | fonte |
+| E1, E5 | Ludii (regras de Finkel, a partir de Finkel 2007): começa-se num canto "de cima" do bloco de 3×4, segue-se a própria fileira, sobe-se pela do meio e volta-se pelo próprio lado no bloco de 3×2; roseta protetora no meio da fileira do meio e rosetas de nova jogada "nos quatro cantos". A Wikipedia (a partir de Becker 2007) diz que as cinco rosetas dão nova jogada. As duas figuras da Wikipedia mostram o percurso, mas só em imagem. Decidir se a figura basta; senão, falta abrir Finkel 2007. | fonte |
+| I1, I4, I5 | Quem começa, lance 0 ou sem lance, empate. Nenhuma fonte de Finkel diz. | fonte |
 
-**Abrir primeiro (Etapa 2):** Ludii; Wikipedia; British Museum. As regras de Finkel (listado em `recon`) vêm da tábua CDLI P498293.
+**Notas de divergência registradas** (outras reconstruções): Murray e Masters propõem percursos com roseta a cada quatro casas (Wikipedia). O `pieces` da ficha já fala em 5 peças em "outras regras", e o Ludii, no conjunto "Historical Information", também usa 5.
+
+**Pendências:** Finkel 2007, "On the rules for the Royal Game of Ur" (em *Ancient Board Games in Perspective*, British Museum Press), não tem cópia legítima aberta; as cópias achadas na web não são do editor e não foram usadas. A página do British Museum recusa o acesso automático (403). A página de regras de James Masters também (403). **Correção no relatório:** o bloco da Etapa 1 dizia que as regras de Finkel vêm da "tábua CDLI P498293"; o CDLI P498293 é o próprio tabuleiro (BM 120834), e a tábua das regras é a BM 33333B (Wikipedia).
+
+**Fontes descartadas:** instruções do Kelsey Museum (University of Michigan), que misturam as regras de Masters e de Finkel sem dizer de quem é cada uma.
+
+**Fontes novas:** Ludii, conjunto de regras de Finkel.
 
 ### kay-haiti — Não joga
 
@@ -1436,34 +1457,40 @@ Status: documented · Família: caca-assimetrico · "(a verificar)": 0 · "Como 
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | parcial | Regras 1 e `board`: alquerque 5×5 + triângulo de 13 pontos; a forma e as ligações do triângulo não são descritas |
+| E1 Tabuleiro | parcial | Regras 1 e 11: alquerque 5×5 + triângulo de 13 pontos; o triângulo só existe em figura |
 | E2 Peças | sim | Regras 2 |
-| E3 Preparação | não | — |
-| E4 Ação da vez | sim | Regras 3 e 4 |
-| E5 Movimento | parcial | Regras 3: cães, um passo para a frente; o leão, não dito |
-| E6 Fim e vitória | parcial | Regras 3: os cães tentam cercar o leão; não diz como o leão vence |
+| E3 Preparação | não | Regras 11: só em figura (Mátus, fig. 51) |
+| E4 Ação da vez | sim | Regras 3, 4, 7 a 9 |
+| E5 Movimento | sim | Regras 8 (Mátus) |
+| E6 Fim e vitória | parcial | Regras 10: os cães vencem deixando o leão sem movimento; a vitória do leão só no Ludii (Regras 12) |
 | I1 Quem começa | não | — |
-| I2 Captura | sim | Regras 4 |
-| I3 Obrigação | não | — |
-| I4 Bloqueio | parcial | Regras 3 (cercar o leão) |
+| I2 Captura | sim | Regras 4 e 9 |
+| I3 Obrigação | não | os cães são obrigados a avançar (Regras 8); a captura, não dito |
+| I4 Bloqueio | sim | Regras 10 (leão sem movimento: perde) |
 | I5 Empate | não | — |
 | I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2:**
 
-| Item | Lacuna | Tipo |
+- Fonte primária aberta: Mátus (1918-19), "Juegos i ejercicios de los antiguos araucanos", *Boletín del Museo Nacional de Chile*, pp. 168-169, no site do boletim. É o texto que Depaulis (1998) e o Ludii resumem.
+- E5: os cães são obrigados a sempre avançar; o leão pode avançar ou recuar, sempre e em qualquer sentido (Mátus). O Ludii acrescenta "uma casa por vez".
+- Captura, em mais detalhe: o leão come um cão sozinho, sem outro que o proteja, saltando por cima; com um lugar livre entre dois cães, come os dois (Mátus).
+- Vitória dos cães: deixar o leão sem movimento (Mátus; Ludii).
+
+**Achado importante para a sensibilidade:** Mátus diz que viu o jogo entre os indígenas do interior de Valdivia, que se recusaram a explicar as regras, e por isso descreve o *leoncito*, "o jogo que os meninos conhecem" no Chile. As regras que ele dá são do jogo das crianças chilenas, não dos informantes mapuche. Isso vai para a parada.
+
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E1 | Forma e ligações do triângulo. | fonte |
-| E3 | Posição inicial. | fonte |
-| E5 | Como o leão anda. | fonte |
-| E6 | Vitória do leão; e o papel do triângulo, que "não está registrado nas fontes antigas" (só no BGG, moderno). | curadoria |
-| I1 | Quem começa. | fonte |
-| I3 | O leão é obrigado a capturar? | fonte |
-| I5 | Existe empate? | fonte |
+| E1 | O triângulo só aparece em figura: Mátus fig. 51, reproduzida por Depaulis 1998, fig. 13. A Wikipedia descreve em palavras o desenho de Mátus (duas linhas transversais, uma longitudinal e duas verticais curtas), mas não diz quais pontos se ligam nem chega aos 13 pontos. Pendência do T-054. | fonte |
+| E3 | Posição inicial só em figura (Mátus fig. 51; Depaulis fig. 13): os 12 cães na base oposta ao triângulo e o leão dentro do triângulo. Decidir se a figura basta. | curadoria |
+| E6 | Vitória do leão: só o Ludii diz (capturar todos os cães); Mátus, que ele cita, não diz. Papel do triângulo: só no BGG, moderno. Ficaram como notas, não como regra. | curadoria |
+| I1, I3, I5 | Quem começa, obrigação de capturar, empate. Mátus e Depaulis não dizem. | fonte |
 
-**Sensibilidade:** `sens`: "restrito (informantes recusaram detalhes a Mátus, 1918-19)". Vale conversar antes de completar as regras com fontes modernas.
+**Pendências:** BGG recusa o acesso automático (403), e a regra moderna do triângulo, que a ficha atribui a ele, não pôde ser conferida. Manquilef 1914 (citado por Depaulis) não foi aberto.
 
-**Abrir primeiro (Etapa 2):** Depaulis 1998 (BGS 1); "Ludii: biblioteca"; Wikipedia.
+**Fontes novas:** Mátus 1918-19, no *Boletín del Museo Nacional de Historia Natural*.
 
 ### konane — Joga com lacunas
 
@@ -1529,39 +1556,38 @@ Status: reconstructed · Família: captura-posicional, xadrez-e-guerra · "(a ve
 
 **Abrir primeiro (Etapa 2):** "Ruleset Schädler 2001" e "Ruleset Locus Ludi" (Ludii); Wikipedia.
 
-### mahjong — Não joga
+### mahjong — Joga com lacunas
 
 Status: documented · Família: pecas · "(a verificar)": 3 · "Como jogar?": não
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
 | E1 Tabuleiro | não se aplica | `board`: sem tabuleiro |
-| E2 Peças | parcial | `pieces`: 144 (variável); a composição (naipes, honras) não é descrita |
-| E3 Preparação | parcial | Regras: "Monta-se uma muralha"; não diz quantas peças cada um recebe |
-| E4 Ação da vez | sim | Regras (comprar e descartar) |
-| E5 Movimento | sim | Regras (*chow*, *pung*, *kong* com o descarte alheio) |
-| E6 Fim e vitória | sim | Regras (quatro combinações e um par) |
-| I1 Quem começa | não | — |
-| I2 Captura | sim | Regras (tomar o descarte) |
-| I3 Obrigação | não | quem tem prioridade quando dois querem o mesmo descarte |
+| E2 Peças | sim | Regras 1 (144; 136 no *riichi*) |
+| E3 Preparação | sim | Regras 2 a 4 |
+| E4 Ação da vez | sim | Regras 5 |
+| E5 Movimento | sim | Regras 6 e 7 |
+| E6 Fim e vitória | sim, com variantes | Regras 8 e 9: a mão completa vence, mas o mínimo para valer muda com a variante |
+| I1 Quem começa | sim | Regras 2 (leste) |
+| I2 Captura | sim | Regras 6 (tomar o descarte) |
+| I3 Obrigação | sim | Regras 6 (prioridade sobre o descarte) |
 | I4 Bloqueio | não se aplica | — |
-| I5 Empate | não | o que acontece se a muralha acabar |
+| I5 Empate | sim | Regras 8 (a muralha acaba: mão sem vencedor) |
 | I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2:** o que as regras chinesas oficiais (MCR, edição em inglês de 2006), as regras de *riichi* da Associação Europeia de Mahjong (2025) e o *old Hong Kong mahjong* da Wikipedia têm em comum entrou nas Regras 1 a 8, com o artigo de cada uma: composição das peças (E2), lugares, muralha e distribuição de 13 peças, 14 para leste (E3), leste começa (I1), prioridade do descarte (I3) e muralha esgotada sem vencedor (I5).
 
-| Item | Lacuna | Tipo |
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| — | A pontuação "varia muito entre regiões"; escolher uma variante. | curadoria |
-| E2 | Composição das peças. | fonte |
-| E3 | Mão inicial e montagem da muralha. | fonte |
-| I1 | Quem começa. | fonte |
-| I3 | Prioridade sobre o descarte. | fonte |
-| I5 | Muralha esgotada. | fonte |
+| E6 | O mínimo para uma mão valer e a contagem mudam com a variante: MCR, pelo menos 8 pontos (Organização Mundial de Mahjong); *riichi*, pelo menos um *yaku* (EMA, que segue de perto as regras do Campeonato Mundial de Riichi); Hong Kong, mínimo combinado na mesa, em geral 3 *faan* (Wikipedia, sem federação achada); Taiwan, mãos de 16 peças; Singapura, quatro peças de bicho a mais (Wikipedia). Escolher uma variante ou ensinar só a mão completa. | curadoria |
 
-**Erro na ficha:** a única `ref` é a bibliografia de Culin (Avedon), sem regras de mahjong.
+**Erro corrigido:** a ficha deixa de ter como única `ref` a bibliografia de Culin.
 
-**Abrir primeiro (Etapa 2):** a bibliografia de Culin; depois Wikipedia e uma federação da variante escolhida.
+**Pendências:** sem federação aberta para o Hong Kong, Taiwan e Singapura. A edição atual do MCR na página da EMA não abriu (certificado inválido do site); a edição de 2006 está no site da federação dinamarquesa.
+
+**Fontes novas:** Wikipedia, *Mahjong*; *Mahjong Competition Rules* (MCR, 2006); EMA, *Riichi: rules for Japanese mahjong* (2025).
 
 ### makruk — Não joga
 
@@ -1702,35 +1728,43 @@ Status: documented · Família: semeadura · "(a verificar)": 0 · "Como jogar?"
 
 **Abrir primeiro (Etapa 2):** Mancala World (e, por ele, Chaplin 1956).
 
-### muvalavala — Não joga
+### muvalavala — Joga com lacunas
 
-Status: documented · Família: semeadura · "(a verificar)": 0 · "Como jogar?": não
+Status: documented · Família: semeadura · "(a verificar)": 1 · "Como jogar?": não
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
 | E1 Tabuleiro | sim, mas ambíguo | `board`: 4×6 ou 4×16 (sem desenho pela faixa) |
 | E2 Peças | sim | `pieces`: 48 sementes (4×6) |
 | E3 Preparação | sim | Regras (2 em cada cova) |
-| E4 Ação da vez | parcial | Regras: semeadura no sentido horário; não diz que fileiras são de cada jogador nem de que covas se começa |
-| E5 Movimento | sim | Regras (sentido horário) |
-| E6 Fim e vitória | parcial | Regras: "vence quem capturar mais sementes", sem dizer quando acaba |
+| E4 Ação da vez | sim | Regras 1 a 3 (cada um com as duas fileiras do seu lado, a verificar; primeiro lance da fileira de dentro) |
+| E5 Movimento | sim | Regras 3 (sentido horário, em várias voltas) |
+| E6 Fim e vitória | sim (a verificar) | Regras 5: acaba quando um jogador não pode mover; quem vence só no Ondjango Asili |
 | I1 Quem começa | não | — |
-| I2 Captura | não | a captura é citada na vitória, mas não descrita |
-| I3 Obrigação | não | — |
-| I4 Bloqueio | não | — |
+| I2 Captura | sim | Regras 4 |
+| I3 Obrigação | não se aplica | a captura acontece sozinha, quando a semeadura termina do jeito certo |
+| I4 Bloqueio | sim | Regras 5 (sem lance, a partida acaba) |
 | I5 Empate | não | — |
-| I6 Fases | não | — |
+| I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Ludii, *Muvalavala (Luena)*, a partir de Santos Silva 1995: 87):
 
-| Item | Lacuna | Tipo |
+- E4: as duas fileiras de cada um (inferido das "fileiras de dentro e de fora" do Ludii, por isso a verificar) e o primeiro lance da fileira de dentro.
+- E6 e I4: a partida acaba quando um jogador não pode mover.
+- I2: captura quando a última semente cai numa cova vazia da fileira de dentro, levando a cova do adversário em frente e a de trás dela.
+- Semeadura em várias voltas.
+
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E4 | Fileiras de cada jogador e covas de partida. | fonte |
-| E6 | Quando a partida acaba. | fonte |
-| I1–I6 | Quem começa, como se captura, obrigação, bloqueio, empate, fases. | fonte |
-| — | O `summary` cita duas formas no Ludii (Luena e Quioco); as Regras falam em Luena e Mbunda. Decidir que forma a ficha descreve. | curadoria |
+| E6 | Quem vence: "quem capturar mais sementes" só no Ondjango Asili, que não cita outra fonte além do Ludii; o Ludii não diz. | fonte |
+| I1, I5 | Quem começa, empate. | fonte |
+| — | Formas: o Ludii tem duas, Muvalavala (Luena), "sobretudo entre os Luena e os Mbunda" (Silva 1995: 87), e Muvalavala (Quioco) (Silva 1995: 83-85), com outra preparação, sentido anti-horário e outra captura. O `summary` cita Luena e Quioco; as Regras e o Ondjango, Luena e Mbunda. As Regras da ficha são da forma Luena; a forma Quioco entrou como nota. | curadoria |
 
-**Abrir primeiro (Etapa 2):** "Ludii: biblioteca"; Ondjango Asili; Santos Silva 1995, que a ficha manda comparar.
+**Pendências:** Santos Silva 1995 não foi aberto. Os materiais para baixar do Ondjango Asili ("Regras e Tabuleiro") não têm link acessível na página. Mancala World recusa o acesso automático (Cloudflare).
+
+**Fontes novas:** Ludii, *Muvalavala (Luena)* e *Muvalavala (Quioco)*.
 
 ### nard — Não joga
 
@@ -2705,37 +2739,39 @@ Status: documented · Família: territorio · "(a verificar)": 1 · "Como jogar?
 
 **Fontes novas:** Associação Chinesa de Weiqi, regras de 2002 (PDF publicado por Robert Jasiek). As regras de 1988, na versão de James Davies publicada pela CMU, dizem o mesmo sobre o ponto proibido e a contagem, com compensação de 2¾ pedras.
 
-### xadrez — Não joga
+### xadrez — Joga
 
 Status: documented · Família: xadrez-e-guerra · "(a verificar)": 1 · "Como jogar?": não
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | sim | `board`; `diagram` |
-| E2 Peças | parcial | `pieces`: 16 por jogador; Regras nomeiam os tipos, sem quantas de cada |
-| E3 Preparação | não | — |
-| E4 Ação da vez | sim | Regras |
-| E5 Movimento | sim, mas incompleto | Regras 1 a 3; o roque é "sob condições", sem dizer quais |
-| E6 Fim e vitória | sim | Regras 4 |
-| I1 Quem começa | não | — |
-| I2 Captura | parcial | Regras 2: só a do peão |
-| I3 Obrigação | não se aplica | — |
-| I4 Bloqueio | sim | Regras 4 (afogamento empata) |
-| I5 Empate | sim | Regras 4 |
+| E1 Tabuleiro | sim | `board`; `diagram`; Regras 6 |
+| E2 Peças | sim | Regras 5 |
+| E3 Preparação | sim | Regras 6 |
+| E4 Ação da vez | sim | Regras 1, 2, 7 e 8 |
+| E5 Movimento | sim | Regras 1 a 3, 10 e 11 |
+| E6 Fim e vitória | sim | Regras 4 e 9 |
+| I1 Quem começa | sim | Regras 7 (as brancas) |
+| I2 Captura | sim | Regras 8 e 10 |
+| I3 Obrigação | sim | Regras 9 (sair do xeque) |
+| I4 Bloqueio | sim | Regras 4 e 12 (afogamento empata) |
+| I5 Empate | sim | Regras 4 e 12 |
 | I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Leis do Xadrez da FIDE, em vigor desde 2023):
 
-| Item | Lacuna | Tipo |
-| --- | --- | --- |
-| E2, E3 | Composição e posição inicial. | fonte |
-| E5 | Condições do roque. | fonte |
-| I1 | Quem começa. | fonte |
-| I2 | Como as outras peças capturam. | fonte |
+- E2: composição das 16 peças (art. 2.2).
+- E3: casa branca à direita e posição inicial (art. 2.1; o art. 2.3 dá a posição num diagrama, descrito em palavras pela Wikipedia).
+- E5: condições do roque (art. 3.8.2), *en passant* e promoção (art. 3.7.3).
+- I1: as brancas começam (art. 1.2).
+- I2: como todas as peças capturam (art. 3.1) e que só o cavalo salta (art. 3.5; Wikipedia).
+- Acrescentados o xeque e o xeque-mate (arts. 1.4, 3.9 e 5.1.1) e os empates em detalhe (arts. 5.2 e 9), que não eram lacuna mas faltavam para jogar.
 
-**Erro na ficha:** as `refs` são históricas (Murray 1913, *Libro de los juegos*); nenhuma cobre as regras modernas (*en passant*, roque).
+**Segue em aberto:** nada do checklist.
 
-**Abrir primeiro (Etapa 2):** uma fonte das regras modernas (FIDE), a acrescentar às `refs`.
+**Erro corrigido:** as `refs` agora cobrem as regras modernas (FIDE e Wikipedia).
+
+**Fontes novas:** FIDE, *Laws of Chess* (2023); Wikipedia, *Rules of chess*.
 
 ### xiangqi — Não joga
 
@@ -2822,31 +2858,39 @@ Status: documented · Família: captura-posicional, damas · "(a verificar)": 1 
 
 **Abrir primeiro (Etapa 2):** "Ludii: evidência (Béart 1955)"; mindsports.nl (duas versões); boardandpieces (J. P. Neto).
 
-### yut-nori — Não joga
+### yut-nori — Joga com lacunas
 
 Status: documented · Família: corrida · "(a verificar)": 2 · "Como jogar?": não
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | não | `board`: "29 estações (a verificar)"; Regras 4 cita cantos, centro e atalho diagonal, sem a forma (sem desenho: T-055) |
-| E2 Peças | sim | `pieces` |
-| E3 Preparação | não | de onde as peças partem |
-| E4 Ação da vez | sim | Regras 1 e 2 |
-| E5 Movimento | parcial | Regras 4; não diz o sentido nem o caminho |
-| E6 Fim e vitória | sim | Regras 5 |
-| I1 Quem começa | não | — |
+| E1 Tabuleiro | sim | Regras 6 (Culin 1895: 66) (sem desenho: T-055) |
+| E2 Peças | sim | `pieces`; Regras 12 (1 ou 4 por jogador, como combinarem, em dois) |
+| E3 Preparação | sim | Regras 9 (as peças entram ao lado da marca do alto) |
+| E4 Ação da vez | sim | Regras 1, 2, 7 e 11 |
+| E5 Movimento | sim | Regras 9 e 10 |
+| E6 Fim e vitória | sim | Regras 5, 9 e 12 |
+| I1 Quem começa | sim | Regras 8 |
 | I2 Captura | sim | Regras 3 |
-| I3 Obrigação | não | o atalho e o empilhamento são opcionais? |
+| I3 Obrigação | sim | Regras 10 e 11 (empilhar e o atalho de baixo são opcionais) |
 | I4 Bloqueio | não se aplica | — |
 | I5 Empate | não | — |
 | I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Culin 1895, *Korean Games*, pp. 66-69, no archive.org; o Ludii resume o mesmo trecho):
 
-| Item | Lacuna | Tipo |
+- E1: 29 marcas, 20 em círculo e uma cruz de 9 dentro; as dos quatro quartos e a do centro são maiores; a do alto é a saída.
+- E3 e E5: entra-se ao lado da marca do alto e anda-se no sentido anti-horário; para sair, um a mais do que basta; os atalhos pelas marcas grandes.
+- I1: quem tira o lance mais alto começa.
+- I3: empilhar é opcional, e o atalho pela marca de baixo também ("pode").
+- Acrescentados: vareta em pé vale lado preto; dividir lances entre peças; número de peças por número de jogadores, e as duplas em quatro.
+
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E1 | Forma do tabuleiro de 29 estações. | fonte |
-| E3, E5 | Saída, sentido e caminho. | fonte |
-| I1, I3, I5 | Quem começa, opções obrigatórias ou não, empate. | fonte |
+| I5 | Empate. Culin não diz. | fonte |
+| — | Sensibilidade: Culin conta que o *nyout* era jogado a dinheiro nas cidades, e que pais e professores tiravam os blocos das crianças. O `sens` está "desconhecido". | — |
 
-**Abrir primeiro (Etapa 2):** "Ludii: biblioteca"; Culin, pela bibliografia de Avedon.
+**Fontes novas:** Culin 1895, *Korean Games* (archive.org); Ludii, *Nyout*.
+

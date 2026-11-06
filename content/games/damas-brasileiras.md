@@ -34,6 +34,10 @@ refs:
     url: https://portal.ifpe.edu.br/wp-content/uploads/repositoriolegado/vitoria/documentos/regulamento-especifico-jiif-2022.pdf
   - title: ALESP
     url: https://www.al.sp.gov.br/spl/2002/05/Processo/345307_01_0342_2002_0345307.doc
+  - title: "FMJD: Official Rules of the game in draughts-64"
+    url: https://www.fmjd.org/downloads/64cb/Official_Rules_of_the_game_in_64_classic_draughts.pdf
+  - title: "Wikipedia: Brazilian draughts"
+    url: https://en.wikipedia.org/wiki/Brazilian_draughts
 place: ""
 ---
 
@@ -49,3 +53,6 @@ Antes da unificação as regras no Brasil eram muito variadas. A Confederação 
 4. A dama anda e captura a distância nas diagonais.
 5. Uma pedra que passa pela casa de coroação no meio de uma captura sem parar nela não é promovida.
 6. Regras de empate limitam lances de dama sem captura.
+7. As brancas fazem o primeiro lance; depois os jogadores se alternam, um lance cada (FMJD, art. 3.3; Wikipedia).
+8. Vence quem deixar o adversário sem peças, ou com todas as peças bloqueadas na vez dele, sem lance possível. Também vence quem joga contra um adversário que desiste ou se recusa a seguir as regras (FMJD, art. 7.1; Wikipedia).
+9. Empate (FMJD, arts. 7.2 e 8): por acordo entre os dois; quando nenhum dos dois pode mais vencer; quando a mesma posição se repete três vezes, com o mesmo jogador na vez; depois de 15 lances seguidos só de damas, sem mover pedra e sem captura; quando três damas ou mais contra uma dama sozinha não a capturam em 15 lances. As regras da FMJD têm ainda contagens para finais com poucas peças (5 lances em certos finais de damas contra uma dama; 30 ou 60 lances sem mudar o número de peças, conforme o total de peças).

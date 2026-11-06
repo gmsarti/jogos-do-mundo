@@ -36,6 +36,8 @@ refs:
     url: https://ludii.games/details.php?keyword=Komikan
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Komikan
+  - title: "Mátus 1918-19: Juegos i ejercicios de los antiguos araucanos"
+    url: https://boletinmnhn.cl/index.php/ojs/article/download/786/822/1322
 place: ""
 ---
 
@@ -53,3 +55,10 @@ place: ""
 3. Os cães andam um passo para a frente e tentam cercar o leão.
 4. Só o leão captura, saltando um cão; saltos curtos múltiplos são permitidos.
 5. O que acontece no triângulo não está registrado nas fontes antigas. Fontes modernas (BGG) dizem que os cães também vencem ocupando todo o triângulo.
+6. Mátus (1918-19: 169) descreve as regras do *leoncito*, "o jogo que os meninos conhecem", e diz que é este o jogo que viu entre os indígenas do interior de Valdivia, que se recusaram a lhe dar detalhes. Por isso as regras abaixo vêm do jogo das crianças chilenas, não dos informantes mapuche.
+7. Uma pessoa joga com os cães, e a outra, com o leão (Mátus 1918-19: 169).
+8. Os cães são obrigados a sempre avançar e tentam cercar o leão formando duas fileiras. O leão pode avançar ou recuar, sempre e em qualquer sentido (Mátus 1918-19: 169). O Ludii, a partir de Mátus, diz que o leão anda uma casa por vez em qualquer direção.
+9. O leão come um cão sozinho, que não esteja protegido por outro, saltando por cima dele e ocupando o lugar livre. Se acha dois cães com um lugar livre entre eles, pode comer os dois (Mátus 1918-19: 169).
+10. Os cães vencem quando deixam o leão sem movimento (Mátus 1918-19: 169; Ludii).
+11. A posição inicial e o triângulo só aparecem em figura: Mátus 1918-19, fig. 51, reproduzida por Depaulis (1998, fig. 13). O texto não descreve as ligações do triângulo nem os pontos ocupados no começo.
+12. Nota (fonte moderna, sem registro antigo): o Ludii diz que o leão vence capturando todos os cães. Mátus, que o Ludii cita, não diz como o leão vence.
