@@ -28,7 +28,7 @@ ev:
   date: ""
   ref: ""
 recon: []
-summary: "Jogo de semeadura dos iorubás da Nigéria, em 2×6 cavidades, com semeadura em várias voltas. Nome completo em iorubá: *Ayò Ọlọ́pọ́n*."
+summary: "Jogo de semeadura dos iorubás, na Nigéria e no Benin; em iorubá, o nome completo é *Ayò Ọlọ́pọ́n*. As sementes dão várias voltas: quando a última cai numa cavidade com sementes, você pega todas e continua semeando."
 refs:
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Ayoayo
@@ -38,6 +38,30 @@ refs:
     url: https://johnpratt.com/items/mancala/index.html
 place: ""
 ---
+
+## Do que você vai precisar?
+
+- Um tabuleiro com 2 fileiras de 6 cavidades e um depósito em cada ponta
+- 48 sementes
+
+As cavidades podem ser covinhas no chão, potinhos ou os buracos de uma caixa de ovos. As sementes podem ser feijões, pedrinhas, botões e por aí vai.
+
+## Como jogar?
+
+1. Ponha 4 sementes em cada uma das 12 cavidades. Cada jogador fica com as 6 cavidades da fileira do seu lado; os depósitos começam vazios e guardam as sementes que cada um captura.
+2. Para decidir quem começa, um jogador esconde uma semente numa das mãos e o outro tenta adivinhar qual. Quem acertar começa (a verificar).
+3. Na sua vez, pegue todas as sementes de uma cavidade sua que não esteja vazia e semeie: ponha uma em cada cavidade seguinte, no sentido anti-horário, sem pôr nos depósitos.
+4. Se a última semente cair numa cavidade que já tinha sementes, de qualquer lado, pegue todas dali e continue semeando. A sua vez acaba quando a última semente cair numa cavidade vazia.
+5. Se essa cavidade vazia for do seu lado, capture as sementes da cavidade do adversário que fica bem em frente.
+6. Se o adversário estiver sem nenhuma semente, você é obrigado a fazer uma jogada que leve sementes para o lado dele, se houver uma.
+   - Se nenhuma jogada levar, você captura todas as sementes que ainda estão do seu lado (a verificar).
+   - Não precisa levar se a sua jogada capturar as últimas sementes dele; aí você captura também as suas (a verificar).
+   - Se você podia levar sementes e não levou, o adversário fica com todas as que restam do seu lado (a verificar).
+7. A partida acaba quando um jogador, na sua vez, não pode jogar (a verificar). Vence quem tiver capturado mais sementes; em torneios, 25 ou mais.
+
+## Para quem conduz
+
+**Sugestão do site:** antes da primeira partida, faça uma jogada de exemplo devagar, contando as sementes em voz alta. As várias voltas da semeadura são a parte que mais confunde quem está começando.
 
 ## Regras
 

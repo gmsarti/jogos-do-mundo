@@ -24,7 +24,7 @@ ev:
   date: início do séc. XX
   ref: Ludii
 recon: []
-summary: Jogo de semeadura da Ásia Central, em 2 fileiras de 9 cavidades com 9 bolas cada. É jogado em torneios nacionais e internacionais.
+summary: "Jogo de semeadura dos cazaques e dos quirguizes, na Ásia Central, jogado até hoje em torneios. O nome quer dizer \"nove bolinhas\": são 2 fileiras de 9 cavidades, com 9 bolas em cada uma."
 refs:
   - title: Ludii
     url: https://ludii.games/details.php?keyword=Toguz+Kumalak
@@ -38,6 +38,30 @@ place: ""
 ## História
 
 O nome significa "nove bolinhas" em cazaque e "nove bolinhas de esterco" em quirguiz; o número nove tem forte valor nas crenças da região (Mancala World). No início do séc. XX, no Quirguistão, era jogado sobretudo por pessoas mais velhas, no verão, nas montanhas, em tabuleiros de madeira ou covas no chão (Ludii).
+
+## Do que você vai precisar?
+
+- Um tabuleiro com 2 fileiras de 9 cavidades e 2 depósitos, os *kazan*, um para cada jogador
+- 162 bolas
+
+Dá para cavar as cavidades no chão, como no registro do início do séc. XX no Quirguistão, ou usar potinhos. As bolas podem ser feijões, pedrinhas, botões e por aí vai.
+
+## Como jogar?
+
+1. Ponha 9 bolas em cada uma das 18 cavidades. Cada jogador fica com a fileira do seu lado e com um kazan, que começa vazio e guarda as bolas que ele captura.
+2. Os lados do tabuleiro são chamados de branco e preto, e quem senta do lado branco começa (a verificar).
+3. Na sua vez, pegue todas as bolas de uma cavidade sua e semeie no sentido anti-horário, uma bola em cada cavidade, começando pela própria cavidade de onde as tirou.
+   - Se ela tinha uma bola só, essa bola vai para a cavidade seguinte.
+4. Se a última bola cair numa cavidade do adversário e deixar nela um número par de bolas, capture todas para o seu kazan.
+5. Se a última bola deixar exatamente 3 bolas numa cavidade do adversário, você pode transformá-la no seu *tuzdyk*: daí em diante, tudo o que cair nela é seu.
+   - Cada jogador só pode ter um tuzdyk por partida.
+   - Não vale na 9ª cavidade da fileira do adversário, nem na cavidade simétrica à do tuzdyk dele.
+6. A partida acaba quando um jogador não tem como jogar. As bolas que ainda estão nas cavidades ficam para o jogador de cujo lado elas estão (a verificar).
+7. Vence quem tiver mais de 81 bolas. Com 81 para cada um, é empate.
+
+## Para quem conduz
+
+**Sugestão do site:** na primeira partida, joguem sem o *tuzdyk*. Quando a semeadura e a captura estiverem claras, acrescentem essa regra.
 
 ## Regras
 

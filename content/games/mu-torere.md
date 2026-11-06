@@ -23,7 +23,7 @@ ev:
   date: "1912"
   ref: Best 1917; Murray 1952
 recon: []
-summary: Jogo de bloqueio dos Māori de Aotearoa (Nova Zelândia), num tabuleiro em estrela de oito pontas com um centro.
+summary: "Jogo de bloqueio dos Māori de Aotearoa (Nova Zelândia), registrado no início do séc. XX. O tabuleiro é uma estrela de oito pontas com um centro, e cada jogador tenta deixar o outro sem ter para onde andar."
 refs:
   - title: Ludii
     url: https://ludii.games/details.php?keyword=Mu+Torere
@@ -37,6 +37,28 @@ place: ""
 ## História
 
 Registrado por Elsdon Best no início do séc. XX (o Ludii data a evidência de 1912). A idade do jogo é desconhecida. A etnomatemática Marcia Ascher (1987) mostrou que transcrições do jogo omitiram uma regra de abertura, sem a qual o primeiro jogador vence em poucos lances.
+
+## Do que você vai precisar?
+
+- Um tabuleiro em forma de estrela de 8 pontas, com um centro. As pontas são as *kewai*, e o centro é o *pūtahi*. Cada ponta é vizinha das duas pontas do lado e do centro
+- 4 peças para cada jogador, de cores diferentes
+
+O tabuleiro pode ser impresso, desenhado no papel ou riscado no chão. As peças podem ser feijões, tampinhas, botões, pedrinhas e por aí vai.
+
+## Como jogar?
+
+1. Cada jogador põe as suas 4 peças em quatro pontas vizinhas, uma ao lado da outra. O centro começa vazio.
+2. Na sua vez, mova uma peça sua para um ponto vizinho vazio: a ponta do lado ou o centro.
+3. Para ir de uma ponta para o centro, a peça precisa estar ao lado de uma peça do adversário.
+4. Do centro, a peça pode ir para qualquer ponta que esteja vazia.
+5. Não dá para pular por cima de outra peça, e ninguém captura: o jogo é só bloquear.
+6. Perde quem, na sua vez, não puder mover nenhuma peça.
+
+## Para quem conduz
+
+As fontes não concordam sobre a regra do passo 3: ela vale a partida toda ou só nos primeiros lances? Sem ela, o primeiro jogador vence em poucos lances. Combinem antes de começar.
+
+**Sugestão do site:** as fontes desta ficha não dizem quem começa. Tirem na sorte ou combinem antes da partida.
 
 ## Regras
 

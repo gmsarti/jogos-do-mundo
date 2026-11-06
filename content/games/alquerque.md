@@ -30,7 +30,7 @@ ev:
   date: "1283"
   ref: Afonso X, Libro de los juegos
 recon: []
-summary: Jogo de captura por salto do mundo árabe e ibérico, num tabuleiro de 5×5 pontos ligados por ortogonais e diagonais. Seu tabuleiro é a base de muitos jogos de caça, como Adugo / jogo da onça, Bagh-chal e Komikan.
+summary: "Jogo de captura do mundo árabe e ibérico: o nome vem do árabe *al-qirkat*, e as regras aparecem no livro de jogos de Afonso X, de 1283. As peças pulam por cima das do adversário, num tabuleiro de 5×5 pontos, e o jogo ainda é jogado em Monsaraz e Montemor-o-Novo, em Portugal."
 refs:
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Alquerque
@@ -48,6 +48,30 @@ place: ""
 ## História
 
 O nome vem do árabe *al-qirkat*. As regras aparecem no *Libro de los juegos* de Afonso X (1283). A Wikipedia afirma, sem fonte, que é ancestral das damas e do Fanorona.
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 25 pontos, em 5 fileiras de 5, ligados por linhas na horizontal, na vertical e por diagonais, como no desenho
+- 12 peças para cada jogador, de cores diferentes
+
+O tabuleiro pode ser impresso, desenhado no papel ou riscado no chão. As peças podem ser feijões, tampinhas, botões, pedrinhas e por aí vai.
+
+## Como jogar?
+
+1. Cada jogador põe as suas 12 peças do seu lado do tabuleiro: nas duas fileiras mais perto de você e nos dois pontos da direita da fileira do meio (a verificar). Só o ponto do centro fica vazio.
+2. Tirem nos dados quem começa. Começar é uma desvantagem: quem começa é obrigado a jogar no ponto do centro, e o outro responde capturando.
+3. Na sua vez, mova uma peça sua pela linha até um ponto vizinho que esteja vazio.
+4. Para capturar, pule por cima de uma peça do adversário que esteja colada na sua, pela linha, e caia no ponto vazio logo atrás. A peça pulada sai do tabuleiro.
+   - Se, depois de pular, der para pular de novo, continue: dá para capturar várias peças na mesma vez.
+5. Vence quem capturar todas as peças do adversário ou deixá-lo sem nenhuma peça que possa andar.
+6. Se os dois souberem jogar bem, a partida pode terminar empatada.
+
+## Para quem conduz
+
+As fontes não concordam em dois pontos, e vale combinar antes da partida:
+
+- **A peça pode andar para trás?** Afonso X (1283) e Covarrubias (1674) só dizem que as peças andam pelas linhas. A proibição de andar para trás é uma das regras que R. C. Bell acrescentou em 1979, por achar as de Afonso X insuficientes para jogar.
+- **Capturar é obrigatório?** Para Covarrubias (1674), quem podia capturar e não capturava perdia a peça, que o adversário "soprava". Outras fontes dizem só que capturar é obrigatório.
 
 ## Regras
 
