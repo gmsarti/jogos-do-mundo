@@ -42,3 +42,5 @@ Há e-sugoroku budistas desde pelo menos o séc. XV; o jogo se popularizou no s�
 ## Regras
 
 Variam por tabuleiro: os jogadores lançam um dado e avançam pelas casas ilustradas até a meta, com casas que mandam avançar, voltar ou perder a vez.
+
+Cada jogador põe o seu marcador na casa da largada (*furidashi*) e avança conforme o dado, em direção à meta (*agari*) (Harvard-Yenching). Há dois tipos de tabuleiro. No *mawari sugoroku*, a forma original, os jogadores lançam o dado e dão a volta no percurso, e vence quem chega primeiro; mais tarde surgiram casas de castigo, como "perde uma vez". No *tobi sugoroku*, cada casa traz escrita uma instrução que diz para que casa ir conforme o número tirado (Biblioteca Nacional da Dieta).

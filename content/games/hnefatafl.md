@@ -29,6 +29,10 @@ summary: "O mais conhecido dos jogos tafl da Escandinávia medieval: um rei e se
 refs:
   - title: "Wikipedia: Tafl games"
     url: https://en.wikipedia.org/wiki/Tafl_games
+  - title: "Aage Nielsen: regras de Copenhagen (hnefatafl 11×11)"
+    url: http://aagenielsen.dk/copenhagen_rules.php
+  - title: "Aage Nielsen: regras de Fetlar (hnefatafl 11×11)"
+    url: http://aagenielsen.dk/fetlar_rules_en.php
 place: ""
 ---
 
@@ -39,3 +43,21 @@ place: ""
 ## Regras
 
 Movimento como a torre do xadrez; captura por cerco entre duas peças; o rei vence ao chegar a um canto (na maioria das reconstruções em tabuleiro 11×11) e perde se cercado pelos quatro lados. Conjuntos de regras modernos (como os de Copenhagen e Fetlar) são obras de autor.
+
+As regras que as fontes dão abaixo são de dois conjuntos modernos, ambos em tabuleiro de 11×11: o de **Fetlar**, definido em 2007 pelo Fetlar Hnefatafl Panel, no Reino Unido, e o de **Copenhagen**, definido em 2012 por Aage Nielsen (Dinamarca), Adam Bartley (Noruega) e Tim Millar (Reino Unido). A Wikipedia lembra que as regras antigas nunca foram registradas e que o jogo pode ter sido jogado em 13×13 ou em 11×11. O que vale nos dois conjuntos:
+
+1. Um jogador fica com o rei e os defensores; o outro, com os atacantes, que são o dobro dos defensores (Copenhagen e Fetlar, regra 1).
+2. Posição inicial, descrita a partir da figura das regras de Copenhagen, que as de Fetlar repetem: o rei fica na casa do centro. Os 12 defensores formam um losango em volta dele: um em cada uma das quatro casas vizinhas na horizontal e na vertical, um em cada uma das quatro vizinhas na diagonal e um em cada uma das quatro casas a duas de distância, na horizontal e na vertical. Os 24 atacantes ficam em quatro grupos de 6, um no meio de cada borda: 5 nas cinco casas do meio da borda e o sexto na casa logo à frente da do meio.
+3. Os atacantes começam, e os jogadores se alternam (regra 2).
+4. Todas as peças andam em linha reta, na horizontal ou na vertical, quantas casas vazias quiserem, sem pular peças (regra 3).
+5. Uma peça (menos o rei) é capturada quando fica presa entre duas peças inimigas, uma de cada lado, na mesma linha ou na mesma coluna, e não na diagonal. Só captura quem fecha a armadilha com o seu lance: uma peça pode entrar por conta própria entre duas inimigas sem ser capturada. O rei também ajuda a capturar (regra 4).
+6. A casa do centro (o trono) e as quatro casas dos cantos são casas restritas: só o rei para nelas. O rei pode voltar ao trono, e qualquer peça pode passar pelo trono vazio. As casas restritas são hostis, isto é, contam como uma das duas peças de uma captura: o trono é sempre hostil aos atacantes, e aos defensores só quando está vazio; os cantos são hostis a todos. A borda do tabuleiro não é hostil (regra 5).
+7. Os defensores vencem se o rei chegar a um dos cantos (regra 6).
+8. Os atacantes vencem se capturarem o rei. Ele é capturado quando fica cercado pelos quatro lados por atacantes; se estiver numa casa vizinha ao trono, bastam os atacantes nos três lados que sobram (regra 7a). Os atacantes também vencem se cercarem o rei e todos os defensores que restam com um anel fechado (regra 7b).
+9. Quem não pode mover perde (Copenhagen, regra 9; Fetlar, regra 8). Se não houver como terminar a partida, por exemplo porque os dois lados têm poucas peças, é empate (Copenhagen, regra 10; Fetlar, regra 9).
+
+Onde os dois conjuntos diferem:
+
+10. Rei na borda: em Copenhagen, o rei nunca é capturado na borda; em Fetlar, só é capturado na borda se for a última peça do seu lado e estiver cercado (regra 7a).
+11. Repetição: em Copenhagen, a repetição sem fim é proibida, e toda repetição sem fim dá a derrota aos defensores (regra 8); em Fetlar, a repetição leva ao empate (regra 9).
+12. Só em Copenhagen: a **muralha de escudos**, em que uma fila de duas ou mais peças encostada na borda, cada uma com uma peça inimiga logo à frente, é capturada de uma vez quando as duas pontas da fila são fechadas (um canto pode fechar uma das pontas; o rei, se estiver na fila, não é capturado) (regra 4b); e o **forte de saída**, em que os defensores também vencem se o rei tocar a borda, puder se mover e os atacantes não tiverem como romper o forte em volta dele (regra 6b).
