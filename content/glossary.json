@@ -12,7 +12,7 @@
   "captura-por-salto": {
     "termo": "captura por salto",
     "def": "Sua peça está ao lado de uma peça do adversário, pula por cima dela e cai na casa ou no ponto vazio logo depois. A peça pulada sai do tabuleiro.",
-    "variantes": ["pular por cima"]
+    "variantes": ["pular por cima", "pule por cima"]
   },
   "captura-multipla": {
     "termo": "captura múltipla",

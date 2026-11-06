@@ -185,9 +185,10 @@ Origem: feedbacks de Aggeu (educador) e Alexandre Nacari (jogador), 03/11/2026, 
 - [ ] **T-073** Referências em português primeiro: campo opcional `lang` em cada `ref`; a ficha ordena pt primeiro e marca as outras ("em inglês")
   - Conteúdo: script em `scripts/once/` que busca o artigo da Wikipedia em português pelos links entre idiomas; cada link novo é aberto e conferido antes de entrar
   - Testes: ordem pt primeiro; rótulo do idioma a partir de `languages.json`
-- [ ] **T-074** Reescrita didática em lotes, com a skill `escrever-jogo`: um PR de conteúdo por lote de 8 a 10 jogos, na ordem do T-068
+- [~] **T-074** Reescrita didática em lotes, com a skill `escrever-jogo`: um PR de conteúdo por lote de 8 a 10 jogos, na ordem do T-068
   - Lote 1 (também estão na oficina): achi, shisima, yote, seega, fanorona, fanorona-telo, morabaraba, gulugufe
   - Divergências entre oficina e catálogo viram issues de curadoria (já conhecidas: Achi e Seega)
+  - Lote 1 feito (Achi no T-067; os outros 7 aqui), antes do T-068 e da leitura do piloto: o lote já estava definido. Vereditos: joga com lacunas em 6; **Gulugufe não joga** (a ficha não diz como os 19 pontos se ligam), e por isso só ganhou o resumo novo. Lacuna mais comum: quem começa (todos os 7), dita em "Para quem conduz" como "**Sugestão do site:**" (tirar na sorte ou combinar). Saíram dos resumos duas afirmações de parentesco ("derivado da família do Alquerque (a verificar)" no Fanorona e "da família do moinho" no Morabaraba). Divergência a conferir: as diagonais do Morabaraba vão até o quadrado de dentro no desenho, mas a Regra 1 fala só dos dois de fora. O glossário ganhou a variante "pule por cima" (*captura por salto*). O relatório de lacunas de cada jogo está no PR
 - [ ] **T-075** Mecânicas: decidir se entra um campo `mechanics` com lista fechada (`content/mechanics.json`), separado da família; se sim, abrir as tarefas de schema e de ficha
   - Aceite: decisão registrada no PRD § 12
 - [ ] **T-076** Tabuleiros por formato: agrupar os jogos que usam o mesmo `diagram` (do T-052), com a lista "serve para" como no fim da oficina ("tabuleiro 3×3 com diagonais — serve para: Achi, …"), no painel do jogo e no kit de impressão
