@@ -36,3 +36,11 @@ place: ""
 ## Regras
 
 O jogador das 12 galinhas tenta encurralar a raposa num ponto de onde ela não possa sair; a raposa elimina galinhas saltando por cima delas.
+
+Fernandes e Alberto (2009: 25–26) viram o jogo em Montemor-o-Novo e o apresentam como "um outro modo de jogar" o alquerque dos doze que descrevem logo antes: "parte do mesmo objectivo", capturar as peças do adversário, "num tabuleiro com as mesmas características", com a particularidade de um jogador ter 12 peças e o outro uma só. Para esse alquerque, o mesmo texto registra (a verificar se vale para a raposa e as galinhas, porque o texto não o diz):
+
+- as peças andam pelas linhas para um ponto vizinho livre, em qualquer das oito direções;
+- se o ponto vizinho tem uma peça adversária e o ponto logo depois, na mesma direção, está livre, a peça salta por cima dela e a captura;
+- capturar é sempre obrigatório, e pode-se capturar mais de uma peça na mesma jogada.
+
+O texto não diz como as peças começam no tabuleiro, quem começa nem como a raposa vence.
