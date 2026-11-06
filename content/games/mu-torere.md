@@ -27,6 +27,10 @@ summary: Jogo de bloqueio dos Māori de Aotearoa (Nova Zelândia), num tabuleiro
 refs:
   - title: Ludii
     url: https://ludii.games/details.php?keyword=Mu+Torere
+  - title: Wikipedia
+    url: https://en.wikipedia.org/wiki/M%C5%AB_t%C5%8Drere
+  - title: "Browne 2020: Modern Techniques for Ancient Games (arXiv)"
+    url: https://arxiv.org/abs/2101.10066
 place: ""
 ---
 
@@ -40,3 +44,10 @@ Registrado por Elsdon Best no início do séc. XX (o Ludii data a evidência de 
 2. Na vez, move-se uma peça para um ponto vazio adjacente: a *kewai* vizinha ou o *pūtahi*.
 3. Uma peça só pode ir de uma *kewai* para o *pūtahi* se estiver ao lado de uma peça adversária (regra registrada por Ascher; ver divergências).
 4. Perde quem não puder mover.
+5. Não se pula por cima de peça, e não há captura: o jogo é só bloquear o adversário (Best 1925: 60–61, pelo Ludii).
+6. Divergências sobre a Regra 3:
+   - Best (1925: 60–61, pelo Ludii), a partir do relato de um homem dos Ngāti Porou, mostra só a abertura: as duas peças do meio do grupo de quem abre são *tapu* (proibidas) "por enquanto", e ele pode levar ao *pūtahi* uma das duas das pontas.
+   - No conjunto de regras que o Ludii tira de Best (1917: 15) e Murray (1951: 93), não há restrição para ir ao *pūtahi*, só a de que o primeiro lance deixe o segundo jogador mover.
+   - O Ludii propõe, a partir de Best (1925), que a restrição da Regra 3 valha nas duas primeiras jogadas, e diz que ela foi mal entendida na descrição de Best.
+   - A restrição durante toda a partida está no conjunto de regras que o Ludii atribui a Jellis (1973) e na Wikipedia, que não cita fonte (a verificar).
+   - Ascher (1987) não foi lida: Browne (2020) resume que, segundo ela, ao menos duas transcrições omitiram uma regra de abertura aparentemente trivial, sem a qual um dos jogadores vence logo no primeiro lance.

@@ -38,6 +38,10 @@ refs:
     url: https://commons.wikimedia.org/wiki/Category:Libro_de_los_juegos
   - title: Fernandes e Alberto 2009 (Açafa)
     url: https://www.altotejo.org/acafa/docsn2/jogos_gravados_em_pedra_do_distrito_de_castelo_branco.pdf
+  - title: Alfonso X's Book of Games (tradução de Sonja Musser Golladay)
+    url: https://jnsilva.ludicum.org/HJT2012/BookofGames.pdf
+  - title: "Ludii: Alquerque"
+    url: https://ludii.games/details.php?keyword=Alquerque
 place: ""
 ---
 
@@ -51,3 +55,8 @@ O nome vem do árabe *al-qirkat*. As regras aparecem no *Libro de los juegos* de
 2. Move-se uma peça para um ponto vizinho vazio ao longo das linhas (em muitas leituras, só para a frente ou para os lados).
 3. Captura saltando sobre peça adversária adjacente para ponto vazio; saltos em cadeia; captura obrigatória com penalidade de sopro em algumas leituras.
 4. Vence quem capturar ou bloquear todas as peças adversárias.
+5. Quem começa é tirado nos dados. Começar é desvantagem, porque o primeiro é obrigado a jogar no ponto vazio do centro, e o outro responde capturando (Afonso X 1283, tradução de Golladay).
+6. Perde quem perder as peças mais depressa; se os dois souberem jogar, a partida pode empatar (Afonso X 1283, tradução de Golladay).
+7. Captura obrigatória: quem pode capturar e não captura perde a peça, que o adversário "sopra" (Covarrubias 1674: 41, pelo Ludii). Murray 1951: 65 (pelo Ludii) também a dá como obrigatória, sem falar de sopro. A Wikipedia dá a captura e a cadeia de saltos como obrigatórias, com sopro, sem citar fonte (a verificar), e Fernandes e Alberto (2009) dão a captura como obrigatória, sem sopro (a verificar).
+8. Direção do movimento, nota de divergência: Afonso X e Covarrubias (1674) só dizem que as peças andam e saltam pelas linhas. Fernandes e Alberto (2009) dizem que andam em qualquer das oito direções (a verificar), e a Wikipedia, sem fonte, que vão a qualquer ponto vizinho ligado por linha (a verificar). A proibição de andar para trás é uma das regras que R. C. Bell acrescentou por achar as de Afonso X insuficientes para jogar, junto com não voltar a um ponto já ocupado, a peça que chega à última fileira do adversário só se mover para capturar e vencer também por bloqueio (Wikipedia, a partir de Bell 1979).
+9. Cada jogador põe as suas 12 peças de um lado do tabuleiro (Afonso X 1283, tradução de Golladay): nas duas fileiras mais próximas dele e nos dois pontos da direita da fileira do meio (Wikipedia, sem fonte, a verificar).

@@ -30,6 +30,8 @@ refs:
     url: https://ludii.games/details.php?keyword=Toguz+Kumalak
   - title: Mancala World
     url: https://mancala.fandom.com/wiki/Toguz_Kumalak
+  - title: "Wikipedia: Toguz korgool"
+    url: https://en.wikipedia.org/wiki/Toguz_korgool
 place: ""
 ---
 
@@ -44,3 +46,5 @@ O nome significa "nove bolinhas" em cazaque e "nove bolinhas de esterco" em quir
 3. Se a última bola cai numa cavidade adversária e deixa nela um número par de bolas, o jogador as captura para o seu kazan.
 4. Se a última bola deixa exatamente 3 numa cavidade adversária, ela pode virar *tuzdyk*: passa a ser do jogador e tudo o que cair nela é dele. Um tuzdyk por jogador por partida, nunca na 9ª cavidade, nem na posição simétrica ao tuzdyk do adversário.
 5. Vence quem passar de 81 bolas; 81 a 81 é empate. O jogo também acaba quando um jogador não tem lances.
+6. Os lados do tabuleiro são chamados de preto e branco, e quem senta do lado branco começa (Wikipedia, a verificar).
+7. Quando o jogo acaba porque um jogador não tem lances, as bolas que ainda não estão num kazan nem num tuzdyk ficam para o jogador de cujo lado elas estão (Wikipedia, a verificar). O Ludii dá a mesma regra (o outro jogador fica com as bolas que restam) e cita Pantusov (1906), mas o trecho de Pantusov que ele transcreve não fala do fim do jogo.
