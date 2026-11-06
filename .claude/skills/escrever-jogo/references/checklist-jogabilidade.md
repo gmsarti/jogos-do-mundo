@@ -48,13 +48,26 @@ Status: documented
 | I1 Quem começa | não | — |
 
 **Lacunas:**
-- I1: a ficha não diz quem começa.
+
+| Item | Lacuna | Tipo |
+| --- | --- | --- |
+| I1 | A ficha não diz quem começa. | fonte |
 
 **Divergências conhecidas:**
 - Oficina: jogador travado empata. Ficha: perde (Wikipedia).
+
+**Abrir primeiro (Etapa 2):** Ludii; Wikipedia.
 ```
 
-Para a auditoria do catálogo inteiro, comece o relatório com uma tabela-resumo (id, status, veredito, número de lacunas), ordenada do veredito pior para o melhor.
+### Tipo da lacuna
+
+| Tipo | Quando |
+| --- | --- |
+| **fonte** | A resposta pode estar nas `refs` da ficha ou em fontes comuns (Wikipedia, Ludii, fontes primárias em domínio público) |
+| **curadoria** | Precisa de decisão humana: divergência entre fontes, entre a ficha e o desenho, ou com a oficina |
+| **sem saída** | Status `unknown` ou jogo sem registro de regras: não há fonte a procurar |
+
+Para a auditoria do catálogo inteiro, comece o relatório com uma tabela-resumo (id, status, veredito, número de lacunas, quantas são do tipo "fonte", número de trechos "(a verificar)" e se já tem "Como jogar?"), ordenada do veredito pior para o melhor.
 
 ## Lembretes
 
