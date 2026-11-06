@@ -44,3 +44,16 @@ place: ""
 ## Regras
 
 2×6 covas, quatro sementes por cova, captura como no oware, com diferenças locais a documentar.
+
+As regras abaixo são as de Marie Kinsella (*Warri, the most ancient of games from Antigua & Barbuda*, publicado em *The Citizen*), reproduzidas pelo BajanThings, que as apresenta como regras do warri de Barbados.
+
+1. Dois jogadores, frente a frente, com um tabuleiro de 2 fileiras de 6 covas, as "casas". Cada jogador fica com as 6 casas do seu lado (BajanThings, a partir de Kinsella).
+2. São 48 sementes, 4 em cada uma das 12 casas (BajanThings, a partir de Kinsella).
+3. Depois que se decide quem abre a partida, os jogadores se alternam (BajanThings, a partir de Kinsella). A fonte não diz como se decide.
+4. Na sua vez, o jogador tira todas as sementes de uma casa do seu lado e as semeia uma a uma nas casas seguintes, para a direita, sem pular nenhuma; ao chegar à última casa do seu lado, continua pelo lado do adversário, no sentido anti-horário (BajanThings, a partir de Kinsella).
+5. Se a casa tem mais de 11 sementes, a semeadura dá a volta inteira e começa uma segunda volta, pulando a casa de onde saiu; essa casa sempre termina vazia (BajanThings, a partir de Kinsella).
+6. Captura: uma casa com 1 ou 2 sementes é "vulnerável". Se a última semente cai numa casa vulnerável do adversário, o jogador captura o que ela tinha mais a semente que acabou de cair: 2 ou 3 sementes. Captura também as casas vulneráveis logo antes dela, numa sequência sem interrupção. Só se captura do lado do adversário (BajanThings, a partir de Kinsella). Para essas casas anteriores, a fonte não diz se as sementes se contam antes ou depois da semeadura (a verificar).
+7. Se, na vez de um jogador, o lado dele está sem nenhuma semente, o outro jogador perde para ele todas as sementes que restam no tabuleiro (BajanThings, a partir de Kinsella).
+8. Se sobram 3 ou 4 sementes circulando sem fim, os jogadores combinam de parar e contam as capturas; vence quem tiver mais (BajanThings, a partir de Kinsella).
+9. Vence quem capturar 25 sementes ou mais. Com 24 para cada um, é empate. Num torneio, é campeão quem vencer seis partidas primeiro (BajanThings, a partir de Kinsella).
+10. Nota de divergência sobre o adversário sem sementes: o Mancala World diz que a única diferença do warri de Antígua em relação ao oware é que, se o jogador esvazia o lado do adversário com uma captura, tem de jogar de novo para lhe dar sementes, se puder. Kinsella (pelo BajanThings) dá a regra 7.

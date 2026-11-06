@@ -39,9 +39,35 @@ refs:
     url: https://healthy.uwaterloo.ca/museum/Archives/Culin/Dice1893/europe.html
   - title: Britannica
     url: https://britannica.com/topic/domino-game-piece
+  - title: "pagat.com: Block Dominoes"
+    url: https://www.pagat.com/domino/line/block.html
+  - title: "pagat.com: Partnership Dominoes"
+    url: https://www.pagat.com/domino/line/partnership.html
 place: ""
 ---
 
 ## História
 
 A Wikipedia diz que o dominó moderno aparece na Itália no séc. XVIII e se espalha para a Áustria, o sul da Alemanha e a França; não há ligação confirmada com o dominó chinês. Michael Dummett situa a chegada em Veneza e Nápoles (citado pelo pagat.com). Stewart Culin (1893), citando o léxico Brockhaus, diz que o jogo entrou na Alemanha pela França, vindo da Itália, por volta de meados do séc. XVIII. A Britannica registra que chegou à Inglaterra no fim do séc. XVIII, trazido por prisioneiros franceses.
+
+## Regras
+
+**Nota de curadoria:** com as 28 peças existem vários jogos. As fontes abaixo descrevem dois candidatos, registrados lado a lado até a curadoria escolher qual a ficha ensina. Nos dois, as peças jogadas formam uma linha, e as pontas que se tocam têm o mesmo número.
+
+**Dominó de bloqueio** (pagat.com, Joe Celko e John McLeod; a Wikipedia descreve o mesmo jogo como o mais simples dos jogos de bloqueio):
+
+1. Usa o jogo de 28 peças (duplo seis). Com 2 jogadores, cada um recebe 7 peças; com 3 ou 4, 5 peças cada. As que sobram ficam fora da rodada (pagat.com).
+2. Os jogadores tiram peças para ver quem começa (pagat.com). Uma variação é começar com o duplo mais alto.
+3. Na sua vez, o jogador põe uma peça numa das duas pontas da linha. Os duplos são postos atravessados, mas não abrem novas pontas. Quem não pode jogar passa (pagat.com).
+4. A rodada acaba quando um jogador põe a última peça ou quando ninguém pode jogar (pagat.com).
+5. Cada jogador soma os pontos das peças que ficaram na mão. Quem tiver menos vence a rodada e ganha a soma dos outros, menos a sua. Se houver empate na menor soma, ninguém pontua (pagat.com).
+6. A partida vai até 100 pontos com 2 jogadores ou em duplas, e até 61 com 3 ou 4 jogadores individuais. A saída da rodada seguinte passa para a esquerda de quem começou (pagat.com).
+
+**Dominó em duplas, de Espanha e da América Latina** (pagat.com, John McLeod; a Wikipedia o chama de versão espanhola e latino-americana do jogo de bloqueio):
+
+1. Quatro jogadores, em duas duplas fixas; os parceiros sentam frente a frente. Usa o jogo de 28 peças, e cada jogador recebe 7: todas as peças são distribuídas. O jogo corre, em geral, no sentido anti-horário (pagat.com).
+2. Na primeira rodada, começa quem tem o duplo seis, jogando essa peça. Nas seguintes, a saída passa para a direita, e quem sai pode começar com qualquer peça (pagat.com).
+3. Na sua vez, o jogador põe uma peça numa das pontas; os duplos ficam atravessados. Quem pode jogar é obrigado a jogar; quem não pode passa, em geral batendo na mesa com uma peça (pagat.com).
+4. A rodada acaba quando um jogador põe a última peça ou quando os quatro passam seguidos (pagat.com).
+5. Vence a rodada a dupla de quem bateu. Se o jogo trancou, vence a dupla com menos pontos nas peças que sobraram; se as somas forem iguais, a rodada empata (pagat.com).
+6. A dupla vencedora marca a soma das peças da dupla perdedora. Vence a partida a dupla que chegar primeiro a 100 pontos (pagat.com). O pagat.com lista muitas variações regionais, como jogar até 200 pontos, quem começa as rodadas seguintes e o que fazer com o empate no jogo trancado.
