@@ -192,6 +192,21 @@ describe("gameView", () => {
     }
   });
 
+  test("lists Portuguese references first and names the other languages", () => {
+    const refs = [
+      { title: "Wiki en", url: "https://en.example.org", lang: "en" },
+      { title: "Wiki pt", url: "https://pt.example.org", lang: "pt" },
+    ];
+    const named = {
+      ...catalog,
+      languages: { ...catalog.languages, en: "inglês" },
+    };
+    const html = gameView(named, { ...full, refs }, null);
+    expect(html.indexOf("Wiki pt")).toBeLessThan(html.indexOf("Wiki en"));
+    expect(html).toContain("em inglês");
+    expect(html).not.toContain("em português");
+  });
+
   test("shows where and who in the first layer", () => {
     const [first] = layers(gameView(catalog, full, null));
     expect(first).toContain("<dt>Países</dt><dd>Gana, Nigéria (Norte)</dd>");
