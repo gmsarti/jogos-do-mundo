@@ -41,6 +41,14 @@ const validGame: Game = {
   rules: "1. Alinhe três peças.",
 };
 
+const image = {
+  src: "img/games/achi.webp",
+  alt: "Tabuleiro de achi riscado na terra",
+  credit: "Fulana de Tal",
+  license: "CC BY 4.0",
+  url: "https://commons.wikimedia.org/wiki/File:Achi.jpg",
+};
+
 const schema = gameSchema({ fileId: "achi", families, countries, languages });
 
 function errorPaths(game: unknown): string[] {
@@ -80,6 +88,25 @@ describe("gameSchema", () => {
       languages,
     });
     expect(s.safeParse(bad).success).toBe(false);
+  });
+
+  test("accepts a game with a fully credited image", () => {
+    expect(schema.safeParse({ ...validGame, image }).success).toBe(true);
+  });
+
+  test.each(["alt", "credit", "license", "url"])(
+    "rejects an image without %s",
+    (field) => {
+      const { [field as keyof typeof image]: _, ...rest } = image;
+      expect(errorPaths({ ...validGame, image: rest })).toContain(
+        `image.${field}`,
+      );
+    },
+  );
+
+  test("rejects an image outside img/games/", () => {
+    const bad = { ...image, src: "../secret.webp" };
+    expect(errorPaths({ ...validGame, image: bad })).toContain("image.src");
   });
 
   test("accepts a reference with a known language", () => {

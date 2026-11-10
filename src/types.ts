@@ -17,6 +17,17 @@ export interface Reference {
   lang?: string;
 }
 
+/** A photo or drawing of the game, always with its author and license. */
+export interface GameImage {
+  /** Path under `public/`, e.g. `img/games/achi.webp`. */
+  src: string;
+  alt: string;
+  credit: string;
+  license: string;
+  /** Page where the image and its license are published. */
+  url: string;
+}
+
 export interface Evidence {
   kind: EvidenceKind;
   date: string;
@@ -56,6 +67,7 @@ export interface Game {
   cultures: string[];
   board: string;
   diagram?: Diagram;
+  image?: GameImage;
   pieces: string;
   players: string;
   period: string;

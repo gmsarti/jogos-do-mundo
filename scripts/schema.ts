@@ -27,6 +27,14 @@ export const languagesSchema = z.record(
   text,
 );
 
+const imageSchema = z.strictObject({
+  src: z.string().regex(/^img\/games\/[a-z0-9-]+\.(webp|jpg|png)$/),
+  alt: text,
+  credit: text,
+  license: text,
+  url: z.url({ protocol: /^https?$/ }),
+});
+
 export const glossarySchema: z.ZodType<Glossary> = z.record(
   z.string().regex(KEBAB_ID),
   z.strictObject({ termo: text, def: text, variantes: z.array(text) }),
@@ -98,6 +106,7 @@ export function gameSchema({
     cultures: z.array(text),
     board: text,
     diagram: diagramSchema.optional(),
+    image: imageSchema.optional(),
     pieces: text,
     players: text,
     period: text,

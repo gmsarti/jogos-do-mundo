@@ -28,6 +28,7 @@ Todos os campos são obrigatórios, a menos que a coluna diga o contrário. Camp
 | `countries` | lista de ISO-2 | Cada uma existe em `countries.json`. Vazia = "sem país definido" |
 | `cultures` | lista de strings | Povos ou comunidades. Use `a verificar` se não souber |
 | `board` | string | Tabuleiro. `desconhecido` se não houver fonte |
+| `image` | objeto | **Opcional.** Foto ou desenho do jogo (ver abaixo). Só com autor e licença que permitam o uso |
 | `diagram` | objeto | **Opcional.** Como desenhar o tabuleiro (ver abaixo). Só quando a fonte dá as medidas |
 | `pieces` | string | Peças. `desconhecido` se não houver fonte |
 | `players` | string | **Sempre entre aspas** (`"2"`), senão o YAML vira número e a validação falha |
@@ -66,6 +67,19 @@ Desenha o tabuleiro no painel e no kit de impressão. Os números contam o que a
 | `mill` | `diagonals` | Trilha, Morabaraba |
 
 Sem `diagram`, o jogo fica sem desenho, o que é melhor que um desenho errado. Não desenhe: medida ausente ou ambígua (“2 fileiras”, “4×12 a 4×20”), casas ou pontos marcados que o tipo não sabe desenhar (castelo do Tablut, rio do Xiangqi) e tabuleiros únicos. Esses casos estão nas tarefas T-054 a T-057.
+
+### `image`
+
+```yaml
+image:
+  src: img/games/achi.webp   # arquivo em public/img/games/, .webp, .jpg ou .png, até 80 KB
+  alt: Tabuleiro de achi riscado na terra
+  credit: Nome de quem fez a imagem
+  license: CC BY 4.0
+  url: https://commons.wikimedia.org/wiki/File:Achi.jpg   # página onde a imagem e a licença estão publicadas
+```
+
+Todos os campos são obrigatórios. Sem crédito ou licença verificáveis, o jogo fica sem imagem. O `make check` falha se o arquivo não existir ou passar de 80 KB (RNF-02).
 
 ### `status`
 
