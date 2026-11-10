@@ -24,7 +24,7 @@ ev:
   date: "1787"
   ref: Molina 1787
 recon: []
-summary: 'Jogo de caça mapuche: um leão (*komikelu*, "o que come tudo") contra 12 cães, num tabuleiro de alquerque com um triângulo acrescentado. Equivalente ao Taptana / komina inca e próximo do Adugo / jogo da onça brasileiro.'
+summary: "Jogo de caça registrado entre os mapuche desde 1787: um leão (*komikelu*, \"o que come tudo\") contra 12 cães, num tabuleiro de alquerque com um triângulo acrescentado. O leão captura pulando por cima dos cães, e os cães tentam deixá-lo sem movimento."
 refs:
   - title: "Ludii: biblioteca"
     url: https://ludii.games/library.php
@@ -47,6 +47,15 @@ place: ""
 - Descrito no início do séc. XX por Manuel Manquilef (1914), intelectual mapuche, e por Leotardo Mátus (1918-19), que publicou o tabuleiro e a posição inicial a partir de dados do Museo Nacional de Chile.
 - Mátus conta que o viu jogado "entre os índios do interior de Valdivia", mas que eles se recusaram a explicar as regras.
 - O nome é cognato do quéchua *komina* e do aimará *kumi* (Depaulis).
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 38 pontos: um quadrado de 5×5 pontos, como o do Alquerque, e um triângulo de 13 pontos. A ficha ainda não descreve como os pontos do triângulo se ligam: o desenho só aparece em figura (Mátus, 1918-19, fig. 51)
+- 1 peça maior, o leão, e 12 cães
+
+## Para quem conduz
+
+Esta ficha ainda não tem "Como jogar?": o triângulo e a posição inicial só aparecem em figura, e as fontes não dizem quem começa, se capturar é obrigatório nem se há empate. As regras de "Regras" vêm do *leoncito*, o jogo que as crianças chilenas conheciam em 1918-19 (Mátus), e não de informantes mapuche, que se recusaram a explicá-las.
 
 ## Regras
 

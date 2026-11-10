@@ -29,7 +29,7 @@ ev:
   date: 2002–2004
   ref: Lima 2004; Lima e Barreto 2005
 recon: []
-summary: "Jogo de caça do Brasil indígena: uma onça contra um grupo de cães, num tabuleiro de Alquerque com uma extensão triangular. Os Bororo o chamam *adugo* (onça); os Guarani de São Paulo, segundo o Museu das Culturas Indígenas, *Ninmangwá Djagwareté* (brincadeira da onça)."
+summary: "Jogo de caça do Brasil indígena: uma onça contra um grupo de cães. A onça captura pulando por cima dos cães, e os cães tentam encurralá-la. Os Bororo o chamam *adugo* (onça); os Guarani de São Paulo, segundo o Museu das Culturas Indígenas, *Ninmangwá Djagwareté* (brincadeira da onça)."
 refs:
   - title: "MCI: Caderno Brincadeiras"
     url: https://museudasculturasindigenas.org.br/wp-content/uploads/2025/10/CADERNO-MCI-BRINCADEIRAS-Vfinal-3.pdf
@@ -53,6 +53,34 @@ place: ""
 ## História
 
 O registro mais citado é o do projeto Jogos Indígenas do Brasil (Maurício de Araújo Lima, 2002 em diante), que visitou oito aldeias e conheceu o jogo na aldeia Bororo de Meruri (MT). Esse levantamento é a fonte do Ludii, de livros escolares e de edições comerciais. A origem é discutida: Lima, citado por Marina Vinha, levanta a hipótese de transmissão por missionários salesianos desde o séc. XIX; outros defendem origem anterior à colonização. Nenhuma das duas está comprovada. Jogos de caça no mesmo tipo de tabuleiro existem no Sul da Ásia (Bagh-chal) e entre os Mapuche (Komikan).
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 31 pontos: um quadrado de 5×5 pontos, como o do Alquerque, e um triângulo com 6 pontos a mais (a verificar)
+- 1 peça para a onça e 14 para os cães, de cores diferentes. Lima (2004) registra 15 cães entre os Bororo
+
+O vértice do triângulo é o ponto do meio de um dos lados do quadrado. Uma linha vai desse vértice até o meio da base do triângulo, e outra linha corta a primeira no meio e liga os pontos do meio dos outros dois lados do triângulo. Os 6 pontos a mais são os dois cantos da base, o meio da base, o meio de cada um dos outros dois lados e o cruzamento das duas linhas.
+
+O tabuleiro pode ser impresso, desenhado no papel ou riscado no chão. As peças podem ser feijões, tampinhas, botões, pedrinhas e por aí vai.
+
+## Como jogar?
+
+1. Tirem na sorte quem fica com a onça. O outro fica com os cães.
+2. Ponha a onça no centro do tabuleiro. Ponha os 14 cães na metade do quadrado oposta ao triângulo.
+3. Quem está com a onça joga primeiro. Depois vocês se alternam, movendo uma peça por vez.
+4. Na sua vez, mova uma peça sua pelas linhas até um ponto vizinho vazio, em qualquer direção. Vale para a onça e para os cães.
+5. A onça captura pulando por cima de um cão, para um ponto vazio logo atrás. Os cães não capturam.
+   - Capturar não é obrigatório.
+   - A onça pode capturar mais de um cão no mesmo lance, encadeando saltos, em qualquer sentido.
+6. A onça vence ao capturar 5 cães. Os cães vencem encurralando a onça, sem lance possível.
+
+## Para quem conduz
+
+As fontes divergem em dois pontos, e a ficha segue a primeira versão de cada um. Quantidade de cães: 14 (Ludii, Vergara e Martínez, Wikipedia) ou 15 (Lima, 2004, entre os Bororo). Vitória da onça: 5 cães (Museu das Culturas Indígenas, Vergara e Martínez, Wikipedia) ou todos os cães (Ludii). Combinem as duas coisas antes de começar.
+
+A ficha também não diz exatamente em quais pontos os cães começam, nem o que acontece se os cães ficarem sem lance ou se há empate.
+
+**Sugestão do site:** troquem de lado ao fim de cada partida, para todos experimentarem a onça e os cães.
 
 ## Regras
 

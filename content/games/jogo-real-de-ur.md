@@ -24,7 +24,7 @@ ev:
   ref: British Museum 1928,1009.378
 recon:
   - Irving Finkel
-summary: Jogo de corrida da Mesopotâmia, conhecido por tabuleiros incrustados de concha e lápis-lazúli escavados por Leonard Woolley no Cemitério Real de Ur (1922–1934). O nome antigo é desconhecido.
+summary: "Jogo de corrida da Mesopotâmia, de cerca de 2600 a.C., conhecido por tabuleiros incrustados de concha e lápis-lazúli achados no Cemitério Real de Ur por Leonard Woolley (1922–1934). Ninguém sabe o nome antigo, e as regras de hoje são uma reconstrução."
 refs:
   - title: British Museum 1928,1009.378
     url: https://www.britishmuseum.org/collection/object/W_1928-1009-378
@@ -42,6 +42,16 @@ place: ""
 ## História
 
 O tabuleiro do British Museum (1928,1009.378) data de 2600–2400 a.C. Era uma caixa oca, com peças e dados guardados dentro. O curador registra outros conjuntos no Iraq Museum, um exemplar de madeira em Shahr-i Sokhta (Irã) e versões em Gonur depe (Turcomenistão), e considera que a origem pode estar no Vale do Indo. Um grafite do jogo foi riscado num touro alado assírio. O jogo sobreviveu em formas de 20 casas até a Antiguidade tardia (ver Vinte casas (Twenty Squares)).
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 20 casas, em três partes: um bloco de 3×4 casas, uma ponte de 1×2 e um bloco de 3×2
+- 7 peças para cada jogador, nas regras de Finkel, ou 5, em outras reconstruções
+- 4 dados tetraédricos (de quatro pontas). O resultado de um lance é o número de pontas marcadas para cima, de 0 a 4
+
+## Para quem conduz
+
+Esta ficha ainda não tem "Como jogar?". O percurso das peças só aparece em figura, e as fontes não dizem quem começa, o que fazer com um lance de 0 nem se há empate. Como o jogo é uma reconstrução, outras propostas (de Murray e de Masters) põem as rosetas e o percurso em outros lugares; a ficha segue a de Finkel.
 
 ## Regras
 

@@ -23,7 +23,7 @@ ev:
   date: 1895 (nesta rodada)
   ref: Culin 1895
 recon: []
-summary: Jogo de corrida coreano com quatro varetas de arremesso (*yut*), jogado sobretudo no Ano Novo lunar.
+summary: "Jogo de corrida coreano, descrito por Stewart Culin em 1895 com o nome *nyout*. Quatro varetas lançadas dizem quantas marcas cada peça anda, e as peças correm por um círculo, com atalhos pelo meio do tabuleiro."
 refs:
   - title: "Ludii: biblioteca"
     url: https://ludii.games/library.php
@@ -39,6 +39,38 @@ place: ""
 ## História
 
 Stewart Culin o descreveu como *nyout* em *Korean Games* (1895). Tabuleiros e conjuntos coreanos aparecem em coleções etnográficas da época de Culin (a verificar).
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 29 marcas redondas: 20 em círculo, a distâncias iguais, e uma cruz de 9 marcas dentro do círculo. As marcas dos quatro quartos do círculo e a do centro são maiores que as outras. A marca do alto é a saída
+- 4 varetas de arremesso (*yut*), cada uma com um lado plano e um lado preto
+- 4 peças por jogador (1 ou 4, se forem dois jogadores)
+
+Culin conta que o tabuleiro podia ser desenhado num papel ou no chão. Para as varetas, servem quatro palitos com os dois lados diferentes. Para as peças, vale o que tiver à mão.
+
+## Como jogar?
+
+1. Decidam as peças. Com dois jogadores, cada um leva 1 ou 4 peças, como combinarem. Com três, cada um leva 3. Com quatro, os que se sentam frente a frente jogam em dupla, a dupla leva 4 peças, e um jogador pode mover as peças do parceiro.
+2. Para decidir quem começa, cada um lança as varetas. O lance mais alto começa, e os outros jogam na ordem dos seus lances.
+3. Na sua vez, lance as quatro varetas. O lance vale pelo número de lados planos para cima:
+   - *do* (1), *gae* (2), *geol* (3), *yut* (4) e *mo* (5, nenhum lado plano para cima);
+   - uma vareta que cai em pé conta como se tivesse caído com o lado preto para cima.
+4. *Yut* e *mo* dão outro lance, que se faz antes de mover a peça.
+   - Com dois lances ou mais, você pode dividi-los entre duas peças.
+5. As peças entram na marca logo à esquerda da marca do alto e dão a volta no círculo no sentido anti-horário, andando o número de marcas do lance.
+6. Há atalhos pelo meio do tabuleiro:
+   - Quem tira *mo* logo no começo chega à marca grande da esquerda e vai por ela até o centro, e do centro até a saída.
+   - Quem não para nessa marca segue o círculo. Se parar na marca grande de baixo, pode ir por ela até o centro e dali até a saída.
+   - Se passar pela marca grande de baixo, segue até a marca grande da direita e dali, pelo círculo, até a saída.
+7. Se a sua peça cair numa marca com peça sua, você pode juntar as duas e levá-las como uma só, mas elas contam como duas. Se cair numa peça do adversário, você a captura e ganha outro lance.
+8. Para sair pela marca do alto, tire pelo menos um a mais do que falta para chegar a ela. Se sobrar mais, não importa.
+9. Vence quem completar o percurso com todas as peças.
+
+## Para quem conduz
+
+Culin não diz o que acontece com a peça capturada, o que fazer se dois jogadores empatarem no lance que decide quem começa, nem se a partida pode empatar.
+
+**Sugestão do site:** combinem essas três coisas antes de começar. Para aprender, jogue com 1 peça para cada jogador.
 
 ## Regras
 

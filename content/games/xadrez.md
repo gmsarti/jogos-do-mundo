@@ -35,7 +35,7 @@ ev:
   date: 1283 (registro ibérico usado nesta rodada; há anteriores a levantar)
   ref: Afonso X, Libro de los juegos
 recon: []
-summary: O xadrez europeu, descendente do Shatranj trazido à Europa pelo mundo islâmico, hoje praticado em todo o planeta. É o principal ramo ocidental da família que começa no Chaturanga.
+summary: "O xadrez que se joga hoje no mundo todo: dois lados com 16 peças de seis tipos num tabuleiro de 8×8, e o objetivo de dar xeque-mate no rei do adversário. O shatranj chegou à Península Ibérica e à Itália com a expansão islâmica, e o *Libro de los juegos* (1283) já registra o xadrez."
 refs:
   - title: Murray 1913 (IA)
     url: https://archive.org/details/AHistoryOfChess
@@ -52,6 +52,44 @@ place: ""
 
 O shatranj chegou à Península Ibérica e à Itália com a expansão islâmica. O *Libro de los juegos* de Afonso X (1283) registra o xadrez e seus problemas, além de variantes grandes, como o grande acedrex. No fim do séc. XV a dama e o bispo ganharam os movimentos de longo alcance de hoje, mudança que deu origem ao "xadrez da dama" (a verificar datas). H. J. R. Murray (1913) é a obra de referência para essa história.
 
+## Do que você vai precisar?
+
+- Um tabuleiro quadriculado de 8×8 casas, com casas claras e escuras alternadas
+- 16 peças para cada jogador: um rei, uma dama, duas torres, dois bispos, dois cavalos e oito peões. As peças claras são as brancas, e as escuras, as pretas
+
+O tabuleiro pode ser impresso ou desenhado no papel. Se não tiver peças de xadrez, marque cada tipo de peça numa tampinha ou num papelzinho, para todo mundo reconhecer.
+
+## Como jogar?
+
+1. Coloque o tabuleiro com uma casa branca no canto mais próximo, à direita de cada jogador.
+2. Arrume as peças. As torres ficam nos cantos, os cavalos ao lado das torres, os bispos ao lado dos cavalos, a dama na casa da sua cor e o rei ao lado dela. Os oito peões ficam na fileira logo à frente das outras peças.
+3. As brancas jogam primeiro. Depois vocês se alternam, um lance cada.
+4. Na sua vez, mova uma peça. Cada tipo anda de um jeito:
+   - Rei: uma casa em qualquer direção.
+   - Dama: quantas casas quiser em linha, em todas as direções.
+   - Torre: quantas casas quiser na horizontal ou na vertical.
+   - Bispo: quantas casas quiser na diagonal.
+   - Cavalo: duas casas na horizontal e uma na vertical, ou uma na horizontal e duas na vertical, como um "L". É a única peça que salta por cima das outras.
+   - Peão: uma casa para a frente, ou duas no primeiro lance dele.
+   - Dama, torre e bispo não passam por cima de nenhuma peça no caminho.
+5. Para capturar, vá para a casa ocupada por uma peça do adversário. Ela sai do tabuleiro. Você não pode ir para uma casa ocupada por peça sua.
+   - O peão captura na diagonal, para a frente, não em linha reta.
+6. Há três lances especiais:
+   - *En passant*: se o peão do adversário acabou de avançar duas casas, seu peão pode capturá-lo como se ele tivesse avançado só uma. Isso só vale no lance logo seguinte.
+   - Promoção: o peão que chega à última fileira é trocado, no mesmo lance, por uma dama, uma torre, um bispo ou um cavalo da sua cor, à sua escolha.
+   - Roque: o rei anda duas casas em direção a uma das torres, na primeira fileira, e essa torre passa para a casa que o rei atravessou. Não vale se o rei ou essa torre já se moveram, se houver peça entre os dois, ou se a casa do rei, a casa que ele atravessa ou a casa onde ele chega estiver atacada por peça do adversário.
+7. Seu rei está em xeque quando uma peça do adversário o ataca. Nenhum lance pode deixar ou pôr o seu próprio rei em xeque. O rei nunca é capturado.
+8. Vence quem der xeque-mate: o adversário está em xeque e não tem nenhum lance que o tire do xeque.
+9. A partida empata:
+   - por afogamento: quem está na vez, sem estar em xeque, não tem nenhum lance legal;
+   - por posição morta: nenhum dos dois consegue dar xeque-mate de jeito nenhum;
+   - por acordo, depois de cada um ter feito ao menos um lance;
+   - quem está na vez pode pedir empate se a mesma posição aparecer três vezes, ou se nos últimos 50 lances de cada lado não houve movimento de peão nem captura.
+
+## Para quem conduz
+
+**Sugestão do site:** na primeira partida, ensine só o jeito de andar de cada peça, a captura e o xeque-mate. Deixe o roque, o *en passant* e as regras de empate para quando todos já estiverem à vontade.
+
 ## Regras
 
 1. Rei uma casa em qualquer direção; dama, torre e bispo andam quantas casas quiserem em linha (dama em todas as direções, torre na ortogonal, bispo na diagonal); cavalo em "L" e salta peças.
@@ -66,3 +104,4 @@ O shatranj chegou à Península Ibérica e à Itália com a expansão islâmica.
 10. *En passant*: um peão pode capturar o peão do adversário que acabou de avançar duas casas como se ele tivesse avançado só uma; isso só vale no lance logo seguinte (FIDE, art. 3.7.3). Promoção: o peão que chega à última fileira é trocado, no mesmo lance, por uma dama, uma torre, um bispo ou um cavalo da mesma cor, à escolha do jogador (FIDE, art. 3.7.3.3).
 11. Roque: o rei anda duas casas em direção a uma das torres, na primeira fileira, e essa torre passa para a casa que o rei atravessou. Não vale se o rei ou essa torre já se moveram, se houver peça entre os dois, ou se a casa do rei, a casa que ele atravessa ou a casa onde ele chega estiver atacada por peça do adversário (FIDE, art. 3.8.2).
 12. Empates, em detalhe (FIDE, arts. 5.2 e 9): afogamento é quem está na vez, sem estar em xeque, não ter lance legal; posição morta é nenhum dos dois conseguir dar xeque-mate de jeito nenhum; os jogadores podem combinar o empate depois de cada um ter feito ao menos um lance. Também pode pedir empate quem está na vez se a mesma posição aparecer três vezes, ou se nos últimos 50 lances de cada lado não houve movimento de peão nem captura.
+13. Cavalo (Wikipedia, *Rules of chess*): vai para uma das casas mais próximas que não estejam na mesma fileira, coluna ou diagonal dele, isto é, duas casas na horizontal e uma na vertical, ou uma na horizontal e duas na vertical (o "L"). Nenhuma peça no caminho o bloqueia: ele pula para a casa nova.
