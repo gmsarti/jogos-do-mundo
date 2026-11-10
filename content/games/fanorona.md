@@ -33,6 +33,10 @@ refs:
     url: https://ludii.games/sources.php
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Fanorona
+    lang: en
+  - title: Wikipédia
+    url: https://pt.wikipedia.org/wiki/Fanorona
+    lang: pt
   - title: boardspace (regras)
     url: https://www.boardspace.net/fanorona/english/rules.html
 place: ""

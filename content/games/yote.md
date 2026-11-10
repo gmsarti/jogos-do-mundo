@@ -36,6 +36,10 @@ refs:
     url: https://ludii.games/data.php?gameId=666
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Yot%C3%A9
+    lang: en
+  - title: Wikipédia
+    url: https://pt.wikipedia.org/wiki/Yot%C3%A9
+    lang: pt
   - title: GamesCrafters
     url: https://gamescrafters.berkeley.edu/games.php?game=yote
   - title: mindsports.nl (duas versões)

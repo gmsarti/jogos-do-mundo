@@ -40,6 +40,7 @@ refs:
     url: https://kawowo.com/2024/06/17/omweso-buganda-kingdom-names-management-committee-to-rejuvenate-the-traditional-board-game/
   - title: "Wikipedia: Omweso"
     url: https://en.wikipedia.org/wiki/Omweso
+    lang: en
 place: ""
 ---
 

@@ -37,6 +37,10 @@ refs:
     url: https://www.altotejo.org/acafa/docsn2/jogos_gravados_em_pedra_do_distrito_de_castelo_branco.pdf
   - title: "Wikipedia: Nine men's morris"
     url: https://en.wikipedia.org/wiki/Nine_men%27s_morris
+    lang: en
+  - title: Wikipédia
+    url: https://pt.wikipedia.org/wiki/Trilha_(jogo)
+    lang: pt
   - title: "Ludicum: Nine Men Morris"
     url: https://ludicum.org/en/jogos/jogos-abstratos-nine-men-morris/
 place: ""

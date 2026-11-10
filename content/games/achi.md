@@ -36,6 +36,7 @@ refs:
     url: https://ludii.games/details.php?keyword=Achi
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Achi_(game)
+    lang: en
   - title: GamesCrafters
     url: https://ocf.berkeley.edu/~gamers/games.php?game=achi
   - title: LoboGames UFRGS

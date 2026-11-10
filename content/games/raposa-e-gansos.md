@@ -39,6 +39,7 @@ refs:
     url: https://ludii.games/details.php?keyword=Fox+and+Geese
   - title: "Wikipedia: Fox games"
     url: https://en.wikipedia.org/wiki/Fox_games
+    lang: en
   - title: "Strutt 1845: The Sports and Pastimes of the People of England (Project Gutenberg)"
     url: https://www.gutenberg.org/ebooks/48983
 place: ""

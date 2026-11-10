@@ -33,6 +33,10 @@ summary: "Jogo de 28 peças retangulares, cada uma com duas metades marcadas de 
 refs:
   - title: "Wikipedia: Dominoes"
     url: https://en.wikipedia.org/wiki/Dominoes
+    lang: en
+  - title: Wikipédia
+    url: https://pt.wikipedia.org/wiki/Domin%C3%B3
+    lang: pt
   - title: "pagat.com: History of Dominoes"
     url: https://www.pagat.com/domino/history.html
   - title: "Culin 1893 (Avedon): Europa"

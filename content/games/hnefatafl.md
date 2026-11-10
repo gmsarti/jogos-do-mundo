@@ -29,6 +29,10 @@ summary: "Jogo tafl da Escandinávia da era viking, num tabuleiro de 11×11: o r
 refs:
   - title: "Wikipedia: Tafl games"
     url: https://en.wikipedia.org/wiki/Tafl_games
+    lang: en
+  - title: Wikipédia
+    url: https://pt.wikipedia.org/wiki/Tafl
+    lang: pt
   - title: "Aage Nielsen: regras de Copenhagen (hnefatafl 11×11)"
     url: http://aagenielsen.dk/copenhagen_rules.php
   - title: "Aage Nielsen: regras de Fetlar (hnefatafl 11×11)"

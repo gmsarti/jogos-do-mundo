@@ -31,6 +31,7 @@ refs:
     url: https://ludii.games/details.php?keyword=Nard
   - title: "Wikipedia: Nard (game)"
     url: https://en.wikipedia.org/wiki/Nard_(game)
+    lang: en
   - title: "bkgm.com: Narde"
     url: https://www.bkgm.com/variants/Narde.html
 place: ""

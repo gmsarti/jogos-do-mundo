@@ -30,6 +30,7 @@ summary: '"Bao para aprender": a forma simplificada do Bao la kiswahili, jogada 
 refs:
   - title: "Wikipedia: Bao"
     url: https://en.wikipedia.org/wiki/Bao_(game)
+    lang: en
   - title: "Mancala World: Bao la Kujifunza"
     url: https://mancala.fandom.com/wiki/Bao_la_Kujifunza
 place: ""

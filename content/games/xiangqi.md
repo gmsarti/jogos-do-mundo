@@ -29,6 +29,10 @@ summary: "Xadrez chinês, jogado nas interseções de um tabuleiro de 9×10 linh
 refs:
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Xiangqi
+    lang: en
+  - title: Wikipédia
+    url: https://pt.wikipedia.org/wiki/Xiangqi
+    lang: pt
   - title: "Federação Mundial de Xiangqi: regras mundiais de xiangqi (2018, em inglês)"
     url: https://www.wxf-xiangqi.org/images/wxf-rules/2018_World_XiangQi_Rules_English2018.pdf
 place: ""

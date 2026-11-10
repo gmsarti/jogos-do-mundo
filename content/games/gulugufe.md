@@ -28,12 +28,14 @@ summary: "*Gulugufe* quer dizer borboleta em tonga: é um jogo de captura de Mo�
 refs:
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Butterfly_(game)
+    lang: en
   - title: Universidade dos Açores
     url: https://repositorio.uac.pt/bitstreams/67d9c289-8531-490c-a897-ce60d79ef5a6/download
   - title: LoboGames UFRGS
     url: https://www.inf.ufrgs.br/lobogames/wp-content/uploads/2023/06/Jogos_Semana_Africa_UFRGS_2023_tamanho_A4.pdf
   - title: "Wikipedia: Lau kata kati"
     url: https://en.wikipedia.org/wiki/Lau_kata_kati
+    lang: en
   - title: "Ludii: Lau Kata Kati"
     url: https://ludii.games/details.php?keyword=Lau+Kata+Kati
 place: ""

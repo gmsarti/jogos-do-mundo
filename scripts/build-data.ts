@@ -3,7 +3,13 @@ import { basename, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
 import type { z } from "zod";
-import type { Catalog, Countries, Families, Game } from "../src/types.ts";
+import type {
+  Catalog,
+  Countries,
+  Families,
+  Game,
+  Languages,
+} from "../src/types.ts";
 import {
   countriesSchema,
   familiesSchema,
@@ -72,6 +78,7 @@ function parseGameFile(
   text: string,
   families: Families,
   countries: Countries,
+  languages: Languages,
 ): { game?: Game; errors: string[] } {
   const match = FRONTMATTER.exec(text);
   if (!match) return { errors: [`${file}: missing frontmatter (--- block)`] };
@@ -92,7 +99,12 @@ function parseGameFile(
   const fileId = basename(file, ".md");
   // História and Regras are always present (maybe empty); the teaching sections only when written
   const { history = "", rules = "", ...teaching } = sections;
-  const result = gameSchema({ fileId, families, countries }).safeParse({
+  const result = gameSchema({
+    fileId,
+    families,
+    countries,
+    languages,
+  }).safeParse({
     ...(frontmatter as object),
     history,
     rules,
@@ -151,7 +163,13 @@ export function buildCatalog(contentDir: string): Catalog {
     .sort();
   for (const name of files) {
     const text = readFileSync(join(gamesDir, name), "utf8");
-    const result = parseGameFile(`games/${name}`, text, families, countries);
+    const result = parseGameFile(
+      `games/${name}`,
+      text,
+      families,
+      countries,
+      languages,
+    );
     errors.push(...result.errors);
     if (result.game) games.push(result.game);
   }

@@ -37,6 +37,10 @@ refs:
     url: https://fesashogi.eu/old/pdf/FESA%20rules.pdf
   - title: "Wikipedia: Shogi"
     url: https://en.wikipedia.org/wiki/Shogi
+    lang: en
+  - title: Wikipédia
+    url: https://pt.wikipedia.org/wiki/Shogi
+    lang: pt
 place: ""
 ---
 

@@ -43,6 +43,7 @@ refs:
     url: https://ludii.games/variantDetails.php?keyword=Ludus+Latrunculorum&variant=1589
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Ludus_latrunculorum
+    lang: en
   - title: "Schädler 2001: Latrunculi, a forgotten Roman game of strategy reconstructed"
     url: http://history.chess.free.fr/papers/Schadler%202001.pdf
   - title: "Ludii: Locus Ludi Seneca"

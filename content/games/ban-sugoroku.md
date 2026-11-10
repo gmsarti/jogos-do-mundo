@@ -28,10 +28,12 @@ refs:
     url: https://www.ndl.go.jp/kaleido/e/entry/12/index.html
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Sugoroku
+    lang: en
   - title: Japanese Wiki Corpus
     url: https://japanese-wiki-corpus.github.io/culture/Sugoroku.html
   - title: "Wikipedia: Backgammon (posição inicial do gamão)"
     url: https://en.wikipedia.org/wiki/Backgammon
+    lang: en
   - title: woodblockprints.org
     url: https://woodblockprints.org/index.php/Detail/entities/829
 place: ""

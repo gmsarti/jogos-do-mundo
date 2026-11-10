@@ -32,6 +32,7 @@ refs:
     url: https://ludii.games/data.php?gameId=588
   - title: "Wikipedia: Patolli"
     url: https://en.wikipedia.org/wiki/Patolli
+    lang: en
   - title: "Depaulis 2018, Ancient American Board Games, I (BGS 12)"
     url: https://sciendo.com/pdf/10.2478/bgs-2018-0002
   - title: "Culin 1898, Chess and Playing-Cards (archive.org)"

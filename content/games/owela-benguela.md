@@ -29,6 +29,7 @@ refs:
     url: https://ondjangoasili.com/index.php/owela-benguela/
   - title: "Wikipedia: Owela (Namíbia)"
     url: https://en.wikipedia.org/wiki/Owela
+    lang: en
 place: ""
 ---
 

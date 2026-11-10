@@ -189,9 +189,10 @@ Origem: feedbacks de Aggeu (educador) e Alexandre Nacari (jogador), 03/11/2026, 
   - Decidir: países sem jogos entram na ordem de Tab (de 79 para cerca de 175 paradas) ou só pela busca
 - [ ] **T-072** Imagem do jogo: campo opcional `image: {src, alt, credit, license, url}`, arquivo em `public/img/games/`
   - Testes: imagem sem crédito ou licença falha; arquivo existe; tamanho máximo por imagem (ex.: 80 KB em WebP) dentro do RNF-02
-- [ ] **T-073** Referências em português primeiro: campo opcional `lang` em cada `ref`; a ficha ordena pt primeiro e marca as outras ("em inglês")
+- [x] **T-073** Referências em português primeiro: campo opcional `lang` em cada `ref`; a ficha ordena pt primeiro e marca as outras ("em inglês")
   - Conteúdo: script em `scripts/once/` que busca o artigo da Wikipedia em português pelos links entre idiomas; cada link novo é aberto e conferido antes de entrar
   - Testes: ordem pt primeiro; rótulo do idioma a partir de `languages.json`
+  - Feito: `lang` opcional em cada `ref` (validado contra `languages.json`), `orderRefs` e `refNote` em `src/lib/refs.ts`, e a ficha mostra "(em inglês)" nas refs de outro idioma. O script `scripts/once/find-pt-wikipedia.ts` achou 18 artigos em português; cada um foi aberto e a primeira frase conferida. **Entraram 17** (alquerque, brandubh, domino, domino-chines, fanorona, fidchell, hnefatafl, mahjong, pachisi, senet, shatranj, shogi, tablut, trilha, xadrez, xiangqi, yote); **o Vinte casas ficou de fora**, porque a ref em inglês da ficha é a do Jogo real de Ur (erro já registrado no T-068) e o artigo em português repetiria o erro. As 63 refs da Wikipedia (62 em inglês, 1 em espanhol) ganharam `lang`; as demais refs seguem sem `lang`. Os artigos em português de Brandubh, Fidchell, Hnefatafl e Tablut são o genérico *Tafl*, e o de Xadrez é *Leis do xadrez* (os mesmos temas das refs em inglês). Conferência visual no Playwright não feita
 - [~] **T-074** Reescrita didática em lotes, com a skill `escrever-jogo`: um PR de conteúdo por lote de 8 a 10 jogos, na ordem do T-068. Cada lote passa antes pela Etapa 2 do T-068 (pesquisa de lacunas) e só depois é reescrito
   - Lote 1 (também estão na oficina): achi, shisima, yote, seega, fanorona, fanorona-telo, morabaraba, gulugufe
   - Divergências entre oficina e catálogo viram issues de curadoria (já conhecidas: Achi e Seega)

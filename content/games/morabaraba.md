@@ -37,6 +37,7 @@ refs:
     url: https://ludii.games/data.php?keyword=Lesotho
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Morabaraba
+    lang: en
 place: ""
 ---
 

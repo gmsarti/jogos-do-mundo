@@ -40,6 +40,7 @@ refs:
     url: https://mancala.fandom.com/wiki/Igisoro
   - title: "Wikipedia: Igisoro"
     url: https://en.wikipedia.org/wiki/Igisoro
+    lang: en
 place: ""
 ---
 

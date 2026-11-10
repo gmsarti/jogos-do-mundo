@@ -32,6 +32,7 @@ summary: "Jogo de semeadura dos iorubás, na Nigéria e no Benin; em iorubá, o 
 refs:
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Ayoayo
+    lang: en
   - title: "John P. Pratt: regras"
     url: https://johnpratt.com/items/mancala/ayoayo.html
   - title: "John P. Pratt: regras gerais"

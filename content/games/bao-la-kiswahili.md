@@ -26,6 +26,7 @@ summary: "Jogo de semeadura dos suaílis, na Tanzânia e no Quênia, jogado em q
 refs:
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Bao_(game)
+    lang: en
   - title: "Ludii: Bao"
     url: https://ludii.games/details.php?keyword=Bao
 place: ""

@@ -5,7 +5,7 @@ import {
   gameSchema,
   languagesSchema,
 } from "../../scripts/schema.ts";
-import type { Countries, Families, Game } from "../../src/types.ts";
+import type { Countries, Families, Game, Languages } from "../../src/types.ts";
 
 const families: Families = {
   alinhamento: {
@@ -14,6 +14,7 @@ const families: Families = {
   },
 };
 const countries: Countries = { GH: { pt: "Gana", num: "288" } };
+const languages: Languages = { en: "inglês", pt: "português" };
 
 const validGame: Game = {
   id: "achi",
@@ -40,7 +41,7 @@ const validGame: Game = {
   rules: "1. Alinhe três peças.",
 };
 
-const schema = gameSchema({ fileId: "achi", families, countries });
+const schema = gameSchema({ fileId: "achi", families, countries, languages });
 
 function errorPaths(game: unknown): string[] {
   const result = schema.safeParse(game);
@@ -60,15 +61,41 @@ describe("gameSchema", () => {
   });
 
   test("rejects an id different from the file name", () => {
-    const other = gameSchema({ fileId: "outro", families, countries });
+    const other = gameSchema({
+      fileId: "outro",
+      families,
+      countries,
+      languages,
+    });
     const result = other.safeParse(validGame);
     expect(result.success).toBe(false);
   });
 
   test("rejects an id that is not kebab-case", () => {
     const bad = { ...validGame, id: "Achi_Game" };
-    const s = gameSchema({ fileId: "Achi_Game", families, countries });
+    const s = gameSchema({
+      fileId: "Achi_Game",
+      families,
+      countries,
+      languages,
+    });
     expect(s.safeParse(bad).success).toBe(false);
+  });
+
+  test("accepts a reference with a known language", () => {
+    const refs = [
+      {
+        title: "Wikipedia",
+        url: "https://en.wikipedia.org/wiki/Achi",
+        lang: "en",
+      },
+    ];
+    expect(schema.safeParse({ ...validGame, refs }).success).toBe(true);
+  });
+
+  test("rejects a reference language that is not in languages.json", () => {
+    const refs = [{ title: "Wikipedia", url: "https://x.org", lang: "zz" }];
+    expect(errorPaths({ ...validGame, refs })).toContain("refs.0.lang");
   });
 
   test("rejects an unknown family", () => {

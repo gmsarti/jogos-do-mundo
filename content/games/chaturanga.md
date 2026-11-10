@@ -33,6 +33,7 @@ refs:
     url: https://archive.org/details/AHistoryOfChessHJRMurray
   - title: "Wikipedia: Chaturanga"
     url: https://en.wikipedia.org/wiki/Chaturanga
+    lang: en
 place: ""
 ---
 

@@ -35,6 +35,7 @@ summary: 'Jogo de caça do México: um coiote contra várias galinhas, num tabul
 refs:
   - title: "Wikipedia: Catch the hare"
     url: https://en.wikipedia.org/wiki/Catch_the_hare
+    lang: en
   - title: Culin 1898 (IA)
     url: https://archive.org/details/chessplayingcard00culi
 place: ""
