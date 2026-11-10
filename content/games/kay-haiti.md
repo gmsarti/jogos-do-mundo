@@ -23,7 +23,7 @@ ev:
   date: "1952"
   ref: Comhaire-Sylvain 1952
 recon: []
-summary: Jogo de semeadura do Haiti, de duas fileiras e semeadura em várias voltas, descrito pela antropóloga haitiana Suzanne Comhaire-Sylvain (1952). Haitianos entrevistados em 2004 e 2006 disseram que o *kay* do sul do Haiti é parecido com o Hoyito (Mancala World).
+summary: "Jogo de semeadura do Haiti, de 2 fileiras de 6 covas e 4 sementes em cada uma, descrito pela antropóloga haitiana Suzanne Comhaire-Sylvain (1952). Quem forma uma casa de 4 sementes no lado do adversário grita *Kay!* ('casa') e a captura. Haitianos entrevistados em 2004 e 2006 disseram que o *kay* do sul do Haiti é parecido com o Hoyito (Mancala World)."
 refs:
   - title: "Mancala World: Warri (Haiti)"
     url: https://mancala.fandom.com/wiki/Warri_(Haiti)
@@ -35,6 +35,41 @@ refs:
     url: https://mancala.fandom.com/wiki/Kay
 place: ""
 ---
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 2 fileiras de 6 covas. Cada jogador fica com a fileira do seu lado
+- 48 sementes, 4 em cada cova
+
+Segundo o Mancala World, os adultos jogam em tabuleiros de madeira com uma cova grande em cada ponta, para guardar as sementes capturadas, e as crianças, meninos e meninas, cavam o tabuleiro no chão. O tabuleiro pode ser desenhado no papel, com um círculo para cada cova. As sementes podem ser feijões, grãos de milho, pedrinhas e por aí vai.
+
+## Como jogar?
+
+Este passo a passo segue a forma A de "Regras", a do *warri* do norte do Haiti, que Comhaire-Sylvain diz ser o *kay* do sul. É de segunda mão e não foi conferido com o texto de 1952 (a verificar).
+
+1. Os dois jogadores ficam frente a frente, cada um com a fileira de 6 covas do seu lado. Ponha 4 sementes em cada cova.
+2. Decidam quem começa (a fonte não diz como). Depois, vocês se alternam.
+3. Na sua vez, pegue todas as sementes de uma cova sua que tenha pelo menos 2 e semeie uma a uma, no sentido anti-horário, nas covas seguintes.
+   - Você também pode começar por uma cova de 1 semente, mas só se logo depois dela vier uma única cova vazia: aí você só passa a semente para essa cova.
+4. Se a última semente cair numa cova do adversário e deixá-la com 4 sementes, grite *Kay!* ("casa") e capture essas 4.
+   - Capture também as covas que vêm antes dela, em sequência sem interrupção, enquanto forem do adversário e tiverem 4 sementes.
+5. Se a última semente cair numa cova ocupada que não é seguida por uma vazia, pegue tudo o que há nela, inclusive a última, e semeie de novo.
+6. A jogada acaba nestes casos:
+   - A última semente caiu numa cova ocupada seguida por uma cova vazia.
+   - A última semente caiu numa cova vazia: a semente passa para a próxima cova ocupada e a jogada acaba (a fonte não explica bem este caso, a verificar).
+7. A partida acaba quando um jogador não pode jogar, porque todas as suas covas estão vazias ou têm só 1 semente que não é seguida por uma única cova vazia. Vence quem capturou mais *kay* (casas de 4).
+
+## Para quem conduz
+
+As fontes descrevem mais de um jogo com o nome *kay*, e a curadoria ainda não escolheu qual ensinar. O passo a passo segue a forma que a ficha usa. As outras, por inteiro em "Regras":
+
+- *Voleur* ("ladrão"), jogo de crianças do Haiti: 2×6 covas, 4 sementes, uma só volta de semeadura, e o conteúdo da cova da última semente é capturado, de qualquer lado.
+- O *kay* do sul parecido com o Hoyito, segundo haitianos entrevistados em 2004 e 2006 (as regras estão na ficha do Hoyito).
+- O *Kay* da Wikipédia francesa, que a ficha considera fonte fraca.
+
+As fontes não dizem quem começa, se capturar é obrigatório nem se há empate.
+
+**Sugestão do site:** combinem antes da partida quem começa e se capturar é obrigatório.
 
 ## Regras
 

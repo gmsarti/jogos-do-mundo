@@ -24,7 +24,7 @@ ev:
   date: 1545–1590
   ref: Sahagún, Códice Florentino
 recon: []
-summary: Jogo de corrida mexica (asteca) num tabuleiro em cruz, com feijões marcados como dados. Grafites de tabuleiros de tipo patolli aparecem em sítios maias e do centro do México.
+summary: "Jogo de corrida dos mexicas (astecas), num tabuleiro em cruz, com feijões marcados no lugar de dados. Foi registrado por Bernardino de Sahagún e colaboradores nahuas no Códice Florentino (1545–1590)."
 refs:
   - title: Ludii
     url: https://ludii.games/details.php?keyword=Patolli+(Aztec)
@@ -42,6 +42,14 @@ place: ""
 ## História
 
 O franciscano Bernardino de Sahagún, com colaboradores nahuas, registrou o jogo e sua iconografia no Códice Florentino (1545–1590). O DLP lista 50 evidências, inclusive grafites em Tula, Tikal, Nakum, Becán, Chichén Itzá e Tzintzuntzan. Edward Tylor (1878) ligou o patolli ao Pachisi como prova de contato com a Ásia; a tese é discutida e deve ser tratada como hipótese.
+
+## Do que você vai precisar?
+
+- Um tabuleiro em cruz, com braços de 2×9 ou 2×10 casas
+- 6 peças para cada jogador (2 ou 4 jogadores)
+- De 4 a 10 feijões marcados de um lado, que fazem o papel de dados
+
+Esta ficha ainda não tem "Como jogar?": as fontes abertas descrevem formas diferentes, e a curadoria ainda não escolheu qual ensinar.
 
 ## Regras
 

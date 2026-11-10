@@ -21,7 +21,7 @@ ev:
   date: 2000 (publicação)
   ref: de Voogt 2000
 recon: []
-summary: Jogo de semeadura do Sri Lanka, de duas fileiras, documentado por Alexander de Voogt a partir de tabuleiros (*olinda keliya*) dos Museus Nacionais de Colombo (BGS 3, 2000).
+summary: "Jogo de semeadura do Sri Lanka para três jogadores, o Raja (rei), o Mandiri (ministro) e o Pasu (vaca), que dividem um tabuleiro de 2 fileiras de 7 covas. Documentado por Alexander de Voogt (2000) a partir de jogadores da região de Colombo e de tabuleiros (*olinda keliya*) dos Museus Nacionais."
 refs:
   - title: Mancala World
     url: https://mancala.fandom.com/wiki/Raja_Pasu_Mandiri
@@ -31,6 +31,14 @@ refs:
     url: http://bgs.ludicum.org/pdf/issue3/BGS3deVoogt.pdf
 place: ""
 ---
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 2 fileiras de 7 covas, dividido em 3 partes: as 3 covas do meio de cada fileira são do Raja, e as 2 covas de cada ponta, do Mandiri e do Pasu
+- 3 covas grandes de depósito, uma para cada jogador
+- 7 sementes em cada cova, como no Raja pasu
+
+O tabuleiro pode ser desenhado no papel, com um círculo para cada cova e um círculo maior para cada depósito. As sementes podem ser feijões, grãos de milho, pedrinhas e por aí vai.
 
 ## Regras
 

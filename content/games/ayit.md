@@ -21,7 +21,7 @@ ev:
   date: "1971"
   ref: Pankhurst 1971
 recon: []
-summary: "Jogo de semeadura do Sudão do Sul, de duas fileiras e um ciclo, com semeadura em várias voltas. Primeira descrição: Richard Pankhurst (1971), em estudo sobre a gabata e jogos do Chifre da África."
+summary: "Jogo de semeadura dos Dinka, no Sudão do Sul, com 2 fileiras de 9 covas e 2 sementes em cada uma. A semeadura vai em várias voltas, e o jogo acaba de repente quando nenhuma cova tem um grupo de 5 ou mais sementes. Primeira descrição: Richard Pankhurst (1971)."
 refs:
   - title: Mancala World
     url: https://mancala.fandom.com/wiki/Ayit
@@ -29,6 +29,35 @@ refs:
     url: https://mancala.fandom.com/wiki/Anywoli
 place: ""
 ---
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 2 fileiras de 9 covas. Cada jogador fica com a fileira do seu lado (a verificar)
+- 36 sementes, 2 em cada cova
+
+O tabuleiro pode ser desenhado no papel, com um círculo para cada cova. As sementes podem ser feijões, grãos de milho, pedrinhas e por aí vai.
+
+## Como jogar?
+
+1. Os dois jogadores ficam frente a frente, cada um com a fileira de 9 covas do seu lado. Ponha 2 sementes em cada cova.
+2. Decidam quem começa (a fonte não diz como). Depois, vocês se alternam.
+3. Na sua vez, escolha uma das suas covas, tire todas as sementes e semeie uma a uma, no sentido anti-horário, nas covas seguintes.
+4. Se a última semente cair numa cova que já tinha sementes, pegue tudo o que há nela, inclusive a última, e semeie de novo a partir dela. Continue até a semeadura acabar numa cova vazia ou numa captura.
+5. Se uma cova ficar com exatamente 4 sementes durante a semeadura, as 4 são capturadas e saem do jogo (a verificar para o Ayit).
+   - Ficam com o dono da cova.
+   - Se for a cova da última semente, ficam com quem está jogando, que ainda faz outra jogada.
+   - Pode haver várias capturas numa mesma semeadura.
+6. Você é obrigado a jogar se puder. Se não tiver jogada, passe a vez.
+7. O jogo acaba de repente quando nenhuma cova tem 5 ou mais sementes (um grupo desses se chama *thon*, "touro"). As sementes que restam ficam com o dono das covas onde estão.
+8. Vence quem tiver capturado mais sementes (a verificar para o Ayit).
+
+## Para quem conduz
+
+O Mancala World só dá as regras do Ayit como diferenças em relação ao Anywoli, jogo dos Anuak, e o texto de Pankhurst não foi aberto. Por isso os passos 3 a 6 e 8 vêm do Anywoli. No Anywoli, as últimas 4 sementes saem num sorteio; no Ayit, o jogo acaba pelo passo 7.
+
+As fontes não dizem quem começa, se as sementes que restam no fim contam como capturadas nem se há empate.
+
+**Sugestão do site:** combinem antes da partida quem começa e se as sementes que sobram no fim entram na contagem.
 
 ## Regras
 

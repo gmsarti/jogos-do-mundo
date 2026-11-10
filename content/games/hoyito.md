@@ -30,7 +30,7 @@ ev:
   date: "2004"
   ref: Bautista i Roca 2004-2005
 recon: []
-summary: Nome genérico ("buraquinho") de vários jogos de semeadura da República Dominicana, também chamados *El Hoyito*, *Casitas* ou *Mate*, em tabuleiros de 2×6.
+summary: "Nome genérico ('buraquinho') de vários jogos de semeadura da República Dominicana, também chamados *El Hoyito*, *Casitas* ou *Mate*, em tabuleiros de 2 fileiras de 6 covas. Antigamente era jogo de todos, sobretudo das mulheres; hoje é sobretudo de crianças (Mancala World)."
 refs:
   - title: "Ludii: evidência"
     url: https://ludii.games/data.php?gameId=270
@@ -44,6 +44,23 @@ refs:
     url: https://mancala.fandom.com/wiki/Hoyito_III
 place: ""
 ---
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 2 fileiras de 6 covas, as *casitas* ("casinhas"). Cada jogador fica com a fileira do seu lado. Também se registraram tabuleiros de até 2×12
+- 4 sementes em cada cova
+
+Como no registro de 2004 e 2005, as covas são cavadas na terra ou desenhadas no concreto, e não há tabuleiros de madeira. Antigamente se usavam sementes de *mate* (cabaça); hoje, pedrinhas. O tabuleiro pode ser desenhado no papel, com um círculo para cada cova. As sementes podem ser feijões, grãos de milho, pedrinhas e por aí vai.
+
+## Para quem conduz
+
+Esta ficha ainda não tem "Como jogar?". O nome *hoyito* cobre várias formas, e a curadoria ainda não escolheu qual ensinar. As três que o Mancala World registra, por inteiro em "Regras":
+
+- Hoyito I, a forma simples: quem joga captura as casas de 4 que se formam em qualquer cova do tabuleiro, e a jogada acaba quando a última semente forma uma casa.
+- Hoyito II, a mais difícil: só a última semente captura, e quem captura leva também as casas de 4 que vêm antes, em sequência, e joga de novo.
+- Hoyito III, variante do II vista em Batey, com um só jogador: só se captura o conteúdo da última cova.
+
+Em todas, as covas começam com 4 sementes e a semeadura é no sentido anti-horário. As fontes não dizem quem começa nem se capturar é obrigatório. O campo `sens` da ficha diz "nenhuma", mas o Mancala World registra aposta e superstições; a curadoria decide.
 
 ## Regras
 

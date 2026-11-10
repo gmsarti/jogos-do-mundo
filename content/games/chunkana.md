@@ -23,7 +23,7 @@ ev:
   date: 1560 (dicionário); 1653 (descrição de Cobo)
   ref: Depaulis 1998
 recon: []
-summary: Jogo de corrida inca de cinco casas cavadas em pedra ou tábua, com feijões coloridos e o dado Huayru / pichqa (jogos de corrida andinos); as casas valem de 10 a 50.
+summary: "Jogo de corrida inca, jogado com feijões coloridos num tabuleiro de cinco casas cavadas em pedra ou em tábua, e com o dado *pichqa* (ou *wayru*). A primeira casa vale 10 e as outras crescem de dez em dez, até 50 (Cobo, 1653)."
 refs:
   - title: Depaulis 1998, Inca Dice and Board Games (BGS 1)
     url: http://bgs.ludicum.org/pdf/issue1/BGS1Depaulis.pdf
@@ -31,6 +31,14 @@ refs:
     url: https://libmast.utm.my/Record/doaj.art-6e920def11bf47668ad1401bf1b44736
 place: ""
 ---
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 5 casas cavadas numa pedra lisa ou numa tábua
+- Feijões de várias cores
+- O dado *pichqa* (ou *wayru*), uma peça de madeira de seis faces, em forma de pirâmide
+
+Esta ficha ainda não tem "Como jogar?". A fonte não diz como as cinco casas se dispõem, quantos feijões cada jogador tem nem como o dado vira movimento.
 
 ## Regras
 

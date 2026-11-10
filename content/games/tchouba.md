@@ -24,7 +24,7 @@ ev:
   date: "1898"
   ref: Junod 1898
 recon: []
-summary: "Jogo de semeadura dos Thonga (Inhambane) e dos Chopi (Zavala), em Moçambique, o maior mancala descrito: até 4×40 covas e 320 sementes."
+summary: "Jogo de semeadura dos Thonga (Inhambane) e dos Chopi (Zavala), em Moçambique, o maior mancala descrito: de 4×4 até 4×40 covas, com até 320 sementes. Henri-Alexandre Junod o descreveu em 1898 e diz que ele fascinava tanto os homens que, em algumas aldeias cristãs, foi preciso proibi-lo."
 refs:
   - title: "Mancala World: Tchouba"
     url: https://mancala.fandom.com/wiki/Tchouba
@@ -38,6 +38,36 @@ place: ""
 ## História
 
 Primeira descrição: o missionário e antropólogo suíço Henri-Alexandre Junod (1898, *Les Ba-Ronga*); também em *The Life of a South African Tribe* (1912) e na descrição mais completa de E. Romariz Santos Silva (1995). O *Chuba* comercializado nos EUA (Milton Bradley, 1891) deriva do tchouba via o missionário metodista Erwin H. Richards: é versão de marca, registrada separadamente.
+## Do que você vai precisar?
+
+- Um tabuleiro de 4 fileiras de covas. A forma mais simples tem 4 covas por fileira (4×4). Há também de 8, 10, 16, 22 e até 40 (4×40, o maior)
+- 2 sementes em cada cova (até 320 no maior tabuleiro)
+
+Junod registrou que cada jogador cava duas fileiras de covas no chão e usa pedras ou caroços de fruta, sobretudo os de *kanye* ou as sementes cinzentas de um arbusto da beira-mar. O tabuleiro pode ser desenhado no papel, com um círculo para cada cova. As sementes podem ser feijões, grãos de milho, pedrinhas e por aí vai.
+
+## Como jogar?
+
+Para a primeira partida, o tabuleiro 4×4 é o mais simples.
+
+1. Cada jogador usa as duas fileiras do seu lado. Ponha 2 sementes em cada cova.
+2. Decidam quem começa (a fonte não diz como). Depois, vocês se alternam.
+3. Na sua vez, pegue todas as sementes de uma cova sua que tenha pelo menos 2 e semeie uma a uma, no sentido anti-horário, nas covas seguintes das suas duas fileiras.
+4. Se a última semente cair numa cova com sementes, pegue tudo o que há nela e semeie de novo. A jogada acaba quando a última semente cai numa cova vazia.
+5. Uma semente sozinha só pode ser movida se você não tem nenhuma cova com 2 ou mais. Ela tem de ir para uma cova vazia: se a cova seguinte está ocupada, você não pode começar a jogada com ela.
+6. Se a última semente cair numa cova vazia da sua fileira de dentro e a cova do adversário bem em frente tiver sementes, capture o conteúdo dela e o da cova da fileira de fora do adversário, na mesma coluna.
+   - Capture também, à sua escolha, outras covas do adversário: 1 no tabuleiro 4×4 e 2 nos tabuleiros maiores.
+   - Se não houver sementes em frente, você não captura nada.
+7. As sementes capturadas saem do jogo, e a vez passa ao adversário.
+8. O jogo acaba quando um jogador não tem sementes para jogar. Quem ficou sem sementes perde.
+
+## Para quem conduz
+
+Com 6 covas o jogo não funciona, diz Junod, porque não há combinações bem-sucedidas. O tabuleiro 4×4 se chama *shimunana* e Junod o acha pouco emocionante; nos maiores o jogo fica muito mais complicado e pode levar horas.
+
+As fontes não dizem quem começa, se capturar é obrigatório, o que acontece quando a única jogada possível é uma semente sozinha que não pode andar nem se há empate. O Mancala World diz que o *awale-info* tem as regras "ligeiramente incorretas"; esse site não foi aberto.
+
+**Sugestão do site:** combinem antes da partida quem começa e se capturar é obrigatório.
+
 ## Regras
 
 Fonte primária: Junod (1912, *The Life of a South African Tribe*, vol. 1, pp. 314–318, lido no archive.org; a mesma descrição de 1898 em *Les Ba-Ronga* não foi aberta). Junod chama o jogo de *tshuba*, "jogado pelos homens", e diz que ele fascina tanto que em algumas aldeias cristãs foi preciso proibi-lo, porque os homens largavam o trabalho. O Mancala World resume Junod e acrescenta o que veio depois (Romariz Santos Silva 1995, que não foi aberto). Onde só uma das fontes fala, ela vem citada no item.
