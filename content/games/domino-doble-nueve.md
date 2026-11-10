@@ -22,7 +22,7 @@ ev:
   date: ""
   ref: ""
 recon: []
-summary: Forma cubana do Dominó (europeu e latino-americano), jogada com 55 peças que vão do branco ao duplo nove (somando 459 pontos), muito popular no oeste e no centro de Cuba (Havana, Pinar del Río, Matanzas, Cienfuegos, Camagüey); no oriente predomina o duplo seis (Migdonio Torres Romero, *El dominó del doble nueve*, citado por thecubanhistory.com).
+summary: "Forma cubana do dominó, jogada com 55 peças que vão do branco ao duplo nove e somam 459 pontos. É muito popular no oeste e no centro de Cuba; no oriente predomina o duplo seis."
 refs:
   - title: thecubanhistory.com
     url: https://thecubanhistory.com/?p=98143
@@ -34,6 +34,31 @@ refs:
     url: https://es.wikipedia.org/wiki/Domin%C3%B3
 place: ""
 ---
+
+## Do que você vai precisar?
+
+- 55 peças de dominó, do branco (zero) ao duplo nove, que somam 459 pontos
+- 4 jogadores, em duplas. Também se joga individualmente (a verificar). Não há tabuleiro
+
+Se não tiver um conjunto duplo nove, dá para fazer as peças em papel-cartão, com os pontos desenhados.
+
+## Como jogar?
+
+1. Em cada mão, embaralhe as 55 peças viradas para baixo. Cada jogador pega 10. As 15 que sobram ficam de lado, "dormidas", sem que ninguém as veja. A cada mão nova, as 55 são embaralhadas de novo.
+2. O mais comum é jogar em quatro, em duplas. Joga-se no sentido anti-horário.
+3. Na sua vez, ponha uma peça na mesa, encostando um dos seus números no número igual de uma das pontas livres das peças que já estão na mesa. Só se põe uma peça por vez (a verificar).
+4. Se você não tem peça que encaixe, perde a vez, e joga o seguinte, à direita (a verificar).
+5. O primeiro a ficar sem peças anuncia "*Me pegué*" ou "Gané" e ganha a mão (a verificar).
+6. Se ninguém pode jogar, a mão fica trancada: todos viram as peças e somam os pontos. Ganha quem tem menos pontos, e leva os pontos das peças dos adversários. Em duplas, somam-se os pontos de cada dupla, e ganha a de menor soma (a verificar).
+7. A partida é ganha por quem chega primeiro a 100 pontos (a verificar).
+
+## Para quem conduz
+
+Por tradição, não se fala durante a partida: "o dominó foi inventado por um mudo", diz o ditado.
+
+As fontes consultadas não dizem quem faz a primeira jogada nem com que peça, se quem tem peça que encaixa é obrigado a jogar, nem o que acontece num empate de mão trancada. Várias das regras acima vêm só da Wikipedia em espanhol, e por isso levam "(a verificar)".
+
+**Sugestão do site:** combinem antes da partida quem começa e com que peça.
 
 ## Regras
 

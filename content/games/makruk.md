@@ -28,7 +28,7 @@ ev:
   date: fim do séc. XVIII
   ref: Wikipedia
 recon: []
-summary: Xadrez tailandês, ainda muito jogado na Tailândia, próximo do xadrez antigo pela fraqueza da "rainha".
+summary: "Xadrez tailandês, jogado até hoje na Tailândia. Os peões são búzios, e a peça mais próxima da dama do xadrez, o *met*, anda só uma casa na diagonal."
 refs:
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Makruk
@@ -46,6 +46,39 @@ place: ""
 ## História
 
 Murray (1913) sugere que se difundiu junto com o budismo; outra hipótese o liga ao Shatranj persa. Há conjuntos do fim do séc. XVIII com peças de chifre de búfalo e do início do XIX com peões de búzios (Wikipedia). O *ouk chatrang* do Camboja é quase idêntico.
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 8×8 casas, sem casas coloridas
+- 16 peças para cada jogador: 1 rei (*khun*), 1 *met* (semente), 2 *khon* (nobres), 2 cavalos (*ma*), 2 barcos (*ruea*) e 8 peões (*bia*, búzios)
+
+O tabuleiro pode ser impresso ou desenhado no papel. Num registro do início do séc. XIX, os peões eram búzios; como o peão promovido é virado de cabeça para baixo, qualquer peça com dois lados diferentes serve para eles. Para as outras peças, vale marcar o nome de cada uma numa tampinha.
+
+## Como jogar?
+
+1. Arrume as peças. Na fileira de trás, de cada ponta para o meio, ficam o barco, o cavalo e o *khon*. Nas duas casas do meio ficam o rei e o *met*, com o *met* sempre à direita do rei, do ponto de vista de quem joga. Os oito peões ocupam toda a terceira fileira.
+2. Na sua vez, mova uma peça. Cada uma anda de um jeito:
+   - Rei: uma casa em qualquer direção.
+   - *Met*: uma casa na diagonal.
+   - *Khon*: uma casa na diagonal ou uma casa reto para a frente.
+   - Cavalo: duas casas em linha reta e mais uma para o lado, pulando as peças que estiverem no caminho.
+   - Barco: quantas casas quiser em linha reta, na horizontal ou na vertical, sem pular peças.
+   - Peão: uma casa reto para a frente, sem lance duplo.
+3. Toda peça captura com o próprio movimento, parando na casa de uma peça do adversário, que sai do jogo. Só o peão captura de outro jeito: uma casa na diagonal, para a frente.
+4. O peão que chega à sexta fileira é promovido: vire-o de cabeça para baixo (*bia ngai*, "búzio virado"). A partir daí, ele anda como o *met*, uma casa em qualquer diagonal.
+5. Se o seu rei está em xeque, você tem de tirá-lo do xeque.
+6. Vence quem der xeque-mate. Se o jogador da vez não está em xeque mas qualquer lance deixaria o rei em xeque (afogamento), a partida empata.
+7. Quando não há mais peões sem promover no tabuleiro, o lado em desvantagem pode contar os próprios lances até 64. Se chegar lá sem levar mate, a partida empata (a verificar).
+   - Quando esse lado fica só com o rei, a conta passa a depender das peças do adversário: 2 barcos, 8 lances; 1 barco, 16; 2 *khon*, 22; 2 cavalos, 32; 1 *khon*, 44; qualquer outra peça, 64.
+   - A conta começa no número de peças no tabuleiro, contando os dois reis.
+
+## Para quem conduz
+
+Na descrição enviada pelo príncipe Devawongse em 1889, o rei pode andar como o cavalo no primeiro lance, e o *met* pode andar duas casas no primeiro lance (Falkener, 1892). A Wikipedia trata esses lances como regras informais, os *sutras*, e diz que eles são do *ouk* cambojano.
+
+As fontes consultadas não dizem qual lado começa.
+
+**Sugestão do site:** tirem na sorte quem começa e combinem antes se valem os lances especiais do primeiro lance.
 
 ## Regras
 

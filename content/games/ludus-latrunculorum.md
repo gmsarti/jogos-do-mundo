@@ -33,7 +33,7 @@ recon:
   - Ulrich Schädler (2001)
   - Projeto Locus Ludi
   - R. C. Bell
-summary: '"Jogo dos ladrões" (ou dos soldados mercenários) dos romanos, de captura por cerco. Conhecido por menções literárias e tabuleiros; regras reconstruídas.'
+summary: "Jogo de captura por cerco dos romanos, o \"jogo dos ladrões\" (ou dos soldados mercenários), conhecido por menções literárias e por tabuleiros achados em sítios romanos. As regras originais se perderam: o que existe são reconstruções modernas."
 refs:
   - title: Ludii
     url: https://ludii.games/details.php?keyword=Ludus+Latrunculorum
@@ -57,6 +57,19 @@ place: ""
 ## História
 
 Citado por Varrão, Ovídio, Sêneca e Isidoro de Sevilha; popular entre militares, segundo o DLP. Tabuleiros foram achados em sítios romanos de várias províncias, incluindo a ágora de Esmirna. Platão já compara adversários a maus jogadores de *petteia* "encurralados", o que liga o latrunculi aos jogos gregos de captura.
+
+## Do que você vai precisar?
+
+- Um tabuleiro quadriculado. Em várias reconstruções ele tem 8×8 casas
+- Peças para os dois jogadores, de cores diferentes. O número depende da reconstrução: de 16 a 24 por jogador (Schädler), 20 (Locus Ludi) ou 16 comuns e 1 *dux*, o chefe, de outra cor (Bell)
+
+Na reconstrução de Schädler, as peças devem ter os dois lados diferentes, como moedas, para poderem ser viradas.
+
+## Para quem conduz
+
+Esta ficha ainda não tem "Como jogar?". O jogo só existe em reconstruções modernas, e a curadoria ainda não escolheu qual delas ensinar. As três principais diferem em coisas que mudam a partida: o número de peças, a captura (imediata ou com a peça presa e retirada na vez seguinte) e o fim da partida. Elas estão por inteiro em "Regras".
+
+Nenhuma das três diz quem começa. Para os jogadores, o caminho é escolher uma delas antes de começar e combinar as pontas soltas.
 
 ## Regras
 

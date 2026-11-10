@@ -24,7 +24,7 @@ recon:
   - Edward Falkener (1892)
   - Timothy Kendall (1978)
   - R. C. Bell
-summary: Jogo de corrida do Egito antigo, jogado num tabuleiro de 3 fileiras de 10 casas. É um dos jogos de tabuleiro mais antigos conhecidos. As regras originais se perderam; todas as regras jogadas hoje são reconstruções modernas.
+summary: "Jogo de corrida do Egito antigo, num tabuleiro de 3 fileiras de 10 casas. É um dos jogos de tabuleiro mais antigos conhecidos. As regras originais se perderam, e as que se jogam hoje são reconstruções modernas."
 refs:
   - title: "Ludii: evidências de Senet"
     url: https://ludii.games/data.php?gameId=3
@@ -50,6 +50,20 @@ place: ""
 ## História
 
 O DLP reúne 346 evidências do senet, desde grafites do Antigo Império (o mais antigo registrado é o da tumba de Ptahshepses, com datação ampla de c. 2402–1213 a.C.) até tabuleiros do Novo Império e do período ptolomaico. Caixas de jogo eram feitas com o senet num lado e as Vinte casas (Twenty Squares) no outro, com gaveta para peças e varetas de arremesso. O Met guarda várias delas, uma encontrada dentro de um caixão em Tebas.
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 3 fileiras de 10 casas (30), com o percurso em S: as casas são numeradas de 1 a 30, da 1 à 10 na primeira fileira, da 11 à 20 na segunda, no sentido contrário, e da 21 à 30 na terceira. Nos tabuleiros que sobreviveram, as casas 15, 26, 27, 28 e 29 costumam ter marcas, e a 27 tem o sinal da água
+- Peças para os dois jogadores, de cores diferentes. O número depende da reconstrução: 5 a 7 por jogador, e 10 em uma delas
+- Varetas de arremesso, ou um dado de quatro lados. O tipo e o valor do lance também dependem da reconstrução
+
+Caixas de jogo eram feitas com o senet num lado e as Vinte casas no outro, com gaveta para as peças e as varetas.
+
+## Para quem conduz
+
+Esta ficha ainda não tem "Como jogar?". Não existe regra documentada, e a curadoria ainda não escolheu qual reconstrução ensinar. As principais (Jéquier, 1930; Kendall, 1978–79; Bell; e a de Santos, Neto e Silva) diferem no número de peças, nos lances, no que acontece ao cair numa casa com peça do adversário e nas casas especiais. Elas estão por inteiro em "Regras".
+
+Nenhuma delas diz se a partida pode empatar.
 
 ## Regras
 
