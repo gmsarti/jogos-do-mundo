@@ -42,4 +42,12 @@ place: ""
 
 ## Regras
 
-Dado piramidal com faces de valores 1, 2, 3, 5 e 0 (Olivares); peças são pedrinhas; avança-se pelo circuito conforme o dado; cair sobre peça adversária a captura.
+As fontes antigas descrevem o jogo em pouco mais do que isto, na leitura de Depaulis (1998, *Inca Dice and Board Games*), que cita Ovalle (1646), Rosales, Olivares (c. 1758), Molina (1787) e Manquilef (1914). Nenhuma delas foi aberta no original; tudo vem de Depaulis.
+
+1. Tabuleiro: semicircular, com segmentos de cinco casas cada (Ovalle, desenho "Ludus quechucague"). O número de segmentos e de casas não está nas fontes lidas.
+2. Peças: pedrinhas (Ovalle). Quantas por jogador, a fonte não diz.
+3. Dado: um só. Ovalle o descreve como uma pirâmide alongada; Olivares, como um "triângulo isósceles" com faces de 1, 2, 3, 5 (?) e 0 (o "(?)" é de Depaulis); Molina, como um triângulo de osso com pontos, lançado por um aro apoiado em dois palitos. Manquilef (1914) descreve um dado de prisma de cinco lados, lançado por um "funil" num círculo no chão.
+4. Lance e percurso: as peças andam conforme o dado, "ao modo da oca" (o jogo do ganso) (Olivares). Rosales diz que era jogo de aposta, mas não menciona percurso; fala do aro suspenso por onde o dado era lançado. Se o aro era usado no jogo de tabuleiro, não está claro (Depaulis, a partir do dicionário de Febrés, 1765).
+5. Captura: a peça que encontra outra a "come", "ao modo do xadrez" (Olivares).
+6. Depaulis conclui que o *kechukawe* de tabuleiro parece ter sido um jogo de corrida com captura. Os estudiosos modernos descrevem um *kechukawe* que é só jogo de dados, com pontos marcados com palitos (Manquilef 1914).
+7. Não dizem as fontes lidas: de onde as peças saem e para onde vão, o sentido do percurso, quem começa, como se entra e como se vence.
