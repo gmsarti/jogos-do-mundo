@@ -22,7 +22,7 @@ ev:
   date: 1998 (publicação)
   ref: Verbeeck 1998
 recon: []
-summary: Jogo de corrida maia de equipes, com captura e empilhamento de peças, ligado à cerimônia da Vigília do Milho.
+summary: "Jogo de corrida e captura dos maias, em duas equipes de homens. Na Vigília do Milho, a noite antes do plantio, as equipes correm com gravetos por uma trilha de grãos de milho e carregam os gravetos capturados de volta para casa."
 refs:
   - title: Ludii
     url: https://ludii.games/details.php?keyword=Bul
@@ -36,6 +36,40 @@ place: ""
 ## História
 
 Documentado por L. Verbeeck (1998, *Board Games Studies* 1) como "um jogo de patolli nas terras baixas maias". Verbeeck viu o jogo entre os maias mopán e q'eqchi' de Belize, na Vigília do Milho (*vigil of the maize*), a noite antes de plantar o milho. Segundo Verbeeck, o jogo faz parte dos rituais e das obrigações cerimoniais da vigília, e só os católicos entre os maias de Belize ainda mantêm esse costume; com eles virando minoria, o jogo vai sendo esquecido. Na noite observada, foi jogado por dez homens e durou mais de três horas; "mulheres nunca jogam, nem sequer assistem". O ambiente era de harmonia e alegria, com pouca competição: não importa quem ganha, o que importa é jogar junto, como uma prévia da alegria da colheita. Os elementos do jogo não têm significado religioso específico: os grãos de milho servem porque estão sempre à mão numa casa maia. Ao fim da noite, os dados e as peças foram jogados fora. Segundo Verbeeck, os gritos e termos do jogo (carregar a "carga" de volta ao campo) refletem a vida do agricultor. O Ludii registra que é jogado por homens. *Bul*, em várias línguas maias, quer dizer jogar dados e, por extensão, perder jogando; não há tabuleiros de bul achados em sítios arqueológicos, segundo Verbeeck, e não se sabe se o jogo é pré-colombiano.
+
+## Do que você vai precisar?
+
+- 20 grãos de milho, para marcar a trilha (25 ou 30, conforme o número de jogadores)
+- 5 gravetos por jogador, que se reconheçam entre si (de comprimento igual ou de cor ou material diferente)
+- 4 grãos de milho para os dados, cada um marcado de um lado com um pontinho de carvão
+- Seis ou mais jogadores, em número par, divididos em duas equipes
+
+Os grãos de milho podem ser trocados por feijões ou botões, e os dados por 4 moedas ou 4 tampinhas marcadas de um lado. Os gravetos podem ser palitos, talos de folha ou qualquer objeto comprido. No registro de Verbeeck, a trilha era marcada no chão de barro de uma casa maia.
+
+## Como jogar?
+
+1. Dois times ficam sentados frente a frente no chão. Alinhe os grãos de milho a uns 5 cm um do outro: os espaços entre eles são as casas do jogo (a "estrada"). Cada time tem o seu campo de casa na ponta esquerda da estrada, do seu lado, e cada jogador tem os seus 5 gravetos.
+2. Os primeiros jogadores de cada time lançam os dados para decidir quem começa: vence o lance mais alto.
+3. Na sua vez, você lança os 4 grãos de milho duas vezes. A pontuação de cada lance é o número de pontinhos pretos voltados para cima (de 1 a 4); se os quatro caírem sem pontinho voltado para cima, vale 5.
+4. Mova o seu graveto depois do segundo lance, na ordem que preferir: use um lance, depois o outro. Cada jogador só tem um graveto andando na estrada de cada vez.
+5. As equipes entram pelas pontas opostas e andam em sentidos opostos. Quando um graveto chega ao campo do adversário, volta para o ponto de partida pelo mesmo caminho. Não é preciso um lance exato para entrar em casa. Quando o graveto chega em casa, o jogador entra com outro.
+6. Se o seu graveto cair numa casa ocupada por um graveto do adversário, você o captura: ele sai do jogo e o dono entra com outro, na vez dele. Volte direto para o seu campo, carregando o prisioneiro embaixo do seu graveto.
+   - Se um graveto do adversário cair na casa onde voltam o captor e o prisioneiro, ele captura a pilha e a leva para o campo dele; a pilha pode ser capturada de novo, e as capturas e recapturas não têm limite.
+   - Cair numa casa com um graveto do seu próprio time é permitido e não muda nada.
+   - Se o primeiro lance captura, o segundo conta para carregar o prisioneiro de volta. Se o primeiro lance traz o graveto em segurança para casa, o segundo serve para entrar de novo.
+7. Um jogador cujos gravetos foram todos capturados continua lançando os dados, para ajudar o time.
+8. O jogo é uma série de cinco partidas, uma de cada vez, em ordem. A primeira (*aj sayil*) usa as regras acima; as outras mudam a forma de correr e atacar (veja "Para quem conduz").
+9. Cada partida acaba quando um time não tem mais gravetos para entrar. Vence o time que capturou mais gravetos do adversário. No fim das cinco, o resultado "não importa".
+
+## Para quem conduz
+
+Verbeeck descreve as cinco partidas assim, depois da primeira: na segunda (*aj t'iwil*, "a águia"), quem captura sai logo da estrada com o prisioneiro e não entra com outro graveto; na terceira (*aj sina'anil*, "o escorpião"), o graveto anda para a frente e para trás para capturar, as recapturas valem e o graveto vencedor entra de novo; na quarta (*aj sakakil*, "as formigas"), os gravetos seguem em frente até o outro lado, mesmo carregando prisioneiros, e o vencedor entra de novo pelo ponto de partida; na quinta (*a k'aak'il*, "o fogo"), há um pequeno círculo de carvão no meio da estrada, e quem cair nele queima, junto com os prisioneiros; quem captura antes do fogo pode voltar logo e entrar de novo depois de chegar em casa.
+
+O jogo é descrito como de homens (Verbeeck diz que as mulheres nunca jogam nem assistem) e faz parte de uma cerimônia. O texto aqui só registra o que as fontes dizem; antes de ensiná-lo, vale conferir como apresentá-lo.
+
+As fontes divergem em alguns pontos: Bell (via Wikipedia) descreve um jogo de dois jogadores, com a regra de que o graveto não pode parar numa casa já ocupada por um graveto do mesmo time, e diz que o jogo acaba quando um lado não tem mais gravetos para mover; Culin e Sapper, também via Wikipedia, descrevem versões com um só lance por vez. Verbeeck também cita uma restrição da Guatemala (Ventur 1980): quando todos os gravetos de um jogador estão "imobilizados", ele fica "paralisado", perde a vez e não lança de novo até que se decida o resultado das capturas.
+
+**Sugestão do site:** com crianças, jogue só a primeira partida (*aj sayil*), com uma equipe de 3 e outra de 3 e 3 gravetos cada.
 
 ## Regras
 

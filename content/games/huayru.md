@@ -27,7 +27,7 @@ ev:
   date: 1552 (López de Gómara, via Depaulis)
   ref: Depaulis 1998
 recon: []
-summary: Nome do dado piramidal de seis faces dos incas (também *pichqa*, "cinco") e dos jogos de corrida em tabuleiro jogados com ele. Ligado a ritos funerários até o séc. XX no Peru e no Equador.
+summary: "Dado de seis faces em forma de pirâmide, usado pelos incas (*pichqa*, \"cinco\", ou *wayru*), e jogos de corrida em buracos jogados com ele, que os registros ligam a velórios do séc. XVII ao XX, no Peru e no Equador."
 refs:
   - title: Depaulis 1998, Inca Dice and Board Games (BGS 1)
     url: http://bgs.ludicum.org/pdf/issue1/BGS1Depaulis.pdf
@@ -43,6 +43,20 @@ place: ""
 - Bertonio (1612) registra os verbos aimarás *huayrusitha* e *piscasitha* para jogos em que se avançam pedrinhas em buracos conforme o dado, em círculo ou em zigue-zague "como um rio".
 - Em 1965, Roswith Hartmann e Udo Oberem observaram em Sigsig (Equador) um jogo chamado *huairu* num tabuleiro de 29 buracos em circuito triangular dividido por uma linha central; os dois jogadores têm percursos de tamanhos diferentes (10 e 20 casas) e vence quem chega ao centro.
 - Pablo José de Arriaga (1621) já registrava o jogo durante o velório; Juan de Velasco (1789) diz que se jogava de preferência em novembro.
+
+## Do que você vai precisar?
+
+- Um tabuleiro com 29 buracos em circuito, 24 pequenos e 5 maiores (as "casas"), no formato do registro de Sigsig (Equador). Não foi possível desenhá-lo só com o texto
+- Grãos de milho, feijões ou pedrinhas como peças (as fontes não dizem quantas)
+- Um dado de cinco pontos e uma face vazia, em forma de pirâmide (*pichqa*)
+
+Esta ficha ainda não tem "Como jogar?": as fontes abertas não dão a posição dos buracos, a quantidade de peças nem o que acontece quando as peças dos dois lados se encontram.
+
+## Para quem conduz
+
+O registro de Sigsig é de dois grupos que se enfrentam, cada um chefiado por um *callai* ("começo", em quíchua), que é quem lança o dado primeiro (Tacconi 2026, Apêndice A). O jogo é ligado a velórios. Antes de ensiná-lo, vale conferir como apresentá-lo.
+
+**Sugestão do site:** as regras abaixo não bastam para jogar. Para uma oficina, melhor usar um dos jogos de corrida que têm regras completas na ficha.
 
 ## Regras
 

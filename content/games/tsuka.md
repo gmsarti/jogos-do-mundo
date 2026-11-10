@@ -30,7 +30,7 @@ ev:
   date: "1924"
   ref: Rosen 1924; Nordenskiöld 1929
 recon: []
-summary: Jogo de corrida masculino do Gran Chaco, jogado com varetas de arremesso como dados, no fim da estação das chuvas (março).
+summary: "Jogo de corrida e captura dos homens do Gran Chaco, jogado com varetas lançadas como dados num caminho de buracos no chão, com um \"rio\" no meio. Foi registrado entre vários povos da região, no início do séc. XX."
 refs:
   - title: Juegos mocovíes (Etnobiológica)
     url: https://revistas.unne.edu.ar/index.php/etno/article/view/2149/1874
@@ -38,6 +38,21 @@ refs:
     url: https://ueaeprints.uea.ac.uk/id/eprint/102351/1/2026_TacconiS_PhD_Thesis.pdf
 place: ""
 ---
+
+## Do que você vai precisar?
+
+- Um caminho de 21 ou 23 buracos rasos, cavados no chão em linha. Os buracos das pontas são as "casas" dos jogadores. O buraco do meio fica vazio e se chama "rio"
+- Uma flecha (ou vareta pontuda) para cada jogador, como marcador
+- Gravetos ou talos, um em cada buraco dos dois lados do rio, fora o das pontas. Em alguns lugares são vistos como "ovelhas"
+- Varetas de madeira com um lado chato e um lado convexo, para lançar como dados (as fontes abertas não dizem quantas)
+
+Esta ficha ainda não tem "Como jogar?": a descrição que as fontes abertas trazem não diz quantas varetas se lançam nem como se captura.
+
+## Para quem conduz
+
+O jogo é registrado como jogo de homens (Tacconi 2026, Apêndice A, a partir de Nordenskiöld). Rosen (1924) conta que os chorotí o jogavam em época de escassez, e quanto mais jogavam, mais depressa amadureciam os frutos (via artigo *Juegos mocovíes*, Etnobiológica 1968). Antes de ensiná-lo, vale conferir como apresentá-lo.
+
+**Sugestão do site:** as regras abaixo não bastam para jogar. Para uma oficina, melhor usar um jogo de corrida com regras completas na ficha.
 
 ## Regras
 
