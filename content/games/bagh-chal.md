@@ -33,10 +33,12 @@ summary: "Jogo de caça do Nepal, jogado também na Índia: quatro tigres contra
 refs:
   - title: "Wikipedia: Traditional games of Nepal"
     url: https://en.wikipedia.org/wiki/Traditional_games_of_Nepal
+    lang: en
   - title: "Ludii: Baghchal"
     url: https://ludii.games/details.php?keyword=Baghchal
   - title: "Wikipedia: Bagh-chal"
     url: https://en.wikipedia.org/wiki/Bagh-chal
+    lang: en
 place: ""
 ---
 

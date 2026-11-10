@@ -28,6 +28,7 @@ refs:
     url: https://ludii.games/details.php?keyword=Bul
   - title: "Wikipedia: Bul"
     url: https://en.wikipedia.org/wiki/Bul_(game)
+    lang: en
   - title: "Verbeeck 1998, Bul: A Patolli Game in Maya Lowland (BGS 1)"
     url: http://bgs.ludicum.org/pdf/issue1/BGS1Verbeeck.pdf
 place: ""

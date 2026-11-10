@@ -34,6 +34,10 @@ summary: "Jogo de captura do mundo árabe e ibérico: o nome vem do árabe *al-q
 refs:
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Alquerque
+    lang: en
+  - title: Wikipédia
+    url: https://pt.wikipedia.org/wiki/Alquerque
+    lang: pt
   - title: Libro de los juegos (Commons)
     url: https://commons.wikimedia.org/wiki/Category:Libro_de_los_juegos
   - title: Fernandes e Alberto 2009 (Açafa)

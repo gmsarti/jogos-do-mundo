@@ -36,6 +36,7 @@ refs:
     url: https://ludii.games/variantDetails.php?keyword=20%20Squares&variant=35
   - title: "Wikipedia: Royal Game of Ur (seção Game of Twenty)"
     url: https://en.wikipedia.org/wiki/Royal_Game_of_Ur
+    lang: en
 place: ""
 ---
 

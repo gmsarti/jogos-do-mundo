@@ -30,6 +30,10 @@ refs:
     url: https://healthy.uwaterloo.ca/museum/Archives/Culin/index.html
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Mahjong
+    lang: en
+  - title: Wikipédia
+    url: https://pt.wikipedia.org/wiki/Mahjong
+    lang: pt
   - title: "Mahjong Competition Rules (MCR), regras chinesas oficiais, edição em inglês de 2006"
     url: https://mahjong.dk/hubfs/Mahjong%20documents/MCR/MCR_Rulebook_2006.pdf
   - title: "Associação Europeia de Mahjong: regras de riichi (2025)"

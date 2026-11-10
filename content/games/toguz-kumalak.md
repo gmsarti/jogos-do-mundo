@@ -32,6 +32,7 @@ refs:
     url: https://mancala.fandom.com/wiki/Toguz_Kumalak
   - title: "Wikipedia: Toguz korgool"
     url: https://en.wikipedia.org/wiki/Toguz_korgool
+    lang: en
 place: ""
 ---
 

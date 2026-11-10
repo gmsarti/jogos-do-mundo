@@ -39,6 +39,7 @@ refs:
     url: http://observatorioedhemfoc.hospedagemdesites.ws/observatorio/wp-content/uploads/2017/12/JogoTabuleirocomoPraticaEducativaIntercultural.pdf
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Adugo
+    lang: en
   - title: GamesCrafters
     url: https://gamescrafters.berkeley.edu/games.php?game=adugo
   - title: "Vergara e Martínez: Jogos de Tabuleiro (Museu da Matemática UFMG)"

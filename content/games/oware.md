@@ -39,6 +39,7 @@ summary: "Jogo de semeadura da África Ocidental, de origem atribuída aos Akan 
 refs:
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Oware
+    lang: en
   - title: Ludii
     url: https://ludii.games/details.php?keyword=Oware
   - title: BGG wiki

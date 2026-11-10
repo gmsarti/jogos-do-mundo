@@ -27,14 +27,21 @@ refs:
     url: https://healthy.uwaterloo.ca/museum/Archives/Culin/index.html
   - title: "Wikipedia: Dominoes"
     url: https://en.wikipedia.org/wiki/Dominoes
+    lang: en
+  - title: Wikipédia
+    url: https://pt.wikipedia.org/wiki/Domin%C3%B3
+    lang: pt
   - title: Culin 1893, Chinese Games with Dice and Dominoes (IA)
     url: https://archive.org/details/chinesegameswith01culi
   - title: "Wikipedia: Chinese dominoes"
     url: https://en.wikipedia.org/wiki/Chinese_dominoes
+    lang: en
   - title: "Wikipedia: Tien Gow"
     url: https://en.wikipedia.org/wiki/Tien_Gow
+    lang: en
   - title: "Wikipedia: Pai gow"
     url: https://en.wikipedia.org/wiki/Pai_gow
+    lang: en
 place: ""
 ---
 

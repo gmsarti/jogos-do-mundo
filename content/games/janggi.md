@@ -29,6 +29,7 @@ refs:
     url: https://ineveryclimeandplace.substack.com/p/part-1context-of-a-game
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Janggi
+    lang: en
   - title: Ludii
     url: https://ludii.games/details.php?keyword=Janggi
   - title: Culin 1895, Korean Games (IA)

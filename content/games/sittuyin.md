@@ -31,6 +31,7 @@ refs:
     url: https://ludii.games/details.php?keyword=Sittuyin
   - title: "Wikipedia: Sittuyin"
     url: https://en.wikipedia.org/wiki/Sittuyin
+    lang: en
 place: ""
 ---
 

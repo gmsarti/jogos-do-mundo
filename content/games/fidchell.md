@@ -27,6 +27,10 @@ summary: "Jogo de tabuleiro da Irlanda medieval, citado em mitos e sagas como jo
 refs:
   - title: "Wikipedia: Tafl games"
     url: https://en.wikipedia.org/wiki/Tafl_games
+    lang: en
+  - title: Wikipédia
+    url: https://pt.wikipedia.org/wiki/Tafl
+    lang: pt
 place: ""
 ---
 

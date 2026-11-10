@@ -27,6 +27,10 @@ summary: "Jogo irlandês medieval, cujo nome quer dizer \"corvo negro\": o rei e
 refs:
   - title: "Wikipedia: Tafl games"
     url: https://en.wikipedia.org/wiki/Tafl_games
+    lang: en
+  - title: Wikipédia
+    url: https://pt.wikipedia.org/wiki/Tafl
+    lang: pt
   - title: "Cyningstan: Brandub (regras de Aage Nielsen)"
     url: http://tafl.cyningstan.com/page/171/brandub
   - title: "Ludii: Brandub"

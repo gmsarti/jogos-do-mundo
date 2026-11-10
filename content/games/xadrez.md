@@ -45,6 +45,10 @@ refs:
     url: https://handbook.fide.com/chapter/E012023
   - title: "Wikipedia: Rules of chess"
     url: https://en.wikipedia.org/wiki/Rules_of_chess
+    lang: en
+  - title: Wikipédia
+    url: https://pt.wikipedia.org/wiki/Leis_do_xadrez
+    lang: pt
 place: ""
 ---
 

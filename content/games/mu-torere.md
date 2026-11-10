@@ -29,6 +29,7 @@ refs:
     url: https://ludii.games/details.php?keyword=Mu+Torere
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/M%C5%AB_t%C5%8Drere
+    lang: en
   - title: "Browne 2020: Modern Techniques for Ancient Games (arXiv)"
     url: https://arxiv.org/abs/2101.10066
 place: ""

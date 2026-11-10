@@ -28,6 +28,7 @@ refs:
     url: https://ludii.games/search.php?id=DLP.Games.credit.Eric+Piette
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Shisima
+    lang: en
   - title: LoboGames UFRGS
     url: https://www.inf.ufrgs.br/lobogames/wp-content/uploads/2023/06/Jogos_Semana_Africa_UFRGS_2023_tamanho_A4.pdf
 place: ""

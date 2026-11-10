@@ -38,6 +38,7 @@ refs:
     url: https://www.fmjd.org/downloads/64cb/Official_Rules_of_the_game_in_64_classic_draughts.pdf
   - title: "Wikipedia: Brazilian draughts"
     url: https://en.wikipedia.org/wiki/Brazilian_draughts
+    lang: en
 place: ""
 ---
 

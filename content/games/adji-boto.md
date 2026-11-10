@@ -25,6 +25,7 @@ summary: "Jogo de semeadura dos saramacas, quilombolas (*maroons*) do rio Sarama
 refs:
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Adji-boto
+    lang: en
   - title: Ludii, arquivo de regras Adjiboto.lud (a partir de Herskovits 1929)
     url: https://github.com/Ludeme/Ludii/blob/master/Common/res/lud/board/sow/two_rows/Adjiboto.lud
 place: ""
