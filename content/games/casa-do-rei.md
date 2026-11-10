@@ -21,7 +21,7 @@ ev:
   date: "1998"
   ref: Vinha 2004; depoimento de Domingos Soares
 recon: []
-summary: Jogo de tabuleiro circular dos Kadiwéu (MS), registrado por Marina Vinha a partir do ancião Domingos Soares, da aldeia Bodoquena. As regras não foram registradas.
+summary: "Jogo de tabuleiro circular dos Kadiwéu, no Mato Grosso do Sul, desenhado na areia pelo ancião Domingos Soares, da aldeia Bodoquena, e registrado por Marina Vinha. As regras não foram registradas."
 refs:
   - title: Vinha
     url: http://observatorioedhemfoc.hospedagemdesites.ws/observatorio/wp-content/uploads/2017/12/JogoTabuleirocomoPraticaEducativaIntercultural.pdf
@@ -31,6 +31,12 @@ place: ""
 ## História
 
 Soares tinha 88 anos quando a pesquisa começou, em 1998, e morreu em 2006. Desenhou o tabuleiro na areia e deu uma aula na escola da aldeia, explicando em kadiwéu; a pesquisadora não conseguiu traduzir as regras. Vinha aproxima o tabuleiro dos jogos de tipo merels em forma de labirinto e o compara aos grafismos Kadiwéu registrados por Guido Boggiani (c. 1897, publicado em 1945) e por Darcy Ribeiro (1948, publicado em 1980). Na aldeia o jogo estava pouco praticado.
+
+## Para quem conduz
+
+Esta ficha não tem "Como jogar?" nem lista de materiais: Soares explicou o jogo em kadiwéu, a pesquisadora não conseguiu traduzir as regras, e ele morreu em 2006. Só se sabe que o tabuleiro era circular e foi riscado na areia. O jogo é registrado como pouco praticado na aldeia.
+
+**Sugestão do site:** para trabalhar o tema com uma turma, use o desenho do tabuleiro e os grafismos Kadiwéu que a pesquisa cita como ponto de partida para uma conversa, sem inventar regras.
 
 ## Regras
 
