@@ -1,5 +1,11 @@
 import { z } from "zod";
-import type { Countries, Families, Game, Glossary } from "../src/types.ts";
+import type {
+  Countries,
+  Families,
+  Game,
+  Glossary,
+  Languages,
+} from "../src/types.ts";
 
 const KEBAB_ID = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
@@ -68,12 +74,14 @@ interface GameContext {
   fileId: string;
   families: Families;
   countries: Countries;
+  languages: Languages;
 }
 
 export function gameSchema({
   fileId,
   families,
   countries,
+  languages,
 }: GameContext): z.ZodType<Game> {
   return z.strictObject({
     id: z
@@ -123,6 +131,12 @@ export function gameSchema({
         z.strictObject({
           title: text,
           url: z.url({ protocol: /^https?$/ }),
+          lang: z
+            .string()
+            .refine((code) => code in languages, {
+              message: "unknown language",
+            })
+            .optional(),
         }),
       )
       .min(1),

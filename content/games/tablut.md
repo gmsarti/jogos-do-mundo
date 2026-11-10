@@ -29,6 +29,10 @@ refs:
     url: https://ludii.games/details.php?keyword=Tablut
   - title: "Wikipedia: Tafl games"
     url: https://en.wikipedia.org/wiki/Tafl_games
+    lang: en
+  - title: Wikipédia
+    url: https://pt.wikipedia.org/wiki/Tafl
+    lang: pt
 place: ""
 ---
 

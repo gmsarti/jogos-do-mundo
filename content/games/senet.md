@@ -36,6 +36,10 @@ refs:
     url: https://archive.org/details/gamesancientorie00falkuoft
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Senet
+    lang: en
+  - title: Wikipédia
+    url: https://pt.wikipedia.org/wiki/Senet
+    lang: pt
   - title: "Ludii: Senet (Kendall)"
     url: https://ludii.games/variantDetails.php?keyword=Senet&variant=922
   - title: "Ludii: Senet (Bell)"

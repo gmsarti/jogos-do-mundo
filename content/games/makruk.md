@@ -32,6 +32,7 @@ summary: "Xadrez tailandês, jogado até hoje na Tailândia. Os peões são búz
 refs:
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Makruk
+    lang: en
   - title: Chess Variant Pages
     url: https://chessvariants.org/oriental.dir/thaimate.html
   - title: "ancientchess.com: How to Play Makruk"

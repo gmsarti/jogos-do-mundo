@@ -30,6 +30,7 @@ refs:
     url: https://ludii.games/details.php?keyword=Puluc
   - title: "Wikipedia: Bul"
     url: https://en.wikipedia.org/wiki/Bul_(game)
+    lang: en
   - title: cyningstan (regras de Bell)
     url: http://www.cyningstan.com/game/149/puluc
   - title: "Sapper 1906: Spiele der Kekchi-Indianer (Boas Anniversary Volume, archive.org)"

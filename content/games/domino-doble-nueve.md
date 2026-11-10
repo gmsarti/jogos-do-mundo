@@ -32,6 +32,7 @@ refs:
     url: https://www.bbc.com/mundo/noticias/2014/08/140814_deportes_domino_doble_nueve_cuba_msd
   - title: "Wikipedia em espanhol: Dominó (dominó cubano)"
     url: https://es.wikipedia.org/wiki/Domin%C3%B3
+    lang: es
 place: ""
 ---
 

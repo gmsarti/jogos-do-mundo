@@ -30,12 +30,14 @@ refs:
     url: https://ludii.games/library.php
   - title: "Wikipedia: Adugo"
     url: https://en.wikipedia.org/wiki/Adugo
+    lang: en
   - title: Depaulis 1998 (BGS 1)
     url: http://bgs.ludicum.org/pdf/issue1/BGS1Depaulis.pdf
   - title: Ludii
     url: https://ludii.games/details.php?keyword=Komikan
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Komikan
+    lang: en
   - title: "Mátus 1918-19: Juegos i ejercicios de los antiguos araucanos"
     url: https://boletinmnhn.cl/index.php/ojs/article/download/786/822/1322
 place: ""

@@ -38,7 +38,7 @@ Todos os campos são obrigatórios, a menos que a coluna diga o contrário. Camp
 | `sens` | string | Sensibilidade cultural. `nenhuma` ou `desconhecido`, ou o motivo (`ritual`, `aposta`, `restrito (...)`) |
 | `ev` | objeto | Evidência: `kind` (`ethnography`, `text`, `iconography`, `artifact`, `oral`, `unknown`), `date` e `ref` (texto, podem ser `""`) |
 | `recon` | lista de strings | Reconstruções modernas das regras (autores e anos). `[]` se não houver |
-| `refs` | lista de `{title, url}` | **Pelo menos uma.** `url` http(s) verificável |
+| `refs` | lista de `{title, url, lang?}` | **Pelo menos uma.** `url` http(s) verificável. `lang` (opcional) é um código de `languages.json`: a ficha lista as refs em português primeiro e marca as outras ("em inglês"). Ref sem `lang` não leva marca |
 | `place` | string | Local mais preciso que o país (ex.: `Havaí`). `""` se não houver |
 | `summary` | string | Uma ou duas frases |
 

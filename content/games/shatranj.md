@@ -37,8 +37,13 @@ refs:
     url: https://ludii.games/details.php?keyword=Shatranj
   - title: "Wikipedia: Shatranj"
     url: https://en.wikipedia.org/wiki/Shatranj
+    lang: en
+  - title: Wikipédia
+    url: https://pt.wikipedia.org/wiki/Xatranje
+    lang: pt
   - title: "Wikipedia: Knight (chess)"
     url: https://en.wikipedia.org/wiki/Knight_(chess)
+    lang: en
 place: ""
 ---
 

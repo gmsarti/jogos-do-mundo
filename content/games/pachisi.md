@@ -34,6 +34,10 @@ refs:
     url: https://archive.org/details/qanooneislamorcu00jafa
   - title: "Wikipedia: Pachisi"
     url: https://en.wikipedia.org/wiki/Pachisi
+    lang: en
+  - title: Wikipédia
+    url: https://pt.wikipedia.org/wiki/Pachisi
+    lang: pt
 place: ""
 ---
 

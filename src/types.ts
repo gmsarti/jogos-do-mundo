@@ -13,6 +13,8 @@ export type EvidenceKind =
 export interface Reference {
   title: string;
   url: string;
+  /** Language code from `languages.json`; absent when not checked. */
+  lang?: string;
 }
 
 /** A photo or drawing of the game, always with its author and license. */

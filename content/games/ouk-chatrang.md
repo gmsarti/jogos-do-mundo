@@ -29,6 +29,7 @@ summary: 'Xadrez do Camboja, a versão cambojana do *makruk* tailandês. As regr
 refs:
   - title: "Wikipedia: Makruk"
     url: https://en.wikipedia.org/wiki/Makruk
+    lang: en
   - title: "Krabbé: Makruk, chess in Cambodia"
     url: https://timkr.home.xs4all.nl/chess/makruk.htm
 place: ""

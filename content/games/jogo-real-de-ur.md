@@ -34,6 +34,7 @@ refs:
     url: https://cdli.earth/P498293
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Royal_Game_of_Ur
+    lang: en
   - title: "Ludii: Royal Game of Ur, regras de Finkel"
     url: https://ludii.games/variantDetails.php?keyword=Royal%20Game%20of%20Ur&variant=77
 place: ""

@@ -32,6 +32,7 @@ refs:
     url: https://ludii.games/variantDetails.php?keyword=Ludus+Latrunculorum&variant=1613
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Ludus_latrunculorum
+    lang: en
   - title: Lane, Manners and Customs of the Modern Egyptians (Project Gutenberg)
     url: https://www.gutenberg.org/ebooks/70796
   - title: "Ludii: Seega"

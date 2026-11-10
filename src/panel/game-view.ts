@@ -3,6 +3,7 @@ import { boardSvg } from "../boards/svg.ts";
 import { termsIn } from "../lib/glossary.ts";
 import { esc, md } from "../lib/md.ts";
 import { localName } from "../lib/names.ts";
+import { orderRefs, refNote } from "../lib/refs.ts";
 import type { Catalog, Game } from "../types.ts";
 import { STATUS_LABEL, statusHelp } from "./status.ts";
 
@@ -83,11 +84,11 @@ export function gameView(
     : "";
   // The box closes "Como jogar?"; games without it get the box after "Regras"
   const words = wordsBox(catalog, game);
-  const refs = game.refs
-    .map(
-      (r) =>
-        `<li><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></li>`,
-    )
+  const refs = orderRefs(game.refs)
+    .map((r) => {
+      const note = refNote(r, catalog.languages);
+      return `<li><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${note ? ` <small>(${esc(note)})</small>` : ""}</li>`;
+    })
     .join("");
 
   // Without "Como jogar?", "Regras" is still what the reader plays from, so it stays in the first layer

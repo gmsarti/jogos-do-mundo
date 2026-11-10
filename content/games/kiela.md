@@ -25,6 +25,7 @@ summary: "Jogo de semeadura de quatro fileiras dos falantes de kimbundu, no nort
 refs:
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Kiela
+    lang: en
   - title: "Mancala World: Kiela"
     url: https://mancala.fandom.com/wiki/Kiela
 place: ""

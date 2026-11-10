@@ -35,6 +35,7 @@ refs:
     url: https://ludii.games/details.php?keyword=Muvalavala%20(Quioco)
   - title: "Wikipedia: Hawalis"
     url: https://en.wikipedia.org/wiki/Hawalis
+    lang: en
 place: ""
 ---
 

@@ -39,6 +39,7 @@ refs:
     url: https://ludii.games/details.php?keyword=Chaupar
   - title: "Wikipedia: Chaupar"
     url: https://en.wikipedia.org/wiki/Chaupar
+    lang: en
 place: ""
 ---
 
