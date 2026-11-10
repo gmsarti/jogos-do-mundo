@@ -28,7 +28,7 @@ ev:
   date: ""
   ref: ""
 recon: []
-summary: Jogo de semeadura de quatro fileiras de Uganda, associado aos Ganda. Há fotos de tabuleiros nas Tumbas de Kasubi, sítio dos reis de Buganda.
+summary: "Jogo de semeadura de Uganda, associado aos Ganda, num tabuleiro de 4 fileiras de 8 covas. Há fotos de tabuleiros nas Tumbas de Kasubi, sítio dos reis de Buganda."
 refs:
   - title: "Ludii: biblioteca"
     url: https://ludii.games/library.php
@@ -42,6 +42,31 @@ refs:
     url: https://en.wikipedia.org/wiki/Omweso
 place: ""
 ---
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 4 fileiras de 8 covas. Cada jogador fica com as 16 covas do seu lado, as duas fileiras mais próximas dele
+- 32 sementes para cada jogador, 64 no total (a verificar)
+
+O tabuleiro pode ser desenhado no papel, com um círculo para cada cova. As sementes podem ser feijões, grãos de milho, pedrinhas e por aí vai.
+
+## Como jogar?
+
+1. Ponha 4 sementes em cada uma das 8 covas mais próximas de cada jogador.
+2. Um sorteio decide quem começa. Quem começa arruma todas as suas sementes nas suas covas como quiser. Depois, o outro arruma as dele. Então quem começou faz a primeira semeadura (a verificar).
+3. Na sua vez, pegue todas as sementes de uma cova sua e semeie uma a uma, no sentido anti-horário, só nas suas duas fileiras. Você não pode semear uma cova com uma semente só.
+4. Se a última semente cair numa cova vazia, a vez acaba. Se cair numa cova ocupada, pegue todas as sementes dela e continue semeando, no mesmo sentido.
+5. Se a última semente cair numa cova ocupada da sua fileira de dentro e as duas covas do adversário na mesma coluna estiverem ocupadas, você captura as sementes dessas duas covas.
+   - As sementes capturadas são semeadas do seu lado, a começar da cova que recebeu a primeira semente da semeadura que levou à captura.
+   - Se uma das duas covas do adversário estiver vazia, não há captura.
+6. Você pode semear no sentido horário a partir das quatro covas do seu lado esquerdo (as duas da esquerda na fileira de fora e as duas da esquerda na fileira de dentro), quando isso leva a uma captura.
+7. Perde quem não consegue mais jogar: quando todas as suas sementes foram capturadas ou quando você não tem nenhuma cova com mais de uma semente. Também vence quem, num mesmo lance, captura nas duas pontas do tabuleiro (a verificar).
+
+## Para quem conduz
+
+As fontes não dizem se capturar é obrigatório quando possível nem se há empate. O Ludii, a partir de Shackell (1934), diz só que cada jogador arruma as suas sementes como quiser, sem a ordem do passo 2.
+
+**Sugestão do site:** combinem antes da partida se capturar é obrigatório e o que fazer se a partida não terminar.
 
 ## Regras
 

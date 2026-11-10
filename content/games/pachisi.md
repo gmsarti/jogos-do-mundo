@@ -24,7 +24,7 @@ ev:
   date: ""
   ref: ""
 recon: []
-summary: Jogo de corrida em cruz, um dos mais jogados na história do Sul da Ásia, ancestral do Ludo e do Parcheesi.
+summary: "Jogo de corrida do Sul da Ásia, num tabuleiro em forma de cruz, com lances dados por búzios. Foi registrado no Decão por Herklots em 1832, e o Ludo e o Parcheesi são adaptações dele."
 refs:
   - title: Ludii
     url: https://ludii.games/details.php?keyword=Pachisi
@@ -40,6 +40,35 @@ place: ""
 ## História
 
 O nome vem de "vinte e cinco", o lance mais alto (a verificar). Diz-se que a corte mogol o jogava em pátios-tabuleiro com pessoas como peças (a verificar). Foi adaptado no Reino Unido (Ludo, 1896) e nos EUA (Parcheesi, marca registrada): essas versões comerciais são registros separados ligados a este. O jogo-irmão mais antigo e complexo é o chaupar (tradgames.org.uk, secundário).
+
+## Do que você vai precisar?
+
+- Um tabuleiro em cruz: quatro retângulos de 3 fileiras de 8 casas, encostados pelo lado estreito em volta de uma casa grande no centro. Doze casas são marcadas com uma cruz: em cada braço, a casa da ponta da coluna do meio e, em cada uma das duas colunas de fora, a quarta casa contada a partir do centro
+- 4 peças para cada jogador, de uma cor cada um
+- 6 ou 7 búzios, usados como dados. Conta-se quantos caem com a abertura para cima
+
+O tabuleiro pode ser impresso ou desenhado no papel. Para os búzios, serve qualquer coisa com dois lados bem diferentes, como conchinhas.
+
+## Como jogar?
+
+1. Joguem em quatro, em duplas (amarelo e preto contra vermelho e verde), cada um sentado diante de um dos braços da cruz e com 4 peças. Em dois, cada jogador fica com os dois braços opostos e 8 peças (Herklots).
+2. Cada jogador lança os búzios, e quem tirar o número mais alto começa (a verificar).
+3. Na sua vez, lance os búzios e conte os que caíram com a abertura para cima. Com 6 búzios, o lance vale:
+   - nenhum: 6; 1: 10; 2: 2; 3: 3; 4: 4; 5: 25; 6: 12.
+   - Um lance de 25 dá um passo a mais, de 1.
+4. Lance de novo até tirar 2, 3 ou 4. Aí passa a vez. O mesmo número tirado três vezes seguidas não vale.
+5. As suas peças entram uma a uma pela coluna do meio do seu braço, a começar da casa vizinha ao centro. Depois dão a volta pelas colunas de fora de todos os braços, da direita para a esquerda (contra o sol), e voltam pela coluna do meio de onde saíram.
+6. Se a sua peça cair sobre uma peça do adversário, ela volta ao início. Isso não vale nas casas marcadas com cruz: uma peça numa casa com cruz não pode ser capturada, e a peça do adversário não pode parar ali.
+7. Para entrar na casa do centro, o lance tem de ser exatamente uma casa a mais do que as que faltam. A peça parada na última casa só sai com um 25, por causa do passo a mais.
+8. Vence a dupla que levar todas as peças ao centro. Para Herklots, a partida continua até três jogadores tirarem as suas peças.
+
+## Para quem conduz
+
+A tabela de lances varia entre as fontes. A da ficha é a de Herklots (1832), lida pelo Ludii; com 7 búzios, o 6 vale 30 e o 7 vale 12, e o 30 também dá o passo a mais. A Wikipedia traz outras tabelas, sem fonte: com 6 búzios, nenhum vale 25 e os lances de 25, 10 e 6 dão nova jogada; com 7, nenhum vale 7, o 5 vale 25, o 6 vale 35 e o 7 vale 14.
+
+A ficha não diz se uma peça entra no tabuleiro com qualquer lance ou só com um especial, se mover é obrigatório nem o que fazer quando o lance não puder ser usado. Herklots não fala em duplas: para ele, a partida continua até três jogadores tirarem as suas peças.
+
+**Sugestão do site:** combinem a tabela de lances, como as peças entram e se jogam em duplas antes de começar.
 
 ## Regras
 

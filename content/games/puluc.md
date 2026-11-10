@@ -24,7 +24,7 @@ ev:
   date: ""
   ref: Culin 1907 (a verificar)
 recon: []
-summary: "Jogo de \"luta em corrida\" dos q'eqchi' da Guatemala: os exércitos correm um contra o outro numa trilha marcada por grãos de milho e capturam peças levando-as como prisioneiras."
+summary: "Jogo de \"luta em corrida\" dos q'eqchi' da Guatemala, registrado por Sapper em 1906: dois exércitos correm um contra o outro por uma trilha de grãos de milho, e quem cai sobre uma peça do adversário a leva como prisioneira."
 refs:
   - title: Ludii
     url: https://ludii.games/details.php?keyword=Puluc
@@ -38,6 +38,35 @@ refs:
     url: https://archive.org/details/gamesofnorthamer00culirich
 place: ""
 ---
+
+## Do que você vai precisar?
+
+- 10 grãos de milho comuns, em linha. Os espaços entre eles são as casas do caminho
+- 4 grãos de milho achatados, marcados de um lado com a unha e escurecidos com carvão ou fuligem, que servem de dados. O outro lado fica natural
+- 5 pauzinhos para cada jogador
+
+Sapper registra que os jogadores sentam frente a frente, com o caminho entre eles, e que o jogo é feito com esse material. Em casa, dá para usar feijões no lugar do milho e pintar um lado de quatro feijões grandes para os dados.
+
+## Como jogar?
+
+1. Ponha os 10 grãos de milho em linha. Os jogadores sentam frente a frente, com o caminho entre eles, e cada um começa pelo seu lado.
+2. Os dados são os quatro grãos marcados. O lance vale:
+   - dois grãos iguais para cima: 2;
+   - três iguais: 3;
+   - quatro escuros: 4;
+   - quatro claros: 5.
+3. Cada jogador tem dois lances por vez. Em cada lance, você lança os dados e avança um pauzinho tantas casas quanto tirou, começando por entrar com um pauzinho pelo seu lado.
+4. Ao chegar ao outro extremo do caminho, o pauzinho volta ao início e continua no mesmo sentido.
+5. Se o seu pauzinho cair sobre um pauzinho do adversário, você o captura. Nos lances seguintes, você o arrasta de volta, até tirá-lo do caminho. Quando você chega em casa com o prisioneiro, ele sai do jogo.
+6. A partida acaba quando um jogador perde os seus cinco pauzinhos, ou quando um lado não tem mais peças para entrar. Quem ficou sem peças perde.
+
+## Para quem conduz
+
+Os relatos divergem, e a ficha mistura dois deles. Os dois lances por vez são de Culin (1907) e do Ludii; Sapper (1906) diz que os jogadores lançam os dados alternadamente, um lance cada. Os valores dos lances e o caminho de 10 grãos são de Sapper; no relato de Culin, o caminho tem 15 grãos e o lance vale o número de grãos com a marca preta para cima, de 1 a 4, ou 5 se nenhum mostrar a marca.
+
+Também diferem o fim do caminho (para Sapper, o pauzinho que sai com a conta exata está salvo, e se a conta passa ele recomeça do início com o que sobrou) e o número de peças em jogo (Culin diz que o jogador só põe a segunda peça depois de perder a primeira). A ficha não diz quem começa nem se mover é obrigatório.
+
+**Sugestão do site:** combinem antes da partida quantos lances cada um tem por vez, quantos pauzinhos podem estar em jogo e quem começa.
 
 ## Regras
 
