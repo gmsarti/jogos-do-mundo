@@ -26,7 +26,11 @@ summary: Quebra-cabeça de manipulação registrado entre os Kanela (MA), chamad
 refs:
   - title: CEV
     url: https://cev.org.br/biblioteca/jogos-tradicionais-indigenas-1/
+  - title: Vinha
+    url: http://observatorioedhemfoc.hospedagemdesites.ws/observatorio/wp-content/uploads/2017/12/JogoTabuleirocomoPraticaEducativaIntercultural.pdf
 place: ""
 ---
 
+## História
 
+Vinha diz que, entre os indígenas Kanela, no Maranhão, foi encontrado um jogo conhecido como "jogo de paciência" ou "anel africano". Trata-se de um quebra-cabeça e consiste em um desafio que deu origem a centenas de outros quebra-cabeças em todos os continentes. A pesquisa chama o jogo de "jogo de tabuleiro" no texto, mas a ficha registra que ele não tem tabuleiro.
