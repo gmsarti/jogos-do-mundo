@@ -36,6 +36,8 @@ place: ""
 - 804 peças no total, de mais de 200 tipos (a verificar)
 - Dois jogadores
 
+## Para quem conduz
+
 Esta ficha não tem "Como jogar?": as regras são parciais, e a curadoria precisa decidir se vale ter um passo a passo para um jogo com mais de 200 tipos de peça. O princípio é o do Shogi em escala muito maior, sem lançamento de peças capturadas.
 
 ## Regras
