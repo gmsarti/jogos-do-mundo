@@ -29,12 +29,37 @@ ev:
   date: "2001"
   ref: Ismael 2001/2006
 recon: []
-summary: Jogo de semeadura de quatro fileiras da Ilha de Moçambique (*Muhipitti* em macua), estudado pelo matemático Abdulcarimo Ismael (Universidade Pedagógica, Maputo). Considerado um esporte, com torneios e árbitros; jogado sobretudo por homens (Mancala World).
+summary: "Jogo de semeadura de quatro fileiras da Ilha de Moçambique (*Muhipitti* em macua), estudado pelo matemático Abdulcarimo Ismael (Universidade Pedagógica, Maputo). É considerado um esporte, com torneios e árbitros, e é jogado sobretudo por homens (Mancala World)."
 refs:
   - title: Mancala World
     url: https://mancala.fandom.com/wiki/Tchadji
 place: ""
 ---
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 4 fileiras de 8 covas (também se observou 4×12). O tradicional é de madeira
+- 2 sementes em cada cova, 64 no total. No tabuleiro de madeira, são sementes de *Caesalpinia bonduc*
+
+O tabuleiro pode ser desenhado no papel, com um círculo para cada cova. As sementes podem ser feijões, grãos de milho, pedrinhas e por aí vai.
+
+## Como jogar?
+
+1. Cada jogador usa as duas fileiras do seu lado. Ponha 2 sementes em cada cova.
+2. Na sua vez, pegue todas as sementes de uma das suas covas, que precisa ter pelo menos 2, e semeie uma a uma, no sentido anti-horário, nas covas seguintes do seu lado.
+3. Se a última semente cair numa cova com sementes, pegue o conteúdo dessa cova e semeie de novo, no mesmo sentido.
+4. A jogada acaba quando a última semente cai numa cova vazia.
+5. Se essa cova vazia estiver na sua fileira de dentro e a cova do adversário em frente tiver sementes, essas sementes são "comidas" (*odjá*). Também são comidas as sementes da cova de fora logo atrás dela e o conteúdo de mais uma cova do adversário (a verificar: a fonte não diz qual). As sementes capturadas saem do tabuleiro.
+6. Quando você só tem covas com 1 semente (*ompwechá*, "dividido em pedaços"), pode movê-las, mas só para covas vazias.
+7. Vence quem capturar todas as sementes do adversário.
+
+## Para quem conduz
+
+Na variante *m'palé*, dos macuas do nordeste de Moçambique, as regras são as mesmas, mas só se capturam as duas covas da mesma coluna, sem a terceira. Jogadores experientes fazem o primeiro lance sem contar; em geral, ele sai da penúltima cova da fileira de fora, a segunda da direita.
+
+O registro diz que o jogo é jogado sobretudo por homens. As fontes não dizem quem começa, se capturar é obrigatório, o que acontece se um jogador não tiver jogada nem se há empate. A tese de Ismael, a fonte do estudo, não pôde ser lida.
+
+**Sugestão do site:** combinem antes da partida qual é a terceira cova capturada, quem começa e se capturar é obrigatório.
 
 ## Regras
 

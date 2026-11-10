@@ -25,7 +25,7 @@ ev:
   date: c. 1590
   ref: Abu'l Fazl, Ain-i-Akbari (trad. Blochmann 1873)
 recon: []
-summary: Jogo de corrida indiano num tabuleiro de pano em cruz, parente do Pachisi, jogado com três dados longos de quatro faces.
+summary: "Jogo de corrida indiano descrito por Abu'l Fazl no *Ain-i-Akbari* (c. 1590), na corte do imperador Akbar: um tabuleiro em cruz, 16 peças e três dados longos de quatro faces. Segue vivo em áreas rurais da Índia, segundo o portal Indian Culture."
 refs:
   - title: "Ludii: evidência"
     url: https://ludii.games/data.php?gameId=179
@@ -45,6 +45,38 @@ place: ""
 ## História
 
 Abu'l Fazl descreve o jogo no *Ain-i-Akbari* (c. 1590), na corte do imperador Akbar: 16 peças, três dados e um tabuleiro em forma de cruz (Penn Museum; Ludii). O DLP marca a evidência como jogo de elite, realeza e nobreza, e masculino. O portal Indian Culture (governo da Índia) diz que as origens são disputadas, que o jogo segue vivo em áreas rurais e que as regras variam por região. É associado ao jogo de dados do *Mahabharata* (fontes de divulgação, a verificar).
+
+## Do que você vai precisar?
+
+- Um tabuleiro em cruz: dois pares de linhas paralelas, do mesmo comprimento, que se cruzam em ângulo reto. O quadrado do centro fica vazio, e cada um dos quatro braços em volta dele é dividido em 24 casas, em 3 fileiras de 8
+- 16 peças do mesmo formato, 4 de cada cor, para 2 a 4 jogadores: cada jogador tem 4
+- 3 dados longos. Os quatro lados compridos de cada um têm 1, 2, 5 e 6 pontos
+
+O tabuleiro pode ser impresso ou desenhado no papel. Abu'l Fazl descreve o jogo na corte de Akbar; em casa, vale improvisar os dados com o que tiver à mão, desde que tenha quatro faces com esses valores.
+
+## Como jogar?
+
+1. Em geral jogam quatro, dois contra dois. Dois jogadores também podem jogar, com dois conjuntos de peças cada um (Ludii).
+2. Cada jogador põe duas peças na 6ª e na 7ª casa da fileira do meio do braço à sua frente e as outras duas na 7ª e na 8ª casa da fileira da direita. A fileira da esquerda fica vazia.
+3. Na sua vez, lance os três dados e ande com as peças conforme o lance.
+4. As peças andam pela fileira de fora, "sempre pela direita", até chegar à fileira de fora da esquerda do braço de onde saíram. Dali, entram na fileira do meio. Nessa fileira a peça está *pukhtah* (madura) e só chega ao quadrado do centro com o número exato. Então está *rasidah* (chegou). O sentido anti-horário não está no texto de Abu'l Fazl (a verificar).
+5. Duas peças do mesmo jogador juntas na mesma casa não podem ser derrubadas pelo adversário. Pelo Ludii, a peça que cai numa casa ocupada por peça do adversário manda essa peça de volta ao começo.
+6. Há lances especiais:
+   - Com um duplo seis, duas peças juntas na mesma casa podem andar 12 casas cada uma, ou só 6, se o jogador preferir. Vale o mesmo para os duplos cinco e os outros.
+   - O lance 6, 5 e 1 se chama *khām* (cru): duas peças juntas andam 6 casas cada uma, e uma peça sozinha anda 12.
+   - Com três seis, se três peças estão na mesma casa, cada uma anda 12. Vale o mesmo para três dois e três um.
+7. Quando um jogador põe as quatro peças no centro, passa a lançar os dados pelo companheiro, na sua vez, para tirá-lo também.
+8. Vence o jogador ou a dupla que primeiro leva todas as peças ao centro (Ludii).
+
+## Para quem conduz
+
+Abu'l Fazl diz que há "muitas outras regras para casos particulares". Ele também registra regras da corte de Akbar, como mudanças do imperador: lances iguais aos dos jogadores anteriores contam como *qāim* (parado), há multas para quem deixa cair peça, se atrasa, sopra jogada ao outro, anda casas demais ou tenta lançar duas vezes, e há apostas.
+
+A Wikipedia descreve uma forma atual, com sete búzios no lugar dos dados, casas seguras e a obrigação de derrubar uma peça antes de voltar para casa, mas sem citar fonte; a ficha não a adota.
+
+O texto não diz de que ponta do braço se contam as casas da posição inicial, quem começa, se é obrigatório jogar, o que fazer sem lance possível nem se há empate.
+
+**Sugestão do site:** combinem antes da partida de que ponta contam as casas e quem começa.
 
 ## Regras
 

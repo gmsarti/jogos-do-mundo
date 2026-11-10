@@ -27,7 +27,7 @@ ev:
   date: ""
   ref: ""
 recon: []
-summary: Xadrez da Pérsia sassânida e do mundo islâmico medieval, intermediário entre o Chaturanga indiano e o xadrez europeu.
+summary: "Xadrez da Pérsia e do mundo islâmico medieval, jogado do séc. VI ao XV. Chegou da Índia e se difundiu com a expansão islâmica até a Península Ibérica. A dama (*firzān*) e o bispo (*fīl*) andam bem menos que no xadrez de hoje."
 refs:
   - title: Chess Variant Pages
     url: http://www.chessvariants.org/historic.dir/shatranj.html
@@ -45,6 +45,42 @@ place: ""
 ## História
 
 Chegou à Pérsia vindo da Índia e se difundiu com a expansão islâmica até a Península Ibérica. Murray (1913) aprendeu árabe para ler os manuscritos de shatranj; Thomas Hyde (1694) é uma das primeiras obras europeias sobre o tema. Havia mestres, aberturas fixas (*taʿbiya*) e problemas (*manṣūbāt*).
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 8×8 casas
+- 16 peças para cada jogador: 1 *shāh* (rei), 1 *firzān*, 2 *fīl*, 2 *faras* (cavalos), 2 *rukh* (torres) e 8 *baidaq* (peões)
+
+O tabuleiro pode ser impresso ou desenhado no papel. Para as peças, vale marcar o nome de cada uma numa tampinha.
+
+## Como jogar?
+
+1. Arrume as peças. Na primeira fileira, dos cantos para o meio, ficam *rukh*, *faras* e *fīl* de cada lado. Nas duas casas do meio ficam o *shāh* e o *firzān*. Os 8 *baidaq* ocupam a segunda fileira. O *shāh* de um fica de frente para o *shāh* do outro, e o *firzān* de frente para o *firzān*.
+2. Vocês se alternam, cada um fazendo uma jogada por vez.
+3. Na sua vez, mova uma peça. Cada uma anda de um jeito:
+   - *Shāh*: uma casa para qualquer uma das oito casas em volta, desde que ela não esteja ocupada por peça sua nem atacada por peça do adversário.
+   - *Firzān*: uma casa na diagonal.
+   - *Fīl*: salta em diagonal por cima da casa vizinha, vazia ou ocupada, e cai na casa seguinte da mesma diagonal. Cada *fīl* só alcança 8 casas do tabuleiro, e um *fīl* nunca ataca outro.
+   - *Faras*: duas casas numa direção e uma para o lado, saltando as peças do caminho.
+   - *Rukh*: quantas casas quiser em linha reta, na horizontal ou na vertical.
+   - *Baidaq*: uma casa reto para a frente, sem passo duplo. Captura uma casa na diagonal, para a frente, e não há captura *en passant*.
+4. Todas as peças capturam do jeito que andam, ocupando a casa da peça do adversário. Não existe roque.
+5. O *baidaq* que chega à última fileira vira *firzān* na hora. Não há limite para o número de *firzān*.
+6. O seu *shāh* não pode entrar em xeque e, quando está em xeque, tem de sair dele.
+7. Vence quem der xeque-mate ou deixar o adversário só com o rei (rei despido): vence quem captura todas as peças do adversário menos o rei e ainda tem pelo menos uma peça sua no tabuleiro.
+   - Se o rei sozinho puder capturar a última peça do adversário na jogada seguinte, a partida empata.
+8. Quem fica sem nenhuma jogada possível, sem estar em xeque (afogamento), perde a partida.
+9. A partida também empata quando nenhum lado consegue vencer, por igualdade ou falta de material, impossibilidade de forçar trocas, xeque perpétuo ou repetição de jogadas.
+
+## Para quem conduz
+
+As fontes divergem em alguns pontos, e a ficha registra as versões:
+
+- Afogamento: no mundo islâmico, quem fica sem jogada perde (Murray, a partir das soluções de problemas dos manuscritos; o Ludii e a Wikipedia dizem o mesmo). Al-ʿAdlī registra uma regra indiana em que o afogado vence. Nenhuma fonte lida diz que o afogamento empata.
+- Rei despido: em Medina e no Hejaz, o rei despido perdia na hora, mesmo podendo responder capturando a última peça.
+- Posição inicial: nos manuscritos, o *shāh* vermelho fica na casa d1, e só um manuscrito persa tardio o põe em e1. Murray observa que a casa inicial do *shāh* e do *firzān* não era totalmente fixa.
+
+As fontes não dizem quem começa. **Sugestão do site:** tirem na sorte quem começa e combinem antes o que vale no afogamento.
 
 ## Regras
 

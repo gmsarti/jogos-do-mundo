@@ -21,7 +21,7 @@ ev:
   date: "1892"
   ref: "Falkener 1892: 265-266"
 recon: []
-summary: Jogo de corrida indiano num tabuleiro de 7×7 casas, descrito por Edward Falkener em 1892.
+summary: "Jogo de corrida indiano num tabuleiro de 7×7 casas, descrito por Edward Falkener em 1892 como \"uma modificação do pachisi\". Quatro búzios dizem quanto andar, e as peças correm da volta de fora até o centro."
 refs:
   - title: Ludii
     url: https://ludii.games/data.php?gameId=177
@@ -31,6 +31,34 @@ refs:
     url: https://ludii.games/details.php?keyword=Ashta-kashte
 place: ""
 ---
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 7×7 casas. A casa do centro e a casa do meio de cada borda são marcadas com um X: são os "castelos"
+- 4 peças para cada jogador, de cores diferentes, para 2 a 4 jogadores
+- 4 búzios, usados como dados
+
+O tabuleiro pode ser impresso ou desenhado no papel. Para os búzios, serve qualquer coisa com dois lados bem diferentes, como conchinhas.
+
+## Como jogar?
+
+1. Jogam 2, 3 ou 4 jogadores. Cada um tem 4 peças, que entram no castelo da borda à sua frente.
+2. Na sua vez, lance os 4 búzios:
+   - todos com a boca para baixo valem 8 e uma "graça", e você lança de novo;
+   - todos com a boca para cima valem uma graça, e você lança de novo;
+   - nos outros casos, o lance vale o número de búzios com a boca para cima.
+   - O 8 e a graça podem ser jogados separados. Você não é obrigado a jogar os seus lances.
+3. As peças andam pela volta de fora "contra o sol", da casa 1 (o castelo de entrada) até a casa 24. Ali o sentido se inverte, e elas seguem pelas voltas de dentro até o centro, a casa 49, onde saem do tabuleiro.
+4. Para entrar no tabuleiro é preciso uma graça, e para chegar ao centro é preciso o número exato (a verificar: o Ludii diz isso, Falkener não).
+5. Se a sua peça cair numa casa ocupada por peça do adversário, você a tira do tabuleiro e lança de novo.
+6. Peças num castelo não podem ser tomadas. Uma peça pode entrar no seu castelo de entrada mesmo que haja peça do adversário nele. Duas peças juntas em outra casa só podem ser tomadas por duas peças juntas.
+7. Vence quem levar primeiro todas as peças ao centro.
+
+## Para quem conduz
+
+A fonte não diz quanto vale uma "graça" em casas, quem começa nem se há empate.
+
+**Sugestão do site:** combinem antes da partida quanto vale a graça e quem começa.
 
 ## Regras
 

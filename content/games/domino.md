@@ -29,7 +29,7 @@ ev:
   date: séc. XVIII (Itália)
   ref: Wikipedia; Dummett (via pagat.com)
 recon: []
-summary: Jogo de peças retangulares com duas metades marcadas de 0 a 6 pontos (28 peças), em que se encaixam peças pelos números iguais. É o dominó jogado na Europa, nas Américas e no Brasil, diferente do Dominó chinês.
+summary: "Jogo de 28 peças retangulares, cada uma com duas metades marcadas de 0 a 6 pontos: as peças se encaixam pelos números iguais, formando uma linha. É o dominó da Europa, das Américas e do Brasil, diferente do Dominó chinês. O dominó moderno aparece na Itália no séc. XVIII."
 refs:
   - title: "Wikipedia: Dominoes"
     url: https://en.wikipedia.org/wiki/Dominoes
@@ -49,6 +49,24 @@ place: ""
 ## História
 
 A Wikipedia diz que o dominó moderno aparece na Itália no séc. XVIII e se espalha para a Áustria, o sul da Alemanha e a França; não há ligação confirmada com o dominó chinês. Michael Dummett situa a chegada em Veneza e Nápoles (citado pelo pagat.com). Stewart Culin (1893), citando o léxico Brockhaus, diz que o jogo entrou na Alemanha pela França, vindo da Itália, por volta de meados do séc. XVIII. A Britannica registra que chegou à Inglaterra no fim do séc. XVIII, trazido por prisioneiros franceses.
+
+## Do que você vai precisar?
+
+- 28 peças de dominó (duplo seis), cada uma com duas metades marcadas de 0 a 6 pontos
+- De 2 a 4 jogadores. Não há tabuleiro
+
+Se não tiver um conjunto, dá para fazer as peças em papel-cartão, com os pontos desenhados.
+
+## Para quem conduz
+
+Esta ficha ainda não tem "Como jogar?". Com as 28 peças existem vários jogos, e a curadoria ainda não escolheu qual ensinar. Nos dois candidatos que a ficha registra, as peças jogadas formam uma linha, e as pontas que se tocam têm o mesmo número. Eles diferem em quantas peças cada um recebe, em quem começa, na pontuação e em como a partida acaba:
+
+- Dominó de bloqueio: com 2 jogadores, cada um recebe 7 peças; com 3 ou 4, 5 peças cada. Quem não pode jogar passa.
+- Dominó em duplas, de Espanha e da América Latina: 4 jogadores em duas duplas, e cada um recebe 7 peças, todas distribuídas. Quem pode jogar é obrigado a jogar.
+
+As duas versões estão por inteiro em "Regras".
+
+A ficha marca `sens` como "aposta (a verificar)": vale conferir como o jogo é tratado antes de ensiná-lo.
 
 ## Regras
 

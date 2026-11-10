@@ -23,7 +23,7 @@ ev:
   date: 531–651
   ref: DLP (texto sassânida)
 recon: []
-summary: Jogo persa de tábulas (24 pontos, 15 peças, dois dados), da família do gamão.
+summary: "Jogo persa de tábulas, da família do gamão, descrito num texto da época sassânida (531–651): um tabuleiro de 24 pontos em quatro quadrantes, 15 peças para cada jogador e dois dados."
 refs:
   - title: Ludii
     url: https://ludii.games/data.php?gameId=303
@@ -39,6 +39,22 @@ place: ""
 ## História
 
 O DLP registra um texto contemporâneo sassânida (531–651) que descreve um tabuleiro de 24 pontos em quatro quadrantes, 15 peças por jogador e dois dados. A tradição persa associa a invenção do nard e a explicação do xadrez a um mesmo episódio literário (a verificar). O Talmud Babilônico menciona *nardashir*. Um tabuleiro 2×12 de Hamat Gader é datado dos séc. VII-VIII.
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 24 pontos, em quatro quadrantes
+- 15 peças para cada jogador, de cores diferentes
+- 2 dados
+
+## Para quem conduz
+
+Esta ficha ainda não tem "Como jogar?". As fontes descrevem formas diferentes do jogo, e a curadoria ainda não escolheu qual ensinar. O texto sassânida diz que as peças andam em direções opostas; a forma moderna, o *nardy* longo, faz os dois jogadores andarem no mesmo sentido. As principais:
+
+- Forma A (Ludii, a partir de Himly 1879): sentidos opostos, disposição inicial 5-3-5-2, captura da peça sozinha, que reentra.
+- Forma B (*nardy* longo): as 15 peças começam num só ponto, os dois jogadores andam no mesmo sentido, e não há captura.
+- Uma reconstrução moderna do *nardshir*, em sentidos opostos e com outra disposição inicial.
+
+As formas estão por inteiro em "Regras". As fontes não dizem o que fazer quando um jogador não tem jogada (na forma A), e a Wikipedia cita um empate das regras da Federação de Nardy, sem fonte aberta, para a forma B.
 
 ## Regras
 
