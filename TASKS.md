@@ -187,8 +187,9 @@ Origem: feedbacks de Aggeu (educador) e Alexandre Nacari (jogador), 03/11/2026, 
   - Nomes: `Intl.DisplayNames('pt-BR', {type: 'region'})` a partir do ISO-2, com tabela numérico → ISO-2 gerada uma vez em `scripts/once/`
   - Testes: país sem jogos tem rota própria (muda a regra atual do `state.ts`, que manda para a home); nome em pt-BR para todo país do TopoJSON
   - Decidir: países sem jogos entram na ordem de Tab (de 79 para cerca de 175 paradas) ou só pela busca
-- [ ] **T-072** Imagem do jogo: campo opcional `image: {src, alt, credit, license, url}`, arquivo em `public/img/games/`
+- [x] **T-072** Imagem do jogo: campo opcional `image: {src, alt, credit, license, url}`, arquivo em `public/img/games/`
   - Testes: imagem sem crédito ou licença falha; arquivo existe; tamanho máximo por imagem (ex.: 80 KB em WebP) dentro do RNF-02
+  - Feito: campo `image` opcional no schema (`src` em `img/games/`, `alt`, `credit`, `license` e `url` obrigatórios), figura com crédito e link da licença no painel, e teste que confere arquivo e limite de 80 KB. **Nenhuma imagem entrou ainda:** sem autor e licença verificáveis o jogo fica sem imagem. Desvio: o limite de 80 KB é conferido em `tests/content/images.test.ts`, não no `build-data`. Conferido no Playwright em 375px com uma imagem de teste (removida)
 - [ ] **T-073** Referências em português primeiro: campo opcional `lang` em cada `ref`; a ficha ordena pt primeiro e marca as outras ("em inglês")
   - Conteúdo: script em `scripts/once/` que busca o artigo da Wikipedia em português pelos links entre idiomas; cada link novo é aberto e conferido antes de entrar
   - Testes: ordem pt primeiro; rótulo do idioma a partir de `languages.json`

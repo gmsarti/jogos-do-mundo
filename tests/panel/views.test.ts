@@ -192,6 +192,28 @@ describe("gameView", () => {
     }
   });
 
+  test("shows the game image with its alt text, credit and license link", () => {
+    const image = {
+      src: "img/games/a.webp",
+      alt: "Tabuleiro de achi",
+      credit: "Fulana <b>",
+      license: "CC BY 4.0",
+      url: "https://example.org/foto",
+    };
+    const html = gameView(catalog, { ...full, image }, null);
+    expect(html).toContain(
+      '<img src="img/games/a.webp" alt="Tabuleiro de achi"',
+    );
+    expect(html).toContain("Fulana &lt;b&gt;");
+    expect(html).toContain(
+      '<a href="https://example.org/foto" target="_blank" rel="noopener">CC BY 4.0</a>',
+    );
+  });
+
+  test("shows no image block when the game has none", () => {
+    expect(gameView(catalog, full, null)).not.toContain("<img");
+  });
+
   test("shows where and who in the first layer", () => {
     const [first] = layers(gameView(catalog, full, null));
     expect(first).toContain("<dt>Países</dt><dd>Gana, Nigéria (Norte)</dd>");

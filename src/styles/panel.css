@@ -354,6 +354,18 @@ dd {
   stroke-width: 1px;
 }
 
+.game-image {
+  margin: 0.8rem 0;
+}
+
+.game-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.game-image figcaption,
 .board-figure figcaption {
   margin-top: 0.3rem;
   color: var(--muted);

@@ -23,6 +23,13 @@ function boardFigure(game: Game): string {
   return `<figure class="board-figure">${svg}${note}</figure>`;
 }
 
+function imageFigure(game: Game): string {
+  const img = game.image;
+  if (!img) return "";
+  const link = `<a href="${esc(img.url)}" target="_blank" rel="noopener">${esc(img.license)}</a>`;
+  return `<figure class="game-image"><img src="${esc(img.src)}" alt="${esc(img.alt)}" loading="lazy"><figcaption>${esc(img.credit)} · ${link}</figcaption></figure>`;
+}
+
 // The glossary words used in "Como jogar?" and "Regras"
 function wordsBox(catalog: Catalog, game: Game): string {
   const terms = termsIn(catalog.glossary, `${game.howto ?? ""}\n${game.rules}`);
@@ -91,6 +98,7 @@ export function gameView(
 <p><span class="badge b-${game.status}">${STATUS_LABEL[game.status]}</span><span class="tag">${esc(families)}</span></p>
 ${game.names.length ? `<p class="muted">${game.names.map((n) => esc(localName(n, catalog.languages))).join("<br>")}</p>` : ""}
 <div class="prose">${md(game.summary)}</div>
+${imageFigure(game)}
 ${boardFigure(game)}
 ${kitLink(game)}
 <dl>
