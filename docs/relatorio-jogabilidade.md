@@ -2,7 +2,7 @@
 
 Auditoria do T-068, **Etapa 1**: o checklist da skill `escrever-jogo` (`.claude/skills/escrever-jogo/references/checklist-jogabilidade.md`) aplicado às 94 fichas de `content/games/`, em 05/11/2026.
 
-**Etapa 2** (pesquisa de lacunas, lote a lote): feita no lote 2 (alquerque, ayo, bagh-chal, konane, mu-torere, oware, tablut, toguz-kumalak, trilha, weiqi), em 05/11/2026. Feita também no lote 3 (damas-brasileiras, xadrez, adugo, komikan, jogo-real-de-ur, yut-nori, mahjong, bao-la-kiswahili, muvalavala), em 06/11/2026, e reescrito em 10/11/2026. Feita também no lote 4 (shogi, xiangqi, puluc, e-sugoroku, hnefatafl, raposa-e-gansos, vela, pachisi, omweso), nas mesmas datas. Feita também no lote 5 (makruk, janggi, brandubh, ludus-latrunculorum, senet, raposa-e-galinhas, owela-benguela, domino-doble-nueve, adji-kui), nas mesmas datas. Feita também no lote 6 (sittuyin, shatranj, chaupar, nard, bao-ki-arabu, tchadji, warri-caribe, domino, ashta-kashte), nas mesmas datas. Os blocos dos jogos dos lotes 2 a 6 e as linhas deles na tabela-resumo mostram o estado depois da pesquisa e da reescrita, com o que foi resolvido e o que segue em aberto. Os outros blocos continuam como na Etapa 1.
+**Etapa 2** (pesquisa de lacunas, lote a lote): feita no lote 2 (alquerque, ayo, bagh-chal, konane, mu-torere, oware, tablut, toguz-kumalak, trilha, weiqi), em 05/11/2026. Feita também no lote 3 (damas-brasileiras, xadrez, adugo, komikan, jogo-real-de-ur, yut-nori, mahjong, bao-la-kiswahili, muvalavala), em 06/11/2026, e reescrito em 10/11/2026. Feita também no lote 4 (shogi, xiangqi, puluc, e-sugoroku, hnefatafl, raposa-e-gansos, vela, pachisi, omweso), nas mesmas datas. Feita também no lote 5 (makruk, janggi, brandubh, ludus-latrunculorum, senet, raposa-e-galinhas, owela-benguela, domino-doble-nueve, adji-kui), nas mesmas datas. Feita também no lote 6 (sittuyin, shatranj, chaupar, nard, bao-ki-arabu, tchadji, warri-caribe, domino, ashta-kashte), nas mesmas datas. Feita também no lote 7 (chaturanga, ouk-chatrang, igisoro, ouril, kechukawe, domino-chines, coyote, aiu, ohvalhu), em 10/11/2026. Feita também no lote 8 (nchayo, raazuvaa, tab, kiela, ntxuva, bao-la-kujifunza, ban-sugoroku, vinte-casas), em 10/11/2026. Feita também no lote 9 (ayit, kay-haiti, mulabalaba, raja-pasu-mandiri, tchouba, hoyito, patolli, chunkana), em 10/11/2026. Os blocos dos jogos dos lotes 2 a 9 e as linhas deles na tabela-resumo mostram o estado depois da pesquisa e da reescrita, com o que foi resolvido e o que segue em aberto. Os outros blocos continuam como na Etapa 1.
 
 A pergunta de fundo é: **alguém que nunca viu o jogo consegue jogar uma partida inteira só com o que a ficha diz?**
 
@@ -22,12 +22,15 @@ A pergunta de fundo é: **alguém que nunca viu o jogo consegue jogar uma partid
 
 ## Números
 
-- **94 jogos:** nenhum **joga**, 17 **jogam com lacunas** e 77 **não jogam** (Etapa 1). Depois da Etapa 2 do lote 2: **2 jogam** (Toguz kumalak e Weiqi), 15 jogam com lacunas e 77 não jogam. Depois do lote 3: **4 jogam** (mais Damas brasileiras e Xadrez), 20 jogam com lacunas e 70 não jogam. Depois do lote 4: **5 jogam** (mais o Xiangqi), 28 jogam com lacunas e 61 não jogam (o Fanorona, do lote 1, também passou a jogar com lacunas na pesquisa deste lote). Depois do lote 5: **5 jogam**, 34 jogam com lacunas e 55 não jogam. Depois do lote 6: **5 jogam**, 43 jogam com lacunas e 46 não jogam.
-- **787 lacunas** no total, das quais **685 são do tipo "fonte"** (Etapa 1). O lote 2 passou de 38 lacunas (32 de fonte) para 19 (13 de fonte): depois dele eram 768 no catálogo, 666 de fonte. O lote 3 passou de 55 lacunas (54 de fonte) para 24 (17 de fonte): depois dele eram 737 no catálogo, 629 de fonte. O lote 4 passou de 62 lacunas (57 de fonte) para 26 (16 de fonte): depois dele eram 700 no catálogo, 587 de fonte. O lote 5 passou de 75 lacunas (68 de fonte) para 40 (23 de fonte): depois dele eram 665 no catálogo, 542 de fonte. O lote 6 passou de 80 lacunas (78 de fonte) para 27 (23 de fonte): hoje são 612 no catálogo, 487 de fonte.
+- **94 jogos:** nenhum **joga**, 17 **jogam com lacunas** e 77 **não jogam** (Etapa 1). Depois da Etapa 2 do lote 2: **2 jogam** (Toguz kumalak e Weiqi), 15 jogam com lacunas e 77 não jogam. Depois do lote 3: **4 jogam** (mais Damas brasileiras e Xadrez), 20 jogam com lacunas e 70 não jogam. Depois do lote 4: **5 jogam** (mais o Xiangqi), 28 jogam com lacunas e 61 não jogam (o Fanorona, do lote 1, também passou a jogar com lacunas na pesquisa deste lote). Depois do lote 5: **5 jogam**, 34 jogam com lacunas e 55 não jogam. Depois do lote 6: **5 jogam**, 43 jogam com lacunas e 46 não jogam. Depois dos lotes 7, 8 e 9: **5 jogam**, 59 jogam com lacunas e 30 não jogam.
+- **787 lacunas** no total, das quais **685 são do tipo "fonte"** (Etapa 1). O lote 2 passou de 38 lacunas (32 de fonte) para 19 (13 de fonte): depois dele eram 768 no catálogo, 666 de fonte. O lote 3 passou de 55 lacunas (54 de fonte) para 24 (17 de fonte): depois dele eram 737 no catálogo, 629 de fonte. O lote 4 passou de 62 lacunas (57 de fonte) para 26 (16 de fonte): depois dele eram 700 no catálogo, 587 de fonte. O lote 5 passou de 75 lacunas (68 de fonte) para 40 (23 de fonte): depois dele eram 665 no catálogo, 542 de fonte. O lote 6 passou de 80 lacunas (78 de fonte) para 27 (23 de fonte): depois dele eram 612 no catálogo, 487 de fonte. Depois dos lotes 7, 8 e 9 são 485 no catálogo, 316 de fonte (contagem da tabela-resumo).
 - Dos 17 que jogavam com lacunas na Etapa 1, 7 são do lote 1 (o Fanorona saiu desse grupo, ver o bloco dele) e 10 são o lote 2, agora reescrito. Dos 9 jogos do lote 3, 7 saíram de "não joga": Damas brasileiras e Xadrez para "joga"; Adugo, Yut nori, Mahjong, Bao la kiswahili e Muvalavala para "joga com lacunas". O Komikan e o Jogo real de Ur seguem "não joga".
 - Dos 9 jogos do lote 4, 8 saíram de "não joga": o Xiangqi para "joga" e Shogi, Puluc, Hnefatafl, Raposa e gansos, Vela, Pachisi e Omweso para "joga com lacunas". O E-sugoroku segue "não joga".
 - Dos 9 jogos do lote 5, 6 saíram de "não joga" para "joga com lacunas": Makruk, Janggi, Brandubh, Dominó doble nueve e, só depois de escolhida uma reconstrução, Ludus latrunculorum e Senet. Raposa e galinhas, Owela benguela e Adji kui seguem "não jogam".
 - Dos 9 jogos do lote 6, os 9 saíram de "não joga" para "joga com lacunas"; Nard e Dominó, só depois de escolhida uma forma (Nard) ou um jogo (Dominó), e por isso ficaram sem "Como jogar?".
+- Dos 9 jogos do lote 7, 6 saíram de "não joga" para "joga com lacunas": Chaturanga (só depois de escolhida uma reconstrução; ficou sem "Como jogar?"), Ouk chatrang, Igisoro, Ouril, Coyote e Ohvalhu (os dois últimos com todas as regras "(a verificar)"). Kechukawe, Domino chinês e Aiú seguem "não joga".
+- Dos 8 jogos do lote 8, 5 saíram de "não joga" para "joga com lacunas": Nchayo, Raazuvaa, Tab, Kiela e Bao la kujifunza. Ntxuva, Ban-sugoroku e Vinte casas seguem "não jogam".
+- Dos 8 jogos do lote 9, 5 saíram de "não joga" para "joga com lacunas": Ayit, Kay, Mulabalaba, Tchouba e, só depois de escolhida uma forma, Hoyito (que ficou sem "Como jogar?"). Raja pasu mandiri, Patolli e Chunkana seguem "não jogam".
 - **7 jogos** ficam num grupo à parte, fora dos lotes: lacunas sem saída ou presas a uma decisão de curadoria.
 - **24 fichas** têm algum erro registrado (campo "ver fonte", `ref` fraca ou quebrada, remissão a um trecho que não existe).
 
@@ -37,100 +40,100 @@ Ordenada do pior veredito para o melhor e, dentro de cada veredito, do maior nú
 
 | id | status | veredito | lacunas | fonte | "(a verificar)" | "Como jogar?" |
 | --- | --- | --- | --- | --- | --- | --- |
+| chunkana | partial | Não joga | 13 | 0 | 2 | não |
 | adji-boto | partial | Não joga | 12 | 12 | 1 | não |
-| aiu | partial | Não joga | 12 | 12 | 0 | não |
-| ayit | documented | Não joga | 12 | 12 | 1 | não |
+| aiu | partial | Não joga | 12 | 0 | 0 | não |
 | bul | documented | Não joga | 12 | 12 | 1 | não |
 | casa-do-rei | unknown | Não joga | 12 | 0 | 0 | não |
-| chunkana | partial | Não joga | 12 | 12 | 1 | não |
 | dadu | unknown | Não joga | 12 | 12 | 4 | não |
 | fidchell | unknown | Não joga | 12 | 0 | 2 | não |
-| kay-haiti | documented | Não joga | 12 | 12 | 0 | não |
-| kiela | partial | Não joga | 12 | 12 | 2 | não |
 | mehen | unknown | Não joga | 12 | 0 | 0 | não |
-| mulabalaba | documented | Não joga | 12 | 12 | 0 | não |
-| nchayo | unknown | Não joga | 12 | 12 | 0 | não |
-| ntxuva | partial | Não joga | 12 | 12 | 2 | não |
-| ohvalhu | documented | Não joga | 12 | 12 | 0 | não |
-| raazuvaa | unknown | Não joga | 12 | 12 | 2 | não |
-| raja-pasu-mandiri | documented | Não joga | 12 | 12 | 1 | não |
-| tab | unknown | Não joga | 12 | 12 | 3 | não |
+| ntxuva | partial | Não joga | 12 | 12 | 1 | não |
+| patolli | partial | Não joga | 12 | 9 | 2 | não |
 | taikyoku-shogi | partial | Não joga | 12 | 0 | 2 | não |
 | taptana | partial | Não joga | 12 | 0 | 0 | não |
-| tchouba | documented | Não joga | 12 | 12 | 0 | não |
 | tsuka | partial | Não joga | 12 | 12 | 0 | não |
-| vinte-casas | reconstructed | Não joga | 12 | 12 | 1 | não |
 | yole | partial | Não joga | 12 | 12 | 0 | não |
 | awarkuden | documented | Não joga | 11 | 11 | 1 | não |
-| ban-sugoroku | partial | Não joga | 11 | 11 | 0 | não |
-| bao-la-kujifunza | partial | Não joga | 11 | 11 | 0 | não |
-| coyote | partial | Não joga | 11 | 11 | 0 | não |
-| hoyito | documented | Não joga | 11 | 11 | 0 | não |
+| domino-chines | partial | Não joga | 11 | 9 | 2 | não |
 | huayru | partial | Não joga | 11 | 11 | 0 | não |
-| patolli | partial | Não joga | 11 | 9 | 1 | não |
 | rifa-pareci | partial | Não joga | 11 | 11 | 0 | não |
-| ashta-kashte | documented | Joga com lacunas | 3 | 3 | 3 | sim |
-| chaupar | documented | Joga com lacunas | 5 | 5 | 3 | sim |
-| domino | documented | Joga com lacunas | 1 | 0 | 2 | não |
-| domino-chines | partial | Não joga | 10 | 10 | 2 | não |
 | duodecim-scripta | reconstructed | Não joga | 10 | 0 | 3 | não |
-| igisoro | partial | Não joga | 10 | 10 | 1 | não |
 | kechukawe | partial | Não joga | 10 | 10 | 0 | não |
-| nard | partial | Joga com lacunas | 3 | 2 | 3 | não |
-| ouk-chatrang | partial | Não joga | 10 | 10 | 0 | não |
-| ouril | partial | Não joga | 10 | 10 | 1 | não |
-| adji-kui | partial | Não joga | 4 | 3 | 0 | não |
-| bao-ki-arabu | documented | Joga com lacunas | 4 | 4 | 2 | sim |
-| chaturanga | reconstructed | Não joga | 9 | 8 | 0 | não |
-| domino-doble-nueve | partial | Joga com lacunas | 3 | 3 | 14 | sim |
-| omweso | documented | Joga com lacunas | 2 | 2 | 6 | sim |
-| owela-benguela | documented | Não joga | 6 | 5 | 0 | não |
 | raposa-e-galinhas | documented | Não joga | 9 | 5 | 2 | não |
-| tchadji | documented | Joga com lacunas | 5 | 5 | 2 | sim |
-| warri-caribe | documented | Joga com lacunas | 3 | 2 | 2 | sim |
-| bao-la-kiswahili | documented | Joga com lacunas | 3 | 2 | 4 | sim |
-| brandubh | reconstructed | Joga com lacunas | 5 | 1 | 1 | sim |
-| janggi | documented | Joga com lacunas | 2 | 0 | 10 | sim |
+| ban-sugoroku | partial | Não joga | 7 | 7 | 4 | não |
+| komikan | documented | Não joga | 6 | 4 | 0 | não |
+| owela-benguela | documented | Não joga | 6 | 5 | 0 | não |
+| quebra-cabeca-kanela | unknown | Não joga | 6 | 0 | 0 | não |
+| vinte-casas | reconstructed | Não joga | 6 | 5 | 1 | não |
+| jogo-real-de-ur | reconstructed | Não joga | 5 | 5 | 2 | não |
+| adji-kui | partial | Não joga | 4 | 3 | 0 | não |
+| raja-pasu-mandiri | documented | Não joga | 4 | 2 | 0 | não |
+| e-sugoroku | documented | Não joga | 3 | 2 | 0 | não |
+| mulabalaba | documented | Joga com lacunas | 9 | 8 | 1 | sim |
+| yote | documented | Joga com lacunas | 7 | 6 | 1 | sim |
 | ludus-latrunculorum | reconstructed | Joga com lacunas | 6 | 4 | 0 | não |
-| muvalavala | documented | Joga com lacunas | 3 | 3 | 3 | sim |
+| adugo | documented | Joga com lacunas | 5 | 2 | 3 | sim |
+| brandubh | reconstructed | Joga com lacunas | 5 | 1 | 1 | sim |
+| chaturanga | reconstructed | Joga com lacunas | 5 | 2 | 3 | não |
+| chaupar | documented | Joga com lacunas | 5 | 5 | 3 | sim |
+| coyote | partial | Joga com lacunas | 5 | 3 | 4 | sim |
+| hoyito | documented | Joga com lacunas | 5 | 3 | 0 | não |
+| kay-haiti | documented | Joga com lacunas | 5 | 4 | 2 | sim |
+| nchayo | partial | Joga com lacunas | 5 | 5 | 5 | sim |
+| ohvalhu | documented | Joga com lacunas | 5 | 5 | 5 | sim |
 | pachisi | documented | Joga com lacunas | 5 | 3 | 4 | sim |
 | raposa-e-gansos | documented | Joga com lacunas | 5 | 2 | 2 | sim |
-| senet | reconstructed | Joga com lacunas | 3 | 1 | 2 | não |
-| vela | partial | Joga com lacunas | 4 | 4 | 3 | sim |
-| hnefatafl | reconstructed | Joga com lacunas | 2 | 0 | 1 | sim |
-| komikan | documented | Não joga | 6 | 4 | 0 | não |
-| makruk | documented | Joga com lacunas | 2 | 1 | 3 | sim |
-| sittuyin | documented | Joga com lacunas | 1 | 1 | 4 | sim |
-| xiangqi | documented | Joga | 0 | 0 | 1 | sim |
-| adugo | documented | Joga com lacunas | 5 | 2 | 3 | sim |
-| jogo-real-de-ur | reconstructed | Não joga | 5 | 5 | 2 | não |
-| puluc | documented | Joga com lacunas | 4 | 2 | 2 | sim |
-| quebra-cabeca-kanela | unknown | Não joga | 6 | 0 | 0 | não |
-| shatranj | documented | Joga com lacunas | 2 | 1 | 0 | sim |
-| shogi | documented | Joga com lacunas | 1 | 1 | 0 | sim |
-| yut-nori | documented | Joga com lacunas | 1 | 1 | 2 | sim |
-| mahjong | documented | Joga com lacunas | 1 | 0 | 3 | sim |
-| xadrez | documented | Joga | 0 | 0 | 1 | sim |
-| damas-brasileiras | documented | Joga | 0 | 0 | 0 | sim |
-| e-sugoroku | documented | Não joga | 3 | 2 | 0 | não |
-| fanorona | documented | Joga com lacunas | 1 | 1 | 5 | sim |
-| yote | documented | Joga com lacunas | 7 | 6 | 1 | sim |
 | seega | documented | Joga com lacunas | 5 | 5 | 5 | sim |
 | tablut | documented | Joga com lacunas | 5 | 4 | 0 | sim |
+| tchadji | documented | Joga com lacunas | 5 | 5 | 2 | sim |
+| bao-ki-arabu | documented | Joga com lacunas | 4 | 4 | 2 | sim |
+| kiela | partial | Joga com lacunas | 4 | 4 | 2 | sim |
+| ouk-chatrang | partial | Joga com lacunas | 4 | 2 | 4 | sim |
+| puluc | documented | Joga com lacunas | 4 | 2 | 2 | sim |
+| tab | partial | Joga com lacunas | 4 | 3 | 2 | sim |
+| tchouba | documented | Joga com lacunas | 4 | 4 | 0 | sim |
+| vela | partial | Joga com lacunas | 4 | 4 | 3 | sim |
+| ashta-kashte | documented | Joga com lacunas | 3 | 3 | 3 | sim |
+| ayit | documented | Joga com lacunas | 3 | 3 | 4 | sim |
+| bao-la-kiswahili | documented | Joga com lacunas | 3 | 2 | 4 | sim |
+| domino-doble-nueve | partial | Joga com lacunas | 3 | 3 | 14 | sim |
 | fanorona-telo | documented | Joga com lacunas | 3 | 3 | 3 | sim |
 | gulugufe | documented | Joga com lacunas | 3 | 3 | 3 | sim |
+| igisoro | partial | Joga com lacunas | 3 | 2 | 2 | sim |
 | mu-torere | documented | Joga com lacunas | 3 | 2 | 1 | sim |
+| muvalavala | documented | Joga com lacunas | 3 | 3 | 3 | sim |
+| nard | partial | Joga com lacunas | 3 | 2 | 3 | não |
+| ouril | partial | Joga com lacunas | 3 | 2 | 1 | sim |
+| senet | reconstructed | Joga com lacunas | 3 | 1 | 2 | não |
+| warri-caribe | documented | Joga com lacunas | 3 | 2 | 2 | sim |
 | achi | documented | Joga com lacunas | 2 | 2 | 0 | sim |
 | alquerque | documented | Joga com lacunas | 2 | 0 | 6 | sim |
 | bagh-chal | documented | Joga com lacunas | 2 | 2 | 4 | sim |
+| bao-la-kujifunza | partial | Joga com lacunas | 2 | 2 | 0 | sim |
+| hnefatafl | reconstructed | Joga com lacunas | 2 | 0 | 1 | sim |
+| janggi | documented | Joga com lacunas | 2 | 0 | 10 | sim |
 | konane | documented | Joga com lacunas | 2 | 1 | 2 | sim |
+| makruk | documented | Joga com lacunas | 2 | 1 | 3 | sim |
 | morabaraba | documented | Joga com lacunas | 2 | 1 | 9 | sim |
+| omweso | documented | Joga com lacunas | 2 | 2 | 6 | sim |
 | oware | documented | Joga com lacunas | 2 | 1 | 8 | sim |
+| raazuvaa | documented | Joga com lacunas | 2 | 2 | 0 | sim |
+| shatranj | documented | Joga com lacunas | 2 | 1 | 0 | sim |
 | shisima | documented | Joga com lacunas | 2 | 2 | 5 | sim |
 | trilha | documented | Joga com lacunas | 2 | 2 | 2 | sim |
 | ayo | documented | Joga com lacunas | 1 | 1 | 10 | sim |
+| domino | documented | Joga com lacunas | 1 | 0 | 2 | não |
+| fanorona | documented | Joga com lacunas | 1 | 1 | 5 | sim |
+| mahjong | documented | Joga com lacunas | 1 | 0 | 3 | sim |
+| shogi | documented | Joga com lacunas | 1 | 1 | 0 | sim |
+| sittuyin | documented | Joga com lacunas | 1 | 1 | 4 | sim |
+| yut-nori | documented | Joga com lacunas | 1 | 1 | 2 | sim |
+| damas-brasileiras | documented | Joga | 0 | 0 | 0 | sim |
 | toguz-kumalak | documented | Joga | 0 | 0 | 4 | sim |
 | weiqi | documented | Joga | 0 | 0 | 1 | sim |
+| xadrez | documented | Joga | 0 | 0 | 1 | sim |
+| xiangqi | documented | Joga | 0 | 0 | 1 | sim |
 
 ## Padrões que se repetem
 
@@ -176,9 +179,9 @@ Os jogos de semeadura são 26 dos 94, e por isso aparecem em quase todo lote.
 | 4 | shogi, xiangqi, puluc, e-sugoroku, hnefatafl, raposa-e-gansos, vela, pachisi, omweso | xadrez, corrida, caça, captura posicional, semeadura | 62 (57) | Etapa 2 e reescrita feitas (E-sugoroku só ganhou resumo e \"Do que você vai precisar?\"). Ficaram 26 lacunas (16 de fonte), 10 de curadoria para decidir. Corrigido: o `board` e o `pieces` da Vela remetiam ao Fanorona. Pesquisada junto, a pendência do Fanorona (lote 1): a posição inicial e a revanche foram resolvidas; segue aberto o jogador travado (I4) |
 | 5 | makruk, janggi, brandubh, ludus-latrunculorum, senet, raposa-e-galinhas, owela-benguela, domino-doble-nueve, adji-kui | xadrez, caça, captura posicional, corrida, semeadura, peças | 75 (68) | Etapa 2 e reescrita feitas (cinco jogos só ganharam resumo, materiais e \"Para quem conduz\"). Ficaram 40 lacunas (23 de fonte), 17 de curadoria para decidir, entre elas a escolha das reconstruções do Brandubh, do Ludus e do Senet. Erros corrigidos: `ref` fraca do Janggi, "Demais regras na fonte" do Owela |
 | 6 | sittuyin, shatranj, chaupar, nard, bao-ki-arabu, tchadji, warri-caribe, domino, ashta-kashte | xadrez, corrida, semeadura, peças | 80 (78) | Etapa 2 e reescrita feitas (Nard e Dominó só ganharam resumo, materiais e \"Para quem conduz\"): os 9 passaram a jogar com lacunas (Nard e Dominó, depois da decisão de curadoria). Ficaram 27 lacunas (23 de fonte) e 4 de curadoria para decidir: afogamento (Shatranj), forma do jogo (Nard), adversário sem sementes (Warri) e qual jogo é o Dominó; além do `sens` do Tchadji e do Warri. Erros corrigidos: "ver fonte" em `pieces` e `players` do Ashta-kashte e o ano de Blochmann no `ev` do Chaupar |
-| 7 | chaturanga, ouk-chatrang, igisoro, ouril, kechukawe, domino-chines, coyote, aiu, ohvalhu | xadrez, semeadura, corrida, peças, caça | 94 (93) | Aiú (Querino, archive.org) e Ohvalhu (Culin 1894, Gutenberg) têm fonte primária em domínio público |
-| 8 | nchayo, raazuvaa, tab, kiela, ntxuva, bao-la-kujifunza, ban-sugoroku, vinte-casas | semeadura, xadrez, corrida | 94 (94) | Fichas quase vazias cuja fonte já está identificada e só espera leitura |
-| 9 | ayit, kay-haiti, mulabalaba, raja-pasu-mandiri, tchouba, hoyito, patolli, chunkana | semeadura, corrida | 94 (92) | Só a classificação do Mancala World ou de Depaulis 1998; o Hoyito e o Patolli pedem escolha de forma |
+| 7 | chaturanga, ouk-chatrang, igisoro, ouril, kechukawe, domino-chines, coyote, aiu, ohvalhu | xadrez, semeadura, corrida, peças, caça | 94 (93) | Etapa 2 e reescrita feitas (Kechukawe, Domino chinês e Aiú só ganharam resumo, materiais e \"Para quem conduz\"): Chaturanga (só depois de escolhida uma reconstrução), Ouk chatrang, Igisoro, Ouril, Coyote e Ohvalhu passaram a jogar com lacunas. Ficaram 58 lacunas (35 de fonte). Fonte primária: Querino (Aiú) e Culin 1894 (Ohvalhu) **não trazem regras**, só a tábua e os tabuleiros; Culin 1898 só cita o nome do Coyote. Aiú segue sem saída. Curadoria para decidir: elefante, afogamento e dois ou quatro jogadores (Chaturanga), qual jogo é o Dominó chinês, versão do Ouril, fileira inicial e cova mínima do Igisoro, lances a mais do Ouk chatrang, número de galinhas e quem começa no Coyote. Erros corrigidos: \"ver reconstruções\" em `pieces` do Chaturanga, link quebrado do Gutenberg no Ohvalhu |
+| 8 | nchayo, raazuvaa, tab, kiela, ntxuva, bao-la-kujifunza, ban-sugoroku, vinte-casas | semeadura, xadrez, corrida | 94 (94) | Etapa 2 e reescrita feitas (Ntxuva, Ban-sugoroku e Vinte casas só ganharam resumo, materiais e \"Para quem conduz\"): 5 passaram a jogar com lacunas (Nchayo, Raazuvaa, Tab, Kiela, Bao la kujifunza) e 3 seguem não jogam. Ficaram 42 lacunas (40 de fonte) e 2 de curadoria para decidir: fim da partida (Tab) e percurso e rosetas (Vinte casas); além da relação do Ntxuva com o Tchadji e o Tchouba (nota, fora da conta) e de `sens` (Tab: aposta no café; Ban-sugoroku: aposta). Status: Raazuvaa `unknown` para `documented`, Nchayo e Tab para `partial`. Erros corrigidos: Vinte casas apontava para o tabuleiro do Ur, Ban-sugoroku dizia "três faixas" e "ver acima" no Ntxuva |
+| 9 | ayit, kay-haiti, mulabalaba, raja-pasu-mandiri, tchouba, hoyito, patolli, chunkana | semeadura, corrida | 94 (92) | Etapa 2 e reescrita feitas (Raja pasu mandiri, Patolli e Chunkana só ganharam resumo e \"Do que você vai precisar?\"; Hoyito também, mais \"Para quem conduz\"). Ficaram 55 lacunas (33 de fonte, 13 sem saída), 9 de curadoria para decidir: a forma do Hoyito, do Patolli e do Kay, os grafites do Patolli (Depaulis 2018), o `sens` do Hoyito, do Patolli e da Chunkana, e a diferença do Mulabalaba com o Hawalis. Ayit, Kay, Mulabalaba e Tchouba passaram a jogar com lacunas (Hoyito, só depois de escolhida a forma); Raja pasu mandiri (sem vitória definida), Patolli e Chunkana seguem sem jogar. Erros corrigidos: `players` do Raja pasu mandiri (era 2, é 3), `cultures` do Ayit, `ref` Wikipedia quebrada do Hoyito |
 | 10 | adji-boto, bul, dadu, huayru, rifa-pareci, tsuka, yole, awarkuden | semeadura, corrida, desconhecida, adjacente | 93 (93) | **Decisão de curadoria antes da Etapa 2:** ritual, restrição de gênero ou de comunidade, ou aposta em `sens` |
 
 ### Grupo à parte (fora dos lotes)
@@ -345,14 +348,14 @@ Status: documented · Família: caca-assimetrico · "(a verificar)": 3 · "Como 
 
 ### aiu — Não joga
 
-Status: partial · Família: semeadura · "(a verificar)": 0 · "Como jogar?": não
+Status: partial · Família: semeadura · "(a verificar)": 0 · "Como jogar?": não (veredito segue "não joga": só resumo, "Do que você vai precisar?" e "Para quem conduz")
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | não | `board`: "tábua com doze partes côncavas", sem a disposição |
-| E2 Peças | não | `pieces`: frutos *a-i-ús*, sem quantidade |
+| E1 Tabuleiro | parcial | `board`; Regras: "tábua com doze partes côncavas", sem a disposição |
+| E2 Peças | parcial | `pieces`: frutos *a-i-ús*, sem quantidade |
 | E3 Preparação | não | — |
-| E4 Ação da vez | não | Regras: "Parciais" |
+| E4 Ação da vez | não | — |
 | E5 Movimento | não | — |
 | E6 Fim e vitória | não | — |
 | I1 Quem começa | não | — |
@@ -362,13 +365,21 @@ Status: partial · Família: semeadura · "(a verificar)": 0 · "Como jogar?": n
 | I5 Empate | não | — |
 | I6 Fases | não | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Querino, edição de 1955, lida no archive.org; Mancala World, *A-i-ú*): só que a fonte primária **não dá regra nenhuma**. Querino escreve uma frase sobre o jogo ("pedaço de tábua, com doze partes côncavas, onde colocavam e retiravam os a-i-ús, pequenos frutos côr de chumbo, originários da África"), ao falar das horas de descanso dos africanos dos "cantos" de Salvador. A frase está agora em "Regras". Ficou confirmado que o jogo é associado aos "carregadores" (os "ganhadores" de Querino).
 
-| Item | Lacuna | Tipo |
+**Segue em aberto** (sem saída, a menos que apareça outra fonte):
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E1–E6, I1–I6 | A ficha diz que a regra moderna que circula "não deve ser tratada como regra do aiú até a leitura de Querino". | fonte |
+| E1–E6, I1–I6 | Querino não diz disposição das covas, quantidade de peças, semeadura, captura nem vitória. O Mancala World classifica o jogo como "variante próxima do Oware" (duas fileiras, um ciclo, semeadura de uma volta), mas isso é inferência do site, não está em Querino. | sem saída |
 
-**Abrir primeiro (Etapa 2):** Querino, ed. 1955, no archive.org (fonte primária); "Mancala World: A-i-ú". A "regra moderna" de África e Africanidades é a que a ficha manda não usar.
+**Divergência registrada:** o Mancala World diz que Querino "registra que o aiú ainda era jogado". O texto dele está no imperfeito ("entretinham-se a jogar") e não diz que o jogo ainda existia em 1916; a `## História` ganhou essa nota. O mesmo site conta que Lasebikan (1963) o achou desaparecido e que Edison Carneiro (1966) o deu por extinto em Salvador em 1920: isso muda o `living: desconhecido`, que fica para a curadoria.
+
+**Pendências:** o texto original da comunicação de 1916 (anais do V Congresso Brasileiro de Geografia) não foi consultado, nem Santos Silva (2005: 251–253), que o Mancala World cita. A edição de 1955 não diz se a passagem estava no texto de 1916. A "regra moderna" de África e Africanidades foi mantida fora, como a ficha manda. A página do Mancala World dá 402 ao navegador; foi lida pela API MediaWiki.
+
+**Fontes novas:** Querino, ed. 1955 (já estava nas `refs`, agora lida), Mancala World: A-i-ú.
+
+**Reescrita (lote 7):** só o resumo novo (a ficha dizia "o nome é associado ao *ayò* iorubá (ver Oware)"; agora diz que é o Mancala World que associa), "Do que você vai precisar?" e "Para quem conduz", que explica por que não há "Como jogar?". Segue "não joga", sem saída.
 
 ### alquerque — Joga com lacunas
 
@@ -476,32 +487,43 @@ Status: documented · Família: adjacente · "(a verificar)": 1 · "Como jogar?"
 
 **Abrir primeiro (Etapa 2):** Depaulis 1998 (BGS 1, PDF).
 
-### ayit — Não joga
+### ayit — Joga com lacunas
 
-Status: documented · Família: semeadura · "(a verificar)": 1 · "Como jogar?": não
+Status: documented · Família: semeadura · "(a verificar)": 4 · "Como jogar?": sim (lote 9)
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | não | `board`: "2 fileiras", sem número de covas |
-| E2 Peças | não | `pieces`: "sementes" |
-| E3 Preparação | não | — (a ficha não tem `## Regras`) |
-| E4 Ação da vez | não | `summary`: "semeadura em várias voltas", sem detalhe |
-| E5 Movimento | não | — |
-| E6 Fim e vitória | não | — |
+| E1 Tabuleiro | sim | `board`: 2 fileiras de 9 covas; Regras 1 |
+| E2 Peças | sim | `pieces`; Regras 2 (36 sementes) |
+| E3 Preparação | sim | Regras 2 |
+| E4 Ação da vez | sim | Regras 3 (do Anywoli) |
+| E5 Movimento | sim | Regras 3 e 4 |
+| E6 Fim e vitória | sim, mas ambíguo | Regras 7 e 8: fim "abrupto" sem grupo de 5 (*thon*); as sementes que restam vão para o dono das covas |
 | I1 Quem começa | não | — |
-| I2 Captura | não | — |
-| I3 Obrigação | não | — |
-| I4 Bloqueio | não | — |
+| I2 Captura | sim (a verificar) | Regras 5, do Anywoli |
+| I3 Obrigação | sim | Regras 6 |
+| I4 Bloqueio | sim | Regras 6 (passa a vez) |
 | I5 Empate | não | — |
-| I6 Fases | não | — |
+| I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Mancala World: Ayit e Anywoli, a partir de Pankhurst 1971):
+
+- E1–E6: as regras do Ayit são as do Anywoli, menos três diferenças: 9 covas por fileira, 2 sementes por cova e um fim abrupto quando nenhuma cova tem 5 ou mais sementes. As do Anywoli estão escritas em "Regras".
+- Ficha: `cultures` passou de "a verificar" para `dinka`; `board` e `pieces` ganharam os números.
+
+**Segue em aberto:**
 
 | Item | Lacuna | Tipo |
 | --- | --- | --- |
-| E1–E6, I1–I6 | A ficha não tem `## Regras`. | fonte |
+| I1 | Quem começa. | fonte |
+| I5 | Empate. | fonte |
+| E6 | Se as sementes que restam no fim contam como capturadas e como se conta o vencedor. | fonte |
 
-**Abrir primeiro (Etapa 2):** Mancala World (e, por ele, Pankhurst 1971).
+**Pendências:** o artigo de Pankhurst (*Ethiopia Observer*, 1971: 203–204) não foi aberto; o Mancala World é a única fonte aberta, e as regras do Anywoli só valem para o Ayit por ele dizer que são "semelhantes".
+
+**Fonte descartada:** nenhuma.
+
+**Reescrita (lote 9):** resumo novo, "Do que você vai precisar?", "Como jogar?" (8 passos) e "Para quem conduz".
 
 ### ayo — Joga com lacunas
 
@@ -577,30 +599,35 @@ Status: documented · Família: caca-assimetrico · "(a verificar)": 4 · "Como 
 
 ### ban-sugoroku — Não joga
 
-Status: partial · Família: corrida · "(a verificar)": 0 · "Como jogar?": não
+Status: partial · Família: corrida · "(a verificar)": 4 · "Como jogar?": não (veredito "não joga": só resumo e "Do que você vai precisar?")
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | parcial | `board`: "2×12 casas em três faixas", sem dizer como as faixas se arrumam |
-| E2 Peças | sim | `pieces`: 15 por jogador; 2 dados |
-| E3 Preparação | não | Regras: "a mesma posição inicial" do gamão, que não está na ficha |
-| E4 Ação da vez | não | Regras: "Como o gamão" |
-| E5 Movimento | não | — |
-| E6 Fim e vitória | não | — |
+| E1 Tabuleiro | sim | `board` 2×12 casas; Regras 2 (a ficha dizia "três faixas", sem fonte) |
+| E2 Peças | parcial | `pieces`: 15 por jogador e 2 dados; o 15 vem do gamão (a verificar) |
+| E3 Preparação | parcial | Regras 3: "a mesma posição inicial" do gamão; a posição vem da Wikipedia (Backgammon), a verificar |
+| E4 Ação da vez | sim | Regras 4 (2 dados: duas peças ou a soma) |
+| E5 Movimento | parcial | Regras 3 e 5: sentido do gamão (a verificar) |
+| E6 Fim e vitória | sim | Regras 7 e 8 |
 | I1 Quem começa | não | — |
-| I2 Captura | não | — |
+| I2 Captura | parcial | Regras 6 (*kiru*; a peça volta antes das outras; como volta não está) |
 | I3 Obrigação | não | — |
 | I4 Bloqueio | não | — |
 | I5 Empate | não | — |
-| I6 Fases | não | — |
+| I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Wikipedia, "Sugoroku"; Japanese Wiki Corpus; Wikipedia, "Backgammon" só para a posição inicial): tabuleiro 12×2, pedras brancas e pretas, dois dados (duas peças ou a soma), dobrados sem regra especial, captura (*kiru*), vitória por levar tudo às últimas seis casas (*irigachi*), sem retirada, sem dado de dobra, fechar seis casas é vitória automática (*mujigachi*). Corrigido em `board`: "em três faixas" saiu, porque nenhuma fonte lida o confirma. A Biblioteca Nacional da Dieta só repete "virtualmente idêntico ao gamão".
 
-| Item | Lacuna | Tipo |
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E1, E3–E6, I1–I6 | As regras remetem ao gamão, que não está no catálogo, e às diferenças "a detalhar". | fonte |
+| E2, E3, E5 | As 15 peças, a posição inicial e o sentido só vêm do gamão moderno; nenhuma fonte de sugoroku os traz. | fonte |
+| I1–I5 | Quem começa, volta da peça capturada, obrigação, jogador sem jogada, empate. | fonte |
 
-**Abrir primeiro (Etapa 2):** Wikipedia (Sugoroku); Japanese Wiki Corpus.
+**Fontes inacessíveis:** woodblockprints.org (erro 403). O Ludii não tem página própria do ban-sugoroku (só do Sugoroku, em reconstrução pendente).
+
+**Reescrita (lote 8):** resumo novo, "Do que você vai precisar?" e "Para quem conduz". Veredito na fronteira: ficou "não joga" porque a posição inicial e o sentido das peças só vêm do gamão moderno (o que Wikipedia, Backgammon, diz de si mesmo); se a curadoria aceitar esse empréstimo, dá para escrever o "Como jogar?". **Sensibilidade:** `sens` é "aposta"; "Para quem conduz" só registra que o jogo foi proibido por causa das apostas.
 
 ### bao-ki-arabu — Joga com lacunas
 
@@ -682,32 +709,38 @@ Status: documented · Família: semeadura · "(a verificar)": 4 · "Como jogar?"
 
 **Reescrita (lote 3):** resumo novo, "Do que você vai precisar?", "Como jogar?" (8 passos, com a *nyumba* marcada "(a verificar)", como na Regra 12) e "Para quem conduz". As restrições do Ludii (Regra 13) e a *nyumba* do Malawi ficaram em "Para quem conduz", e não no passo a passo: é a decisão de curadoria que o bloco deixava em aberto, tomada aqui como sugestão e sujeita a revisão. Quem começa e empate seguem como "**Sugestão do site:**" (tirar na sorte, combinar). **Lacuna que o texto não fecha:** o que se faz numa vez *takata* no *namua* (a Regra 10 só diz que não há captura).
 
-### bao-la-kujifunza — Não joga
+### bao-la-kujifunza — Joga com lacunas
 
-Status: partial · Família: semeadura · "(a verificar)": 0 · "Como jogar?": não
+Status: partial · Família: semeadura · "(a verificar)": 0 · "Como jogar?": sim (lote 8)
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | sim | `board` 4×8; `diagram` |
-| E2 Peças | não | `pieces`: "sementes" |
-| E3 Preparação | não | — (a ficha não tem `## Regras`) |
-| E4 Ação da vez | não | — |
-| E5 Movimento | não | — |
-| E6 Fim e vitória | não | — |
+| E1 Tabuleiro | sim | `board` 4×8; `diagram`; Regras 1 |
+| E2 Peças | sim | `pieces`; Regras 1 e 2 (32 por jogador, 2 por cova) |
+| E3 Preparação | sim | Regras 2 |
+| E4 Ação da vez | sim | Regras 4 |
+| E5 Movimento | sim | Regras 4–7 |
+| E6 Fim e vitória | sim | Regras 10 |
 | I1 Quem começa | não | — |
-| I2 Captura | não | — |
-| I3 Obrigação | não | — |
-| I4 Bloqueio | não | — |
+| I2 Captura | sim | Regras 5–7 |
+| I3 Obrigação | sim | Regras 5 (capturar é obrigatório) |
+| I4 Bloqueio | sim | Regras 10 |
 | I5 Empate | não | — |
-| I6 Fases | não | — |
+| I6 Fases | sim | Regras 2 (só a segunda fase, *mtaji*) |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Wikipedia, "Bao", a partir de De Voogt 1991–1995; Mancala World, a partir de Vessella e de um folheto do Museu Nacional da Tanzânia de 1971): a ficha ganhou `## Regras` inteira e `pieces` completo. As regras são as da segunda fase do Bao la kiswahili, sem a *nyumba* e (segundo o Mancala World) sem a *takasia*.
 
-| Item | Lacuna | Tipo |
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E2–E6, I1–I6 | A ficha não tem `## Regras`. | fonte |
+| I1, I5 | Quem começa e empate. | fonte |
+| — | A regra *takasia*, que o Mancala World diz que não vale aqui, não aparece na Wikipedia e a ficha não a explica. | fonte |
+| — | `countries` só tem TZ; o Mancala World também registra o Quênia (e, com interrogação, o Malawi e o Congo). | curadoria |
 
-**Abrir primeiro (Etapa 2):** "Wikipedia: Bao".
+**Fontes novas:** "Mancala World: Bao la Kujifunza" nas `refs`. **Pendência:** o *Guide pratique du jeu du Bao* (francês), que a Wikipedia lista com uma parte sobre o kujifunza, não foi aberto.
+
+**Reescrita (lote 8):** resumo novo, "Do que você vai precisar?", "Como jogar?" (9 passos) e "Para quem conduz". Saiu "Zanzibar" do resumo, que nenhuma fonte lida sustenta. O passo 4 reproduz as regras de ponta (*kichwa*) e de cova vizinha (*kimbi*) da Wikipedia, que usa o termo *kimbi* de duas formas.
 
 ### brandubh — Joga com lacunas
 
@@ -816,35 +849,43 @@ Status: unknown · Família: alinhamento · "(a verificar)": 0 · "Como jogar?":
 
 **Abrir primeiro (Etapa 2):** nada a pesquisar para as regras. Vinha pode trazer o desenho do tabuleiro, que serviria só para "Do que você vai precisar?" ou para o T-056.
 
-### chaturanga — Não joga
+### chaturanga — Joga com lacunas, depois da decisão de curadoria
 
-Status: reconstructed · Família: xadrez-e-guerra · "(a verificar)": 0 · "Como jogar?": não
+Status: reconstructed · Família: xadrez-e-guerra · "(a verificar)": 3 · "Como jogar?": não (veredito "joga com lacunas, depois da decisão": só resumo, "Do que você vai precisar?" e "Para quem conduz")
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | sim | `board` 8×8; Regras |
-| E2 Peças | não | `pieces`: "ver reconstruções"; Regras nomeiam os tipos, sem quantidades |
-| E3 Preparação | não | — |
-| E4 Ação da vez | sim | Regras (mover uma peça) |
-| E5 Movimento | não | só o elefante é descrito, e com duas versões |
-| E6 Fim e vitória | não | — |
-| I1 Quem começa | não | — |
-| I2 Captura | não | — |
+| E1 Tabuleiro | sim | `board` 8×8; Regras 1 |
+| E2 Peças | sim | `pieces`; Regras 2 |
+| E3 Preparação | sim | Regras 2 e 3 (diagrama da Wikipedia) |
+| E4 Ação da vez | sim | Regras 5 |
+| E5 Movimento | sim, mas ambíguo | Regras 5 e 6: o elefante tem três movimentos |
+| E6 Fim e vitória | sim | Regras 7 |
+| I1 Quem começa | sim (a verificar) | Regras 4 |
+| I2 Captura | parcial | Regras 5: só a captura do soldado; as outras peças, pelo xadrez (a verificar) |
 | I3 Obrigação | não | — |
-| I4 Bloqueio | não | — |
-| I5 Empate | não | — |
+| I4 Bloqueio | sim, mas ambíguo | Regras 8 (afogamento: duas versões) |
+| I5 Empate | sim | Regras 7 (rei nu recíproco) |
 | I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Wikipedia, *Chaturanga*; Murray 1913 e Falkener 1892, lidos no archive.org): quantidades e posição das peças, os movimentos de todas menos o elefante, quem começa, a vitória por mate ou rei nu e o empate recíproco.
 
-| Item | Lacuna | Tipo |
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E5 | O movimento do elefante muda "conforme a reconstrução"; escolher uma (Murray ou Falkener). | curadoria |
-| E2, E3, E6, I1–I5 | Quantidade e posição das peças, movimentos, vitória. | fonte |
+| E5 | Elefante: (a) duas casas na diagonal, saltando a primeira; (b) uma casa para a frente ou na diagonal (al-Bīrūnī); (c) duas casas na ortogonal, saltando a primeira (al-ʿAdlī). Escolher uma. | curadoria |
+| I4 | Afogamento: o afogado vence (al-ʿAdlī) ou não havia afogamento (outras fontes, Murray). Escolher uma. | curadoria |
+| (todos) | **Dois ou quatro jogadores.** Murray (1913: 45–46) acha mais provável o jogo de dois, sem dados. Falkener (1892: 125–127) traduz o texto sânscrito do jogo de quatro, com dados. A ficha cita os dois como reconstrutores, mas eles não descrevem o mesmo jogo. | curadoria |
+| I2, I3 | Capturam todas as peças com o próprio movimento? Captura é obrigatória? As fontes lidas não dizem. | fonte |
 
-**Erro na ficha:** `pieces`: "ver reconstruções"; sem fonte, o campo fica "desconhecido".
+**Erro corrigido:** `pieces` dizia "ver reconstruções"; agora diz "16 por jogador (reconstrução; ver Regras)".
 
-**Abrir primeiro (Etapa 2):** Falkener 1892 (archive.org); Historical Chess Variants (PDF).
+**Pendência:** o PDF "Historical Chess Variants", que está nas `refs`, não foi aberto. Os números de página de Murray e Falkener foram tirados do texto OCR do archive.org e vale conferir no livro.
+
+**Fontes novas:** Murray 1913 (archive.org) e Wikipedia (*Chaturanga*), agora nas `refs`. Falkener já estava.
+
+**Reescrita (lote 7):** resumo novo (saiu "considerado o antepassado das famílias do xadrez", que a ficha não sustenta com fonte), "Do que você vai precisar?" e "Para quem conduz", que mostra as três divergências e o que as fontes têm em comum. Sem "Como jogar?", porque a curadoria ainda não escolheu o movimento do elefante nem se o jogo é de dois.
 
 ### chaupar — Joga com lacunas
 
@@ -892,15 +933,15 @@ Status: documented · Família: corrida · "(a verificar)": 3 · "Como jogar?": 
 
 ### chunkana — Não joga
 
-Status: partial · Família: corrida · "(a verificar)": 1 · "Como jogar?": não
+Status: partial · Família: corrida · "(a verificar)": 2 · "Como jogar?": não (veredito: só resumo e "Do que você vai precisar?")
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | parcial | `board`: "5 buracos"; `summary`: casas cavadas que valem de 10 a 50, sem a disposição |
-| E2 Peças | parcial | `pieces`: feijões coloridos e um dado, sem quantidade |
-| E3 Preparação | não | — (a ficha não tem `## Regras`) |
-| E4 Ação da vez | não | `summary` cita o dado do Huayru, sem dizer como se usa |
-| E5 Movimento | não | — |
+| E1 Tabuleiro | parcial | Regras 1: 5 casas cavadas, sem a disposição |
+| E2 Peças | parcial | Regras 1: feijões de várias cores, sem quantidade |
+| E3 Preparação | não | — |
+| E4 Ação da vez | parcial | Regras 2 e 3: lança-se o dado *pichqa* |
+| E5 Movimento | parcial | Regras 3: muda-se os feijões "de casa em casa até o fim" |
 | E6 Fim e vitória | não | — |
 | I1 Quem começa | não | — |
 | I2 Captura | não | — |
@@ -909,45 +950,63 @@ Status: partial · Família: corrida · "(a verificar)": 1 · "Como jogar?": nã
 | I5 Empate | não | — |
 | I6 Fases | não | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Depaulis 1998, BGS 1: 28–33, lido; cita Cobo 1653, Murúa 1590 e os dicionários):
+
+- E1, E2, E4: tabuleiro de 5 casas cavadas em pedra lisa ou tábua, feijões coloridos e o dado inca *pichqa* (pirâmide de seis faces); a primeira casa vale 10 e cada uma cresce de dez em dez, até 50.
+
+**Segue em aberto:**
 
 | Item | Lacuna | Tipo |
 | --- | --- | --- |
-| E1–E6, I1–I6 | A ficha não tem `## Regras`. | fonte |
-| — | `sens`: aposta (a verificar). | curadoria |
+| E1 | Disposição das 5 casas. | sem saída |
+| E2 | Quantos feijões cada jogador tem e quantos jogadores. | sem saída |
+| E3–E6, I1–I6 | Posição inicial, como o dado vira movimento, fim, quem começa, captura, obrigação, bloqueio e empate: Depaulis diz que "falta uma descrição completa" (só Cobo 1653 descreve o jogo, num parágrafo). | sem saída |
+| — | `sens` "aposta (a verificar)": Depaulis não diz que se apostava na *chunkana* (o dado *pichqa* era usado em jogos de azar puros e em velórios). | curadoria |
 
-**Abrir primeiro (Etapa 2):** Depaulis 1998 (BGS 1, PDF); "Arellano Hoffmann: tablero chimú".
+**Pendências:** Cobo (1653) e Murúa (1590) no original não foram abertos; Depaulis cita o trecho de Cobo por inteiro. A `ref` "Arellano Hoffmann: tablero chimú" (*Tribus* 43, 1994) é só uma entrada de catálogo e não foi lida.
 
-### coyote — Não joga
+**Fonte descartada:** nenhuma.
 
-Status: partial · Família: caca-assimetrico · "(a verificar)": 0 · "Como jogar?": não
+**Reescrita (lote 9):** só o resumo novo e "Do que você vai precisar?". Sem "Como jogar?": as fontes não dizem como o jogo se joga.
+
+### coyote — Joga com lacunas
+
+Status: partial · Família: caca-assimetrico · "(a verificar)": 4 · "Como jogar?": sim (lote 7, todos os passos "(a verificar)")
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | sim | `board`; `diagram` (5×5, só as diagonais principais) |
-| E2 Peças | não | `pieces`: "1 coiote contra várias peças" |
-| E3 Preparação | não | — |
-| E4 Ação da vez | parcial | Regras: o coiote captura saltando; o movimento comum não é dito |
-| E5 Movimento | não | — |
-| E6 Fim e vitória | parcial | Regras: as outras peças "tentam encurralá-lo"; não diz como o coiote vence |
-| I1 Quem começa | não | — |
-| I2 Captura | parcial | Regras: salto; não diz se pode saltar mais de uma vez |
-| I3 Obrigação | não | — |
-| I4 Bloqueio | não | — |
+| E1 Tabuleiro | sim (a verificar) | `board`; Regras 2 (diagonais, pela Wikipedia) |
+| E2 Peças | parcial | `pieces`; Regras 4: 1 coiote e de 10 a 12 galinhas |
+| E3 Preparação | sim (a verificar) | Regras 4 (do *cercar la liebre*) |
+| E4 Ação da vez | sim (a verificar) | Regras 4 e 5 |
+| E5 Movimento | sim (a verificar) | Regras 4 |
+| E6 Fim e vitória | sim (a verificar) | Regras 5 |
+| I1 Quem começa | sim, mas ambíguo | Regras 4 (galinhas; no *Libro de los juegos*, a lebre) |
+| I2 Captura | sim (a verificar) | Regras 5 |
+| I3 Obrigação | sim (a verificar) | Regras 5 (captura não obrigatória) |
+| I4 Bloqueio | sim (a verificar) | Regras 5 (encurralar o coiote é a vitória das galinhas) |
 | I5 Empate | não | — |
-| I6 Fases | não | — |
+| I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Culin 1898, lido no archive.org; Wikipedia, *Catch the hare*): **Culin não escreve as regras do Coyote.** Ele diz só que o jogo se chama *Coyote* no México (p. 876, fig. 184) e, numa nota, que uma folha impressa do jogo traz o diagrama do *Fox and Geese*, "com as mesmas regras". As regras vêm da Wikipedia, para o *cercar la liebre* (jogo de que o *coyote* é variante), e valem para o *coyote* só por inferência: por isso tudo leva "(a verificar)".
 
-| Item | Lacuna | Tipo |
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E2 | Quantas galinhas ou ovelhas. | fonte |
-| E3 | Posição inicial. | fonte |
-| E4, E5 | Como as peças andam. | fonte |
-| E6 | Como o coiote vence. | fonte |
-| I1–I6 | Quem começa, salto múltiplo, obrigação, bloqueio, empate, fases. | fonte |
+| E1 | As duas diagonais principais vêm da Wikipedia, que cita o catálogo de Culin de 1895. O desenho de Culin (fig. 184) não foi conferido. | fonte |
+| E2 | Número de galinhas: de 10 a 12 no *cercar la liebre*; 12 no *el coyote* de El Paso. | curadoria |
+| I1 | Quem começa: galinhas (Wikipedia) ou a lebre (*Libro de los juegos*, na tradução inglesa). | curadoria |
+| I5 | Empate. | fonte |
+| (todos) | Regras do *coyote* mexicano propriamente dito (a folha da Pensilvânia, Cat. 16384, e o catálogo de 1895). | fonte |
 
-**Abrir primeiro (Etapa 2):** Culin 1898 no archive.org (fonte primária do registro); "Wikipedia: Catch the hare".
+**Divergência registrada:** o *el coyote* de El Paso (Wikipedia) tem tabuleiro de 5×7 pontos, 12 galinhas que só andam para a frente, na diagonal para a frente e para o lado, e coiote que anda em qualquer direção; uma variante americana não tem peça para a lebre. Ficou nas Regras e em "Para quem conduz".
+
+**Pendências:** a página da figura 184 não foi localizada nas imagens do archive.org (o OCR não a achou), então o tabuleiro de Culin não foi conferido; o catálogo de 1895 e Ediciones Bob não foram abertos. A ficha cita a Wikipedia como se as diagonais viessem de Culin 1898; vale ajustar `ev` e `board` quando se conferir a figura.
+
+**Fontes novas:** nenhuma; Culin 1898 e a Wikipedia já estavam nas `refs`. A frase "galinhas ou ovelhas" das Regras segue, com a nota de que só as galinhas aparecem nas fontes lidas.
+
+**Reescrita (lote 7):** resumo novo (saiu "Stewart Culin o descreveu", porque ele só cita o nome), "Do que você vai precisar?", "Como jogar?" (7 passos) e "Para quem conduz". O texto traz as regras do *cercar la liebre* e diz isso no começo; E2 e I1, de curadoria, estão em "Para quem conduz", com a variante de El Paso. Os vereditos "joga com lacunas" valem só com a nota de que a transferência das regras do *cercar la liebre* para o *coyote* não está em fonte.
 
 ### dadu — Não joga
 
@@ -1002,32 +1061,40 @@ Status: documented · Família: damas · "(a verificar)": 0 · "Como jogar?": si
 
 ### domino-chines — Não joga
 
-Status: partial · Família: pecas · "(a verificar)": 2 · "Como jogar?": não
+Status: partial · Família: pecas · "(a verificar)": 2 · "Como jogar?": não (veredito segue "não joga": só resumo, "Do que você vai precisar?" e "Para quem conduz"; passa a "joga com lacunas" depois da escolha do jogo)
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
 | E1 Tabuleiro | não se aplica | `board`: sem tabuleiro |
-| E2 Peças | sim | `pieces`: 32 peças (a verificar) |
-| E3 Preparação | não | Regras: "Regras não abertas nesta rodada" |
-| E4 Ação da vez | não | — |
-| E5 Movimento | não | — |
-| E6 Fim e vitória | não | — |
-| I1 Quem começa | não | — |
-| I2 Captura | não | — |
-| I3 Obrigação | não | — |
-| I4 Bloqueio | não | — |
-| I5 Empate | não | — |
-| I6 Fases | não | — |
+| E2 Peças | sim | `pieces` (32); Regras: o conjunto |
+| E3 Preparação | não | depende do jogo |
+| E4 Ação da vez | não | depende do jogo |
+| E5 Movimento | não | depende do jogo |
+| E6 Fim e vitória | não | depende do jogo |
+| I1 Quem começa | não | depende do jogo |
+| I2 Captura | não | depende do jogo |
+| I3 Obrigação | não | depende do jogo |
+| I4 Bloqueio | não | depende do jogo |
+| I5 Empate | não | depende do jogo |
+| I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Culin 1893, lido no archive.org; Wikipedia, *Chinese dominoes*, *Tien Gow* e *Pai gow*): o conjunto (32 peças; 21 lances de dois dados, 11 repetidos; sem peça em branco; naipes civil e militar) e a lista dos jogos que o usam, com um resumo de cada um, em "Regras". `pieces` perdeu o "(a verificar)".
 
-| Item | Lacuna | Tipo |
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| — | Regras: "Há muitos jogos com o mesmo conjunto (*tien gow*, *pai gow* e outros)". Escolher qual jogo a ficha descreve. | curadoria |
-| E3–E6, I1–I6 | Regras do jogo escolhido. | fonte |
-| — | `sens`: aposta (a verificar). | curadoria |
+| E3–E6, I1–I5 | Depende do jogo. Culin (1893) descreve, entre outros, o *tiu u*, o *ts'ung shap*, o *k'ap shap* e *k'ap t'ai shap*, o *nau t'in kau*, o *ta t'in kau* (*tien gow*) e o *hoi t'ap*; a Wikipedia traz o *tien gow* e o *pai gow*. Nenhum está escrito na ficha. | fonte |
+| — | Escolher qual jogo a ficha descreve (o *tien gow*, para 4, é o que Culin chama de o mais desenvolvido). | curadoria |
+| — | `sens`: aposta (a verificar). Culin diz que era o instrumento de jogo de azar mais comum entre os trabalhadores chineses nos Estados Unidos; a decisão de como apresentá-lo fica para a curadoria. | curadoria |
 
-**Abrir primeiro (Etapa 2):** Culin 1893 (*Chinese Games with Dice and Dominoes*), pela bibliografia de Avedon; "Wikipedia: Dominoes".
+**Divergência registrada:** Culin escreve os nomes como os ouviu de imigrantes cantoneses, e a Wikipedia usa outras grafias; o OCR do archive.org tem erros nos nomes de Culin.
+
+**Pendências:** a bibliografia de Culin por Avedon, que está nas `refs`, não foi aberta. O número de peças por jogador e as regras de cada jogo não foram transcritos.
+
+**Fontes novas:** Culin 1893 (archive.org), Wikipedia: Chinese dominoes, Tien Gow e Pai gow.
+
+**Reescrita (lote 7):** só o resumo novo, "Do que você vai precisar?" (com a composição do conjunto) e "Para quem conduz", que lista os jogos e explica por que não há "Como jogar?". Segue "não joga".
 
 ### domino-doble-nueve — Joga com lacunas
 
@@ -1311,35 +1378,45 @@ Status: reconstructed · Família: caca-assimetrico · "(a verificar)": 1 · "Co
 
 **Reescrita (lote 4):** resumo novo (saiu "o mais conhecido dos jogos tafl", sem fonte na ficha), "Do que você vai precisar?", "Como jogar?" (9 passos) e "Para quem conduz". O passo a passo usa só o que os conjuntos de Copenhagen e Fetlar têm em comum (Regras 1 a 9); rei na borda, repetição, muralha de escudos e forte de saída (Regras 10 a 12) ficam em "Para quem conduz". A decisão sobre qual conjunto a ficha adota segue aberta.
 
-### hoyito — Não joga
+### hoyito — Joga com lacunas, depois da decisão de curadoria
 
-Status: documented · Família: semeadura · "(a verificar)": 0 · "Como jogar?": não
+Status: documented · Família: semeadura · "(a verificar)": 0 · "Como jogar?": não (veredito "joga com lacunas, depois da decisão": só resumo, "Do que você vai precisar?" e "Para quem conduz")
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | sim | `board` 2×6; `diagram` |
-| E2 Peças | não | `pieces`: "sementes" |
-| E3 Preparação | não | Regras: "Várias formas; ver Mancala World" |
-| E4 Ação da vez | não | — |
-| E5 Movimento | não | — |
-| E6 Fim e vitória | não | — |
+| E1 Tabuleiro | sim | `board` 2×6; `diagram`; Regras em comum 1 |
+| E2 Peças | sim | Regras em comum 1 (4 por cova) |
+| E3 Preparação | sim | Regras em comum 1 |
+| E4 Ação da vez | sim | Regras em comum 2 e 3 |
+| E5 Movimento | sim | Regras em comum 2 e 3 |
+| E6 Fim e vitória | sim, em cada forma | Regras em comum 6 e I |
 | I1 Quem começa | não | — |
-| I2 Captura | não | — |
+| I2 Captura | sim, mas a forma muda | Regras I, II e III |
 | I3 Obrigação | não | — |
-| I4 Bloqueio | não | — |
+| I4 Bloqueio | sim | Regras em comum 5 (passa a vez) |
 | I5 Empate | não | — |
-| I6 Fases | não | — |
+| I6 Fases | sim | Regras em comum 6 (partidas em rodadas) |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Mancala World: Hoyito I, II, III e *dictionary*, a partir de Bautista i Roca 2005):
 
-| Item | Lacuna | Tipo |
+- As três formas estão escritas lado a lado: **I**, a simples (captura de casas de 4 por quem joga, em qualquer cova); **II**, a difícil (só a última semente captura, mais as casas de 4 em sequência, e joga de novo); **III**, variante do II vista em Batey (só se captura a última cova).
+- Ficha: a `ref` "Wikipedia" (`Www.wikipedia.org/wiki/Hoyito`) redirecionava para o artigo geral do Mancala e foi trocada pelas três páginas do Mancala World. Aponta o erro registrado na Etapa 1.
+
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| — | O nome cobre "vários jogos" (`summary`); escolher qual forma a ficha descreve (Hoyito I ou II). | curadoria |
-| E2–E6, I1–I6 | Regras da forma escolhida. | fonte |
+| E5 | Que forma a ficha ensina (I, II ou III). | curadoria |
+| `sens` | A ficha diz "nenhuma", mas o Mancala World registra aposta (contas de vidro) e superstições (não cavar na Sexta-Feira Santa). | curadoria |
+| I1, I3, I5 | Quem começa, se capturar é obrigatório e empate. | fonte |
 
-**Erro na ficha:** a `ref` "Wikipedia" aponta para `https://Www.wikipedia.org/wiki/Hoyito`, sem o idioma no domínio. Provavelmente quebrada (o T-063 deve pegar).
+**Fontes novas:** Mancala World: Hoyito I, II e III.
 
-**Abrir primeiro (Etapa 2):** "Mancala World: Hoyito dictionary" (Hoyito I e II); "Ludii: evidência".
+**Pendências:** *Africa Hidden Inside a Small Hole* (Bautista i Roca 2005; o link da manqala.org dá erro 404) não foi aberto. A página de evidências do Ludii (`data.php?gameId=270`) carrega por script e não pôde ser lida.
+
+**Fonte descartada:** nenhuma.
+
+**Reescrita (lote 9):** só o resumo novo, "Do que você vai precisar?" e "Para quem conduz", que lista as formas. Sem "Como jogar?": a escolha da forma (E5) não foi tomada aqui.
 
 ### huayru — Não joga
 
@@ -1369,34 +1446,40 @@ Status: partial · Família: corrida · "(a verificar)": 0 · "Como jogar?": nã
 
 **Abrir primeiro (Etapa 2):** Depaulis 1998 (BGS 1, PDF), que resume Hartmann e Oberem.
 
-### igisoro — Não joga
+### igisoro — Joga com lacunas
 
-Status: partial · Família: semeadura · "(a verificar)": 1 · "Como jogar?": não
+Status: partial · Família: semeadura · "(a verificar)": 2 · "Como jogar?": sim (lote 7)
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | sim | `board` 4×8 (a verificar); `diagram` |
-| E2 Peças | sim | `pieces`; Regras (64, "fonte de implementação moderna") |
-| E3 Preparação | não | — |
-| E4 Ação da vez | parcial | Regras: "semeadura em várias voltas" |
-| E5 Movimento | parcial | Regras: "dois ciclos", sem o sentido |
-| E6 Fim e vitória | não | — |
-| I1 Quem começa | não | — |
-| I2 Captura | não | Regras: no *kubuguza* "se pode capturar a qualquer momento", sem dizer como |
-| I3 Obrigação | não | — |
-| I4 Bloqueio | não | — |
+| E1 Tabuleiro | sim | `board` 4×8; Regras 1 |
+| E2 Peças | sim | `pieces` (64); Regras 1 |
+| E3 Preparação | sim, com divergência | Regras 2 (fileira de dentro; a Wikipedia diz "de trás" no texto e mostra o meio no desenho) |
+| E4 Ação da vez | sim | Regras 3 |
+| E5 Movimento | sim | Regras 3 a 8 |
+| E6 Fim e vitória | sim | Regras 10 |
+| I1 Quem começa | sim | Regras 9 (a iniciativa é de quem venceu a última partida) |
+| I2 Captura | sim | Regras 5 e 6 |
+| I3 Obrigação | sim | Regras 6 e 11 (pode passar; em algumas regiões é obrigatório capturar) |
+| I4 Bloqueio | sim | Regras 10 (perde quem não consegue semear) |
 | I5 Empate | não | — |
-| I6 Fases | não | — |
+| I6 Fases | sim | Regras 9 (três etapas) |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Mancala World, *Igisoro*; Wikipedia, *Igisoro*): tabuleiro, preparação, a vez e a semeadura encadeada, a captura das duas covas em frente, passar e recuar, o sentido horário nas covas especiais, as três etapas, quem começa e a vitória. `board` perdeu o "(a verificar)", e o "kubuguza é uma forma" virou "kubúguza é a terceira etapa".
 
-| Item | Lacuna | Tipo |
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E3–E6, I1–I6 | "Detalhes nas fontes do Mancala World" (Regras). | fonte |
+| I5 | Empate. | fonte |
+| E3, E4, E5 | Mancala World e Wikipedia divergem: fileira de dentro × "de trás"; cova com pelo menos duas sementes × "uma cova com sementes"; fileira de fora e de dentro separadas ou não. O passo a passo segue o Mancala World. | curadoria |
+| (todos) | Nenhuma fonte primária foi consultada (van der Burgt 1903; Merriam 1953). | fonte |
 
-**Erro na ficha:** o `summary` diz "Parente do Omweso" sem fonte, e o número de sementes vem de uma "implementação moderna".
+**Pendências:** van der Burgt (1903), Merriam (1953, *Man*) e Coupez e Benda (1963) não foram consultados; os sites igisoro.com e pragmasoft.be, que o Mancala World lista, não foram abertos. A página do Mancala World dá 402 ao navegador; foi lida pela API MediaWiki.
 
-**Abrir primeiro (Etapa 2):** Mancala World (e, por ele, van der Burgt 1903 e Kimenyi 1953).
+**Fontes novas:** Wikipedia: Igisoro.
+
+**Reescrita (lote 7):** resumo novo (saiu "Parente do Omweso", que a Wikipedia dá como "variante do Omweso" mas que não está na História da ficha), "Do que você vai precisar?", "Como jogar?" (7 passos) e "Para quem conduz". O passo a passo traz o essencial; "recuo", sentido horário, partida que não conta e a captura obrigatória estão em "Para quem conduz". Os passos citam as fontes secundárias e levam a nota "a verificar" na abertura.
 
 ### janggi — Joga com lacunas
 
@@ -1479,87 +1562,115 @@ Status: reconstructed · Família: corrida · "(a verificar)": 2 · "Como jogar?
 
 **Reescrita (lote 3):** só o resumo novo, "Do que você vai precisar?" (20 casas em 3×4, 1×2 e 3×2; 7 peças de Finkel ou 5 de outras reconstruções; 4 dados tetraédricos) e "Para quem conduz", que explica por que não há "Como jogar?" (percurso só em figura, sem quem começa, lance 0 nem empate). O resumo agora diz que as regras são uma reconstrução.
 
-### kay-haiti — Não joga
+### kay-haiti — Joga com lacunas, depois da decisão de curadoria
 
-Status: documented · Família: semeadura · "(a verificar)": 0 · "Como jogar?": não
+Status: documented · Família: semeadura · "(a verificar)": 2 · "Como jogar?": sim (lote 9, na forma A que a ficha já usa)
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | não | `board`: "2 fileiras", sem número de covas |
-| E2 Peças | não | `pieces`: "sementes" |
-| E3 Preparação | não | — (a ficha não tem `## Regras`) |
-| E4 Ação da vez | não | `summary`: "semeadura em várias voltas" |
-| E5 Movimento | não | — |
-| E6 Fim e vitória | não | — |
+| E1 Tabuleiro | sim | `board`: 2×6; Regras A 1 |
+| E2 Peças | sim | `pieces`; Regras A 1 (48 sementes) |
+| E3 Preparação | sim | Regras A 1 |
+| E4 Ação da vez | sim | Regras A 2 |
+| E5 Movimento | sim | Regras A 2, 3 e 5 |
+| E6 Fim e vitória | sim | Regras A 6 |
 | I1 Quem começa | não | — |
-| I2 Captura | não | — |
+| I2 Captura | sim | Regras A 4 |
 | I3 Obrigação | não | — |
-| I4 Bloqueio | não | — |
+| I4 Bloqueio | sim | Regras A 6 (a partida acaba) |
 | I5 Empate | não | — |
-| I6 Fases | não | — |
+| I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Mancala World: Warri (Haiti), Voleur, Hoyito I, Kay):
 
-| Item | Lacuna | Tipo |
+- As fontes descrevem formas diferentes e estão escritas lado a lado em "Regras": **A**, o *warri* do norte, que Comhaire-Sylvain (1952) diz ser o *kay* do sul; **B**, o *voleur* (Bautista i Roca 2005), de uma só volta; **C**, o *kay* do sul parecido com o Hoyito (informantes de 2004 e 2006); **D**, o *Kay* da Wikipédia francesa, fonte fraca e não usada.
+- Forma A: as 12 covas, 4 sementes, semeadura, captura de casas de 4 ("Kay!") e fim da partida.
+
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E1–E6, I1–I6 | A ficha não tem `## Regras`. As duas `refs` são de jogos com outros nomes (Warri, Voleur): a curadoria precisa confirmar qual descreve o *kay*. | fonte |
+| E5 | Que forma é o *kay*: A (*warri*), B (*voleur*, que a ficha lista entre os nomes) ou C (parecida com o Hoyito, ficha própria). O texto das regras de A é de Bautista i Roca, e Comhaire-Sylvain (1952) só é citado como primeira descrição. | curadoria |
+| E5 | Semente que cai numa cova vazia (A 5): "passa para o próximo *couvert*", sem detalhe. | fonte |
+| I1, I3, I5 | Quem começa, se capturar é obrigatório e empate. | fonte |
 
-**Abrir primeiro (Etapa 2):** "Mancala World: Warri (Haiti)"; "Mancala World: Voleur"; por eles, Comhaire-Sylvain 1952.
+**Fontes novas:** Mancala World: Hoyito I; Mancala World: Kay (cópia da Wikipédia francesa).
+
+**Pendências:** *Jeux congolais* (Comhaire-Sylvain, *Zaïre* 1952: 351–362) e *Africa Hidden Inside a Small Hole* (Bautista i Roca 2005; o link da manqala.org dá erro 404) não foram abertos.
+
+**Fonte descartada:** Wikipédia francesa, via Mancala World: Kay (sem autoria; registrada como forma D e não usada).
+
+**Reescrita (lote 9):** resumo novo, "Do que você vai precisar?", "Como jogar?" (7 passos, forma A, com "a verificar" por ser de segunda mão) e "Para quem conduz", que lista as outras formas.
 
 ### kechukawe — Não joga
 
-Status: partial · Família: corrida · "(a verificar)": 0 · "Como jogar?": não
+Status: partial · Família: corrida · "(a verificar)": 0 · "Como jogar?": não (veredito segue "não joga": só resumo, "Do que você vai precisar?" e "Para quem conduz")
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | não | `board`: "semicircular com segmentos de cinco casas"; não dá para desenhar |
-| E2 Peças | parcial | `pieces`: pedrinhas, sem quantidade; dado piramidal |
+| E1 Tabuleiro | parcial | Regras 1: semicírculo de segmentos de cinco casas, sem o número de segmentos |
+| E2 Peças | parcial | Regras 2: pedrinhas, sem quantidade |
 | E3 Preparação | não | — |
-| E4 Ação da vez | sim | Regras (lançar o dado: 1, 2, 3, 5 e 0, segundo Olivares) |
-| E5 Movimento | parcial | Regras: "avança-se pelo circuito", sem o percurso |
+| E4 Ação da vez | parcial | Regras 3 e 4: lançar o dado e mover conforme |
+| E5 Movimento | parcial | Regras 4: "ao modo da oca", sem sentido nem percurso |
 | E6 Fim e vitória | não | — |
 | I1 Quem começa | não | — |
-| I2 Captura | sim | Regras (cair sobre a peça adversária) |
+| I2 Captura | sim | Regras 5 (quem encontra outra peça a "come") |
 | I3 Obrigação | não | — |
 | I4 Bloqueio | não | — |
 | I5 Empate | não | — |
-| I6 Fases | não | — |
+| I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Depaulis 1998, lido em PDF, que cita Ovalle 1646, Rosales, Olivares c. 1758, Molina 1787 e Manquilef 1914): as quatro descrições do dado, o tabuleiro (Ovalle), a captura (Olivares), a conclusão de Depaulis ("corrida com captura") e o *kechukawe* moderno, só de dados (Manquilef).
 
-| Item | Lacuna | Tipo |
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E1–E3, E5, E6 | Tabuleiro, peças, saída, percurso e vitória. | fonte |
-| I1, I3–I6 | Quem começa, obrigação, bloqueio, empate, fases. | fonte |
+| E1, E2, E3, E4, E5 | Número de segmentos, peças por jogador, de onde saem, sentido, percurso e como se entra: não estão em Depaulis. | fonte |
+| E6, I1, I3, I4, I5 | Vitória, quem começa, obrigação, bloqueio e empate. | fonte |
 
-**Abrir primeiro (Etapa 2):** Depaulis 1998 (BGS 1, PDF), e por ele Olivares.
+**Divergência registrada:** o dado é uma pirâmide alongada (Ovalle), um triângulo com faces 1, 2, 3, 5 (?) e 0 (Olivares), um triângulo de osso lançado por um aro (Molina) e um prisma de cinco lados lançado por um "funil" (Manquilef). A `## Regras` antiga dava 1, 2, 3, 5 e 0 sem o "(?)" de Depaulis.
 
-### kiela — Não joga
+**Pendências:** Ovalle (1646, Roma), que tem o desenho e a descrição, Olivares (c. 1758, em Medina 1952), Rosales e Molina não foram abertos no original; Depaulis os cita de segunda mão. A *Histórica relación* de Ovalle tem edições digitais (Wikisource, Memoria Chilena), indicadas por uma busca, mas não abertas.
 
-Status: partial · Família: semeadura · "(a verificar)": 2 · "Como jogar?": não
+**Fontes novas:** nenhuma; Depaulis já estava nas `refs`.
+
+**Reescrita (lote 7):** resumo novo (saiu "Parente provável dos jogos de corrida incas", que Depaulis diz de outro modo: "pode muito bem ser um parente próximo") e "Do que você vai precisar?", que diz o que a fonte não diz. "Para quem conduz" explica por que não há "Como jogar?" e mostra as quatro descrições do dado. Segue "não joga".
+
+### kiela — Joga com lacunas
+
+Status: partial · Família: semeadura · "(a verificar)": 2 · "Como jogar?": sim (lote 8)
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | não | `board`: "4 fileiras (a verificar)", sem número de covas |
-| E2 Peças | não | `pieces`: "pedras ou sementes" |
-| E3 Preparação | parcial | Regras: jogadores experientes podem rearrumar as pedras na primeira jogada |
-| E4 Ação da vez | não | — |
-| E5 Movimento | não | — |
-| E6 Fim e vitória | não | — |
+| E1 Tabuleiro | sim | `board`; Regras 1 (4 fileiras de 10 covas) |
+| E2 Peças | sim | `pieces`; Regras 2 |
+| E3 Preparação | sim | Regras 2 e 3 |
+| E4 Ação da vez | sim | Regras 4 |
+| E5 Movimento | sim | Regras 4–6 |
+| E6 Fim e vitória | sim | Regras 9 |
 | I1 Quem começa | não | — |
-| I2 Captura | não | — |
+| I2 Captura | sim, mas ambíguo | Regras 7 e 8: "as sementes desta cova" (a verificar) |
 | I3 Obrigação | não | — |
-| I4 Bloqueio | não | — |
+| I4 Bloqueio | sim | Regras 9 e 10 |
 | I5 Empate | não | — |
-| I6 Fases | não | — |
+| I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Mancala World, que cita Buchner 1887 e Campos 1998 sem dizer de qual tirou cada regra): tabuleiro de 4×10, posição de iniciantes e de avançados, semeadura, captura da cova em frente e da de fora, perda por não poder jogar, e a regra de iniciantes. A Wikipedia só traz contexto e não traz as regras.
 
-| Item | Lacuna | Tipo |
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E1–E6, I1–I6 | A própria ficha aponta a "fonte principal a ler": E. Romariz Santos Silva (1995). | fonte |
+| I2 | De quem são "as sementes desta cova" no passo 7. | fonte |
+| I1, I3, I5 | Quem começa, obrigação, empate. | fonte |
 
-**Abrir primeiro (Etapa 2):** Wikipedia; Silva 1995. A descrição do Wikimanqala vem "citada num índice", de segunda mão.
+**Fontes novas:** "Mancala World: Kiela" nas `refs`.
+
+**Pendências:** os livros de Buchner (1887), Campos (1998) e Santos Silva (1995) não foram abertos (não achei Santos Silva online). `ev.ref` segue "Santos Silva 1995"; a curadoria pode trocá-lo por Buchner 1887, a primeira descrição que o Mancala World cita.
+
+**Reescrita (lote 8):** resumo novo, "Do que você vai precisar?", "Como jogar?" (8 passos) e "Para quem conduz". O passo 6 leva "(a verificar)" pela ambiguidade de I2. O texto não diz que "kiela" significa "enigma", porque isso não está na ficha.
 
 ### komikan — Não joga
 
@@ -1849,32 +1960,46 @@ Status: documented · Família: bloqueio · "(a verificar)": 1 · "Como jogar?":
 
 **Fontes novas:** Wikipedia; Browne 2020 (arXiv).
 
-### mulabalaba — Não joga
+### mulabalaba — Joga com lacunas
 
-Status: documented · Família: semeadura · "(a verificar)": 0 · "Como jogar?": não
+Status: documented · Família: semeadura · "(a verificar)": 1 · "Como jogar?": sim (lote 9; quase tudo do Hawalis, "a verificar")
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | não | `board`: "4 fileiras", sem número de covas |
-| E2 Peças | não | `pieces`: "sementes" |
-| E3 Preparação | não | — (a ficha não tem `## Regras`) |
-| E4 Ação da vez | não | `summary`: "dois ciclos e semeadura em várias voltas" |
-| E5 Movimento | não | — |
-| E6 Fim e vitória | não | — |
+| E1 Tabuleiro | sim | `board`: 4×6 ou 4×8 (Lozi), 4×12 ou 4×16 (Toka) |
+| E2 Peças | sim | `pieces`: 2 ou 3 sementes por cova |
+| E3 Preparação | sim, mas ambíguo | Regras: 2 **ou** 3 sementes, sem dizer de que depende |
+| E4 Ação da vez | sim (a verificar) | Regras do Hawalis 2 |
+| E5 Movimento | sim (a verificar) | Regras do Hawalis 2 e 3; Mulabalaba 3 |
+| E6 Fim e vitória | sim (a verificar) | Regras do Hawalis 6 |
 | I1 Quem começa | não | — |
-| I2 Captura | não | — |
-| I3 Obrigação | não | — |
+| I2 Captura | sim (a verificar) | Regras do Hawalis 4 |
+| I3 Obrigação | não se aplica | A captura é automática |
 | I4 Bloqueio | não | — |
-| I5 Empate | não | — |
-| I6 Fases | não | — |
+| I5 Empate | sim (a verificar) | Regras do Hawalis 6 (posição que se repete) |
+| I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Mancala World: Mulabalaba e Hawalis):
+
+- E1–E6: o Mancala World diz que o Mulabalaba "pode ser considerado uma variante do Hawalis" e dá as três diferenças (tamanhos de tabuleiro Lozi e Toka, 2 ou 3 sementes, semente sozinha). As regras do Hawalis estão escritas em "Regras", marcadas como não conferidas para o Mulabalaba.
+
+**Segue em aberto:**
 
 | Item | Lacuna | Tipo |
 | --- | --- | --- |
-| E1–E6, I1–I6 | A ficha não tem `## Regras`. | fonte |
+| E3 | Quando são 2 sementes e quando são 3. | fonte |
+| I1 | Quem começa. | fonte |
+| I4 | O que acontece quando o jogador não pode jogar. | fonte |
+| E4–E6, I2, I5 | Conferir as regras do Hawalis com Chaplin (1956), a fonte do Mulabalaba. | fonte |
+| E5 | A diferença 3 do Mulabalaba (semear a semente sozinha numa cova vizinha ocupada) contradiz o Hawalis, onde ela não anda se a seguinte está ocupada. | curadoria |
 
-**Abrir primeiro (Etapa 2):** Mancala World (e, por ele, Chaplin 1956).
+**Fontes novas:** Mancala World: Hawalis.
+
+**Pendências:** Chaplin (1956, *Man* 56: 168–170; o link da Universidade de Waterloo e a cópia do web.archive.org não abriram) e Russ (2000: 101–102) não foram abertos.
+
+**Fonte descartada:** nenhuma.
+
+**Reescrita (lote 9):** resumo novo, "Do que você vai precisar?", "Como jogar?" (7 passos) e "Para quem conduz".
 
 ### muvalavala — Joga com lacunas
 
@@ -1955,67 +2080,102 @@ Status: partial · Família: corrida · "(a verificar)": 3 · "Como jogar?": nã
 
 **Reescrita (lote 6):** só o resumo novo, "Do que você vai precisar?" e "Para quem conduz", que lista as formas (A, B e a reconstrução do *nardshir*). Sem "Como jogar?": é a escolha da forma (E5) que o bloco deixava aberta, e ela não foi tomada aqui. O `sens` segue "desconhecido".
 
-### nchayo — Não joga
+### nchayo — Joga com lacunas
 
-Status: unknown · Família: semeadura · "(a verificar)": 0 · "Como jogar?": não
+Status: partial (era `unknown`) · Família: semeadura · "(a verificar)": 5 · "Como jogar?": sim (lote 8)
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | não | `board`: "4 fileiras (Ludii)", sem número de covas |
-| E2 Peças | não | `pieces`: sementes ou pedras |
-| E3–E6 | não | Regras: "Não abertas nesta rodada" |
-| I1–I6 | não | — |
+| E1 Tabuleiro | sim, mas ambíguo | `board`; Regras 2 (4 fileiras de 5 ou de 8 covas, a verificar) |
+| E2 Peças | sim | `pieces`; Regras 1 e 3 (1 semente por cova) |
+| E3 Preparação | sim | Regras 3 |
+| E4 Ação da vez | sim | Regras 4 |
+| E5 Movimento | sim | Regras 4–5 (anti-horário, continua se a última cai em cova ocupada) |
+| E6 Fim e vitória | sim | Regras 7 |
+| I1 Quem começa | não | — |
+| I2 Captura | sim | Regras 6 |
+| I3 Obrigação | não | — |
+| I4 Bloqueio | não | — |
+| I5 Empate | não | — |
+| I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Ludii, "Nchayo", que cita Viegas Guerreiro 1966: 79-90; o livro não foi aberto): tabuleiro de 4 fileiras de 5 ou de 8 covas, 1 semente por cova, semeadura anti-horária em várias voltas, captura da cova da fileira de dentro em frente e da de fora, vitória por capturar tudo. O status passou de `unknown` para `partial`: há registro e regras, mas de segunda mão e incompletas.
 
-| Item | Lacuna | Tipo |
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E1–E6, I1–I6 | O status é `unknown` porque o registro (Viegas Guerreiro 1966) ainda não foi aberto, não porque ele não exista. | fonte |
+| E1 | 5 ou 8 covas por fileira: o Ludii não diz qual é a do registro, e o código dele descreve o tamanho 5 como "6 covas por fileira". | fonte |
+| I1, I3, I4, I5 | Quem começa, obrigação, jogador sem jogada, empate. O código do Ludii deixa jogar uma cova com uma semente; o texto do registro não diz. | fonte |
 
-**Abrir primeiro (Etapa 2):** "Ludii: biblioteca"; "BN Portugal: Viegas Guerreiro"; UNL.
+**Fontes novas:** "Ludii: Nchayo" nas `refs`.
+
+**Pendências:** o livro de Viegas Guerreiro (1966) não foi aberto; o texto da UNL está atrás de uma verificação anti-robô (Anubis) e não abriu; o PDF da BN Portugal só traz a biografia do autor.
+
+**Reescrita (lote 8):** resumo novo, "Do que você vai precisar?", "Como jogar?" (6 passos) e "Para quem conduz". O passo 1 leva "(a verificar)": a divisão em duas fileiras por jogador vem do código do Ludii. O resumo diz "registrado" e não "jogado", porque `living` é "desconhecido".
 
 ### ntxuva — Não joga
 
-Status: partial · Família: semeadura · "(a verificar)": 2 · "Como jogar?": não
+Status: partial · Família: semeadura · "(a verificar)": 1 · "Como jogar?": não (veredito "não joga": só resumo e "Do que você vai precisar?")
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | não | `board`: "4 fileiras (a verificar)", sem número de covas |
-| E2 Peças | não | `pieces`: sementes ou pedrinhas |
-| E3–E6 | não | Regras: "Parciais (ver acima)" |
+| E1 Tabuleiro | sim, mas ambíguo | `board`; Regras (4 fileiras de 6 ou de 8 covas, REIN) |
+| E2 Peças | parcial | `pieces`: pedrinhas ou sementes, sem quantidade |
+| E3–E6 | não | — |
 | I1–I6 | não | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2:** o artigo da REIN/UEPB (PDF aberto, texto extraído) trata do ensino do braille e só dá o tabuleiro (4 fileiras de 6 ou 8 colunas), covas no chão (mais comuns no sul de Moçambique, segundo José 2013) e a origem, por citações (José 2013; Paiva 2018). Ganhou `## História`, e o "ver acima" das Regras, que apontava para nada, foi substituído por um texto que diz o que não se sabe.
 
-| Item | Lacuna | Tipo |
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E1–E6, I1–I6 | A própria ficha pede "descrição completa de fonte moçambicana". | fonte |
+| E2–E6, I1–I6 | Nenhuma fonte aberta descreve a semeadura, a captura nem o fim. | fonte |
+| — | As `refs` do Mancala World sobre Tchadji e Tchouba são de outros jogos do catálogo e não citam o Ntxuva (o Mancala World não tem página sobre ele). A relação entre os três segue sem explicação: decisão de curadoria. | curadoria |
 
-**Erro na ficha:** as Regras dizem "ver acima", mas não há nada acima (a ficha não tem `## História`). Duas `refs` são de outros jogos do catálogo (Tchadji e Tchouba): a relação entre os três precisa ser explicada.
+**Fontes inacessíveis:** a oficina da UFFS (SAMAT) redireciona para uma página de manutenção. Uma busca na web indicou uma tese de António Silva (1991) sobre o jogo em Moçambique, que não foi aberta. As apostilas do LoboGames/UFRGS, da Unesp e do Geledés não têm o Ntxuva.
 
-**Abrir primeiro (Etapa 2):** REIN/UEPB (Nampula); UFFS (oficina, que não é fonte de regra sozinha).
+**Reescrita (lote 8):** resumo novo, "Do que você vai precisar?" e "Para quem conduz", que explica por que não há "Como jogar?" e avisa para não ensinar as regras do Tchadji ou do Tchouba como se fossem do Ntxuva. O "Brasil" do resumo vem da ficha (oficina da UFFS, não aberta).
 
-### ohvalhu — Não joga
+### ohvalhu — Joga com lacunas
 
-Status: documented · Família: semeadura · "(a verificar)": 0 · "Como jogar?": não
+Status: documented · Família: semeadura · "(a verificar)": 5 · "Como jogar?": sim (lote 7, todos os passos "(a verificar)")
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | não | `board`: "2 fileiras"; o `summary` fala em "oito [casas]", sem dizer se é por fileira |
-| E2 Peças | não | `pieces`: "sementes" |
-| E3 Preparação | não | — |
-| E4 Ação da vez | parcial | Regras: "um ciclo, semeadura em várias voltas" |
-| E5 Movimento | não | — |
-| E6 Fim e vitória | não | — |
-| I1–I6 | não | — |
+| E1 Tabuleiro | sim (a verificar) | `board`; Regras 1 (Mancala World; Culin 1894, figs. 4 e 5, só os tabuleiros) |
+| E2 Peças | sim (a verificar) | `pieces`; Regras 2 (8 por cova) |
+| E3 Preparação | sim (a verificar) | Regras 2 |
+| E4 Ação da vez | sim (a verificar) | Regras 4 |
+| E5 Movimento | sim (a verificar) | Regras 3 e 4 |
+| E6 Fim e vitória | parcial | Regras 4 e 5: fim da rodada e do jogo; quem vence o jogo não é dito |
+| I1 Quem começa | não | Regras 3: abertura alternada, sem dizer quem abre |
+| I2 Captura | sim (a verificar) | Regras 4 |
+| I3 Obrigação | não | — |
+| I4 Bloqueio | sim (a verificar) | Regras 4 (a rodada acaba quando um jogador não tem sementes) |
+| I5 Empate | não | — |
+| I6 Fases | sim (a verificar) | Regras 5 (rodadas) |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Culin 1894, lido no Project Gutenberg; Mancala World, *Ohvalhu* e *Congkak*): **Culin não escreve as regras das Maldivas.** O Gutenberg traz só as figuras dos tabuleiros do *naranj* (dezesseis covas em duas fileiras, uma cova grande em cada ponta) e, para as regras, o mancala sírio, que é outro jogo. As regras vêm do Mancala World (as do Congkak, com as diferenças do *ohvalhu*) e, por não citarem fonte, todas levam "(a verificar)". `board` e `pieces` ganharam o que Culin e o Mancala World dizem.
 
-| Item | Lacuna | Tipo |
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E1–E6, I1–I6 | "Detalhes a extrair de Culin 1894 e do Mancala World" (Regras). | fonte |
+| E6 | Quem vence o jogo (o texto só diz quando acaba). | fonte |
+| I1, I3, I5 | Quem abre, se capturar é obrigatório, empate. | fonte |
+| (todos) | Fonte primária das regras (as de Culin são de outro jogo). | fonte |
 
-**Abrir primeiro (Etapa 2):** Culin 1894 no Project Gutenberg (fonte primária em domínio público); Mancala World.
+**Erro corrigido:** o link "Culin 1894 (Gutenberg)" nas `refs` (dev4.gutenberg.org) não resolve; trocado por https://www.gutenberg.org/ebooks/66220. Registrado para a curadoria: o `status: documented` e o `ev` (texto, Culin 1894) não se sustentam, porque Culin só descreve os tabuleiros; as regras são de segunda mão, e `partial` seria o status honesto. Não foi alterado.
+
+**Divergência registrada:** o Mancala World diz que o *ohvalhu* é parecido com o Congkak e o Dakon, mas não idêntico, como De Voogt teria afirmado por engano.
+
+**Pendências:** Donkers, de Voogt e Uiterwijk (2000) e as fontes do Congkak (Culin 1894 como "regras", Hellier 1907, Overbeck 1915) não foram abertos. A página do Mancala World dá 402 ao navegador; foi lida pela API MediaWiki.
+
+**Fontes novas:** Mancala World: Congkak; o Gutenberg agora com o link certo.
+
+**Reescrita (lote 7):** resumo novo (saiu "Descrito pela primeira vez por Stewart Culin em 1894", porque Culin descreve só os tabuleiros do *naranj*), "Do que você vai precisar?", "Como jogar?" (7 passos, todos "(a verificar)") e "Para quem conduz". A conta de 128 búzios (16 covas com 8) é do texto novo, a partir de "8 por cova" no Mancala World.
 
 ### omweso — Joga com lacunas
 
@@ -2056,53 +2216,78 @@ Status: documented · Família: semeadura · "(a verificar)": 6 · "Como jogar?"
 
 **Reescrita (lote 4):** resumo novo, "Do que você vai precisar?", "Como jogar?" (7 passos) e "Para quem conduz". Passos "(a verificar)": a arrumação antes da primeira semeadura (Regra 2) e a vitória por captura nas duas pontas (Regra 7). Capturar obrigatório e empate seguem em aberto e estão ditos no texto. **Sensibilidade não resolvida:** o `sens` continua "desconhecido"; os tabus que afastavam as mulheres do jogo (Wikipedia, Discover Society) não entraram na ficha nem no texto novo. Fica para a decisão de curadoria do lote.
 
-### ouk-chatrang — Não joga
+### ouk-chatrang — Joga com lacunas
 
-Status: partial · Família: xadrez-e-guerra · "(a verificar)": 0 · "Como jogar?": não
-
-| Item | Resposta | Onde |
-| --- | --- | --- |
-| E1 Tabuleiro | sim | `board`; `diagram` |
-| E2 Peças | sim | `pieces`: 16 por jogador |
-| E3–E6 | não | a ficha não tem `## Regras`; o `summary` só diz "quase idêntico ao Makruk" |
-| I1–I6 | não | — |
-
-**Lacunas:**
-
-| Item | Lacuna | Tipo |
-| --- | --- | --- |
-| E3–E6, I1–I6 | Regras próprias, ou as diferenças em relação ao Makruk escritas na ficha. | fonte |
-
-**Abrir primeiro (Etapa 2):** "Wikipedia: Makruk" (única `ref`).
-
-### ouril — Não joga
-
-Status: partial · Família: semeadura · "(a verificar)": 1 · "Como jogar?": não
+Status: partial · Família: xadrez-e-guerra · "(a verificar)": 4 · "Como jogar?": sim (lote 7; as regras vêm do makruk)
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | sim | `board`; `diagram` |
-| E2 Peças | sim | `pieces`: 48 sementes |
-| E3 Preparação | não | — |
-| E4 Ação da vez | não | Regras: "Semelhantes às do oware" |
-| E5 Movimento | não | — |
-| E6 Fim e vitória | não | — |
-| I1 Quem começa | não | — |
-| I2 Captura | parcial | Regras: "captura de 2 ou 3", sem dizer quando |
-| I3 Obrigação | não | — |
-| I4 Bloqueio | não | — |
-| I5 Empate | não | — |
-| I6 Fases | não | — |
+| E1 Tabuleiro | sim | `board`; makruk 1 |
+| E2 Peças | sim | `pieces`; makruk 1 |
+| E3 Preparação | sim | makruk 1 (rei branco em d1, Krabbé) |
+| E4 Ação da vez | sim | makruk 2 |
+| E5 Movimento | sim | makruk 2; Camboja 1 |
+| E6 Fim e vitória | sim | makruk 4 |
+| I1 Quem começa | não | Regras: Krabbé diz "se bem me lembro" que alternam |
+| I2 Captura | sim | makruk 2 |
+| I3 Obrigação | sim | makruk 4 (sair do xeque) |
+| I4 Bloqueio | sim | makruk 4 (afogamento empata) |
+| I5 Empate | sim, mas ambíguo | makruk 4: contagem de lances com números divergentes |
+| I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Wikipedia, *Makruk*, seção "Cambodian chess"; Krabbé, *Makruk: chess in Cambodia*): o que é do Camboja (os lances a mais do primeiro lance do rei e do *met*, a variante *kar ouk*, o conjunto de regras de 2008) e as regras do makruk, escritas na ficha como "valem para o *ouk* salvo o que está dito". Krabbé confirma o jogo nas ruas de Phnom Penh.
 
-| Item | Lacuna | Tipo |
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E3–E6, I1–I6 | As regras remetem ao Oware e a "diferenças locais". A ficha manda detalhar a partir de Graça 1998. | fonte |
+| I1 | Quem começa no *ouk* (só a lembrança de Krabbé). | fonte |
+| (todos) | Nenhuma fonte confirma ponto por ponto que o *ouk* segue o makruk. O conjunto de regras de 2008 e os nomes khmers das peças não foram achados. | fonte |
+| E5 | Os lances a mais do primeiro lance: a Wikipedia os dá como a principal diferença do *ouk*, Krabbé os aprendeu em Phnom Penh mas os achou "antigos". Valem hoje? | curadoria |
+| I5 | Contagem de lances: Krabbé (8 a 83) e Wikipedia (tabela do makruk) divergem. | curadoria |
 
-**Erro na ficha:** uma das fontes das Regras é "uma implementação de software", sem nome; fonte fraca.
+**Pendências:** o site khmerinstitute.com, que a Wikipedia cita, hoje é um domínio à venda (redireciona), e a cópia no web.archive.org está bloqueada neste ambiente. A seção "Ouk" da Wikipedia (*Ouk chatrang* é só um redirecionamento) e o texto das regras de 2008 não foram achados.
 
-**Abrir primeiro (Etapa 2):** "Braz Dias: uril (UNEB)"; Resumo ICEM-3; Graça 1998.
+**Fontes novas:** Krabbé, *Makruk: Chess in Cambodia* (timkr.home.xs4all.nl).
+
+**Reescrita (lote 7):** resumo novo (saiu "quase idêntico ao Makruk tailandês", que fica como "regras do makruk, com diferenças pequenas"), "Do que você vai precisar?", "Como jogar?" (6 passos) e "Para quem conduz". O passo a passo segue o makruk e diz isso no começo, com "(a verificar)"; os lances a mais do primeiro lance (passo 5) levam a mesma marca, e a contagem de lances e o *kar ouk* ficam em "Para quem conduz". Quem começa segue em aberto, dito como "**Sugestão do site:**".
+
+### ouril — Joga com lacunas
+
+Status: partial · Família: semeadura · "(a verificar)": 1 · "Como jogar?": sim (lote 7)
+
+| Item | Resposta | Onde |
+| --- | --- | --- |
+| E1 Tabuleiro | sim | `board`; Regras 1 |
+| E2 Peças | sim | `pieces`; Regras 1 |
+| E3 Preparação | sim | Regras 1 (4 por cova) |
+| E4 Ação da vez | sim | Regras 2 |
+| E5 Movimento | sim | Regras 2 e 5 (volta de 12 ou mais) |
+| E6 Fim e vitória | sim | Regras 3 e 6 (25 sementes) |
+| I1 Quem começa | não | Regras 8 |
+| I2 Captura | sim | Regras 4 |
+| I3 Obrigação | sim | Regras 6 (dar sementes ao adversário sem sementes) |
+| I4 Bloqueio | sim | Regras 6 |
+| I5 Empate | não | Regras 8 (só a regra do Awari de repetição, que não foi vista no uril) |
+| I6 Fases | não se aplica | — |
+
+**Resolvido na Etapa 2** (Braz Dias e Braz Dias 2020, estudo etnográfico em São Vicente, lido em PDF; Mancala World, *Ouri*): o tabuleiro, a vez, a captura em sequência, a volta de 12 ou mais, a regra do adversário sem sementes e a vitória com 25. Fraga e Santos (2004) foi lido (PDF escaneado, com OCR): adotam as regras de Cabo Verde "por reunirem consenso", mas não as escrevem.
+
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
+| --- | --- | --- |
+| I1 | Quem começa. | fonte |
+| I5 | Empate. | fonte |
+| E4, E5, I3 | **Versões:** nos torneios escolares de Portugal (Mancala World, a partir de Miceu Tavares), uma cova com uma só semente só pode ser jogada se só há covas assim, e capturar todas as sementes do adversário é permitido, jogando de novo e dando sementes. O estudo de São Vicente não menciona essas regras. Qual a ficha adota? | curadoria |
+
+**Erro corrigido:** a "implementação de software", sem nome, saiu como fonte das Regras; as Regras agora citam o estudo de Braz Dias e o Mancala World. Uma apostila portuguesa de regras (APVM, sem autoria, em moodle.apvm.net) concorda com a versão dos torneios e foi descartada como fonte fraca.
+
+**Pendências:** Graça (1998) e Silva (1994) são impressos, não consultados; o site ouri.ccems.pt, para onde Fraga e Santos remetem, não foi aberto; o PDF do ReiDoCrea (Granada) pede verificação anti-robô; o resumo do ICEM-3 (.doc) só tem o resumo, sem as regras. A página do Mancala World dá 402 ao navegador; foi lida pela API MediaWiki.
+
+**Fontes novas:** Mancala World: Ouri. Braz Dias já estava nas `refs`.
+
+**Reescrita (lote 7):** resumo novo (saiu "jogado sobretudo por homens na rua, nas lojas e na praia"; o estudo de São Vicente diz que na praça só jogavam homens adultos e que as mulheres jogavam em casa, e isso foi dito em "Para quem conduz"), "Do que você vai precisar?", "Como jogar?" (7 passos) e "Para quem conduz". Quem começa e empate, de fonte, estão ditas em "Para quem conduz" como "**Sugestão do site:**". A versão dos torneios de Portugal também está lá, sem escolher uma.
 
 ### oware — Joga com lacunas
 
@@ -2230,32 +2415,44 @@ Status: documented · Família: corrida · "(a verificar)": 4 · "Como jogar?": 
 
 ### patolli — Não joga
 
-Status: partial · Família: corrida · "(a verificar)": 1 · "Como jogar?": não
+Status: partial · Família: corrida · "(a verificar)": 2 · "Como jogar?": não (veredito: só resumo e "Do que você vai precisar?")
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | parcial | `board`: em cruz, braços de "2×9-10" casas |
-| E2 Peças | sim, mas ambíguo | `pieces`: 6 por jogador; "4–10 feijões" |
-| E3 Preparação | não | — |
-| E4 Ação da vez | sim | Regras (valor do lance) |
-| E5 Movimento | parcial | Regras: "percorrem o circuito" |
-| E6 Fim e vitória | não | — |
+| E1 Tabuleiro | parcial | `board`; Regras: Ludii (braços 2×9-10) e Wikipedia (52 casas em "X") |
+| E2 Peças | sim | `pieces`; Regras: 6 por jogador (Ludii e Wikipedia) |
+| E3 Preparação | parcial | Regras, Wikipedia 3 (entrar com 1; a verificar) |
+| E4 Ação da vez | parcial | Regras: dado de feijões (Ludii e Wikipedia) |
+| E5 Movimento | parcial | Regras, Wikipedia 3 e 4 (a verificar) |
+| E6 Fim e vitória | parcial | Regras, Wikipedia 5 (a verificar) |
 | I1 Quem começa | não | — |
-| I2 Captura | não | Regras: "varia entre reconstruções" |
+| I2 Captura | parcial | Regras, Wikipedia 4 (a verificar) |
 | I3 Obrigação | não | — |
-| I4 Bloqueio | não | — |
+| I4 Bloqueio | parcial | Regras, Wikipedia 3 (perde a vez; a verificar) |
 | I5 Empate | não | — |
-| I6 Fases | não | — |
+| I6 Fases | sim | Regras, Wikipedia 5 (rodadas; a verificar) |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Ludii; Wikipedia; Culin 1898; Depaulis 2018, BGS 12):
 
-| Item | Lacuna | Tipo |
+- As duas descrições que existem estão escritas lado a lado: a do **Ludii** (reconstrução, "Pending") e a da **Wikipedia** (sem fonte de regra aberta, toda "a verificar"). O Culin só traz a legenda do Códice Magliabechiano ("como um jogo de dados, numa esteira pintada").
+- Depaulis 2018 separa o patolli asteca, em "X", dos tabuleiros retangulares com cruz quadriculada ("proto-patolli"), que é um jogo diferente, o *k'uilichi*, ainda jogado em Michoacán.
+
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E6, I2 | Captura, casas especiais e apostas "variam entre reconstruções"; o Ludii marca "Reconstruction, Pending". Escolher uma reconstrução e listá-la em `recon`. | curadoria |
-| E1–E3, E5, I1, I3–I6 | Tamanho exato, feijões, saída, percurso e o resto. | fonte |
-| — | `sens`: aposta; ritual (a verificar). | curadoria |
+| E1, E5 | Que forma a ficha ensina: **Ludii** (braços 2×9-10, 4, 5 ou 10 feijões) ou **Wikipedia** (52 casas em "X", casas especiais, apostas). | curadoria |
+| — | Grafites de Tula, Tikal etc. (na `## História` e em `cultures`): Depaulis 2018 diz que são do *k'uilichi*, não do patolli, e que "não há evidência" de que o asteca derive deles. Manter, tirar ou fazer ficha própria. | curadoria |
+| — | `sens` "aposta; ritual (a verificar)": a Wikipedia confirma a aposta e a oferta a Macuilxochitl, mas a fonte é fraca. | curadoria |
+| E3–E6, I1–I5 | Regras de uma forma escolhida, conferidas com a fonte primária. | fonte |
 
-**Abrir primeiro (Etapa 2):** "Ludii: evidências"; Ludii.
+**Fontes novas:** Wikipedia: Patolli; Culin 1898 (archive.org); Depaulis 2018, BGS 12 (Sciendo).
+
+**Pendências:** as fontes primárias e as que o Ludii cita (Durán, Sahagún, Magliabechiano, Tylor 1878, Murray 1951, Duverger 1978, Kendall 1980) não foram abertas; o Mexicolore bloqueia o acesso (erro 403). A página de evidências do Ludii (`data.php?gameId=588`) carrega por script e não pôde ser lida.
+
+**Fonte descartada:** nenhuma. A Wikipedia entra só como descrição, toda "a verificar".
+
+**Reescrita (lote 9):** só o resumo novo e "Do que você vai precisar?". Sem "Como jogar?": é a escolha da forma que o bloco deixa aberta. O resumo deixou de citar os grafites maias, contestados por Depaulis 2018.
 
 ### puluc — Joga com lacunas
 
@@ -2322,41 +2519,78 @@ Status: unknown · Família: adjacente · "(a verificar)": 0 · "Como jogar?": n
 
 **Abrir primeiro (Etapa 2):** CEV, só se a curadoria quiser descrever o objeto.
 
-### raazuvaa — Não joga
+### raazuvaa — Joga com lacunas
 
-Status: unknown · Família: xadrez-e-guerra · "(a verificar)": 2 · "Como jogar?": não
+Status: documented (era `unknown`) · Família: xadrez-e-guerra · "(a verificar)": 0 · "Como jogar?": sim (lote 8)
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1–E6 | não | `board` e `pieces`: "a verificar"; Regras: "Artigo não lido nesta rodada" |
-| I1–I6 | não | — |
+| E1 Tabuleiro | sim | `board`; Regras 1 e 2 (8×8 inferido de "como no xadrez internacional") |
+| E2 Peças | sim | `pieces`; Regras 2 |
+| E3 Preparação | sim | Regras 2 (RNBKQBNR, dama à direita do rei) |
+| E4 Ação da vez | sim | Regras 3 |
+| E5 Movimento | sim | Regras 3 (como no xadrez, sem lance duplo do peão nem roque) |
+| E6 Fim e vitória | sim | Regras 5 |
+| I1 Quem começa | não | Regras 7: só se sabe que não é uma cor |
+| I2 Captura | sim | Regras 3 |
+| I3 Obrigação | não se aplica | — |
+| I4 Bloqueio | sim | Regras 5 (o jogador sem lance perde) |
+| I5 Empate | parcial | Regras 5 (rei nu que captura a última peça); repetição de posição não aparece |
+| I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Markov 2023, BGSJ 17, 93–103, PDF aberto, acesso livre): posição inicial, movimento, promoção, vitória por xeque-mate, afogamento ou rei nu, e a exceção do empate. O status passou de `unknown` para `documented`: é um artigo revisado por pares com a descrição do jogo de hoje, montada a partir de um autor maldívio (Zahir 2017), de vídeos de 2020 e de comunicações pessoais; não é registro antigo. `living` passou a "sim", `ev` a `ethnography` e as `refs` ganharam o DOI do artigo.
 
-| Item | Lacuna | Tipo |
+**Divergência registrada:** Bell (1882) e Culin (1898) o davam como o xadrez indiano; Markov diz que isso não tem fundamento e propõe, como hipótese, descendência do xadrez turco. Está em `## História`, como hipótese do autor.
+
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E1–E6, I1–I6 | O status é `unknown` porque o artigo de Markov (2023) ainda não foi lido. | fonte |
+| I1 | Quem começa. | fonte |
+| I5 | Repetição de posição e falta de material. O artigo de Zahir (2017), que Markov usa, não foi aberto. | fonte |
 
-**Abrir primeiro (Etapa 2):** BGSJ 17 (2023).
+**Reescrita (lote 8):** resumo novo, "Do que você vai precisar?", "Como jogar?" (6 passos) e "Para quem conduz". O movimento das peças vem por remissão ("como no xadrez internacional"); o passo 2 aponta a ficha do Xadrez. Decisão de curadoria: o `diagram` não foi desenhado (o tabuleiro tradicional não é quadriculado).
 
 ### raja-pasu-mandiri — Não joga
 
-Status: documented · Família: semeadura · "(a verificar)": 1 · "Como jogar?": não
+Status: documented · Família: semeadura · "(a verificar)": 0 · "Como jogar?": não (veredito: só resumo e "Do que você vai precisar?")
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | não | `board`: "2 fileiras", sem número de covas |
-| E2 Peças | não | `pieces`: "sementes" |
-| E3–E6 | não | Regras: "Semeadura do tipo *pussa kanawa*. Detalhes na fonte." |
-| I1–I6 | não | — |
+| E1 Tabuleiro | sim | `board`; Regras base 1 e acréscimos 8 |
+| E2 Peças | sim | `pieces`; Regras base 1 (7 por cova) |
+| E3 Preparação | sim | Regras base 1 |
+| E4 Ação da vez | sim | Regras base 2 e 3 |
+| E5 Movimento | sim | Regras base 2 a 4 |
+| E6 Fim e vitória | não | Regras 12: o jogo "provavelmente nunca acaba" |
+| I1 Quem começa | sim | Regras 9 (o Raja) |
+| I2 Captura | sim | Regras base 4 e 5 |
+| I3 Obrigação | não | — |
+| I4 Bloqueio | sim | Regras 10 (passa a vez) |
+| I5 Empate | não | — |
+| I6 Fases | sim | Regras 11 (rodadas, giro dos papéis) |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (de Voogt 2000, BGS 3: 96–97, lido; Mancala World):
 
-| Item | Lacuna | Tipo |
+- E1–E5, I1, I4, I6: as regras do Raja pasu (de 2 jogadores) e os acréscimos do Raja pasu mandiri (3 partes do tabuleiro, ordem de jogo, passar a vez, rodadas e giro dos papéis, empréstimo).
+- Erro na ficha: `players` dizia "2". É um jogo de **3** jogadores, e foi corrigido. `board` e `pieces` ganharam os números.
+
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E1–E6, I1–I6 | As regras remetem ao Mancala World. | fonte |
+| E6 | Não há como vencer uma partida inteira: de Voogt diz que, com o empréstimo, é improvável que o jogo chegue ao fim. | sem saída |
+| I3 | Se capturar é obrigatório. | fonte |
+| I5 | Empate. | fonte |
+| E3 | De Voogt: o Raja é Raja por três partidas seguidas e dá uma semente a cada adversário depois de cada partida. Mancala World: o giro é a cada rodada, e não fala da semente. | curadoria |
 
-**Abrir primeiro (Etapa 2):** Mancala World (e, por ele, de Voogt 2000, BGS 3).
+**Fontes novas:** de Voogt 2000, BGS 3 (PDF da Ludicum); Mancala World: Raja Pasu.
+
+**Pendências:** nenhuma fonte inacessível. As páginas do Mancala World sobre a semeadura *pussa kanawa* não existem.
+
+**Fonte descartada:** nenhuma.
+
+**Reescrita (lote 9):** só o resumo novo e "Do que você vai precisar?". Sem "Como jogar?": a fonte não diz como se vence a partida (E6). `cultures` ("cingaleses, a verificar") e `period` ("a levantar") seguem como estavam.
 
 ### raposa-e-galinhas — Não joga
 
@@ -2700,24 +2934,41 @@ Status: documented · Família: xadrez-e-guerra · "(a verificar)": 4 · "Como j
 
 **Reescrita (lote 6):** resumo novo, "Do que você vai precisar?", "Como jogar?" (8 passos) e "Para quem conduz". Quem começa a colocação (vermelho) segue "(a verificar)", como nas Regras. As duas leituras da posição do rei e das casas de promoção (Murray, Ludii, Wikipedia) estão em "Para quem conduz". Não entrou a regra de que a Wikipedia diz que o peão que passa da casa de promoção não pode mais ser promovido (sem fonte). Empate segue sem fonte.
 
-### tab — Não joga
+### tab — Joga com lacunas
 
-Status: unknown · Família: corrida · "(a verificar)": 3 · "Como jogar?": não
+Status: partial (era `unknown`) · Família: corrida · "(a verificar)": 2 · "Como jogar?": sim (lote 8)
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1–E6 | não | `board`: "ver Depaulis 2024"; Regras: "Não abertas nesta rodada" |
-| I1–I6 | não | — |
+| E1 Tabuleiro | sim, mas ambíguo | `board`; Regras 1 (4 fileiras de 7 a 15 casas) |
+| E2 Peças | sim | `pieces`; Regras 2 e 3 |
+| E3 Preparação | sim | Regras 2 |
+| E4 Ação da vez | sim | Regras 3, 4 e 6 |
+| E5 Movimento | sim | Regras 7 e 8 (leitura do desenho de Lane) |
+| E6 Fim e vitória | parcial | Regras 12: Lane não diz; Wikipedia e Ludii divergem |
+| I1 Quem começa | sim | Regras 5 (lança até tirar *tab*) |
+| I2 Captura | sim | Regras 9 |
+| I3 Obrigação | não | — |
+| I4 Bloqueio | não | — |
+| I5 Empate | não | — |
+| I6 Fases | sim | Regras 7 e 11 (sair da fileira de ponta; entrar na do adversário) |
 
-**Lacunas:**
+**Resolvido na Etapa 2:** o artigo de Depaulis (BGSJ 18, 2024, PDF aberto) é sobre tabuleiros arqueológicos e não tem regras. As regras vêm de Lane (*Manners and Customs of the Modern Egyptians*, 1836; reedição de 1890 no Project Gutenberg, nº 70796), fonte primária: tabuleiro, peças, varetas e valores, quem começa, saída com *tab*, percurso, captura, peças juntas e fileira do adversário. O status passou de `unknown` para `partial`, porque o fim da partida não está em Lane. `board`, `pieces`, `ev` (`ethnography`, 1836) e `period` foram corrigidos, e o "a verificar em Lane" da História foi fechado.
 
-| Item | Lacuna | Tipo |
+**Divergência registrada, sem escolha:** fim da partida. Wikipedia (a partir de Lane 1860): perde quem fica sem peças. Ludii, para o *ṭāb wa-d-dukk* (Hyde 1694, Murray 1951, Depaulis 2001): vence quem capturar mais peças.
+
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E1–E6, I1–I6 | O status é `unknown` porque o artigo de Depaulis (2024) ainda não foi aberto. É uma "família de jogos" (`summary`): a curadoria vai precisar escolher uma forma. | fonte |
+| E6 | Como a partida acaba (divergência acima). | curadoria |
+| I3, I4, I5 | Obrigação, jogador sem lance, empate. Murray 1951 e Depaulis 2001 não foram abertos. | fonte |
+| — | Escolha da forma: a ficha trata ṭāb como "família de jogos"; as regras são só a egípcia de Lane. | curadoria |
+| — | `sens`: Lane diz que se joga nos cafés valendo o pagamento do café, "o que é proibido". `sens` segue "desconhecido". | curadoria |
 
-**Erro na ficha:** `board`: "ver Depaulis 2024".
+**Fontes novas:** Lane (Project Gutenberg) e "Ludii: At-Tab wa-d-Dukk" nas `refs`.
 
-**Abrir primeiro (Etapa 2):** BGSJ 18 (2024), Depaulis.
+**Reescrita (lote 8):** resumo novo, "Do que você vai precisar?", "Como jogar?" (10 passos; o 10 leva "(a verificar)") e "Para quem conduz", que mostra as duas versões do fim e o aviso da aposta no café.
 
 ### tablut — Joga com lacunas
 
@@ -2833,27 +3084,46 @@ Status: documented · Família: semeadura · "(a verificar)": 2 · "Como jogar?"
 
 **Reescrita (lote 6):** resumo novo, "Do que você vai precisar?", "Como jogar?" (7 passos) e "Para quem conduz". A terceira cova capturada (I2) segue "(a verificar)" no passo 5. **Sensibilidade não resolvida:** `sens` é "restrito (sobretudo homens)"; "Para quem conduz" diz só que o registro afirma que é jogado sobretudo por homens. O que o Mancala World diz sobre torneios e crianças jogando não entrou, porque não está na ficha.
 
-### tchouba — Não joga
+### tchouba — Joga com lacunas
 
-Status: documented · Família: semeadura · "(a verificar)": 0 · "Como jogar?": não
+Status: documented · Família: semeadura · "(a verificar)": 0 · "Como jogar?": sim (lote 9)
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | não | `board`: "4 fileiras, até 4×40" |
-| E2 Peças | não | `pieces`: "até 320 sementes" |
-| E3 Preparação | não | — |
-| E4 Ação da vez | parcial | Regras: "dois ciclos, semeadura em várias voltas" |
-| E5 Movimento | não | — |
-| E6 Fim e vitória | não | — |
-| I1–I6 | não | — |
+| E1 Tabuleiro | sim | `board`; Regras 1 e 2 (4×4 a 4×40) |
+| E2 Peças | sim | `pieces`; Regras 1 (2 por cova) |
+| E3 Preparação | sim | Regras 1 |
+| E4 Ação da vez | sim | Regras 3 |
+| E5 Movimento | sim | Regras 3 a 5 |
+| E6 Fim e vitória | sim | Regras 8 |
+| I1 Quem começa | não | — |
+| I2 Captura | sim | Regras 6 e 7 |
+| I3 Obrigação | não | — |
+| I4 Bloqueio | parcial | Regras 5 e 8: fim sem sementes; semente sozinha que não anda não é dita |
+| I5 Empate | não | — |
+| I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Junod 1912, vol. 1: 314–318, lido no archive.org; Mancala World):
+
+- E1–E6: tabuleiro de 4 fileiras (4×4, a forma mais simples, até 4×40), 2 sementes por cova, semeadura em várias voltas, captura da coluna mais 1 ou 2 covas à escolha ("matar"), semente sozinha e fim por falta de sementes.
+- As fontes concordam, com uma nuance: Junod, no exemplo de 16 covas, "mata" 2 covas; no 4×4, 1; o Mancala World generaliza.
+
+**Segue em aberto:**
 
 | Item | Lacuna | Tipo |
 | --- | --- | --- |
-| E1–E6, I1–I6 | As regras são uma classificação, não uma descrição. | fonte |
+| I1 | Quem começa (no exemplo de Junod é o B, sem explicar). | fonte |
+| I3 | Se capturar é obrigatório. | fonte |
+| I4 | Jogada única que é uma semente sozinha que não anda. | fonte |
+| I5 | Empate. | fonte |
 
-**Abrir primeiro (Etapa 2):** "Mancala World: Tchouba"; "Mancala World: Chuba".
+**Fontes novas:** Junod 1912, *The Life of a South African Tribe* (archive.org).
+
+**Pendências:** Junod 1898 (*Les Ba-Ronga*), Romariz Santos Silva (1995), Wagner (1917) e o *awale-info* (que o Mancala World diz ter regras "ligeiramente incorretas") não foram abertos. O Mancala World diz, num trecho, que as fileiras têm de 16 a 40 covas, o que contradiz a lista de variantes dele: a ficha segue a lista, que bate com Junod.
+
+**Fonte descartada:** nenhuma. O *Chuba* de Milton Bradley (1891) é versão de marca, registrada separadamente.
+
+**Reescrita (lote 9):** resumo novo, "Do que você vai precisar?", "Como jogar?" (8 passos) e "Para quem conduz". O `sens` segue "desconhecido"; Junod escreve que o jogo é "dos homens", e a curadoria decide se isso é restrição.
 
 ### toguz-kumalak — Joga
 
@@ -2982,23 +3252,37 @@ Status: partial · Família: captura-posicional, damas · "(a verificar)": 3 · 
 
 ### vinte-casas — Não joga
 
-Status: reconstructed · Família: corrida · "(a verificar)": 1 · "Como jogar?": não
+Status: reconstructed · Família: corrida · "(a verificar)": 1 · "Como jogar?": não (veredito "não joga": só resumo e "Do que você vai precisar?")
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
-| E1 Tabuleiro | parcial | `board`: "20 casas", sem a disposição |
-| E2 Peças | parcial | `pieces`: "peças cônicas e em carretel", sem quantidade |
-| E3–E6 | não | Regras: "Detalhes em Jogo real de Ur" |
-| I1–I6 | não | — |
+| E1 Tabuleiro | sim | `board`; Regras 1 (bloco 3×4 e faixa de 8 casas) |
+| E2 Peças | sim, mas ambíguo | `pieces`; Regras 2 (5 ou 7) |
+| E3 Preparação | parcial | Regras 4 (cada jogador começa num canto da direita do bloco 3×4) |
+| E4 Ação da vez | sim | Regras 3 (lançar os dois ossinhos e mover) |
+| E5 Movimento | parcial | Regras 4 e 6: percurso de Finkel em palavras, rosetas sem posição clara |
+| E6 Fim e vitória | sim | Regras 7 |
+| I1 Quem começa | não | — |
+| I2 Captura | sim | Regras 5 |
+| I3 Obrigação | não | — |
+| I4 Bloqueio | não | — |
+| I5 Empate | não | — |
+| I6 Fases | não se aplica | — |
 
-**Lacunas:**
+**Resolvido na Etapa 2** (Ludii "20 Squares", regras selêucidas de Finkel; Wikipedia, "Royal Game of Ur", seção "Game of Twenty"): o tabuleiro **não é o de Ur**: é um bloco 3×4 com uma faixa de 8 casas, e a ficha remetia ao Jogo real de Ur. Ganhou o tabuleiro, as peças (5 ou 7), os dados (dois ossinhos, um de ovelha e um de boi), o percurso de Finkel, a captura e a vitória. `board` e `pieces` foram corrigidos e as `refs` ganharam o Ludii e a Wikipedia.
 
-| Item | Lacuna | Tipo |
+**Divergência registrada, sem escolha:** a Wikipedia diz que as regras não são conhecidas e que as 5 peças talvez entrassem na faixa de 8 casas e saíssem pelos lados do bloco, o que difere do percurso de Finkel.
+
+**Segue em aberto:**
+
+| Item | O que as fontes dizem | Tipo |
 | --- | --- | --- |
-| E1–E6, I1–I6 | A ficha remete ao Jogo real de Ur. | fonte |
-| — | Vale ter regras próprias ou basta apontar para o Ur? | curadoria |
+| E5 | Quais casas são rosetas e o percurso exato (Finkel contra a leitura da Wikipedia). | curadoria |
+| E3, I1, I3, I4, I5 | Entrada das peças, quem começa, obrigação, lance sem jogada, empate. | fonte |
 
-**Abrir primeiro (Etapa 2):** "Ludii: Royal Game of Ur"; Met 16.10.475a (para a disposição das casas).
+**Pendências:** Finkel 2007 e 2008 e a página do Met (erro 429) não foram abertos. A pergunta "vale ter regras próprias ou basta apontar para o Ur?" foi respondida: vale, porque os tabuleiros são diferentes.
+
+**Reescrita (lote 8):** resumo novo (a frase "parente do Jogo real de Ur" saiu: o Ludii a diz "derivado"; a História já tem a relação), "Do que você vai precisar?" e "Para quem conduz". Sem "Como jogar?" por causa de E5 (percurso e rosetas).
 
 ### warri-caribe — Joga com lacunas
 
