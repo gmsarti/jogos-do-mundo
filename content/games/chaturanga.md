@@ -23,7 +23,7 @@ ev:
 recon:
   - H. J. R. Murray (1913)
   - Edward Falkener (1892)
-summary: 'Jogo de guerra indiano considerado o antepassado das famílias do xadrez. O nome evoca as "quatro divisões" do exército: elefantes, cavalaria, carros e infantaria.'
+summary: 'Jogo de tabuleiro indiano do I milênio d.C., conhecido só por reconstruções modernas. O nome quer dizer "de quatro partes", as quatro divisões do exército: elefantes, cavalaria, carros e soldados.'
 refs:
   - title: Historical Chess Variants (PDF)
     url: https://static.chessvariants.org/historic.dir/HistoricalChessVariants.pdf
@@ -35,6 +35,25 @@ refs:
     url: https://en.wikipedia.org/wiki/Chaturanga
 place: ""
 ---
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 8×8 casas, sem casas coloridas
+- 16 peças para cada jogador: 1 rei (*rājā*), 1 conselheiro (*mantrī*), 2 elefantes, 2 cavalos, 2 carros e 8 soldados
+
+O tabuleiro pode ser impresso ou desenhado no papel. Para as peças, vale marcar o nome de cada uma numa tampinha.
+
+## Para quem conduz
+
+Esta ficha ainda não tem "Como jogar?". As regras do Chaturanga só existem em reconstruções, e as fontes lidas discordam em pontos que mudam a partida:
+
+- **O movimento do elefante.** A Wikipedia lista três, todos descritos na literatura antiga: duas casas na diagonal, saltando a primeira; uma casa para a frente ou na diagonal; ou duas casas na horizontal ou na vertical, saltando a primeira.
+- **O afogamento.** Segundo al-ʿAdlī, o jogador afogado vence; segundo outras fontes, não havia afogamento.
+- **Dois ou quatro jogadores.** Murray (1913) acha mais provável que o jogo original fosse de dois jogadores, sem dados. O texto sânscrito que Falkener (1892) traduz descreve a forma de quatro jogadores, com dados.
+
+O que as fontes têm em comum, pela Wikipedia: o rei anda uma casa em qualquer direção, sem roque; o conselheiro, uma casa na diagonal; o carro, como a torre do xadrez; o cavalo, como o cavalo do xadrez; o soldado anda uma casa para a frente e captura uma casa na diagonal para a frente, sem lance duplo. As brancas jogam primeiro (a verificar), e o rei branco fica em e1, o preto em d8. Vence quem dá xeque-mate ou deixa o adversário só com o rei, salvo se o outro também puder fazer o mesmo no lance seguinte, caso em que empata.
+
+**Sugestão do site:** para jogar assim mesmo, combinem antes qual movimento terá o elefante e se o afogamento vale como vitória, como empate ou como derrota.
 
 ## Regras
 

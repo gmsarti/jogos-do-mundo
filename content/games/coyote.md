@@ -31,7 +31,7 @@ ev:
   date: "1898"
   ref: Culin 1898
 recon: []
-summary: Jogo de caça mexicano, variante do *cercar la liebre* do *Libro de los juegos* (1283), jogado num tabuleiro de alquerque só com as duas diagonais principais. Stewart Culin o descreveu em *Chess and Playing-Cards* (1898).
+summary: 'Jogo de caça do México: um coiote contra várias galinhas, num tabuleiro de alquerque só com as duas diagonais principais. Stewart Culin registrou o nome *coyote* em 1898, e a Wikipedia o dá como variante do *cercar la liebre* do *Libro de los juegos* (1283).'
 refs:
   - title: "Wikipedia: Catch the hare"
     url: https://en.wikipedia.org/wiki/Catch_the_hare
@@ -39,6 +39,34 @@ refs:
     url: https://archive.org/details/chessplayingcard00culi
 place: ""
 ---
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 5×5 pontos do alquerque, ligados por linhas retas e só pelas duas diagonais maiores (a verificar)
+- 1 peça para o coiote, de uma cor
+- De 10 a 12 peças para as galinhas, de outra cor
+
+O tabuleiro pode ser impresso, desenhado no papel ou riscado na terra. As peças podem ser feijões, tampinhas, botões, pedrinhas e por aí vai.
+
+## Como jogar?
+
+Tudo aqui vem das regras do *cercar la liebre*, jogo de que o *coyote* é variante, e nenhuma fonte lida confirma que o *coyote* as segue (a verificar).
+
+1. Jogam duas pessoas: uma joga com o coiote, a outra com as galinhas. Combinem antes quantas galinhas serão, de 10 a 12.
+2. Ponha o coiote no ponto do centro. Ponha 10 galinhas nas duas primeiras fileiras de um lado. Com 12, ponha as outras duas nos pontos de fora da terceira fileira.
+3. As galinhas jogam primeiro. Depois, os jogadores se alternam.
+4. Na sua vez, mova uma peça, uma só, para um ponto vizinho vazio, seguindo as linhas do tabuleiro.
+5. O coiote pode, em vez de andar, capturar uma galinha: ele pula por cima dela, em linha reta, para o ponto vazio logo atrás. Pode continuar pulando por cima de outras galinhas e pode parar quando quiser. Capturar não é obrigatório. A galinha capturada sai do jogo.
+6. As galinhas não capturam. Elas vencem se encurralam o coiote, de modo que ele não possa nem andar nem capturar.
+7. O coiote vence se captura galinhas a ponto de elas não conseguirem mais encurralá-lo, em geral quando restam 9.
+
+## Para quem conduz
+
+**Onde as fontes não combinam.** No *Libro de los juegos* (1283), na tradução inglesa, a lebre, que corresponde ao coiote, joga primeiro. Numa variante de El Paso (Texas), o tabuleiro tem 5×7 pontos, são 12 galinhas, e elas só andam para a frente, na diagonal para a frente e para o lado, enquanto o coiote anda em qualquer direção. Uma variante americana não tem peça para o coiote: o jogador só aponta o lugar dele com um graveto.
+
+Culin (1898) só diz que o jogo se chama *Coyote* no México e que uma folha impressa do jogo traz o mesmo diagrama do *Fox and Geese*, com as mesmas regras. As diagonais do tabuleiro vêm da Wikipedia, e o desenho de Culin não foi conferido.
+
+**Sugestão do site:** como não está claro quem começa nem quantas galinhas, combinem antes e troquem de papel na partida seguinte.
 
 ## Regras
 

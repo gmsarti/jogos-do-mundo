@@ -21,7 +21,7 @@ ev:
   date: séc. XIII
   ref: Zhou Mi, Antigos acontecimentos de Wulin (via Wikipedia)
 recon: []
-summary: Jogo de peças chinês baseado nas combinações de dois dados, base de vários jogos de mesa e de aposta.
+summary: 'Conjunto de 32 peças chinesas, cada uma com os pontos de um lance de dois dados, usado em vários jogos de mesa e de aposta, como o *tien gow* e o *pai gow*. A primeira menção na China é do séc. XIII.'
 refs:
   - title: "Avedon: bibliografia de Culin"
     url: https://healthy.uwaterloo.ca/museum/Archives/Culin/index.html
@@ -42,6 +42,29 @@ place: ""
 
 A Wikipedia registra como menção mais antiga de dominós na China o texto *Antigos acontecimentos de Wulin*, de Zhou Mi (1232–1298), da dinastia Song.
 Descrito por Stewart Culin em *Chinese Games with Dice and Dominoes* (1893), relatório do U.S. National Museum que também cobre jogos da Coreia, Japão, Índia e outros.
+
+## Do que você vai precisar?
+
+- 32 peças retangulares, cada uma com dois grupos de pontos. Não há a peça em branco do dominó europeu: cada peça é um dos 21 lances possíveis de dois dados, e 11 deles aparecem duas vezes
+- Dois naipes, o civil e o militar, sem marca na peça: é preciso saber de cor a que naipe cada uma pertence
+
+Os registros descrevem peças de madeira, osso ou marfim (Culin 1893). Para improvisar, dá para fazer as 32 peças em papelão, marcando os pontos. Um jogo de dominó europeu não serve, porque tem 28 peças e inclui as em branco (Wikipedia).
+
+## Para quem conduz
+
+Esta ficha ainda não tem "Como jogar?", porque as regras dependem do jogo, e a ficha não escolheu qual descrever. Os jogos que as fontes dão para o conjunto são, por exemplo:
+
+- *tiu u*, para 2 ou 3 jogadores, com 2 conjuntos
+- *ts'ung shap*, para 2 jogadores
+- *k'ap shap* e *k'ap t'ai shap*, para 2 a 20 ou mais jogadores
+- *nau t'in kau*, para 2 jogadores
+- *ta t'in kau* (o *tien gow*), para 4 jogadores
+- *hoi t'ap*, jogo de um jogador, que Culin diz que se usava para adivinhação
+- *pai gow*, jogo de aposta
+
+As regras de cada um estão em Culin (1893) e na Wikipedia, e a ficha as lista em "Regras" sem descrever nenhuma. Culin diz que o conjunto era o instrumento de jogo de azar mais comum entre os trabalhadores chineses nos Estados Unidos, e a ficha marca a aposta como "(a verificar)".
+
+**Sugestão do site:** antes de ensinar, confiram se o jogo escolhido envolve aposta.
 
 ## Regras
 

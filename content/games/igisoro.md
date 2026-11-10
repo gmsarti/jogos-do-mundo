@@ -34,7 +34,7 @@ ev:
   date: "1903"
   ref: "van der Burgt 1903: 69-71"
 recon: []
-summary: Jogo de semeadura de quatro fileiras jogado sobretudo pelos tutsis em Ruanda, Burundi e Uganda. Parente do Omweso.
+summary: 'Jogo de semeadura de quatro fileiras de oito covas, jogado sobretudo pelos tutsis em Ruanda, Burundi e Uganda. As sementes passam de cova em cova em várias voltas e podem capturar as sementes do adversário.'
 refs:
   - title: Mancala World
     url: https://mancala.fandom.com/wiki/Igisoro
@@ -46,6 +46,44 @@ place: ""
 ## História
 
 Primeira descrição: J. M. M. van der Burgt (1903), *Un grand peuple d'Afrique équatoriale*. Outras fontes: A. Kimenyi, "The game of kubuguza among the Abatutsi" (*Man*, 1953); Coupez e Benda, sobre a terminologia do igisoro (1963). O Ministério da Juventude e dos Esportes de Ruanda promoveu uma competição em 1983. Em 2008 um aplicativo de igisoro venceu um concurso do Google na África Oriental (Mancala World).
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 4 fileiras de 8 covas (32 covas). Cada jogador fica com as duas fileiras mais próximas dele
+- 64 sementes: 4 em cada cova da fileira de dentro de cada lado, no início
+
+As covas podem ser escavadas no chão ou entalhadas num tabuleiro (Mancala World). Para improvisar, dá para desenhar as covas no papel, e as sementes podem ser feijões, pedrinhas e por aí vai.
+
+## Como jogar?
+
+As regras vêm do Mancala World e da Wikipedia, sem consulta às fontes primárias (a verificar).
+
+1. Cada jogador controla as duas fileiras de 8 covas do seu lado. Ponha 4 sementes em cada cova da fileira de dentro, a que fica junto da linha do meio, e deixe a fileira de fora vazia.
+2. A partida começa com a abertura: os dois jogam ao mesmo tempo, de 2 a 4 lances, sem capturar até depois do segundo. Depois, os lances se alternam. Se não houve partida antes, qualquer um pode tomar a iniciativa; depois, ela é de quem venceu a última partida.
+3. Na sua vez, escolha uma cova sua com pelo menos duas sementes, tire todas e semeie, uma em cada cova, no sentido anti-horário pelo seu território.
+4. Olhe onde caiu a última semente:
+   - Numa cova vazia: a sua vez acaba.
+   - Numa cova da fileira de fora que já tinha sementes: pegue todas as sementes dela e semeie de novo, a partir da cova seguinte.
+   - Numa cova da fileira de dentro que já tinha sementes: olhe as duas covas do adversário que ficam em frente. Se uma delas ou as duas estão vazias, pegue as sementes da cova onde caiu a última e semeie de novo, a partir da seguinte.
+   - Na mesma situação, mas com as duas covas em frente cheias: você pode pegar as sementes das duas e semeá-las, recomeçando pela cova em que começou a vez.
+5. Se você pode capturar e não quer, diga "passo" (*ndahise*).
+6. Repita o passo 4 até a última semente cair numa cova vazia. Depois, é a vez do adversário.
+7. Perde quem não consegue semear nenhuma semente. Quem vence ganha um ponto por partida.
+
+## Para quem conduz
+
+**Onde as fontes não combinam.** A Wikipedia diz, no texto, que as sementes começam na "fileira de trás", mas o desenho dela mostra as duas fileiras do meio; o Mancala World diz "fileira de dentro", e o passo 1 segue o Mancala World. A Wikipedia também não diz que a cova escolhida precisa de pelo menos duas sementes, e não separa a fileira de fora da de dentro no passo 4: para ela, cova que já tinha sementes continua a semeadura.
+
+**Regras que ficaram de fora do passo a passo:**
+
+- Quem diz "passo" pode ouvir do adversário "recuo" (*ndakubye*): então ele recolhe as sementes da fileira de dentro que não foram pegas e as soma à cova vizinha da fileira de fora, enquanto o outro ainda semeia.
+- Ao pegar ou capturar, quem parte das covas dos cantos, ou da segunda e da sétima de cada fileira de dentro, ou chega a elas, pode ir no sentido horário (*kugarama*). De qualquer outra cova, só no anti-horário.
+- Se no fim há menos de 64 sementes, a partida não conta.
+- Em algumas regiões a captura é obrigatória, e "passo" não é permitido.
+
+As fontes lidas não dizem se há empate.
+
+**Sugestão do site:** com quem está aprendendo, joguem as primeiras partidas sem "passo" e sem o sentido horário, e acrescentem essas regras depois.
 
 ## Regras
 

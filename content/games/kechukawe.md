@@ -25,7 +25,7 @@ ev:
   date: "1646"
   ref: De Ovalle 1646
 recon: []
-summary: Jogo de corrida mapuche jogado num tabuleiro semicircular com segmentos de cinco casas e um dado piramidal (*kechu*, "cinco"), com captura de peças. Parente provável dos jogos de corrida incas com o dado Huayru / pichqa (jogos de corrida andinos).
+summary: 'Jogo de corrida dos mapuche, descrito por Alonso de Ovalle em 1646: tabuleiro em semicírculo, com segmentos de cinco casas, pedrinhas como peças e um dado em forma de pirâmide. *Kechu* quer dizer "cinco". Segundo Olivares, a peça que encontra outra a "come".'
 refs:
   - title: Depaulis 1998, Inca Dice and Board Games (BGS 1)
     url: http://bgs.ludicum.org/pdf/issue1/BGS1Depaulis.pdf
@@ -39,6 +39,20 @@ place: ""
 - Miguel de Olivares (c. 1758) acrescenta que é um jogo "ao modo da oca" e que a peça que encontra outra a "come", "ao modo do xadrez".
 - Juan Ignacio Molina (1787) o compara às tábulas.
 - No séc. XX, Manuel Manquilef (1914) descreve um *kechukawe* que já é só jogo de dados, sem tabuleiro, com pontos marcados por pauzinhos. Luis de La Cruz (1835) registrou o mesmo entre os pehuenches com o nome *guaro*.
+
+## Do que você vai precisar?
+
+- Um tabuleiro em semicírculo, com segmentos de cinco casas cada um. As fontes lidas não dizem quantos segmentos
+- Pedrinhas como peças. As fontes não dizem quantas para cada jogador
+- Um dado em forma de pirâmide, com faces de 1, 2, 3, 5 (?) e 0, na descrição de Olivares
+
+O dado e as pedrinhas dá para improvisar com o que houver à mão, mas sem as regras não há como ensinar o jogo (veja "Para quem conduz").
+
+## Para quem conduz
+
+Esta ficha ainda não tem "Como jogar?". As fontes antigas, lidas por Depaulis (1998), descrevem o jogo em poucas linhas: um tabuleiro semicircular, um dado, pedrinhas que andam conforme o dado, "ao modo da oca", e a peça que encontra outra a "come", "ao modo do xadrez". Não dizem de onde as peças saem e para onde vão, o sentido do percurso, quem começa, como se entra nem como se vence.
+
+O dado também muda de uma fonte para outra: pirâmide alongada (Ovalle), triângulo com 1, 2, 3, 5 (?) e 0 (Olivares), triângulo de osso lançado por um aro (Molina) e prisma de cinco lados lançado por um "funil" (Manquilef, 1914). Rosales diz que era jogo de aposta, e a ficha registra aposta na sensibilidade cultural. Os estudiosos modernos descrevem um *kechukawe* que é só jogo de dados, sem tabuleiro, com pontos marcados com palitos.
 
 ## Regras
 
