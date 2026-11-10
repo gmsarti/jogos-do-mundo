@@ -2,7 +2,7 @@
 
 Auditoria do T-068, **Etapa 1**: o checklist da skill `escrever-jogo` (`.claude/skills/escrever-jogo/references/checklist-jogabilidade.md`) aplicado às 94 fichas de `content/games/`, em 05/11/2026.
 
-**Etapa 2** (pesquisa de lacunas, lote a lote): feita no lote 2 (alquerque, ayo, bagh-chal, konane, mu-torere, oware, tablut, toguz-kumalak, trilha, weiqi), em 05/11/2026. Os blocos desses jogos e as linhas deles na tabela-resumo mostram o estado depois da pesquisa e da reescrita, com o que foi resolvido e o que segue em aberto. Os outros blocos continuam como na Etapa 1.
+**Etapa 2** (pesquisa de lacunas, lote a lote): feita no lote 2 (alquerque, ayo, bagh-chal, konane, mu-torere, oware, tablut, toguz-kumalak, trilha, weiqi), em 05/11/2026. Feita também no lote 3 (damas-brasileiras, xadrez, adugo, komikan, jogo-real-de-ur, yut-nori, mahjong, bao-la-kiswahili, muvalavala), em 06/11/2026, e reescrito em 10/11/2026. Os blocos dos jogos dos lotes 2 e 3 e as linhas deles na tabela-resumo mostram o estado depois da pesquisa e da reescrita, com o que foi resolvido e o que segue em aberto. Os outros blocos continuam como na Etapa 1.
 
 A pergunta de fundo é: **alguém que nunca viu o jogo consegue jogar uma partida inteira só com o que a ficha diz?**
 
@@ -22,9 +22,9 @@ A pergunta de fundo é: **alguém que nunca viu o jogo consegue jogar uma partid
 
 ## Números
 
-- **94 jogos:** nenhum **joga**, 17 **jogam com lacunas** e 77 **não jogam** (Etapa 1). Depois da Etapa 2 do lote 2: **2 jogam** (Toguz kumalak e Weiqi), 15 jogam com lacunas e 77 não jogam.
-- **787 lacunas** no total, das quais **685 são do tipo "fonte"** (Etapa 1). O lote 2 passou de 38 lacunas (32 de fonte) para 19 (13 de fonte): hoje são 768 no catálogo, 666 de fonte.
-- Dos 17 que jogavam com lacunas na Etapa 1, 7 são do lote 1 (o Fanorona saiu desse grupo, ver o bloco dele) e 10 são o lote 2, agora reescrito.
+- **94 jogos:** nenhum **joga**, 17 **jogam com lacunas** e 77 **não jogam** (Etapa 1). Depois da Etapa 2 do lote 2: **2 jogam** (Toguz kumalak e Weiqi), 15 jogam com lacunas e 77 não jogam. Depois do lote 3: **4 jogam** (mais Damas brasileiras e Xadrez), 20 jogam com lacunas e 70 não jogam.
+- **787 lacunas** no total, das quais **685 são do tipo "fonte"** (Etapa 1). O lote 2 passou de 38 lacunas (32 de fonte) para 19 (13 de fonte): depois dele eram 768 no catálogo, 666 de fonte. O lote 3 passou de 55 lacunas (54 de fonte) para 24 (17 de fonte): hoje são 737 no catálogo, 629 de fonte.
+- Dos 17 que jogavam com lacunas na Etapa 1, 7 são do lote 1 (o Fanorona saiu desse grupo, ver o bloco dele) e 10 são o lote 2, agora reescrito. Dos 9 jogos do lote 3, 7 saíram de "não joga": Damas brasileiras e Xadrez para "joga"; Adugo, Yut nori, Mahjong, Bao la kiswahili e Muvalavala para "joga com lacunas". O Komikan e o Jogo real de Ur seguem "não joga".
 - **7 jogos** ficam num grupo à parte, fora dos lotes: lacunas sem saída ou presas a uma decisão de curadoria.
 - **24 fichas** têm algum erro registrado (campo "ver fonte", `ref` fraca ou quebrada, remissão a um trecho que não existe).
 
@@ -85,11 +85,11 @@ Ordenada do pior veredito para o melhor e, dentro de cada veredito, do maior nú
 | raposa-e-galinhas | documented | Não joga | 9 | 9 | 0 | não |
 | tchadji | documented | Não joga | 9 | 9 | 0 | não |
 | warri-caribe | documented | Não joga | 9 | 9 | 0 | não |
-| bao-la-kiswahili | documented | Joga com lacunas | 3 | 2 | 2 | não |
+| bao-la-kiswahili | documented | Joga com lacunas | 3 | 2 | 4 | sim |
 | brandubh | reconstructed | Não joga | 8 | 6 | 1 | não |
 | janggi | documented | Não joga | 8 | 8 | 1 | não |
 | ludus-latrunculorum | reconstructed | Não joga | 8 | 6 | 0 | não |
-| muvalavala | documented | Joga com lacunas | 3 | 3 | 1 | não |
+| muvalavala | documented | Joga com lacunas | 3 | 3 | 3 | sim |
 | pachisi | documented | Não joga | 8 | 7 | 2 | não |
 | raposa-e-gansos | documented | Não joga | 8 | 7 | 0 | não |
 | senet | reconstructed | Não joga | 8 | 6 | 1 | não |
@@ -99,16 +99,16 @@ Ordenada do pior veredito para o melhor e, dentro de cada veredito, do maior nú
 | makruk | documented | Não joga | 7 | 7 | 1 | não |
 | sittuyin | documented | Não joga | 7 | 7 | 0 | não |
 | xiangqi | documented | Não joga | 7 | 7 | 1 | não |
-| adugo | documented | Joga com lacunas | 5 | 2 | 2 | não |
+| adugo | documented | Joga com lacunas | 5 | 2 | 3 | sim |
 | jogo-real-de-ur | reconstructed | Não joga | 5 | 5 | 2 | não |
 | puluc | documented | Não joga | 6 | 6 | 1 | não |
 | quebra-cabeca-kanela | unknown | Não joga | 6 | 0 | 0 | não |
 | shatranj | documented | Não joga | 6 | 5 | 0 | não |
 | shogi | documented | Não joga | 6 | 6 | 0 | não |
-| yut-nori | documented | Joga com lacunas | 1 | 1 | 2 | não |
-| mahjong | documented | Joga com lacunas | 1 | 0 | 3 | não |
-| xadrez | documented | Joga | 0 | 0 | 1 | não |
-| damas-brasileiras | documented | Joga | 0 | 0 | 0 | não |
+| yut-nori | documented | Joga com lacunas | 1 | 1 | 2 | sim |
+| mahjong | documented | Joga com lacunas | 1 | 0 | 3 | sim |
+| xadrez | documented | Joga | 0 | 0 | 1 | sim |
+| damas-brasileiras | documented | Joga | 0 | 0 | 0 | sim |
 | e-sugoroku | documented | Não joga | 3 | 2 | 0 | não |
 | fanorona | documented | Não joga | 2 | 2 | 5 | sim |
 | yote | documented | Joga com lacunas | 7 | 6 | 1 | sim |
@@ -169,7 +169,7 @@ Os jogos de semeadura são 26 dos 94, e por isso aparecem em quase todo lote.
 | --- | --- | --- | --- | --- |
 | 1 | achi, shisima, yote, seega, fanorona, fanorona-telo, morabaraba, gulugufe | — | — | Feito (PRs #21 e #22). Pendências: posição inicial do Fanorona (ver lote 4) e quem começa em 5 jogos |
 | 2 | alquerque, ayo, bagh-chal, konane, mu-torere, oware, tablut, toguz-kumalak, trilha, weiqi | damas, semeadura, caça, bloqueio, alinhamento, território | 38 (32) | Feito: Etapa 2 e reescrita. Ficaram 19 lacunas (13 de fonte), 6 de curadoria para decidir |
-| 3 | damas-brasileiras, xadrez, adugo, komikan, jogo-real-de-ur, yut-nori, mahjong, bao-la-kiswahili, muvalavala | damas, xadrez, caça, corrida, peças, semeadura | 55 (54) | Etapa 2 feita: ficaram 24 lacunas (17 de fonte). Damas brasileiras e Xadrez passaram a jogar; Adugo, Yut nori, Mahjong, Bao la kiswahili e Muvalavala jogam com lacunas; Komikan e Jogo real de Ur seguem sem jogar (triângulo, posição inicial e percurso só em figura). Erros corrigidos: FIDE nas `refs` do Xadrez, Mahjong com fontes de regras, "bao la kujifunza" fora dos `names` do Bao la kiswahili |
+| 3 | damas-brasileiras, xadrez, adugo, komikan, jogo-real-de-ur, yut-nori, mahjong, bao-la-kiswahili, muvalavala | damas, xadrez, caça, corrida, peças, semeadura | 55 (54) | Etapa 2 e reescrita feitas (Komikan e Jogo real de Ur só ganharam resumo e \"Do que você vai precisar?\"). Ficaram 24 lacunas (17 de fonte). Damas brasileiras e Xadrez passaram a jogar; Adugo, Yut nori, Mahjong, Bao la kiswahili e Muvalavala jogam com lacunas; Komikan e Jogo real de Ur seguem sem jogar (triângulo, posição inicial e percurso só em figura). Erros corrigidos: FIDE nas `refs` do Xadrez, Mahjong com fontes de regras, "bao la kujifunza" fora dos `names` do Bao la kiswahili |
 | 4 | shogi, xiangqi, puluc, e-sugoroku, hnefatafl, raposa-e-gansos, vela, pachisi, omweso | xadrez, corrida, caça, captura posicional, semeadura | 62 (57) | Poucas lacunas. A Vela vai com a pendência do Fanorona (posição inicial e revanche), que tem as mesmas fontes |
 | 5 | makruk, janggi, brandubh, ludus-latrunculorum, senet, raposa-e-galinhas, owela-benguela, domino-doble-nueve, adji-kui | xadrez, caça, captura posicional, corrida, semeadura, peças | 75 (68) | Três reconstruções (Brandubh, Ludus, Senet) pedem decisão de curadoria logo no começo do lote |
 | 6 | sittuyin, shatranj, chaupar, nard, bao-ki-arabu, tchadji, warri-caribe, domino, ashta-kashte | xadrez, corrida, semeadura, peças | 80 (78) | Regras parciais. Sittuyin e Shatranj dividem fontes (Murray 1913, Chess Variant Pages) |
@@ -283,7 +283,7 @@ Status: partial · Família: semeadura · "(a verificar)": 1 · "Como jogar?": n
 
 ### adugo — Joga com lacunas
 
-Status: documented · Família: caca-assimetrico · "(a verificar)": 2 · "Como jogar?": não
+Status: documented · Família: caca-assimetrico · "(a verificar)": 3 · "Como jogar?": sim (lote 3)
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
@@ -320,6 +320,8 @@ Status: documented · Família: caca-assimetrico · "(a verificar)": 2 · "Como 
 **Fontes descartadas:** GamesCrafters como fonte de regra, porque não cita de onde tirou as regras; o que ele diz entrou só como nota "(a verificar)".
 
 **Fontes novas:** Vergara e Martínez, *Jogos de Tabuleiro: uma proposta para sala de aula* (Museu da Matemática UFMG); Ludii, *Adugo*.
+
+**Reescrita (lote 3):** resumo novo, "Do que você vai precisar?" com o triângulo desenhado em palavras e marcado "(a verificar)", como na Regra 5, "Como jogar?" (6 passos) e "Para quem conduz". O "Como jogar?" segue as Regras 4 e 6 (5 cães para a onça vencer e 14 cães); as outras leituras (15 cães, todos os cães) estão em "Para quem conduz", pedindo que se combine antes. Não entrou o que o GamesCrafters diz (onça não pode andar e saltar no mesmo lance), porque a própria Regra 9 o marca "a verificar" sem fonte. **Lacunas que o texto não fecha:** quais pontos exatos os 14 cães ocupam (a ficha diz "metade do quadrado oposta ao triângulo"), cães sem lance, empate.
 
 ### aiu — Não joga
 
@@ -598,7 +600,7 @@ Status: documented · Família: semeadura · "(a verificar)": 0 · "Como jogar?"
 
 ### bao-la-kiswahili — Joga com lacunas
 
-Status: documented · Família: semeadura · "(a verificar)": 2 · "Como jogar?": não
+Status: documented · Família: semeadura · "(a verificar)": 4 · "Como jogar?": sim (lote 3)
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
@@ -635,6 +637,8 @@ Status: documented · Família: semeadura · "(a verificar)": 2 · "Como jogar?"
 **Pendências:** Mancala World recusa o acesso automático (Cloudflare). De Voogt 1995 (*Limits of the mind*) não foi aberto; as páginas de regras de de Voogt que a Wikipedia aponta estão só no archive.org.
 
 **Fontes novas:** Ludii, *Bao* (a partir de de Voogt 1995).
+
+**Reescrita (lote 3):** resumo novo, "Do que você vai precisar?", "Como jogar?" (8 passos, com a *nyumba* marcada "(a verificar)", como na Regra 12) e "Para quem conduz". As restrições do Ludii (Regra 13) e a *nyumba* do Malawi ficaram em "Para quem conduz", e não no passo a passo: é a decisão de curadoria que o bloco deixava em aberto, tomada aqui como sugestão e sujeita a revisão. Quem começa e empate seguem como "**Sugestão do site:**" (tirar na sorte, combinar). **Lacuna que o texto não fecha:** o que se faz numa vez *takata* no *namua* (a Regra 10 só diz que não há captura).
 
 ### bao-la-kujifunza — Não joga
 
@@ -895,7 +899,7 @@ Status: unknown · Família: desconhecida · "(a verificar)": 4 · "Como jogar?"
 
 ### damas-brasileiras — Joga
 
-Status: documented · Família: damas · "(a verificar)": 0 · "Como jogar?": não
+Status: documented · Família: damas · "(a verificar)": 0 · "Como jogar?": sim (lote 3)
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
@@ -923,6 +927,8 @@ Status: documented · Família: damas · "(a verificar)": 0 · "Como jogar?": n�
 **Pendências:** os dois regulamentos das `refs` não abriram: o da FENAE recusa o acesso automático (403) e o do IFPE mudou de endereço (404). O resumo do buscador mostra que o da FENAE fala em **20 lances** de damas sem captura nem movimento de pedra, e não 15; como o texto não foi aberto, a regra não entrou. Vale conferir à mão se o Brasil usa 20 ou 15.
 
 **Fontes novas:** FMJD, *Official Rules of the game in draughts-64* (PDF citado pela Wikipedia; o mesmo texto está em fmjd64.org); Wikipedia, *Brazilian draughts*.
+
+**Reescrita (lote 3):** resumo novo, "Do que você vai precisar?", "Como jogar?" (8 passos) e "Para quem conduz". **Lacuna achada na escrita:** a ficha não dizia *como* se captura (pular por cima da peça, parar na casa vazia atrás). Entrou a Regra 10, com o FMJD, arts. 4.2, 4.3 e 4.5. Os 15 lances de dama sem captura ficam como na FMJD; o aviso sobre os 20 lances da FENAE (não aberto) foi para "Para quem conduz", sem número. "Marcar a dama empilhando duas peças" é "**Sugestão do site:**", não regra.
 
 ### domino-chines — Não joga
 
@@ -1331,7 +1337,7 @@ Status: documented · Família: xadrez-e-guerra · "(a verificar)": 1 · "Como j
 
 ### jogo-real-de-ur — Não joga
 
-Status: reconstructed · Família: corrida · "(a verificar)": 2 · "Como jogar?": não
+Status: reconstructed · Família: corrida · "(a verificar)": 2 · "Como jogar?": não (veredito "não joga": só resumo e "Do que você vai precisar?")
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
@@ -1368,6 +1374,8 @@ Status: reconstructed · Família: corrida · "(a verificar)": 2 · "Como jogar?
 **Fontes descartadas:** instruções do Kelsey Museum (University of Michigan), que misturam as regras de Masters e de Finkel sem dizer de quem é cada uma.
 
 **Fontes novas:** Ludii, conjunto de regras de Finkel.
+
+**Reescrita (lote 3):** só o resumo novo, "Do que você vai precisar?" (20 casas em 3×4, 1×2 e 3×2; 7 peças de Finkel ou 5 de outras reconstruções; 4 dados tetraédricos) e "Para quem conduz", que explica por que não há "Como jogar?" (percurso só em figura, sem quem começa, lance 0 nem empate). O resumo agora diz que as regras são uma reconstrução.
 
 ### kay-haiti — Não joga
 
@@ -1453,7 +1461,7 @@ Status: partial · Família: semeadura · "(a verificar)": 2 · "Como jogar?": n
 
 ### komikan — Não joga
 
-Status: documented · Família: caca-assimetrico · "(a verificar)": 0 · "Como jogar?": não
+Status: documented · Família: caca-assimetrico · "(a verificar)": 0 · "Como jogar?": não (veredito "não joga": só resumo e "Do que você vai precisar?")
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
@@ -1491,6 +1499,8 @@ Status: documented · Família: caca-assimetrico · "(a verificar)": 0 · "Como 
 **Pendências:** BGG recusa o acesso automático (403), e a regra moderna do triângulo, que a ficha atribui a ele, não pôde ser conferida. Manquilef 1914 (citado por Depaulis) não foi aberto.
 
 **Fontes novas:** Mátus 1918-19, no *Boletín del Museo Nacional de Historia Natural*.
+
+**Reescrita (lote 3):** só o resumo novo, "Do que você vai precisar?" (sem desenho do triângulo, que a ficha não descreve) e "Para quem conduz", que explica por que não há "Como jogar?". Saiu do resumo "Equivalente ao Taptana / komina inca e próximo do Adugo": a ficha só tem o nome cognato (Depaulis) na História, e não uma equivalência de jogo. O resumo diz que o jogo foi registrado entre os mapuche, mas as Regras vêm do *leoncito* chileno (Mátus), e isso foi dito em "Para quem conduz".
 
 ### konane — Joga com lacunas
 
@@ -1558,7 +1568,7 @@ Status: reconstructed · Família: captura-posicional, xadrez-e-guerra · "(a ve
 
 ### mahjong — Joga com lacunas
 
-Status: documented · Família: pecas · "(a verificar)": 3 · "Como jogar?": não
+Status: documented · Família: pecas · "(a verificar)": 3 · "Como jogar?": sim (lote 3)
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
@@ -1588,6 +1598,8 @@ Status: documented · Família: pecas · "(a verificar)": 3 · "Como jogar?": n�
 **Pendências:** sem federação aberta para o Hong Kong, Taiwan e Singapura. A edição atual do MCR na página da EMA não abriu (certificado inválido do site); a edição de 2006 está no site da federação dinamarquesa.
 
 **Fontes novas:** Wikipedia, *Mahjong*; *Mahjong Competition Rules* (MCR, 2006); EMA, *Riichi: rules for Japanese mahjong* (2025).
+
+**Reescrita (lote 3):** resumo novo, "Do que você vai precisar?", "Como jogar?" (9 passos) e "Para quem conduz". **Lacuna achada na escrita:** a ficha usava sequência, trinca, quadra e par sem dizer o que são. Entrou a Regra 10, com a Wikipedia (*Mahjong*). O "Como jogar?" ensina o que as três variantes têm em comum (Regras 1 a 8) e deixa o mínimo para a mão valer (Regra 9) como o que muda entre elas; "Para quem conduz" aponta Taiwan e Singapura e sugere combinar a variante antes. O número de dados não está em nenhuma das fontes citadas e o texto só diz "dados".
 
 ### makruk — Não joga
 
@@ -1730,7 +1742,7 @@ Status: documented · Família: semeadura · "(a verificar)": 0 · "Como jogar?"
 
 ### muvalavala — Joga com lacunas
 
-Status: documented · Família: semeadura · "(a verificar)": 1 · "Como jogar?": não
+Status: documented · Família: semeadura · "(a verificar)": 3 · "Como jogar?": sim (lote 3)
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
@@ -1765,6 +1777,8 @@ Status: documented · Família: semeadura · "(a verificar)": 1 · "Como jogar?"
 **Pendências:** Santos Silva 1995 não foi aberto. Os materiais para baixar do Ondjango Asili ("Regras e Tabuleiro") não têm link acessível na página. Mancala World recusa o acesso automático (Cloudflare).
 
 **Fontes novas:** Ludii, *Muvalavala (Luena)* e *Muvalavala (Quioco)*.
+
+**Reescrita (lote 3):** resumo novo, "Do que você vai precisar?", "Como jogar?" (7 passos, forma Luena) e "Para quem conduz", que descreve a forma Quioco. Marcados "(a verificar)": de quem é cada fileira (Regra 1) e a vitória por mais sementes capturadas (Regra 5, só no Ondjango Asili). O resumo agora diz "registrado", e não "jogado", porque `living` é "desconhecido".
 
 ### nard — Não joga
 
@@ -2741,7 +2755,7 @@ Status: documented · Família: territorio · "(a verificar)": 1 · "Como jogar?
 
 ### xadrez — Joga
 
-Status: documented · Família: xadrez-e-guerra · "(a verificar)": 1 · "Como jogar?": não
+Status: documented · Família: xadrez-e-guerra · "(a verificar)": 1 · "Como jogar?": sim (lote 3)
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
@@ -2772,6 +2786,8 @@ Status: documented · Família: xadrez-e-guerra · "(a verificar)": 1 · "Como j
 **Erro corrigido:** as `refs` agora cobrem as regras modernas (FIDE e Wikipedia).
 
 **Fontes novas:** FIDE, *Laws of Chess* (2023); Wikipedia, *Rules of chess*.
+
+**Reescrita (lote 3):** resumo novo (saiu "descendente do Shatranj… principal ramo ocidental da família que começa no Chaturanga" e ficou o que a História diz sobre o shatranj e o *Libro de los juegos*), "Do que você vai precisar?", "Como jogar?" (9 passos, com o andar de cada peça em sub-itens) e "Para quem conduz". **Lacuna achada na escrita:** a ficha só dizia que o cavalo anda "em L". Entrou a Regra 13, com a Wikipedia (*Rules of chess*): duas casas numa direção e uma na outra, sem ser bloqueado.
 
 ### xiangqi — Não joga
 
@@ -2860,7 +2876,7 @@ Status: documented · Família: captura-posicional, damas · "(a verificar)": 1 
 
 ### yut-nori — Joga com lacunas
 
-Status: documented · Família: corrida · "(a verificar)": 2 · "Como jogar?": não
+Status: documented · Família: corrida · "(a verificar)": 2 · "Como jogar?": sim (lote 3)
 
 | Item | Resposta | Onde |
 | --- | --- | --- |
@@ -2893,4 +2909,6 @@ Status: documented · Família: corrida · "(a verificar)": 2 · "Como jogar?": 
 | — | Sensibilidade: Culin conta que o *nyout* era jogado a dinheiro nas cidades, e que pais e professores tiravam os blocos das crianças. O `sens` está "desconhecido". | — |
 
 **Fontes novas:** Culin 1895, *Korean Games* (archive.org); Ludii, *Nyout*.
+
+**Reescrita (lote 3):** resumo novo, "Do que você vai precisar?", "Como jogar?" (9 passos) e "Para quem conduz". **Saiu do resumo:** "jogado sobretudo no Ano Novo lunar", que nenhum trecho da ficha (Regras ou História) sustenta. Se a curadoria achar fonte, volta. O texto diz "lado plano" e "lado preto" para as duas faces da vareta, ligando as Regras 1 e 7; a ficha não descreve a vareta além disso. Não há passo sobre o que acontece com a peça capturada, sobre empate no lance que decide quem começa nem sobre empate da partida: a fonte não diz, e "Para quem conduz" pede que se combine.
 
