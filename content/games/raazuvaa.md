@@ -21,7 +21,7 @@ ev:
   date: 2003–2020
   ref: Markov 2023 (a partir de Zahir 2017)
 recon: []
-summary: Forma maldívia do xadrez, estudada por Georgi Markov (BGSJ 17, 2023).
+summary: "Xadrez das Maldivas: as peças andam como no xadrez de hoje, mas o peão dá um passo só, não há roque e os reis ficam em colunas diferentes."
 refs:
   - title: BGSJ 17 (2023)
     url: https://reference-global.com/issue/BGS/17/1
@@ -33,6 +33,31 @@ place: ""
 ## História
 
 Georgi Markov (BGSJ 17, 2023) diz que o raazuvaa quase não aparece na literatura sobre a história do xadrez. H. C. P. Bell (1882) só escreve que o xadrez é jogado por homens e meninos nas Maldivas, e Culin (1898) o chama de idêntico ao jogo indiano. Markov diz que essa ideia não tem fundamento: as regras diferem das indianas, e as peças só se parecem pelos nomes, porque o divehi (a língua das Maldivas) é indo-ariana. A hipótese dele é que o raazuvaa descende do xadrez turco (otomano), talvez um dos últimos sobreviventes, e que chegou às Maldivas depois do fim do séc. XVI. É uma hipótese do autor, não um fato registrado.
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 8×8 casas, como o do xadrez. O tradicional não é quadriculado, mas um quadriculado comum serve
+- 16 peças para cada jogador, como no xadrez: torres, cavalos, bispos, rei, dama e peões
+
+Um jogo de xadrez comum serve. As peças tradicionais das Maldivas são estilizadas e pintadas em várias cores, e a cor não diz quem joga primeiro.
+
+## Como jogar?
+
+1. Arrume as peças como no xadrez internacional, com uma diferença: a dama de cada jogador fica à direita do rei dele. Assim os dois reis ficam em colunas diferentes.
+2. As peças se movem e capturam como no xadrez internacional (a ficha do Xadrez explica).
+3. O peão anda só uma casa por vez: não há o lance duplo da primeira jogada.
+4. Não há roque nem outro lance especial do rei.
+5. O peão que chega à última fileira vira dama. Pode haver quantas damas forem preciso.
+6. Você vence se der xeque-mate, se o adversário ficar sem nenhum lance ou se ele ficar só com o rei.
+   - Exceção: se o rei sozinho puder capturar, no lance seguinte, a última peça do adversário, a partida é empate.
+
+## Para quem conduz
+
+O artigo de Markov descreve o jogo de hoje, a partir de um autor maldívio, de vídeos de um torneio de 2020 e de conversas com especialistas. Ele não diz quem joga primeiro (só que não é uma cor), nem se há empate por repetição de posição, nem a medida do tabuleiro (o 8×8 vem de as peças andarem como no xadrez internacional).
+
+Quem já conhece o xadrez só precisa aprender as diferenças dos passos 1, 3, 4 e 6. Aqui o jogador que fica sem lance perde, o que difere do xadrez internacional.
+
+**Sugestão do site:** combinem antes quem começa e se a repetição de posição vale empate.
 
 ## Regras
 

@@ -22,7 +22,7 @@ ev:
   date: "689"
   ref: Nihon Shoki (proibição)
 recon: []
-summary: Jogo japonês de tábulas, praticamente igual ao gamão, que chegou do continente e foi proibido várias vezes por causa das apostas. Desapareceu no fim do período Edo.
+summary: "Jogo japonês de corrida com dois dados, que a Biblioteca Nacional da Dieta descreve como \"virtualmente idêntico\" ao gamão. Foi proibido várias vezes por causa das apostas e desapareceu no fim do período Edo."
 refs:
   - title: Biblioteca Nacional da Dieta
     url: https://www.ndl.go.jp/kaleido/e/entry/12/index.html
@@ -40,6 +40,20 @@ place: ""
 ## História
 
 O *Nihon Shoki* registra a proibição do sugoroku em 689, no reinado da imperatriz Jitō; houve nova proibição em 754 e outras sob os xogunatos de Kamakura e Edo (Japanese Wiki Corpus; Wikipedia). Alguns autores leem a proibição de 689 de outro modo. Uma hipótese liga a origem ao Nard persa. A Biblioteca Nacional da Dieta descreve o ban-sugoroku como "virtualmente idêntico" ao gamão.
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 12×2 casas, 24 no total, como o do gamão
+- 15 peças para cada jogador, brancas e pretas (a verificar: a ficha só diz que as regras são como as do gamão)
+- 2 dados
+
+Como as fontes dizem que o jogo é como o gamão antigo, um tabuleiro de gamão serve de apoio. O tabuleiro também pode ser desenhado no papel, e as peças podem ser tampinhas de duas cores.
+
+## Para quem conduz
+
+Esta ficha ainda não tem "Como jogar?": a posição inicial e o caminho das peças só vêm do gamão moderno (Wikipedia), e as fontes não dizem como a peça capturada volta, quem começa nem o que acontece sem jogada. O que as fontes registram como diferente do gamão é: dobrados não têm regra especial, não se retiram peças do tabuleiro (vence quem leva todas para as últimas seis casas), não há dado de dobra e fechar seis casas seguidas com peças do adversário fora do tabuleiro é vitória automática.
+
+Registro de aposta: o jogo foi proibido várias vezes por causa das apostas (ver História). Vale conferir isso antes de ensinar numa turma.
 
 ## Regras
 

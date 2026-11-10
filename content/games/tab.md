@@ -22,7 +22,7 @@ ev:
   date: "1836"
   ref: Lane 1836
 recon: []
-summary: Família de jogos de corrida do mundo árabe, com varetas de arremesso em vez de dados, jogada em tabuleiros de quatro fileiras (a verificar).
+summary: "Jogo de corrida e captura do mundo árabe, em que quatro varetas fazem o papel de dados e as peças andam por um tabuleiro de quatro fileiras. Na forma egípcia, descrita por Edward William Lane no séc. XIX, as peças se chamam *kilab*, os cães."
 refs:
   - title: BGSJ 18 (2024)
     url: https://reference-global.com/issue/BGS/18/1
@@ -36,6 +36,38 @@ place: ""
 ## História
 
 Thierry Depaulis (BGSJ 18, 2024) estudou tabuleiros antigos de mancala e de ṭāb encontrados em Israel e em outros países. O artigo trata de achados arqueológicos (tabuleiros de 3 e 4 fileiras, que podem ser ṭāb e não mancala) e não traz as regras; ele recua a menção mais antiga do jogo a um poema de 1310, que fala de *ṭāb wa-d-dukk*. Edward William Lane descreveu o jogo no Egito (*Manners and Customs of the Modern Egyptians*, 1836).
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 4 fileiras, cada uma com 7, 9, 11, 13 ou 15 casas (o mesmo número nas quatro)
+- Uma peça em cada casa de uma das fileiras de ponta, para cada jogador, de dois tipos que se distingam
+- 4 varetas chatas, com uma face branca e outra escura
+
+No registro de Lane, o tabuleiro é feito de casas de uns cinco centímetros ou de covas no chão ou numa pedra, as peças são pedaços de pedra e de tijolo vermelho e as varetas são de folha de palmeira, que tem um lado liso e branco. Dá para improvisar com um tabuleiro riscado no papel, tampinhas de duas cores e palitos de sorvete.
+
+## Como jogar?
+
+1. Arrume o tabuleiro: cada jogador põe uma peça em cada casa da fileira de ponta do seu lado, de modo que as peças dos dois se distingam.
+2. Lance as 4 varetas de uma vez. O número de faces brancas para cima é o resultado: 1 (chamado *tab*), 2, 3 ou 4. Se as quatro faces escuras ficarem para cima, vale 6.
+3. Quem tira 1, 4 ou 6 lança de novo. Quem tira 2 ou 3 passa a vez.
+4. Para saber quem começa, lancem um de cada vez, até alguém tirar *tab*. Esse joga primeiro.
+5. Cada resultado move uma peça, na ordem em que saiu. Uma peça só sai da fileira de ponta com um *tab*, e sai sempre a peça da casa do canto. O *tab* conta como 1 casa.
+6. Depois de sair, a peça avança para a fileira vizinha e a percorre até a outra ponta, passa para a fileira seguinte e volta até o lado de onde saiu. Daí ela repete as duas fileiras ou passa para a fileira de ponta do adversário, enquanto houver peças dele ali.
+   - Na fileira de ponta do adversário, ela a percorre até a outra ponta, e depois só circula pelas duas fileiras do meio. Nunca volta para essa fileira.
+7. Se um resultado põe sua peça numa casa com peça do adversário, você captura a peça dele. Com mais de um resultado, pode capturar mais de uma peça no mesmo lance.
+8. Se um resultado põe sua peça numa casa com outra peça sua, as duas passam a andar juntas, como uma só.
+   - Elas só se separam de novo com um *tab*.
+   - Se o lance as leva para uma fileira por onde já passaram, ficam reduzidas a uma peça só, mas você não é obrigado a usar esse lance.
+9. Uma peça que entrou na fileira de ponta do adversário fica segura. Você só joga com ela quando não tem mais peças na sua própria fileira de ponta, ou quando tem ali só um grupo e não tirou *tab*.
+10. A partida acaba quando um jogador fica sem peças, e o outro vence (a verificar).
+
+## Para quem conduz
+
+Estas regras são a forma egípcia que Lane descreveu no séc. XIX. O jogo tem muitas formas pela região, e o artigo de Depaulis (BGSJ 18), que a ficha usava, trata de tabuleiros antigos e não traz regras. O fim da partida não está no trecho de Lane que foi lido: a Wikipedia diz que perde quem fica sem peças, e o Ludii, para o *ṭāb wa-d-dukk* mais antigo, diz que vence quem capturar mais peças. As fontes não dizem o que fazer quando não há lance possível, se capturar é obrigatório nem se há empate.
+
+Lane conta que o jogo é muito jogado em cafés, em geral valendo o pagamento do café, e que isso é proibido. Vale conferir antes de ensinar.
+
+**Sugestão do site:** combinem antes da partida como a partida acaba, e comecem com um tabuleiro de 7 casas por fileira e poucas peças.
 
 ## Regras
 

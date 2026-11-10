@@ -24,7 +24,7 @@ ev:
   ref: Met 16.10.475a
 recon:
   - Irving Finkel
-summary: Jogo de corrida de 20 casas do Oriente Próximo antigo, parente do Jogo real de Ur. Chegou ao Egito e passou a ocupar o verso das caixas de Senet.
+summary: "Jogo de corrida de 20 casas do Oriente Próximo antigo, que chegou ao Egito e passou a ocupar o verso das caixas de Senet. Em egípcio se chamava *tjau*, \"ladrões\" (Met)."
 refs:
   - title: Met 16.10.475a
     url: https://www.metmuseum.org/art/collection/search/553268
@@ -42,6 +42,20 @@ place: ""
 ## História
 
 O Met diz que o jogo veio do Oriente Próximo para o Egito; as caixas de jogo do Segundo Período Intermediário e do Novo Império trazem as 20 casas num lado e o senet no outro. Em egípcio o jogo é chamado *tjau*, "ladrões", segundo o Met. O tabuleiro de Ur (c. 2600 a.C.) tem o mesmo número de casas e é tratado por muitos autores como forma antiga do mesmo jogo.
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 20 casas: um bloco de 3×4 casas e, a partir da fileira do meio, mais 8 casas em linha
+- 7 peças para cada jogador nas regras de Finkel, ou 5 em outras leituras
+- Nas regras de Finkel, dois ossinhos (astrágalos), um de ovelha e um de boi
+
+No exemplar do Met, as peças são cônicas e em forma de carretel. O tabuleiro pode ser desenhado no papel.
+
+## Para quem conduz
+
+Esta ficha ainda não tem "Como jogar?". As regras são uma reconstrução de Irving Finkel a partir de uma tabuleta cuneiforme tardia, não um registro do jogo egípcio, e as fontes não dizem quais casas são rosetas, quem começa, o que fazer quando o lance não pode ser jogado nem se há empate. A Wikipedia traz outra leitura (levar as peças para a faixa de 8 casas e tirá-las pelos lados do bloco), que as fontes não deixam escolher entre as duas.
+
+O tabuleiro deste jogo não é o do Jogo real de Ur (que tem um bloco 3×4, uma ponte e um bloco 3×2); as regras de um não valem para o outro sem conferência.
 
 ## Regras
 

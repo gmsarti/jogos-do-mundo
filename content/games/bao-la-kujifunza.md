@@ -26,7 +26,7 @@ ev:
   date: ""
   ref: ""
 recon: []
-summary: '"Bao para aprender": forma simplificada do Bao la kiswahili, jogada em Zanzibar e na Tanzânia por iniciantes.'
+summary: '"Bao para aprender": a forma simplificada do Bao la kiswahili, jogada por iniciantes na Tanzânia. Já começa com todas as sementes no tabuleiro, duas em cada cova.'
 refs:
   - title: "Wikipedia: Bao"
     url: https://en.wikipedia.org/wiki/Bao_(game)
@@ -34,6 +34,31 @@ refs:
     url: https://mancala.fandom.com/wiki/Bao_la_Kujifunza
 place: ""
 ---
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 4 fileiras de 8 covas
+- 64 sementes, 32 para cada jogador, 2 em cada cova
+
+O tabuleiro pode ser desenhado no papel, com um círculo para cada cova, e as sementes podem ser feijões, grãos de milho ou pedrinhas.
+
+## Como jogar?
+
+1. Cada jogador controla as duas fileiras do seu lado. Ponha 2 sementes em cada cova. Ninguém fica com sementes na mão.
+2. Na sua vez, pegue todas as sementes de uma das suas covas, que precisa ter pelo menos 2, e semeie uma a uma, para o lado que quiser.
+3. Uma cova da sua fileira de dentro que fica de frente para uma cova ocupada do adversário é uma "marca". Se a última semente da primeira semeadura cair numa marca, capture as sementes da cova do adversário bem em frente. Capturar é obrigatório quando dá.
+4. Semeie as sementes capturadas a partir de uma ponta da sua fileira de dentro: entrando pela ponta da direita, no sentido anti-horário; pela da esquerda, no sentido horário. Na primeira captura da vez você escolhe a ponta, a não ser que a captura tenha sido na ponta ou na cova vizinha a ela: aí você começa pela ponta mais perto.
+5. Se a última semente cair numa cova com sementes, pegue todas e continue semeando. Se ela cair numa marca, capture de novo e semeie a partir de uma ponta, mantendo o sentido em que vinha semeando (a não ser que a captura seja na ponta ou na vizinha, como no passo 4).
+6. A sua vez acaba quando a última semente cai numa cova vazia.
+7. Se a primeira semeadura não captura nada, comece, se puder, por uma cova da fileira de dentro. A semeadura segue, mas nessa vez não há capturas.
+8. Se a primeira semeadura sair de uma cova com mais de 15 sementes, ela dá a volta pelas suas duas fileiras e a vez também não tem capturas.
+9. Perde quem ficar sem sementes na fileira de dentro ou quem não puder mais jogar.
+
+## Para quem conduz
+
+O jogo usa as regras da segunda fase do Bao la kiswahili, sem as regras especiais da casa quadrada (*nyumba*), e o Mancala World diz que também sem a regra *takasia*, que esta ficha não explica. As fontes não dizem quem começa nem se há empate.
+
+**Sugestão do site:** antes do passo 4, deixem todo mundo jogar algumas vezes só com os passos 2, 3 e 6, e acrescentem o resto aos poucos.
 
 ## Regras
 

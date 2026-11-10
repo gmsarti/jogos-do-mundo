@@ -22,7 +22,7 @@ ev:
   date: "1966"
   ref: Guerreiro 1966
 recon: []
-summary: Jogo de semeadura dos Makonde de Moçambique, jogado em covas feitas na areia. Registrado por Manuel Viegas Guerreiro em *Os Macondes de Moçambique*, vol. IV (*Sabedoria, língua, literatura e jogos*, Junta de Investigações do Ultramar, 1966), parte da missão antropológica de Jorge Dias.
+summary: "Jogo de semeadura dos Makonde, registrado em 1966 por Manuel Viegas Guerreiro em Moçambique. As covas são feitas no chão e se joga com pedras ou sementes: espalha-se as sementes de uma cova e tenta-se capturar as do adversário."
 refs:
   - title: "Ludii: biblioteca"
     url: https://ludii.games/library.php
@@ -34,6 +34,29 @@ refs:
     url: https://dichp.bnportugal.gov.pt/imagens/guerreiro_eng.pdf
 place: ""
 ---
+
+## Do que você vai precisar?
+
+- Um tabuleiro de 4 fileiras de 5 covas, ou de 8 (a fonte resumida não diz qual era o do registro)
+- Sementes ou pedras: 1 em cada cova no começo, ou seja, 20 no tabuleiro de 5 covas por fileira e 32 no de 8
+
+O tabuleiro tradicional é feito de covas no chão, e as peças são pedras ou sementes de fruta. Também dá para desenhar as covas no papel e usar feijões, tampinhas ou o que tiver à mão.
+
+## Como jogar?
+
+1. Cada jogador usa as duas fileiras do seu lado. Ponha 1 semente em cada cova (a verificar: a divisão em duas fileiras por jogador vem do código do Ludii).
+2. Os jogadores se alternam. Na sua vez, pegue as sementes de uma das suas covas e semeie uma a uma, no sentido anti-horário, nas covas seguintes.
+3. Se a última semente cair numa cova que já tinha sementes, pegue todas as sementes dessa cova e continue semeando.
+4. Se a última semente cair numa cova vazia da sua fileira de dentro, capture as sementes da cova da fileira de dentro do adversário bem em frente.
+   - Se você capturou, capture também as sementes da cova da fileira de fora do adversário.
+5. Quando a última semente cair numa cova vazia, a sua vez termina.
+6. Vence quem capturar todas as sementes do adversário.
+
+## Para quem conduz
+
+Esta ficha vem do resumo do Ludii sobre o registro de Viegas Guerreiro (1966); o livro não foi aberto. As fontes não dizem quem começa, o que fazer quando um jogador não tem jogada, se capturar é obrigatório, se uma cova com uma semente só pode ser jogada nem se há empate. O tabuleiro de 5 ou de 8 covas por fileira também está em aberto.
+
+**Sugestão do site:** combinem antes da partida o tamanho do tabuleiro, quem começa e o que fazer quando alguém não tiver jogada.
 
 ## Regras
 
