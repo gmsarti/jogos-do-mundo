@@ -50,6 +50,8 @@ Membro da família do Chaturanga, com traços próprios como o canhão e o palá
 - Um tabuleiro de 9 linhas verticais e 10 horizontais, que se cruzam em 90 interseções, onde ficam as peças. No meio há uma faixa vazia, o rio, entre a quinta linha horizontal de cada lado. Cada lado tem um palácio: a área entre a primeira e a terceira linhas horizontais e entre a quarta e a sexta linhas verticais, cruzada por duas diagonais
 - 16 peças para cada jogador, um lado vermelho e o outro preto: 1 general, 2 conselheiros, 2 elefantes, 2 cavalos, 2 carros, 2 canhões e 5 soldados
 
+Visto de longe, parece um tabuleiro de 8 por 9 quadradinhos, cortado no meio pelo rio. Mas as peças não ficam dentro dos quadradinhos: ficam nos cruzamentos das linhas.
+
 O tabuleiro pode ser impresso ou desenhado no papel. As peças podem ser fichas redondas, tampinhas ou botões, marcadas com o nome de cada peça.
 
 ## Como jogar?
@@ -61,12 +63,12 @@ O tabuleiro pode ser impresso ou desenhado no papel. As peças podem ser fichas 
 2. O vermelho começa, e os lados se alternam, um lance por vez. A cor de cada jogador pode ser sorteada.
 3. Na sua vez, mova uma peça. Cada uma anda de um jeito:
    - General: uma interseção para a frente, para trás ou para o lado, sem sair do palácio.
-   - Conselheiro: uma interseção pelas diagonais do palácio.
-   - Elefante: exatamente duas interseções na diagonal. Não cruza o rio e não se move se houver peça, sua ou do adversário, na interseção do meio (o "olho do elefante").
+   - Conselheiro: uma interseção pelas diagonais do palácio. Ele completa o general: um anda em cruz, o outro em X, e nenhum dos dois sai do palácio.
+   - Elefante: exatamente duas interseções na diagonal. Não cruza o rio e não se move se houver peça, sua ou do adversário, na interseção do meio (o "olho do elefante"). Por isso cada elefante só alcança 7 pontos do tabuleiro.
    - Cavalo: uma interseção em linha reta e depois uma na diagonal, para o mesmo lado. Não se move se houver peça na interseção do primeiro passo.
    - Carro: quantas interseções quiser em linha reta, na horizontal ou na vertical, sem pular peças.
    - Canhão: anda como o carro.
-   - Soldado: uma interseção para a frente. Depois de cruzar o rio, também pode andar uma para o lado. Nunca volta.
+   - Soldado: uma interseção para a frente. Depois de cruzar o rio, também pode andar uma para o lado. Nunca volta. Ao chegar ao fim do tabuleiro, não vira outra peça: só anda para os lados (a verificar).
 4. Para capturar, vá para a interseção de uma peça do adversário e a tire do tabuleiro. Você não pode ir para uma interseção ocupada por peça sua.
    - O canhão captura de outro jeito: pula exatamente uma peça, sua ou do adversário (a "base"), e captura a peça do adversário que vem logo depois dela, na mesma linha.
 5. Os dois generais não podem ficar frente a frente na mesma coluna sem peça entre eles.
@@ -103,3 +105,4 @@ O texto das regras mundiais diz "50 lances dos dois jogadores" sem dizer se são
 - Captura: uma peça vai para a interseção de uma peça adversária e a tira do tabuleiro; não pode ir para uma interseção ocupada por peça sua. Só o canhão captura de outro jeito: pula exatamente uma peça, sua ou do adversário (a "base"), e captura a peça adversária que vem logo depois dela na mesma linha (Federação Mundial de Xiangqi 2018, art. 2.6 e 2.8). O general também pode ser capturado; quem tem o general ameaçado (xeque) tem de livrá-lo, fugindo, capturando a peça que ameaça ou pondo uma peça no caminho (art. 2.10).
 - Perde quem leva xeque-mate, quem fica sem lance possível na sua vez ou quem faz um lance que deixa o próprio general em xeque (Federação Mundial de Xiangqi 2018, art. 2.11 e 3.1). Quem dá xeque sem parar, enquanto o adversário persegue peças sem parar, tem de mudar de lance ou perde (art. 3.1.H).
 - Empate: por acordo; quando nenhum dos dois tem como vencer; quando a mesma posição se repete quatro vezes sem lance proibido e ninguém aceita mudar; ou, conferido pelo árbitro, depois de 50 lances dos dois jogadores sem nenhuma captura (Federação Mundial de Xiangqi 2018, art. 3.2; o texto não diz se são 50 de cada um ou 50 ao todo).
+- O soldado que chega à última linha não é promovido: continua andando só para os lados (vídeo de AncientChess, a verificar). O vídeo confirma o resto: cavalo bloqueado pela peça vizinha, elefante preso ao seu lado do rio, canhão que pula exatamente uma peça para capturar, generais que não podem se encarar e derrota de quem fica sem lance ou dá xeque perpétuo.

@@ -193,3 +193,58 @@ Os vídeos abaixo dão "This video is not available" e precisam sair das `refs` 
 - Lidos: VemKaJogar (pt) e Triple S Games (en).
 - Mudou: em "Para quem conduz", trocar de lado a cada partida e começar pelo Brandubh, como sugere o vídeo em português.
 - Divergência (Regra 13): no vídeo em português, o rei escapa por qualquer casa da borda; isso não é a regra de Fetlar nem a de Copenhagen.
+
+## Lote 4
+
+### Senet
+
+- Lidos: VemKaJogar (pt) e Triple S Games (en).
+- **Para a curadoria:** os dois vídeos ensinam a mesma reconstrução, quase igual à de Santos, Neto e Silva (5 peças alternadas na primeira fileira, troca de lugar ao atacar, 2 peças se protegem e 3 bloqueiam, casa 27 manda para a 15, não se tiram peças com alguma ainda na primeira fileira). "Para quem conduz" resume essa reconstrução e diz que ela está pronta para virar passo a passo, se a curadoria a escolher. Diferenças entre os vídeos estão na Regra 7.
+- História: a lenda dos cinco dias ganhos da Lua, contada no vídeo em português (a verificar: o vídeo não diz de onde vem a lenda nem por que o jogo seria o senet). Atenção ao `sens: ritual`.
+- Segue sem "Como jogar?".
+
+### Jogo real de Ur
+
+- Lido: VemKaJogar (pt), com as duas versões de Finkel.
+- Lacunas fechadas (Regra 11, a verificar): começa quem tirar mais nos dados; sem jogada válida, passa a vez; peças entram a qualquer momento; nenhuma casa recebe duas peças. O valor do lance zero depende da versão (4 com 3 dados, 5 com 4 dados).
+- Divergência: no vídeo, toda roseta protege; na Regra 7 (Ludii), só a do meio.
+- Segue sem "Como jogar?": o vídeo mostra o percurso na tela, sem descrevê-lo na fala.
+
+### Brandubh
+
+- Lido: HnefataflModern (en).
+- Divergência (Regra 13 e "Para quem conduz"): no vídeo, o rei é capturado entre duas peças em qualquer lugar, e ninguém é capturado contra a casa central.
+
+### Xiangqi
+
+- Lido: AncientChess (en).
+- Mudou: dica de que as peças ficam nos cruzamentos, não nos quadradinhos; o conselheiro completa o general (cruz e X); cada elefante só alcança 7 pontos (consequência das regras).
+- Lacuna fechada (a verificar): o soldado não é promovido na última linha.
+
+### Janggi
+
+- Lido: AncientChess (en).
+- Mudou: o elefante como "cavalo esticado"; o canhão não sai do lugar sem uma peça para pular.
+- Regra 19 (a verificar): o mate dado por peça protegida pelo próprio general não vale e empata.
+
+### Makruk
+
+- Lido: AncientChess (en).
+- Mudou: o *khon* vai para as três casas da frente ou para as duas diagonais de trás; em "Para quem conduz", a sugestão do vídeo de jogar sem a contagem de lances até a situação aparecer. O vídeo confirma a ficha.
+
+### Sittuyin
+
+- Lido: AncientChess (en).
+- Mudou: o elefante anda em cinco direções, "uma para cada pata e uma para a tromba"; em "Para quem conduz", os dois jeitos de arrumar as peças do vídeo.
+- Divergência (nota nas Regras, a verificar): no vídeo, o vermelho arruma todas as peças antes do preto (ou os dois arrumam com uma tela no meio), os carros só vão na fileira de trás e não podem ficar de frente para o rei adversário; Murray fala em colocação alternada.
+
+### Ouk chatrang
+
+- Lido: AncientChess (en).
+- Lacunas fechadas (a verificar): não vale xeque-mate com xeque descoberto; o *ouk* usa a mesma contagem de lances do makruk (8, 16, 22, 32, 44, 64). O vídeo confirma os lances a mais do primeiro lance do rei e do *met*.
+
+### Yut nori
+
+- Lido: Steve Miller (en).
+- Lacuna fechada (Regra 13, a verificar): a peça capturada sai do tabuleiro e recomeça, e um grupo capturado sai inteiro. Viraram sub-itens do passo 7.
+- História (a verificar): jogo de família típico do *Seollal*, o Ano Novo lunar; tabuleiro bordado em pano redondo ou riscado na areia. O T-074 tinha tirado do resumo a frase do Ano Novo por falta de fonte; ela volta só na História, citando o vídeo.

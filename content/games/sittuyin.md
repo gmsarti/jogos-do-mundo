@@ -54,7 +54,7 @@ O tabuleiro pode ser impresso ou desenhado no papel, com as diagonais e os X. Pa
 4. Na sua vez, mova uma peça. Cada uma anda de um jeito:
    - Rei: uma casa em qualquer direção.
    - General: uma casa na diagonal.
-   - Elefante: uma casa na diagonal ou uma casa reto para a frente.
+   - Elefante: uma casa na diagonal ou uma casa reto para a frente. São cinco direções, uma para cada pata e uma para a tromba.
    - Cavalo: duas casas numa direção e uma para o lado.
    - Carro: quantas casas livres quiser na horizontal ou na vertical.
    - Peão: uma casa reto para a frente. Captura uma casa na diagonal, para a frente.
@@ -73,6 +73,8 @@ As fontes divergem em dois pontos. Casas de promoção: o Ludii diz que só vale
 
 **Sugestão do site:** combinem antes da partida quais casas de promoção valem e se o rei tem posição fixa.
 
+O vídeo de AncientChess mostra outros dois jeitos de arrumar as peças. No primeiro, o vermelho arruma todas as suas, depois o preto arruma as dele, e o vermelho faz o primeiro lance. No segundo, os dois arrumam ao mesmo tempo, com uma tela entre eles, e só depois veem o tabuleiro do outro. No vídeo, os carros só podem ficar na fileira de trás.
+
 ## Regras
 
 - Tabuleiro 8×8; peões em posições fixas, escalonados entre a 3ª e a 4ª fileira de cada lado.
@@ -89,3 +91,4 @@ As fontes divergem em dois pontos. Casas de promoção: o Ludii diz que só vale
 - Promoção: o peão que chega a uma casa marcada pelas diagonais pode virar general, desde que o jogador não tenha outro general no tabuleiro naquele momento. O novo general fica na casa do peão ou numa casa vizinha que não esteja atacada por peça adversária. Se o jogador, na sua vez, já tem um peão numa casa marcada e não tem general, pode promovê-lo sem mover nada, no lugar da jogada (Murray 1913: 112). O Ludii diz que só valem as casas marcadas do lado do adversário; Murray não diz isso com essas palavras. Pela Wikipedia (sem fonte citada, a verificar), o peão que passa da casa de promoção não pode mais ser promovido.
 - Xeque e afogamento: o rei não pode ficar em xeque (Ludii). Não existe afogamento: é proibido fazer uma jogada que deixe o adversário sem nenhuma jogada possível quando o rei dele não está em xeque; quem joga tem de deixar espaço para o rei andar (Murray 1913: 113).
 - Murray (1913: 113) não registra empate. Ele conta que o vencedor costuma passar um pouco de cal no rosto do perdedor, para marcar as vitórias de uma série de partidas.
+- Colocação, nota sobre o vídeo de AncientChess (a verificar): o vermelho arruma todas as suas peças e depois o preto, ou os dois arrumam ao mesmo tempo com uma tela entre eles; o vermelho faz o primeiro lance; os carros só vão na fileira de trás, e não se pode pôr um carro de frente para o rei adversário sem peça entre os dois. Isso diverge de Murray, em que os jogadores se alternam peça a peça. O vídeo confirma os movimentos, a promoção só quando o general já saiu do tabuleiro e a proibição do afogamento.

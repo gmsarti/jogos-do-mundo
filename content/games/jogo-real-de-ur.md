@@ -55,7 +55,7 @@ O tabuleiro do British Museum (1928,1009.378) data de 2600–2400 a.C. Era uma c
 
 ## Para quem conduz
 
-Esta ficha ainda não tem "Como jogar?". O percurso das peças só aparece em figura, e as fontes não dizem quem começa, o que fazer com um lance de 0 nem se há empate. Como o jogo é uma reconstrução, outras propostas (de Murray e de Masters) põem as rosetas e o percurso em outros lugares; a ficha segue a de Finkel.
+Esta ficha ainda não tem "Como jogar?". O percurso das peças só aparece em figura, inclusive no vídeo de VemKaJogar, que o mostra na tela sem descrevê-lo, e as fontes não dizem se há empate. O vídeo fecha outras lacunas (veja a Regra 11): começa quem tirar mais nos dados, e quem não tem jogada passa a vez. Como o jogo é uma reconstrução, outras propostas (de Murray e de Masters) põem as rosetas e o percurso em outros lugares; a ficha segue a de Finkel.
 
 ## Regras
 
@@ -69,3 +69,4 @@ Esta ficha ainda não tem "Como jogar?". O percurso das peças só aparece em fi
 8. Com o resultado dos dados, o jogador move uma peça que já está no tabuleiro ou põe uma peça nova. Duas peças nunca ficam na mesma casa. Capturar não é obrigatório, mas mover é, sempre que possível, mesmo que o lance seja ruim (Wikipedia, a partir de Botermans 2008).
 9. Para sair, é preciso tirar exatamente o número de casas que faltam até o fim do percurso mais um (Ludii, a partir de Finkel 2007; Wikipedia, a partir de Botermans 2008).
 10. Nota de divergência (outras reconstruções): Murray e James Masters propõem percursos com uma roseta a cada quatro casas (Wikipedia); Masters também discute a proteção da roseta central. A ficha segue a reconstrução de Finkel.
+11. Nas duas versões de Finkel que o vídeo de VemKaJogar ensina, começa quem tirar o maior número nos dados; quem não tem jogada válida passa a vez; uma peça pode entrar a qualquer momento; e nenhuma casa recebe duas peças, nem do mesmo jogador (a verificar). Na versão simples, com 7 peças, joga-se com 3 dados tetraédricos, e o lance sem nenhuma ponta marcada vale 4. Na versão avançada, com 4 dados, o lance zero vale 5, as peças são numeradas de 1 a 5 e se joga com fichas que se ganham e se pagam nas rosetas; vence quem tiver mais fichas. Nota de divergência: no vídeo, toda roseta protege a peça que está nela, e não só a do meio, como na Regra 7.

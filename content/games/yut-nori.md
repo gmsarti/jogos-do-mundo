@@ -43,6 +43,8 @@ place: ""
 
 Stewart Culin o descreveu como *nyout* em *Korean Games* (1895). Tabuleiros e conjuntos coreanos aparecem em coleções etnográficas da época de Culin (a verificar).
 
+Segundo o vídeo de Steve Miller, é um jogo de família típico do *Seollal*, o Ano Novo lunar coreano. Nas partidas tradicionais, o tabuleiro é bordado num pano redondo, e há quem o risque na areia da praia (a verificar).
+
 ## Do que você vai precisar?
 
 - Um tabuleiro de 29 marcas redondas: 20 em círculo, a distâncias iguais, e uma cruz de 9 marcas dentro do círculo. As marcas dos quatro quartos do círculo e a do centro são maiores que as outras. A marca do alto é a saída
@@ -66,12 +68,14 @@ Culin conta que o tabuleiro podia ser desenhado num papel ou no chão. Para as v
    - Quem não para nessa marca segue o círculo. Se parar na marca grande de baixo, pode ir por ela até o centro e dali até a saída.
    - Se passar pela marca grande de baixo, segue até a marca grande da direita e dali, pelo círculo, até a saída.
 7. Se a sua peça cair numa marca com peça sua, você pode juntar as duas e levá-las como uma só, mas elas contam como duas. Se cair numa peça do adversário, você a captura e ganha outro lance.
+   - A peça capturada sai do tabuleiro e tem de começar o percurso de novo (a verificar).
+   - Se você capturar um grupo de peças juntas, todas voltam ao começo. Por isso andar em grupo é mais rápido, mas arriscado (a verificar).
 8. Para sair pela marca do alto, tire pelo menos um a mais do que falta para chegar a ela. Se sobrar mais, não importa.
 9. Vence quem completar o percurso com todas as peças.
 
 ## Para quem conduz
 
-Culin não diz o que acontece com a peça capturada, o que fazer se dois jogadores empatarem no lance que decide quem começa, nem se a partida pode empatar.
+Culin não diz o que acontece com a peça capturada (o vídeo de Steve Miller diz que ela sai do tabuleiro), o que fazer se dois jogadores empatarem no lance que decide quem começa, nem se a partida pode empatar.
 
 **Sugestão do site:** combinem essas três coisas antes de começar. Para aprender, jogue com 1 peça para cada jogador.
 
@@ -89,3 +93,4 @@ Culin não diz o que acontece com a peça capturada, o que fazer se dois jogador
 10. Atalhos (Culin 1895: 69): quem tira *mo* (5) logo no começo chega à marca grande da esquerda e volta pelo raio até o centro e do centro até a saída. Quem não para nessa marca segue o círculo; se parar na marca grande de baixo, pode voltar por ela até o centro e dali até a saída; se passar dela, segue até a marca grande da direita e dali, pelo círculo, até a saída.
 11. Empilhar é opcional: quem cai numa peça sua pode juntar as duas e levá-las como uma só, mas elas contam como duas. Com dois lances ou mais (depois de *yut* ou *mo*), o jogador pode dividir os lances entre duas peças (Culin 1895: 68-69).
 12. Número de peças (Culin 1895: 68): em dois jogadores, cada um leva 1 ou 4 peças, como combinarem; em três, 3 peças cada; em quatro, os que se sentam frente a frente jogam em dupla, a dupla precisa levar 4 peças, e um jogador pode mover as peças do parceiro.
+13. A peça capturada sai do tabuleiro e recomeça; se a peça que cai sobre o adversário encontra um grupo, todas as peças do grupo saem (vídeo de Steve Miller, a verificar). O vídeo confirma os valores do lance, o lance extra com *yut* e *mo*, o lance extra depois de capturar, os grupos e os atalhos pelas marcas grandes; no vídeo, cada equipe tem 4 peças.

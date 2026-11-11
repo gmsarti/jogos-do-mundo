@@ -77,6 +77,8 @@ O passo a passo segue a versão de Aage Nielsen publicada no Cyningstan, que com
 
 As fontes não dizem se capturar é obrigatório.
 
+O vídeo de HnefataflModern (em inglês) joga outra versão: o rei é capturado entre duas peças em qualquer lugar, ou contra a borda, cercado pelos três lados; e ninguém é capturado contra a casa central. Os cantos continuam ajudando a capturar.
+
 **Sugestão do site:** combinem antes da partida o que vale na casa central e no fim da partida.
 
 ## Regras
@@ -97,3 +99,4 @@ As fontes antigas dão pouco: dois poemas dizem que se jogava com cinco peças c
 10. Casa central, nota de divergência: nas regras da WTF (2016), só o rei pode parar na casa central e nos cantos, mas o rei pode voltar à casa central, e todas as peças podem passar por ela quando está vazia. A casa central é sempre hostil aos atacantes (vale como peça inimiga numa captura), e aos defensores só quando está vazia.
 11. Fim da partida, nota de divergência: nas regras da WTF (2016), os atacantes também vencem se cercarem o rei e todos os defensores; quem não pode mover perde; e a repetição sem fim é proibida: na terceira repetição de uma posição, perde o jogador que a está forçando.
 12. Damian Walker propôs outra versão no livro *Reconstructing Hnefatafl*, que segundo o Cyningstan favorece um pouco os atacantes; as regras dela não foram consultadas.
+13. Nota sobre o vídeo de HnefataflModern (a verificar): os atacantes começam e o rei vence nos cantos, como na ficha, mas o rei é capturado entre duas peças em qualquer casa, ou cercado por três lados contra a borda, e nenhuma peça é capturada contra a casa central. O vídeo diz que segue regras do BoardGameGeek e que o jogo é uma reconstrução a partir do nome e de um poema.

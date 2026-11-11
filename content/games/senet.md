@@ -61,6 +61,8 @@ place: ""
 
 O DLP reúne 346 evidências do senet, desde grafites do Antigo Império (o mais antigo registrado é o da tumba de Ptahshepses, com datação ampla de c. 2402–1213 a.C.) até tabuleiros do Novo Império e do período ptolomaico. Caixas de jogo eram feitas com o senet num lado e as Vinte casas (Twenty Squares) no outro, com gaveta para peças e varetas de arremesso. O Met guarda várias delas, uma encontrada dentro de um caixão em Tebas.
 
+O vídeo de VemKaJogar conta uma lenda sobre os cinco dias que completam o calendário egípcio: a deusa Nut estava proibida de dar à luz em qualquer dia do ano, e o deus da sabedoria ganhou da Lua, partida a partida, um pouco de tempo, até juntar cinco dias novos, em que nasceram os cinco filhos dela. No vídeo, o jogo dessas partidas é o senet (a verificar: o vídeo não diz de onde vem a lenda).
+
 ## Do que você vai precisar?
 
 - Um tabuleiro de 3 fileiras de 10 casas (30), com o percurso em S: as casas são numeradas de 1 a 30, da 1 à 10 na primeira fileira, da 11 à 20 na segunda, no sentido contrário, e da 21 à 30 na terceira. Nos tabuleiros que sobreviveram, as casas 15, 26, 27, 28 e 29 costumam ter marcas, e a 27 tem o sinal da água
@@ -74,6 +76,8 @@ Caixas de jogo eram feitas com o senet num lado e as Vinte casas no outro, com g
 Esta ficha ainda não tem "Como jogar?". Não existe regra documentada, e a curadoria ainda não escolheu qual reconstrução ensinar. As principais (Jéquier, 1930; Kendall, 1978–79; Bell; e a de Santos, Neto e Silva) diferem no número de peças, nos lances, no que acontece ao cair numa casa com peça do adversário e nas casas especiais. Elas estão por inteiro em "Regras".
 
 Nenhuma delas diz se a partida pode empatar.
+
+Os dois vídeos da ficha ensinam a mesma reconstrução, quase igual à de Santos, Neto e Silva: 5 peças por jogador, alternadas na primeira fileira; quem tira 1 primeiro começa; os lances altos dão nova jogada (1, 4 e 6 num vídeo; 4 e 5 no outro); atacar troca as peças de lugar; duas peças juntas se protegem e três juntas bloqueiam; quem não pode avançar volta uma peça; a casa 27, a da água, manda a peça para a 15; e ninguém tira peças do tabuleiro enquanto tiver alguma na primeira fileira. Se a curadoria escolher essa reconstrução, ela já está pronta para virar o passo a passo.
 
 ## Regras
 
@@ -106,3 +110,4 @@ Cada reconstrução por inteiro, com as fontes:
 4. **Gustave Jéquier** (Ludii, a partir de Jéquier 1930): 5 peças por jogador na primeira fileira, alternadas; quatro varetas, valendo o número de lados lisos, e 6 com todos os vermelhos para cima; lances de 1, 4 e 6 dão nova jogada; quem tira 1 primeiro fica com as pretas; duas peças seguidas ficam protegidas e três seguidas não deixam passar; a casa 27 manda a peça de volta para a casa vazia mais distante do fim; só se tiram peças quando todas estão na última fileira.
 5. **Santos, Neto e Silva**, livro *Jogos de Tabuleiro Tradicionais*, com regras que dizem reunir "consenso geral entre os especialistas, salvo em alguns pormenores", sem nomear o autor da reconstrução: 5 peças por jogador nas casas 1 a 10, alternadas; varetas valendo 1 a 4 e 6; 1, 4 e 6 dão nova jogada; troca de lugar ao atacar; duas peças seguidas se protegem e três bloqueiam; a 27 manda para a 15; as casas 26, 28 e 29 são seguras.
 6. **Edward Falkener (1892)**, nota de correção: o livro de Falkener chama de "Senat" outro jogo, que ele identifica com o *seega* e joga em tabuleiros quadrados de 5×5 a 13×13 (Falkener 1892: 63, 358–359). O tabuleiro de 3×10 aparece no capítulo do "Caminho Sagrado" como uma variedade mais longa desse jogo, com 10 peças por jogador, sem regras próprias além das do Caminho Sagrado (Falkener 1892: 91–101, 360–361). A ficha cita Falkener como uma das reconstruções do senet; isso não se confirma no livro.
+7. Nota sobre os vídeos: os de VemKaJogar e de Triple S Games ensinam a mesma reconstrução, quase igual à de Santos, Neto e Silva (5). Diferenças: no de Triple S Games, a peça mandada para a 15 vai para a casa livre mais perto do começo se a 15 estiver ocupada, e o resto de um lance maior que o necessário para sair passa para outra peça; no de VemKaJogar, não é preciso tirar o número exato para sair, menos nas casas 28 e 29, que pedem 3 e 2 (a verificar).
