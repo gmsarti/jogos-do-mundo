@@ -69,6 +69,8 @@ O tabuleiro pode ser desenhado no papel, com um círculo para cada casa. As seme
 
 Para o jogador sem sementes, as fontes divergem. O Mancala World diz que a única diferença do warri de Antígua em relação ao oware é que, se o jogador esvazia o lado do adversário com uma captura, tem de jogar de novo para lhe dar sementes, se puder. O passo 5 é o de Kinsella (pelo BajanThings).
 
+O vídeo de Julian Groves (em inglês) diz que a Warri Society International, de Antígua, joga com as mesmas regras do *abapa* do oware. Nelas, quem pode deixar sementes para o adversário tem de deixar; quem não consegue fica com as sementes do seu lado; e a jogada que capturaria todas as sementes do adversário pode ser feita, mas não captura nada. No mesmo vídeo, as casas anteriores só são capturadas se tiverem 2 ou 3 sementes depois da semeadura.
+
 A ficha registra que o warri é jogado sobretudo por homens. As fontes não dizem se capturar é obrigatório.
 
 **Sugestão do site:** combinem antes da partida quem abre e o que vale quando um lado fica sem sementes.
@@ -89,3 +91,4 @@ As regras abaixo são as de Marie Kinsella (*Warri, the most ancient of games fr
 8. Se sobram 3 ou 4 sementes circulando sem fim, os jogadores combinam de parar e contam as capturas; vence quem tiver mais (BajanThings, a partir de Kinsella).
 9. Vence quem capturar 25 sementes ou mais. Com 24 para cada um, é empate. Num torneio, é campeão quem vencer seis partidas primeiro (BajanThings, a partir de Kinsella).
 10. Nota de divergência sobre o adversário sem sementes: o Mancala World diz que a única diferença do warri de Antígua em relação ao oware é que, se o jogador esvazia o lado do adversário com uma captura, tem de jogar de novo para lhe dar sementes, se puder. Kinsella (pelo BajanThings) dá a regra 7.
+11. Nota sobre o vídeo de Julian Groves (a verificar): o vídeo ensina o oware nas regras do *abapa* e diz que a Warri Society International, de Antígua, usa as mesmas. Por elas, é obrigatório deixar sementes para o adversário quando possível, e quem não consegue fica com as do seu lado, o que diverge da Regra 7; a jogada que esvaziaria o lado do adversário pode ser feita, mas não captura nada; e as casas anteriores contam depois da semeadura, o que responde à dúvida da Regra 6 nessa versão.

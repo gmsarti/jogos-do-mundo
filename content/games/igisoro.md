@@ -89,6 +89,8 @@ As fontes lidas não dizem se há empate.
 
 **Sugestão do site:** com quem está aprendendo, joguem as primeiras partidas sem "passo" e sem o sentido horário, e acrescentem essas regras depois.
 
+No vídeo de RambArt (em inglês), que ensina o igisoro junto com o omweso, cada jogador espalha as suas 32 sementes como quiser pelas suas 16 covas antes de começar, e o sentido horário só vale das duas covas da esquerda, quando leva direto a uma captura.
+
 ## Regras
 
 As regras vêm do Mancala World (*Igisoro*, texto adaptado da Wikipedia, que cita van der Burgt 1903, Merriam 1953 e Coupez e Benda 1963) e da Wikipedia (*Igisoro*). Nenhuma das duas fontes primárias foi consultada, então tudo vale "(a verificar)" quanto à fonte original.
@@ -104,3 +106,4 @@ As regras vêm do Mancala World (*Igisoro*, texto adaptado da Wikipedia, que cit
 9. A partida tem três etapas (Mancala World): *kugereka*, o arranjo das sementes em grupos de quatro; *guc úmuvúno*, a abertura, de 2 a 4 lances (o primeiro, *kuvuna*, e o segundo, *kwivunura*), feita pelos dois ao mesmo tempo (podem alternar, se combinado), sem capturas até depois do segundo lance, e a primeira captura (*kurása*) começa a etapa seguinte; e *kubúguza*, em que os lances se alternam e se captura a qualquer momento. Se não houve partida antes, qualquer um pode tomar a iniciativa; depois, ela é de quem venceu a última partida (*gutáng inganji*, "impor o triunfo").
 10. Perde quem não consegue semear nenhuma semente. O vencedor ganha um ponto (*igitégo*) por partida ganha; se no fim há menos de 64 sementes, a partida não conta (*kubúguz inkángane*) (Mancala World).
 11. Variante: em algumas regiões a captura é obrigatória, e "passo" não é permitido (Mancala World).
+12. Nota sobre o vídeo de RambArt (a verificar): no igisoro, cada jogador espalha as suas 32 sementes como quiser pelas suas 16 covas, o que diverge do passo 1 (4 sementes na fileira de dentro); a cova escolhida precisa ter duas sementes ou mais; e o sentido horário só vale a partir das duas covas da esquerda, quando leva direto a uma captura.

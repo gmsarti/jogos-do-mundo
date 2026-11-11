@@ -248,3 +248,52 @@ Os vídeos abaixo dão "This video is not available" e precisam sair das `refs` 
 - Lido: Steve Miller (en).
 - Lacuna fechada (Regra 13, a verificar): a peça capturada sai do tabuleiro e recomeça, e um grupo capturado sai inteiro. Viraram sub-itens do passo 7.
 - História (a verificar): jogo de família típico do *Seollal*, o Ano Novo lunar; tabuleiro bordado em pano redondo ou riscado na areia. O T-074 tinha tirado do resumo a frase do Ano Novo por falta de fonte; ela volta só na História, citando o vídeo.
+
+## Lote 5
+
+### Ayo
+
+- Lido: City of Surrey (en). No vídeo, as pessoas jogam conversando, sem explicar as regras. Nada mudou.
+
+### Bao la kiswahili
+
+- Lido: Julian Groves (en), só em trechos (mais de 11 mil palavras).
+- Mudou: em "Para quem conduz", a dica da colinha com as regras de cada fase, como faz o vídeo.
+- Regra 14 (a verificar): confirma a posição inicial e o sentido da semeadura das capturas; diz que, enquanto a *nyumba* existe, um lance sem captura pode começar de uma cova com uma semente só, o que diverge da restrição do Ludii.
+
+### Igisoro e Omweso
+
+- Lido: RambArt (en), um vídeo para os dois jogos.
+- Igisoro, divergência (Regra 12 e "Para quem conduz"): no vídeo, cada jogador espalha as suas 32 sementes como quiser antes de começar; a ficha põe 4 em cada cova da fileira de dentro.
+- Omweso: o vídeo confirma a ordem de arrumar as sementes e o *emiri*. Lacuna fechada (Regra 8, a verificar): o *akaka*, vitória por capturar em dois lances antes de o adversário ter capturado alguma coisa. Virou sub-item do passo 7.
+
+### Warri
+
+- Lido: Julian Groves (en), o mesmo vídeo do Oware, que diz que a Warri Society International, de Antígua, usa as regras do *abapa*.
+- Mudou: "Para quem conduz" resume essas regras.
+- Regra 11 (a verificar): as casas anteriores contam depois da semeadura (responde à dúvida da Regra 6 nessa versão); quem não consegue dar sementes ao adversário fica com as suas, o que diverge da Regra 7 (Kinsella).
+
+### Yolé
+
+- Lido: GAMES AND PUZZLES CALI (falado em espanhol).
+- Nota nas Regras (a verificar): confirma os valores dos botões e a captura; diverge no poço (o palito fica parado até sair um *yolé*, em vez de se perder).
+
+### Bul
+
+- Lido: Deny Us Not Game Night (en), o mesmo vídeo do Puluc em inglês.
+- Nota nas Regras (a verificar): versão para dois jogadores; as duas formas do vídeo (seguir em frente com o prisioneiro ou voltar para casa) correspondem à quarta e à primeira partida de Verbeeck.
+
+### Dadu
+
+- Lido: NewVenture Games (en), a partir de Schmidt-Madsen 2024, a mesma fonte da ficha.
+- Mudou: sub-item com a dica de proteger o rei com uma peça comum na mesma casa (consequência do passo 7); em "Para quem conduz", os tabuleiros bordados e a versão menor com 4 cauris (a verificar).
+- Divergência: quando o rei é capturado pelo rei adversário, o vídeo não manda de volta as peças que já saíram do jogo.
+
+### Pachisi
+
+- Lido: Taming Games (en). O vídeo ensina o *Parcheesi* comercial americano, com dados e bloqueios, e não o pachisi tradicional. Nada mudou. **Para a curadoria:** trocar a ref.
+
+### Chaupar
+
+- Lido: erunfun.com (falado em híndi; a ref está marcada `en`).
+- Mudou: "Para quem conduz" e a Regra 13 descrevem a forma com 6 búzios que o vídeo ensina (entrada com 10 ou 25, casas seguras com cruz, capturar antes de entrar em casa). É a forma atual que a ficha só tinha pela Wikipedia, sem fonte; segue não adotada.

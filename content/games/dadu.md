@@ -63,6 +63,7 @@ O tabuleiro pode ser desenhado em papel ou em pano. As peças podem ser tampinha
    - Um lado só pode entrar na primeira fileira do adversário depois de capturar pelo menos uma peça dele.
    - Se a peça já está numa casa com peças do adversário, um lance de 1 captura uma delas, sem mover.
 8. A peça rei anda como as outras. Mas, se for capturada por uma peça comum, volta ao início com as peças do seu lado que estão no caminho ou à espera de sair. Se for capturada pelo rei adversário, volta com todas as peças do seu lado, até as que já tinham saído. Depois disso, o lado precisa capturar de novo antes de entrar na primeira fileira do adversário.
+   - Uma dica: deixe uma peça comum na mesma casa do rei. Como as peças comuns são capturadas antes do rei, ela o protege.
 9. Para tirar uma peça do caminho, é preciso um lance exato até a última casa, que é a casa de entrada do adversário. A peça vai então para o canto do meio do tabuleiro e só sai dali com um 1 (e só depois de entrarem todas as peças que ainda estão fora).
 10. Vence o primeiro lado que tirar todas as suas peças.
 
@@ -71,6 +72,8 @@ O tabuleiro pode ser desenhado em papel ou em pano. As peças podem ser tampinha
 Todas as regras vêm de entrevistas com membros da comunidade Dawoodi Bohra, e nenhuma casa joga igual: o texto acima segue as regras que a maioria das casas compartilha. O artigo também lista variações usadas por poucas casas (em "Regras"). O artigo não diz o que acontece num empate.
 
 O Dadu é um jogo da comunidade, jogado em casa, em família e por equipes de 3 ou 4 pessoas (às vezes de 8 ou 10). Antes de ensiná-lo em outro contexto, vale lembrar a quem aprende de onde ele vem.
+
+O vídeo de NewVenture Games (em inglês) conta que os tabuleiros costumam ser bordados em pano, cada família com o seu, e fala de uma versão menor, para partidas rápidas ou para crianças, num tabuleiro menor e com 4 cauris; nela, 4 aberturas para cima valem 8 casas e dão outro lance (a verificar).
 
 **Sugestão do site:** com crianças pequenas, comece sem as regras da peça rei e do "entrar na primeira fileira do adversário", e acrescente depois.
 
@@ -98,3 +101,5 @@ Fonte: Schmidt-Madsen 2024 (BGSJ 18), apêndice "Rules of Play", lido; regras de
 **Regras opcionais (casas que jogam de outro jeito).** Tabuleiro com 9 trechos em vez de 7, ou trechos com 3 casas sem marca (nesse caso, 4 dados, e 4 para cima vale 8 e dá outro lance); 4 peças comuns em vez de 8, ou 2 comuns e 1 rei, ou 2 reis por lado; um dado comum de seis lados no lugar dos cauris (6 pontos = nenhum cauri para cima = perde a vez); um líder por equipe, que é o único a mover as peças; três 10 (ou três 1, ou três de qualquer um dos dois) numa mesma rodada se cancelam.
 
 **Não dito pelo artigo:** empate; a ordem dos jogadores dentro do lado.
+
+**Nota sobre o vídeo de NewVenture Games** (em inglês, a partir de Schmidt-Madsen 2024, a verificar): confirma os valores dos cauris, a entrada com 1, as casas seguras, a captura de uma só peça por vez, o 1 que captura sem mover e a proteção do rei por uma peça comum na mesma casa. Diverge num ponto: quando o rei é capturado pelo rei adversário, voltam também as peças que estão no canto do meio, mas não as que já saíram do jogo. Cita ainda tabuleiros bordados em pano e uma versão menor, com 4 cauris (4 aberturas para cima valem 8 casas e dão outro lance).
