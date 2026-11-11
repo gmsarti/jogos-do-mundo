@@ -24,7 +24,7 @@ recon: []
 summary: "Jogo de dados dos Pareci, no Mato Grosso. O dado tem a forma de um pião, e o que dá graça ao jogo é a aposta de objetos do dia a dia, como arcos e flechas."
 refs:
   - title: Vinha
-    url: http://observatorioedhemfoc.hospedagemdesites.ws/observatorio/wp-content/uploads/2017/12/JogoTabuleirocomoPraticaEducativaIntercultural.pdf
+    url: https://observatorioedhemfoc.hospedagemdesites.ws/observatorio/wp-content/uploads/2017/12/JogoTabuleirocomoPraticaEducativaIntercultural.pdf
 place: ""
 ---
 

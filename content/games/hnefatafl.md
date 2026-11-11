@@ -34,9 +34,9 @@ refs:
     url: https://pt.wikipedia.org/wiki/Tafl
     lang: pt
   - title: "Aage Nielsen: regras de Copenhagen (hnefatafl 11×11)"
-    url: http://aagenielsen.dk/copenhagen_rules.php
+    url: https://aagenielsen.dk/copenhagen_rules.php
   - title: "Aage Nielsen: regras de Fetlar (hnefatafl 11×11)"
-    url: http://aagenielsen.dk/fetlar_rules_en.php
+    url: https://aagenielsen.dk/fetlar_rules_en.php
 place: ""
 ---
 

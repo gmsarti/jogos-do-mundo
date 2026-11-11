@@ -27,7 +27,7 @@ refs:
   - title: CEV
     url: https://cev.org.br/biblioteca/jogos-tradicionais-indigenas-1/
   - title: Vinha
-    url: http://observatorioedhemfoc.hospedagemdesites.ws/observatorio/wp-content/uploads/2017/12/JogoTabuleirocomoPraticaEducativaIntercultural.pdf
+    url: https://observatorioedhemfoc.hospedagemdesites.ws/observatorio/wp-content/uploads/2017/12/JogoTabuleirocomoPraticaEducativaIntercultural.pdf
 place: ""
 ---
 

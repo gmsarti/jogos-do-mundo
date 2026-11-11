@@ -36,7 +36,7 @@ refs:
   - title: "Ludii: Brandub"
     url: https://ludii.games/details.php?keyword=Brandub
   - title: "World Tafl Federation: Historical Hnefatafl Rules (2016)"
-    url: http://aagenielsen.dk/TaflRulesEnglish.pdf
+    url: https://aagenielsen.dk/TaflRulesEnglish.pdf
 place: ""
 ---
 
