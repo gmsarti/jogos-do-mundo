@@ -217,6 +217,10 @@ Origem: feedbacks de Aggeu (educador) e Alexandre Nacari (jogador), 03/11/2026, 
   - Aceite: decisão registrada no PRD § 12
 - [ ] **T-076** Tabuleiros por formato: agrupar os jogos que usam o mesmo `diagram` (do T-052), com a lista "serve para" como no fim da oficina ("tabuleiro 3×3 com diagonais — serve para: Achi, …"), no painel do jogo e no kit de impressão
   - Origem: ajuste que o plano da Fase 6 propunha para o T-052, já fechado
+- [~] **T-077** Revisão pelos vídeos: ler a transcrição dos 81 vídeos do YouTube nas `refs` (55 jogos) e usar o que eles explicam melhor para deixar "Como jogar?", "Do que você vai precisar?", "Para quem conduz" e o contexto mais claros, a ponto de uma criança de uns 10 anos entender lendo sozinha (claro, não bobo). Lotes de 8 a 10 jogos, um PR de conteúdo por lote
+  - Origem: tarefa fora do plano, depois das refs de vídeo (branch `feat/youtube-tutorial-refs`)
+  - Regras: o vídeo conta como fonte de segunda mão (Etapa 2 da skill `escrever-jogo`): pode fechar uma lacuna em `## Regras`, citando o canal e com "(a verificar)"; divergência com a ficha vai para o relatório, sem escolher em silêncio. Só a fala entra (transcrição automática); o que o vídeo mostra na tela não foi visto
+  - Aceite: `content/VOZ.md` com o leitor criança; cada lote com o relatório por jogo (vídeos lidos, o que mudou, lacunas fechadas, divergências, vídeos sem transcrição)
 
 ## Decisões pendentes
 

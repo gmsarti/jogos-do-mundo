@@ -82,6 +82,7 @@ Antes de reescrever um lote do T-074, pesquise as lacunas dele (modelo: PR #22).
 - **Ordem de busca:** primeiro as `refs` da própria ficha; depois Wikipedia e Ludii (anote as fontes que eles citam); depois fontes primárias em domínio público (Project Gutenberg, archive.org) e PDFs acadêmicos.
 - **Como citar:** toda regra nova entra em `## Regras` com a fonte entre parênteses no texto, e a URL entra nas `refs`. Título de `ref` com dois-pontos vai entre aspas no YAML.
 - **Fonte de segunda mão:** fonte secundária que não cita de onde tirou a regra entra com "(a verificar)". Livro lido por meio de outra fonte é citado com o intermediário, como "(Wikipedia, a partir de Bell 1983)", e não entra nas `refs`.
+- **Vídeo (YouTube nas `refs`):** é fonte de segunda mão e só a fala conta (lida pela transcrição; o que aparece na tela não foi visto). Regra que vem dele entra com o canal e "(a verificar)", como "(vídeo de Camila Guerreiro, a verificar)".
 - **Divergência entre fontes:** registre as duas versões ou mantenha a da ficha com uma nota. Nunca escolha uma em silêncio.
 - **Corrigir uma regra que já existe:** só com fonte melhor (de preferência primária), e explicado no PR.
 - **Fonte inacessível** (bloqueio anti-robô, PDF ilegível): vai para o relatório como pendência. **Fonte fraca** (adaptação infantil, material sem autoria): é descartada e registrada como descartada.

@@ -6,9 +6,14 @@ A voz nasceu na oficina *Jogos africanos — Dá Jogo!*. Os fatos, não: **a voz
 
 ## Para quem escrevemos
 
-Para uma professora que vai ensinar o jogo amanhã, para uma família num domingo à tarde, para alguém que abriu o link por curiosidade. Ninguém aqui conhece o jogo, e ninguém precisa saber o que é "captura posicional".
+Para uma professora que vai ensinar o jogo amanhã, para uma família num domingo à tarde, para alguém que abriu o link por curiosidade, para uma criança que lê sozinha. Ninguém aqui conhece o jogo, e ninguém precisa saber o que é "captura posicional".
 
-Um bom teste: **dá para ler o "Como jogar?" em voz alta numa roda e todo mundo começar a jogar?**
+Dois testes:
+
+- **Dá para ler o "Como jogar?" em voz alta numa roda e todo mundo começar a jogar?**
+- **Uma criança de uns 10 anos, lendo sozinha, entende cada passo?**
+
+Claro não é bobo. Frases curtas, uma ideia por frase, palavras do dia a dia e um exemplo concreto quando a regra é abstrata ("se a sua peça está ao lado da peça do adversário e a casa de trás está vazia, pule por cima dela"). Sem infantilizar: nada de "amiguinhos", excesso de exclamação ou tom de quem fala com bebê. A regra continua inteira; o que muda é o jeito de dizer.
 
 ## O molde
 
