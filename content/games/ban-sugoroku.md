@@ -58,6 +58,8 @@ Como as fontes dizem que o jogo é como o gamão antigo, um tabuleiro de gamão 
 
 Esta ficha ainda não tem "Como jogar?": a posição inicial e o caminho das peças só vêm do gamão moderno (Wikipedia), e as fontes não dizem como a peça capturada volta, quem começa nem o que acontece sem jogada. O que as fontes registram como diferente do gamão é: dobrados não têm regra especial, não se retiram peças do tabuleiro (vence quem leva todas para as últimas seis casas), não há dado de dobra e fechar seis casas seguidas com peças do adversário fora do tabuleiro é vitória automática.
 
+O vídeo da ficha (Mochy Backgammon, em inglês, com o estudioso Kusaba) fecha duas dessas lacunas: cada jogador lança um dado, e quem tirar mais lança os dois e começa; a peça capturada vai para o meio do tabuleiro e entra de novo, como no gamão. O vídeo também diz que os dados se lançam com calma, sem sacudir, que deixar o dado cair é falta de educação e que vale o "tocou, jogou". A posição inicial ele só mostra na tela.
+
 Registro de aposta: o jogo foi proibido várias vezes por causa das apostas (ver História). Vale conferir isso antes de ensinar numa turma.
 
 ## Regras
@@ -74,3 +76,4 @@ Registro curto e de segunda mão, sem fonte primária aberta. As regras abaixo v
 8. Fechar seis casas seguidas ("prime", *steam*) com peças do adversário fora do tabuleiro é vitória automática, chamada *mujigachi* ("vitória sólida"), muito admirada (Wikipedia; Japanese Wiki Corpus).
 9. Não há dobradura de aposta (dado de dobra) nem vitória dupla ou tripla (*gammon*, *backgammon*) (Wikipedia; Japanese Wiki Corpus).
 10. Lacunas: quem começa; se é obrigatório jogar os dois dados quando possível; o que fazer quando não há jogada; empate; e como a peça capturada volta. As fontes são recentes e de segunda mão: não foram achadas descrições antigas das regras. A Biblioteca Nacional da Dieta só diz que o jogo é "praticamente idêntico" ao gamão, e o woodblockprints.org não pôde ser aberto (bloqueio, erro 403).
+11. Nota sobre o vídeo de Mochy Backgammon, com o estudioso Kusaba (a verificar): começa quem tirar mais num dado, e essa pessoa lança os dois dados para a primeira jogada, que pode ser um dobrado; dobrados valem só dois movimentos; a peça capturada vai para o meio do tabuleiro e entra de novo; não se retiram peças, e a partida acaba quando um jogador leva todas para as últimas seis casas; vale o "tocou, jogou". A vitória é "dupla" (*mushi-gachi*) se o vencedor fecha as seis casas com uma peça do adversário no meio do tabuleiro, e "tripla" com certas formações das peças fechadas. O vídeo cita a proibição do jogo pela imperatriz Jitō, por causa das apostas.

@@ -57,6 +57,8 @@ Esta ficha ainda não tem "Como jogar?". As fontes antigas, lidas por Depaulis (
 
 O dado também muda de uma fonte para outra: pirâmide alongada (Ovalle), triângulo com 1, 2, 3, 5 (?) e 0 (Olivares), triângulo de osso lançado por um aro (Molina) e prisma de cinco lados lançado por um "funil" (Manquilef, 1914). Rosales diz que era jogo de aposta, e a ficha registra aposta na sensibilidade cultural. Os estudiosos modernos descrevem um *kechukawe* que é só jogo de dados, sem tabuleiro, com pontos marcados com palitos.
 
+O vídeo da ficha (GAMES AND PUZZLES CALI, em espanhol) ensina outra versão moderna: cada jogador enche com sementes as 12 casas do seu setor, conforme o dado, e depois tira sementes do adversário; vence quem completar o seu setor ou deixar o outro sem sementes. Essa forma não aparece nas fontes antigas que a ficha cita.
+
 ## Regras
 
 As fontes antigas descrevem o jogo em pouco mais do que isto, na leitura de Depaulis (1998, *Inca Dice and Board Games*), que cita Ovalle (1646), Rosales, Olivares (c. 1758), Molina (1787) e Manquilef (1914). Nenhuma delas foi aberta no original; tudo vem de Depaulis.
@@ -68,3 +70,4 @@ As fontes antigas descrevem o jogo em pouco mais do que isto, na leitura de Depa
 5. Captura: a peça que encontra outra a "come", "ao modo do xadrez" (Olivares).
 6. Depaulis conclui que o *kechukawe* de tabuleiro parece ter sido um jogo de corrida com captura. Os estudiosos modernos descrevem um *kechukawe* que é só jogo de dados, com pontos marcados com palitos (Manquilef 1914).
 7. Não dizem as fontes lidas: de onde as peças saem e para onde vão, o sentido do percurso, quem começa, como se entra e como se vence.
+8. Nota sobre o vídeo de GAMES AND PUZZLES CALI (em espanhol, a verificar): o vídeo cita Manquilef (1914) para um tabuleiro em círculo com quatro setores de 12 casas, para até quatro jogadores, e um dado de cinco faces marcadas com riscos de 1 a 5. Ensina um jogo de encher as 12 casas do seu setor conforme o dado e depois tirar sementes do adversário, que não está nas fontes antigas lidas por Depaulis. Cita também uma variante em que quem faz o dado cair numa certa posição vence na hora.

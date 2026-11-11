@@ -64,7 +64,8 @@ O tabuleiro pode ser desenhado no papel, com um círculo para cada cova. As seme
    - As sementes capturadas são semeadas do seu lado, a começar da cova que recebeu a primeira semente da semeadura que levou à captura.
    - Se uma das duas covas do adversário estiver vazia, não há captura.
 6. Você pode semear no sentido horário a partir das quatro covas do seu lado esquerdo (as duas da esquerda na fileira de fora e as duas da esquerda na fileira de dentro), quando isso leva a uma captura.
-7. Perde quem não consegue mais jogar: quando todas as suas sementes foram capturadas ou quando você não tem nenhuma cova com mais de uma semente. Também vence quem, num mesmo lance, captura nas duas pontas do tabuleiro (a verificar).
+7. Perde quem não consegue mais jogar: quando todas as suas sementes foram capturadas ou quando você não tem nenhuma cova com mais de uma semente. Também vence quem, num mesmo lance, captura nas duas pontas do tabuleiro, o *emiri* (a verificar).
+   - Há ainda o *akaka*: vence quem captura em dois lances seus antes de o adversário ter capturado alguma semente (a verificar).
 
 ## Para quem conduz
 
@@ -83,3 +84,4 @@ Tabuleiro 4×8, 64 sementes; cada jogador controla duas fileiras; captura das du
 5. Captura: se a última semente cai numa cova ocupada da sua fileira de dentro e as duas covas do adversário na mesma coluna estão ocupadas, você captura as sementes dessas duas covas. As sementes capturadas são semeadas do seu lado, a começar da cova que recebeu a primeira semente da semeadura que levou à captura. Se uma das duas covas do adversário estiver vazia, não há captura (Ludii, a partir de Shackell 1934).
 6. Semeadura no sentido horário: é permitida a partir das quatro covas do lado esquerdo do jogador (as duas da esquerda na fileira de fora e as duas da esquerda na fileira de dentro), quando leva a uma captura (Ludii, a partir de Shackell 1934).
 7. Perde quem não consegue mais jogar (Ludii, a partir de Shackell 1934), o que acontece quando todas as suas sementes foram capturadas ou quando não tem nenhuma cova com mais de uma semente (Isabirye 2024). Também vence quem, num mesmo lance, captura nas duas pontas do tabuleiro (Isabirye 2024, a verificar).
+8. O vídeo de RambArt confirma a ordem de arrumar as sementes da Regra 2 e a vitória por capturar nas duas pontas no mesmo lance (*emiri*), e acrescenta o *akaka*: vence quem captura em dois lances seus antes de o adversário ter capturado alguma semente (a verificar).

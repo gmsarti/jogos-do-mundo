@@ -2,80 +2,87 @@
 
 Gerado por `make report`. Não edite à mão: confira a fonte, corrija a ficha em `content/games/` e rode `make report` de novo. Os jogos com menos marcas vêm primeiro.
 
-251 marcas em 69 jogos (de 94). 4 jogos com status `unknown`.
+330 marcas em 76 jogos (de 94). 4 jogos com status `unknown`.
 
 ## Resumo
 
 | Jogo | Marcas | Status |
 | --- | --- | --- |
-| `brandubh` | 1 | reconstructed |
-| `hnefatafl` | 1 | reconstructed |
+| `bul` | 1 | documented |
+| `kechukawe` | 1 | partial |
+| `ludus-latrunculorum` | 1 | reconstructed |
 | `mehen` | 1 | unknown |
 | `mu-torere` | 1 | documented |
-| `ntxuva` | 1 | partial |
 | `ouril` | 1 | partial |
 | `raja-pasu-mandiri` | 1 | documented |
+| `shatranj` | 1 | documented |
+| `tablut` | 1 | documented |
 | `vinte-casas` | 1 | reconstructed |
 | `weiqi` | 1 | documented |
 | `xadrez` | 1 | documented |
-| `xiangqi` | 1 | documented |
-| `yote` | 1 | documented |
+| `yole` | 1 | documented |
 | `awarkuden` | 2 | documented |
 | `bao-ki-arabu` | 2 | documented |
-| `domino` | 2 | documented |
+| `brandubh` | 2 | reconstructed |
+| `dadu` | 2 | documented |
 | `domino-chines` | 2 | partial |
-| `fidchell` | 2 | unknown |
-| `igisoro` | 2 | partial |
-| `jogo-real-de-ur` | 2 | reconstructed |
+| `hnefatafl` | 2 | reconstructed |
 | `kiela` | 2 | partial |
-| `konane` | 2 | documented |
-| `puluc` | 2 | documented |
 | `raposa-e-galinhas` | 2 | documented |
-| `raposa-e-gansos` | 2 | documented |
-| `senet` | 2 | reconstructed |
 | `tab` | 2 | partial |
 | `tchadji` | 2 | documented |
-| `trilha` | 2 | documented |
-| `warri-caribe` | 2 | documented |
-| `yut-nori` | 2 | documented |
-| `adugo` | 3 | documented |
-| `ashta-kashte` | 3 | documented |
 | `chaturanga` | 3 | reconstructed |
-| `chaupar` | 3 | documented |
 | `chunkana` | 3 | partial |
+| `domino` | 3 | documented |
 | `fanorona-telo` | 3 | documented |
-| `gulugufe` | 3 | documented |
-| `mahjong` | 3 | documented |
+| `fidchell` | 3 | unknown |
+| `igisoro` | 3 | partial |
+| `jogo-real-de-ur` | 3 | reconstructed |
+| `konane` | 3 | documented |
 | `makruk` | 3 | documented |
 | `muvalavala` | 3 | documented |
-| `nard` | 3 | partial |
-| `patolli` | 3 | partial |
+| `raposa-e-gansos` | 3 | documented |
 | `vela` | 3 | partial |
-| `bagh-chal` | 4 | documented |
-| `ban-sugoroku` | 4 | partial |
-| `bao-la-kiswahili` | 4 | documented |
+| `warri-caribe` | 3 | documented |
+| `xiangqi` | 3 | documented |
+| `adugo` | 4 | documented |
+| `ashta-kashte` | 4 | documented |
+| `chaupar` | 4 | documented |
 | `coyote` | 4 | partial |
 | `kay-haiti` | 4 | documented |
-| `ouk-chatrang` | 4 | partial |
+| `nard` | 4 | partial |
 | `pachisi` | 4 | documented |
-| `sittuyin` | 4 | documented |
+| `patolli` | 4 | partial |
+| `senet` | 4 | reconstructed |
 | `taikyoku-shogi` | 4 | partial |
 | `toguz-kumalak` | 4 | documented |
-| `fanorona` | 5 | documented |
+| `trilha` | 4 | documented |
+| `yote` | 4 | documented |
+| `bagh-chal` | 5 | documented |
+| `ban-sugoroku` | 5 | partial |
+| `bao-la-kiswahili` | 5 | documented |
+| `mahjong` | 5 | documented |
 | `nchayo` | 5 | partial |
 | `ohvalhu` | 5 | documented |
-| `seega` | 5 | documented |
 | `shisima` | 5 | documented |
-| `alquerque` | 6 | documented |
-| `duodecim-scripta` | 6 | reconstructed |
+| `sittuyin` | 5 | documented |
+| `fanorona` | 6 | documented |
+| `gulugufe` | 6 | documented |
 | `mulabalaba` | 6 | documented |
-| `omweso` | 6 | documented |
+| `ouk-chatrang` | 6 | partial |
+| `puluc` | 6 | documented |
+| `yut-nori` | 6 | documented |
+| `alquerque` | 7 | documented |
 | `ayit` | 7 | documented |
-| `oware` | 8 | documented |
-| `morabaraba` | 9 | documented |
+| `duodecim-scripta` | 8 | reconstructed |
+| `omweso` | 8 | documented |
+| `ntxuva` | 9 | partial |
 | `ayo` | 10 | documented |
-| `janggi` | 10 | documented |
+| `seega` | 10 | documented |
+| `janggi` | 11 | documented |
+| `morabaraba` | 12 | documented |
 | `domino-doble-nueve` | 14 | partial |
+| `oware` | 14 | documented |
 | `adji-boto` | 17 | partial |
 
 ## Jogos com status `unknown`
@@ -87,25 +94,33 @@ Gerado por `make report`. Não edite à mão: confira a fonte, corrija a ficha e
 
 ## Por jogo
 
-### Brandubh (`brandubh`): 1 marca
+### Bul (`bul`): 1 marca
 
-Status: reconstructed · Fontes da ficha: [Wikipedia: Tafl games](https://en.wikipedia.org/wiki/Tafl_games); [Wikipédia](https://pt.wikipedia.org/wiki/Tafl); [Cyningstan: Brandub (regras de Aage Nielsen)](http://tafl.cyningstan.com/page/171/brandub); [Ludii: Brandub](https://ludii.games/details.php?keyword=Brandub); [World Tafl Federation: Historical Hnefatafl Rules (2016)](https://aagenielsen.dk/TaflRulesEnglish.pdf)
+Status: documented · Fontes da ficha: [Ludii](https://ludii.games/details.php?keyword=Bul); [Wikipedia: Bul](https://en.wikipedia.org/wiki/Bul_(game)); [Verbeeck 1998, Bul: A Patolli Game in Maya Lowland (BGS 1)](http://bgs.ludicum.org/pdf/issue1/BGS1Verbeeck.pdf); [YouTube: Deny Us Not Game Night](https://www.youtube.com/watch?v=ks2v3Wmnoho)
 
-**Evidência**
+**Regras**
 
-- literatura irlandesa medieval (a verificar)
+- **Nota sobre o vídeo de Deny Us Not Game Night** (em inglês, para dois jogadores, a verificar): 5 peças por jogador, caminho de 9 casas e o lance contado pelos grãos marcados, com 5 quando nenhum mostra a marca, como em Culin. A peça captur…
 
-### Hnefatafl (`hnefatafl`): 1 marca
+### Kechukawe (`kechukawe`): 1 marca
 
-Status: reconstructed · Fontes da ficha: [Wikipedia: Tafl games](https://en.wikipedia.org/wiki/Tafl_games); [Wikipédia](https://pt.wikipedia.org/wiki/Tafl); [Aage Nielsen: regras de Copenhagen (hnefatafl 11×11)](https://aagenielsen.dk/copenhagen_rules.php); [Aage Nielsen: regras de Fetlar (hnefatafl 11×11)](https://aagenielsen.dk/fetlar_rules_en.php)
+Status: partial · Fontes da ficha: [Depaulis 1998, Inca Dice and Board Games (BGS 1)](http://bgs.ludicum.org/pdf/issue1/BGS1Depaulis.pdf); [YouTube: GAMES AND PUZZLES CALI](https://www.youtube.com/watch?v=9e8WN3GUbec)
 
-**História**
+**Regras**
 
-- …eça central (Wikipedia). O jogo aparece em sagas e poemas nórdicos e em tabuleiros e peças de sepulturas da era viking (a verificar por achado). Foi deslocado pelo xadrez na Idade Média. As regras jogadas hoje vêm do Tablut adaptado a tabul…
+- 8. Nota sobre o vídeo de GAMES AND PUZZLES CALI (em espanhol, a verificar): o vídeo cita Manquilef (1914) para um tabuleiro em círculo com quatro setores de 12 casas, para até quatro jogadores, e um dado de cinco faces marcadas com riscos d…
+
+### Ludus latrunculorum (`ludus-latrunculorum`): 1 marca
+
+Status: reconstructed · Fontes da ficha: [Ludii](https://ludii.games/details.php?keyword=Ludus+Latrunculorum); [Ruleset Schädler 2001](https://ludii.games/variantDetails.php?keyword=Ludus+Latrunculorum&variant=1587); [Ruleset Locus Ludi](https://ludii.games/variantDetails.php?keyword=Ludus+Latrunculorum&variant=1589); [Wikipedia](https://en.wikipedia.org/wiki/Ludus_latrunculorum); [Schädler 2001: Latrunculi, a forgotten Roman game of strategy reconstructed](http://history.chess.free.fr/papers/Schadler%202001.pdf); [Ludii: Locus Ludi Seneca](https://ludii.games/variantDetails.php?keyword=Ludus%20Latrunculorum&variant=1588); [Ludii: Bell 8x8](https://ludii.games/variantDetails.php?keyword=Ludus%20Latrunculorum&variant=541); [Falkener 1892 (IA)](https://archive.org/details/gamesancientorie00falkuoft); [YouTube: The Gaming Bench](https://www.youtube.com/watch?v=7rL4E-FXgME)
+
+**Regras**
+
+- **R. C. Bell**: tabuleiro 8×8, regras próprias. Pelo vídeo de The Gaming Bench (a verificar): os jogadores põem duas peças por vez, sem capturar, e depois cada um põe o seu *dux* (o chefe); as peças andam uma casa na horizontal ou na vertic…
 
 ### Mehen (`mehen`): 1 marca
 
-Status: unknown · Fontes da ficha: [Fórum Ludii](https://ludii.games/forums/printthread.php?tid=314); [Maastricht University](https://www.maastrichtuniversity.nl/news/digital-ludeme-project-middle-east-edition-wired)
+Status: unknown · Fontes da ficha: [Fórum Ludii](https://ludii.games/forums/printthread.php?tid=314); [Maastricht University](https://www.maastrichtuniversity.nl/news/digital-ludeme-project-middle-east-edition-wired); [YouTube: Pandora Games](https://www.youtube.com/watch?v=8o1BBqDsAZ8)
 
 **Para quem conduz**
 
@@ -113,19 +128,11 @@ Status: unknown · Fontes da ficha: [Fórum Ludii](https://ludii.games/forums/pr
 
 ### Mū tōrere (`mu-torere`): 1 marca
 
-Status: documented · Fontes da ficha: [Ludii](https://ludii.games/details.php?keyword=Mu+Torere); [Wikipedia](https://en.wikipedia.org/wiki/M%C5%AB_t%C5%8Drere); [Browne 2020: Modern Techniques for Ancient Games (arXiv)](https://arxiv.org/abs/2101.10066)
+Status: documented · Fontes da ficha: [Ludii](https://ludii.games/details.php?keyword=Mu+Torere); [Wikipedia](https://en.wikipedia.org/wiki/M%C5%AB_t%C5%8Drere); [Browne 2020: Modern Techniques for Ancient Games (arXiv)](https://arxiv.org/abs/2101.10066); [YouTube: Professor William Educação Física](https://www.youtube.com/watch?v=W9oFIy7xs3I); [YouTube: What Do We Do All Day?](https://www.youtube.com/watch?v=zxlB6CqeE7E)
 
 **Regras**
 
 - A restrição durante toda a partida está no conjunto de regras que o Ludii atribui a Jellis (1973) e na Wikipedia, que não cita fonte (a verificar).
-
-### Ntxuva (`ntxuva`): 1 marca
-
-Status: partial · Fontes da ficha: [REIN/UEPB (Nampula)](https://revista.uepb.edu.br/REIN/article/download/170/109/584); [UFFS (oficina)](https://portaleventos.uffs.edu.br/index.php/SAMAT/article/download/17930/12239); [Mancala World: Tchadji](https://mancala.fandom.com/wiki/Tchadji); [Mancala World: Tchouba](https://mancala.fandom.com/wiki/Tchouba)
-
-**Povos**
-
-- moçambicanos (povo de origem a verificar)
 
 ### Ouril / uril (`ouril`): 1 marca
 
@@ -143,6 +150,22 @@ Status: documented · Fontes da ficha: [Mancala World](https://mancala.fandom.co
 
 - cingaleses (a verificar)
 
+### Shatranj (`shatranj`): 1 marca
+
+Status: documented · Fontes da ficha: [Chess Variant Pages](http://www.chessvariants.org/historic.dir/shatranj.html); [Murray 1913](https://archive.org/details/AHistoryOfChess); [Ludii: Shatranj](https://ludii.games/details.php?keyword=Shatranj); [Wikipedia: Shatranj](https://en.wikipedia.org/wiki/Shatranj); [Wikipédia](https://pt.wikipedia.org/wiki/Xatranje); [Wikipedia: Knight (chess)](https://en.wikipedia.org/wiki/Knight_(chess)); [YouTube: Triple S Games Português](https://www.youtube.com/watch?v=vI1Has0expk); [YouTube: Triple S Games](https://www.youtube.com/watch?v=6yuNiroCbpU)
+
+**Regras**
+
+- …ídeos de Triple S Games: *fīl*, elefante; *firzān*, conselheiro; *rukh*, carruagem; *faras*, cavalo; *baidaq*, soldado (a verificar). Os vídeos também põem o *shāh* na coluna d e o *firzān* na e, como os manuscritos, e dizem que quem afoga …
+
+### Tablut (`tablut`): 1 marca
+
+Status: documented · Fontes da ficha: [Ludii](https://ludii.games/details.php?keyword=Tablut); [Wikipedia: Tafl games](https://en.wikipedia.org/wiki/Tafl_games); [Wikipédia](https://pt.wikipedia.org/wiki/Tafl); [YouTube: Nove Mundos](https://www.youtube.com/watch?v=6-9DetN9lSI); [YouTube: MadCap Gamer](https://www.youtube.com/watch?v=2JG2xvSsfqw)
+
+**Regras**
+
+- …os dizem que uma peça presa entre uma peça inimiga e a borda do tabuleiro é capturada, o que as fontes acima não dizem (a verificar). O de MadCap Gamer concorda com a ficha no rei que vence ao sair pela borda e é capturado entre duas peças …
+
 ### Vinte casas (Twenty Squares) (`vinte-casas`): 1 marca
 
 Status: reconstructed · Fontes da ficha: [Met 16.10.475a](https://www.metmuseum.org/art/collection/search/553268); [Ludii: Royal Game of Ur](https://ludii.games/details.php?keyword=Royal+Game+of+Ur); [Ludii: 20 Squares](https://ludii.games/details.php?keyword=20+Squares); [Ludii: 20 Squares (regras selêucidas, de Finkel)](https://ludii.games/variantDetails.php?keyword=20%20Squares&variant=35); [Wikipedia: Royal Game of Ur (seção Game of Twenty)](https://en.wikipedia.org/wiki/Royal_Game_of_Ur)
@@ -153,7 +176,7 @@ Status: reconstructed · Fontes da ficha: [Met 16.10.475a](https://www.metmuseum
 
 ### Weiqi / Go / Baduk (`weiqi`): 1 marca
 
-Status: documented · Fontes da ficha: [Ludii](https://ludii.games/details.php?keyword=Weiqi); [Associação Chinesa de Weiqi: regras de 2002 (versão em inglês)](https://home.snafu.de/jasiek/c2002.pdf)
+Status: documented · Fontes da ficha: [Ludii](https://ludii.games/details.php?keyword=Weiqi); [Associação Chinesa de Weiqi: regras de 2002 (versão em inglês)](https://home.snafu.de/jasiek/c2002.pdf); [YouTube: Juno Jo](https://www.youtube.com/watch?v=jOkvC4qoKF4); [YouTube: Go Magic](https://www.youtube.com/watch?v=oZTdT8MQexk)
 
 **História**
 
@@ -161,27 +184,19 @@ Status: documented · Fontes da ficha: [Ludii](https://ludii.games/details.php?k
 
 ### Xadrez (`xadrez`): 1 marca
 
-Status: documented · Fontes da ficha: [Murray 1913 (IA)](https://archive.org/details/AHistoryOfChess); [Libro de los juegos (Commons)](https://commons.wikimedia.org/wiki/Category:Libro_de_los_juegos); [FIDE: Laws of Chess (2023)](https://handbook.fide.com/chapter/E012023); [Wikipedia: Rules of chess](https://en.wikipedia.org/wiki/Rules_of_chess); [Wikipédia](https://pt.wikipedia.org/wiki/Leis_do_xadrez)
+Status: documented · Fontes da ficha: [Murray 1913 (IA)](https://archive.org/details/AHistoryOfChess); [Libro de los juegos (Commons)](https://commons.wikimedia.org/wiki/Category:Libro_de_los_juegos); [FIDE: Laws of Chess (2023)](https://handbook.fide.com/chapter/E012023); [Wikipedia: Rules of chess](https://en.wikipedia.org/wiki/Rules_of_chess); [Wikipédia](https://pt.wikipedia.org/wiki/Leis_do_xadrez); [YouTube: Xadrez Brasil](https://www.youtube.com/watch?v=S1LsUT7jjDI); [YouTube: GothamChess](https://www.youtube.com/watch?v=OCSbzArwB10)
 
 **História**
 
 - …o séc. XV a dama e o bispo ganharam os movimentos de longo alcance de hoje, mudança que deu origem ao "xadrez da dama" (a verificar datas). H. J. R. Murray (1913) é a obra de referência para essa história.…
 
-### Xiangqi (`xiangqi`): 1 marca
+### Yolé (Mocoví) (`yole`): 1 marca
 
-Status: documented · Fontes da ficha: [Wikipedia](https://en.wikipedia.org/wiki/Xiangqi); [Wikipédia](https://pt.wikipedia.org/wiki/Xiangqi); [Federação Mundial de Xiangqi: regras mundiais de xiangqi (2018, em inglês)](https://www.wxf-xiangqi.org/images/wxf-rules/2018_World_XiangQi_Rules_English2018.pdf)
+Status: documented · Fontes da ficha: [Juegos mocovíes](https://revistas.unne.edu.ar/index.php/etno/article/view/2149/1874); [YouTube: GAMES AND PUZZLES CALI](https://www.youtube.com/watch?v=F9LC7kqcHhY)
 
-**Evidência**
+**Regras**
 
-- a verificar
-
-### Yoté (`yote`): 1 marca
-
-Status: documented · Fontes da ficha: [Ludii: evidência (Béart 1955)](https://ludii.games/data.php?gameId=666); [Wikipedia](https://en.wikipedia.org/wiki/Yot%C3%A9); [Wikipédia](https://pt.wikipedia.org/wiki/Yot%C3%A9); [GamesCrafters](https://gamescrafters.berkeley.edu/games.php?game=yote); [mindsports.nl (duas versões)](https://www.mindsports.nl/index.php/on-the-evolution-of-draughts-variants/draughts-variants/507-yote); [boardandpieces (regras de J. P. Neto)](https://sites.google.com/site/boardandpieces/list-of-games/yot)
-
-**Povos**
-
-- senegaleses (wolof e outros, a verificar)
+- … de GAMES AND PUZZLES CALI** (em espanhol, a partir de regras que o apresentador diz ter encontrado, sem citar a fonte; a verificar): confirma os valores dos botões, as 7 peças de cada lado e a captura ao cair na linha de uma peça adversári…
 
 ### Awarkuden / apaytalla (jogos de feijões) (`awarkuden`): 2 marcas
 
@@ -207,17 +222,29 @@ Status: documented · Fontes da ficha: [Ludii: Bao ki arabu (Zanzibar 1)](https:
 
 - 1. Tabuleiro de 4 fileiras de 8 covas (Ludii). O Ludii fala nas covas de cada jogador e na fileira de dentro; que cada um tem as duas fileiras do seu lado é a leitura do formato de 4 fileiras (a verificar).
 
-### Dominó (europeu e latino-americano) (`domino`): 2 marcas
+### Brandubh (`brandubh`): 2 marcas
 
-Status: documented · Fontes da ficha: [Wikipedia: Dominoes](https://en.wikipedia.org/wiki/Dominoes); [Wikipédia](https://pt.wikipedia.org/wiki/Domin%C3%B3); [pagat.com: History of Dominoes](https://www.pagat.com/domino/history.html); [Culin 1893 (Avedon): Europa](https://healthy.uwaterloo.ca/museum/Archives/Culin/Dice1893/europe.html); [Britannica](https://britannica.com/topic/domino-game-piece); [pagat.com: Block Dominoes](https://www.pagat.com/domino/line/block.html); [pagat.com: Partnership Dominoes](https://www.pagat.com/domino/line/partnership.html)
+Status: reconstructed · Fontes da ficha: [Wikipedia: Tafl games](https://en.wikipedia.org/wiki/Tafl_games); [Wikipédia](https://pt.wikipedia.org/wiki/Tafl); [Cyningstan: Brandub (regras de Aage Nielsen)](http://tafl.cyningstan.com/page/171/brandub); [Ludii: Brandub](https://ludii.games/details.php?keyword=Brandub); [World Tafl Federation: Historical Hnefatafl Rules (2016)](https://aagenielsen.dk/TaflRulesEnglish.pdf); [YouTube: HnefataflModern](https://www.youtube.com/watch?v=vBxOrOD2eD8)
 
-**Sensibilidade**
+**Evidência**
 
-- aposta (a verificar)
+- literatura irlandesa medieval (a verificar)
+
+**Regras**
+
+- 13. Nota sobre o vídeo de HnefataflModern (a verificar): os atacantes começam e o rei vence nos cantos, como na ficha, mas o rei é capturado entre duas peças em qualquer casa, ou cercado por três lados contra a borda, e nenhuma peça é captu…
+
+### Dadu (`dadu`): 2 marcas
+
+Status: documented · Fontes da ficha: [BGSJ 18 (2024)](https://reference-global.com/issue/BGS/18/1); [Schmidt-Madsen, Discovering Dadu: A Ludemic Enigma from South Asia (BGSJ 18, 2024)](https://reference-global.com/article/10.2478/bgs-2024-0004); [YouTube: NewVenture Games](https://www.youtube.com/watch?v=nXkMTcHOeCI)
 
 **Para quem conduz**
 
-- A ficha marca `sens` como "aposta (a verificar)": vale conferir como o jogo é tratado antes de ensiná-lo.
+- …idas ou para crianças, num tabuleiro menor e com 4 cauris; nela, 4 aberturas para cima valem 8 casas e dão outro lance (a verificar).…
+
+**Regras**
+
+- **Nota sobre o vídeo de NewVenture Games** (em inglês, a partir de Schmidt-Madsen 2024, a verificar): confirma os valores dos cauris, a entrada com 1, as casas seguras, a captura de uma só peça por vez, o 1 que captura sem mover e a proteçã…
 
 ### Dominó chinês (`domino-chines`): 2 marcas
 
@@ -231,42 +258,21 @@ Status: partial · Fontes da ficha: [Avedon: bibliografia de Culin](https://heal
 
 - …trumento de jogo de azar mais comum entre os trabalhadores chineses nos Estados Unidos, e a ficha marca a aposta como "(a verificar)".…
 
-### Fidchell (`fidchell`): 2 marcas
+### Hnefatafl (`hnefatafl`): 2 marcas
 
-Status: unknown · Fontes da ficha: [Wikipedia: Tafl games](https://en.wikipedia.org/wiki/Tafl_games); [Wikipédia](https://pt.wikipedia.org/wiki/Tafl)
-
-**Evidência**
-
-- literatura medieval (a verificar)
+Status: reconstructed · Fontes da ficha: [Wikipedia: Tafl games](https://en.wikipedia.org/wiki/Tafl_games); [Wikipédia](https://pt.wikipedia.org/wiki/Tafl); [Aage Nielsen: regras de Copenhagen (hnefatafl 11×11)](https://aagenielsen.dk/copenhagen_rules.php); [Aage Nielsen: regras de Fetlar (hnefatafl 11×11)](https://aagenielsen.dk/fetlar_rules_en.php); [YouTube: VemKaJogar](https://www.youtube.com/watch?v=AxqXZSqJVPM); [YouTube: Triple S Games](https://www.youtube.com/watch?v=fZ9cMj2Qn5Y)
 
 **História**
 
-- Aparece em narrativas como jogo de reis e deuses; tem um equivalente galês, o *gwyddbwyll* (a verificar). Algumas passagens descrevem capturas que lembram o tafl; Ulrich Schädler sugere, ao contrário, uma ligação com o Ludus latrunculorum.
-
-### Igisoro (`igisoro`): 2 marcas
-
-Status: partial · Fontes da ficha: [Mancala World](https://mancala.fandom.com/wiki/Igisoro); [Wikipedia: Igisoro](https://en.wikipedia.org/wiki/Igisoro)
-
-**Como jogar?**
-
-- As regras vêm do Mancala World e da Wikipedia, sem consulta às fontes primárias (a verificar).
+- …eça central (Wikipedia). O jogo aparece em sagas e poemas nórdicos e em tabuleiros e peças de sepulturas da era viking (a verificar por achado). Foi deslocado pelo xadrez na Idade Média. As regras jogadas hoje vêm do Tablut adaptado a tabul…
 
 **Regras**
 
-- … e Coupez e Benda 1963) e da Wikipedia (*Igisoro*). Nenhuma das duas fontes primárias foi consultada, então tudo vale "(a verificar)" quanto à fonte original.…
-
-### Jogo real de Ur (`jogo-real-de-ur`): 2 marcas
-
-Status: reconstructed · Fontes da ficha: [British Museum 1928,1009.378](https://www.britishmuseum.org/collection/object/W_1928-1009-378); [Ludii](https://ludii.games/details.php?keyword=Royal+Game+of+Ur); [CDLI P498293](https://cdli.earth/P498293); [Wikipedia](https://en.wikipedia.org/wiki/Royal_Game_of_Ur); [Ludii: Royal Game of Ur, regras de Finkel](https://ludii.games/variantDetails.php?keyword=Royal%20Game%20of%20Ur&variant=77)
-
-**Regras**
-
-- 6. Percurso (Ludii, a partir de Finkel 2007, a verificar): cada jogador começa num dos cantos "de cima" do bloco de 3×4, percorre a sua fileira até o canto oposto, sobe pela fileira do meio, que os dois usam, e, ao chegar ao topo dela no bl…
-- 7. Rosetas (Ludii, a partir de Finkel 2007, a verificar): uma no meio da fileira do meio, onde a peça não pode ser capturada, e as dos quatro cantos, que dão nova jogada. A Wikipedia (a partir de Becker 2007) diz que cair em qualquer uma da…
+- …vitória aos defensores quando o rei chega a qualquer casa da borda, não só aos cantos, e não diz de onde tirou a regra (a verificar).…
 
 ### Kiela (`kiela`): 2 marcas
 
-Status: partial · Fontes da ficha: [Wikipedia](https://en.wikipedia.org/wiki/Kiela); [Mancala World: Kiela](https://mancala.fandom.com/wiki/Kiela)
+Status: partial · Fontes da ficha: [Wikipedia](https://en.wikipedia.org/wiki/Kiela); [Mancala World: Kiela](https://mancala.fandom.com/wiki/Kiela); [YouTube: Kiela Game](https://www.youtube.com/watch?v=38S-ouV4yvo)
 
 **Como jogar?**
 
@@ -275,30 +281,6 @@ Status: partial · Fontes da ficha: [Wikipedia](https://en.wikipedia.org/wiki/Ki
 **Regras**
 
 - …. O texto diz "as sementes desta cova"; a leitura natural é a cova do adversário, mas a fonte não deixa isso explícito (a verificar).…
-
-### Kōnane (`konane`): 2 marcas
-
-Status: documented · Fontes da ficha: [Ludii: 10x10 Konane](https://ludii.games/variantDetails.php?keyword=Konane&variant=59); [Ludii: Konane](https://ludii.games/details.php?keyword=Konane)
-
-**Período**
-
-- pré-contato (a verificar) – presente
-
-**História**
-
-- …abuleiros gravados em pedra aparecem por todo o Havaí, difíceis de datar (Ludii). O jogo é anterior ao contato europeu (a verificar). As regras registradas por Kenneth Emory em 1924 vêm de Kaahaaina Naihe, que jogava no início do séc. XX; o…
-
-### Puluc (`puluc`): 2 marcas
-
-Status: documented · Fontes da ficha: [Ludii](https://ludii.games/details.php?keyword=Puluc); [Wikipedia: Bul](https://en.wikipedia.org/wiki/Bul_(game)); [cyningstan (regras de Bell)](http://www.cyningstan.com/game/149/puluc); [Sapper 1906: Spiele der Kekchi-Indianer (Boas Anniversary Volume, archive.org)](https://archive.org/details/boasanniversary00laufgoog); [Culin 1907: Games of the North American Indians (archive.org)](https://archive.org/details/gamesofnorthamer00culirich)
-
-**Evidência**
-
-- Culin 1907 (a verificar)
-
-**Regras**
-
-- …meça; uma peça não pode parar sobre outra do mesmo dono, a não ser que esta seja prisioneira do adversário (cyningstan, a verificar). Nas regras de Bell, uma peça também não para sobre outra do mesmo dono, e quem não tem lance possível com …
 
 ### Jogo da raposa e das galinhas (Portugal) (`raposa-e-galinhas`): 2 marcas
 
@@ -311,27 +293,6 @@ Status: documented · Fontes da ficha: [Fernandes e Alberto 2009 (Açafa)](https
 **Regras**
 
 - …ticas", com a particularidade de um jogador ter 12 peças e o outro uma só. Para esse alquerque, o mesmo texto registra (a verificar se vale para a raposa e as galinhas, porque o texto não o diz):…
-
-### Raposa e gansos (`raposa-e-gansos`): 2 marcas
-
-Status: documented · Fontes da ficha: [Ludii](https://ludii.games/details.php?keyword=Fox+and+Geese); [Wikipedia: Fox games](https://en.wikipedia.org/wiki/Fox_games); [Strutt 1845: The Sports and Pastimes of the People of England (Project Gutenberg)](https://www.gutenberg.org/ebooks/48983)
-
-**Como jogar?**
-
-- A raposa pode pular vários gansos seguidos no mesmo lance, e capturar não é obrigatório (a verificar).
-
-**Regras**
-
-- 9. A raposa pode pular vários gansos seguidos no mesmo lance, e capturar não é obrigatório (Wikipedia, a verificar).
-
-### Senet (`senet`): 2 marcas
-
-Status: reconstructed · Fontes da ficha: [Ludii: evidências de Senet](https://ludii.games/data.php?gameId=3); [Met 16.10.475a (caixa de senet e vinte casas)](https://www.metmuseum.org/art/collection/search/553268); [Met: caixa de Taia](https://www.metmuseum.org/art/collection/search/548482); [Falkener 1892 (IA)](https://archive.org/details/gamesancientorie00falkuoft); [Wikipedia](https://en.wikipedia.org/wiki/Senet); [Wikipédia](https://pt.wikipedia.org/wiki/Senet); [Ludii: Senet (Kendall)](https://ludii.games/variantDetails.php?keyword=Senet&variant=922); [Ludii: Senet (Bell)](https://ludii.games/variantDetails.php?keyword=Senet&variant=529); [Ludii: Senet (Jéquier)](https://ludii.games/variantDetails.php?keyword=Senet&variant=939); [Santos, Neto e Silva, Jogos de Tabuleiro Tradicionais](https://jpneto.github.io/books/livro_jogos_4.pdf)
-
-**Regras**
-
-- Não existe regra documentada. As reconstruções de Edward Falkener (1892), Timothy Kendall (1978) e R. C. Bell compartilham um esqueleto (a verificar em cada autor):
-- 2. **Kendall, pela Wikipedia** (sem fonte citada; a verificar), com outras regras: 5 peças por jogador (até 10, para uma partida mais longa), que entram no tabuleiro pela casa 1; quatro varetas, valendo o número de lados brancos para cima, …
 
 ### Ṭāb (`tab`): 2 marcas
 
@@ -357,71 +318,9 @@ Status: documented · Fontes da ficha: [Mancala World](https://mancala.fandom.co
 
 - …ova do adversário. As sementes capturadas saem do tabuleiro (Mancala World). A fonte não diz qual é essa terceira cova (a verificar).…
 
-### Trilha (`trilha`): 2 marcas
-
-Status: documented · Fontes da ficha: [Ludopedia](https://ludopedia.com.br/jogo/nine-men-s-morris); [Fernandes e Alberto 2009 (Açafa)](https://www.altotejo.org/acafa/docsn2/jogos_gravados_em_pedra_do_distrito_de_castelo_branco.pdf); [Wikipedia: Nine men's morris](https://en.wikipedia.org/wiki/Nine_men%27s_morris); [Wikipédia](https://pt.wikipedia.org/wiki/Trilha_(jogo)); [Ludicum: Nine Men Morris](https://ludicum.org/en/jogos/jogos-abstratos-nine-men-morris/)
-
-**Como jogar?**
-
-- Se todas as peças dele estiverem em moinhos, você pode tirar qualquer uma (a verificar).
-
-**Regras**
-
-- 6. Se todas as peças do adversário estiverem em moinho, pode-se retirar qualquer uma (Wikipedia e Ludicum, sem citar fonte, a verificar).
-
-### Warri (Antígua e Barbados) (`warri-caribe`): 2 marcas
-
-Status: documented · Fontes da ficha: [Mancala World: Warri (Antigua)](https://mancala.fandom.com/wiki/Warri_(Antigua)); [BajanThings](https://bajanthings.com/the-game-of-warri/); [Barbados Advocate](https://www.barbadosadvocate.com/columns/things-matter-warri-%E2%80%93-intangible-culture-our-culture); [Stoffle et al. (Academia)](https://www.academia.edu/51526267/Warri_StoffleBaroCummins_Warri_s_Warriors)
-
-**Como jogar?**
-
-- Para essas casas anteriores, a fonte não diz se as sementes se contam antes ou depois da semeadura (a verificar).
-
-**Regras**
-
-- …artir de Kinsella). Para essas casas anteriores, a fonte não diz se as sementes se contam antes ou depois da semeadura (a verificar).…
-
-### Yut nori (`yut-nori`): 2 marcas
-
-Status: documented · Fontes da ficha: [Ludii: biblioteca](https://ludii.games/library.php); [Avedon: bibliografia de Culin](https://healthy.uwaterloo.ca/museum/Archives/Culin/index.html); [Culin 1895: Korean Games (archive.org)](https://archive.org/details/cu31924023272424); [Ludii: Nyout](https://ludii.games/details.php?keyword=Nyout)
-
-**Tabuleiro**
-
-- 29 estações (a verificar)
-
-**História**
-
-- Stewart Culin o descreveu como *nyout* em *Korean Games* (1895). Tabuleiros e conjuntos coreanos aparecem em coleções etnográficas da época de Culin (a verificar).
-
-### Adugo / jogo da onça (`adugo`): 3 marcas
-
-Status: documented · Fontes da ficha: [MCI: Caderno Brincadeiras](https://museudasculturasindigenas.org.br/wp-content/uploads/2025/10/CADERNO-MCI-BRINCADEIRAS-Vfinal-3.pdf); [MCI: torneio](https://museudasculturasindigenas.org.br/programacao/ferias-na-tava-torneio-ninmangwa-djagwarete-brincadeira-da-onca/); [Vinha](https://observatorioedhemfoc.hospedagemdesites.ws/observatorio/wp-content/uploads/2017/12/JogoTabuleirocomoPraticaEducativaIntercultural.pdf); [Wikipedia](https://en.wikipedia.org/wiki/Adugo); [GamesCrafters](https://gamescrafters.berkeley.edu/games.php?game=adugo); [Vergara e Martínez: Jogos de Tabuleiro (Museu da Matemática UFMG)](https://www.mat.ufmg.br/museu/wp-content/uploads/2021/12/Jogos_de_Tabuleiro.pdf); [Ludii: Adugo](https://ludii.games/details.php?keyword=Adugo); [Ifac](https://www.ifac.edu.br/noticias/2025/abril/estudantes-do-ifac-recriam-jogo-de-tabuleiro-regional-em-conjunto-com-if-maker-jurua)
-
-**Do que você vai precisar?**
-
-- Um tabuleiro de 31 pontos: um quadrado de 5×5 pontos, como o do Alquerque, e um triângulo com 6 pontos a mais (a verificar)
-
-**Regras**
-
-- …nha corta a primeira no meio e liga os pontos do meio dos outros dois lados do triângulo (Ludii, a partir de Lima 2004, a verificar). São 6 pontos a mais (os dois cantos da base, o meio da base, o meio de cada um dos outros dois lados e o c…
-- …ters acrescenta que a onça pode parar a sequência de saltos quando quiser e que não pode andar e saltar no mesmo lance (a verificar: não diz de onde tirou a regra).…
-
-### Ashta-kashte (`ashta-kashte`): 3 marcas
-
-Status: documented · Fontes da ficha: [Ludii](https://ludii.games/data.php?gameId=177); [Falkener 1892](https://archive.org/details/gamesancientorie00falkuoft); [Ludii: Ashta-kashte](https://ludii.games/details.php?keyword=Ashta-kashte)
-
-**Como jogar?**
-
-- 4. Para entrar no tabuleiro é preciso uma graça, e para chegar ao centro é preciso o número exato (a verificar: o Ludii diz isso, Falkener não).
-
-**Regras**
-
-- Lances com conchas ou varetas; um lance de 8 dá jogada extra ("graça") e permite dividir o movimento; o jogador não é obrigado a usar o lance; capturar uma peça adversária dá novo lance. O percurso vai de fora para o centro (a verificar).
-- 5. Para entrar no tabuleiro é preciso uma graça, e para chegar ao centro é preciso o número exato (Ludii; Falkener não diz isso, a verificar).
-
 ### Chaturanga (`chaturanga`): 3 marcas
 
-Status: reconstructed · Fontes da ficha: [Historical Chess Variants (PDF)](https://static.chessvariants.org/historic.dir/HistoricalChessVariants.pdf); [Falkener 1892](https://archive.org/details/gamesancientorie00falkuoft); [Murray 1913, A History of Chess](https://archive.org/details/AHistoryOfChessHJRMurray); [Wikipedia: Chaturanga](https://en.wikipedia.org/wiki/Chaturanga)
+Status: reconstructed · Fontes da ficha: [Historical Chess Variants (PDF)](https://static.chessvariants.org/historic.dir/HistoricalChessVariants.pdf); [Falkener 1892](https://archive.org/details/gamesancientorie00falkuoft); [Murray 1913, A History of Chess](https://archive.org/details/AHistoryOfChessHJRMurray); [Wikipedia: Chaturanga](https://en.wikipedia.org/wiki/Chaturanga); [YouTube: Academia de Xadrez Falcão](https://www.youtube.com/watch?v=Y94xhM1IxY4); [YouTube: AncientGaming](https://www.youtube.com/watch?v=8z2Px9-QnIY)
 
 **Para quem conduz**
 
@@ -431,22 +330,6 @@ Status: reconstructed · Fontes da ficha: [Historical Chess Variants (PDF)](http
 
 - Pontos da reconstrução pela Wikipedia (*Chaturanga*), que cita Pritchard 2007, al-Bīrūnī e al-ʿAdlī entre outros (a verificar nas fontes primárias):
 - 4. As brancas jogam primeiro (Wikipedia, a partir de um site de regras; a verificar).
-
-### Chaupar (`chaupar`): 3 marcas
-
-Status: documented · Fontes da ficha: [Ludii: evidência](https://ludii.games/data.php?gameId=179); [Penn Museum (Expedition)](https://penn.museum/sites/expedition/?p=729); [Indian Culture](https://indianculture.gov.in/timeless-trends/games/title=Chaupar/nid=3000311); [Abu'l Fazl, Ain-i-Akbari, vol. 1 (trad. Blochmann 1873)](https://archive.org/details/in.ernet.dli.2015.32526); [Ludii: Chaupar](https://ludii.games/details.php?keyword=Chaupar); [Wikipedia: Chaupar](https://en.wikipedia.org/wiki/Chaupar)
-
-**Como jogar?**
-
-- …do do centro com o número exato. Então está *rasidah* (chegou). O sentido anti-horário não está no texto de Abu'l Fazl (a verificar).…
-
-**História**
-
-- …em áreas rurais e que as regras variam por região. É associado ao jogo de dados do *Mahabharata* (fontes de divulgação, a verificar).…
-
-**Regras**
-
-- …ão está *rasidah* (chegou) (Blochmann 1873: 303). O sentido anti-horário da frase acima não está no texto de Blochmann (a verificar).…
 
 ### Chunkana (`chunkana`): 3 marcas
 
@@ -459,6 +342,22 @@ Status: partial · Fontes da ficha: [Depaulis 1998, Inca Dice and Board Games (B
 **Regras**
 
 - **Divergência sobre o `sens`:** Depaulis diz que o *pichqa* foi jogado como jogo de azar puro e também em volta de velórios (Arriaga 1621), mas sobre a *chunkana* não diz que se apostava; "aposta (a verificar)" continua a verificar.
+
+### Dominó (europeu e latino-americano) (`domino`): 3 marcas
+
+Status: documented · Fontes da ficha: [Wikipedia: Dominoes](https://en.wikipedia.org/wiki/Dominoes); [Wikipédia](https://pt.wikipedia.org/wiki/Domin%C3%B3); [pagat.com: History of Dominoes](https://www.pagat.com/domino/history.html); [Culin 1893 (Avedon): Europa](https://healthy.uwaterloo.ca/museum/Archives/Culin/Dice1893/europe.html); [Britannica](https://britannica.com/topic/domino-game-piece); [pagat.com: Block Dominoes](https://www.pagat.com/domino/line/block.html); [pagat.com: Partnership Dominoes](https://www.pagat.com/domino/line/partnership.html); [YouTube: Divertudo Oficial](https://www.youtube.com/watch?v=zqVLt90x6xw); [YouTube: Triple S Games](https://www.youtube.com/watch?v=jMHJhZlAbdc)
+
+**Sensibilidade**
+
+- aposta (a verificar)
+
+**Para quem conduz**
+
+- A ficha marca `sens` como "aposta (a verificar)": vale conferir como o jogo é tratado antes de ensiná-lo.
+
+**Regras**
+
+- **Dominó com compra**, nos vídeos da ficha (a verificar; ainda não é um candidato da curadoria):
 
 ### Fanorona telo (`fanorona-telo`): 3 marcas
 
@@ -476,41 +375,64 @@ Status: documented · Fontes da ficha: [Ludii](https://ludii.games/details.php?k
 
 - 3. Revezem-se até que as 3 peças de cada um (a verificar) estejam no tabuleiro. Se alguém alinhar três peças já nessa fase, vence a partida.
 
-### Gulugufe (borboleta) (`gulugufe`): 3 marcas
+### Fidchell (`fidchell`): 3 marcas
 
-Status: documented · Fontes da ficha: [Wikipedia](https://en.wikipedia.org/wiki/Butterfly_(game)); [Universidade dos Açores](https://repositorio.uac.pt/bitstreams/67d9c289-8531-490c-a897-ce60d79ef5a6/download); [LoboGames UFRGS](https://www.inf.ufrgs.br/lobogames/wp-content/uploads/2023/06/Jogos_Semana_Africa_UFRGS_2023_tamanho_A4.pdf); [Wikipedia: Lau kata kati](https://en.wikipedia.org/wiki/Lau_kata_kati); [Ludii: Lau Kata Kati](https://ludii.games/details.php?keyword=Lau+Kata+Kati)
+Status: unknown · Fontes da ficha: [Wikipedia: Tafl games](https://en.wikipedia.org/wiki/Tafl_games); [Wikipédia](https://pt.wikipedia.org/wiki/Tafl); [YouTube: Triple S Games](https://www.youtube.com/watch?v=dPfLZmmUogs)
 
-**Tabuleiro**
+**Evidência**
 
-- dois triângulos unidos pelo vértice (19 pontos, a verificar)
-
-**Como jogar?**
-
-- 1. Cada jogador começa com as suas 9 peças nos pontos de um triângulo. Só a ponta comum fica vazia (a verificar).
-
-**Regras**
-
-- …s com os lados e com a reta do meio. Cada jogador começa com as 9 peças num triângulo, e só o vértice comum fica vazio (a verificar: é assim no *lau kata kati*, segundo a Wikipedia e o Ludii).…
-
-### Mahjong (`mahjong`): 3 marcas
-
-Status: documented · Fontes da ficha: [Avedon: bibliografia de Culin](https://healthy.uwaterloo.ca/museum/Archives/Culin/index.html); [Wikipedia](https://en.wikipedia.org/wiki/Mahjong); [Wikipédia](https://pt.wikipedia.org/wiki/Mahjong); [Mahjong Competition Rules (MCR), regras chinesas oficiais, edição em inglês de 2006](https://mahjong.dk/hubfs/Mahjong%20documents/MCR/MCR_Rulebook_2006.pdf); [Associação Europeia de Mahjong: regras de riichi (2025)](https://mahjong.dk/hubfs/Mahjong%20documents/Riichi/Riichi_Rulebook_2025_v1.1.pdf)
-
-**Período**
-
-- fim do séc. XIX – presente (a verificar)
-
-**Sensibilidade**
-
-- aposta (a verificar)
+- literatura medieval (a verificar)
 
 **História**
 
-- Stewart Culin dedicou ao jogo um artigo em 1924, no auge da moda do mahjong no Ocidente. Regras comerciais da época (como as de Babcock, 1924) criaram versões de marca. A origem é do fim do séc. XIX na China (a verificar).
+- Aparece em narrativas como jogo de reis e deuses; tem um equivalente galês, o *gwyddbwyll* (a verificar). Algumas passagens descrevem capturas que lembram o tafl; Ulrich Schädler sugere, ao contrário, uma ligação com o Ludus latrunculorum.
+
+**Regras**
+
+- O vídeo de Triple S Games ensina uma dessas regras modernas (a verificar a autoria): 27 peças por jogador; uma fase de colocar e outra de mover em linha reta, como a torre do xadrez; captura por cerco entre duas peças, com um lance a mais; …
+
+### Igisoro (`igisoro`): 3 marcas
+
+Status: partial · Fontes da ficha: [Mancala World](https://mancala.fandom.com/wiki/Igisoro); [Wikipedia: Igisoro](https://en.wikipedia.org/wiki/Igisoro); [YouTube: RambArt](https://www.youtube.com/watch?v=VavieakxpX0)
+
+**Como jogar?**
+
+- As regras vêm do Mancala World e da Wikipedia, sem consulta às fontes primárias (a verificar).
+
+**Regras**
+
+- … e Coupez e Benda 1963) e da Wikipedia (*Igisoro*). Nenhuma das duas fontes primárias foi consultada, então tudo vale "(a verificar)" quanto à fonte original.…
+- 12. Nota sobre o vídeo de RambArt (a verificar): no igisoro, cada jogador espalha as suas 32 sementes como quiser pelas suas 16 covas, o que diverge do passo 1 (4 sementes na fileira de dentro); a cova escolhida precisa ter duas sementes ou…
+
+### Jogo real de Ur (`jogo-real-de-ur`): 3 marcas
+
+Status: reconstructed · Fontes da ficha: [British Museum 1928,1009.378](https://www.britishmuseum.org/collection/object/W_1928-1009-378); [Ludii](https://ludii.games/details.php?keyword=Royal+Game+of+Ur); [CDLI P498293](https://cdli.earth/P498293); [Wikipedia](https://en.wikipedia.org/wiki/Royal_Game_of_Ur); [Ludii: Royal Game of Ur, regras de Finkel](https://ludii.games/variantDetails.php?keyword=Royal%20Game%20of%20Ur&variant=77); [YouTube: VemKaJogar](https://www.youtube.com/watch?v=VpUYXThqmBo)
+
+**Regras**
+
+- 6. Percurso (Ludii, a partir de Finkel 2007, a verificar): cada jogador começa num dos cantos "de cima" do bloco de 3×4, percorre a sua fileira até o canto oposto, sobe pela fileira do meio, que os dois usam, e, ao chegar ao topo dela no bl…
+- 7. Rosetas (Ludii, a partir de Finkel 2007, a verificar): uma no meio da fileira do meio, onde a peça não pode ser capturada, e as dos quatro cantos, que dão nova jogada. A Wikipedia (a partir de Becker 2007) diz que cair em qualquer uma da…
+- …da válida passa a vez; uma peça pode entrar a qualquer momento; e nenhuma casa recebe duas peças, nem do mesmo jogador (a verificar). Na versão simples, com 7 peças, joga-se com 3 dados tetraédricos, e o lance sem nenhuma ponta marcada vale…
+
+### Kōnane (`konane`): 3 marcas
+
+Status: documented · Fontes da ficha: [Ludii: 10x10 Konane](https://ludii.games/variantDetails.php?keyword=Konane&variant=59); [Ludii: Konane](https://ludii.games/details.php?keyword=Konane); [YouTube: Mitra Criação](https://www.youtube.com/watch?v=28o9xVzXipA); [YouTube: GAMES AND PUZZLES CALI](https://www.youtube.com/watch?v=kRmZAmwjF9c)
+
+**Período**
+
+- pré-contato (a verificar) – presente
+
+**História**
+
+- …abuleiros gravados em pedra aparecem por todo o Havaí, difíceis de datar (Ludii). O jogo é anterior ao contato europeu (a verificar). As regras registradas por Kenneth Emory em 1924 vêm de Kaahaaina Naihe, que jogava no início do séc. XX; o…
+
+**Regras**
+
+- …udar de direção na cadeia de saltos e, no fim, dá a vitória a quem capturou mais pedras, o que diverge de Emory (1924) (a verificar).…
 
 ### Makruk (`makruk`): 3 marcas
 
-Status: documented · Fontes da ficha: [Wikipedia](https://en.wikipedia.org/wiki/Makruk); [Chess Variant Pages](https://chessvariants.org/oriental.dir/thaimate.html); [ancientchess.com: How to Play Makruk](https://www.ancientchess.com/page/play-makruk.htm); [GNU XBoard: Makruk (Thai Chess)](https://www.gnu.org/software/xboard/whats_new/rules/Makruk.html); [Falkener 1892 (IA)](https://archive.org/details/gamesancientorie00falkuoft)
+Status: documented · Fontes da ficha: [Wikipedia](https://en.wikipedia.org/wiki/Makruk); [Chess Variant Pages](https://chessvariants.org/oriental.dir/thaimate.html); [ancientchess.com: How to Play Makruk](https://www.ancientchess.com/page/play-makruk.htm); [GNU XBoard: Makruk (Thai Chess)](https://www.gnu.org/software/xboard/whats_new/rules/Makruk.html); [Falkener 1892 (IA)](https://archive.org/details/gamesancientorie00falkuoft); [YouTube: AncientChess](https://www.youtube.com/watch?v=RD91zLPxTmI)
 
 **Como jogar?**
 
@@ -534,31 +456,18 @@ Status: documented · Fontes da ficha: [Ondjango Asili](https://ondjangoasili.co
 
 - …as duas fileiras do seu lado: a de dentro, encostada nas do adversário, e a de fora (Ludii, a partir de Silva 1995: 87, a verificar: o Ludii fala em "fileira de dentro" e "fileira de fora" sem dizer de quem é cada uma).…
 
-### Nard (`nard`): 3 marcas
+### Raposa e gansos (`raposa-e-gansos`): 3 marcas
 
-Status: partial · Fontes da ficha: [Ludii](https://ludii.games/data.php?gameId=303); [Ludii: Nard](https://ludii.games/details.php?keyword=Nard); [Wikipedia: Nard (game)](https://en.wikipedia.org/wiki/Nard_(game)); [bkgm.com: Narde](https://www.bkgm.com/variants/Narde.html)
+Status: documented · Fontes da ficha: [Ludii](https://ludii.games/details.php?keyword=Fox+and+Geese); [Wikipedia: Fox games](https://en.wikipedia.org/wiki/Fox_games); [Strutt 1845: The Sports and Pastimes of the People of England (Project Gutenberg)](https://www.gutenberg.org/ebooks/48983); [YouTube: Ludoteca  Alberto Pereira](https://www.youtube.com/watch?v=6nxz2ORKCU4)
 
-**História**
+**Como jogar?**
 
-- …gador e dois dados. A tradição persa associa a invenção do nard e a explicação do xadrez a um mesmo episódio literário (a verificar). O Talmud Babilônico menciona *nardashir*. Um tabuleiro 2×12 de Hamat Gader é datado dos séc. VII-VIII.…
-
-**Regras**
-
-- …a disposição inicial, captura da peça sozinha e reentrada no primeiro quadrante. A página original não pôde ser aberta (a verificar).…
-- **Quem começa, nas formas antigas:** a Wikipedia diz que cada jogador lança um dado e começa quem tirar mais, sem citar fonte para essa regra (a verificar).
-
-### Patolli (`patolli`): 3 marcas
-
-Status: partial · Fontes da ficha: [Ludii](https://ludii.games/details.php?keyword=Patolli+(Aztec)); [Ludii: evidências](https://ludii.games/data.php?gameId=588); [Wikipedia: Patolli](https://en.wikipedia.org/wiki/Patolli); [Depaulis 2018, Ancient American Board Games, I (BGS 12)](https://sciendo.com/pdf/10.2478/bgs-2018-0002); [Culin 1898, Chess and Playing-Cards (archive.org)](https://archive.org/details/chessplayingcard00culi)
-
-**Sensibilidade**
-
-- aposta; ritual (a verificar)
+- A raposa pode pular vários gansos seguidos no mesmo lance, e capturar não é obrigatório (a verificar).
 
 **Regras**
 
-- **Wikipedia, "Patolli"** (artigo sem fonte para cada regra; cita Durán, Tylor 1878 e Rees 2006, que não foram abertos, por isso tudo abaixo é "a verificar"):
-- …cias:** (1) escolher a forma do jogo; (2) decidir o que fazer com os grafites; (3) `sens` já registra aposta e ritual "(a verificar)", e a Wikipedia confirma a aposta (e a oferta a Macuilxochitl), mas a fonte é fraca; (4) as fontes primária…
+- …om 17 gansos, também diz que os gansos só andam para a frente ou para os lados e que a raposa anda em qualquer direção (a verificar).…
+- 9. A raposa pode pular vários gansos seguidos no mesmo lance, e capturar não é obrigatório (Wikipedia, a verificar).
 
 ### Vela (fanorona) (`vela`): 3 marcas
 
@@ -576,53 +485,79 @@ Status: partial · Fontes da ficha: [Ludii: fontes](https://ludii.games/sources.
 
 - Em descrições gerais (a verificar), o vencedor anterior não pode capturar mais de uma peça por lance até ter perdido um certo número de peças.
 
-### Bagh-chal (`bagh-chal`): 4 marcas
+### Warri (Antígua e Barbados) (`warri-caribe`): 3 marcas
 
-Status: documented · Fontes da ficha: [Wikipedia: Traditional games of Nepal](https://en.wikipedia.org/wiki/Traditional_games_of_Nepal); [Ludii: Baghchal](https://ludii.games/details.php?keyword=Baghchal); [Wikipedia: Bagh-chal](https://en.wikipedia.org/wiki/Bagh-chal)
-
-**Como jogar?**
-
-- O tigre não é obrigado a capturar (a verificar).
-- 7. A partir daí, nenhuma jogada pode repetir uma posição que já aconteceu na partida (a verificar).
-
-**Regras**
-
-- 7. O tigre não é obrigado a capturar (Wikipedia, a verificar).
-- 8. Depois que todas as cabras entraram, nenhuma jogada pode repetir uma posição que já aconteceu na partida (Wikipedia, a verificar).
-
-### Ban-sugoroku (`ban-sugoroku`): 4 marcas
-
-Status: partial · Fontes da ficha: [Biblioteca Nacional da Dieta](https://www.ndl.go.jp/kaleido/e/entry/12/index.html); [Wikipedia](https://en.wikipedia.org/wiki/Sugoroku); [Japanese Wiki Corpus](https://japanese-wiki-corpus.github.io/culture/Sugoroku.html); [Wikipedia: Backgammon (posição inicial do gamão)](https://en.wikipedia.org/wiki/Backgammon); [woodblockprints.org](https://woodblockprints.org/index.php/Detail/entities/829)
-
-**Do que você vai precisar?**
-
-- 15 peças para cada jogador, brancas e pretas (a verificar: a ficha só diz que as regras são como as do gamão)
-
-**Regras**
-
-- …ammon). Que o sugoroku usava esta mesma disposição e as 15 peças vem só de a Wikipedia dizer "a mesma posição inicial" (a verificar).…
-- 5. A peça não anda para trás e não pode parar numa casa onde há duas ou mais peças (Japanese Wiki Corpus; no gamão são peças do adversário, mas a fonte não diz de quem, a verificar).
-- …es de qualquer outra peça do dono se mover (Japanese Wiki Corpus). Como a peça volta e em que casa não está nas fontes (a verificar; no gamão, entra pelo lado do adversário, Wikipedia, Backgammon).…
-
-### Bao la kiswahili (`bao-la-kiswahili`): 4 marcas
-
-Status: documented · Fontes da ficha: [Wikipedia](https://en.wikipedia.org/wiki/Bao_(game)); [Ludii: Bao](https://ludii.games/details.php?keyword=Bao)
-
-**Peças**
-
-- 64 sementes (a verificar)
-
-**Do que você vai precisar?**
-
-- 32 sementes para cada jogador, 64 no total (a verificar)
+Status: documented · Fontes da ficha: [Mancala World: Warri (Antigua)](https://mancala.fandom.com/wiki/Warri_(Antigua)); [BajanThings](https://bajanthings.com/the-game-of-warri/); [Barbados Advocate](https://www.barbadosadvocate.com/columns/things-matter-warri-%E2%80%93-intangible-culture-our-culture); [Stoffle et al. (Academia)](https://www.academia.edu/51526267/Warri_StoffleBaroCummins_Warri_s_Warriors); [YouTube: Julian Groves](https://www.youtube.com/watch?v=v9LNUvHqXeQ)
 
 **Como jogar?**
 
-- 7. A *nyumba* tem regras próprias (a verificar):
+- Para essas casas anteriores, a fonte não diz se as sementes se contam antes ou depois da semeadura (a verificar).
 
 **Regras**
 
-- 12. A *nyumba* (Wikipedia, a verificar): numa vez sem captura, a semeadura que termina na *nyumba* acaba ali; numa vez com captura, se termina na *nyumba* e ela não captura, o jogador escolhe se continua semeando a partir dela (*safari*) ou…
+- …artir de Kinsella). Para essas casas anteriores, a fonte não diz se as sementes se contam antes ou depois da semeadura (a verificar).…
+- 11. Nota sobre o vídeo de Julian Groves (a verificar): o vídeo ensina o oware nas regras do *abapa* e diz que a Warri Society International, de Antígua, usa as mesmas. Por elas, é obrigatório deixar sementes para o adversário quando possíve…
+
+### Xiangqi (`xiangqi`): 3 marcas
+
+Status: documented · Fontes da ficha: [Wikipedia](https://en.wikipedia.org/wiki/Xiangqi); [Wikipédia](https://pt.wikipedia.org/wiki/Xiangqi); [Federação Mundial de Xiangqi: regras mundiais de xiangqi (2018, em inglês)](https://www.wxf-xiangqi.org/images/wxf-rules/2018_World_XiangQi_Rules_English2018.pdf); [YouTube: AncientChess](https://www.youtube.com/watch?v=0UuDiL9CLPI)
+
+**Evidência**
+
+- a verificar
+
+**Como jogar?**
+
+- Soldado: uma interseção para a frente. Depois de cruzar o rio, também pode andar uma para o lado. Nunca volta. Ao chegar ao fim do tabuleiro, não vira outra peça: só anda para os lados (a verificar).
+
+**Regras**
+
+- O soldado que chega à última linha não é promovido: continua andando só para os lados (vídeo de AncientChess, a verificar). O vídeo confirma o resto: cavalo bloqueado pela peça vizinha, elefante preso ao seu lado do rio, canhão que pula exa…
+
+### Adugo / jogo da onça (`adugo`): 4 marcas
+
+Status: documented · Fontes da ficha: [MCI: Caderno Brincadeiras](https://museudasculturasindigenas.org.br/wp-content/uploads/2025/10/CADERNO-MCI-BRINCADEIRAS-Vfinal-3.pdf); [MCI: torneio](https://museudasculturasindigenas.org.br/programacao/ferias-na-tava-torneio-ninmangwa-djagwarete-brincadeira-da-onca/); [Vinha](https://observatorioedhemfoc.hospedagemdesites.ws/observatorio/wp-content/uploads/2017/12/JogoTabuleirocomoPraticaEducativaIntercultural.pdf); [Wikipedia](https://en.wikipedia.org/wiki/Adugo); [GamesCrafters](https://gamescrafters.berkeley.edu/games.php?game=adugo); [Vergara e Martínez: Jogos de Tabuleiro (Museu da Matemática UFMG)](https://www.mat.ufmg.br/museu/wp-content/uploads/2021/12/Jogos_de_Tabuleiro.pdf); [Ludii: Adugo](https://ludii.games/details.php?keyword=Adugo); [Ifac](https://www.ifac.edu.br/noticias/2025/abril/estudantes-do-ifac-recriam-jogo-de-tabuleiro-regional-em-conjunto-com-if-maker-jurua); [YouTube: Projeto Parceria Escola e Universidade](https://www.youtube.com/watch?v=WmUnQP9TFds); [YouTube: BruinClub UCLA](https://www.youtube.com/watch?v=ODNaRa-Lhxk)
+
+**Do que você vai precisar?**
+
+- Um tabuleiro de 31 pontos: um quadrado de 5×5 pontos, como o do Alquerque, e um triângulo com 6 pontos a mais (a verificar)
+
+**Regras**
+
+- …nha corta a primeira no meio e liga os pontos do meio dos outros dois lados do triângulo (Ludii, a partir de Lima 2004, a verificar). São 6 pontos a mais (os dois cantos da base, o meio da base, o meio de cada um dos outros dois lados e o c…
+- …gar de onde a onça sai, e cita dois: ao lado dos cães, onde o quadrado encontra o triângulo, ou no centro do triângulo (a verificar). O vídeo concorda com a ficha nos 14 cães, na onça jogando primeiro e nos 5 cães para a onça vencer.…
+- …ters acrescenta que a onça pode parar a sequência de saltos quando quiser e que não pode andar e saltar no mesmo lance (a verificar: não diz de onde tirou a regra).…
+
+### Ashta-kashte (`ashta-kashte`): 4 marcas
+
+Status: documented · Fontes da ficha: [Ludii](https://ludii.games/data.php?gameId=177); [Falkener 1892](https://archive.org/details/gamesancientorie00falkuoft); [Ludii: Ashta-kashte](https://ludii.games/details.php?keyword=Ashta-kashte); [YouTube: Roll the Dice India – Indian Board Games & Culture](https://www.youtube.com/watch?v=-t320mv_XME)
+
+**Como jogar?**
+
+- 4. Para entrar no tabuleiro é preciso uma graça, e para chegar ao centro é preciso o número exato (a verificar: o Ludii diz isso, Falkener não).
+
+**Regras**
+
+- Lances com conchas ou varetas; um lance de 8 dá jogada extra ("graça") e permite dividir o movimento; o jogador não é obrigado a usar o lance; capturar uma peça adversária dá novo lance. O percurso vai de fora para o centro (a verificar).
+- 5. Para entrar no tabuleiro é preciso uma graça, e para chegar ao centro é preciso o número exato (Ludii; Falkener não diz isso, a verificar).
+- 9. Nota sobre o vídeo de Roll the Dice India (em inglês, a verificar): forma com 6 búzios e 6 peças por jogador, para 2 a 4 jogadores. Os búzios valem de 1 a 6 e 12; 6, 12 e uma captura dão outro lance; há casas seguras, onde ninguém é toma…
+
+### Chaupar (`chaupar`): 4 marcas
+
+Status: documented · Fontes da ficha: [Ludii: evidência](https://ludii.games/data.php?gameId=179); [Penn Museum (Expedition)](https://penn.museum/sites/expedition/?p=729); [Indian Culture](https://indianculture.gov.in/timeless-trends/games/title=Chaupar/nid=3000311); [Abu'l Fazl, Ain-i-Akbari, vol. 1 (trad. Blochmann 1873)](https://archive.org/details/in.ernet.dli.2015.32526); [Ludii: Chaupar](https://ludii.games/details.php?keyword=Chaupar); [Wikipedia: Chaupar](https://en.wikipedia.org/wiki/Chaupar); [YouTube: erunfun.com](https://www.youtube.com/watch?v=eV1L_xMF_NM)
+
+**Como jogar?**
+
+- …do do centro com o número exato. Então está *rasidah* (chegou). O sentido anti-horário não está no texto de Abu'l Fazl (a verificar).…
+
+**História**
+
+- …em áreas rurais e que as regras variam por região. É associado ao jogo de dados do *Mahabharata* (fontes de divulgação, a verificar).…
+
+**Regras**
+
+- …ão está *rasidah* (chegou) (Blochmann 1873: 303). O sentido anti-horário da frase acima não está no texto de Blochmann (a verificar).…
+- 13. Forma com búzios, no vídeo de erunfun.com (em híndi, a verificar): quatro jogadores com 4 peças cada, em duplas sentadas frente a frente; 6 búzios, que valem pelo número de bocas para cima (2 a 6), 10 com uma boca só e 25 com nenhuma; 1…
 
 ### Coyote (México) (`coyote`): 4 marcas
 
@@ -655,23 +590,23 @@ Status: documented · Fontes da ficha: [Mancala World: Warri (Haiti)](https://ma
 - …or Bautista i Roca. Por isso as regras da forma A abaixo são de segunda mão e não foram conferidas com a fonte de 1952 (a verificar). Quem escolhe qual forma é o *kay* é a curadoria (a ficha só lista o nome *voleur* entre os nomes).…
 - 5. Se a última semente cai numa cova ocupada que é seguida por uma vazia, a jogada acaba. Se ela cai numa cova vazia, a semente é passada para a próxima cova ocupada e a jogada acaba (a fonte não explica bem este caso, a verificar).
 
-### Ouk chatrang (`ouk-chatrang`): 4 marcas
+### Nard (`nard`): 4 marcas
 
-Status: partial · Fontes da ficha: [Wikipedia: Makruk](https://en.wikipedia.org/wiki/Makruk); [Krabbé: Makruk, chess in Cambodia](https://timkr.home.xs4all.nl/chess/makruk.htm)
+Status: partial · Fontes da ficha: [Ludii](https://ludii.games/data.php?gameId=303); [Ludii: Nard](https://ludii.games/details.php?keyword=Nard); [Wikipedia: Nard (game)](https://en.wikipedia.org/wiki/Nard_(game)); [bkgm.com: Narde](https://www.bkgm.com/variants/Narde.html); [YouTube: Gather Together Games](https://www.youtube.com/watch?v=8etQDHZppOA)
 
-**Como jogar?**
+**História**
 
-- As regras vêm do makruk, e nenhuma fonte lida confirma ponto por ponto que o *ouk* as segue (a verificar).
-- 5. No primeiro lance do rei, ou do *met*, e só se ainda não houve nenhuma captura, o *ouk* tem lances a mais (a verificar se valem em toda partida):
+- …gador e dois dados. A tradição persa associa a invenção do nard e a explicação do xadrez a um mesmo episódio literário (a verificar). O Talmud Babilônico menciona *nardashir*. Um tabuleiro 2×12 de Hamat Gader é datado dos séc. VII-VIII.…
 
 **Regras**
 
-- …ikipedia e Krabbé dizem do jogo no Camboja, e depois as regras do makruk, que valem para o *ouk* salvo o que está dito (a verificar: nenhuma fonte consultada confirma ponto por ponto que o *ouk* as segue).…
-- 5. Quem começa: Krabbé diz, "se bem me lembro" (a verificar), que cada jogador mantém a mesma cor numa série de partidas, e que brancas e pretas começam alternadamente. A Wikipedia não diz quem começa no *ouk*.
+- …a disposição inicial, captura da peça sozinha e reentrada no primeiro quadrante. A página original não pôde ser aberta (a verificar).…
+- **Quem começa, nas formas antigas:** a Wikipedia diz que cada jogador lança um dado e começa quem tirar mais, sem citar fonte para essa regra (a verificar).
+- **Forma B no vídeo de Gather Together Games** (a verificar): começa quem tirar mais num dado; as peças andam no sentido anti-horário; só uma peça sai da cabeça por vez; uma peça sozinha do adversário já bloqueia a casa; não vale uma barreir…
 
 ### Pachisi (`pachisi`): 4 marcas
 
-Status: documented · Fontes da ficha: [Ludii](https://ludii.games/details.php?keyword=Pachisi); [tradgames.org.uk (secundário)](https://www.tradgames.org.uk/games/Pachisi.htm); [Herklots 1832: Qanoon-e-Islam, apêndice e prancha VII (archive.org)](https://archive.org/details/qanooneislamorcu00jafa); [Wikipedia: Pachisi](https://en.wikipedia.org/wiki/Pachisi); [Wikipédia](https://pt.wikipedia.org/wiki/Pachisi)
+Status: documented · Fontes da ficha: [Ludii](https://ludii.games/details.php?keyword=Pachisi); [tradgames.org.uk (secundário)](https://www.tradgames.org.uk/games/Pachisi.htm); [Herklots 1832: Qanoon-e-Islam, apêndice e prancha VII (archive.org)](https://archive.org/details/qanooneislamorcu00jafa); [Wikipedia: Pachisi](https://en.wikipedia.org/wiki/Pachisi); [Wikipédia](https://pt.wikipedia.org/wiki/Pachisi); [YouTube: Taming Games](https://www.youtube.com/watch?v=nbwrtCd67D8)
 
 **Como jogar?**
 
@@ -685,22 +620,33 @@ Status: documented · Fontes da ficha: [Ludii](https://ludii.games/details.php?k
 
 - 13. Cada jogador lança os búzios, e quem tirar o número mais alto começa (Wikipedia, a verificar).
 
-### Sittuyin (`sittuyin`): 4 marcas
+### Patolli (`patolli`): 4 marcas
 
-Status: documented · Fontes da ficha: [Chess Variant Pages](https://chessvariants.org/link/ludiiportal); [Murray 1913 (IA)](https://archive.org/details/AHistoryOfChess); [Ludii: Sittuyin](https://ludii.games/details.php?keyword=Sittuyin); [Wikipedia: Sittuyin](https://en.wikipedia.org/wiki/Sittuyin)
+Status: partial · Fontes da ficha: [Ludii](https://ludii.games/details.php?keyword=Patolli+(Aztec)); [Ludii: evidências](https://ludii.games/data.php?gameId=588); [Wikipedia: Patolli](https://en.wikipedia.org/wiki/Patolli); [Depaulis 2018, Ancient American Board Games, I (BGS 12)](https://sciendo.com/pdf/10.2478/bgs-2018-0002); [Culin 1898, Chess and Playing-Cards (archive.org)](https://archive.org/details/chessplayingcard00culi); [YouTube: Deny Us Not Game Night](https://www.youtube.com/watch?v=h5Y3CxQpe8s)
 
-**Como jogar?**
+**Sensibilidade**
 
-- 2. Depois, vocês se alternam pondo as outras peças. Na sua vez, ponha uma peça maior numa casa vazia da sua metade do tabuleiro. O vermelho começa a colocação, seguido do preto (a verificar).
-
-**Para quem conduz**
-
-- …casa marcada"; a Wikipedia acrescenta, sem fonte, que o peão que passa da casa de promoção não pode mais ser promovido (a verificar). Posição do rei: o costume é pôr o rei na segunda casa da direita da 2ª fileira com um elefante ao lado; pa…
+- aposta; ritual (a verificar)
 
 **Regras**
 
-- Quem começa: o vermelho começa a colocação, seguido do preto (Wikipedia, sem fonte citada, a verificar). Murray diz só que as jogadas são alternadas.
-- …alem as casas marcadas do lado do adversário; Murray não diz isso com essas palavras. Pela Wikipedia (sem fonte citada, a verificar), o peão que passa da casa de promoção não pode mais ser promovido.…
+- **Wikipedia, "Patolli"** (artigo sem fonte para cada regra; cita Durán, Tylor 1878 e Rees 2006, que não foram abertos, por isso tudo abaixo é "a verificar"):
+- …cias:** (1) escolher a forma do jogo; (2) decidir o que fazer com os grafites; (3) `sens` já registra aposta e ritual "(a verificar)", e a Wikipedia confirma a aposta (e a oferta a Macuilxochitl), mas a fonte é fraca; (4) as fontes primária…
+- **Nota sobre o vídeo de Deny Us Not Game Night** (em inglês, a verificar; o próprio vídeo diz que as regras são "a melhor hipótese"): 6 peças por jogador, que entram pela casa do centro do seu lado com um lance de um só feijão marcado; 5 fe…
+
+### Senet (`senet`): 4 marcas
+
+Status: reconstructed · Fontes da ficha: [Ludii: evidências de Senet](https://ludii.games/data.php?gameId=3); [Met 16.10.475a (caixa de senet e vinte casas)](https://www.metmuseum.org/art/collection/search/553268); [Met: caixa de Taia](https://www.metmuseum.org/art/collection/search/548482); [Falkener 1892 (IA)](https://archive.org/details/gamesancientorie00falkuoft); [Wikipedia](https://en.wikipedia.org/wiki/Senet); [Wikipédia](https://pt.wikipedia.org/wiki/Senet); [Ludii: Senet (Kendall)](https://ludii.games/variantDetails.php?keyword=Senet&variant=922); [Ludii: Senet (Bell)](https://ludii.games/variantDetails.php?keyword=Senet&variant=529); [Ludii: Senet (Jéquier)](https://ludii.games/variantDetails.php?keyword=Senet&variant=939); [Santos, Neto e Silva, Jogos de Tabuleiro Tradicionais](https://jpneto.github.io/books/livro_jogos_4.pdf); [YouTube: VemKaJogar](https://www.youtube.com/watch?v=gEhC_j8OllM); [YouTube: Triple S Games](https://www.youtube.com/watch?v=oeLAfm1bx3U)
+
+**História**
+
+- …e tempo, até juntar cinco dias novos, em que nasceram os cinco filhos dela. No vídeo, o jogo dessas partidas é o senet (a verificar: o vídeo não diz de onde vem a lenda).…
+
+**Regras**
+
+- Não existe regra documentada. As reconstruções de Edward Falkener (1892), Timothy Kendall (1978) e R. C. Bell compartilham um esqueleto (a verificar em cada autor):
+- 2. **Kendall, pela Wikipedia** (sem fonte citada; a verificar), com outras regras: 5 peças por jogador (até 10, para uma partida mais longa), que entram no tabuleiro pela casa 1; quatro varetas, valendo o número de lados brancos para cima, …
+- …a outra peça; no de VemKaJogar, não é preciso tirar o número exato para sair, menos nas casas 28 e 29, que pedem 3 e 2 (a verificar).…
 
 ### Taikyoku shōgi (`taikyoku-shogi`): 4 marcas
 
@@ -733,26 +679,111 @@ Status: documented · Fontes da ficha: [Ludii](https://ludii.games/details.php?k
 - 6. Os lados do tabuleiro são chamados de preto e branco, e quem senta do lado branco começa (Wikipedia, a verificar).
 - … lances, as bolas que ainda não estão num kazan nem num tuzdyk ficam para o jogador de cujo lado elas estão (Wikipedia, a verificar). O Ludii dá a mesma regra (o outro jogador fica com as bolas que restam) e cita Pantusov (1906), mas o trec…
 
-### Fanorona (`fanorona`): 5 marcas
+### Trilha (`trilha`): 4 marcas
 
-Status: documented · Fontes da ficha: [Ludii: fontes](https://ludii.games/sources.php); [Wikipedia](https://en.wikipedia.org/wiki/Fanorona); [Wikipédia](https://pt.wikipedia.org/wiki/Fanorona); [boardspace (regras)](https://www.boardspace.net/fanorona/english/rules.html)
+Status: documented · Fontes da ficha: [Ludopedia](https://ludopedia.com.br/jogo/nine-men-s-morris); [Fernandes e Alberto 2009 (Açafa)](https://www.altotejo.org/acafa/docsn2/jogos_gravados_em_pedra_do_distrito_de_castelo_branco.pdf); [Wikipedia: Nine men's morris](https://en.wikipedia.org/wiki/Nine_men%27s_morris); [Wikipédia](https://pt.wikipedia.org/wiki/Trilha_(jogo)); [Ludicum: Nine Men Morris](https://ludicum.org/en/jogos/jogos-abstratos-nine-men-morris/); [YouTube: Projeto Mundo Novo Paraíso](https://www.youtube.com/watch?v=IWpItQ0XcVI); [YouTube: Gather Together Games](https://www.youtube.com/watch?v=lmFDibk7_qc)
 
-**Tabuleiro**
+**Como jogar?**
 
-- 5×9 pontos com diagonais (a verificar)
+- 2. O tabuleiro começa vazio. Quem tem as peças brancas começa (a verificar). Na sua vez, coloque uma peça sua num ponto livre, onde as linhas se encontram.
+- Se todas as peças dele estiverem em moinhos, você pode tirar qualquer uma (a verificar).
 
-**Peças**
+**Regras**
 
-- 22 por jogador (a verificar)
+- 6. Se todas as peças do adversário estiverem em moinho, pode-se retirar qualquer uma (Wikipedia e Ludicum, sem citar fonte; vídeo de Gather Together Games; a verificar).
+- 7. As brancas começam. O moinho é uma fila de três na horizontal ou na vertical, e a peça retirada sai do jogo (vídeo de Gather Together Games, a verificar).
+
+### Yoté (`yote`): 4 marcas
+
+Status: documented · Fontes da ficha: [Ludii: evidência (Béart 1955)](https://ludii.games/data.php?gameId=666); [Wikipedia](https://en.wikipedia.org/wiki/Yot%C3%A9); [Wikipédia](https://pt.wikipedia.org/wiki/Yot%C3%A9); [GamesCrafters](https://gamescrafters.berkeley.edu/games.php?game=yote); [mindsports.nl (duas versões)](https://www.mindsports.nl/index.php/on-the-evolution-of-draughts-variants/draughts-variants/507-yote); [boardandpieces (regras de J. P. Neto)](https://sites.google.com/site/boardandpieces/list-of-games/yot); [YouTube: Lobogames UFRGS](https://www.youtube.com/watch?v=8oIaCPAn9sk); [YouTube: VemKaJogar](https://www.youtube.com/watch?v=94_CCIZADdY)
+
+**Povos**
+
+- senegaleses (wolof e outros, a verificar)
+
+**Como jogar?**
+
+- Se a mesma peça puder pular de novo, continue na mesma vez. Cada pulo é uma captura e dá direito a tirar mais uma peça (a verificar).
+- 6. Vence quem capturar todas as peças do adversário. Quem não tiver nenhuma jogada possível na sua vez perde (a verificar).
+
+**Regras**
+
+- …em jogada ao mesmo tempo, vence quem tiver mais peças no tabuleiro, e com o mesmo número é empate (vídeo de VemKaJogar, a verificar). O vídeo também confirma o empate com três peças ou menos da Regra 6.…
+
+### Bagh-chal (`bagh-chal`): 5 marcas
+
+Status: documented · Fontes da ficha: [Wikipedia: Traditional games of Nepal](https://en.wikipedia.org/wiki/Traditional_games_of_Nepal); [Ludii: Baghchal](https://ludii.games/details.php?keyword=Baghchal); [Wikipedia: Bagh-chal](https://en.wikipedia.org/wiki/Bagh-chal); [YouTube: Lobogames UFRGS](https://www.youtube.com/watch?v=Dk7ZCH1haaw); [YouTube: GAMES AND PUZZLES CALI](https://www.youtube.com/watch?v=Kq01GgM-lvQ)
+
+**Como jogar?**
+
+- O tigre não é obrigado a capturar (a verificar).
+- 7. A partir daí, nenhuma jogada pode repetir uma posição que já aconteceu na partida (a verificar).
+
+**Regras**
+
+- 7. O tigre não é obrigado a capturar (Wikipedia, a verificar).
+- 8. Depois que todas as cabras entraram, nenhuma jogada pode repetir uma posição que já aconteceu na partida (Wikipedia, a verificar).
+- …ças começam no tabuleiro: uma cabra no centro, uma em cada canto interno e as outras 15 em grupos, sem fase de entrada (a verificar).…
+
+### Ban-sugoroku (`ban-sugoroku`): 5 marcas
+
+Status: partial · Fontes da ficha: [Biblioteca Nacional da Dieta](https://www.ndl.go.jp/kaleido/e/entry/12/index.html); [Wikipedia](https://en.wikipedia.org/wiki/Sugoroku); [Japanese Wiki Corpus](https://japanese-wiki-corpus.github.io/culture/Sugoroku.html); [Wikipedia: Backgammon (posição inicial do gamão)](https://en.wikipedia.org/wiki/Backgammon); [woodblockprints.org](https://woodblockprints.org/index.php/Detail/entities/829); [YouTube: Mochy Backgammon](https://www.youtube.com/watch?v=7zZnxIenzqA)
 
 **Do que você vai precisar?**
 
-- Um tabuleiro de 45 pontos, em 5 fileiras de 9, ligados por linhas na horizontal, na vertical e por diagonais (a verificar)
-- 22 peças para cada jogador, de cores diferentes (a verificar)
+- 15 peças para cada jogador, brancas e pretas (a verificar: a ficha só diz que as regras são como as do gamão)
+
+**Regras**
+
+- …ammon). Que o sugoroku usava esta mesma disposição e as 15 peças vem só de a Wikipedia dizer "a mesma posição inicial" (a verificar).…
+- 5. A peça não anda para trás e não pode parar numa casa onde há duas ou mais peças (Japanese Wiki Corpus; no gamão são peças do adversário, mas a fonte não diz de quem, a verificar).
+- …es de qualquer outra peça do dono se mover (Japanese Wiki Corpus). Como a peça volta e em que casa não está nas fontes (a verificar; no gamão, entra pelo lado do adversário, Wikipedia, Backgammon).…
+- 11. Nota sobre o vídeo de Mochy Backgammon, com o estudioso Kusaba (a verificar): começa quem tirar mais num dado, e essa pessoa lança os dois dados para a primeira jogada, que pode ser um dobrado; dobrados valem só dois movimentos; a peça …
+
+### Bao la kiswahili (`bao-la-kiswahili`): 5 marcas
+
+Status: documented · Fontes da ficha: [Wikipedia](https://en.wikipedia.org/wiki/Bao_(game)); [Ludii: Bao](https://ludii.games/details.php?keyword=Bao); [YouTube: Julian Groves](https://www.youtube.com/watch?v=ZPg_0Mb-BUU)
+
+**Peças**
+
+- 64 sementes (a verificar)
+
+**Do que você vai precisar?**
+
+- 32 sementes para cada jogador, 64 no total (a verificar)
+
+**Como jogar?**
+
+- 7. A *nyumba* tem regras próprias (a verificar):
+
+**Regras**
+
+- 12. A *nyumba* (Wikipedia, a verificar): numa vez sem captura, a semeadura que termina na *nyumba* acaba ali; numa vez com captura, se termina na *nyumba* e ela não captura, o jogador escolhe se continua semeando a partir dela (*safari*) ou…
+- 14. Nota sobre o vídeo de Julian Groves (vídeo longo, lido só em trechos; a verificar): confirma a posição inicial (6 sementes na *nyumba* e 2 em cada uma das duas covas à direita dela) e diz que as sementes capturadas entram sempre a parti…
+
+### Mahjong (`mahjong`): 5 marcas
+
+Status: documented · Fontes da ficha: [Avedon: bibliografia de Culin](https://healthy.uwaterloo.ca/museum/Archives/Culin/index.html); [Wikipedia](https://en.wikipedia.org/wiki/Mahjong); [Wikipédia](https://pt.wikipedia.org/wiki/Mahjong); [Mahjong Competition Rules (MCR), regras chinesas oficiais, edição em inglês de 2006](https://mahjong.dk/hubfs/Mahjong%20documents/MCR/MCR_Rulebook_2006.pdf); [Associação Europeia de Mahjong: regras de riichi (2025)](https://mahjong.dk/hubfs/Mahjong%20documents/Riichi/Riichi_Rulebook_2025_v1.1.pdf); [YouTube: ABM - Associação Brasileira de Mahjong](https://www.youtube.com/watch?v=K2WUNTnzSho); [YouTube: South China Morning Post](https://www.youtube.com/watch?v=qpYF-xmNMew)
+
+**Período**
+
+- fim do séc. XIX – presente (a verificar)
+
+**Sensibilidade**
+
+- aposta (a verificar)
+
+**Como jogar?**
+
+- A sequência não dá a volta: depois do 9 não vem o 1, então 8-9-1 não vale (a verificar).
 
 **História**
 
-- … conta que um príncipe perdeu a sucessão ao trono porque não interrompeu uma partida de fanorona (relato não acadêmico, a verificar).…
+- Stewart Culin dedicou ao jogo um artigo em 1924, no auge da moda do mahjong no Ocidente. Regras comerciais da época (como as de Babcock, 1924) criaram versões de marca. A origem é do fim do séc. XIX na China (a verificar).
+
+**Regras**
+
+- …m o 1), e ventos e dragões só formam par, trinca ou quadra, nunca sequência (vídeo da Associação Brasileira de Mahjong, a verificar). O mesmo vídeo, que ensina o *riichi*, cita a mão especial de sete pares diferentes.…
 
 ### Nchayo (`nchayo`): 5 marcas
 
@@ -796,24 +827,9 @@ Status: documented · Fontes da ficha: [Mancala World](https://mancala.fandom.co
 
 - … vêm do Mancala World (*Ohvalhu* e, para o que ele manda ver, *Congkak*), que não cita uma fonte para elas: tudo vale "(a verificar)".…
 
-### Seega (`seega`): 5 marcas
-
-Status: documented · Fontes da ficha: [Ludii: Seega rules 9×10](https://ludii.games/variantDetails.php?keyword=Ludus+Latrunculorum&variant=1613); [Wikipedia](https://en.wikipedia.org/wiki/Ludus_latrunculorum); [Lane, Manners and Customs of the Modern Egyptians (Project Gutenberg)](https://www.gutenberg.org/ebooks/70796); [Ludii: Seega](https://ludii.games/details.php?keyword=Seega)
-
-**Como jogar?**
-
-- Uma peça na casa do centro não pode ser capturada (a verificar).
-- 8. Vence quem capturar todas as peças do adversário. Se o jogo travar, vence quem tiver mais peças (a verificar).
-
-**Regras**
-
-- …xando a casa central vazia. Segundo Lane (1836), as duas primeiras peças de cada um vão em casas marcadas no tabuleiro (a verificar quais), e as outras, onde o jogador quiser.…
-- 5. Peça na casa central não pode ser capturada (a verificar; não está em Lane 1836).
-- 7. Vence quem capturar todas as peças adversárias ou o que tiver mais peças quando o jogo trava (a verificar; Lane 1836 diz que as únicas regras são as de colocar, abrir caminho e capturar).
-
 ### Shisima (`shisima`): 5 marcas
 
-Status: documented · Fontes da ficha: [Ludii (trecho)](https://ludii.games/search.php?id=DLP.Games.credit.Eric+Piette); [Wikipedia](https://en.wikipedia.org/wiki/Shisima); [LoboGames UFRGS](https://www.inf.ufrgs.br/lobogames/wp-content/uploads/2023/06/Jogos_Semana_Africa_UFRGS_2023_tamanho_A4.pdf)
+Status: documented · Fontes da ficha: [Ludii (trecho)](https://ludii.games/search.php?id=DLP.Games.credit.Eric+Piette); [Wikipedia](https://en.wikipedia.org/wiki/Shisima); [LoboGames UFRGS](https://www.inf.ufrgs.br/lobogames/wp-content/uploads/2023/06/Jogos_Semana_Africa_UFRGS_2023_tamanho_A4.pdf); [YouTube: Professora Vilma Ribeiro](https://www.youtube.com/watch?v=gQEDxmJIVe4); [YouTube: GAMES AND PUZZLES CALI](https://www.youtube.com/watch?v=UT3rYmfcSAQ)
 
 **Peças**
 
@@ -832,38 +848,67 @@ Status: documented · Fontes da ficha: [Ludii (trecho)](https://ludii.games/sear
 
 - Segundo a Wikipedia (a verificar: a seção de regras não cita fonte), as linhas são os lados do octógono e quatro retas que ligam cada canto ao oposto, passando pelo centro; cada jogador começa com as 3 peças em três cantos seguidos, com um …
 
-### Alquerque (`alquerque`): 6 marcas
+### Sittuyin (`sittuyin`): 5 marcas
 
-Status: documented · Fontes da ficha: [Wikipedia](https://en.wikipedia.org/wiki/Alquerque); [Wikipédia](https://pt.wikipedia.org/wiki/Alquerque); [Libro de los juegos (Commons)](https://commons.wikimedia.org/wiki/Category:Libro_de_los_juegos); [Fernandes e Alberto 2009 (Açafa)](https://www.altotejo.org/acafa/docsn2/jogos_gravados_em_pedra_do_distrito_de_castelo_branco.pdf); [Alfonso X's Book of Games (tradução de Sonja Musser Golladay)](https://jnsilva.ludicum.org/HJT2012/BookofGames.pdf); [Ludii: Alquerque](https://ludii.games/details.php?keyword=Alquerque)
+Status: documented · Fontes da ficha: [Chess Variant Pages](https://chessvariants.org/link/ludiiportal); [Murray 1913 (IA)](https://archive.org/details/AHistoryOfChess); [Ludii: Sittuyin](https://ludii.games/details.php?keyword=Sittuyin); [Wikipedia: Sittuyin](https://en.wikipedia.org/wiki/Sittuyin); [YouTube: AncientChess](https://www.youtube.com/watch?v=ebRVTzKSP-0)
 
 **Como jogar?**
 
-- 1. Cada jogador põe as suas 12 peças do seu lado do tabuleiro: nas duas fileiras mais perto de você e nos dois pontos da direita da fileira do meio (a verificar). Só o ponto do centro fica vazio.
+- 2. Depois, vocês se alternam pondo as outras peças. Na sua vez, ponha uma peça maior numa casa vazia da sua metade do tabuleiro. O vermelho começa a colocação, seguido do preto (a verificar).
+
+**Para quem conduz**
+
+- …casa marcada"; a Wikipedia acrescenta, sem fonte, que o peão que passa da casa de promoção não pode mais ser promovido (a verificar). Posição do rei: o costume é pôr o rei na segunda casa da direita da 2ª fileira com um elefante ao lado; pa…
 
 **Regras**
 
-- …tória, sem falar de sopro. A Wikipedia dá a captura e a cadeia de saltos como obrigatórias, com sopro, sem citar fonte (a verificar), e Fernandes e Alberto (2009) dão a captura como obrigatória, sem sopro (a verificar).…
-- …zem que as peças andam e saltam pelas linhas. Fernandes e Alberto (2009) dizem que andam em qualquer das oito direções (a verificar), e a Wikipedia, sem fonte, que vão a qualquer ponto vizinho ligado por linha (a verificar). A proibição de …
-- 9. Cada jogador põe as suas 12 peças de um lado do tabuleiro (Afonso X 1283, tradução de Golladay): nas duas fileiras mais próximas dele e nos dois pontos da direita da fileira do meio (Wikipedia, sem fonte, a verificar).
+- Quem começa: o vermelho começa a colocação, seguido do preto (Wikipedia, sem fonte citada, a verificar). Murray diz só que as jogadas são alternadas.
+- …alem as casas marcadas do lado do adversário; Murray não diz isso com essas palavras. Pela Wikipedia (sem fonte citada, a verificar), o peão que passa da casa de promoção não pode mais ser promovido.…
+- Colocação, nota sobre o vídeo de AncientChess (a verificar): o vermelho arruma todas as suas peças e depois o preto, ou os dois arrumam ao mesmo tempo com uma tela entre eles; o vermelho faz o primeiro lance; os carros só vão na fileira de …
 
-### Duodecim scripta / alea (`duodecim-scripta`): 6 marcas
+### Fanorona (`fanorona`): 6 marcas
 
-Status: reconstructed · Fontes da ficha: [BGSJ 19 (2025)](https://reference-global.com/issue/BGS/19/1)
+Status: documented · Fontes da ficha: [Ludii: fontes](https://ludii.games/sources.php); [Wikipedia](https://en.wikipedia.org/wiki/Fanorona); [Wikipédia](https://pt.wikipedia.org/wiki/Fanorona); [boardspace (regras)](https://www.boardspace.net/fanorona/english/rules.html); [YouTube: Lobogames UFRGS](https://www.youtube.com/watch?v=L4k2wvy6CjY); [YouTube: VemKaJogar](https://www.youtube.com/watch?v=70GDLkFLW9U)
 
 **Tabuleiro**
 
-- 3×12 casas (a verificar)
+- 5×9 pontos com diagonais (a verificar)
+
+**Peças**
+
+- 22 por jogador (a verificar)
 
 **Do que você vai precisar?**
 
-- Um tabuleiro de 3 fileiras de 12 casas (a verificar)
-- 15 peças para cada jogador (a verificar)
-- 3 dados (a verificar)
-- Esta ficha não tem "Como jogar?": nenhuma regra antiga completa sobreviveu, e a curadoria ainda não escolheu qual reconstrução ensinar. As quantidades acima são "leituras correntes" e levam "(a verificar)".
+- Um tabuleiro de 45 pontos, em 5 fileiras de 9, ligados por linhas na horizontal, na vertical e por diagonais (a verificar)
+- 22 peças para cada jogador, de cores diferentes (a verificar)
+
+**História**
+
+- … conta que um príncipe perdeu a sucessão ao trono porque não interrompeu uma partida de fanorona (relato não acadêmico, a verificar).…
 
 **Regras**
 
-- Reconstruídas. Leituras correntes (a verificar): 15 peças por jogador, três dados, percurso pelas três fileiras. Nenhuma regra antiga completa sobreviveu.
+- …az uma captura obrigatória perde a peça que podia ter capturado: o adversário a tira do tabuleiro (vídeo de VemKaJogar, a verificar). Nota de divergência: no mesmo vídeo, continuar capturando também é obrigatório, ao contrário da Regra 8. O…
+
+### Gulugufe (borboleta) (`gulugufe`): 6 marcas
+
+Status: documented · Fontes da ficha: [Wikipedia](https://en.wikipedia.org/wiki/Butterfly_(game)); [Universidade dos Açores](https://repositorio.uac.pt/bitstreams/67d9c289-8531-490c-a897-ce60d79ef5a6/download); [LoboGames UFRGS](https://www.inf.ufrgs.br/lobogames/wp-content/uploads/2023/06/Jogos_Semana_Africa_UFRGS_2023_tamanho_A4.pdf); [Wikipedia: Lau kata kati](https://en.wikipedia.org/wiki/Lau_kata_kati); [Ludii: Lau Kata Kati](https://ludii.games/details.php?keyword=Lau+Kata+Kati); [YouTube: Brinque com Madeira](https://www.youtube.com/watch?v=byTaqnvU-N8)
+
+**Tabuleiro**
+
+- dois triângulos unidos pelo vértice (19 pontos, a verificar)
+
+**Como jogar?**
+
+- 1. Cada jogador começa com as suas 9 peças nos pontos de um triângulo. Só a ponta comum fica vazia (a verificar).
+- Se puder e não capturar, o adversário tira do tabuleiro a sua peça que podia ter capturado. Esse castigo se chama sopro (a verificar).
+- Se houver mais de uma captura possível, escolha qualquer uma, sem castigo (a verificar).
+
+**Regras**
+
+- …s com os lados e com a reta do meio. Cada jogador começa com as 9 peças num triângulo, e só o vértice comum fica vazio (a verificar: é assim no *lau kata kati*, segundo a Wikipedia e o Ludii).…
+- …o), mas, havendo mais de uma captura possível, o jogador escolhe qualquer uma sem ser soprado; e vale o "tocou, jogou" (a verificar).…
 
 ### Mulabalaba (`mulabalaba`): 6 marcas
 
@@ -881,27 +926,75 @@ Status: documented · Fontes da ficha: [Mancala World](https://mancala.fandom.co
 
 - **Base, do Hawalis** (Mancala World, Hawalis; o Hawalis dele tem 4×7 covas e 2 sementes por cova. Para o Mulabalaba é tudo "(a verificar)", porque não foi conferido com Chaplin):
 
-### Omweso (`omweso`): 6 marcas
+### Ouk chatrang (`ouk-chatrang`): 6 marcas
 
-Status: documented · Fontes da ficha: [Ludii: biblioteca](https://ludii.games/library.php); [Wikimedia Commons: Mancala](https://commons.wikimedia.org/wiki/Category:Mancala); [Ludii: Mweso](https://ludii.games/details.php?keyword=Mweso); [Isabirye 2024: Omweso (Kawowo Sports)](https://kawowo.com/2024/06/17/omweso-buganda-kingdom-names-management-committee-to-rejuvenate-the-traditional-board-game/); [Wikipedia: Omweso](https://en.wikipedia.org/wiki/Omweso)
-
-**Peças**
-
-- 64 sementes (a verificar)
-
-**Do que você vai precisar?**
-
-- 32 sementes para cada jogador, 64 no total (a verificar)
+Status: partial · Fontes da ficha: [Wikipedia: Makruk](https://en.wikipedia.org/wiki/Makruk); [Krabbé: Makruk, chess in Cambodia](https://timkr.home.xs4all.nl/chess/makruk.htm); [YouTube: AncientChess](https://www.youtube.com/watch?v=aw3hKSYkXmI)
 
 **Como jogar?**
 
-- 2. Um sorteio decide quem começa. Quem começa arruma todas as suas sementes nas suas covas como quiser. Depois, o outro arruma as dele. Então quem começou faz a primeira semeadura (a verificar).
-- 7. Perde quem não consegue mais jogar: quando todas as suas sementes foram capturadas ou quando você não tem nenhuma cova com mais de uma semente. Também vence quem, num mesmo lance, captura nas duas pontas do tabuleiro (a verificar).
+- As regras vêm do makruk, e nenhuma fonte lida confirma ponto por ponto que o *ouk* as segue (a verificar).
+- 5. No primeiro lance do rei, ou do *met*, e só se ainda não houve nenhuma captura, o *ouk* tem lances a mais (a verificar se valem em toda partida):
+- Não vale dar xeque-mate com xeque descoberto, aquele em que você move uma peça e quem dá o xeque é outra peça sua, que estava atrás dela (a verificar).
 
 **Regras**
 
-- …s suas covas como quiser; depois, o outro arruma as dele; e então quem começou faz a primeira semeadura (Isabirye 2024, a verificar). O Ludii, a partir de Shackell (1934), diz só que cada jogador arruma as suas sementes como quiser.…
-- …e uma semente (Isabirye 2024). Também vence quem, num mesmo lance, captura nas duas pontas do tabuleiro (Isabirye 2024, a verificar).…
+- …ikipedia e Krabbé dizem do jogo no Camboja, e depois as regras do makruk, que valem para o *ouk* salvo o que está dito (a verificar: nenhuma fonte consultada confirma ponto por ponto que o *ouk* as segue).…
+- 5. Quem começa: Krabbé diz, "se bem me lembro" (a verificar), que cada jogador mantém a mesma cor numa série de partidas, e que brancas e pretas começam alternadamente. A Wikipedia não diz quem começa no *ouk*.
+- …o makruk: 8 com dois barcos, 16 com um, 22 com dois *khon*, 32 com dois cavalos, 44 com um *khon*, 64 nos outros casos (a verificar).…
+
+### Puluc (`puluc`): 6 marcas
+
+Status: documented · Fontes da ficha: [Ludii](https://ludii.games/details.php?keyword=Puluc); [Wikipedia: Bul](https://en.wikipedia.org/wiki/Bul_(game)); [cyningstan (regras de Bell)](http://www.cyningstan.com/game/149/puluc); [Sapper 1906: Spiele der Kekchi-Indianer (Boas Anniversary Volume, archive.org)](https://archive.org/details/boasanniversary00laufgoog); [Culin 1907: Games of the North American Indians (archive.org)](https://archive.org/details/gamesofnorthamer00culirich); [YouTube: Mitra Jogos](https://www.youtube.com/watch?v=6TtVPcsT75g); [YouTube: Deny Us Not Game Night](https://www.youtube.com/watch?v=ks2v3Wmnoho)
+
+**Evidência**
+
+- Culin 1907 (a verificar)
+
+**Como jogar?**
+
+- Não pare um pauzinho seu em cima de outro pauzinho seu (a verificar).
+- Se nenhum pauzinho seu puder andar o que você tirou, passe a vez (a verificar).
+
+**Regras**
+
+- …meça; uma peça não pode parar sobre outra do mesmo dono, a não ser que esta seja prisioneira do adversário (cyningstan, a verificar). Nas regras de Bell, uma peça também não para sobre outra do mesmo dono, e quem não tem lance possível com …
+- … peça capturada fica debaixo da que a capturou e anda junto com ela (vídeos de Mitra Jogos e de Deny Us Not Game Night, a verificar). Nota de divergência: o vídeo de Deny Us Not Game Night ensina, como forma básica, que a peça que captura s…
+
+### Yut nori (`yut-nori`): 6 marcas
+
+Status: documented · Fontes da ficha: [Ludii: biblioteca](https://ludii.games/library.php); [Avedon: bibliografia de Culin](https://healthy.uwaterloo.ca/museum/Archives/Culin/index.html); [Culin 1895: Korean Games (archive.org)](https://archive.org/details/cu31924023272424); [Ludii: Nyout](https://ludii.games/details.php?keyword=Nyout); [YouTube: Steve Miller](https://www.youtube.com/watch?v=G90o0ai57EM)
+
+**Tabuleiro**
+
+- 29 estações (a verificar)
+
+**Como jogar?**
+
+- A peça capturada sai do tabuleiro e tem de começar o percurso de novo (a verificar).
+- Se você capturar um grupo de peças juntas, todas voltam ao começo. Por isso andar em grupo é mais rápido, mas arriscado (a verificar).
+
+**História**
+
+- Stewart Culin o descreveu como *nyout* em *Korean Games* (1895). Tabuleiros e conjuntos coreanos aparecem em coleções etnográficas da época de Culin (a verificar).
+- Segundo o vídeo de Steve Miller, é um jogo de família típico do *Seollal*, o Ano Novo lunar coreano. Nas partidas tradicionais, o tabuleiro é bordado num pano redondo, e há quem o risque na areia da praia (a verificar).
+
+**Regras**
+
+- … recomeça; se a peça que cai sobre o adversário encontra um grupo, todas as peças do grupo saem (vídeo de Steve Miller, a verificar). O vídeo confirma os valores do lance, o lance extra com *yut* e *mo*, o lance extra depois de capturar, os…
+
+### Alquerque (`alquerque`): 7 marcas
+
+Status: documented · Fontes da ficha: [Wikipedia](https://en.wikipedia.org/wiki/Alquerque); [Wikipédia](https://pt.wikipedia.org/wiki/Alquerque); [Libro de los juegos (Commons)](https://commons.wikimedia.org/wiki/Category:Libro_de_los_juegos); [Fernandes e Alberto 2009 (Açafa)](https://www.altotejo.org/acafa/docsn2/jogos_gravados_em_pedra_do_distrito_de_castelo_branco.pdf); [Alfonso X's Book of Games (tradução de Sonja Musser Golladay)](https://jnsilva.ludicum.org/HJT2012/BookofGames.pdf); [Ludii: Alquerque](https://ludii.games/details.php?keyword=Alquerque); [YouTube: Práticas em Educação Física - Profa Fran Sylos](https://www.youtube.com/watch?v=CwIbSJQii0Q); [YouTube: Triple S Games](https://www.youtube.com/watch?v=NhtYt1cRFzw)
+
+**Como jogar?**
+
+- 1. Cada jogador põe as suas 12 peças do seu lado do tabuleiro: nas duas fileiras mais perto de você e nos dois pontos da direita da fileira do meio (a verificar). Só o ponto do centro fica vazio.
+
+**Regras**
+
+- …tória, sem falar de sopro. A Wikipedia dá a captura e a cadeia de saltos como obrigatórias, com sopro, sem citar fonte (a verificar), e Fernandes e Alberto (2009) dão a captura como obrigatória, sem sopro (a verificar). O vídeo de Triple S …
+- …zem que as peças andam e saltam pelas linhas. Fernandes e Alberto (2009) dizem que andam em qualquer das oito direções (a verificar), e a Wikipedia, sem fonte, que vão a qualquer ponto vizinho ligado por linha (a verificar). A proibição de …
+- …iras mais próximas dele e nos dois pontos da direita da fileira do meio (Wikipedia, sem fonte; vídeo de Triple S Games; a verificar).…
 
 ### Ayit (`ayit`): 7 marcas
 
@@ -923,45 +1016,79 @@ Status: documented · Fontes da ficha: [Mancala World](https://mancala.fandom.co
 - …quem está jogando, que ainda faz outra jogada. Pode haver várias capturas numa mesma semeadura (Mancala World, Anywoli; a verificar para o Ayit, porque a fonte do Ayit só diz que as regras são "semelhantes").…
 - 8. Vence quem tiver capturado mais sementes (Mancala World, Anywoli; a verificar para o Ayit).
 
-### Oware (`oware`): 8 marcas
+### Duodecim scripta / alea (`duodecim-scripta`): 8 marcas
 
-Status: documented · Fontes da ficha: [Wikipedia](https://en.wikipedia.org/wiki/Oware); [Ludii](https://ludii.games/details.php?keyword=Oware); [BGG wiki](https://boardgamegeek.com/wiki/page/thing%3A28302); [Mancala World: Ntim Gyakari](https://mancala.fandom.com/wiki/Ntim_Gyakari)
+Status: reconstructed · Fontes da ficha: [BGSJ 19 (2025)](https://reference-global.com/issue/BGS/19/1); [YouTube: Xaugar](https://www.youtube.com/watch?v=hN2ceFHFoSE)
 
-**Como jogar?**
+**Tabuleiro**
 
-- 5. Se as cavidades do adversário estiverem todas vazias, faça uma jogada que leve sementes para o lado dele. Se nenhuma jogada levar, capture todas as sementes do seu lado, e a partida acaba (a verificar).
-- 6. Se a partida cair num ciclo sem fim, sem ninguém conseguir capturar, vocês podem combinar de parar: cada um captura as sementes do seu lado (a verificar).
-- 7. Vence quem capturar mais de 24 sementes, e a partida acaba quando alguém chega a 25 (a verificar). Se cada um ficar com 24, é empate (a verificar).
+- 3×12 casas (a verificar)
 
-**Regras**
+**Do que você vai precisar?**
 
-- …o dele. Se nenhuma jogada levar, o jogador captura todas as sementes do seu próprio lado, e a partida acaba (Wikipedia, a verificar; Bennett 1927: 382–385, pelo Ludii).…
-- 7. A partida acaba quando um jogador captura 25 sementes ou mais. Com 24 para cada um, é empate (Wikipedia, regras do *abapa*, a verificar).
-- 8. Se a partida cai num ciclo sem fim, em que ninguém consegue capturar, os jogadores podem combinar de parar, e cada um captura as sementes que estão do seu lado (Wikipedia, a verificar; Bennett 1927: 382–385, pelo Ludii).
-- …as do *abapa*, a jogada que capturaria todas as sementes do adversário pode ser feita, mas não captura nada (Wikipedia, a verificar). Chamberlin (2017) lista quatro variações: a jogada é proibida; é permitida, mas não captura (a regra das c…
+- Um tabuleiro de 3 fileiras de 12 casas (a verificar)
+- 15 peças para cada jogador (a verificar)
+- 3 dados (a verificar)
+- Esta ficha não tem "Como jogar?": nenhuma regra antiga completa sobreviveu, e a curadoria ainda não escolheu qual reconstrução ensinar. As quantidades acima são "leituras correntes" e levam "(a verificar)".
 
-### Morabaraba (`morabaraba`): 9 marcas
+**Para quem conduz**
 
-Status: documented · Fontes da ficha: [Ludii](https://ludii.games/details.php?keyword=Morabaraba); [Ludii: evidência do Lesoto](https://ludii.games/data.php?keyword=Lesotho); [Wikipedia](https://en.wikipedia.org/wiki/Morabaraba)
-
-**Como jogar?**
-
-- 2. O tabuleiro começa vazio. Quem tem as peças escuras começa (a verificar). Na sua vez, coloque uma peça sua num ponto vazio.
-- Se todas as peças do adversário estiverem em moinhos, você pode tirar qualquer uma (a verificar).
-- Um moinho desfeito para formar outro não pode ser refeito logo na jogada seguinte (a verificar).
-- 9. Se um dos jogadores tiver só três peças e ninguém capturar em dez jogadas, a partida empata (a verificar).
+- …m ter seis palavras de seis letras, e que uma hipótese para eles é disfarçar o jogo em tempos de proibição das apostas (a verificar). O vídeo propõe regras abertas, com 15 peças e 3 dados, para cada mesa ajustar.…
 
 **Regras**
 
-- 6. As peças escuras começam (Wikipedia, a verificar).
-- 7. Moinho é qualquer fileira de três peças numa linha desenhada no tabuleiro. Se todas as peças do adversário estiverem em moinhos, qualquer uma pode ser retirada (Wikipedia, a verificar).
-- 8. A fase de movimento começa quando todas as peças foram colocadas (Wikipedia, a verificar).
-- 9. Nas regras da Mind Sports South Africa, um moinho desfeito para formar outro não pode ser refeito na jogada seguinte (Wikipedia, a verificar).
-- 10. Se um dos jogadores tiver só três peças e ninguém capturar em dez jogadas, a partida empata (Wikipedia, a verificar).
+- Reconstruídas. Leituras correntes (a verificar): 15 peças por jogador, três dados, percurso pelas três fileiras. Nenhuma regra antiga completa sobreviveu.
+- O vídeo de Xaugar (a verificar) confirma as leituras correntes, com 15 peças por jogador e 3 dados, e propõe que as peças entrem pela fileira do meio, sigam pela de cima da direita para a esquerda e depois pela de baixo da esquerda para a d…
+
+### Omweso (`omweso`): 8 marcas
+
+Status: documented · Fontes da ficha: [Ludii: biblioteca](https://ludii.games/library.php); [Wikimedia Commons: Mancala](https://commons.wikimedia.org/wiki/Category:Mancala); [Ludii: Mweso](https://ludii.games/details.php?keyword=Mweso); [Isabirye 2024: Omweso (Kawowo Sports)](https://kawowo.com/2024/06/17/omweso-buganda-kingdom-names-management-committee-to-rejuvenate-the-traditional-board-game/); [Wikipedia: Omweso](https://en.wikipedia.org/wiki/Omweso); [YouTube: RambArt](https://www.youtube.com/watch?v=VavieakxpX0)
+
+**Peças**
+
+- 64 sementes (a verificar)
+
+**Do que você vai precisar?**
+
+- 32 sementes para cada jogador, 64 no total (a verificar)
+
+**Como jogar?**
+
+- 2. Um sorteio decide quem começa. Quem começa arruma todas as suas sementes nas suas covas como quiser. Depois, o outro arruma as dele. Então quem começou faz a primeira semeadura (a verificar).
+- …huma cova com mais de uma semente. Também vence quem, num mesmo lance, captura nas duas pontas do tabuleiro, o *emiri* (a verificar).…
+- Há ainda o *akaka*: vence quem captura em dois lances seus antes de o adversário ter capturado alguma semente (a verificar).
+
+**Regras**
+
+- …s suas covas como quiser; depois, o outro arruma as dele; e então quem começou faz a primeira semeadura (Isabirye 2024, a verificar). O Ludii, a partir de Shackell (1934), diz só que cada jogador arruma as suas sementes como quiser.…
+- …e uma semente (Isabirye 2024). Também vence quem, num mesmo lance, captura nas duas pontas do tabuleiro (Isabirye 2024, a verificar).…
+- …i*), e acrescenta o *akaka*: vence quem captura em dois lances seus antes de o adversário ter capturado alguma semente (a verificar).…
+
+### Ntxuva (`ntxuva`): 9 marcas
+
+Status: partial · Fontes da ficha: [REIN/UEPB (Nampula)](https://revista.uepb.edu.br/REIN/article/download/170/109/584); [UFFS (oficina)](https://portaleventos.uffs.edu.br/index.php/SAMAT/article/download/17930/12239); [Mancala World: Tchadji](https://mancala.fandom.com/wiki/Tchadji); [Mancala World: Tchouba](https://mancala.fandom.com/wiki/Tchouba); [YouTube: Centro de Referências em Educação Integral](https://www.youtube.com/watch?v=YeOoUlrO9qc)
+
+**Povos**
+
+- moçambicanos (povo de origem a verificar)
+
+**Como jogar?**
+
+- O passo a passo vem de um só vídeo, do Centro de Referências em Educação Integral, e por isso tudo nele está "a verificar".
+- 1. Cada jogador fica com as duas fileiras do seu lado. A fileira de dentro, junto ao meio, é a do ataque; a de fora é a da defesa. Ponha 2 sementes em cada cova (a verificar).
+- 2. Na sua vez, pegue todas as sementes de uma cova sua que tenha pelo menos 2 e semeie, uma em cada cova seguinte, no sentido anti-horário, só nas suas duas fileiras (a verificar).
+- 3. Se a última semente cair numa cova com sementes, pegue todas as sementes dela e continue semeando. A semeadura só para quando a última semente cai numa cova vazia (a verificar).
+- 4. Olhe onde ela parou (a verificar):
+- 6. Quando nenhuma cova tiver mais de uma semente, começa a segunda fase: aí vale semear a partir de uma cova com uma semente só, e ela anda só uma cova (a verificar).
+- 7. Vence quem tirar todas as sementes do lado do adversário (a verificar).
+
+**Regras**
+
+- Regras do vídeo do Centro de Referências em Educação Integral (em português; a verificar, porque o vídeo não diz de onde tirou as regras):
 
 ### Ayò (`ayo`): 10 marcas
 
-Status: documented · Fontes da ficha: [Wikipedia](https://en.wikipedia.org/wiki/Ayoayo); [John P. Pratt: regras](https://johnpratt.com/items/mancala/ayoayo.html); [John P. Pratt: regras gerais](https://johnpratt.com/items/mancala/index.html)
+Status: documented · Fontes da ficha: [Wikipedia](https://en.wikipedia.org/wiki/Ayoayo); [John P. Pratt: regras](https://johnpratt.com/items/mancala/ayoayo.html); [John P. Pratt: regras gerais](https://johnpratt.com/items/mancala/index.html); [YouTube: City of Surrey](https://www.youtube.com/watch?v=21JTI7_a9Bk)
 
 **Como jogar?**
 
@@ -978,9 +1105,32 @@ Status: documented · Fontes da ficha: [Wikipedia](https://en.wikipedia.org/wiki
 - …s e não deu, deixando o adversário sem nenhuma, perde para ele todas as sementes que restam do seu lado (John P. Pratt, a verificar).…
 - 10. A partida acaba quando um jogador, na sua vez, não pode jogar (John P. Pratt, a verificar). A Wikipedia acrescenta, sem fonte, que o adversário captura as sementes que restam no tabuleiro (a verificar).
 
-### Janggi (`janggi`): 10 marcas
+### Seega (`seega`): 10 marcas
 
-Status: documented · Fontes da ficha: [Blog: Context of a Game](https://ineveryclimeandplace.substack.com/p/part-1context-of-a-game); [Wikipedia](https://en.wikipedia.org/wiki/Janggi); [Ludii](https://ludii.games/details.php?keyword=Janggi); [Culin 1895, Korean Games (IA)](https://archive.org/details/cu31924023272424); [ancientchess.com: How to Play Janggi](https://www.ancientchess.com/page/play-janggi.htm)
+Status: documented · Fontes da ficha: [Ludii: Seega rules 9×10](https://ludii.games/variantDetails.php?keyword=Ludus+Latrunculorum&variant=1613); [Wikipedia](https://en.wikipedia.org/wiki/Ludus_latrunculorum); [Lane, Manners and Customs of the Modern Egyptians (Project Gutenberg)](https://www.gutenberg.org/ebooks/70796); [Ludii: Seega](https://ludii.games/details.php?keyword=Seega); [YouTube: Programa EducativoCENTURIUM](https://www.youtube.com/watch?v=TfcSW2NokQM); [YouTube: The Gaming Bench](https://www.youtube.com/watch?v=jMJgzeNAcxA)
+
+**Como jogar?**
+
+- Um só movimento pode prender mais de uma peça do adversário. Todas as que ficarem presas saem (a verificar).
+- Se você mesmo puser sua peça entre duas peças do adversário, ao colocar ou ao mover, ela não é capturada (a verificar).
+- Uma peça na casa do centro não pode ser capturada (a verificar).
+- 8. Vence quem capturar todas as peças do adversário. Se o jogo travar, vence quem tiver mais peças (a verificar).
+
+**História**
+
+- …Folklore*, jogado por beduínos e egípcios com pedrinhas pretas e brancas na areia, no Sinai (vídeo de The Gaming Bench, a verificar).…
+
+**Regras**
+
+- …xando a casa central vazia. Segundo Lane (1836), as duas primeiras peças de cada um vão em casas marcadas no tabuleiro (a verificar quais), e as outras, onde o jogador quiser.…
+- 5. Peça na casa central não pode ser capturada (a verificar; não está em Lane 1836).
+- 7. Vence quem capturar todas as peças adversárias ou o que tiver mais peças quando o jogo trava (a verificar; Lane 1836 diz que as únicas regras são as de colocar, abrir caminho e capturar).
+- 8. Uma peça que o próprio jogador coloca ou move para o meio de duas peças adversárias não é capturada, e um só movimento pode capturar mais de uma peça (vídeos do Programa Educativo CENTURIUM e de The Gaming Bench, a verificar).
+- …colhe entre mover e tirar uma peça, vence quem deixar o outro com uma peça só, e a casa do centro protegida é opcional (a verificar).…
+
+### Janggi (`janggi`): 11 marcas
+
+Status: documented · Fontes da ficha: [Blog: Context of a Game](https://ineveryclimeandplace.substack.com/p/part-1context-of-a-game); [Wikipedia](https://en.wikipedia.org/wiki/Janggi); [Ludii](https://ludii.games/details.php?keyword=Janggi); [Culin 1895, Korean Games (IA)](https://archive.org/details/cu31924023272424); [ancientchess.com: How to Play Janggi](https://www.ancientchess.com/page/play-janggi.htm); [YouTube: AncientChess](https://www.youtube.com/watch?v=B6eNGSb2g5U)
 
 **Como jogar?**
 
@@ -1000,6 +1150,32 @@ Status: documented · Fontes da ficha: [Blog: Context of a Game](https://inevery
 - … sempre que não estiver em xeque, e quem não tem lance válido é obrigado a passar; se os dois passam, a partida empata (a verificar). Para o ancientchess.com, passa quem não tem lance seguro ou desejável. Em Culin (1895: 86), só o general q…
 - …ogador da vez não desfaz a situação, a partida empata; a regra nem sempre vale, e os jogadores costumam combinar antes (a verificar). Em Culin (1895: 85–86) e no ancientchess.com, só o lado mais fraco pode pôr o seu general de frente para o…
 - 17. Pela Wikipedia (a verificar), a partida também empata se nenhum dos dois pode mover ou se nenhum tem peças para vencer; pelo ancientchess.com, empata se um jogador força a repetição das mesmas posições ou se os dois concordam.
+- … mais vencer). Acrescenta que o xeque-mate dado por uma peça protegida pelo próprio general não vale: a partida empata (a verificar).…
+
+### Morabaraba (`morabaraba`): 12 marcas
+
+Status: documented · Fontes da ficha: [Ludii](https://ludii.games/details.php?keyword=Morabaraba); [Ludii: evidência do Lesoto](https://ludii.games/data.php?keyword=Lesotho); [Wikipedia](https://en.wikipedia.org/wiki/Morabaraba); [YouTube: Práticas em Educação Física - Profa Fran Sylos](https://www.youtube.com/watch?v=wggxWmmw3QE); [YouTube: NewVenture Games](https://www.youtube.com/watch?v=kjlFp13Lifc)
+
+**Como jogar?**
+
+- 2. O tabuleiro começa vazio. Quem tem as peças escuras começa (a verificar). Na sua vez, coloque uma peça sua num ponto vazio.
+- Se todas as peças do adversário estiverem em moinhos, você pode tirar qualquer uma (a verificar).
+- Se uma jogada formar dois moinhos de uma vez, você tira só uma peça (a verificar).
+- Um moinho desfeito para formar outro não pode ser refeito logo na jogada seguinte (a verificar).
+- 9. Se um dos jogadores tiver só três peças e ninguém capturar em dez jogadas, a partida empata (a verificar).
+
+**História**
+
+- …os em escavações na África do Sul, com pelo menos 800 anos, e de campeonatos organizados pela Mind Sports South Africa (a verificar).…
+
+**Regras**
+
+- 6. As peças escuras começam (Wikipedia, a verificar).
+- 7. Moinho é qualquer fileira de três peças numa linha desenhada no tabuleiro. Se todas as peças do adversário estiverem em moinhos, qualquer uma pode ser retirada (Wikipedia, a verificar).
+- 8. A fase de movimento começa quando todas as peças foram colocadas (Wikipedia, a verificar).
+- 9. Nas regras da Mind Sports South Africa, um moinho desfeito para formar outro não pode ser refeito na jogada seguinte (Wikipedia, a verificar).
+- 10. Se um dos jogadores tiver só três peças e ninguém capturar em dez jogadas, a partida empata (Wikipedia, a verificar).
+- 11. Uma jogada que forma dois moinhos de uma vez retira só uma peça (vídeo de NewVenture Games, a verificar). O vídeo confirma as Regras 7 e 9 e o voo com três peças. Sobre o empate, ele diz que, nos torneios, dez jogadas seguidas sem moinh…
 
 ### Dominó cubano (doble nueve) (`domino-doble-nueve`): 14 marcas
 
@@ -1030,6 +1206,25 @@ Status: partial · Fontes da ficha: [thecubanhistory.com](https://thecubanhistor
 - 6. O primeiro a ficar sem peças anuncia "*Me pegué*" ou "Gané" e ganha a mão (Wikipedia em espanhol, a verificar; Diario Las Américas registra o "*me pegué*" para quem ganha pondo a última peça).
 - …das peças dos adversários. Em duplas, somam-se os pontos de cada dupla, e ganha a de menor soma (Wikipedia em espanhol, a verificar).…
 - 8. A partida é ganha por quem chega primeiro a 100 pontos (Wikipedia em espanhol, a verificar).
+
+### Oware (`oware`): 14 marcas
+
+Status: documented · Fontes da ficha: [Wikipedia](https://en.wikipedia.org/wiki/Oware); [Ludii](https://ludii.games/details.php?keyword=Oware); [BGG wiki](https://boardgamegeek.com/wiki/page/thing%3A28302); [Mancala World: Ntim Gyakari](https://mancala.fandom.com/wiki/Ntim_Gyakari); [YouTube: Mitra Jogos](https://www.youtube.com/watch?v=_bc81xoaeDI); [YouTube: Julian Groves](https://www.youtube.com/watch?v=v9LNUvHqXeQ)
+
+**Como jogar?**
+
+- Quando a última semente cai, a semeadura acaba. Você não pega as sementes de onde ela caiu para seguir semeando (a verificar).
+- 5. Se as cavidades do adversário estiverem todas vazias, faça uma jogada que leve sementes para o lado dele. Se nenhuma jogada levar, capture todas as sementes do seu lado, e a partida acaba (a verificar).
+- 6. Se a partida cair num ciclo sem fim, sem ninguém conseguir capturar, vocês podem combinar de parar: cada um captura as sementes do seu lado (a verificar).
+- 7. Vence quem capturar mais de 24 sementes, e a partida acaba quando alguém chega a 25 (a verificar). Se cada um ficar com 24, é empate (a verificar).
+
+**Regras**
+
+- …o dele. Se nenhuma jogada levar, o jogador captura todas as sementes do seu próprio lado, e a partida acaba (Wikipedia, a verificar; Bennett 1927: 382–385, pelo Ludii; vídeo de Julian Groves, regras do *abapa* de Kofi Tall, a verificar). O …
+- 7. A partida acaba quando um jogador captura 25 sementes ou mais. Com 24 para cada um, é empate (Wikipedia, regras do *abapa*, a verificar; vídeo de Julian Groves, a verificar).
+- …onsegue capturar, os jogadores podem combinar de parar, e cada um captura as sementes que estão do seu lado (Wikipedia, a verificar; Bennett 1927: 382–385, pelo Ludii; vídeo de Julian Groves, a verificar).…
+- …as do *abapa*, a jogada que capturaria todas as sementes do adversário pode ser feita, mas não captura nada (Wikipedia, a verificar; vídeo de Julian Groves, que atribui a regra à Oware Society e à Warri Society International, a verificar). …
+- …m cadeia para na primeira cavidade que não tem 2 ou 3 sementes (vídeo de Julian Groves, regras do *abapa* de Kofi Tall, a verificar).…
 
 ### Adji-boto (`adji-boto`): 17 marcas
 

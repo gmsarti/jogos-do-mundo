@@ -78,7 +78,7 @@ O tabuleiro pode ser impresso ou desenhado no papel. Se não tiver peças de xad
    - Rei: uma casa em qualquer direção.
    - Dama: quantas casas quiser em linha, em todas as direções.
    - Torre: quantas casas quiser na horizontal ou na vertical.
-   - Bispo: quantas casas quiser na diagonal.
+   - Bispo: quantas casas quiser na diagonal. Por isso cada bispo passa a partida inteira em casas da mesma cor.
    - Cavalo: duas casas na horizontal e uma na vertical, ou uma na horizontal e duas na vertical, como um "L". É a única peça que salta por cima das outras.
    - Peão: uma casa para a frente, ou duas no primeiro lance dele.
    - Dama, torre e bispo não passam por cima de nenhuma peça no caminho.
@@ -99,6 +99,8 @@ O tabuleiro pode ser impresso ou desenhado no papel. Se não tiver peças de xad
 ## Para quem conduz
 
 **Sugestão do site:** na primeira partida, ensine só o jeito de andar de cada peça, a captura e o xeque-mate. Deixe o roque, o *en passant* e as regras de empate para quando todos já estiverem à vontade.
+
+Para ajudar a decidir se uma troca vale a pena, professores costumam dar pontos às peças, como no vídeo de Xadrez Brasil: peão 1, cavalo e bispo 3, torre 5, dama 9. Não é regra do jogo, é uma dica de estratégia. O rei não tem valor, porque o xeque-mate nele encerra a partida.
 
 ## Regras
 

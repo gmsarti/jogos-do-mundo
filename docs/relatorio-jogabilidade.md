@@ -3535,3 +3535,20 @@ Etapa 2 e reescrita feitas na branch `feat/t-074-batch-10`. Fontes abertas por j
 **Divergências entre fontes registradas:** Huayru (ficha: 2 jogadores e vence quem chega ao centro; Tacconi: dois grupos e vence quem leva todas as peças); Bul (Bell, Culin, Sapper e Verbeeck); Adji-boto (prosa e código do Ludii); Awarkuden (Carvallo: 12 feijões; Manquilef: 8).
 
 **Grupo à parte:** casa-do-rei, fidchell, mehen, duodecim-scripta, taptana, quebra-cabeca-kanela e taikyoku-shogi ganharam resumo novo e "Para quem conduz"; duodecim-scripta, taptana e taikyoku-shogi ganharam também "Do que você vai precisar?" (tudo "a verificar" ou inferido). Nenhum tem "Como jogar?". O Quebra-cabeça Kanela ganhou "História" com o que Vinha diz e uma `ref` para Vinha; a fonte da ficha (CEV) não foi aberta.
+
+## Revisão pelos vídeos (T-077)
+
+Feita na branch `feat/t-077-video-review`, com as transcrições dos vídeos das `refs` (detalhes em [relatorio-videos.md](relatorio-videos.md)). Como no lote 10, os blocos acima ficaram como estavam, e abaixo está só o que mudou nas lacunas deles. Tudo o que veio de vídeo leva "(a verificar)".
+
+| Jogo | Veredito | Resolvido pelo vídeo | Segue em aberto |
+| --- | --- | --- | --- |
+| ntxuva | joga com lacunas, tudo "(a verificar)" (era "não joga") | E2–E6, I2 e I6: sementes por cova, fileiras de ataque e defesa, semeadura em revezamento, captura, segunda fase, vitória (Centro de Referências em Educação Integral) | I1 quem começa; E1 quantas colunas; I5 empate; se, na segunda fase, a semente pode cair numa cova ocupada; decidir se um vídeo sem fonte declarada basta (curadoria) |
+| ban-sugoroku | não joga | I1 quem começa; a volta da peça capturada (Mochy Backgammon, com Kusaba) | E2, E3, E5 (a posição inicial só aparece na tela do vídeo); obrigação, jogador sem jogada, empate |
+| jogo-real-de-ur | não joga | I1 quem começa; I4 sem jogada, passa a vez (VemKaJogar) | E1, E5 (o percurso só aparece na tela); I5 empate; divergência nova: no vídeo toda roseta protege |
+| yote | joga com lacunas | I2 captura múltipla; I4 quem fica sem jogada perde (VemKaJogar). O vídeo também confirma o empate com três peças ou menos (I5) | E1 (curadoria), E6, I1, I2 retirada da reserva, I3 |
+| trilha | joga com lacunas | I1 as brancas começam (Gather Together Games) | I5 empate |
+| ouk-chatrang | joga com lacunas | E5: o vídeo confirma os lances a mais do primeiro lance; I5: o vídeo usa a contagem do makruk, como a Wikipedia (AncientChess) | I1 quem começa; I5 segue como curadoria (Krabbé diverge) |
+
+**Lacunas fechadas fora dos blocos:** o vídeo fechou também pontos que a auditoria não tinha listado como lacuna: o sopro no Fanorona e no Gulugufe, o fim da semeadura no Oware, os dois moinhos no Morabaraba, a peça posta entre duas adversárias e a captura múltipla no Seega, a sequência sem volta no Mahjong, o soldado sem promoção no Xiangqi, a peça capturada no Yut nori (que a reescrita do lote 3 tinha deixado sem passo) e o *akaka* no Omweso.
+
+**Coluna "(a verificar)":** a contagem da tabela-resumo e dos blocos é a da auditoria. A contagem atual, por jogo, está em [relatorio-verificar.md](relatorio-verificar.md) (`make report`).

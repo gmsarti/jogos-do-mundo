@@ -60,6 +60,8 @@ Esta ficha ainda não tem "Como jogar?". As fontes descrevem formas diferentes d
 
 As formas estão por inteiro em "Regras". As fontes não dizem o que fazer quando um jogador não tem jogada (na forma A), e a Wikipedia cita um empate das regras da Federação de Nardy, sem fonte aberta, para a forma B.
 
+O vídeo da ficha (Gather Together Games, em inglês) ensina a forma B, com um jogo de gamão. Nele, começa quem tirar mais num dado; só uma peça sai da "cabeça" (a casa inicial) por vez; uma peça sozinha do adversário já bloqueia a casa; não vale fazer uma barreira de seis casas seguidas se nenhuma peça do adversário estiver à frente dela; e os dados iguais valem quatro movimentos.
+
 ## Regras
 
 O texto sassânida citado pelo DLP diz que as peças andam em direções opostas. A forma moderna "nardy longo" (e o registro do DLP para a Anatólia em 1845) faz os dois jogadores andarem no mesmo sentido. Não harmonizar.
@@ -89,3 +91,5 @@ O texto sassânida citado pelo DLP diz que as peças andam em direções opostas
 **Reconstrução do *nardshir*:** a Wikipedia resume uma reconstrução moderna das regras do livro atribuído a Bozorgmehr (séc. VI), publicada no site ancientgames.org: sentidos opostos, 15 peças em outra disposição inicial, captura da peça sozinha e reentrada no primeiro quadrante. A página original não pôde ser aberta (a verificar).
 
 **Quem começa, nas formas antigas:** a Wikipedia diz que cada jogador lança um dado e começa quem tirar mais, sem citar fonte para essa regra (a verificar).
+
+**Forma B no vídeo de Gather Together Games** (a verificar): começa quem tirar mais num dado; as peças andam no sentido anti-horário; só uma peça sai da cabeça por vez; uma peça sozinha do adversário já bloqueia a casa; não vale uma barreira de seis casas seguidas se não houver peça do adversário à frente dela; dados iguais valem quatro movimentos; só se tiram peças quando todas estão nas últimas seis casas, e, se a casa do número tirado estiver vazia, move-se uma peça mais distante ou, se não houver, tira-se uma mais próxima.

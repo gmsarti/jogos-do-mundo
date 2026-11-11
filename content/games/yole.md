@@ -83,3 +83,5 @@ Fonte: *Juegos mocovíes*, Etnobiológica nº 2 (1968), lido; jogo registrado a 
 8. Ganha quem eliminar todas as peças da adversária.
 
 **Não dito pelo artigo:** quem é A e quem joga primeiro; empate; o que acontece se um palito cai numa linha onde há outro palito da mesma jogadora.
+
+**Nota sobre o vídeo de GAMES AND PUZZLES CALI** (em espanhol, a partir de regras que o apresentador diz ter encontrado, sem citar a fonte; a verificar): confirma os valores dos botões, as 7 peças de cada lado e a captura ao cair na linha de uma peça adversária. Diverge no poço: o palito que cai nele fica parado até a jogadora tirar um *yolé*, e não se perde. Cita também uma forma curta, em que vence quem levar o primeiro palito à linha 1 do campo adversário.

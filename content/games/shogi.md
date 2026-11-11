@@ -53,7 +53,7 @@ place: ""
 ## Do que você vai precisar?
 
 - Um tabuleiro de 9×9 casas (81)
-- 20 peças para cada jogador: um rei, uma torre, um bispo, dois generais de ouro, dois generais de prata, dois cavalos, dois lanceiros e nove peões. As peças são fichas em forma de cunha, e a direção da ponta indica o dono
+- 20 peças para cada jogador: um rei, uma torre, um bispo, dois generais de ouro, dois generais de prata, dois cavalos, dois lanceiros e nove peões. As peças são fichas em forma de cunha, com a ponta virada para o adversário: é assim que se sabe de quem é cada peça
 
 O tabuleiro pode ser impresso ou desenhado no papel. Para as peças, dá para recortar fichas de papel-cartão em forma de cunha e escrever o nome de cada peça.
 
@@ -84,6 +84,7 @@ O tabuleiro pode ser impresso ou desenhado no papel. Para as peças, dá para re
    - O rei e o general de ouro não promovem.
    - Torre promovida: anda como torre ou uma casa na diagonal. Bispo promovido: anda como bispo ou uma casa na horizontal ou na vertical. Prata, cavalo, lanceiro e peão promovidos andam como o general de ouro.
    - A promoção não se desfaz enquanto a peça estiver no tabuleiro.
+   - Uma peça lançada dentro da zona não promove na hora: só quando se mover num lance seguinte.
 7. Se o seu rei estiver em xeque (*ōte*), você tem de se defender: fugir com o rei, capturar a peça que dá o xeque ou pôr uma peça no caminho.
 8. Lance ilegal faz perder na hora: deixar o próprio rei em xeque, dois peões não promovidos na mesma coluna, mate com lançamento de peão, peça numa casa de onde não pode sair e jogar duas vezes seguidas.
 9. Vence quem der xeque-mate. Entre jogadores experientes, é comum desistir antes do mate.
@@ -95,6 +96,8 @@ O tabuleiro pode ser impresso ou desenhado no papel. Para as peças, dá para re
 Um caso raro, o impasse (*jishōgi*), tem regras próprias: quando os dois reis entram no campo adversário e ninguém tem como dar mate, contam-se pontos pelas peças de cada um, e as regras profissionais e as amadoras divergem. A ficha registra as duas em "Regras".
 
 A ficha não diz o que acontece se um jogador, sem estar em xeque, não tiver nenhum lance possível.
+
+O vídeo do Shogi Brasil lembra que o que mais confunde quem começa são os dois generais. Uma forma de guardar: o de prata anda em X, mais uma casa reto para a frente; o de ouro anda em cruz, mais as duas diagonais para a frente. Juntos, eles cobrem as oito casas em volta.
 
 **Sugestão do site:** para a primeira partida, jogue sem lançar peças: só mover, capturar e promover. Acrescente os lançamentos quando todos tiverem entendido o resto.
 

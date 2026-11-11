@@ -63,6 +63,8 @@ A fonte não diz quanto vale uma "graça" em casas, quem começa nem se há empa
 
 **Sugestão do site:** combinem antes da partida quanto vale a graça e quem começa.
 
+O vídeo de Roll the Dice India (em inglês) ensina outra forma do jogo de 7 casas, com 6 búzios e 6 peças por jogador. Nela, os lances 6 e 12 e as capturas dão outro lance, e uma peça só entra nas voltas de dentro depois de ter capturado uma peça do adversário.
+
 ## Regras
 
 Lances com conchas ou varetas; um lance de 8 dá jogada extra ("graça") e permite dividir o movimento; o jogador não é obrigado a usar o lance; capturar uma peça adversária dá novo lance. O percurso vai de fora para o centro (a verificar).
@@ -77,3 +79,4 @@ As regras abaixo vêm de Falkener (1892: 265–266), que chama o jogo de "uma mo
 6. Captura: a peça que cai numa casa ocupada por uma peça adversária a tira do tabuleiro, e quem capturou lança de novo (Ludii; Falkener 1892: 266, "ao tomar uma peça do adversário, você lança de novo").
 7. Peças num castelo não podem ser tomadas. Uma peça pode entrar no seu castelo de entrada mesmo que haja peça adversária nele. Duas peças juntas em outra casa só podem ser tomadas por duas peças juntas (Falkener 1892: 265).
 8. Vence quem levar primeiro todas as peças ao centro (Ludii; Falkener não diz isso com essas palavras).
+9. Nota sobre o vídeo de Roll the Dice India (em inglês, a verificar): forma com 6 búzios e 6 peças por jogador, para 2 a 4 jogadores. Os búzios valem de 1 a 6 e 12; 6, 12 e uma captura dão outro lance; há casas seguras, onde ninguém é tomado; e a peça só entra nas voltas de dentro depois de capturar uma peça do adversário.

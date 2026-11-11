@@ -70,6 +70,10 @@ As fontes não concordam sobre como se captura o rei. Nas traduções modernas d
 
 **Sugestão do site:** as fontes desta ficha não dizem quem começa. Tirem na sorte ou combinem antes da partida.
 
+Os dois vídeos da ficha usam uma regra a mais: a borda do tabuleiro também prende, como o castelo vazio. Uma peça encostada na borda pode ser capturada por uma peça só, do outro lado. As fontes que seguem Linnaeus não falam disso. Combinem antes se vão usá-la.
+
+**Sugestão do site:** troquem de lado a cada partida, como faz o vídeo de MadCap Gamer. Cada lado tem um objetivo diferente e pede outro jeito de jogar.
+
 ## Regras
 
 1. O rei começa no castelo, com dois defensores em cada lado ortogonal. Os atacantes ficam em grupos de quatro no meio de cada borda.
@@ -80,3 +84,4 @@ As fontes não concordam sobre como se captura o rei. Nas traduções modernas d
 6. Os dois lados jogam alternadamente (Linnaeus 1732, pelo Ludii).
 7. O castelo vazio é hostil: uma peça pode ser capturada entre uma peça inimiga e o castelo (Ludii, a partir de Linnaeus 1732; Wikipedia, a partir das traduções modernas).
 8. Captura do rei, nota de divergência: o Ludii (a partir do texto latino de Linnaeus 1732) e a Wikipedia (a partir das traduções modernas de Ashton 2007, Cartier 2011 e Salmi 2013) dizem que o rei no castelo só é capturado cercado pelos quatro lados; numa casa vizinha ao castelo, cercado pelos três lados que sobram; em qualquer outra casa, preso entre duas peças, como as outras. A exigência de quatro atacantes em qualquer lugar vem da tradução inglesa de 1811, que a Wikipedia considera o erro central dessa tradução.
+9. Borda, nota sobre os vídeos: os vídeos de MadCap Gamer e de Nove Mundos dizem que uma peça presa entre uma peça inimiga e a borda do tabuleiro é capturada, o que as fontes acima não dizem (a verificar). O de MadCap Gamer concorda com a ficha no rei que vence ao sair pela borda e é capturado entre duas peças longe do castelo. O de Nove Mundos dá a vitória ao rei só nos cantos, como no Hnefatafl, o que diverge da Regra 4.

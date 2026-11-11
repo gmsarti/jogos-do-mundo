@@ -62,6 +62,8 @@ place: ""
 
 Esta ficha ainda não tem "Como jogar?": o triângulo e a posição inicial só aparecem em figura, e as fontes não dizem quem começa, se capturar é obrigatório nem se há empate. As regras de "Regras" vêm do *leoncito*, o jogo que as crianças chilenas conheciam em 1918-19 (Mátus), e não de informantes mapuche, que se recusaram a explicá-las.
 
+Atenção ao vídeo das fontes (BruinClub UCLA, em inglês): com o nome de komikan, ele ensina outro jogo, com 4 tigres contra 20 cães num tabuleiro de 5×5, sem o triângulo. Essas são as regras do Bagh-chal, não as do komikan que Mátus registrou, com 1 leão contra 12 cães.
+
 ## Regras
 
 1. 38 pontos: 25 no tabuleiro principal e 13 no triângulo.
@@ -76,3 +78,4 @@ Esta ficha ainda não tem "Como jogar?": o triângulo e a posição inicial só 
 10. Os cães vencem quando deixam o leão sem movimento (Mátus 1918-19: 169; Ludii).
 11. A posição inicial e o triângulo só aparecem em figura: Mátus 1918-19, fig. 51, reproduzida por Depaulis (1998, fig. 13). O texto não descreve as ligações do triângulo nem os pontos ocupados no começo.
 12. Nota (fonte moderna, sem registro antigo): o Ludii diz que o leão vence capturando todos os cães. Mátus, que o Ludii cita, não diz como o leão vence.
+13. Nota sobre o vídeo de BruinClub UCLA: com o nome de komikan, o vídeo ensina um jogo de 4 tigres contra 20 cães, num tabuleiro de 5×5 sem o triângulo, em que os cães entram um por vez e os tigres vencem comendo 5. São as regras do Bagh-chal, não as do komikan de Mátus.

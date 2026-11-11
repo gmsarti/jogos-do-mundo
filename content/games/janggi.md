@@ -65,8 +65,8 @@ O tabuleiro pode ser impresso ou desenhado no papel. As peças podem ser fichas 
    - General e guardas: um ponto por vez, ao longo das linhas marcadas, sem sair do palácio. Só andam na diagonal onde o palácio tem linha diagonal.
    - Carro: quantos pontos quiser em linha reta, na horizontal ou na vertical, sem pular peças. Dentro de qualquer palácio, também pelas diagonais, em linha reta.
    - Cavalo: um ponto em linha reta e depois um ponto na diagonal, para fora. Se houver uma peça, de qualquer cor, no primeiro ponto, ele não pode ir naquela direção.
-   - Elefante: um ponto em linha reta e depois dois pontos na diagonal, para fora. Qualquer peça no caminho o bloqueia.
-   - Canhão: quantos pontos quiser em linha reta, mas só pulando exatamente uma peça, para mover ou para capturar. A peça pulada não pode ser um canhão, e um canhão não captura outro canhão. Num canto do palácio, com uma peça no centro, pode pular pela diagonal até o canto oposto.
+   - Elefante: um ponto em linha reta e depois dois pontos na diagonal, para fora. É como um cavalo esticado. Qualquer peça no caminho o bloqueia.
+   - Canhão: quantos pontos quiser em linha reta, mas só pulando exatamente uma peça, para mover ou para capturar. Sem uma peça para pular, ele não sai do lugar. A peça pulada não pode ser um canhão, e um canhão não captura outro canhão. Num canto do palácio, com uma peça no centro, pode pular pela diagonal até o canto oposto.
    - Soldado: um ponto para a frente ou para o lado, nunca para trás, para mover ou para capturar. Dentro do palácio do adversário, também anda na diagonal para a frente, pelas linhas marcadas. Não é promovido: na última linha, só anda para os lados.
 6. Vence quem der xeque-mate no general do adversário.
 
@@ -109,3 +109,4 @@ As regras completas, com as fontes:
 16. Generais frente a frente (*bikjang*), nota de divergência: pela Wikipedia, se os dois generais ficam na mesma coluna sem nenhuma peça entre eles e o jogador da vez não desfaz a situação, a partida empata; a regra nem sempre vale, e os jogadores costumam combinar antes (a verificar). Em Culin (1895: 85–86) e no ancientchess.com, só o lado mais fraco pode pôr o seu general de frente para o outro, e quem faz isso abre mão de vencer: no máximo empata.
 17. Pela Wikipedia (a verificar), a partida também empata se nenhum dos dois pode mover ou se nenhum tem peças para vencer; pelo ancientchess.com, empata se um jogador força a repetição das mesmas posições ou se os dois concordam.
 18. Nos torneios da Associação Coreana de Janggi não há empate: se ninguém consegue vencer, contam-se os pontos das peças que restam (carro 13, canhão 7, cavalo 5, elefante 3, guarda 3, soldado 2), e o vermelho recebe 1,5 ponto a mais por não começar (Wikipedia, a partir das regras da Associação Coreana de Janggi).
+19. O vídeo de AncientChess confirma os movimentos, a troca de cavalo e elefante antes do primeiro lance e o *bikjang* como no ancientchess.com (quem o provoca não pode mais vencer). Acrescenta que o xeque-mate dado por uma peça protegida pelo próprio general não vale: a partida empata (a verificar).

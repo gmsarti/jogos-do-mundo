@@ -50,6 +50,10 @@ Esta ficha não tem "Como jogar?": nenhuma regra antiga completa sobreviveu, e a
 
 Os tabuleiros achados trazem letras no lugar das casas. *Alea* designa jogos de dados em geral e, mais tarde, o jogo de tábulas (História). Antes de ensinar uma reconstrução, vale dizer à turma que as regras são de hoje, e não do tempo dos romanos.
 
+O vídeo da ficha (Xaugar, em inglês) conta que, em 1931, Walter B. Emery achou em túmulos de Qustul um conjunto completo do séc. IV d.C., com 15 peças de marfim, 15 de ébano, uma caixa de dados e cinco dados de marfim. Também diz que os tabuleiros de letras costumam ter seis palavras de seis letras, e que uma hipótese para eles é disfarçar o jogo em tempos de proibição das apostas (a verificar). O vídeo propõe regras abertas, com 15 peças e 3 dados, para cada mesa ajustar.
+
 ## Regras
 
 Reconstruídas. Leituras correntes (a verificar): 15 peças por jogador, três dados, percurso pelas três fileiras. Nenhuma regra antiga completa sobreviveu.
+
+O vídeo de Xaugar (a verificar) confirma as leituras correntes, com 15 peças por jogador e 3 dados, e propõe que as peças entrem pela fileira do meio, sigam pela de cima da direita para a esquerda e depois pela de baixo da esquerda para a direita, como sugerem alguns tabuleiros de letras. Deixa em aberto se duas peças podem ficar na mesma casa; se não puderem, a peça sozinha é capturada quando o adversário para nela.

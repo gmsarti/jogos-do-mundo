@@ -64,7 +64,7 @@ O tabuleiro pode ser impresso ou desenhado no papel. Num registro do início do 
 2. Na sua vez, mova uma peça. Cada uma anda de um jeito:
    - Rei: uma casa em qualquer direção.
    - *Met*: uma casa na diagonal.
-   - *Khon*: uma casa na diagonal ou uma casa reto para a frente.
+   - *Khon*: uma casa na diagonal ou uma casa reto para a frente. Ou seja, vai para qualquer uma das três casas da frente ou para as duas diagonais de trás, mas nunca para o lado nem reto para trás.
    - Cavalo: duas casas em linha reta e mais uma para o lado, pulando as peças que estiverem no caminho.
    - Barco: quantas casas quiser em linha reta, na horizontal ou na vertical, sem pular peças.
    - Peão: uma casa reto para a frente, sem lance duplo.
@@ -83,6 +83,8 @@ Na descrição enviada pelo príncipe Devawongse em 1889, o rei pode andar como 
 As fontes consultadas não dizem qual lado começa.
 
 **Sugestão do site:** tirem na sorte quem começa e combinem antes se valem os lances especiais do primeiro lance.
+
+A contagem de lances do passo 7 é a parte mais complicada. O vídeo de AncientChess sugere começar a jogar sem ela e só consultar a regra quando a situação aparecer, perto do fim da partida.
 
 ## Regras
 
