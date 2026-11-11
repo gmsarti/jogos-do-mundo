@@ -131,6 +131,7 @@ Sempre execute ferramentas através do `make` — nunca chame `npx`, `vite` ou `
 | `make dev` | Gera os dados e sobe o servidor local com hot reload |
 | `make data` | Valida `content/` e gera `src/generated/catalog.json` |
 | `make kits` | Gera os PDFs de impressão em `public/kits/` (precisa do [Typst](https://typst.app) 0.14 no PATH) |
+| `make report` | Gera `docs/relatorio-verificar.md`: todo "(a verificar)" e todo jogo `unknown`, por jogo, dos que têm menos marcas para os que têm mais |
 | `make test` | Roda só os testes (use `make test-watch` durante o ciclo TDD) |
 | `make format` | Formata e corrige lint automaticamente (Biome) |
 | `make check` | Lint + typecheck + validação de dados + testes — tem que passar limpo |

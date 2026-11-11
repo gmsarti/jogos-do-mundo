@@ -2,7 +2,7 @@
 NODE_ENV = PATH="$$PATH:/opt/homebrew/bin"
 NPX = $(NODE_ENV) npx
 
-.PHONY: install dev data kits test test-watch format check build preview
+.PHONY: install dev data kits report test test-watch format check build preview
 
 install:
 	$(NODE_ENV) npm ci
@@ -14,6 +14,10 @@ data:
 # Print kits (PDF) for every game with rules; needs Typst on PATH
 kits: data
 	$(NODE_ENV) node --disable-warning=ExperimentalWarning scripts/build-kits.ts
+
+# Lists every "(a verificar)" and every `unknown` game in docs/relatorio-verificar.md (commit it)
+report:
+	$(NODE_ENV) node --disable-warning=ExperimentalWarning scripts/build-report.ts
 
 dev: data
 	$(NPX) vite
