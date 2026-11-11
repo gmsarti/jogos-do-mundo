@@ -36,7 +36,7 @@ refs:
   - title: "MCI: torneio"
     url: https://museudasculturasindigenas.org.br/programacao/ferias-na-tava-torneio-ninmangwa-djagwarete-brincadeira-da-onca/
   - title: Vinha
-    url: http://observatorioedhemfoc.hospedagemdesites.ws/observatorio/wp-content/uploads/2017/12/JogoTabuleirocomoPraticaEducativaIntercultural.pdf
+    url: https://observatorioedhemfoc.hospedagemdesites.ws/observatorio/wp-content/uploads/2017/12/JogoTabuleirocomoPraticaEducativaIntercultural.pdf
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Adugo
     lang: en

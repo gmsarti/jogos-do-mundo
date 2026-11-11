@@ -24,7 +24,7 @@ recon: []
 summary: "Jogo de tabuleiro circular dos Kadiwéu, no Mato Grosso do Sul, desenhado na areia pelo ancião Domingos Soares, da aldeia Bodoquena, e registrado por Marina Vinha. As regras não foram registradas."
 refs:
   - title: Vinha
-    url: http://observatorioedhemfoc.hospedagemdesites.ws/observatorio/wp-content/uploads/2017/12/JogoTabuleirocomoPraticaEducativaIntercultural.pdf
+    url: https://observatorioedhemfoc.hospedagemdesites.ws/observatorio/wp-content/uploads/2017/12/JogoTabuleirocomoPraticaEducativaIntercultural.pdf
 place: ""
 ---
 
