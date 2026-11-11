@@ -132,6 +132,7 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
 - [ ] **T-055** Percursos em cruz e em linha (Pachisi, Chaupar, Patolli, Senet, Duodecim Scripta, Ur, Vinte casas, Nard, Ban-sugoroku)
 - [ ] **T-056** Tabuleiros únicos desenhados à mão em `content/boards/`, com lint de SVG (sem cor solta e sem script), quando a fonte permitir (Mu tōrere, Shisima, Mehen, Yut-nori e outros)
 - [ ] **T-057** Conteúdo: levantar na fonte o número de covas das mancalas descritas só como "2 fileiras" ou "4 fileiras" (10 jogos), para poderem ganhar desenho
+  - Andamento: as revisões de conteúdo depois do T-052 trouxeram as covas de 5 jogos, que ganharam `diagram` (`pits`): Ayit 2×9, Kay haiti 2×6 com depósitos (o tabuleiro de madeira dos adultos, no Mancala World), Kiela 4×10, Adji-boto 2×5 e Ohvalhu 2×8 com depósitos (os dois últimos "a verificar"). Seguem com medida em faixa: Mulabalaba, Muvalavala, Nchayo, Ntxuva, Owela benguela e Tchouba
 - [ ] **T-053** Filtro por status de confiança (RF-18)
 - [ ] **T-058** Conteúdo: Dara, Choko, Caçada das Hienas e Queah, que estão na oficina *Jogos africanos* e ainda não no catálogo, com fontes e seguindo o `content/AGENTS.md` (a oficina não é fonte)
 
