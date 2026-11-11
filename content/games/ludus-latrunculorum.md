@@ -79,7 +79,7 @@ Nenhuma das três diz quem começa. Para os jogadores, o caminho é escolher uma
 
 - **Ulrich Schädler (2001)**: os jogadores combinam entre 16 e 24 peças, colocam uma por vez sem capturar; depois movem ortogonalmente uma casa; uma peça pode saltar uma única peça se a casa seguinte estiver livre; captura por cerco entre duas peças adversárias.
 - **Locus Ludi**: tabuleiro 8×8, 20 peças por jogador, fase de colocação sem capturas, movimento ortogonal de uma casa, sem ir e voltar com a mesma peça repetidamente, captura por cerco.
-- **R. C. Bell**: tabuleiro 8×8, regras próprias.
+- **R. C. Bell**: tabuleiro 8×8, regras próprias. Pelo vídeo de The Gaming Bench (a verificar): os jogadores põem duas peças por vez, sem capturar, e depois cada um põe o seu *dux* (o chefe); as peças andam uma casa na horizontal ou na vertical; captura-se prendendo uma peça entre duas suas, e quem captura move de novo; o *dux* também pode pular uma peça vizinha sem capturá-la, e captura se o pulo prender uma peça adversária; entrar por conta própria entre duas peças do adversário não é captura; vence quem capturar todas as peças do adversário, e, se 30 lances passarem sem captura no fim da partida, vence quem tiver mais peças. O mesmo vídeo resume as regras de Schädler e cita uma versão de Kowalski em que perde quem tiver o *dux* cercado pelos quatro lados.
 - O Ludii também testa regras de Seega e de kharbaga em tabuleiros de vários tamanhos.
 
 Nenhuma é documentada; todas são `reconstructed`.

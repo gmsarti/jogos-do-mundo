@@ -297,3 +297,63 @@ Os vídeos abaixo dão "This video is not available" e precisam sair das `refs` 
 
 - Lido: erunfun.com (falado em híndi; a ref está marcada `en`).
 - Mudou: "Para quem conduz" e a Regra 13 descrevem a forma com 6 búzios que o vídeo ensina (entrada com 10 ou 25, casas seguras com cruz, capturar antes de entrar em casa). É a forma atual que a ficha só tinha pela Wikipedia, sem fonte; segue não adotada.
+
+## Lotes 6 e 7
+
+### Ntxuva
+
+- Lido: Centro de Referências em Educação Integral (pt; a ref está marcada `en`).
+- **Passou a ter "Como jogar?"**, todo "(a verificar)", porque nenhuma fonte escrita aberta trazia as regras: 2 sementes por cova; fileira de ataque (dentro) e de defesa (fora); semeadura anti-horária em revezamento até cair numa cova vazia; captura das covas de ataque e de defesa do adversário em frente, quando a semeadura termina na sua fileira de ataque e as duas têm sementes; não se começa de cova com uma semente, até a segunda fase; vence quem limpar o lado do adversário. As regras do vídeo entraram em "Regras".
+- Lacunas que seguem: quem começa; quantas colunas o vídeo usa; se, na segunda fase, a semente pode cair numa cova ocupada.
+- **Para a curadoria:** o `status` continua `partial`; decidir se um vídeo sem fonte declarada basta para ensinar o jogo.
+
+### Ashta kashte
+
+- Lido: Roll the Dice India (en). Ensina outra forma do jogo de 7 casas (6 búzios, 6 peças, captura antes de entrar nas voltas de dentro). Nota em "Para quem conduz" e na Regra 9.
+
+### Komikan
+
+- Lido: BruinClub UCLA (en), o mesmo vídeo do Adugo. Com o nome de komikan, ensina as regras do Bagh-chal (4 tigres e 20 cães, sem triângulo). Aviso em "Para quem conduz" e na Regra 13. **Para a curadoria:** trocar a ref.
+
+### Nard
+
+- Lido: Gather Together Games (en). Ensina a forma B (*nardy* longo) com todas as regras que faltavam a ela (quem começa, uma peça por vez da cabeça, bloqueio, barreira de seis, dobrados, retirada). Está em "Para quem conduz" e em "Regras". **Para a curadoria:** se a forma B for a escolhida, o vídeo já dá o passo a passo (a verificar).
+
+### Kechukawe
+
+- Lido: GAMES AND PUZZLES CALI (falado em espanhol). Ensina uma forma moderna de encher as casas do seu setor, que não está nas fontes antigas. Cita Manquilef (1914) para o tabuleiro em quatro setores de 12 casas. Nota em "Para quem conduz" e na Regra 8.
+
+### Ban-sugoroku
+
+- Lido: Mochy Backgammon (en), com o estudioso Kusaba.
+- Lacunas fechadas (Regra 11, a verificar): quem começa (quem tira mais num dado lança os dois e abre) e a volta da peça capturada (vai para o meio e entra de novo). O vídeo confirma os dobrados de dois movimentos e o fim sem retirar peças, e cita a vitória dupla (*mushi-gachi*).
+- Segue sem "Como jogar?": a posição inicial só aparece na tela.
+
+### Patolli
+
+- Lido: Deny Us Not Game Night (en). Ensina uma reconstrução com apostas de "tesouro" e repete, sem fonte, a história de quem apostava a liberdade. Nota nas Regras. Segue "não joga" até a curadoria escolher a forma.
+
+### Mehen
+
+- Lido: Pandora Games (en). Ensina regras modernas (leões, barca de Rá), não uma reconstrução do jogo antigo. Nota em "Para quem conduz" e nas Regras.
+
+### Fidchell
+
+- Lido: Triple S Games (en). Ensina uma das invenções modernas, um jogo de conexão com 27 peças. Nota em "Para quem conduz" e nas Regras.
+
+### Ludus latrunculorum
+
+- Lido: The Gaming Bench (en), em trechos.
+- Mudou: a linha de R. C. Bell, que dizia só "regras próprias", agora descreve as regras dele pelo vídeo (a verificar), e cita Kowalski (perde quem tem o *dux* cercado).
+
+### Duodecim scripta
+
+- Lido: Xaugar (en).
+- Mudou: em "Para quem conduz", o achado de Qustul (1931, séc. IV d.C., 15 + 15 peças e 5 dados) e os tabuleiros de seis palavras de seis letras (a verificar); nas Regras, o percurso que o vídeo propõe.
+
+## Resumo para a curadoria
+
+- **Refs a trocar ou corrigir:** os 8 vídeos indisponíveis (no começo deste relatório); Pachisi (ensina o *Parcheesi* comercial) e Komikan (ensina o Bagh-chal); `lang` errado nos vídeos de GAMES AND PUZZLES CALI (espanhol), no do Chaupar (híndi) e no do Ntxuva (português).
+- **Reconstruções prontas para escolher:** Senet (a dos dois vídeos, próxima de Santos, Neto e Silva), Nard (forma B, pelo vídeo), Dominó (com compra, pelo vídeo em português).
+- **Jogos que passaram a jogar:** Ntxuva (todo "a verificar").
+- **Sensibilidade a conferir:** as histórias de apostas da liberdade (Puluc, Patolli), a lenda do Senet (`sens: ritual`).
