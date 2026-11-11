@@ -31,6 +31,9 @@ refs:
     lang: en
   - title: "Verbeeck 1998, Bul: A Patolli Game in Maya Lowland (BGS 1)"
     url: http://bgs.ludicum.org/pdf/issue1/BGS1Verbeeck.pdf
+  - title: "YouTube: Deny Us Not Game Night"
+    url: https://www.youtube.com/watch?v=ks2v3Wmnoho
+    lang: en
 place: ""
 ---
 

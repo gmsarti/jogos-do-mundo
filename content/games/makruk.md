@@ -41,6 +41,9 @@ refs:
     url: https://www.gnu.org/software/xboard/whats_new/rules/Makruk.html
   - title: Falkener 1892 (IA)
     url: https://archive.org/details/gamesancientorie00falkuoft
+  - title: "YouTube: AncientChess"
+    url: https://www.youtube.com/watch?v=RD91zLPxTmI
+    lang: en
 place: ""
 ---
 

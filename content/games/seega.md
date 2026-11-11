@@ -37,6 +37,12 @@ refs:
     url: https://www.gutenberg.org/ebooks/70796
   - title: "Ludii: Seega"
     url: https://ludii.games/details.php?keyword=Seega
+  - title: "YouTube: Programa EducativoCENTURIUM"
+    url: https://www.youtube.com/watch?v=TfcSW2NokQM
+    lang: pt
+  - title: "YouTube: The Gaming Bench"
+    url: https://www.youtube.com/watch?v=jMJgzeNAcxA
+    lang: en
 place: ""
 ---
 

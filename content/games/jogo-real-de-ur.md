@@ -37,6 +37,9 @@ refs:
     lang: en
   - title: "Ludii: Royal Game of Ur, regras de Finkel"
     url: https://ludii.games/variantDetails.php?keyword=Royal%20Game%20of%20Ur&variant=77
+  - title: "YouTube: VemKaJogar"
+    url: https://www.youtube.com/watch?v=VpUYXThqmBo
+    lang: pt
 place: ""
 ---
 

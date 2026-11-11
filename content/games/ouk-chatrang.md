@@ -32,6 +32,9 @@ refs:
     lang: en
   - title: "Krabbé: Makruk, chess in Cambodia"
     url: https://timkr.home.xs4all.nl/chess/makruk.htm
+  - title: "YouTube: AncientChess"
+    url: https://www.youtube.com/watch?v=aw3hKSYkXmI
+    lang: en
 place: ""
 ---
 ## Do que você vai precisar?

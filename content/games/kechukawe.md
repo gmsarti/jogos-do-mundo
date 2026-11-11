@@ -29,6 +29,9 @@ summary: 'Jogo de corrida dos mapuche, descrito por Alonso de Ovalle em 1646: ta
 refs:
   - title: Depaulis 1998, Inca Dice and Board Games (BGS 1)
     url: http://bgs.ludicum.org/pdf/issue1/BGS1Depaulis.pdf
+  - title: "YouTube: GAMES AND PUZZLES CALI"
+    url: https://www.youtube.com/watch?v=9e8WN3GUbec
+    lang: en
 place: ""
 ---
 

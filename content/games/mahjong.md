@@ -38,6 +38,12 @@ refs:
     url: https://mahjong.dk/hubfs/Mahjong%20documents/MCR/MCR_Rulebook_2006.pdf
   - title: "Associação Europeia de Mahjong: regras de riichi (2025)"
     url: https://mahjong.dk/hubfs/Mahjong%20documents/Riichi/Riichi_Rulebook_2025_v1.1.pdf
+  - title: "YouTube: ABM - Associação Brasileira de Mahjong"
+    url: https://www.youtube.com/watch?v=K2WUNTnzSho
+    lang: pt
+  - title: "YouTube: South China Morning Post"
+    url: https://www.youtube.com/watch?v=qpYF-xmNMew
+    lang: en
 place: ""
 ---
 

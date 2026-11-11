@@ -41,6 +41,12 @@ refs:
   - title: Wikipédia
     url: https://pt.wikipedia.org/wiki/Shogi
     lang: pt
+  - title: "YouTube: Shogi Brasil"
+    url: https://www.youtube.com/watch?v=24UdkAmSz-8
+    lang: pt
+  - title: "YouTube: Triple S Games"
+    url: https://www.youtube.com/watch?v=0ABrpbjoHCk
+    lang: en
 place: ""
 ---
 

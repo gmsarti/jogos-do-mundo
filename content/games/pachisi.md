@@ -38,6 +38,9 @@ refs:
   - title: Wikipédia
     url: https://pt.wikipedia.org/wiki/Pachisi
     lang: pt
+  - title: "YouTube: Taming Games"
+    url: https://www.youtube.com/watch?v=nbwrtCd67D8
+    lang: en
 place: ""
 ---
 

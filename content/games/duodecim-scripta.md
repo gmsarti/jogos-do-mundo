@@ -28,6 +28,9 @@ summary: "Jogo de corrida romano com dados, em tabuleiros de três fileiras de d
 refs:
   - title: BGSJ 19 (2025)
     url: https://reference-global.com/issue/BGS/19/1
+  - title: "YouTube: Xaugar"
+    url: https://www.youtube.com/watch?v=hN2ceFHFoSE
+    lang: en
 place: ""
 ---
 

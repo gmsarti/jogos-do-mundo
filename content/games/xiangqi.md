@@ -35,6 +35,9 @@ refs:
     lang: pt
   - title: "Federação Mundial de Xiangqi: regras mundiais de xiangqi (2018, em inglês)"
     url: https://www.wxf-xiangqi.org/images/wxf-rules/2018_World_XiangQi_Rules_English2018.pdf
+  - title: "YouTube: AncientChess"
+    url: https://www.youtube.com/watch?v=0UuDiL9CLPI
+    lang: en
 place: ""
 ---
 

@@ -28,6 +28,9 @@ refs:
     lang: en
   - title: "Mancala World: Kiela"
     url: https://mancala.fandom.com/wiki/Kiela
+  - title: "YouTube: Kiela Game"
+    url: https://www.youtube.com/watch?v=38S-ouV4yvo
+    lang: pt
 place: ""
 ---
 

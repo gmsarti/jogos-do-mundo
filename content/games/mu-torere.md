@@ -32,6 +32,12 @@ refs:
     lang: en
   - title: "Browne 2020: Modern Techniques for Ancient Games (arXiv)"
     url: https://arxiv.org/abs/2101.10066
+  - title: "YouTube: Professor William Educação Física"
+    url: https://www.youtube.com/watch?v=W9oFIy7xs3I
+    lang: pt
+  - title: "YouTube: What Do We Do All Day?"
+    url: https://www.youtube.com/watch?v=zxlB6CqeE7E
+    lang: en
 place: ""
 ---
 

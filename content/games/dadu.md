@@ -27,6 +27,9 @@ refs:
     url: https://reference-global.com/issue/BGS/18/1
   - title: "Schmidt-Madsen, Discovering Dadu: A Ludemic Enigma from South Asia (BGSJ 18, 2024)"
     url: https://reference-global.com/article/10.2478/bgs-2024-0004
+  - title: "YouTube: NewVenture Games"
+    url: https://www.youtube.com/watch?v=nXkMTcHOeCI
+    lang: en
 place: Gujarat e Maharashtra
 ---
 

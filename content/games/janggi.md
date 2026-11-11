@@ -36,6 +36,9 @@ refs:
     url: https://archive.org/details/cu31924023272424
   - title: "ancientchess.com: How to Play Janggi"
     url: https://www.ancientchess.com/page/play-janggi.htm
+  - title: "YouTube: AncientChess"
+    url: https://www.youtube.com/watch?v=B6eNGSb2g5U
+    lang: en
 place: ""
 ---
 

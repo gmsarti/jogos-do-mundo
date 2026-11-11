@@ -32,6 +32,9 @@ refs:
   - title: "Wikipedia: Sittuyin"
     url: https://en.wikipedia.org/wiki/Sittuyin
     lang: en
+  - title: "YouTube: AncientChess"
+    url: https://www.youtube.com/watch?v=ebRVTzKSP-0
+    lang: en
 place: ""
 ---
 

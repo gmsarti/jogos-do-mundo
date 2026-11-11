@@ -27,6 +27,12 @@ refs:
     url: https://ludii.games/variantDetails.php?keyword=Konane&variant=59
   - title: "Ludii: Konane"
     url: https://ludii.games/details.php?keyword=Konane
+  - title: "YouTube: Mitra Criação"
+    url: https://www.youtube.com/watch?v=28o9xVzXipA
+    lang: pt
+  - title: "YouTube: GAMES AND PUZZLES CALI"
+    url: https://www.youtube.com/watch?v=kRmZAmwjF9c
+    lang: en
 place: Havaí
 ---
 

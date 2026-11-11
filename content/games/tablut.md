@@ -33,6 +33,12 @@ refs:
   - title: Wikipédia
     url: https://pt.wikipedia.org/wiki/Tafl
     lang: pt
+  - title: "YouTube: Nove Mundos"
+    url: https://www.youtube.com/watch?v=6-9DetN9lSI
+    lang: pt
+  - title: "YouTube: MadCap Gamer"
+    url: https://www.youtube.com/watch?v=2JG2xvSsfqw
+    lang: en
 place: ""
 ---
 

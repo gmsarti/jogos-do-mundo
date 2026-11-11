@@ -44,6 +44,12 @@ refs:
   - title: "Wikipedia: Knight (chess)"
     url: https://en.wikipedia.org/wiki/Knight_(chess)
     lang: en
+  - title: "YouTube: Triple S Games Português"
+    url: https://www.youtube.com/watch?v=vI1Has0expk
+    lang: pt
+  - title: "YouTube: Triple S Games"
+    url: https://www.youtube.com/watch?v=6yuNiroCbpU
+    lang: en
 place: ""
 ---
 

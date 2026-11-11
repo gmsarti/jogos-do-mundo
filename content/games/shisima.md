@@ -31,6 +31,12 @@ refs:
     lang: en
   - title: LoboGames UFRGS
     url: https://www.inf.ufrgs.br/lobogames/wp-content/uploads/2023/06/Jogos_Semana_Africa_UFRGS_2023_tamanho_A4.pdf
+  - title: "YouTube: Professora Vilma Ribeiro"
+    url: https://www.youtube.com/watch?v=gQEDxmJIVe4
+    lang: pt
+  - title: "YouTube: GAMES AND PUZZLES CALI"
+    url: https://www.youtube.com/watch?v=UT3rYmfcSAQ
+    lang: en
 place: ""
 ---
 

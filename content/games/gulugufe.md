@@ -38,6 +38,9 @@ refs:
     lang: en
   - title: "Ludii: Lau Kata Kati"
     url: https://ludii.games/details.php?keyword=Lau+Kata+Kati
+  - title: "YouTube: Brinque com Madeira"
+    url: https://www.youtube.com/watch?v=byTaqnvU-N8
+    lang: pt
 place: ""
 ---
 

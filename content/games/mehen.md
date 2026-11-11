@@ -28,6 +28,9 @@ refs:
     url: https://ludii.games/forums/printthread.php?tid=314
   - title: Maastricht University
     url: https://www.maastrichtuniversity.nl/news/digital-ludeme-project-middle-east-edition-wired
+  - title: "YouTube: Pandora Games"
+    url: https://www.youtube.com/watch?v=8o1BBqDsAZ8
+    lang: en
 place: ""
 ---
 

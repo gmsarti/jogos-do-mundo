@@ -41,6 +41,12 @@ refs:
     url: https://ocf.berkeley.edu/~gamers/games.php?game=achi
   - title: LoboGames UFRGS
     url: https://www.inf.ufrgs.br/lobogames/wp-content/uploads/2023/06/Jogos_Semana_Africa_UFRGS_2023_tamanho_A4.pdf
+  - title: "YouTube: Camila Guerreiro"
+    url: https://www.youtube.com/watch?v=ZSBx2neX05g
+    lang: pt
+  - title: "YouTube: GAMES AND PUZZLES CALI"
+    url: https://www.youtube.com/watch?v=UrEL1MeBT9w
+    lang: en
 place: ""
 ---
 

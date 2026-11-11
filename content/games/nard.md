@@ -34,6 +34,9 @@ refs:
     lang: en
   - title: "bkgm.com: Narde"
     url: https://www.bkgm.com/variants/Narde.html
+  - title: "YouTube: Gather Together Games"
+    url: https://www.youtube.com/watch?v=8etQDHZppOA
+    lang: en
 place: ""
 ---
 

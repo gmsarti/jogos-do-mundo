@@ -29,6 +29,9 @@ refs:
     url: https://archive.org/details/gamesancientorie00falkuoft
   - title: "Ludii: Ashta-kashte"
     url: https://ludii.games/details.php?keyword=Ashta-kashte
+  - title: "YouTube: Roll the Dice India – Indian Board Games & Culture"
+    url: https://www.youtube.com/watch?v=-t320mv_XME
+    lang: en
 place: ""
 ---
 

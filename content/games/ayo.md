@@ -37,6 +37,9 @@ refs:
     url: https://johnpratt.com/items/mancala/ayoayo.html
   - title: "John P. Pratt: regras gerais"
     url: https://johnpratt.com/items/mancala/index.html
+  - title: "YouTube: City of Surrey"
+    url: https://www.youtube.com/watch?v=21JTI7_a9Bk
+    lang: en
 place: ""
 ---
 
