@@ -116,7 +116,8 @@ Backlog e andamento do projeto. Requisitos e prioridades vêm do [PRD.md](PRD.md
 
 ## Fase 5 — Conteúdo e extras (M4)
 
-- [ ] **T-050** Relatório (`make` target) de trechos "(a verificar)" e jogos com `status` `unknown`
+- [x] **T-050** Relatório (`make` target) de trechos "(a verificar)" e jogos com `status` `unknown`
+  - Feito: `make report` gera `docs/relatorio-verificar.md`, versionado. Lista, por jogo, cada trecho com "a verificar" (em qualquer campo da ficha, com a seção e a linha) e as fontes da ficha para abrir primeiro; os jogos com menos marcas vêm primeiro, e os `unknown` têm seção própria. O arquivo não tem data nem contador que mude sozinho: só muda quando o conteúdo muda. Primeira rodada: 251 marcas em 69 de 94 jogos; 4 `unknown` (casa-do-rei, fidchell, mehen, quebra-cabeca-kanela). Fluxo: conferir um jogo na fonte, corrigir a ficha, rodar `make report` e commitar os dois. Desvio: o `make check` não confere se o relatório está atualizado, para não travar cada commit de um jogo
 - [ ] **T-051** Jogos relacionados (RF-16)
 - [x] **T-052** Tabuleiros desenhados e kit de impressão em PDF (RF-17, RF-19)
   - Escopo: campo opcional `diagram` no frontmatter com os tipos `grid`, `lines`, `points`, `pits` e `mill`; geometria e SVG em `src/boards/`; tabuleiro no painel do jogo; `make kits` gera `public/kits/<id>.pdf` com Typst (folha de regras, tabuleiro ornado e tabuleiro simples); QR para `jogosdomundo.com.br/#/jogo/<id>` pelo pacote `qrcode` (só no build); Typst instalado no CI
