@@ -32,6 +32,9 @@ refs:
     url: https://mancala.fandom.com/wiki/Tchadji
   - title: "Mancala World: Tchouba"
     url: https://mancala.fandom.com/wiki/Tchouba
+  - title: "YouTube: Centro de Referências em Educação Integral"
+    url: https://www.youtube.com/watch?v=YeOoUlrO9qc
+    lang: en
 place: ""
 ---
 

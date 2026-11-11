@@ -33,6 +33,9 @@ refs:
     url: https://archive.org/details/cu31924023272424
   - title: "Ludii: Nyout"
     url: https://ludii.games/details.php?keyword=Nyout
+  - title: "YouTube: Steve Miller"
+    url: https://www.youtube.com/watch?v=G90o0ai57EM
+    lang: en
 place: ""
 ---
 

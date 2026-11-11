@@ -39,6 +39,9 @@ refs:
   - title: "Wikipedia: Brazilian draughts"
     url: https://en.wikipedia.org/wiki/Brazilian_draughts
     lang: en
+  - title: "YouTube: Divertudo Oficial"
+    url: https://www.youtube.com/watch?v=EN8bOHd5_4k
+    lang: pt
 place: ""
 ---
 

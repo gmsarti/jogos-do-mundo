@@ -37,6 +37,12 @@ refs:
     url: https://archive.org/details/boasanniversary00laufgoog
   - title: "Culin 1907: Games of the North American Indians (archive.org)"
     url: https://archive.org/details/gamesofnorthamer00culirich
+  - title: "YouTube: Mitra Jogos"
+    url: https://www.youtube.com/watch?v=6TtVPcsT75g
+    lang: pt
+  - title: "YouTube: Deny Us Not Game Night"
+    url: https://www.youtube.com/watch?v=ks2v3Wmnoho
+    lang: en
 place: ""
 ---
 

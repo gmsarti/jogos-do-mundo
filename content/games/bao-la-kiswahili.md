@@ -29,6 +29,9 @@ refs:
     lang: en
   - title: "Ludii: Bao"
     url: https://ludii.games/details.php?keyword=Bao
+  - title: "YouTube: Julian Groves"
+    url: https://www.youtube.com/watch?v=ZPg_0Mb-BUU
+    lang: en
 place: ""
 ---
 

@@ -37,6 +37,9 @@ refs:
     url: https://sciendo.com/pdf/10.2478/bgs-2018-0002
   - title: "Culin 1898, Chess and Playing-Cards (archive.org)"
     url: https://archive.org/details/chessplayingcard00culi
+  - title: "YouTube: Deny Us Not Game Night"
+    url: https://www.youtube.com/watch?v=h5Y3CxQpe8s
+    lang: en
 place: ""
 ---
 

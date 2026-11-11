@@ -46,6 +46,12 @@ refs:
     url: https://www.mindsports.nl/index.php/on-the-evolution-of-draughts-variants/draughts-variants/507-yote
   - title: boardandpieces (regras de J. P. Neto)
     url: https://sites.google.com/site/boardandpieces/list-of-games/yot
+  - title: "YouTube: Lobogames UFRGS"
+    url: https://www.youtube.com/watch?v=8oIaCPAn9sk
+    lang: pt
+  - title: "YouTube: VemKaJogar"
+    url: https://www.youtube.com/watch?v=94_CCIZADdY
+    lang: en
 place: ""
 ---
 

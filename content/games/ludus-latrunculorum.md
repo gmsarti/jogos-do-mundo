@@ -52,6 +52,9 @@ refs:
     url: https://ludii.games/variantDetails.php?keyword=Ludus%20Latrunculorum&variant=541
   - title: Falkener 1892 (IA)
     url: https://archive.org/details/gamesancientorie00falkuoft
+  - title: "YouTube: The Gaming Bench"
+    url: https://www.youtube.com/watch?v=7rL4E-FXgME
+    lang: en
 place: ""
 ---
 

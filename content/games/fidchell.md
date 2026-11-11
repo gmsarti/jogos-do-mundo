@@ -31,6 +31,9 @@ refs:
   - title: Wikipédia
     url: https://pt.wikipedia.org/wiki/Tafl
     lang: pt
+  - title: "YouTube: Triple S Games"
+    url: https://www.youtube.com/watch?v=dPfLZmmUogs
+    lang: en
 place: ""
 ---
 

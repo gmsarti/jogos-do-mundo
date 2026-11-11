@@ -39,6 +39,12 @@ refs:
     url: https://ludii.games/details.php?keyword=Weiqi
   - title: "Associação Chinesa de Weiqi: regras de 2002 (versão em inglês)"
     url: https://home.snafu.de/jasiek/c2002.pdf
+  - title: "YouTube: Juno Jo"
+    url: https://www.youtube.com/watch?v=jOkvC4qoKF4
+    lang: pt
+  - title: "YouTube: Go Magic"
+    url: https://www.youtube.com/watch?v=oZTdT8MQexk
+    lang: en
 place: ""
 ---
 

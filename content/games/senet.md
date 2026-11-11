@@ -48,6 +48,12 @@ refs:
     url: https://ludii.games/variantDetails.php?keyword=Senet&variant=939
   - title: Santos, Neto e Silva, Jogos de Tabuleiro Tradicionais
     url: https://jpneto.github.io/books/livro_jogos_4.pdf
+  - title: "YouTube: VemKaJogar"
+    url: https://www.youtube.com/watch?v=gEhC_j8OllM
+    lang: pt
+  - title: "YouTube: Triple S Games"
+    url: https://www.youtube.com/watch?v=oeLAfm1bx3U
+    lang: en
 place: ""
 ---
 

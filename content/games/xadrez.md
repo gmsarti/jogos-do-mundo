@@ -49,6 +49,12 @@ refs:
   - title: Wikipédia
     url: https://pt.wikipedia.org/wiki/Leis_do_xadrez
     lang: pt
+  - title: "YouTube: Xadrez Brasil"
+    url: https://www.youtube.com/watch?v=S1LsUT7jjDI
+    lang: pt
+  - title: "YouTube: GothamChess"
+    url: https://www.youtube.com/watch?v=OCSbzArwB10
+    lang: en
 place: ""
 ---
 

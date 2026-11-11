@@ -48,6 +48,12 @@ refs:
     url: https://ludii.games/details.php?keyword=Adugo
   - title: Ifac
     url: https://www.ifac.edu.br/noticias/2025/abril/estudantes-do-ifac-recriam-jogo-de-tabuleiro-regional-em-conjunto-com-if-maker-jurua
+  - title: "YouTube: Projeto Parceria Escola e Universidade"
+    url: https://www.youtube.com/watch?v=WmUnQP9TFds
+    lang: pt
+  - title: "YouTube: BruinClub UCLA"
+    url: https://www.youtube.com/watch?v=ODNaRa-Lhxk
+    lang: en
 place: ""
 ---
 

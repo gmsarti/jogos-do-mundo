@@ -40,6 +40,9 @@ refs:
     lang: en
   - title: "Mátus 1918-19: Juegos i ejercicios de los antiguos araucanos"
     url: https://boletinmnhn.cl/index.php/ojs/article/download/786/822/1322
+  - title: "YouTube: BruinClub UCLA"
+    url: https://www.youtube.com/watch?v=ODNaRa-Lhxk
+    lang: en
 place: ""
 ---
 

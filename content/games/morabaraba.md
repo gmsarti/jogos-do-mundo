@@ -38,6 +38,12 @@ refs:
   - title: Wikipedia
     url: https://en.wikipedia.org/wiki/Morabaraba
     lang: en
+  - title: "YouTube: Práticas em Educação Física - Profa Fran Sylos"
+    url: https://www.youtube.com/watch?v=wggxWmmw3QE
+    lang: pt
+  - title: "YouTube: NewVenture Games"
+    url: https://www.youtube.com/watch?v=kjlFp13Lifc
+    lang: en
 place: ""
 ---
 

@@ -46,6 +46,12 @@ refs:
     url: https://boardgamegeek.com/wiki/page/thing%3A28302
   - title: "Mancala World: Ntim Gyakari"
     url: https://mancala.fandom.com/wiki/Ntim_Gyakari
+  - title: "YouTube: Mitra Jogos"
+    url: https://www.youtube.com/watch?v=_bc81xoaeDI
+    lang: pt
+  - title: "YouTube: Julian Groves"
+    url: https://www.youtube.com/watch?v=v9LNUvHqXeQ
+    lang: en
 place: ""
 ---
 

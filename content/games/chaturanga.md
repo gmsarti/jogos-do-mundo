@@ -34,6 +34,12 @@ refs:
   - title: "Wikipedia: Chaturanga"
     url: https://en.wikipedia.org/wiki/Chaturanga
     lang: en
+  - title: "YouTube: Academia de Xadrez Falcão"
+    url: https://www.youtube.com/watch?v=Y94xhM1IxY4
+    lang: pt
+  - title: "YouTube: AncientGaming"
+    url: https://www.youtube.com/watch?v=8z2Px9-QnIY
+    lang: en
 place: ""
 ---
 

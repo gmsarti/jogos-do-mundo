@@ -39,6 +39,12 @@ refs:
   - title: "Wikipedia: Bagh-chal"
     url: https://en.wikipedia.org/wiki/Bagh-chal
     lang: en
+  - title: "YouTube: Lobogames UFRGS"
+    url: https://www.youtube.com/watch?v=Dk7ZCH1haaw
+    lang: pt
+  - title: "YouTube: GAMES AND PUZZLES CALI"
+    url: https://www.youtube.com/watch?v=Kq01GgM-lvQ
+    lang: en
 place: ""
 ---
 

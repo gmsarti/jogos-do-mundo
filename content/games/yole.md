@@ -27,6 +27,9 @@ summary: "Jogo de azar das mulheres mocovíes, na província do Chaco (Argentina
 refs:
   - title: Juegos mocovíes
     url: https://revistas.unne.edu.ar/index.php/etno/article/view/2149/1874
+  - title: "YouTube: GAMES AND PUZZLES CALI"
+    url: https://www.youtube.com/watch?v=F9LC7kqcHhY
+    lang: en
 place: ""
 ---
 

@@ -42,6 +42,9 @@ refs:
     lang: en
   - title: "Strutt 1845: The Sports and Pastimes of the People of England (Project Gutenberg)"
     url: https://www.gutenberg.org/ebooks/48983
+  - title: "YouTube: Ludoteca  Alberto Pereira"
+    url: https://www.youtube.com/watch?v=6nxz2ORKCU4
+    lang: pt
 place: ""
 ---
 

@@ -46,6 +46,12 @@ refs:
     url: https://jnsilva.ludicum.org/HJT2012/BookofGames.pdf
   - title: "Ludii: Alquerque"
     url: https://ludii.games/details.php?keyword=Alquerque
+  - title: "YouTube: Práticas em Educação Física - Profa Fran Sylos"
+    url: https://www.youtube.com/watch?v=CwIbSJQii0Q
+    lang: pt
+  - title: "YouTube: Triple S Games"
+    url: https://www.youtube.com/watch?v=NhtYt1cRFzw
+    lang: en
 place: ""
 ---
 

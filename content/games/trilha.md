@@ -43,6 +43,12 @@ refs:
     lang: pt
   - title: "Ludicum: Nine Men Morris"
     url: https://ludicum.org/en/jogos/jogos-abstratos-nine-men-morris/
+  - title: "YouTube: Projeto Mundo Novo Paraíso"
+    url: https://www.youtube.com/watch?v=IWpItQ0XcVI
+    lang: pt
+  - title: "YouTube: Gather Together Games"
+    url: https://www.youtube.com/watch?v=lmFDibk7_qc
+    lang: en
 place: ""
 ---
 

@@ -37,6 +37,9 @@ refs:
     url: https://ludii.games/details.php?keyword=Brandub
   - title: "World Tafl Federation: Historical Hnefatafl Rules (2016)"
     url: https://aagenielsen.dk/TaflRulesEnglish.pdf
+  - title: "YouTube: HnefataflModern"
+    url: https://www.youtube.com/watch?v=vBxOrOD2eD8
+    lang: en
 place: ""
 ---
 

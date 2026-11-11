@@ -47,6 +47,12 @@ refs:
     url: https://www.pagat.com/domino/line/block.html
   - title: "pagat.com: Partnership Dominoes"
     url: https://www.pagat.com/domino/line/partnership.html
+  - title: "YouTube: Divertudo Oficial"
+    url: https://www.youtube.com/watch?v=zqVLt90x6xw
+    lang: pt
+  - title: "YouTube: Triple S Games"
+    url: https://www.youtube.com/watch?v=jMHJhZlAbdc
+    lang: en
 place: ""
 ---
 

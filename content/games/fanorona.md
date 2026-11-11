@@ -39,6 +39,12 @@ refs:
     lang: pt
   - title: boardspace (regras)
     url: https://www.boardspace.net/fanorona/english/rules.html
+  - title: "YouTube: Lobogames UFRGS"
+    url: https://www.youtube.com/watch?v=L4k2wvy6CjY
+    lang: pt
+  - title: "YouTube: VemKaJogar"
+    url: https://www.youtube.com/watch?v=70GDLkFLW9U
+    lang: en
 place: ""
 ---
 

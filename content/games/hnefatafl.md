@@ -37,6 +37,12 @@ refs:
     url: https://aagenielsen.dk/copenhagen_rules.php
   - title: "Aage Nielsen: regras de Fetlar (hnefatafl 11×11)"
     url: https://aagenielsen.dk/fetlar_rules_en.php
+  - title: "YouTube: VemKaJogar"
+    url: https://www.youtube.com/watch?v=AxqXZSqJVPM
+    lang: pt
+  - title: "YouTube: Triple S Games"
+    url: https://www.youtube.com/watch?v=fZ9cMj2Qn5Y
+    lang: en
 place: ""
 ---
 
