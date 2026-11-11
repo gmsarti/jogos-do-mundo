@@ -60,13 +60,16 @@ Chegou à Pérsia vindo da Índia e se difundiu com a expansão islâmica até a
 ## Do que você vai precisar?
 
 - Um tabuleiro de 8×8 casas
-- 16 peças para cada jogador: 1 *shāh* (rei), 1 *firzān*, 2 *fīl*, 2 *faras* (cavalos), 2 *rukh* (torres) e 8 *baidaq* (peões)
+- 16 peças para cada jogador: 1 *shāh* (rei), 1 *firzān* (conselheiro), 2 *fīl* (elefantes), 2 *faras* (cavalos), 2 *rukh* (torres) e 8 *baidaq* (peões)
+
+**Sugestão do site:** quem já joga xadrez pode usar um jogo de xadrez: a dama faz o papel do *firzān*, e os bispos, o dos *fīl*. Só lembre que eles andam de outro jeito.
 
 O tabuleiro pode ser impresso ou desenhado no papel. Para as peças, vale marcar o nome de cada uma numa tampinha.
 
 ## Como jogar?
 
 1. Arrume as peças. Na primeira fileira, dos cantos para o meio, ficam *rukh*, *faras* e *fīl* de cada lado. Nas duas casas do meio ficam o *shāh* e o *firzān*. Os 8 *baidaq* ocupam a segunda fileira. O *shāh* de um fica de frente para o *shāh* do outro, e o *firzān* de frente para o *firzān*.
+   - Nos manuscritos, o *shāh* de um dos lados fica na quarta casa contando da esquerda (d1), e o *firzān* na quinta (e1).
 2. Vocês se alternam, cada um fazendo uma jogada por vez.
 3. Na sua vez, mova uma peça. Cada uma anda de um jeito:
    - *Shāh*: uma casa para qualquer uma das oito casas em volta, desde que ela não esteja ocupada por peça sua nem atacada por peça do adversário.
@@ -109,3 +112,4 @@ As fontes não dizem quem começa. **Sugestão do site:** tirem na sorte quem co
 - Rei despido, por extenso: vence quem captura todas as peças do adversário menos o rei e ainda tem pelo menos uma peça sua no tabuleiro. Se o rei sozinho puder capturar a última peça do adversário na jogada seguinte, a partida empata. Em Medina e no Hejaz, o rei despido perdia na hora, mesmo podendo responder assim (Murray 1913: 228–229; Wikipedia, a partir de Murray).
 - Afogamento, nota de divergência: na regra do mundo islâmico, quem fica sem nenhuma jogada possível sem estar em xeque **perde** a partida (Murray 1913: 229, a partir das soluções de problemas dos manuscritos; o Ludii e a Wikipedia dizem o mesmo, a partir de Murray). Al-ʿAdlī registra uma regra indiana diferente, em que o jogador afogado **vence** (Murray 1913: 60–61).
 - Empate (Murray 1913: 229): a partida empata quando nenhum lado consegue vencer, por igualdade ou falta de material, impossibilidade de forçar trocas, xeque perpétuo ou repetição de jogadas.
+- Nomes das peças em português, nos vídeos de Triple S Games: *fīl*, elefante; *firzān*, conselheiro; *rukh*, carruagem; *faras*, cavalo; *baidaq*, soldado (a verificar). Os vídeos também põem o *shāh* na coluna d e o *firzān* na e, como os manuscritos, e dizem que quem afoga o adversário vence, como na regra do mundo islâmico.

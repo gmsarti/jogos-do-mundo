@@ -54,8 +54,8 @@ No Havaí há tabuleiros gravados em pedra; em casa, dá para desenhar a grade n
 3. O outro jogador tira uma pedra da cor dele que esteja ao lado do espaço vazio. Se a primeira saiu de uma casa ao lado do centro, ele tira a do centro.
 4. Daí em diante, toda jogada é uma captura: pule com uma pedra sua por cima de uma pedra do adversário que esteja colada nela, e caia na casa vazia logo atrás. A pedra pulada sai do tabuleiro.
    - O pulo vai para a frente, para trás ou para os lados, nunca na diagonal.
-5. Na mesma jogada, você pode continuar pulando, desde que siga sempre na mesma direção.
-6. Quem não conseguir capturar na sua vez perde.
+5. Na mesma jogada, você pode continuar pulando, desde que siga sempre na mesma direção, sem fazer curva.
+6. Quem não conseguir capturar na sua vez perde. Por isso não vence quem capturou mais pedras, e sim quem faz a última jogada.
 
 ## Para quem conduz
 
@@ -72,3 +72,4 @@ Kaahaaina Naihe, que ensinou o jogo a Kenneth Emory, preferia um tabuleiro com 1
 5. Os dois jogadores enchem juntos o tabuleiro, alternando pedras pretas e brancas. Depois se decide quem tira a primeira pedra (a fonte não diz como). Ela sai do centro, de uma casa ao lado do centro ou de um canto, e quem tira uma pedra preta joga com as pretas. Se a primeira pedra tirada é uma preta ao lado do centro, o outro tira a branca do centro; se é uma preta de canto, o outro tira uma branca vizinha a esse canto (Emory 1924, pelo Ludii). O Ludii, no seu conjunto de regras, faz as pretas começarem.
 6. Os saltos vão para a frente, para trás ou para os lados, nunca na diagonal e nunca em duas direções na mesma jogada. Dá para saltar e capturar uma fila de pedras do adversário, desde que haja uma casa vazia no fim e que as pedras não estejam separadas por mais de uma casa vazia (Emory 1924, pelo Ludii).
 7. Nota sobre o tamanho do tabuleiro: Kaahaaina Naihe, que ensinou o jogo a Emory, preferia um tabuleiro com lugar para 50 pedras brancas e 50 pretas, 100 casas ao todo; o Ludii o joga em 10×10. King (1784) viu um tabuleiro com 14 casas por fileira e 238 casas ao todo. Emory (1924) registra tabuleiros gravados em pedra em Lanai de 8×8 a 15×15 e até 13×20, nem sempre quadrados (todos pelo Ludii).
+8. Nota sobre os vídeos: o de Mitra Criação (em português) concorda com a Regra 6 (o salto em cadeia não muda de direção) e com a Regra 4 (perde quem não puder capturar), e faz as brancas começarem. O de GAMES AND PUZZLES CALI (em espanhol) faz as pretas começarem, deixa mudar de direção na cadeia de saltos e, no fim, dá a vitória a quem capturou mais pedras, o que diverge de Emory (1924) (a verificar).

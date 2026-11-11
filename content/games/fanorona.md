@@ -57,14 +57,17 @@ Descrito por W. Montgomery em 1896 no *Antananarivo Annual*. O Ludii diz que é 
 - Um tabuleiro de 45 pontos, em 5 fileiras de 9, ligados por linhas na horizontal, na vertical e por diagonais (a verificar)
 - 22 peças para cada jogador, de cores diferentes (a verificar)
 
+Para desenhar, faça um retângulo e divida em 8 quadrados grandes, em 2 fileiras de 4. Em cada quadrado grande, risque uma cruz no meio e as duas diagonais. As peças ficam nos pontos onde as linhas se encontram.
+
 O tabuleiro pode ser impresso, desenhado no papel ou riscado no chão. As peças podem ser feijões, tampinhas, botões, pedrinhas e por aí vai.
 
 ## Como jogar?
 
-1. No começo, as peças dos dois jogadores ocupam todos os pontos do tabuleiro, menos o ponto do centro.
+1. No começo, o tabuleiro fica cheio. Cada jogador ocupa as duas fileiras do seu lado. Na fileira do meio, as cores se alternam, e só o ponto do centro fica vazio.
 2. Quem tem as peças brancas começa. Na sua vez, mova uma peça sua pela linha até um ponto vizinho vazio.
 3. Se você puder capturar, é obrigado: o movimento sem captura só vale quando nenhuma captura é possível.
 4. Captura por aproximação: se a sua peça parar colada numa peça do adversário, na mesma direção em que andou, essa peça sai do tabuleiro, e também todas as peças do adversário que vêm seguidas atrás dela, na mesma linha.
+   - A fila capturada acaba no primeiro ponto vazio ou na primeira peça sua. O que vem depois fica no tabuleiro.
 5. Captura por afastamento: se a sua peça se afastar de uma peça do adversário que estava colada nela, essa peça sai do tabuleiro, e também todas as peças do adversário que vêm seguidas atrás dela, na mesma linha.
    - Se o mesmo movimento permitir as duas capturas, escolha uma.
 6. Depois de capturar, a mesma peça pode continuar capturando, na mesma vez, se você quiser.
@@ -73,9 +76,9 @@ O tabuleiro pode ser impresso, desenhado no papel ou riscado no chão. As peças
 
 ## Para quem conduz
 
-A ordem das peças no começo, com quais pontos ficam com cada cor, aparece nas figuras das fontes, como a do boardspace; esta ficha ainda não a descreve em texto.
+Depois de uma partida, pode vir a revanche, chamada *vela*. Nela, um dos jogadores não captura nada até ficar com 5 peças, e o outro só captura uma peça por vez. As fontes da ficha não dizem quem faz cada papel.
 
-Depois de uma partida, pode vir a revanche, chamada *vela*: quem perdeu joga com regras especiais, que esta ficha ainda não descreve.
+E se alguém esquecer de fazer uma captura obrigatória? As fontes da ficha não dizem. No vídeo de VemKaJogar (em inglês), o adversário tira do tabuleiro a peça de quem esqueceu, aquela que podia ter capturado. O mesmo vídeo trata como obrigatório continuar capturando, enquanto as fontes da ficha dizem que é opcional. Combinem antes da partida.
 
 **Sugestão do site:** antes da primeira partida, monte no tabuleiro só algumas peças e mostre as duas capturas, a por aproximação e a por afastamento. É a parte que mais confunde quem está começando.
 
@@ -92,3 +95,4 @@ Depois de uma partida, pode vir a revanche, chamada *vela*: quem perdeu joga com
 9. A partida empata se nenhum dos dois capturar todas as peças do adversário (Wikipedia); o boardspace cita empate por repetição.
 10. Posição inicial: as peças de cada jogador ocupam as duas fileiras do seu lado; na fileira do meio, as cores se alternam, e o ponto do centro fica vazio (Ludii, a partir de Montgomery 1896: 151–155). Na figura do boardspace, as brancas ocupam as duas fileiras de baixo, e a fileira do meio tem, da esquerda para a direita de quem joga com as brancas: preta, branca, preta, branca, o centro vazio, preta, branca, preta, branca.
 11. Revanche (*vela*): quem perdeu não volta a jogar a forma comum antes de vencer uma *vela* ou de reconhecer que o outro é melhor. Na *vela*, um dos jogadores não captura nada até ficar com 5 peças, e o outro só captura uma peça por lance, mesmo quando poderia levar mais. Quando o primeiro fica com 5 peças, a partida segue com as regras comuns, e vence quem capturar todas as peças do adversário (Ludii, a partir de Montgomery 1896: 155). O Ludii não diz qual dos dois, o vencedor ou o perdedor da partida anterior, faz cada papel.
+12. Quem não faz uma captura obrigatória perde a peça que podia ter capturado: o adversário a tira do tabuleiro (vídeo de VemKaJogar, a verificar). Nota de divergência: no mesmo vídeo, continuar capturando também é obrigatório, ao contrário da Regra 8. O vídeo também ensina a desenhar o tabuleiro como 8 quadrados grandes (2×4), cada um com a cruz e as duas diagonais, o que dá os 45 pontos da Regra 1.

@@ -62,6 +62,8 @@ O que as fontes têm em comum, pela Wikipedia: o rei anda uma casa em qualquer d
 
 **Sugestão do site:** para jogar assim mesmo, combinem antes qual movimento terá o elefante e se o afogamento vale como vitória, como empate ou como derrota.
 
+Os vídeos da ficha também fazem escolhas. O da Academia de Xadrez Falcão joga a forma de dois jogadores, com o elefante andando exatamente duas casas na diagonal e o soldado andando uma casa só, sem lance duplo. O de AncientGaming ensina a forma de quatro jogadores com dados, a partir da descrição de al-Biruni (séc. XI), com pontos pelas peças capturadas.
+
 ## Regras
 
 Reconstruídas a partir de textos sânscritos e dos descendentes (Shatranj, Makruk). Reconstrutores principais: Murray (1913) e Falkener (1892). Não há regras conservadas: o que segue é reconstrução, e o Chaturanga não tem uma forma única para ensinar. Há também uma forma para quatro jogadores com dados (chaturaji), registrada separadamente.

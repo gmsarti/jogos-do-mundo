@@ -76,6 +76,8 @@ Esta ficha ainda não tem "Como jogar?". Com as 28 peças existem vários jogos,
 
 As duas versões estão por inteiro em "Regras".
 
+O vídeo em português da ficha ensina um terceiro jogo, o dominó com compra: quem não tem peça que sirva compra do monte até conseguir jogar, e vence quem acabar com as peças primeiro. Ele também está em "Regras", como nota.
+
 A ficha marca `sens` como "aposta (a verificar)": vale conferir como o jogo é tratado antes de ensiná-lo.
 
 ## Regras
@@ -99,3 +101,9 @@ A ficha marca `sens` como "aposta (a verificar)": vale conferir como o jogo é t
 4. A rodada acaba quando um jogador põe a última peça ou quando os quatro passam seguidos (pagat.com).
 5. Vence a rodada a dupla de quem bateu. Se o jogo trancou, vence a dupla com menos pontos nas peças que sobraram; se as somas forem iguais, a rodada empata (pagat.com).
 6. A dupla vencedora marca a soma das peças da dupla perdedora. Vence a partida a dupla que chegar primeiro a 100 pontos (pagat.com). O pagat.com lista muitas variações regionais, como jogar até 200 pontos, quem começa as rodadas seguintes e o que fazer com o empate no jogo trancado.
+
+**Dominó com compra**, nos vídeos da ficha (a verificar; ainda não é um candidato da curadoria):
+
+1. No vídeo em português, cada jogador recebe 7 peças, viradas para baixo, e as que sobram formam o monte. Jogam de 2 a 4 pessoas. Começa quem tem o duplo seis; se ninguém tiver, o duplo cinco, e assim por diante.
+2. Na sua vez, o jogador põe uma peça com o mesmo número de uma das pontas. Quem não tem peça que sirva compra do monte até conseguir jogar. Vence quem acabar com as peças primeiro. O vídeo diz que há quem jogue o duplo abrindo novas pontas, e que ele não joga assim.
+3. O vídeo em inglês (Triple S Games) ensina o *basic dominoes*: 7 peças cada com 2 jogadores e 5 com 3 ou 4; começa o duplo mais alto, e o primeiro duplo (*spinner*) abre quatro pontas; quem não tem peça compra do monte até jogar e, se o monte acabar, passa. Marca pontos quem deixa as pontas somando um múltiplo de 5, e quem bate ganha a soma das peças dos outros, arredondada para o múltiplo de 5 mais próximo. Vence quem chegar a 150.

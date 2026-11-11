@@ -62,8 +62,8 @@ O tabuleiro pode ser impresso, desenhado no papel ou riscado no chão. As peças
 ## Como jogar?
 
 1. O jogo tem duas fases: primeiro vocês colocam as peças, depois movem as peças.
-2. O tabuleiro começa vazio. Na sua vez, coloque uma peça sua num ponto livre.
-3. Se você formar uma linha reta de três peças suas, um moinho, tire do tabuleiro uma peça do adversário que não esteja num moinho.
+2. O tabuleiro começa vazio. Quem tem as peças brancas começa (a verificar). Na sua vez, coloque uma peça sua num ponto livre, onde as linhas se encontram.
+3. Se você formar uma fila de três peças suas sobre uma mesma linha do desenho, isso é um moinho. Tire do tabuleiro uma peça do adversário que não esteja num moinho. Ela não volta mais.
    - Se todas as peças dele estiverem em moinhos, você pode tirar qualquer uma (a verificar).
 4. Revezem-se até colocar as 9 peças de cada um.
 5. Agora as peças andam. Na sua vez, deslize uma peça sua pela linha até um ponto vizinho vazio. Cada moinho novo também deixa você tirar uma peça do adversário.
@@ -74,7 +74,7 @@ O tabuleiro pode ser impresso, desenhado no papel ou riscado no chão. As peças
 
 O voo com três peças é a regra mais comum, mas algumas fontes o tratam como variação, e outras nem falam dele. Combinem antes da partida.
 
-**Sugestão do site:** as fontes desta ficha não dizem quem começa. Tirem na sorte ou combinem antes da partida.
+Quem começa vem só de um vídeo em inglês (Gather Together Games), em que as brancas começam. Se preferirem, tirem na sorte.
 
 ## Regras
 
@@ -83,4 +83,5 @@ O voo com três peças é a regra mais comum, mas algumas fontes o tratam como v
 3. Depois, as peças andam para pontos vizinhos vazios; novos moinhos também capturam (Fernandes e Alberto 2009).
 4. Na regra mais comum, quem fica com três peças pode "voar" para qualquer ponto. A Wikipedia registra que algumas fontes dão o voo como a regra do jogo, outras como variação, e outras nem o citam; a Ludicum o dá como variação.
 5. Vence quem reduzir o adversário a duas peças ou deixá-lo sem movimento (Fernandes e Alberto 2009).
-6. Se todas as peças do adversário estiverem em moinho, pode-se retirar qualquer uma (Wikipedia e Ludicum, sem citar fonte, a verificar).
+6. Se todas as peças do adversário estiverem em moinho, pode-se retirar qualquer uma (Wikipedia e Ludicum, sem citar fonte; vídeo de Gather Together Games; a verificar).
+7. As brancas começam. O moinho é uma fila de três na horizontal ou na vertical, e a peça retirada sai do jogo (vídeo de Gather Together Games, a verificar).

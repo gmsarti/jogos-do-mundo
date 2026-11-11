@@ -85,6 +85,10 @@ As regras acima valem nos dois conjuntos modernos que a ficha cita, o de Fetlar 
 
 **Sugestão do site:** combinem antes da partida o que vale na borda e na repetição.
 
+**Sugestão do site:** como no vídeo de VemKaJogar, troquem de lado a cada partida, porque defender o rei e atacá-lo pedem jeitos diferentes de pensar. Para aprender, o mesmo vídeo sugere começar pelo Brandubh, num tabuleiro de 7×7 e com menos peças.
+
+No vídeo de VemKaJogar, o rei escapa chegando a qualquer casa da borda, e não só aos cantos. Essa não é a regra de Fetlar nem a de Copenhagen.
+
 ## Regras
 
 Movimento como a torre do xadrez; captura por cerco entre duas peças; o rei vence ao chegar a um canto (na maioria das reconstruções em tabuleiro 11×11) e perde se cercado pelos quatro lados. Conjuntos de regras modernos (como os de Copenhagen e Fetlar) são obras de autor.
@@ -106,3 +110,4 @@ Onde os dois conjuntos diferem:
 10. Rei na borda: em Copenhagen, o rei nunca é capturado na borda; em Fetlar, só é capturado na borda se for a última peça do seu lado e estiver cercado (regra 7a).
 11. Repetição: em Copenhagen, a repetição sem fim é proibida, e toda repetição sem fim dá a derrota aos defensores (regra 8); em Fetlar, a repetição leva ao empate (regra 9).
 12. Só em Copenhagen: a **muralha de escudos**, em que uma fila de duas ou mais peças encostada na borda, cada uma com uma peça inimiga logo à frente, é capturada de uma vez quando as duas pontas da fila são fechadas (um canto pode fechar uma das pontas; o rei, se estiver na fila, não é capturado) (regra 4b); e o **forte de saída**, em que os defensores também vencem se o rei tocar a borda, puder se mover e os atacantes não tiverem como romper o forte em volta dele (regra 6b).
+13. Nota sobre os vídeos da ficha: o de Triple S Games (em inglês) segue o que vale nos dois conjuntos e, para o rei na borda, a regra de Fetlar (10). O de VemKaJogar (em português) dá vitória aos defensores quando o rei chega a qualquer casa da borda, não só aos cantos, e não diz de onde tirou a regra (a verificar).

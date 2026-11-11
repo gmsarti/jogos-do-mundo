@@ -85,7 +85,7 @@ O tabuleiro pode ser impresso, desenhado no papel ou riscado no chão. As peças
 
 As fontes divergem em dois pontos, e a ficha segue a primeira versão de cada um. Quantidade de cães: 14 (Ludii, Vergara e Martínez, Wikipedia) ou 15 (Lima, 2004, entre os Bororo). Vitória da onça: 5 cães (Museu das Culturas Indígenas, Vergara e Martínez, Wikipedia) ou todos os cães (Ludii). Combinem as duas coisas antes de começar.
 
-A ficha também não diz exatamente em quais pontos os cães começam, nem o que acontece se os cães ficarem sem lance ou se há empate.
+A ficha também não diz exatamente em quais pontos os cães começam, nem o que acontece se os cães ficarem sem lance ou se há empate. E num vídeo em inglês (BruinClub UCLA) a onça não sai do centro do tabuleiro, mas do ponto onde o quadrado encontra o triângulo ou do centro do triângulo.
 
 **Sugestão do site:** troquem de lado ao fim de cada partida, para todos experimentarem a onça e os cães.
 
@@ -98,6 +98,7 @@ A ficha também não diz exatamente em quais pontos os cães começam, nem o que
 5. O triângulo: o vértice dele é o ponto do meio de um dos lados do quadrado de 5×5. Uma linha vai desse vértice até o meio da base do triângulo, e outra linha corta a primeira no meio e liga os pontos do meio dos outros dois lados do triângulo (Ludii, a partir de Lima 2004, a verificar). São 6 pontos a mais (os dois cantos da base, o meio da base, o meio de cada um dos outros dois lados e o cruzamento das duas linhas), que com os 25 do quadrado dão os 31 pontos do tabuleiro. O desenho de Vergara e Martínez (UFMG, fig. 2.31) é o mesmo.
 6. São 14 cães (Ludii; Vergara e Martínez; Wikipedia; Museu das Culturas Indígenas, que conta 15 peças com a onça). Nota de divergência: Lima (2004), citado por Vinha e pelo Ludii, fala em 15 cachorros entre os Bororo.
 7. Os cães começam na metade do quadrado oposta ao triângulo (Vergara e Martínez; Wikipedia, a partir deles).
+   - Nota de divergência: o vídeo do BruinClub UCLA diz que há três jeitos de montar o tabuleiro, que mudam o lugar de onde a onça sai, e cita dois: ao lado dos cães, onde o quadrado encontra o triângulo, ou no centro do triângulo (a verificar). O vídeo concorda com a ficha nos 14 cães, na onça jogando primeiro e nos 5 cães para a onça vencer.
 8. Os jogadores sorteiam quem fica com a onça; quem fica com ela começa. Depois se alternam, movendo uma peça por vez (Vergara e Martínez; Museu das Culturas Indígenas).
 9. Capturar não é obrigatório, e a onça pode capturar mais de um cão no mesmo lance, em qualquer sentido (Vergara e Martínez). O GamesCrafters acrescenta que a onça pode parar a sequência de saltos quando quiser e que não pode andar e saltar no mesmo lance (a verificar: não diz de onde tirou a regra).
 10. Nota de divergência sobre a vitória da onça: 5 cães no Museu das Culturas Indígenas, em Vergara e Martínez e na Wikipedia; todos os cães no Ludii; 6 cães no GamesCrafters.

@@ -74,8 +74,9 @@ O tabuleiro pode ser impresso, desenhado no papel ou riscado no chão. As peças
    - ou mova uma peça sua que já está no tabuleiro.
 3. A peça anda uma casa por vez, na horizontal ou na vertical, para uma casa vazia.
 4. Para capturar, pule por cima de uma peça do adversário que esteja ao lado da sua, na horizontal ou na vertical, e caia na casa vazia logo atrás. A peça pulada sai do tabuleiro.
-5. Depois de cada captura, tire também do tabuleiro mais uma peça do adversário, a que você escolher.
-6. Vence quem capturar todas as peças do adversário.
+5. Depois de cada captura, tire também do tabuleiro mais uma peça do adversário, a que você escolher. Assim, cada captura leva pelo menos duas peças.
+   - Se a mesma peça puder pular de novo, continue na mesma vez. Cada pulo é uma captura e dá direito a tirar mais uma peça (a verificar).
+6. Vence quem capturar todas as peças do adversário. Quem não tiver nenhuma jogada possível na sua vez perde (a verificar).
 7. Se os dois ficarem com três peças ou menos, a partida empata.
 
 ## Para quem conduz
@@ -94,3 +95,4 @@ No Senegal, o yoté é um dos jogos a dinheiro mais difundidos (Béart 1955). **
 4. Depois de cada captura, o jogador retira também uma peça adversária à escolha do tabuleiro.
 5. Vence quem capturar todas as peças adversárias.
 6. Nas regras de Grunfeld (1975), para o tabuleiro de 5×6, as brancas começam, e a partida empata se os dois jogadores ficarem com três peças ou menos (Wikipedia).
+7. A peça que captura pode continuar pulando na mesma vez, e cada pulo dá direito a retirar mais uma peça à escolha. Perde quem não tiver jogada possível; se os dois ficarem sem jogada ao mesmo tempo, vence quem tiver mais peças no tabuleiro, e com o mesmo número é empate (vídeo de VemKaJogar, a verificar). O vídeo também confirma o empate com três peças ou menos da Regra 6.

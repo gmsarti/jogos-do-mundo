@@ -59,15 +59,17 @@ O Ludii registra que foi observado entre os iorubás, que o chamavam *akidada*, 
 - Um tabuleiro de 9 pontos, em 3 fileiras de 3, ligados por linhas na horizontal, na vertical e pelas duas diagonais
 - 4 peças para cada jogador, de cores diferentes. Há também uma versão com 3 peças
 
+Para desenhar, faça um quadrado, risque as duas diagonais e uma cruz que passa pelo meio. As peças ficam nos 9 pontos onde as linhas se encontram.
+
 Dá para riscar o tabuleiro na areia, como no registro do início do séc. XX, ou desenhar no papel. Para as peças, vale o que tiver à mão: pedaços de folha de palmeira, como no mesmo registro, feijões, tampinhas, botões.
 
 ## Como jogar?
 
 1. O jogo tem duas fases: primeiro vocês colocam as peças, depois movem as peças.
 2. O tabuleiro começa vazio. Na sua vez, coloque uma peça sua num ponto livre.
-3. Revezem-se colocando peças. Se alguém alinhar três peças já nessa fase, vence a partida.
+3. Revezem-se colocando peças. Se alguém fizer uma fila de três já nessa fase, vence a partida.
 4. Quando todas as peças estiverem no tabuleiro, elas passam a andar. Na sua vez, deslize uma peça sua pela linha até um ponto vizinho que esteja vazio.
-5. Vence quem alinhar três peças suas numa linha do tabuleiro: na horizontal, na vertical ou na diagonal.
+5. Vence quem fizer uma fila com três peças suas sobre uma linha do tabuleiro: na horizontal, na vertical ou na diagonal.
 6. Se chegar a sua vez e você não tiver nenhuma peça que possa andar, você perde.
 
 ## Para quem conduz
@@ -76,7 +78,7 @@ Com 4 peças para cada um, sobra só um ponto vazio no tabuleiro, e cada jogada 
 
 **Sugestão do site:** com crianças pequenas, jogue primeiro só a fase de colocar as peças, como um jogo da velha. Quando todos tiverem entendido, acrescente a fase de mover.
 
-**Sugestão do site:** as fontes desta ficha não dizem quem começa. Tirem na sorte ou combinem antes da partida.
+**Sugestão do site:** as fontes desta ficha não dizem quem começa. Tirem na sorte ou combinem antes da partida. No vídeo de Camila Guerreiro, a escolha é feita no jokenpô.
 
 ## Regras
 

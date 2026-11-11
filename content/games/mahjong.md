@@ -62,6 +62,8 @@ O *riichi*, a variante japonesa, não usa as flores e joga com 136 peças. Se n�
 ## Como jogar?
 
 1. Seu objetivo é completar 14 peças em quatro combinações e um par. As combinações são a sequência (*chow*), três peças do mesmo naipe em ordem numérica; a trinca (*pung*), três peças iguais; e a quadra (*kong*), quatro peças iguais. O par são duas peças iguais.
+   - A sequência não dá a volta: depois do 9 não vem o 1, então 8-9-1 não vale (a verificar).
+   - Ventos e dragões não têm número, então não formam sequência: só par, trinca ou quadra.
 2. Cada jogador recebe um vento. Leste é quem dá as cartas e começa; sul fica à direita dele, oeste em frente e norte à esquerda. Dá para sortear os ventos com as quatro peças de vento viradas para baixo.
 3. Virem todas as peças para baixo e misturem. Cada jogador monta à sua frente uma fileira de peças com duas de altura (18 pilhas nas regras chinesas de competição, 17 no *riichi*). As quatro fileiras formam um quadrado, a muralha. Lancem os dados para escolher onde ela é aberta.
 4. Cada jogador pega 13 peças, e leste pega 14. Quem tiver flores as põe de lado e compra outra peça no lugar.
@@ -74,6 +76,10 @@ O *riichi*, a variante japonesa, não usa as flores e joga com 136 peças. Se n�
 ## Para quem conduz
 
 A pontuação varia muito entre regiões: além das três variantes acima, há o mahjong de Taiwan, com mãos de 16 peças, e o de Singapura, com quatro peças de bicho a mais. A ficha não escolhe uma variante.
+
+Para quem conhece jogos de cartas de comprar e descartar, a ideia é parecida: você compra, descarta e vai juntando trincas e sequências na mão até ela ficar completa.
+
+O vídeo da Associação Brasileira de Mahjong dá dicas para reconhecer as peças. Conte os círculos e os bambus para saber o número. O 1 de bambu costuma ser um pássaro, e não um bambu. O 6 e o 9 de bambu se confundem fácil. Nas primeiras partidas, dá para jogar com uma colinha dos números de caracteres ao lado.
 
 **Sugestão do site:** combinem a variante e o mínimo para vencer antes de começar. Na primeira mão, quem está aprendendo pode jogar sem mínimo, só para chegar a uma mão completa.
 
@@ -93,3 +99,4 @@ As regras abaixo são as que as fontes de três variantes têm em comum: as regr
 8. Fim da mão: vence quem completa 14 peças em quatro combinações e um par, comprando da muralha ou pegando um descarte. Se a muralha acaba e ninguém venceu, a mão termina sem vencedor (MCR 3.4.30; EMA 3.4.2; Wikipedia).
 9. O que muda entre as variantes é sobretudo o que uma mão precisa para valer e como se conta. No MCR, a mão precisa somar pelo menos 8 pontos (MCR 3.9.1). No *riichi*, precisa ter pelo menos um *yaku*, uma combinação que pontua (EMA 3.2). No Hong Kong, a Wikipedia diz que o mínimo mais comum é 3 *faan*, conforme o combinado na mesa. A Wikipedia registra ainda o mahjong de Taiwan, com mãos de 16 peças, e o de Singapura, com quatro peças de bicho a mais.
 10. Combinações (Wikipedia, *Mahjong*): sequência (*chow*) são três peças do mesmo naipe em ordem numérica; trinca (*pung*), três peças iguais; quadra (*kong*), quatro peças iguais. O par são duas peças iguais. A mão que vence tem quatro combinações (sequências, trincas ou quadras) e um par.
+11. A sequência não dá a volta (o 9 não emenda com o 1), e ventos e dragões só formam par, trinca ou quadra, nunca sequência (vídeo da Associação Brasileira de Mahjong, a verificar). O mesmo vídeo, que ensina o *riichi*, cita a mão especial de sete pares diferentes.

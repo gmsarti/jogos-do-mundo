@@ -63,8 +63,12 @@ O tabuleiro pode ser impresso ou desenhado no papel. As pedras podem ser feijõe
 
 1. Decidam quem fica com as pretas: um jogador esconde algumas pedras brancas na mão, e o outro aposta se o número é par ou ímpar. Se acertar, ele joga com as pretas.
 2. O tabuleiro começa vazio, e as pretas começam. Na sua vez, ponha uma pedra sua num ponto vazio ou passe a vez.
-3. Pedras da mesma cor encostadas na horizontal ou na vertical formam um grupo. Os pontos vazios encostados no grupo são as liberdades dele.
+   - A pedra posta não anda mais. Ela só sai do tabuleiro se for capturada.
+3. Pedras da mesma cor encostadas na horizontal ou na vertical formam um grupo. Os pontos vazios encostados no grupo são as liberdades dele, como o ar que ele respira.
+   - Uma pedra sozinha no meio do tabuleiro tem 4 liberdades; na borda, 3; no canto, 2.
+   - Pedras encostadas só na diagonal não formam grupo.
 4. Quando um grupo fica sem nenhuma liberdade, ele é capturado: tire as pedras dele do tabuleiro.
+   - Um grupo com uma liberdade só está em perigo (em japonês, *atari*). Para salvá-lo, ponha uma pedra sua encostada nele e ganhe mais liberdades.
    - Se a sua jogada deixar sem liberdades pedras dos dois lados, você tira as do adversário.
 5. Você não pode pôr uma pedra num ponto onde ela fique sem liberdades, a não ser que a jogada capture pedras do adversário.
 6. É proibido repetir uma posição que já apareceu na partida (é a regra do *ko*).
@@ -74,7 +78,11 @@ O tabuleiro pode ser impresso ou desenhado no papel. As pedras podem ser feijõe
 
 ## Para quem conduz
 
-**Sugestão do site:** para aprender, comecem num tabuleiro menor, de 9×9, e contem do mesmo jeito: vence quem tiver mais da metade dos pontos do tabuleiro.
+**Sugestão do site:** para aprender, comecem num tabuleiro menor, de 9×9, e contem do mesmo jeito: vence quem tiver mais da metade dos pontos do tabuleiro. O vídeo de Go Magic sugere passar depois para o 13×13 e só então para o 19×19.
+
+Uma consequência das regras que vale mostrar: um grupo que cerca dois pontos vazios separados (os "dois olhos") nunca pode ser capturado, porque o adversário não consegue ocupar os dois de uma vez, e uma pedra sozinha em qualquer um deles ficaria sem liberdades.
+
+Os dois vídeos da ficha contam os pontos de outro jeito, o japonês: cada um soma os pontos vazios que cercou mais as pedras que capturou durante a partida. A contagem desta ficha é a chinesa, que soma as pedras no tabuleiro e os pontos cercados. Combinem antes qual vão usar.
 
 ## Regras
 

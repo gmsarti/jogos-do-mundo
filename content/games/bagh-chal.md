@@ -76,6 +76,8 @@ O tabuleiro pode ser impresso, desenhado no papel ou riscado no chão. As peças
 
 Combinem antes quantas cabras os tigres precisam capturar para vencer. Na regra mais difundida são 5. Os registros de 1933 e de 1976 falam em capturar todas, e um de 1986, no Nepal, em mais de cinco.
 
+Uma dica de estratégia do vídeo de GAMES AND PUZZLES CALI (em espanhol): no começo, ponha as cabras nos pontos da borda e deixe o centro para o fim. Assim, os tigres vão para o meio, e fica mais fácil prendê-los. E nunca ponha uma cabra ao lado de um tigre com um ponto vazio atrás dela.
+
 ## Regras
 
 1. Tabuleiro de 5×5 pontos com diagonais. Os 4 tigres começam nos cantos.
@@ -87,3 +89,4 @@ Combinem antes quantas cabras os tigres precisam capturar para vencer. Na regra 
 7. O tigre não é obrigado a capturar (Wikipedia, a verificar).
 8. Depois que todas as cabras entraram, nenhuma jogada pode repetir uma posição que já aconteceu na partida (Wikipedia, a verificar).
 9. Nota sobre o número de cabras: Hora (1933: 8–9) e Parlett (1976: 4) dizem que os tigres vencem capturando todas as cabras; Averbakh (1995: 17–18), que viu o jogo no Nepal em 1986, diz que vencem se capturarem mais de cinco (todos pelo Ludii); a Wikipedia diz cinco.
+10. O vídeo de GAMES AND PUZZLES CALI confirma as Regras 1 a 5, com 5 cabras para os tigres vencerem. Ele mostra também uma forma que diz ser jogada na Índia, em que todas as peças começam no tabuleiro: uma cabra no centro, uma em cada canto interno e as outras 15 em grupos, sem fase de entrada (a verificar).

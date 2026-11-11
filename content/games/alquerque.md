@@ -81,7 +81,7 @@ O tabuleiro pode ser impresso, desenhado no papel ou riscado no chão. As peças
 As fontes não concordam em dois pontos, e vale combinar antes da partida:
 
 - **A peça pode andar para trás?** Afonso X (1283) e Covarrubias (1674) só dizem que as peças andam pelas linhas. A proibição de andar para trás é uma das regras que R. C. Bell acrescentou em 1979, por achar as de Afonso X insuficientes para jogar.
-- **Capturar é obrigatório?** Para Covarrubias (1674), quem podia capturar e não capturava perdia a peça, que o adversário "soprava". Outras fontes dizem só que capturar é obrigatório.
+- **Capturar é obrigatório?** Para Covarrubias (1674), quem podia capturar e não capturava perdia a peça, que o adversário "soprava". Outras fontes dizem só que capturar é obrigatório. No vídeo de Triple S Games (em inglês), capturar não é obrigatório.
 
 ## Regras
 
@@ -91,6 +91,6 @@ As fontes não concordam em dois pontos, e vale combinar antes da partida:
 4. Vence quem capturar ou bloquear todas as peças adversárias.
 5. Quem começa é tirado nos dados. Começar é desvantagem, porque o primeiro é obrigado a jogar no ponto vazio do centro, e o outro responde capturando (Afonso X 1283, tradução de Golladay).
 6. Perde quem perder as peças mais depressa; se os dois souberem jogar, a partida pode empatar (Afonso X 1283, tradução de Golladay).
-7. Captura obrigatória: quem pode capturar e não captura perde a peça, que o adversário "sopra" (Covarrubias 1674: 41, pelo Ludii). Murray 1951: 65 (pelo Ludii) também a dá como obrigatória, sem falar de sopro. A Wikipedia dá a captura e a cadeia de saltos como obrigatórias, com sopro, sem citar fonte (a verificar), e Fernandes e Alberto (2009) dão a captura como obrigatória, sem sopro (a verificar).
+7. Captura obrigatória: quem pode capturar e não captura perde a peça, que o adversário "sopra" (Covarrubias 1674: 41, pelo Ludii). Murray 1951: 65 (pelo Ludii) também a dá como obrigatória, sem falar de sopro. A Wikipedia dá a captura e a cadeia de saltos como obrigatórias, com sopro, sem citar fonte (a verificar), e Fernandes e Alberto (2009) dão a captura como obrigatória, sem sopro (a verificar). O vídeo de Triple S Games diz o contrário: capturar e continuar saltando são escolhas de quem joga (a verificar).
 8. Direção do movimento, nota de divergência: Afonso X e Covarrubias (1674) só dizem que as peças andam e saltam pelas linhas. Fernandes e Alberto (2009) dizem que andam em qualquer das oito direções (a verificar), e a Wikipedia, sem fonte, que vão a qualquer ponto vizinho ligado por linha (a verificar). A proibição de andar para trás é uma das regras que R. C. Bell acrescentou por achar as de Afonso X insuficientes para jogar, junto com não voltar a um ponto já ocupado, a peça que chega à última fileira do adversário só se mover para capturar e vencer também por bloqueio (Wikipedia, a partir de Bell 1979).
-9. Cada jogador põe as suas 12 peças de um lado do tabuleiro (Afonso X 1283, tradução de Golladay): nas duas fileiras mais próximas dele e nos dois pontos da direita da fileira do meio (Wikipedia, sem fonte, a verificar).
+9. Cada jogador põe as suas 12 peças de um lado do tabuleiro (Afonso X 1283, tradução de Golladay): nas duas fileiras mais próximas dele e nos dois pontos da direita da fileira do meio (Wikipedia, sem fonte; vídeo de Triple S Games; a verificar).

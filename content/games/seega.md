@@ -48,7 +48,7 @@ place: ""
 
 ## História
 
-Segundo a Wikipedia, é conhecido no Egito desde o fim do séc. XVIII. O viajante Edward Lane o descreveu em 1836 como jogo dos camponeses (*felláheen*) do Egito, com covas feitas em geral no chão, em 5×5, 7×7 ou 9×9; as peças se chamavam *kelbs* (conferido na reedição de 1890, no Project Gutenberg). É frequentemente comparado ao Ludus latrunculorum.
+Segundo a Wikipedia, é conhecido no Egito desde o fim do séc. XVIII. O viajante Edward Lane o descreveu em 1836 como jogo dos camponeses (*felláheen*) do Egito, com covas feitas em geral no chão, em 5×5, 7×7 ou 9×9; as peças se chamavam *kelbs* (conferido na reedição de 1890, no Project Gutenberg). É frequentemente comparado ao Ludus latrunculorum. Em 1890, Henry Carrington Bolton o descreveu no *Journal of American Folklore*, jogado por beduínos e egípcios com pedrinhas pretas e brancas na areia, no Sinai (vídeo de The Gaming Bench, a verificar).
 
 ## Do que você vai precisar?
 
@@ -65,6 +65,8 @@ Dá para cavar 25 covinhas no chão, em 5 fileiras de 5, como no registro de Lan
 4. Para começar a fase de movimento, quem começa leva para o centro uma peça sua que esteja ao lado dele.
 5. Depois, na sua vez, mova uma peça sua uma casa, na horizontal ou na vertical, para uma casa vazia.
 6. Para capturar, mova sua peça de modo que uma peça do adversário fique presa entre ela e outra peça sua, na mesma linha, na horizontal ou na vertical. A peça cercada sai do tabuleiro.
+   - Um só movimento pode prender mais de uma peça do adversário. Todas as que ficarem presas saem (a verificar).
+   - Se você mesmo puser sua peça entre duas peças do adversário, ao colocar ou ao mover, ela não é capturada (a verificar).
    - Enquanto puder capturar de novo, continue, antes de o adversário jogar.
    - Uma peça na casa do centro não pode ser capturada (a verificar).
 7. Se chegar a sua vez e nenhuma peça sua tiver uma casa vazia ao lado, peça ao adversário para abrir caminho: ele tira do tabuleiro uma peça dele, que fica perdida.
@@ -72,7 +74,13 @@ Dá para cavar 25 covinhas no chão, em 5 fileiras de 5, como no registro de Lan
 
 ## Para quem conduz
 
-**Sugestão do site:** as fontes desta ficha não dizem quem começa. Tirem na sorte ou combinem antes da partida.
+**Sugestão do site:** as fontes desta ficha não dizem quem começa. Tirem na sorte ou combinem antes da partida. No vídeo do Programa Educativo CENTURIUM, a escolha é feita no pedra, papel e tesoura.
+
+Os dois vídeos da ficha ensinam versões modernas, que não concordam entre si nem com Lane (1836). Combinem antes da partida:
+
+- **Capturar é obrigatório?** Sim, no vídeo do CENTURIUM; não, no de The Gaming Bench.
+- **Quem fica sem movimento:** em Lane, o adversário tira uma peça dele mesmo para abrir caminho; no CENTURIUM, ele faz uma jogada a mais; no Gaming Bench, ele escolhe entre mover e tirar uma peça.
+- **Fim da partida:** no Gaming Bench, vence quem deixar o adversário com uma peça só, e uma perseguição sem fim vira empate. No CENTURIUM, uma peça só pode ficar três jogadas na casa do centro, e quem forma uma barreira (uma fileira inteira, com só peças suas atrás dela) encerra a partida: vence quem capturou mais.
 
 ## Regras
 
@@ -83,3 +91,5 @@ Dá para cavar 25 covinhas no chão, em 5 fileiras de 5, como no registro de Lan
 5. Peça na casa central não pode ser capturada (a verificar; não está em Lane 1836).
 6. Se um jogador não tiver peça ao lado de uma casa vazia, pede ao adversário que lhe abra caminho, e o adversário tira do tabuleiro, e perde, uma peça sua (Lane 1836).
 7. Vence quem capturar todas as peças adversárias ou o que tiver mais peças quando o jogo trava (a verificar; Lane 1836 diz que as únicas regras são as de colocar, abrir caminho e capturar).
+8. Uma peça que o próprio jogador coloca ou move para o meio de duas peças adversárias não é capturada, e um só movimento pode capturar mais de uma peça (vídeos do Programa Educativo CENTURIUM e de The Gaming Bench, a verificar).
+9. Nota de divergência sobre regras modernas: capturar é obrigatório no vídeo do CENTURIUM e opcional no de The Gaming Bench. No CENTURIUM, quem fica sem movimento recebe uma jogada a mais do adversário (em vez da peça tirada da Regra 6), uma peça só pode ficar três jogadas na casa do centro, e quem forma uma barreira (uma fileira inteira, sem peças adversárias atrás) encerra a partida, vencendo quem capturou mais. No Gaming Bench, o adversário escolhe entre mover e tirar uma peça, vence quem deixar o outro com uma peça só, e a casa do centro protegida é opcional (a verificar).

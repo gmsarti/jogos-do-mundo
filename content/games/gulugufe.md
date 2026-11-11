@@ -57,6 +57,8 @@ O tabuleiro pode ser impresso, desenhado no papel ou riscado no chão. As peças
 2. Na sua vez, mova uma peça sua pela linha até um ponto vizinho vazio.
 3. Para capturar, pule por cima de uma peça do adversário que esteja ao lado da sua, em linha reta, e caia no ponto vazio logo depois.
 4. Se você puder capturar, é obrigado.
+   - Se puder e não capturar, o adversário tira do tabuleiro a sua peça que podia ter capturado. Esse castigo se chama sopro (a verificar).
+   - Se houver mais de uma captura possível, escolha qualquer uma, sem castigo (a verificar).
 5. Você pode fazer várias capturas seguidas na mesma jogada. As peças puladas só saem do tabuleiro no fim da sequência.
 6. Vence quem capturar todas as peças do adversário.
 
@@ -66,6 +68,8 @@ Repare que o primeiro movimento da partida já deixa uma peça ao alcance do adv
 
 **Sugestão do site:** as fontes desta ficha não dizem quem começa. Tirem na sorte ou combinem antes da partida.
 
+No vídeo de Brinque com Madeira vale também a regra do "tocou, jogou": encostou numa peça, tem que mover essa peça.
+
 ## Regras
 
 9 peças por jogador ocupam todos os pontos menos o central; joga-se alternadamente, movendo uma peça para um ponto vizinho vazio ao longo das linhas; captura-se saltando a peça adversária, como no Alquerque; vence quem capturar todas as peças adversárias.
@@ -73,3 +77,5 @@ Repare que o primeiro movimento da partida já deixa uma peça ao alcance do adv
 O tabuleiro, segundo a Wikipedia: em cada triângulo, a base e mais duas linhas o atravessam, e uma reta vai de uma base à outra passando pelo vértice comum; os 19 pontos ficam nos cruzamentos dessas linhas com os lados e com a reta do meio. Cada jogador começa com as 9 peças num triângulo, e só o vértice comum fica vazio (a verificar: é assim no *lau kata kati*, segundo a Wikipedia e o Ludii).
 
 Segundo o LoboGames/UFRGS, capturar é obrigatório, e um jogador pode fazer várias capturas seguidas na mesma jogada; as peças capturadas só saem do tabuleiro no fim da sequência.
+
+Segundo o vídeo de Brinque com Madeira, quem pode capturar e não captura perde a peça que podia capturar (o sopro), mas, havendo mais de uma captura possível, o jogador escolhe qualquer uma sem ser soprado; e vale o "tocou, jogou" (a verificar).
