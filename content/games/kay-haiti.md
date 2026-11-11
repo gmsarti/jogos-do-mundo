@@ -12,6 +12,12 @@ countries:
 cultures:
   - haitianos
 board: 2 fileiras de 6 covas
+diagram:
+  type: pits
+  rows: 2
+  cols: 6
+  stores: 2
+  note: "Desenhado o tabuleiro de madeira dos adultos, com uma cova grande em cada ponta (Mancala World)"
 pieces: 4 sementes por cova
 players: "2"
 period: registrado em 1952

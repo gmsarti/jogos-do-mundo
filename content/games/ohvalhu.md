@@ -12,6 +12,11 @@ countries:
 cultures:
   - maldívios
 board: 2 fileiras de 8 covas, com um depósito grande em cada ponta (a verificar)
+diagram:
+  type: pits
+  rows: 2
+  cols: 8
+  stores: 2
 pieces: sementes ou búzios, 8 por cova (a verificar)
 players: "2"
 period: registrado em 1894
