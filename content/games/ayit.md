@@ -10,6 +10,11 @@ countries:
 cultures:
   - dinka
 board: 2 fileiras de 9 covas
+diagram:
+  type: pits
+  rows: 2
+  cols: 9
+  stores: 0
 pieces: 2 sementes por cova
 players: "2"
 period: registrado em 1971

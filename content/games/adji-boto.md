@@ -10,6 +10,11 @@ countries:
 cultures:
   - saramacas (maroons)
 board: 2 fileiras de 5 covas (Ludii, a partir de Herskovits 1929)
+diagram:
+  type: pits
+  rows: 2
+  cols: 5
+  stores: 0
 pieces: sementes, 10 em cada cova (Ludii, a verificar)
 players: "2"
 period: registrado em 1929

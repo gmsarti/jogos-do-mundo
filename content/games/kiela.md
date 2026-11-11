@@ -10,6 +10,11 @@ countries:
 cultures:
   - ambundos (kimbundu)
 board: 4 fileiras de 10 covas (Mancala World)
+diagram:
+  type: pits
+  rows: 4
+  cols: 10
+  stores: 0
 pieces: pedras ou sementes, 1 por cova de partida (iniciantes) ou 2 (avançados)
 players: "2"
 period: a levantar – presente
